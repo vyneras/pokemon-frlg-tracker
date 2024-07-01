@@ -1,0 +1,15 @@
+{
+  "name": "Pokémon FireRed/LeafGreen Tracker",
+  "game_name": "Pokémon FireRed and LeafGreen",
+  "package_version": "0.5.0",
+  "package_uid": "pokemon_frlg",
+  "author": "Vyneras",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    }
+  }
+}

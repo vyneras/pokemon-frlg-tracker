@@ -1,0 +1,76 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "dock",
+              "dock": "top",
+              "v_alignment": "stretch",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Items",
+                  "dock": "left",
+                  "content": {
+                    "type": "layout",
+                    "key": "item_grid"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Events",
+                  "dock": "left",
+                  "content": {
+                    "type": "layout",
+                    "key": "event_grid"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "dock",
+					"content":
+          {
+						"type": "layout",
+						"key": "map_layout"
+					}
+        }
+      ]
+    }
+  },
+  "settings_popup": {
+    "type": "array",
+    "orientation": "vertical",
+    "h_alignment": "left",
+    "content": [
+      {
+        "type": "group",
+        "header": "Settings",
+        "dock": "bottom",
+        "content": {
+          "type": "layout",
+          "key": "setting_grid"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Requirements",
+        "dock": "bottom",
+        "content": {
+          "type": "layout",
+          "key": "requirement_grid"
+        }
+      }
+    ]
+  }
+}

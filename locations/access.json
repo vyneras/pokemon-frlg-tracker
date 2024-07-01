@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Pewter City Access",
+    "access_rules": [
+      "$free_fly|pewter",
+      "deliver_oaks_parcel",
+      "viridian_city_open",
+      "@Cerulean City Access"
+    ]
+  },
+  {
+    "name": "Cerulean City Access",
+    "access_rules": [
+      "$free_fly|cerulean",
+      "@Pewter City Access,$leave_pewter_city",
+      "@Cerulean City Outskirts Access"
+    ]
+  },
+  {
+    "name": "Cerulean City Outskirts Access",
+    "access_rules": [
+      "@Cerulean City Access,save_bill",
+      "@Vermilion City Access",
+      "@Route 10 North Access,$cut",
+      "@Saffron City Access,tea"
+    ]
+  },
+  {
+    "name": "Vermilion City Access",
+    "access_rules": [
+      "$free_fly|vermilion",
+      "$cut",
+      "@Cerulean City Outskirts Access",
+      "@Lavender Town Access,poke_flute",
+      "@Fuchsia City Access,poke_flute",
+      "@Saffron City Access,tea",
+      "@One Island Access",
+      "@Two Island Access",
+      "@Three Island Access",
+      "@Four Island Access",
+      "@Five Island Access",
+      "@Six Island Access",
+      "@Seven Island Access"
+    ]
+  },
+  {
+    "name": "Route 10 North Access",
+    "access_rules": [
+      "@Cerulean City Outskirts Access,$cut",
+      "@Lavender Town Access,^$rock_tunnel"
+    ]
+  },
+  {
+    "name": "Lavender Town Access",
+    "access_rules": [
+      "$free_fly|lavender",
+      "@Route 10 North Access,^$rock_tunnel",
+      "@Vermilion City Access,poke_flute",
+      "@Celadon City Access",
+      "@Fuchsia City Access,poke_flute",
+      "@Fuchsia City Access,$surf",
+      "@Saffron City Access,tea"
+    ]
+  },
+  {
+    "name": "Celadon City Access",
+    "access_rules": [
+      "$free_fly|celadon",
+      "@Lavender Town Access",
+      "@Fuchsia City Access,bicycle,poke_flute",
+      "@Saffron City Access,tea"
+    ]
+  },
+  {
+    "name": "Fuchsia City Access",
+    "access_rules": [
+      "$free_fly|fuchsia",
+      "@Vermilion City Access,poke_flute",
+      "@Lavender Town Access,poke_flute",
+      "@Lavender Town Access,$surf",
+      "@Celadon City Access,poke_flute,bicycle"
+    ]
+  },
+  {
+    "name": "Saffron City Access",
+    "access_rules": [
+      "$free_fly|saffron",
+      "@Cerulean City Outskirts Access,tea",
+      "@Vermilion City Access,tea",
+      "@Lavender Town Access,tea",
+      "@Celadon City Access,tea"
+    ]
+  },
+  {
+    "name": "Cinnabar Island Access",
+    "access_rules": [
+      "$free_fly|cinnabar",
+      "$surf"
+    ]
+  },
+  {
+    "name": "One Island Access",
+    "access_rules": [
+      "$free_fly|one_island",
+      "@Vermilion City Access,tri_pass",
+      "@Two Island Access,tri_pass",
+      "@Three Island Access,tri_pass",
+      "@Four Island Access,tri_pass",
+      "@Five Island Access,tri_pass",
+      "@Six Island Access,tri_pass",
+      "@Seven Island Access,tri_pass"
+    ]
+  },
+  {
+    "name": "Two Island Access",
+    "access_rules": [
+      "$free_fly|two_island",
+      "@Vermilion City Access,tri_pass",
+      "@One Island Access,tri_pass",
+      "@Three Island Access,tri_pass",
+      "@Four Island Access,tri_pass",
+      "@Five Island Access,tri_pass",
+      "@Six Island Access,tri_pass",
+      "@Seven Island Access,tri_pass"
+    ]
+  },
+  {
+    "name": "Three Island Access",
+    "access_rules": [
+      "$free_fly|three_island",
+      "@Vermilion City Access,tri_pass",
+      "@One Island Access,tri_pass",
+      "@Two Island Access,tri_pass",
+      "@Four Island Access,tri_pass",
+      "@Five Island Access,tri_pass",
+      "@Six Island Access,tri_pass",
+      "@Seven Island Access,tri_pass"
+    ]
+  },
+  {
+    "name": "Four Island Access",
+    "access_rules": [
+      "$free_fly|four_island",
+      "@Vermilion City Access,rainbow_pass",
+      "@One Island Access,rainbow_pass",
+      "@Two Island Access,rainbow_pass",
+      "@Three Island Access,rainbow_pass",
+      "@Five Island Access,rainbow_pass",
+      "@Six Island Access,rainbow_pass",
+      "@Seven Island Access,rainbow_pass"
+    ]
+  },
+  {
+    "name": "Five Island Access",
+    "access_rules": [
+      "$free_fly|five_island",
+      "@Vermilion City Access,rainbow_pass",
+      "@One Island Access,rainbow_pass",
+      "@Two Island Access,rainbow_pass",
+      "@Three Island Access,rainbow_pass",
+      "@Four Island Access,rainbow_pass",
+      "@Six Island Access,rainbow_pass",
+      "@Seven Island Access,rainbow_pass"
+    ]
+  },
+  {
+    "name": "Six Island Access",
+    "access_rules": [
+      "$free_fly|six_island",
+      "@Vermilion City Access,rainbow_pass",
+      "@One Island Access,rainbow_pass",
+      "@Two Island Access,rainbow_pass",
+      "@Three Island Access,rainbow_pass",
+      "@Four Island Access,rainbow_pass",
+      "@Five Island Access,rainbow_pass",
+      "@Seven Island Access,rainbow_pass"
+    ]
+  },
+  {
+    "name": "Seven Island Access",
+    "access_rules": [
+      "$free_fly|seven_island",
+      "@Vermilion City Access,rainbow_pass",
+      "@One Island Access,rainbow_pass",
+      "@Two Island Access,rainbow_pass",
+      "@Three Island Access,rainbow_pass",
+      "@Four Island Access,rainbow_pass",
+      "@Five Island Access,rainbow_pass",
+      "@Six Island Access,rainbow_pass"
+    ]
+  },
+  {
+    "name": "Navel Rock Access",
+    "access_rules": [
+      "@Vermilion City Access,mystic_ticket"
+    ]
+  }
+]

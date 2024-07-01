@@ -1,0 +1,503 @@
+[
+  {
+    "name": "Shuffle Hidden Items",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/hidden_items.png",
+        "img_mods": "@disabled",
+        "codes": "hidden_setting,hidden_off",
+        "inherit_codes": false,
+        "name": "Shuffle Hidden Items - Off"
+      },
+      {
+        "img": "images/settings/hidden_items.png",
+        "img_mods": "overlay|/images/overlays/some.png",
+        "codes": "hidden_setting,hidden_nonrecurring",
+        "inherit_codes": false,
+        "name": "Shuffle Hidden Items - Nonrecurring"
+      },
+      {
+        "img": "images/settings/hidden_items.png",
+        "img_mods": "overlay|/images/overlays/all.png",
+        "codes": "hidden_setting,hidden_all",
+        "name": "Shuffle Hidden Items - All"
+      }
+    ]
+  },
+  {
+    "name": "Itemfinder Required",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/itemfinder.png",
+        "img_mods": "@disabled",
+        "codes": "itemfinder_setting,itemfinder_off",
+        "inherit_codes": false,
+        "name": "Itemfinder Required - Off"
+      },
+      {
+        "img": "images/settings/itemfinder.png",
+        "img_mods": "overlay|/images/overlays/logic.png",
+        "codes": "itemfinder_setting,itemfinder_logic",
+        "inherit_codes": false,
+        "name": "Itemfinder Required - Logic"
+      },
+      {
+        "img": "images/settings/itemfinder.png",
+        "img_mods": "overlay|/images/overlays/required.png",
+        "codes": "itemfinder_setting,itemfinder_req",
+        "inherit_codes": false,
+        "name": "Itemfinder Required - Required"
+      }
+    ]
+
+  },
+  {
+    "name": "Flash Required",
+    "type": "toggle",
+    "img": "images/settings/normal_hm.png",
+    "initial_active_state": true,
+    "codes": "flash_required"
+  },
+  {
+    "name": "Viridian City Roadblock",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/old_man.png",
+        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "codes": "viridian_city_setting,viridian_city_vanilla",
+        "inherit_codes": false,
+        "name": "Viridian City Roadblock - Vanilla"
+      },
+      {
+        "img": "images/settings/old_man.png",
+        "img_mods": "overlay|/images/overlays/open.png",
+        "codes": "viridian_city_setting,viridian_city_open",
+        "inherit_codes": false,
+        "name": "Viridian City Roadblock - Open"
+      }
+    ]
+  },
+  {
+    "name": "Pewter City Roadblock",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/boy.png",
+        "img_mods": "overlay|/images/overlays/open.png",
+        "codes": "pewter_city_setting,pewter_city_open",
+        "inherit_codes": false,
+        "name": "Pewter City Roadblock - Open"
+      },
+      {
+        "img": "images/settings/boy.png",
+        "img_mods": "overlay|/images/overlays/brock.png",
+        "codes": "pewter_city_setting,pewter_city_brock",
+        "inherit_codes": false,
+        "name": "Pewter City Roadblock - Brock"
+      },
+      {
+        "img": "images/settings/boy.png",
+        "img_mods": "overlay|/images/overlays/gym.png",
+        "codes": "pewter_city_setting,pewter_city_gym",
+        "inherit_codes": false,
+        "name": "Pewter City Roadblock - Any Gym"
+      },
+      {
+        "img": "images/settings/boy.png",
+        "img_mods": "overlay|/images/overlays/boulder_badge.png",
+        "codes": "pewter_city_setting,pewter_city_boulder_badge",
+        "inherit_codes": false,
+        "name": "Pewter City Roadblock - Boulder Badge"
+      },
+      {
+        "img": "images/settings/boy.png",
+        "img_mods": "overlay|/images/overlays/rainbow_badge.png",
+        "codes": "pewter_city_setting,pewter_city_any_badge",
+        "inherit_codes": false,
+        "name": "Pewter City Roadblock - Any Badge"
+      }
+    ]
+  },
+  {
+    "name": "Cerulean City Roadblocks",
+    "type": "toggle",
+    "img": "images/settings/bill.png",
+    "initial_active_state": true,
+    "codes": "cerulean_city_roadblocks"
+  },
+  {
+    "name": "Elite Four Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/rival.png",
+        "img_mods": "overlay|/images/overlays/rainbow_badge.png",
+        "codes": "elite_four_setting,elite_four_badges",
+        "inherit_codes": false,
+        "name": "Elite Four Requirement - Badges"
+      },
+      {
+        "img": "images/settings/rival.png",
+        "img_mods": "overlay|/images/overlays/gym.png",
+        "codes": "elite_four_setting,elite_four_gyms",
+        "inherit_codes": false,
+        "name": "Elite Four Requirement - Gyms"
+      }
+    ]
+  },
+  {
+    "name": "Elite Four Count",
+    "type": "consumable",
+    "img": "images/settings/badge_gym.png",
+    "max_quantity": 8,
+    "initial_quantity": 8,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "elite_four_count"
+  },
+  {
+    "name": "Route 22 Gate Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/policeman.png",
+        "img_mods": "overlay|/images/overlays/route_22_rainbow_badge.png",
+        "codes": "route_22_gate_setting,route_22_gate_badges",
+        "inherit_codes": false,
+        "name": "Route 22 Gate Requirement - Badges"
+      },
+      {
+        "img": "images/settings/policeman.png",
+        "img_mods": "overlay|/images/overlays/route_22_gym.png",
+        "codes": "route_22_gate_setting,route_22_gate_gyms",
+        "inherit_codes": false,
+        "name": "Route 22 Gate Requirement - Gyms"
+      }
+    ]
+  },
+  {
+    "name": "Route 22 Gate Count",
+    "type": "consumable",
+    "img": "images/settings/badge_gym.png",
+    "max_quantity": 8,
+    "initial_quantity": 7,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "route_22_gate_count"
+  },
+  {
+    "name": "Route 23 Guard Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/policeman.png",
+        "img_mods": "overlay|/images/overlays/route_23_rainbow_badge.png",
+        "codes": "route_23_guard_setting,route_23_guard_badges",
+        "inherit_codes": false,
+        "name": "Route 23 Guard Requirement - Badges"
+      },
+      {
+        "img": "images/settings/policeman.png",
+        "img_mods": "overlay|/images/overlays/route_22_gym.png",
+        "codes": "route_23_guard_setting,route_23_guard_gyms",
+        "inherit_codes": false,
+        "name": "Route 23 Gate Requirement - Gyms"
+      }
+    ]
+  },
+  {
+    "name": "Route 23 Guard Count",
+    "type": "consumable",
+    "img": "images/settings/badge_gym.png",
+    "max_quantity": 8,
+    "initial_quantity": 7,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "route_23_guard_count"
+  },
+  {
+    "name": "Viridian Gym Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/giovanni.png",
+        "img_mods": "overlay|/images/overlays/rainbow_badge.png",
+        "codes": "viridian_gym_setting,viridian_gym_badges",
+        "inherit_codes": false,
+        "name": "Viridian Gym Requirement - Badges"
+      },
+      {
+        "img": "images/settings/giovanni.png",
+        "img_mods": "overlay|/images/overlays/gym.png",
+        "codes": "viridian_gym_setting,viridian_gym_gyms",
+        "inherit_codes": false,
+        "name": "Viridian Gym Requirement - Gyms"
+      }
+    ]
+  },
+  {
+    "name": "Viridian Gym Count",
+    "type": "consumable",
+    "img": "images/settings/badge_gym.png",
+    "max_quantity": 7,
+    "initial_quantity": 7,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "viridian_gym_count"
+  },
+  {
+    "name": "Cerulean Cave Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/mewtwo.png",
+        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "codes": "ceruelan_cave_setting,ceruelan_cave_vanilla",
+        "inherit_codes": false,
+        "name": "Cerulean Cave Requirement - Vanilla"
+      },
+      {
+        "img": "images/settings/mewtwo.png",
+        "img_mods": "overlay|/images/overlays/rival.png",
+        "codes": "ceruelan_cave_setting,ceruelan_cave_champion",
+        "inherit_codes": false,
+        "name": "Cerulean Cave Requirement - Champion"
+      },
+      {
+        "img": "images/settings/mewtwo.png",
+        "img_mods": "overlay|/images/overlays/celio.png",
+        "codes": "ceruelan_cave_setting,ceruelan_cave_restore",
+        "inherit_codes": false,
+        "name": "Cerulean Cave Requirement - Restore Network Machine"
+      },
+      {
+        "img": "images/settings/mewtwo.png",
+        "img_mods": "overlay|/images/overlays/rainbow_badge.png",
+        "codes": "ceruelan_cave_setting,ceruelan_cave_badges",
+        "inherit_codes": false,
+        "name": "Cerulean Cave Requirement - Badges"
+      },
+      {
+        "img": "images/settings/mewtwo.png",
+        "img_mods": "overlay|/images/overlays/gym.png",
+        "codes": "ceruelan_cave_setting,ceruelan_cave_gyms",
+        "inherit_codes": false,
+        "name": "Cerulean Cave Requirement - Gyms"
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Cave Count",
+    "type": "consumable",
+    "img": "images/settings/badge_gym.png",
+    "max_quantity": 8,
+    "initial_quantity": 8,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "cerulean_cave_count"
+  },
+  {
+    "name": "Route 2 Oak's Aide",
+    "type": "static",
+    "img": "images/settings/oaks_aide.png",
+    "img_mods": "overlay|images/overlays/route_2.png",
+    "codes": "route_2_oaks_aide"
+  },
+  {
+    "name": "Route 2 Oak's Aide Count",
+    "type": "consumable",
+    "img": "images/settings/pokedex.png",
+    "max_quantity": 50,
+    "initial_quantity": 5,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "route_2_oaks_aide_count"
+  },
+  {
+    "name": "Route 10 Oak's Aide",
+    "type": "static",
+    "img": "images/settings/oaks_aide.png",
+    "img_mods": "overlay|images/overlays/route_10.png",
+    "codes": "route_10_oaks_aide"
+  },
+  {
+    "name": "Route 10 Oak's Aide Count",
+    "type": "consumable",
+    "img": "images/settings/pokedex.png",
+    "max_quantity": 50,
+    "initial_quantity": 10,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "route_10_oaks_aide_count"
+  },
+  {
+    "name": "Route 11 Oak's Aide",
+    "type": "static",
+    "img": "images/settings/oaks_aide.png",
+    "img_mods": "overlay|images/overlays/route_11.png",
+    "codes": "route_11_oaks_aide"
+  },
+  {
+    "name": "Route 11 Oak's Aide Count",
+    "type": "consumable",
+    "img": "images/settings/pokedex.png",
+    "max_quantity": 50,
+    "initial_quantity": 15,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "route_11_oaks_aide_count"
+  },
+  {
+    "name": "Route 16 Oak's Aide",
+    "type": "static",
+    "img": "images/settings/oaks_aide.png",
+    "img_mods": "overlay|images/overlays/route_16.png",
+    "codes": "route_16_oaks_aide"
+  },
+  {
+    "name": "Route 16 Oak's Aide Count",
+    "type": "consumable",
+    "img": "images/settings/pokedex.png",
+    "max_quantity": 50,
+    "initial_quantity": 20,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "route_16_oaks_aide_count"
+  },
+  {
+    "name": "Route 15 Oak's Aide",
+    "type": "static",
+    "img": "images/settings/oaks_aide.png",
+    "img_mods": "overlay|images/overlays/route_15.png",
+    "codes": "route_15_oaks_aide"
+  },
+  {
+    "name": "Route 15 Oak's Aide Count",
+    "type": "consumable",
+    "img": "images/settings/pokedex.png",
+    "max_quantity": 50,
+    "initial_quantity": 25,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "route_15_oaks_aide_count"
+  },
+  {
+    "name": "Free Fly Location",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/free_fly_none.png",
+        "codes": "free_fly_setting,free_fly_none",
+        "inherit_codes": false,
+        "name": "Free Fly Location - None"
+      },
+      {
+        "img": "images/settings/free_fly_pewter.png",
+        "codes": "free_fly_setting,free_fly_pewter",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Pewter City"
+      },
+      {
+        "img": "images/settings/free_fly_cerulean.png",
+        "codes": "free_fly_setting,free_fly_cerulean",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Cerulean City"
+      },
+      {
+        "img": "images/settings/free_fly_vermilion.png",
+        "codes": "free_fly_setting,free_fly_vermilion",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Vermilion City"
+      },
+      {
+        "img": "images/settings/free_fly_lavender.png",
+        "codes": "free_fly_setting,free_fly_lavender",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Lavender Town"
+      },
+      {
+        "img": "images/settings/free_fly_celadon.png",
+        "codes": "free_fly_setting,free_fly_celadon",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Celadon City"
+      },
+      {
+        "img": "images/settings/free_fly_saffron.png",
+        "codes": "free_fly_setting,free_fly_saffron",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Saffron City"
+      },
+      {
+        "img": "images/settings/free_fly_cinnabar.png",
+        "codes": "free_fly_setting,free_fly_cinnabar",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Cinnabar Island"
+      },
+      {
+        "img": "images/settings/free_fly_one_island.png",
+        "codes": "free_fly_setting,free_fly_one_island",
+        "inherit_codes": false,
+        "name": "Free Fly Location - One Island"
+      },
+      {
+        "img": "images/settings/free_fly_two_island.png",
+        "codes": "free_fly_setting,free_fly_two_island",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Two Island"
+      },
+      {
+        "img": "images/settings/free_fly_three_island.png",
+        "codes": "free_fly_setting,free_fly_three_island",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Three Island"
+      },
+      {
+        "img": "images/settings/free_fly_four_island.png",
+        "codes": "free_fly_setting,free_fly_four_island",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Four Island"
+      },
+      {
+        "img": "images/settings/free_fly_five_island.png",
+        "codes": "free_fly_setting,free_fly_five_island",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Five Island"
+      },
+      {
+        "img": "images/settings/free_fly_six_island.png",
+        "codes": "free_fly_setting,free_fly_six_island",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Six Island"
+      },
+      {
+        "img": "images/settings/free_fly_seven_island.png",
+        "codes": "free_fly_setting,free_fly_seven_island",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Seven Island"
+      }
+    ]
+  }
+]

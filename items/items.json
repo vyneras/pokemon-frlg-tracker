@@ -1,0 +1,306 @@
+[
+  {
+    "name": "Aurora Ticket",
+    "type": "toggle",
+    "img": "images/items/aurora_ticket.png",
+    "codes": "aurora_ticket"
+  },
+  {
+    "name": "Berry Pouch",
+    "type": "toggle",
+    "img": "images/items/berry_pouch.png",
+    "codes": "berry_pouch"
+  },
+  {
+    "name": "Bicycle",
+    "type": "toggle",
+    "img": "images/items/bicycle.png",
+    "codes": "bicycle"
+  },
+  {
+    "name": "Bike Voucher",
+    "type": "toggle",
+    "img": "images/items/bike_voucher.png",
+    "codes": "bike_voucher"
+  },
+  {
+    "name": "Boulder Badge",
+    "type": "toggle",
+    "img": "images/items/boulder_badge.png",
+    "codes": "boulder_badge"
+  },
+  {
+    "name": "Card Key",
+    "type": "toggle",
+    "img": "images/items/card_key.png",
+    "codes": "card_key"
+  },
+  {
+    "name": "Cascade Badge",
+    "type": "toggle",
+    "img": "images/items/cascade_badge.png",
+    "codes": "cascade_badge"
+  },
+  {
+    "name": "Coin Case",
+    "type": "toggle",
+    "img": "images/items/coin_case.png",
+    "codes": "coin_case"
+  },
+  {
+    "name": "Dome Fossil",
+    "type": "toggle",
+    "img": "images/items/dome_fossil.png",
+    "codes": "dome_fossil"
+  },
+  {
+    "name": "Earth Badge",
+    "type": "toggle",
+    "img": "images/items/earth_badge.png",
+    "codes": "earth_badge"
+  },
+  {
+    "name": "Fame Checker",
+    "type": "toggle",
+    "img": "images/items/fame_checker.png",
+    "codes": "fame_checker"
+  },
+  {
+    "name": "Gold Teeth",
+    "type": "toggle",
+    "img": "images/items/gold_teeth.png",
+    "codes": "gold_teeth"
+  },
+  {
+    "name": "Good Rod",
+    "type": "toggle",
+    "img": "images/items/good_rod.png",
+    "codes": "good_rod"
+  },
+  {
+    "name": "Helix Fossil",
+    "type": "toggle",
+    "img": "images/items/helix_fossil.png",
+    "codes": "helix_fossil"
+  },
+  {
+    "name": "HM01 Cut",
+    "type": "toggle",
+    "img": "images/items/normal_hm.png",
+    "img_mods": "overlay|images/overlays/1.png",
+    "codes": "hm01_cut"
+  },
+  {
+    "name": "HM02 Fly",
+    "type": "toggle",
+    "img": "images/items/flying_hm.png",
+    "img_mods": "overlay|images/overlays/2.png",
+    "codes": "hm02_fly"
+  },
+  {
+    "name": "HM03 Surf",
+    "type": "toggle",
+    "img": "images/items/water_hm.png",
+    "img_mods": "overlay|images/overlays/3.png",
+    "codes": "hm03_surf"
+  },
+  {
+    "name": "HM04 Strength",
+    "type": "toggle",
+    "img": "images/items/normal_hm.png",
+    "img_mods": "overlay|images/overlays/4.png",
+    "codes": "hm04_strength"
+  },
+  {
+    "name": "HM05 Flash",
+    "type": "toggle",
+    "img": "images/items/normal_hm.png",
+    "img_mods": "overlay|images/overlays/5.png",
+    "codes": "hm05_flash"
+  },
+  {
+    "name": "HM06 Rock Smash",
+    "type": "toggle",
+    "img": "images/items/fighting_hm.png",
+    "img_mods": "overlay|images/overlays/6.png",
+    "codes": "hm06_rock_smash"
+  },
+  {
+    "name": "HM07 Waterfall",
+    "type": "toggle",
+    "img": "images/items/water_hm.png",
+    "img_mods": "overlay|images/overlays/7.png",
+    "codes": "hm07_waterfall"
+  },
+  {
+    "name": "Itemfinder",
+    "type": "toggle",
+    "img": "images/items/itemfinder.png",
+    "codes": "itemfinder"
+  },
+  {
+    "name": "Lemonade",
+    "type": "toggle",
+    "img": "images/items/lemonade.png",
+    "codes": "lemonade"
+  },
+  {
+    "name": "Lift Key",
+    "type": "toggle",
+    "img": "images/items/lift_key.png",
+    "codes": "lift_key"
+  },
+  {
+    "name": "Marsh Badge",
+    "type": "toggle",
+    "img": "images/items/marsh_badge.png",
+    "codes": "marsh_badge"
+  },
+  {
+    "name": "Meteorite",
+    "type": "toggle",
+    "img": "images/items/meteorite.png",
+    "codes": "meteorite"
+  },
+  {
+    "name": "Mystic Ticket",
+    "type": "toggle",
+    "img": "images/items/mystic_ticket.png",
+    "codes": "mystic_ticket"
+  },
+  {
+    "name": "Oak's Parcel",
+    "type": "toggle",
+    "img": "images/items/oaks_parcel.png",
+    "codes": "oaks_parcel"
+  },
+  {
+    "name": "Old Amber",
+    "type": "toggle",
+    "img": "images/items/old_amber.png",
+    "codes": "old_amber"
+  },
+  {
+    "name": "Old Rod",
+    "type": "toggle",
+    "img": "images/items/old_rod.png",
+    "codes": "old_rod"
+  },
+  {
+    "name": "Poké Flute",
+    "type": "toggle",
+    "img": "images/items/poke_flute.png",
+    "codes": "poke_flute"
+  },
+  {
+    "name": "Pokédex",
+    "type": "consumable",
+    "img": "images/items/pokedex.png",
+    "max_quantity": 386,
+    "overlay_font_size": 12,
+    "overlay_background": "#000000",
+    "codes": "pokedex"
+  },
+  {
+    "name": "Rainbow Badge",
+    "type": "toggle",
+    "img": "images/items/rainbow_badge.png",
+    "codes": "rainbow_badge"
+  },
+  {
+    "name": "Rainbow Pass",
+    "type": "toggle",
+    "img": "images/items/rainbow_pass.png",
+    "codes": "rainbow_pass"
+  },
+  {
+    "name": "Ruby",
+    "type": "toggle",
+    "img": "images/items/ruby.png",
+    "codes": "ruby"
+  },
+  {
+    "name": "Sapphire",
+    "type": "toggle",
+    "img": "images/items/sapphire.png",
+    "codes": "sapphire"
+  },
+  {
+    "name": "Secret Key",
+    "type": "toggle",
+    "img": "images/items/secret_key.png",
+    "codes": "secret_key"
+  },
+  {
+    "name": "Silph Scope",
+    "type": "toggle",
+    "img": "images/items/silph_scope.png",
+    "codes": "silph_scope"
+  },
+  {
+    "name": "Soul Badge",
+    "type": "toggle",
+    "img": "images/items/soul_badge.png",
+    "codes": "soul_badge"
+  },
+  {
+    "name": "S.S. Ticket",
+    "type": "toggle",
+    "img": "images/items/ss_ticket.png",
+    "codes": "ss_ticket"
+  },
+  {
+    "name": "Super Rod",
+    "type": "toggle",
+    "img": "images/items/super_rod.png",
+    "codes": "super_rod"
+  },
+  {
+    "name": "Tea",
+    "type": "toggle",
+    "img": "images/items/tea.png",
+    "codes": "tea"
+  },
+  {
+    "name": "Teachy TV",
+    "type": "toggle",
+    "img": "images/items/teachy_tv.png",
+    "codes": "teachy_tv"
+  },
+  {
+    "name": "Thunder Badge",
+    "type": "toggle",
+    "img": "images/items/thunder_badge.png",
+    "codes": "thunder_badge"
+  },
+  {
+    "name": "TM Case",
+    "type": "toggle",
+    "img": "images/items/tm_case.png",
+    "codes": "tm_case"
+  },
+  {
+    "name": "Town Map",
+    "type": "toggle",
+    "img": "images/items/town_map.png",
+    "codes": "town_map"
+  },
+  {
+    "name": "Tri Pass",
+    "type": "toggle",
+    "img": "images/items/tri_pass.png",
+    "codes": "tri_pass"
+  },
+  {
+    "name": "Volcano Badge",
+    "type": "toggle",
+    "img": "images/items/volcano_badge.png",
+    "codes": "volcano_badge"
+  },
+  {
+    "name": "Vs. Seeker",
+    "type": "toggle",
+    "img": "images/items/vs_seeker.png",
+    "codes": "vs_seeker"
+  }
+]
