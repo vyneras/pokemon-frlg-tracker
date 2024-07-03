@@ -109,45 +109,45 @@ SLOT_CODES = {
         type = "consumable"
     },
     oaks_aide_route_2 = {
-      code = "route_2_oaks_aide_count",
-      type = "consumable"
+        code = "route_2_oaks_aide_count",
+        type = "consumable"
     },
     oaks_aide_route_10 = {
-      code = "route_10_oaks_aide_count",
-      type = "consumable"
+        code = "route_10_oaks_aide_count",
+        type = "consumable"
     },
     oaks_aide_route_11 = {
-      code = "route_11_oaks_aide_count",
-      type = "consumable"
+        code = "route_11_oaks_aide_count",
+        type = "consumable"
     },
     oaks_aide_route_16 = {
-      code = "route_16_oaks_aide_count",
-      type = "consumable"
+        code = "route_16_oaks_aide_count",
+        type = "consumable"
     },
     oaks_aide_route_15 = {
-      code = "route_15_oaks_aide_count",
-      type = "consumable"
+        code = "route_15_oaks_aide_count",
+        type = "consumable"
     },
     free_fly_location_id = {
-      code = "free_fly_setting",
-      type = "progressive",
-      mapping = {
-        [0] = 0,   -- None
-        [2] = 1,   -- Pewter
-        [3] = 2,   -- Cerulean
-        [4] = 3,   -- Vermilion
-        [5] = 4,   -- Lavender
-        [6] = 5,   -- Celadon
-        [7] = 6,   -- Fuchsia
-        [8] = 7,   -- Saffron
-        [9] = 8,   -- Cinnabar
-        [10] = 9,  -- One Island
-        [11] = 10, -- Two Island
-        [12] = 11, -- Three Island
-        [13] = 12, -- Four Island
-        [14] = 13, -- Five Island
-        [15] = 14, -- Six Island
-        [16] = 15, -- Seven Island
-      }
+        code = "free_fly_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- None
+            [2] = 1, -- Pewter
+            [3] = 2, -- Cerulean
+            [4] = 3, -- Vermilion
+            [5] = 4, -- Lavender
+            [6] = 5, -- Celadon
+            [7] = 6, -- Fuchsia
+            [8] = 7, -- Saffron
+            [9] = 8, -- Cinnabar
+            [10] = 9, -- One Island
+            [11] = 10, -- Two Island
+            [12] = 11, -- Three Island
+            [13] = 12, -- Four Island
+            [14] = 13, -- Five Island
+            [15] = 14, -- Six Island
+            [16] = 15 -- Seven Island
+        }
     }
 }

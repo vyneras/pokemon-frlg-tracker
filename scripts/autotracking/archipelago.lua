@@ -1,8 +1,12 @@
+ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 
 CUR_INDEX = -1
+
+EVENT_ID = ""
+POKEDEX_ID = ""
 
 function resetItems()
     for _, value in pairs(ITEM_MAPPING) do
@@ -31,6 +35,8 @@ function resetLocations()
 end
 
 function onClear(slot_data)
+    PLAYER_NUMBER = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
     CUR_INDEX = -1
     resetItems()
     resetLocations()
@@ -52,6 +58,16 @@ function onClear(slot_data)
                 print(string.format("No setting could be found for key: %s", key))
             end
         end
+    end
+    if PLAYER_NUMBER > -1 then
+        updateEvents(0)
+        updatePokedex(0)
+        EVENT_ID = "pokemon_frlg_events_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+        POKEDEX_ID = "pokemon_frlg_pokedex_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+        Archipelago:SetNotify({EVENT_ID})
+        Archipelago:Get({EVENT_ID})
+        Archipelago:SetNotify({POKEDEX_ID})
+        Archipelago:Get({POKEDEX_ID})
     end
 end
 
@@ -102,6 +118,53 @@ function onLocation(location_id, location_name)
     end
 end
 
+function onNotify(key, value, old_value)
+    if value ~= old_value then
+        if key == EVENT_ID then
+            updateEvents(value)
+        elseif key == POKEDEX_ID then
+            updatePokedex(value)
+        end
+    end
+end
+
+function onNotifyLaunch(key, value)
+    if key == EVENT_ID then
+        updateEvents(value)
+    elseif key == POKEDEX_ID then
+        updatePokedex(value)
+    end
+end
+
+function updateEvents(value)
+    if value ~= nil then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("updateEvents: Value - %s", value))
+        end
+        for bit, codes in pairs(EVENT_FLAG_MAPPING) do
+            local bitmask = 2 ^ bit
+            for _, code in pairs(codes) do
+                if code == "lemonade" then
+                    Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or value & bitmask ~= 0
+                else
+                    Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
+                end
+            end
+        end
+    end
+end
+
+function updatePokedex(value)
+    if value ~= nil then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("updatePokedex: Value - %s", value))
+        end
+        Tracker:FindObjectForCode("pokedex").AcquiredCount = value
+    end
+end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

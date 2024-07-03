@@ -1,0 +1,22 @@
+EVENT_FLAG_MAPPING = {
+  [0] = {"defeat_brock"},
+  [1] = {"defeat_misty"},
+  [2] = {"defeat_lt_surge"},
+  [3] = {"defeat_erika"},
+  [4] = {"defeat_koga"},
+  [5] = {"defeat_sabrina"},
+  [6] = {"defeat_blaine"},
+  [7] = {"defeat_giovanni"},
+  [8] = {"deliver_oaks_parcel"},
+  [9] = {"defeat_route_22_rival"},
+  [10] = {"save_bill"},
+  [11] = {"rescue_mr_fuji"},
+  [12] = {"liberate_silph_co"},
+  [13] = {"restore_pokemon_network_machine"},
+  [14] = {"rescue_lostelle"},
+  [15] = {"deliver_meteorite"},
+  [16] = {"help_lorelei"},
+  [17] = {"learn_rocket_warehouse_password"},
+  [18] = {"defeat_champion"},
+  [19] = {"lemonade"}
+}
