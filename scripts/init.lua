@@ -19,6 +19,7 @@ Tracker:AddLocations("locations/dungeons.json")
 Tracker:AddLocations("locations/islands.json")
 Tracker:AddLocations("locations/routes.json")
 
+Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/events.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/settings.json")
