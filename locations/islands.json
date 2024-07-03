@@ -675,7 +675,7 @@
           {
             "name": "North Island Hidden Item",
             "access_rules": [
-              "^$hidden"
+              "$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
