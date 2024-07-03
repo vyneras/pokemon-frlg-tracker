@@ -1,16 +1,31 @@
 {
   "versions": [
     {
+      "package_version": "1.0.1",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.0.1.zip",
+      "sha256": "a528b57c862334345cbe86e1c75fefbda352373ef09614057e9f62c9b82a1e8c",
+      "changelog": [
+        "Added broadcast layout",
+        "Swapped auto tracking of Mt. Moon B1F hidden items that were incorrect",
+        "Added surf access rule to Water Path - North Island Hidden Item",
+        "Added visibility rule to Route 16 - Hidden Item Under Snorlax"
+      ]
+    },
+    {
       "package_version": "1.0.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.0.0.zip",
       "sha256": "b974440a62fa8e4bdaf142eba082cfe62741d694654b8b53dcb8e6b9a2eb5b82",
-      "changelog": ["Initial Release"]
+      "changelog": [
+        "Initial Release"
+      ]
     },
     {
       "package_version": "0.5.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/0.5.0.zip",
       "sha256": "0f7bc77c6b0a105cc2069d9dc9cdb69bdb07d464802d47be59a38fbf025e9479",
-      "changelog": ["Test Release"]
+      "changelog": [
+        "Test Release"
+      ]
     }
   ]
 }
