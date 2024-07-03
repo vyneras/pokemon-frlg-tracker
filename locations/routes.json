@@ -688,6 +688,9 @@
             "name": "Hidden Item Under Snorlax",
             "access_rules": [
               "@Celadon City Access,poke_flute,itemfinder"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
             ]
           },
           {
