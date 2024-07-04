@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "1.1.1",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.1.1.zip",
+      "sha256": "71a8d0208f76e5b47fe204ff49f0a389b4ceb1bf7791b30cdaf83ee11bfa5cf0",
+      "changelog": [
+        "Fixed an issue where the Cerulean City Roadblock setting didn't do anything"
+      ]
+    },
+    {
       "package_version": "1.1.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.1.0.zip",
       "sha256": "af00f2b669b3faa685b4d508e79bbfefd4af53f7f92439545a68743f6477f4cf",
