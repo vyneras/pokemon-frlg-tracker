@@ -20,6 +20,7 @@
     "name": "Cerulean City Outskirts Access",
     "access_rules": [
       "@Cerulean City Access,save_bill",
+      "@Cerulean City Access,$not_has|cerulean_city_roadblocks",
       "@Vermilion City Access",
       "@Route 10 North Access,$cut",
       "@Saffron City Access,tea"
