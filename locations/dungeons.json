@@ -59,7 +59,7 @@
       {
         "name": "Mt. Moon",
         "access_rules": [
-          "@Cerulean City Access"
+          "@Route 3 Access"
         ],
         "sections": [
           {
@@ -1019,7 +1019,7 @@
       {
         "name": "Seafoam Islands",
         "access_rules": [
-          "@Fuchsia City Access,$surf"
+          "$surf"
         ],
         "sections": [
           {

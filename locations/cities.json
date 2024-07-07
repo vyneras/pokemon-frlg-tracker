@@ -29,7 +29,7 @@
           {
             "name": "Oak's Post Route 22 Rival Reward",
             "access_rules": [
-              "defeat_route_22_rival"
+              "deliver_oaks_parcel,defeat_route_22_rival"
             ]
           },
           {
@@ -78,25 +78,25 @@
             "name": "Defeat Giovanni (Event)",
             "hosted_item": "defeat_giovanni_hosted",
             "access_rules": [
-              "$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req"
             ]
           },
           {
             "name": "Leader Giovanni Prize",
             "access_rules": [
-              "$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req"
             ]
           },
           {
             "name": "Leader Giovanni Reward",
             "access_rules": [
-              "$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req"
             ]
           },
           {
             "name": "Hidden Item Under Giovanni",
             "access_rules": [
-              "$has_giovanni_req,itemfinder"
+              "@Pewter City Access,$has_giovanni_req,itemfinder"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"

@@ -41,7 +41,7 @@ function hidden()
 end
 
 function free_fly(location)
-    return has("free_fly" .. location) and fly()
+    return has("free_fly_" .. location) and fly()
 end
 
 function route_2_oaks_aide()

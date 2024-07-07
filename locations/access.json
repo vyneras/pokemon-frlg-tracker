@@ -5,14 +5,21 @@
       "$free_fly|pewter",
       "deliver_oaks_parcel",
       "viridian_city_open",
-      "@Cerulean City Access"
+      "$cut"
+    ]
+  },
+  {
+    "name": "Route 3 Access",
+    "access_rules": [
+      "@Pewter City Access,$leave_pewter_city",
+      "@Cerulean City Access,$surf"
     ]
   },
   {
     "name": "Cerulean City Access",
     "access_rules": [
       "$free_fly|cerulean",
-      "@Pewter City Access,$leave_pewter_city",
+      "@Route 3 Access",
       "@Cerulean City Outskirts Access"
     ]
   },
@@ -76,6 +83,7 @@
     "name": "Fuchsia City Access",
     "access_rules": [
       "$free_fly|fuchsia",
+      "$surf,$strength",
       "@Vermilion City Access,poke_flute",
       "@Lavender Town Access,poke_flute",
       "@Lavender Town Access,$surf",
