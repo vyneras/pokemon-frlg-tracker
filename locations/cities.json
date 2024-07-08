@@ -195,7 +195,8 @@
           {
             "name": "Bike Shop Owner",
             "access_rules": [
-              "bike_voucher"
+              "bike_voucher",
+              "{}"
             ]
           },
           {
