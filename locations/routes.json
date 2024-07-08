@@ -41,7 +41,8 @@
           {
             "name": "Professor Oak's Aide",
             "access_rules": [
-              "$route_2_oaks_aide"
+              "$route_2_oaks_aide",
+              "{}"
             ]
           }
         ],
@@ -349,7 +350,8 @@
           {
             "name": "Professor Oak's Aide",
             "access_rules": [
-              "$route_10_oaks_aide"
+              "$route_10_oaks_aide",
+              "{}"
             ]
           },
           {
@@ -462,7 +464,8 @@
           {
             "name": "Professor Oak's Aide",
             "access_rules": [
-              "$route_11_oaks_aide"
+              "$route_11_oaks_aide",
+              "{}"
             ]
           }
         ],
@@ -656,7 +659,8 @@
           {
             "name": "Professor Oak's Aide",
             "access_rules": [
-              "$route_15_oaks_aide"
+              "$route_15_oaks_aide",
+              "{}"
             ]
           }
         ],
@@ -697,7 +701,9 @@
             "name": "Professor Oak's Aide",
             "access_rules": [
               "@Celadon City Access,poke_flute,$route_16_oaks_aide",
-              "@Fuchsia City Access,bicycle,$route_16_oaks_aide"
+              "@Celadon City Access,poke_flute,{}",
+              "@Fuchsia City Access,bicycle,$route_16_oaks_aide",
+              "@Fuchsia City Access,bicycle,{}"
             ]
           }
         ],
