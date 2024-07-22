@@ -50,8 +50,29 @@
   "settings_popup": {
     "type": "dock",
     "content": {
-      "type": "layout",
-      "key": "setting_layout"
+      "type": "array",
+      "orientation": "vertical",
+      "h_alignment": "left",
+      "content": [
+        {
+          "type": "group",
+          "header": "Settings",
+          "dock": "bottom",
+          "content": {
+            "type": "layout",
+            "key": "setting_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Requirements",
+          "dock": "bottom",
+          "content": {
+            "type": "layout",
+            "key": "requirement_grid"
+          }
+        }
+      ]
     }
   }
 }

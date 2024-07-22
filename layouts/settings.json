@@ -60,23 +60,5 @@
         ]
       }
     ]
-  },
-  "tracker_setting_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "margin": "0,0",
-    "content": [
-      {
-        "type": "itemgrid",
-        "item_margin": "2,2",
-        "h_alignment": "center",
-        "item_size": "188,32",
-        "rows": [
-          [
-            "auto_tab_setting"
-          ]
-        ]
-      }
-    ]
   }
 }

@@ -42,6 +42,13 @@
               ]
             ]
           },
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
           {
             "type": "itemgrid",
             "item_margin": "2,2",
@@ -50,6 +57,16 @@
             "rows": [
               [
                 "free_fly_setting"
+              ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "auto_tab_setting"
               ]
             ]
           }

@@ -2731,46 +2731,5 @@
         }
       }
     ]
-  },
-  "setting_layout": {
-    "type": "tabbed",
-    "dock": "top",
-    "tabs": [
-      {
-        "title": "Game",
-        "content": {
-          "type": "array",
-          "orientation": "vertical",
-          "h_alignment": "left",
-          "content": [
-            {
-              "type": "group",
-              "header": "Settings",
-              "dock": "bottom",
-              "content": {
-                "type": "layout",
-                "key": "setting_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Requirements",
-              "dock": "bottom",
-              "content": {
-                "type": "layout",
-                "key": "requirement_grid"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "Tracker",
-        "content": {
-          "type": "layout",
-          "key": "tracker_setting_grid"
-        }
-      }
-    ]
   }
 }
