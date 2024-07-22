@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Outcast Island",
+    "children": [
+      {
+        "name": "West Beach Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/West Beach Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 104,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "East Beach Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/East Beach Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 264,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "North Beach Item",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/North Beach Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  }
+]

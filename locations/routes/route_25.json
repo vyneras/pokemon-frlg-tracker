@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Route 25",
+    "children": [
+      {
+        "name": "Northwest Hidden Item Near Bush",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Northwest Hidden Item Near Bush",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 232,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Item Near Bush",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Item Near Bush",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 424,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near South Flowers",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hidden Item Near South Flowers",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 536,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near North Flowers",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hidden Item Near North Flowers",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 72,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Past Sea Cottage",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hidden Item Past Sea Cottage",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 360,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Sea Cottage",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Save Bill (Event)",
+            "name": "Save Bill (Event)"
+          },
+          {
+            "ref": "Routes/Route 25/Bill",
+            "name": "Bill"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 248,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

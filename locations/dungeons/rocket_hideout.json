@@ -1,0 +1,295 @@
+[
+  {
+    "name": "Rocket Hideout",
+    "children": [
+      {
+        "name": "West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 88,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Southeast Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southeast Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 264,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Maze Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 248,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Maze Northwest Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northwest Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 40,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Maze Northwest Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northwest Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 88,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Maze Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 8,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 24,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "East Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - East Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 312,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 24,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Maze Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Maze Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Item Near B4F Stairs",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Item Near B4F Stairs",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 232,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 72,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Rocket Grunt's Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Rocket Grunt's Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 56,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 104,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Giovanni's Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni's Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 328,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Giovanni's Room Hidden Item Between West Plants",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni's Room Hidden Item Between West Plants",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 264,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Giovanni's Room Hidden Item Between East Plants",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni's Room Hidden Item Between East Plants",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 360,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

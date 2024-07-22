@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Pewter City",
+    "children": [
+      {
+        "name": "Pewter Gym",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Defeat Brock (Event)",
+            "name": "Defeat Brock (Event)"
+          },
+          {
+            "ref": "Cities/Pewter City/Leader Brock Prize",
+            "name": "Leader Brock Prize"
+          },
+          {
+            "ref": "Cities/Pewter City/Leader Brock Reward",
+            "name": "Leader Brock Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 248,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 104,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Pewter Museum 1F Scientist",
+            "name": "Scientist"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 408,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

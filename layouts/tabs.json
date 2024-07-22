@@ -6,46 +6,2769 @@
       {
         "title": "Overworld",
         "content": {
-          "type": "map",
-          "maps": [
-            "kanto_sevii"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Kanto & Sevii Islands",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "kanto_sevii"
+                ]
+              }
+            },
+            {
+              "title": "Kanto",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "kanto"
+                ]
+              }
+            },
+            {
+              "title": "Sevii Islands 1-3",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sevii_123"
+                ]
+              }
+            },
+            {
+              "title": "Sevii Islands 4-5",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sevii_45"
+                ]
+              }
+            },
+            {
+              "title": "Sevii Islands 6-7",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "sevii_67"
+                ]
+              }
+            }
           ]
         }
       },
       {
-        "title": "Kanto",
+        "title": "Cities",
         "content": {
-          "type": "map",
-          "maps": [
-            "kanto"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Pallet Town",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pallet_town"
+                ]
+              }
+            },
+            {
+              "title": "Viridian City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "viridian_city"
+                ]
+              }
+            },
+            {
+              "title": "Pewter City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pewter_city"
+                ]
+              }
+            },
+            {
+              "title": "Cerulean City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cerulean_city"
+                ]
+              }
+            },
+            {
+              "title": "Vermilion City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "vermilion_city"
+                ]
+              }
+            },
+            {
+              "title": "Lavender Town",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "lavender_town"
+                ]
+              }
+            },
+            {
+              "title": "Celadon City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "celadon_city"
+                ]
+              }
+            },
+            {
+              "title": "Fuchsia City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fuchsia_city"
+                ]
+              }
+            },
+            {
+              "title": "Saffron City",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "saffron_city"
+                ]
+              }
+            },
+            {
+              "title": "Cinnabar Island",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cinnabar_island"
+                ]
+              }
+            },
+            {
+              "title": "Indigo Plateau",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "indigo_plateau"
+                ]
+              }
+            }
           ]
         }
       },
       {
-        "title": "Sevii Islands 1-3",
+        "title": "Routes",
         "content": {
-          "type": "map",
-          "maps": [
-            "sevii_123"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Route 1",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_1"
+                ]
+              }
+            },
+            {
+              "title": "Route 2",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_2_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_2_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 3",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_3_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_3_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 4",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_4_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_4_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 5",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_5"
+                ]
+              }
+            },
+            {
+              "title": "Route 6",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_6"
+                ]
+              }
+            },
+            {
+              "title": "Route 7",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_7"
+                ]
+              }
+            },
+            {
+              "title": "Route 8",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_8_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_8_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 9",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_9_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_9_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 10",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_10_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_10_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 11",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_11_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_11_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 12",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_12_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Center",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_12_center"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_12_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 13",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_13_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_13_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 14",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_14_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_14_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 15",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_15_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_15_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 16",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_16"
+                ]
+              }
+            },
+            {
+              "title": "Route 17",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_17_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Center (Top)",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_17_center_top"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Center (Bottom)",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_17_center_bottom"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_17_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 18",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_18_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_18_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 19",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_19_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_19_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 20",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_20_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Center",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_20_center"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_20_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 21",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_21_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_21_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 22",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_22"
+                ]
+              }
+            },
+            {
+              "title": "Route 23",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_23_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Center (Top)",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_23_center_top"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Center (Bottom)",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_23_center_bottom"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_23_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Route 24",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_24"
+                ]
+              }
+            },
+            {
+              "title": "Route 25",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_25_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_25_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       },
       {
-        "title": "Sevii Islands 4-5",
+        "title": "Dungeons",
         "content": {
-          "type": "map",
-          "maps": [
-            "sevii_45"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Viridian Forest",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "viridian_forest_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "viridian_forest_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Mt. Moon",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mt_moon_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mt_moon_b1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mt_moon_b2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Underground Path (N-S)",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "underground_path_north_south_tunnel_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "underground_path_north_south_tunnel_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "S.S. Anne",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_exterior"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "1F Corridor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_corridor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Kitchen",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_kitchen"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F Corridor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_b1f_corridor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F Corridor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_2f_corridor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F Corridor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_3f_corridor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Deck",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_deck"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Captain's Office",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_captains_office"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Rock Tunnel",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rock_tunnel_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rock_tunnel_b1f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Power Plant",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "power_plant"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Tower",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_tower_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_tower_2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_tower_3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_tower_4f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "5F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_tower_5f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "6F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_tower_6f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "7F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_tower_7f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Underground Path (E-W)",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "underground_path_east_west_tunnel_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "underground_path_east_west_tunnel_east"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Rocket Hideout",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rocket_hideout_b1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rocket_hideout_b2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rocket_hideout_b3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rocket_hideout_b4f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Safari Zone",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Center",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_center"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_east"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_west"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Silph Co.",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_4f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "5F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_5f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "6F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_6f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "7F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_7f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "8F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_8f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "9F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_9f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "10F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_10f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "11F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "silph_co_11f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Seafoam Islands",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seafoam_islands_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seafoam_islands_b1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seafoam_islands_b2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seafoam_islands_b3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seafoam_islands_b4f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Mansion",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_mansion_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_mansion_2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_mansion_3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_mansion_b1f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Victory Road",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "victory_road_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "victory_road_2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "victory_road_3f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Cerulean Cave",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cerulean_cave_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cerulean_cave_2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cerulean_cave_b1f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       },
       {
-        "title": "Sevii Islands 6-7",
+        "title": "Islands",
         "content": {
-          "type": "map",
-          "maps": [
-            "sevii_67"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "One Island",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "one_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Treasure Beach",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "treasure_beach"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Kindle Road",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "North",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "kindle_road_north"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Center (Top)",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "kindle_road_center_top"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Center (Bottom)",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "kindle_road_center_bottom"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "kindle_road_south"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Ember Spa",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ember_spa"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mt. Ember",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "Exterior",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_exterior"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Summit Path 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_summit_path_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Summit Path 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_summit_path_2f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Summit Path 3F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_summit_path_3f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Summit",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_summit"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ruby Path 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_ruby_path_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ruby Path B1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_ruby_path_b1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ruby Path B1F Stairs",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_ruby_path_b1f_stairs"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ruby Path B2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_ruby_path_b2f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ruby Path B2F Stairs",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_ruby_path_b2f_stairs"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ruby Path B3F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_ruby_path_b3f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ruby Path B4F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_ruby_path_b4f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ruby Path B5F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mt_ember_ruby_path_b5f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Two Island",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "two_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Cape Brink",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cape_brink"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Three Island",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Three Isle Port",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_isle_port"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Three Isle Path",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dunsparce_tunnel"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Bond Bridge",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "West",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "bond_bridge_west"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "East",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "bond_bridge_east"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Berry Forest",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "berry_forest"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Four Island",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "four_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Icefall Cave",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "Entrance",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "icefall_cave_entrance"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "icefall_cave_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "B1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "icefall_cave_b1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Back",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "icefall_cave_back"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Five Island",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "five_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Five Isle Meadow",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "five_isle_meadow"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Rocket Warehouse",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rocket_warehouse"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Memorial Pillar",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "North",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "memorial_pillar_north"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "memorial_pillar_south"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Water Labyrinth",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "West",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "water_labyrinth_west"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "East",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "water_labyrinth_east"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Resort Gorgeous",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "West",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "resort_gorgeous_west"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "East",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "resort_gorgeous_east"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lost Cave",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "Entrance",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_entrance"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 1",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 2",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_2"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 3",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_3"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 4",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_4"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 5",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_5"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 6",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_6"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 7",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_7"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 8",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_8"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 9",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_9"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 10",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_10"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 11",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_11"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 12",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_12"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 13",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_13"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room 14",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lost_cave_room_14"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Six Island",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "six_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Water Path",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "North",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "water_path_north"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Center",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "water_path_center"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "water_path_south"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Ruin Valley",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ruin_valley"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dotted Hole",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "dotted_hole_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "B1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "dotted_hole_b1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "B2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "dotted_hole_b2f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "B3F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "dotted_hole_b3f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "B4F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "dotted_hole_b4f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Sapphire Room",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "dotted_hole_sapphire_room"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Green Path",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "West",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "green_path_west"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "East",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "green_path_east"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pattern Bush",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pattern_bush"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Outcast Island",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "North",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "outcast_island_north"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "outcast_island_south"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Altering Cave",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "altering_cave"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Seven Island",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seven_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Canyon Entrance",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "canyon_entrance"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Sevault Canyon",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "North",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sevault_canyon_north"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sevault_canyon_south"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tanoby Key",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tanoby_key"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tanoby Ruins",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "West",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "tanoby_ruins_west"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Center (Left)",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "tanoby_ruins_center_left"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Center (Right)",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "tanoby_ruins_center_right"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "East",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "tanoby_ruins_east"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tanoby Chambers",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "Monean",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "monean_chamber"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Liptoo",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "liptoo_chamber"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Weepth",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "weepth_chamber"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Dilford",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "dilford_chamber"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Scufib",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "scufib_chamber"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Rixy",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "rixy_chamber"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Viapois",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "viapois_chamber"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Trainer Tower Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "trainer_tower_exterior"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Navel Rock",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_exterior"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_b1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Fork",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "North",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "navel_rock_fork_north"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Center",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "navel_rock_fork_center"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "navel_rock_fork_south"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Summit Path 2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_summit_path_2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Summit Path 3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_summit_path_3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Summit Path 4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_summit_path_4f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Summit Path 5F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_summit_path_5f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Summit",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_summit"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b4f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B5F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b5f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B6F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b6f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B7F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b7f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B8F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b8f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B9F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b9f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B10F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b10f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base Path B11F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base_path_b11f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Base",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_base"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Birth Island",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "birth_island"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
+        }
+      }
+    ]
+  },
+  "setting_layout": {
+    "type": "tabbed",
+    "dock": "top",
+    "tabs": [
+      {
+        "title": "Game",
+        "content": {
+          "type": "array",
+          "orientation": "vertical",
+          "h_alignment": "left",
+          "content": [
+            {
+              "type": "group",
+              "header": "Settings",
+              "dock": "bottom",
+              "content": {
+                "type": "layout",
+                "key": "setting_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Requirements",
+              "dock": "bottom",
+              "content": {
+                "type": "layout",
+                "key": "requirement_grid"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Tracker",
+        "content": {
+          "type": "layout",
+          "key": "tracker_setting_grid"
         }
       }
     ]

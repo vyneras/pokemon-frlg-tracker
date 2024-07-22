@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Route 14",
+    "children": [
+      {
+        "name": "Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 312,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Hidden Item Behind Cuttable Tree",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_north",
+            "x": 152,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  }
+]

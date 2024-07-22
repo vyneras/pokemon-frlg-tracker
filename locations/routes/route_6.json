@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Route 6",
+    "children": [
+      {
+        "name": "Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Northeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Northeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 312,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Underground Path North-South Tunnel",
+        "sections": [
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Farthest North Hidden Item",
+            "name": "Farthest North Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Far North Hidden Item",
+            "name": "Far North Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/North Hidden Item",
+            "name": "North Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Center Hidden Item",
+            "name": "Center Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/South Hidden Item",
+            "name": "South Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Far South Hidden Item",
+            "name": "Far South Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Farthest South Hidden Item",
+            "name": "Farthest South Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 312,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  }
+]

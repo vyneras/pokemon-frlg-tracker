@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Three Isle Path",
+    "children": [
+      {
+        "name": "Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Three Isle Path/Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dunsparce_tunnel",
+            "x": 344,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Prospector",
+        "sections": [
+          {
+            "ref": "Islands/Three Isle Path/Prospector",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dunsparce_tunnel",
+            "x": 376,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

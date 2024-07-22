@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Route 20",
+    "children": [
+      {
+        "name": "Northwest Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 20/Northwest Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_west",
+            "x": 376,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/1F - Plateau Item",
+            "name": "1F - Plateau Item"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B1F - Center Plateau Item",
+            "name": "B1F - Center Plateau Item"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B2F - Item Below Center Plateau",
+            "name": "B2F - Item Below Center Plateau"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B1F - South Item",
+            "name": "B1F - South Item"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B3F - West Plateau Rock Hidden Item",
+            "name": "B3F - West Plateau Rock Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - West Rock Hidden Item",
+            "name": "B4F - West Rock Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - South Peninsula Item",
+            "name": "B4F - South Peninsula Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_center",
+            "x": 328,
+            "y": 136
+          },
+          {
+            "map": "route_20_center",
+            "x": 520,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  }
+]

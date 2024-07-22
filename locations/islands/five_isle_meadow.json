@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Five Isle Meadow",
+    "children": [
+      {
+        "name": "Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/Item Behind Cuttable Tree",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 200,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Southwest Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/Southwest Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 56,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze South Item",
+            "name": "Maze South Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze Center Box Hidden Item",
+            "name": "Maze Center Box Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze West Item",
+            "name": "Maze West Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Northwest Room Item",
+            "name": "Northwest Room Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/North Room Item",
+            "name": "North Room Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Scientist Gideon Reward",
+            "name": "Scientist Gideon Reward"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Northeast Room Box Hidden Item",
+            "name": "Northeast Room Box Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 200,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  }
+]

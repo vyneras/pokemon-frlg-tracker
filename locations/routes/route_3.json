@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Route 3",
+    "children": [
+      {
+        "name": "Hidden Item Between Ledges",
+        "sections": [
+          {
+            "ref": "Routes/Route 3/Hidden Item Between Ledges",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_3_west",
+            "x": 424,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

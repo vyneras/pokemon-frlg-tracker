@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Route 17",
+    "children": [
+      {
+        "name": "Dirt Path Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Dirt Path Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 168,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "West Stone Path Hidden Item (Top)",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/West Stone Path Hidden Item (Top)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 72,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "West Stone Path Hidden Item (Bottom)",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/West Stone Path Hidden Item (Bottom)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_south",
+            "x": 72,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "East Stone Path Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/East Stone Path Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_bottom",
+            "x": 296,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Southeast Stone Path Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Southeast Stone Path Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_south",
+            "x": 232,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  }
+]

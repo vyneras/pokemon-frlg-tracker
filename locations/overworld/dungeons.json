@@ -1,0 +1,1833 @@
+[
+  {
+    "name": "Dungeons",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "Viridian Forest",
+        "access_rules": [
+          "@Pewter City Access"
+        ],
+        "sections": [
+          {
+            "name": "Hidden Item Near South Entrance",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "West Item"
+          },
+          {
+            "name": "Southeast Item"
+          },
+          {
+            "name": "Northeast Item"
+          },
+          {
+            "name": "Center Item"
+          },
+          {
+            "name": "Hidden Item Near North Entrance",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 44,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 44,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon",
+        "access_rules": [
+          "@Route 3 Access"
+        ],
+        "sections": [
+          {
+            "name": "1F - Southwest Item"
+          },
+          {
+            "name": "1F - West Item"
+          },
+          {
+            "name": "B1F - First Tunnel East Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "B1F - First Tunnel West Rock Hidden Item (Right)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "B1F - First Tunnel West Rock Hidden Item (Left)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "B2F - Isolated Room Item"
+          },
+          {
+            "name": "1F - South Item"
+          },
+          {
+            "name": "1F - Southeast Item"
+          },
+          {
+            "name": "1F - East Item"
+          },
+          {
+            "name": "B1F - Second Tunnel Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "B2F - Northeast Plateau Item"
+          },
+          {
+            "name": "B2F - Northeast Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "1F - Northwest Item"
+          },
+          {
+            "name": "B1F - Third Tunnel Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "B2F - North Item"
+          },
+          {
+            "name": "B2F - Rock Near Fossils Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "B2F - Dome Fossil",
+            "chest_unopened_img": "images/locations/dome_fossil.png",
+            "chest_opened_img": "images/locations/dome_fossil_bw.png"
+          },
+          {
+            "name": "B2F - Helix Fossil",
+            "chest_unopened_img": "images/locations/helix_fossil.png",
+            "chest_opened_img": "images/locations/helix_fossil_bw.png"
+          },
+          {
+            "name": "B2F - Northwest Item"
+          },
+          {
+            "name": "B1F - Fourth Tunnel Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 84,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 84,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Underground Path North-South Tunnel",
+        "access_rules": [
+          "@Cerulean City Outskirts Access"
+        ],
+        "sections": [
+          {
+            "name": "Farthest North Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Far North Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "North Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Center Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "South Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Far South Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Farthest South Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 132,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 132,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne",
+        "access_rules": [
+          "@Vermilion City Access,ss_ticket"
+        ],
+        "sections": [
+          {
+            "name": "Exterior - East Pier Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "$surf,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Kitchen - Item"
+          },
+          {
+            "name": "Kitchen - Trash Can Hidden Item (Top)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Kitchen - Trash Can Hidden Item (Middle)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Kitchen - Trash Can Hidden Item (Bottom)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "1F Room 2 - Item"
+          },
+          {
+            "name": "B1F Corridor - Trash Can Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "B1F Room 2 - Item"
+          },
+          {
+            "name": "B1F Room 3 - Item"
+          },
+          {
+            "name": "B1F Room 5 - Item"
+          },
+          {
+            "name": "2F Room 2 - Item"
+          },
+          {
+            "name": "2F Room 4 - Item"
+          },
+          {
+            "name": "Captain's Office - Captain",
+            "chest_unopened_img": "images/locations/captain_normal_tm.png",
+            "chest_opened_img": "images/locations/captain_normal_tm_bw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 116,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 116,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel",
+        "access_rules": [
+          "@Route 10 North Access,^$rock_tunnel"
+        ],
+        "sections": [
+          {
+            "name": "1F - Northeast Area Item"
+          },
+          {
+            "name": "B1F - Southeast Area Item"
+          },
+          {
+            "name": "1F - Northwest Area Item"
+          },
+          {
+            "name": "B1F - Northwest Area Item"
+          },
+          {
+            "name": "1F - South Area Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 156,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Power Plant",
+        "access_rules": [
+          "@Route 10 North Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Item Near Entrance"
+          },
+          {
+            "name": "Long Center Room Item (Right)"
+          },
+          {
+            "name": "Long Center Room Item (Left)"
+          },
+          {
+            "name": "Southeast Room Item"
+          },
+          {
+            "name": "Northeast Room Item"
+          },
+          {
+            "name": "Center Machine Room Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Hidden Item Near Zapdos",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 164,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 164,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower",
+        "access_rules": [
+          "@Lavender Town Access"
+        ],
+        "sections": [
+          {
+            "name": "3F - North Item"
+          },
+          {
+            "name": "4F - Center Item (Right)"
+          },
+          {
+            "name": "4F - Center Item (Left)"
+          },
+          {
+            "name": "4F - South Item"
+          },
+          {
+            "name": "5F - Northwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "5F - Healing Area Item"
+          },
+          {
+            "name": "5F - Southwest Item"
+          },
+          {
+            "name": "6F - Southeast Item"
+          },
+          {
+            "name": "6F - Southwest Item"
+          },
+          {
+            "name": "7F - Rescue Mr. Fuji (Event)",
+            "hosted_item": "rescue_mr_fuji_hosted",
+            "access_rules": [
+              "silph_scope"
+            ]
+          },
+          {
+            "name": "7F - Hidden Item Between Statues",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "silph_scope,itemfinder"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 164,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 164,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Underground Path East-West Tunnel",
+        "access_rules": [
+          "@Lavender Town Access"
+        ],
+        "sections": [
+          {
+            "name": "Farthest East Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Far East Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "East Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Center Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "West Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Far West Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Farthest West Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 132,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 132,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout",
+        "access_rules": [
+          "@Celadon City Access"
+        ],
+        "sections": [
+          {
+            "name": "B1F - West Room Item"
+          },
+          {
+            "name": "B1F - Southeast Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "B2F - Maze Northeast Item"
+          },
+          {
+            "name": "B2F - Maze Northwest Item (Left)"
+          },
+          {
+            "name": "B2F - Maze Northwest Item (Right)"
+          },
+          {
+            "name": "B2F - Maze Southwest Item"
+          },
+          {
+            "name": "B1F - Southwest Room Item"
+          },
+          {
+            "name": "B3F - East Room Item"
+          },
+          {
+            "name": "B3F - Northwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "B3F - Maze Item"
+          },
+          {
+            "name": "B3F - Item Near B4F Stairs"
+          },
+          {
+            "name": "B4F - West Room Item"
+          },
+          {
+            "name": "B4F - Northwest Room Item"
+          },
+          {
+            "name": "B4F - Rocket Grunt's Item"
+          },
+          {
+            "name": "B4F - Southwest Room Item",
+            "access_rules": [
+              "lift_key"
+            ]
+          },
+          {
+            "name": "B4F - Giovanni's Item",
+            "access_rules": [
+              "lift_key"
+            ]
+          },
+          {
+            "name": "B4F - Giovanni's Room Hidden Item Between West Plants",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "lift_key,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "B4F - Giovanni's Room Hidden Item Between East Plants",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "lift_key,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 100,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 100,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone",
+        "access_rules": [
+          "@Fuchsia City Access"
+        ],
+        "sections": [
+          {
+            "name": "Center - Island Item",
+            "access_rules": [
+              "$surf"
+            ]
+          },
+          {
+            "name": "Center - Island Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "$surf,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "East - Southeast Plateau Item"
+          },
+          {
+            "name": "East - Tall Grass Item"
+          },
+          {
+            "name": "East - Item Near Bush"
+          },
+          {
+            "name": "East - Item Near Rest House"
+          },
+          {
+            "name": "North - South Item"
+          },
+          {
+            "name": "North - Center Item"
+          },
+          {
+            "name": "North - North Item"
+          },
+          {
+            "name": "West - Southeast Item"
+          },
+          {
+            "name": "West - Southwest Item"
+          },
+          {
+            "name": "West - Northeast Item"
+          },
+          {
+            "name": "West - Northwest Item"
+          },
+          {
+            "name": "West - Hidden Item Near Secret House",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Secret House - Attendent",
+            "chest_unopened_img": "images/locations/worker_male_water_tm.png",
+            "chest_opened_img": "images/locations/worker_male_water_tm_bw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 108,
+            "y": 108,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 108,
+            "y": 108,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Silph Co.",
+        "access_rules": [
+          "@Saffron City Access,rescue_mr_fuji"
+        ],
+        "sections": [
+          {
+            "name": "2F - Southwest Room Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "3F - Southeast Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "3F - West Room Item",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "4F - Southeast Room Item"
+          },
+          {
+            "name": "4F - Southeast Room Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "4F - West Room Item (Left)",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "4F - West Room Item (Right)",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "4F - West Room Item (Middle)",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "5F - Center Room Northeast Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "5F - Center Room Southwest Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "card_key,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "5F - South Hallway Item"
+          },
+          {
+            "name": "5F - Northwest Room Item",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "5F - Southwest Room Item"
+          },
+          {
+            "name": "6F - Northwest Room Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "6F - Southwest Room Item (Top)",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "6F - Southwest Room Item (Bottom)",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "7F - Southwest Room Item"
+          },
+          {
+            "name": "7F - East Room Item",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "7F - East Room Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "card_key,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "8F - East Room Item"
+          },
+          {
+            "name": "8F - East Room Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "9F - West Room Hidden Item Near Boxes",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "card_key,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "9F - West Room Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "card_key,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "10F - Southwest Room Item (Left)"
+          },
+          {
+            "name": "10F - Southwest Room Item (Bottom)"
+          },
+          {
+            "name": "10F - Southwest Room Item (Right)"
+          },
+          {
+            "name": "10F - East Room Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "11F - East Hallway Item"
+          },
+          {
+            "name": "11F - South Hallway Plant Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "card_key,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "11F - Liberate Silph Co. (Event)",
+            "hosted_item": "liberate_silph_co_hosted",
+            "access_rules": [
+              "card_key"
+            ]
+          },
+          {
+            "name": "11F - President",
+            "chest_unopened_img": "images/locations/old_man_master_ball.png",
+            "chest_opened_img": "images/locations/old_man_master_ball_bw.png",
+            "access_rules": [
+              "card_key"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 124,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 124,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands",
+        "access_rules": [
+          "$surf"
+        ],
+        "sections": [
+          {
+            "name": "1F - Plateau Item"
+          },
+          {
+            "name": "B1F - Center Plateau Item"
+          },
+          {
+            "name": "B2F - Item Below Center Plateau"
+          },
+          {
+            "name": "B1F - South Item"
+          },
+          {
+            "name": "B3F - West Plateau Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "B4F - West Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "B4F - South Peninsula Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 76,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 76,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion",
+        "access_rules": [
+          "@Cinnabar Island Access"
+        ],
+        "sections": [
+          {
+            "name": "1F - West Rubble Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "1F - Item Between North Pillars"
+          },
+          {
+            "name": "1F - Item Behind Gate"
+          },
+          {
+            "name": "3F - Southwest Room Item"
+          },
+          {
+            "name": "2F - West Balcony Item"
+          },
+          {
+            "name": "2F - Northeast Room Item"
+          },
+          {
+            "name": "3F - Northeast Room Item"
+          },
+          {
+            "name": "3F - East Hallway Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "2F - Item Near East Balcony"
+          },
+          {
+            "name": "1F - Item Near B1F Stairs"
+          },
+          {
+            "name": "B1F - Southwest Hallway Item"
+          },
+          {
+            "name": "B1F - Northeast Room Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "B1F - North Room Item"
+          },
+          {
+            "name": "B1F - Northwest Room Item"
+          },
+          {
+            "name": "B1F - West Room Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 36,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 36,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Victory Road",
+        "access_rules": [
+          "$has_route_22_gate_req,$surf,$has_route_23_guard_req,$strength"
+        ],
+        "sections": [
+          {
+            "name": "1F - North Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "1F - North Item (Right)"
+          },
+          {
+            "name": "1F - North Item (Left)"
+          },
+          {
+            "name": "1F - Center Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "2F - Item Below Plateau"
+          },
+          {
+            "name": "2F - Item Above Plateau"
+          },
+          {
+            "name": "2F - Northeast Item"
+          },
+          {
+            "name": "3F - Northeast Item"
+          },
+          {
+            "name": "3F - Northwest Item"
+          },
+          {
+            "name": "2F - Northwest Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 28,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 28,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember",
+        "access_rules": [
+          "@One Island Access,$surf,$strength"
+        ],
+        "sections": [
+          {
+            "name": "Exterior - Hidden Item Near West Cave Entrance",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Exterior - East Item"
+          },
+          {
+            "name": "Exterior - Item Near Summit",
+            "access_rules": [
+              "$rock_smash"
+            ]
+          },
+          {
+            "name": "Exterior - Northwest Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Exterior - West Item"
+          },
+          {
+            "name": "Ruby Path B5F - Ruby",
+            "chest_unopened_img": "images/locations/ruby.png",
+            "chest_opened_img": "images/locations/ruby_bw.png",
+            "access_rules": [
+              "deliver_meteorite"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 28,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 28,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Berry Forest",
+        "access_rules": [
+          "@Three Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Center Hidden Item (Right)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "East Hidden Item (Left)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Southeast Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "East Hidden Item (Right)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Northeast Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Item Near North Pond"
+          },
+          {
+            "name": "Center Hidden Item (Left)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Hidden Item Near West Pond (Right)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Hidden Item Near West Pond (Left)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Northwest Hidden Item (Bottom)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Northwest Item"
+          },
+          {
+            "name": "Northwest Hidden Item (Top)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "North Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Hidden Item Near Southwest Pond",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Item Past Southwest Pond",
+            "access_rules": [
+              "$surf,$cut"
+            ]
+          },
+          {
+            "name": "Rescue Lostelle (Event)",
+            "hosted_item": "rescue_lostelle_hosted"
+          },
+          {
+            "name": "Lostelle",
+            "chest_unopened_img": "images/locations/little_girl_iapapa_berry.png",
+            "chest_opened_img": "images/locations/little_girl_iapapa_berry_bw.png"
+          },
+          {
+            "name": "Hidden Item Near Lostelle",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 124,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 124,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave",
+        "access_rules": [
+          "@Four Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "1F - Center Item"
+          },
+          {
+            "name": "B1F - East Item"
+          },
+          {
+            "name": "B1F - Southwest Item"
+          },
+          {
+            "name": "1F - Southeast Ledge Item"
+          },
+          {
+            "name": "Back - Help Lorelei (Event)",
+            "hosted_item": "help_lorelei_hosted",
+            "access_rules": [
+              "$waterfall"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 236,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 44,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse",
+        "access_rules": [
+          "@Five Island Access,learn_rocket_warehouse_password"
+        ],
+        "sections": [
+          {
+            "name": "Maze South Item"
+          },
+          {
+            "name": "Maze Center Box Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Maze West Item"
+          },
+          {
+            "name": "Northwest Room Item"
+          },
+          {
+            "name": "North Room Item"
+          },
+          {
+            "name": "Scientist Gideon Reward",
+            "chest_unopened_img": "images/locations/scientist_sapphire.png",
+            "chest_opened_img": "images/locations/scientist_sapphire_bw.png"
+          },
+          {
+            "name": "Northeast Room Box Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 148,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Lost Cave",
+        "access_rules": [
+          "@Five Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Room 10 - Item"
+          },
+          {
+            "name": "Room 11 - Item"
+          },
+          {
+            "name": "Room 12 - Item"
+          },
+          {
+            "name": "Room 13 - Item"
+          },
+          {
+            "name": "Room 14 - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 348,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 156,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Dotted Hole",
+        "access_rules": [
+          "@Six Island Access,help_lorelei,$cut"
+        ],
+        "sections": [
+          {
+            "name": "Sapphire Room - Learn Rocket Warehouse Password (Event)",
+            "hosted_item": "learn_rocket_warehouse_password_hosted"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 332,
+            "y": 228,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 140,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave",
+        "access_rules": [
+          "@Cerulean City Access,$surf,$has_cerulean_cave_req"
+        ],
+        "sections": [
+          {
+            "name": "2F - East Item",
+            "access_rules": [
+              "$rock_smash"
+            ]
+          },
+          {
+            "name": "1F - West Plateau Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "1F - West Plateau Item"
+          },
+          {
+            "name": "2F - West Item",
+            "access_rules": [
+              "$rock_smash"
+            ]
+
+          },
+          {
+            "name": "1F - Southwest Item"
+          },
+          {
+            "name": "2F - Center Item",
+            "access_rules": [
+              "$rock_smash"
+            ]
+          },
+          {
+            "name": "1F - East Plateau Item"
+          },
+          {
+            "name": "B1F - Northeast Item"
+          },
+          {
+            "name": "B1F - East Plateau Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 116,
+            "y": 36,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 116,
+            "y": 36,
+            "size": 4
+          }
+        ]
+      }
+    ]
+  }
+]

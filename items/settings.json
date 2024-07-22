@@ -505,5 +505,27 @@
         "name": "Free Fly Location - Seven Island"
       }
     ]
+  },
+  {
+    "name": "Auto Tab",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/auto_tab_off.png",
+        "img_mods": "@disabled",
+        "codes": "auto_tab_setting,auto_tab_off",
+        "inherit_codes": false,
+        "name": "Auto Tab - Off"
+      },
+      {
+        "img": "images/settings/auto_tab_on.png",
+        "codes": "auto_tab_setting,auto_tab_on",
+        "inherit_codes": false,
+        "name": "Auto Tab - On"
+      }
+    ]
   }
 ]

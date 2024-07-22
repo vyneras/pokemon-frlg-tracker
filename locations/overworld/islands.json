@@ -1,0 +1,1135 @@
+[
+  {
+    "name": "Islands",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "One Island",
+        "access_rules": [
+          "@One Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Bill",
+            "chest_unopened_img": "images/locations/bill_meteorite.png",
+            "chest_opened_img": "images/locations/bill_meteorite_bw.png"
+          },
+          {
+            "name": "Celio",
+            "chest_unopened_img": "images/locations/celio_rainbow_pass.png",
+            "chest_opened_img": "images/locations/celio_rainbow_pass_bw.png",
+            "access_rules": [
+              "deliver_meteorite,ruby"
+            ]
+          },
+          {
+            "name": "Restore Pokémon Network Machine (Event)",
+            "hosted_item": "restore_pokemon_network_machine_hosted",
+            "access_rules": [
+              "deliver_meteorite,ruby,sapphire"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 20,
+            "y": 228
+          },
+          {
+            "map": "sevii_123",
+            "x": 20,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Treasure Beach",
+        "access_rules": [
+          "@One Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Beach West Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Beach East Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Tall Grass Northwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Tall Grass Northeast Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Tall Grass Center Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Tall Grass East Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Tall Grass Southwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Tall Grass Southeast Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 20,
+            "y": 244,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 20,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Kindle Road",
+        "access_rules": [
+          "@One Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Plateau Item",
+            "access_rules": [
+              "$rock_smash"
+            ]
+          },
+          {
+            "name": "Isolated Beach Item"
+          },
+          {
+            "name": "Item Behind Smashable Rock",
+            "access_rules": [
+              "$rock_smash"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 28,
+            "y": 216,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 28,
+            "y": 72,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Ember Spa",
+        "access_rules": [
+          "@One Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Rock Smash Man",
+            "chest_unopened_img": "images/locations/old_man_fighting_tm.png",
+            "chest_opened_img": "images/locations/old_man_fighting_tm_bw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 28,
+            "y": 208,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 28,
+            "y": 64,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Two Island",
+        "access_rules": [
+          "@Two Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Item Behind Cuttable Tree",
+            "access_rules": [
+              "$cut"
+            ]
+          },
+          {
+            "name": "Buy Lemonade (Event)",
+            "hosted_item": "lemonade_hosted",
+            "access_rules": [
+              "defeat_champion"
+            ]
+          },
+          {
+            "name": "Deliver Meteorite (Event)",
+            "hosted_item": "deliver_meteorite_hosted",
+            "access_rules": [
+              "rescue_lostelle,meteorite"
+            ]
+          },
+          {
+            "name": "Lostelle's Father",
+            "chest_unopened_img": "images/locations/balding_man_moon_stone.png",
+            "chest_opened_img": "images/locations/balding_man_moon_stone_bw.png",
+            "access_rules": [
+              "rescue_lostelle,meteorite"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 84,
+            "y": 236
+          },
+          {
+            "map": "sevii_123",
+            "x": 84,
+            "y": 92
+          }
+        ]
+      },
+      {
+        "name": "Cape Brink",
+        "access_rules": [
+          "@Two Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Hidden Item Across Pond",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "$surf,itemfinder"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Hidden Item Behind House",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 84,
+            "y": 224,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 84,
+            "y": 80,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path",
+        "access_rules": [
+          "@Three Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Prospector",
+            "chest_unopened_img": "images/locations/fat_man_nugget.png",
+            "chest_opened_img": "images/locations/fat_man_nugget_bw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 164,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 164,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Island",
+        "access_rules": [
+          "@Three Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Anti-Biker",
+            "chest_unopened_img": "images/locations/man_full_restore.png",
+            "chest_opened_img": "images/locations/man_full_restore_bw.png"
+          },
+          {
+            "name": "Item Behind East Fence",
+            "access_rules": [
+              "$cut"
+            ]
+          },
+          {
+            "name": "Hidden Item Behind West Fence",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "$cut,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 260
+          },
+          {
+            "map": "sevii_123",
+            "x": 156,
+            "y": 116
+          }
+        ]
+      },
+      {
+        "name": "Bond Bridge",
+        "access_rules": [
+          "@Three Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Rock Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "East Beach Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "West Beach Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 140,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 140,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Four Island",
+        "access_rules": [
+          "@Four Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Beach Southeast Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Beach Northwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Beach Item",
+            "access_rules": [
+              "$rock_smash"
+            ]
+          },
+          {
+            "name": "Northeast Island Item",
+            "access_rules": [
+              "$surf"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 228,
+            "y": 52
+          },
+          {
+            "map": "sevii_45",
+            "x": 36,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Five Isle Meadow",
+        "access_rules": [
+          "@Five Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Item Behind Cuttable Tree",
+            "access_rules": [
+              "$cut"
+            ]
+          },
+          {
+            "name": "Southwest Island Item",
+            "access_rules": [
+              "$surf"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 108,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 148,
+            "y": 108,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Memorial Pillar",
+        "access_rules": [
+          "@Five Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Tall Grass North Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Tall Grass South Hidden Item (Left)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Tall Grass South Hidden Item (Right)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Memorial Man",
+            "chest_unopened_img": "images/locations/man_normal_tm.png",
+            "chest_opened_img": "images/locations/man_normal_tm_bw.png",
+            "access_rules": [
+              "lemonade,[@Cities/Celadon City/Buy Lemonade (Event)]",
+              "lemonade,[@Islands/Two Island/Buy Lemonade (Event)]"
+            ]
+          },
+          {
+            "name": "South Island Item"
+          },
+          {
+            "name": "South Beach Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 348,
+            "y": 124,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 156,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Resort Gorgeous",
+        "access_rules": [
+          "@Five Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "West Island Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Main Island Northwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Main Island Southwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Main Island Southeast Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 148,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Six Island",
+        "access_rules": [
+          "@Six Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Hidden Item Behind Pokémon Center",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 204
+          },
+          {
+            "map": "sevii_67",
+            "x": 148,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Water Path",
+        "access_rules": [
+          "@Six Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Tall Grass North Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Tall Grass South Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "South Island Item",
+            "access_rules": [
+              "$surf"
+            ]
+          },
+          {
+            "name": "North Island Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "$surf,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "North Island Item",
+            "access_rules": [
+              "$surf"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 348,
+            "y": 204,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Ruin Valley",
+        "access_rules": [
+          "@Six Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Southeast Item",
+            "access_rules": [
+              "$strength"
+            ]
+          },
+          {
+            "name": "Southwest Item",
+            "access_rules": [
+              "$strength"
+            ]
+          },
+          {
+            "name": "Plateau Item",
+            "access_rules": [
+              "$strength"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 220,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 148,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Green Path",
+        "access_rules": [
+          "@Six Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "West Island Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 332,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 140,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Outcast Island",
+        "access_rules": [
+          "@Six Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "West Beach Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "East Beach Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "North Beach Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 324,
+            "y": 172,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 132,
+            "y": 28,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Canyon Entrance",
+        "access_rules": [
+          "@Seven Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Southwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 244,
+            "y": 236,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 52,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon",
+        "access_rules": [
+          "@Seven Island Access"
+        ],
+        "sections": [
+          {
+            "name": "North Item"
+          },
+          {
+            "name": "Tall Grass Item"
+          },
+          {
+            "name": "Item Behind Smashable Rocks",
+            "access_rules": [
+              "$strength,$rock_smash"
+            ]
+          },
+          {
+            "name": "Chansey House Item"
+          },
+          {
+            "name": "Hidden Item Near Chansey House",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 252,
+            "y": 244,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 60,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Ruins",
+        "access_rules": [
+          "@Seven Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Viapois Chamber Island Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Scufib Chamber Island Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Weepth Chamber Island Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Monean Chamber Island Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 252,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 60,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower Exterior",
+        "access_rules": [
+          "@Seven Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Hidden Item Near Fence",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Beach West Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          },
+          {
+            "name": "Beach North Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_all"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 244,
+            "y": 220,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 52,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock",
+        "access_rules": [
+          "@Navel Rock Access"
+        ],
+        "sections": [
+          {
+            "name": "Hidden Item Near Ho-Oh",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "itemfinder"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 284,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 92,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      }
+    ]
+  }
+]

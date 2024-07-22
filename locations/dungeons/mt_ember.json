@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Mt. Ember",
+    "children": [
+      {
+        "name": "Hidden Item Near West Cave Entrance",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Hidden Item Near West Cave Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 136,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "East Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - East Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 776,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Item Near Summit",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Item Near Summit",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 616,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Northwest Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Northwest Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 296,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "West Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - West Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 216,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Ruby",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Ruby Path B5F - Ruby",
+            "name": "Gem"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b5f",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

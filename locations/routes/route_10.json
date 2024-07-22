@@ -1,0 +1,179 @@
+[
+  {
+    "name": "Route 10",
+    "children": [
+      {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Professor Oak's Aide"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 216,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Southeast Hidden Item Near Pokémon Center",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Southeast Hidden Item Near Pokémon Center",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 280,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "West Hidden Item Near Pokémon Center",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/West Hidden Item Near Pokémon Center",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 104,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Hidden Item Behind Cuttable Tree",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 168,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Power Plant Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Hidden Item Near Power Plant Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 200,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Rock Tunnel South Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 South/Hidden Item Near Rock Tunnel South Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 328,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel",
+        "sections": [
+          {
+            "ref": "Dungeons/Rock Tunnel/1F - Northeast Area Item",
+            "name": "1F - Northeast Area Item"
+          },
+          {
+            "ref": "Dungeons/Rock Tunnel/B1F - Southeast Area Item",
+            "name": "B1F - Southeast Area Item"
+          },
+          {
+            "ref": "Dungeons/Rock Tunnel/1F - Northwest Area Item",
+            "name": "1F - Northwest Area Item"
+          },
+          {
+            "ref": "Dungeons/Rock Tunnel/B1F - Northwest Area Item",
+            "name": "B1F - Northwest Area Item"
+          },
+          {
+            "ref": "Dungeons/Rock Tunnel/1F - South Area Item",
+            "name": "1F - South Area Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 136,
+            "y": 312
+          },
+          {
+            "map": "route_10_south",
+            "x": 136,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Power Plant",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Item Near Entrance",
+            "name": "Item Near Entrance"
+          },
+          {
+            "ref": "Dungeons/Power Plant/Long Center Room Item (Right)",
+            "name": "Long Center Room Item (Right)"
+          },
+          {
+            "ref": "Dungeons/Power Plant/Long Center Room Item (Left)",
+            "name": "Long Center Room Item (Left)"
+          },
+          {
+            "ref": "Dungeons/Power Plant/Southeast Room Item",
+            "name": "Southeast Room Item"
+          },
+          {
+            "ref": "Dungeons/Power Plant/Northeast Room Item",
+            "name": "Northeast Room Item"
+          },
+          {
+            "ref": "Dungeons/Power Plant/Center Machine Room Hidden Item",
+            "name": "Center Machine Room Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Power Plant/Hidden Item Near Zapdos",
+            "name": "Hidden Item Near Zapdos"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  }
+]

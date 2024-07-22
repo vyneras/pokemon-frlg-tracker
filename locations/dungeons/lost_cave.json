@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Lost Cave",
+    "children": [
+      {
+        "name": "Room 10 Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 10 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_10",
+            "x": 88,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Room 11 Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 11 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_11",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Room 12 Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 12 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_12",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Room 13 Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 13 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_13",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Room 14 Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 14 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_14",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

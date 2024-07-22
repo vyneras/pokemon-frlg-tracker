@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Route 8",
+    "children": [
+      {
+        "name": "Tall Grass Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Tall Grass Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 104,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Northeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Tall Grass Northeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 168,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Tall Grass Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 168,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Underground Path East-West Tunnel",
+        "sections": [
+          {
+            "ref": "Dungeons/Underground Path East-West Tunnel/Farthest East Hidden Item",
+            "name": "Farthest East Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path East-West Tunnel/Far East Hidden Item",
+            "name": "Far East Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path East-West Tunnel/East Hidden Item",
+            "name": "East Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path East-West Tunnel/Center Hidden Item",
+            "name": "Center Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path East-West Tunnel/West Hidden Item",
+            "name": "West Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path East-West Tunnel/Far West Hidden Item",
+            "name": "Far West Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path East-West Tunnel/Farthest West Hidden Item",
+            "name": "Farthest West Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

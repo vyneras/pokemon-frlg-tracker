@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Route 23",
+    "children": [
+      {
+        "name": "Hidden Item After Second Checkpoint",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item After Second Checkpoint",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_south",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_bottom",
+            "x": 184,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Between Statues",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item Between Statues",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 328,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Before Sixth Checkpoint",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item Before Sixth Checkpoint",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 168,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Northeast Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Northeast Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 312,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Victory Road Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item Near Victory Road Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 40,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item After Victory Road",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item After Victory Road",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 56,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Stone Maze Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Stone Maze Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 152,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Victory Road",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - North Rock Hidden Item",
+            "name": "1F - North Rock Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Victory Road/1F - North Item (Right)",
+            "name": "1F - North Item (Right)"
+          },
+          {
+            "ref": "Dungeons/Victory Road/1F - North Item (Left)",
+            "name": "1F - North Item (Left)"
+          },
+          {
+            "ref": "Dungeons/Victory Road/1F - Center Rock Hidden Item",
+            "name": "1F - Center Rock Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Victory Road/2F - Item Below Plateau",
+            "name": "2F - Item Below Plateau"
+          },
+          {
+            "ref": "Dungeons/Victory Road/2F - Item Above Plateau",
+            "name": "2F - Item Above Plateau"
+          },
+          {
+            "ref": "Dungeons/Victory Road/2F - Northeast Item",
+            "name": "2F - Northeast Item"
+          },
+          {
+            "ref": "Dungeons/Victory Road/3F - Northeast Item",
+            "name": "3F - Northeast Item"
+          },
+          {
+            "ref": "Dungeons/Victory Road/3F - Northwest Item",
+            "name": "3F - Northwest Item"
+          },
+          {
+            "ref": "Dungeons/Victory Road/2F - Northwest Item",
+            "name": "2F - Northwest Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 88,
+            "y": 456
+          },
+          {
+            "map": "route_23_north",
+            "x": 296,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  }
+]

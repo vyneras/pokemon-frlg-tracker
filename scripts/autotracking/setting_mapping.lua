@@ -99,7 +99,7 @@ SLOT_CODES = {
         mapping = {
             [0] = 0, -- Vanilla
             [1] = 1, -- Defeat Champion
-            [2] = 2, -- Restore Pokemon Network Machine
+            [2] = 2, -- Restore Pokémon Network Machine
             [3] = 3, -- Badges
             [4] = 4 -- Gyms
         }

@@ -1,0 +1,215 @@
+[
+  {
+    "name": "S.S. Anne",
+    "children": [
+      {
+        "name": "East Pier Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/Exterior - East Pier Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_exterior",
+            "x": 536,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/Kitchen - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_kitchen",
+            "x": 24,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Trash Can Hidden Item (Top)",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Top)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_kitchen",
+            "x": 232,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Trash Can Hidden Item (Middle)",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Middle)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_kitchen",
+            "x": 232,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Trash Can Hidden Item (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Bottom)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_kitchen",
+            "x": 232,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Room 2",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/1F Room 2 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Trash Can Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Corridor - Trash Can Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 344,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Room 2",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Room 2 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 104,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Room 3",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Room 3 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 168,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Room 5",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Room 5 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 296,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Room 2",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/2F Room 2 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 168,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Room 4",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/2F Room 4 - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 296,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Captain",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/Captain's Office - Captain",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_captains_office",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

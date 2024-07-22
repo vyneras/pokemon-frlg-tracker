@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Dotted Hole",
+    "children": [
+      {
+        "name": "Gideon",
+        "sections": [
+          {
+            "ref": "Dungeons/Dotted Hole/Sapphire Room - Learn Rocket Warehouse Password (Event)",
+            "name": "Learn Rocket Warehouse Password (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_sapphire_room",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

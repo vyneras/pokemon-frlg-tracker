@@ -1,0 +1,491 @@
+[
+  {
+    "name": "Silph Co.",
+    "children": [
+      {
+        "name": "Southwest Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./2F - Southwest Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 184,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Southeast Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./3F - Southeast Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 552,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./3F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 136,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Southeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - Southeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 488,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Southeast Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - Southeast Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 568,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "West Room Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - West Room Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 40,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "West Room Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - West Room Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 72,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "West Room Item (Middle)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - West Room Item (Middle)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 56,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Center Room Northeast Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Center Room Northeast Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 520,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Center Room Southwest Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Center Room Southwest Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 216,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "South Hallway Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - South Hallway Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 360,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 24,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Northwest Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - Northwest Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 24,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item (Top)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - Southwest Room Item (Top)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 40,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - Southwest Room Item (Bottom)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 24,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 8,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "East Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - East Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "East Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - East Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 360,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "East Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - East Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 392,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "East Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - East Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 472,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "West Room Hidden Item Near Boxes",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./9F - West Room Hidden Item Near Boxes",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 184,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "West Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./9F - West Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Southwest Room Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 40,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Southwest Room Item (Bottom)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 56,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Southwest Room Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 88,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "East Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - East Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "East Hallway Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - East Hallway Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 264,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "South Hallway Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - South Hallway Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 168,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "President",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - Liberate Silph Co. (Event)",
+            "name": "Liberate Silph Co. (Event)"
+          },
+          {
+            "ref": "Dungeons/Silph Co./11F - President",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

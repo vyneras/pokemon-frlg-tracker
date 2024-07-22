@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Memorial Pillar",
+    "children": [
+      {
+        "name": "Tall Grass North Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Tall Grass North Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass South Hidden Item (Left)",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Tall Grass South Hidden Item (Left)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass South Hidden Item (Right)",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Tall Grass South Hidden Item (Right)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 280,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Memorial Man",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Memorial Man",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 136,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "South Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/South Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 72,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "South Beach Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/South Beach Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 136,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Trainer Tower Exterior",
+    "children": [
+      {
+        "name": "Hidden Item Near Fence",
+        "sections": [
+          {
+            "ref": "Islands/Trainer Tower Exterior/Hidden Item Near Fence",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 344,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Beach West Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Trainer Tower Exterior/Beach West Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 152,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Beach North Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Trainer Tower Exterior/Beach North Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 184,
+            "y": 440
+          }
+        ]
+      }
+    ]
+  }
+]

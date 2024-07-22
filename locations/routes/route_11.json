@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Route 11",
+    "children": [
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 216,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Tall Grass Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 88,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Trees",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Item Behind Trees",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 424,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Northeast Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Northeast Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 344,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "East Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Professor Oak's Aide"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 344,
+            "y": 168
+          },
+          {
+            "map": "route_11_east",
+            "x": 456,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Bond Bridge",
+    "children": [
+      {
+        "name": "Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Bond Bridge/Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_east",
+            "x": 248,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "East Beach Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Bond Bridge/East Beach Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 712,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "West Beach Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Bond Bridge/West Beach Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 536,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Berry Forest",
+        "sections": [
+          {
+            "ref": "Dungeons/Berry Forest/Center Hidden Item (Right)",
+            "name": "Center Hidden Item (Right)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/East Hidden Item (Left)",
+            "name": "East Hidden Item (Left)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Southeast Hidden Item",
+            "name": "Southeast Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/East Hidden Item (Right)",
+            "name": "East Hidden Item (Right)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Northeast Hidden Item",
+            "name": "Northeast Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Item Near North Pond",
+            "name": "Item Near North Pond"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Center Hidden Item (Left)",
+            "name": "Center Hidden Item (Left)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Hidden Item Near West Pond (Right)",
+            "name": "Hidden Item Near West Pond (Right)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Hidden Item Near West Pond (Left)",
+            "name": "Hidden Item Near West Pond (Left)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Northwest Hidden Item (Bottom)",
+            "name": "Northwest Hidden Item (Bottom)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Northwest Item",
+            "name": "Northwest Item"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Northwest Hidden Item (Top)",
+            "name": "Northwest Hidden Item (Top)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/North Hidden Item",
+            "name": "North Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Hidden Item Near Southwest Pond",
+            "name": "Hidden Item Near Southwest Pond"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Item Past Southwest Pond",
+            "name": "Item Past Southwest Pond"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Rescue Lostelle (Event)",
+            "name": "Rescue Lostelle (Event)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Lostelle",
+            "name": "Lostelle"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Hidden Item Near Lostelle",
+            "name": "Hidden Item Near Lostelle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 208,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

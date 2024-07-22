@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Green Path",
+    "children": [
+      {
+        "name": "West Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Green Path/West Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_west",
+            "x": 200,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

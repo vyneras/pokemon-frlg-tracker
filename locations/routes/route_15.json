@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Route 15",
+    "children": [
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 328,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "West Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Professor Oak's Aide"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 152,
+            "y": 184
+          },
+          {
+            "map": "route_15_west",
+            "x": 264,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  }
+]

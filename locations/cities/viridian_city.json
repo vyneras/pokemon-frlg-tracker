@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Viridian City",
+    "children": [
+      {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Poké Mart Clerk",
+            "name": "Clerk"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 584,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Item Near Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Item Near Cuttable Tree",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Old Man",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Old Man",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 344,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Viridian Gym",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Defeat Giovanni (Event)",
+            "name": "Defeat Giovanni (Event)"
+          },
+          {
+            "ref": "Cities/Viridian City/Leader Giovanni Prize",
+            "name": "Leader Giovanni Prize"
+          },
+          {
+            "ref": "Cities/Viridian City/Leader Giovanni Reward",
+            "name": "Leader Giovanni Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Hidden Item Under Giovanni",
+            "name": "Hidden Item Under Giovanni"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 584,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  }
+]

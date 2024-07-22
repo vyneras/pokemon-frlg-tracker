@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Indigo Plateau",
+    "children": [
+      {
+        "name": "Pokémon League",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Defeat Champion (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

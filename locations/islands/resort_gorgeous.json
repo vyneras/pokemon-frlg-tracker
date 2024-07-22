@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Resort Gorgeous",
+    "children": [
+      {
+        "name": "West Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/West Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Main Island Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Main Island Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 440,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Main Island Southwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Main Island Southwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 440,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Main Island Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Main Island Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 56,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Lost Cave",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 10 - Item",
+            "name": "Room 10 - Item"
+          },
+          {
+            "ref": "Dungeons/Lost Cave/Room 11 - Item",
+            "name": "Room 11 - Item"
+          },
+          {
+            "ref": "Dungeons/Lost Cave/Room 12 - Item",
+            "name": "Room 12 - Item"
+          },
+          {
+            "ref": "Dungeons/Lost Cave/Room 13 - Item",
+            "name": "Room 13 - Item"
+          },
+          {
+            "ref": "Dungeons/Lost Cave/Room 14 - Item",
+            "name": "Room 14 - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  }
+]

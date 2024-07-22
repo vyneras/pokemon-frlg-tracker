@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Cerulean Cave",
+    "children": [
+      {
+        "name": "East Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - East Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 536,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "West Plateau Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - West Plateau Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 200,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "West Plateau Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - West Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 120,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "West Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - West Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 152,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Center Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - Center Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 472,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "East Plateau Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - East Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 408,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_b1f",
+            "x": 520,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "East Plateau Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - East Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_b1f",
+            "x": 504,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

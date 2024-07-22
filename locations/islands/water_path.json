@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Water Path",
+    "children": [
+      {
+        "name": "Tall Grass North Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Tall Grass North Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_center",
+            "x": 216,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass South Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Tall Grass South Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_south",
+            "x": 248,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "South Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/South Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_south",
+            "x": 280,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "North Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/North Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "North Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/North Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 280,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  }
+]

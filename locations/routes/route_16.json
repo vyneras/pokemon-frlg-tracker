@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Route 16",
+    "children": [
+      {
+        "name": "Fly House",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Fly House Woman",
+            "name": "Woman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 168,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Under Snorlax",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Hidden Item Under Snorlax",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 504,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "North Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Professor Oak's Aide"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 328,
+            "y": 216
+          },
+          {
+            "map": "route_16",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  }
+]

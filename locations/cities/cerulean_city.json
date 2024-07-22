@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Cerulean City",
+    "children": [
+      {
+        "name": "Hidden Item Behind Badge Guy's House",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Hidden Item Behind Badge Guy's House",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 296,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Berry Powder Man's House",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Berry Powder Man",
+            "name": "Man"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Rival",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Rival Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 376,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Gym",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Defeat Misty (Event)",
+            "name": "Defeat Misty (Event)"
+          },
+          {
+            "ref": "Cities/Cerulean City/Leader Misty Prize",
+            "name": "Leader Misty Prize"
+          },
+          {
+            "ref": "Cities/Cerulean City/Leader Misty Reward",
+            "name": "Leader Misty Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 504,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Bike Shop",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Bike Shop Owner",
+            "name": "Owner"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 224,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 536,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - East Item",
+            "name": "2F - East Item"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - West Plateau Hidden Item",
+            "name": "1F - West Plateau Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - West Plateau Item",
+            "name": "1F - West Plateau Item"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - West Item",
+            "name": "2F - West Item"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - Southwest Item",
+            "name": "1F - Southwest Item"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - Center Item",
+            "name": "2F - Center Item"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - East Plateau Item",
+            "name": "1F - East Plateau Item"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Northeast Item",
+            "name": "B1F - Northeast Item"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - East Plateau Item",
+            "name": "B1F - East Plateau Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 24,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  }
+]

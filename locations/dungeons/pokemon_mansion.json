@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Pokémon Mansion",
+    "children": [
+      {
+        "name": "West Rubble Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - West Rubble Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 40,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Item Between North Pillars",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Item Between North Pillars",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 360,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Gate",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Item Behind Gate",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 440,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 152,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "West Balcony Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/2F - West Balcony Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 296,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Northeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/2F - Northeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 584,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Northeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - Northeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 520,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "East Hallway Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - East Hallway Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 584,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Item Near East Balcony",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/2F - Item Near East Balcony",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 568,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Item Near B1F Stairs",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Item Near B1F Stairs",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 472,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Southwest Hallway Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Southwest Hallway Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 40,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Northeast Room Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Northeast Room Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 568,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "North Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - North Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 376,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 88,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 104,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  }
+]

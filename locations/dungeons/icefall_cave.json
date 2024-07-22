@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Icefall Cave",
+    "children": [
+      {
+        "name": "Center Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/1F - Center Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 184,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "East Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/B1F - East Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "x": 344,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/B1F - Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Southeast Ledge Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/1F - Southeast Ledge Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Southeast Ledge Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/Back - Help Lorelei (Event)",
+            "name": "Help Lorelei (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_back",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  }
+]

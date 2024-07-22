@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Rock Tunnel",
+    "children": [
+      {
+        "name": "Northeast Area Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rock Tunnel/1F - Northeast Area Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 600,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Southeast Area Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rock Tunnel/B1F - Southeast Area Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "x": 40,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Northwest Area Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rock Tunnel/1F - Northwest Area Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 360,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Northwest Area Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rock Tunnel/B1F - Northwest Area Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "x": 152,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "South Area Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rock Tunnel/1F - South Area Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 536,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  }
+]

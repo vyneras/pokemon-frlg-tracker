@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Tanoby Ruins",
+    "children": [
+      {
+        "name": "Viapois Chamber Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Viapois Chamber Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Scufib Chamber Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Scufib Chamber Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 536,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Weepth Chamber Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Weepth Chamber Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Monean Chamber Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Monean Chamber Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 456,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

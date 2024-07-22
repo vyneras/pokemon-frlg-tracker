@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Mt. Moon",
+    "children": [
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 184,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "West Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - West Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 40,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "First Tunnel East Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel East Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 632,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "First Tunnel West Rock Hidden Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel West Rock Hidden Item (Right)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 408,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "First Tunnel West Rock Hidden Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel West Rock Hidden Item (Left)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 392,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Isolated Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Isolated Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 488,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "South Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - South Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 424,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Southeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 680,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "East Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - East Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 712,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Second Tunnel Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - Second Tunnel Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 424,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Northeast Plateau Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Northeast Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 568,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Northeast Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Northeast Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 632,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 56,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Third Tunnel Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - Third Tunnel Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 104,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "North Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - North Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 392,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Rock Near Fossils Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Rock Near Fossils Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 328,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Dome Fossil",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Dome Fossil",
+            "name": "Fossil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 216,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Helix Fossil",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Helix Fossil",
+            "name": "Fossil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 232,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 56,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Fourth Tunnel Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - Fourth Tunnel Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 744,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

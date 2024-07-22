@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Viridian Forest",
+    "children": [
+      {
+        "name": "Hidden Item Near South Entrance",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Hidden Item Near South Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 456,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "West Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/West Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Southeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 792,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 648,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Center Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Center Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 344,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near North Entrance",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Hidden Item Near North Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 56,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  }
+]

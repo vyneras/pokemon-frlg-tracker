@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Celadon City",
+    "children": [
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 88,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Condominiums",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Tea Woman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Department Store",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Buy Lemonade (Event)",
+            "name": "Buy Lemonade (Event)"
+          },
+          {
+            "ref": "Cities/Celadon City/Girl's Fresh Water Reward",
+            "name": "Girl's Fresh Water Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Girl's Soda Pop Reward",
+            "name": "Girl's Soda Pop Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Girl's Lemonade Reward",
+            "name": "Girl's Lemonade Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 184,
+            "y": 232
+          },
+          {
+            "map": "celadon_city",
+            "x": 248,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Restaurant",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Coin Case Man"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 600,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Hidden Item Near Cuttable Tree",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 888,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Celadon Gym",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Defeat Erika (Event)",
+            "name": "Defeat Erika (Event)"
+          },
+          {
+            "ref": "Cities/Celadon City/Leader Erika Prize",
+            "name": "Leader Erika Prize"
+          },
+          {
+            "ref": "Cities/Celadon City/Leader Erika Reward",
+            "name": "Leader Erika Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 184,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - West Room Item",
+            "name": "B1F - West Room Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southeast Plant Hidden Item",
+            "name": "B1F - Southeast Plant Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northeast Item",
+            "name": "B2F - Maze Northeast Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northwest Item (Left)",
+            "name": "B2F - Maze Northwest Item (Left)"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northwest Item (Right)",
+            "name": "B2F - Maze Northwest Item (Right)"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Southwest Item",
+            "name": "B2F - Maze Southwest Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Item",
+            "name": "B1F - Southwest Room Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - East Room Item",
+            "name": "B3F - East Room Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Northwest Hidden Item",
+            "name": "B3F - Northwest Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Maze Item",
+            "name": "B3F - Maze Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Item Near B4F Stairs",
+            "name": "B3F - Item Near B4F Stairs"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - West Room Item",
+            "name": "B4F - West Room Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Northwest Room Item",
+            "name": "B4F - Northwest Room Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Rocket Grunt's Item",
+            "name": "B4F - Rocket Grunt's Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Southwest Room Item",
+            "name": "B4F - Southwest Room Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni's Item",
+            "name": "B4F - Giovanni's Item"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni's Room Hidden Item Between West Plants",
+            "name": "B4F - Giovanni's Room Hidden Item Between West Plants"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni's Room Hidden Item Between East Plants",
+            "name": "B4F - Giovanni's Room Hidden Item Between East Plants"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 552,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  }
+]

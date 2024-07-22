@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Pallet Town",
+    "children": [
+      {
+        "name": "Oak's Lab",
+        "sections": [
+          {
+            "ref": "Cities/Pallet Town/Deliver Oak's Parcel (Event)",
+            "name": "Deliver Oak's Parcel (Event)"
+          },
+          {
+            "ref": "Cities/Pallet Town/Oak's Parcel Delivery Reward",
+            "name": "Oak's Parcel Delivery Reward"
+          },
+          {
+            "ref": "Cities/Pallet Town/Oak's Post Route 22 Rival Reward",
+            "name": "Oak's Post Route 22 Rival Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 264,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Rival's House",
+        "sections": [
+          {
+            "ref": "Cities/Pallet Town/Daisy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Oak's Post Champion Rewards",
+        "sections": [
+          {
+            "ref": "Cities/Pallet Town/Oak's Post Champion Reward 1",
+            "name": "Reward 1"
+          },
+          {
+            "ref": "Cities/Pallet Town/Oak's Post Champion Reward 2",
+            "name": "Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  }
+]

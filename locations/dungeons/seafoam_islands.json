@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Seafoam Islands",
+    "children": [
+      {
+        "name": "Plateau Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/1F - Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "x": 184,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Center Plateau Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B1F - Center Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 392,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Item Below Center Plateau",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B2F - Item Below Center Plateau",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 296,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "South Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B1F - South Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 312,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "West Plateau Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B3F - West Plateau Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "x": 88,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "West Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - West Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "x": 216,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "South Peninsula Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - South Peninsula Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  }
+]

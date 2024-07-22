@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Route 12",
+    "children": [
+      {
+        "name": "North Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/North Entrance 2F Lass",
+            "name": "Lass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 232,
+            "y": 248
+          },
+          {
+            "map": "route_12_north",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "North Island Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/North Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 296,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Grass Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Grass Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 296,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Under Snorlax",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Hidden Item Under Snorlax",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 232,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Fishing Guru's Brother's House",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Fishing Guru's Brother"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 200,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Item Behind Cuttable Tree",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 152,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Tall Grass Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 152,
+            "y": 520
+          }
+        ]
+      }
+    ]
+  }
+]

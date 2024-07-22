@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Rocket Warehouse",
+    "children": [
+      {
+        "name": "Maze South Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze South Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 136,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Maze Center Box Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze Center Box Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 120,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Maze West Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze West Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 24,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 72,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "North Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/North Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 280,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Scientist Gideon",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Scientist Gideon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 440,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Northeast Room Box Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Northeast Room Box Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 440,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

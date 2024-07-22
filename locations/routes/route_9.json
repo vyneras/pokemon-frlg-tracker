@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Route 9",
+    "children": [
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 9/Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_9_west",
+            "x": 200,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Northwest Ledge Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 9/Northwest Ledge Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_9_west",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 9/Southeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_9_east",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Northeast Ledge Hidden Item (Left)",
+        "sections": [
+          {
+            "ref": "Routes/Route 9/Northeast Ledge Hidden Item (Left)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_9_east",
+            "x": 200,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Northeast Ledge Hidden Item (Right)",
+        "sections": [
+          {
+            "ref": "Routes/Route 9/Northeast Ledge Hidden Item (Right)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_9_east",
+            "x": 440,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

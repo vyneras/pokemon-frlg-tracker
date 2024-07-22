@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Route 21",
+    "children": [
+      {
+        "name": "East Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/East Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 280,
+            "y": 680
+          }
+        ]
+      }
+    ]
+  }
+]

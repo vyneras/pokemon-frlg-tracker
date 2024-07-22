@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Pokémon Tower",
+    "children": [
+      {
+        "name": "North Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - North Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 216,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Center Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Center Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 200,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Center Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Center Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "South Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - South Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 120,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Healing Area Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Healing Area Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 184,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 104,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Southeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 248,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 88,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Mr. Fuji",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - Rescue Mr. Fuji (Event)",
+            "name": "Rescue Mr. Fuji (Event)"
+          },
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - Hidden Item Between Statues",
+            "name": "Hidden Item Between Statues"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 184,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Three Island",
+    "children": [
+      {
+        "name": "Anti-Biker",
+        "sections": [
+          {
+            "ref": "Islands/Three Island/Anti-Biker",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 120,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Item Behind East Fence",
+        "sections": [
+          {
+            "ref": "Islands/Three Island/Item Behind East Fence",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 296,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind West Fence",
+        "sections": [
+          {
+            "ref": "Islands/Three Island/Hidden Item Behind West Fence",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 88,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  }
+]

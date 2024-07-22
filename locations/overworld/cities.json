@@ -1,0 +1,650 @@
+[
+  {
+    "name": "Cities",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "Pallet Town",
+        "sections": [
+          {
+            "name": "Deliver Oak's Parcel (Event)",
+            "hosted_item": "deliver_oaks_parcel_hosted",
+            "access_rules": [
+              "oaks_parcel"
+            ]
+          },
+          {
+            "name": "Oak's Parcel Delivery Reward",
+            "chest_unopened_img": "images/locations/oak_pokeball.png",
+            "chest_opened_img": "images/locations/oak_pokeball_bw.png",
+            "access_rules": [
+              "oaks_parcel"
+            ]
+          },
+          {
+            "name": "Daisy",
+            "chest_unopened_img": "images/locations/daisy_town_map.png",
+            "chest_opened_img": "images/locations/daisy_town_map_bw.png",
+            "access_rules": [
+              "deliver_oaks_parcel"
+            ]
+          },
+          {
+            "name": "Oak's Post Route 22 Rival Reward",
+            "chest_unopened_img": "images/locations/oak_pokeball.png",
+            "chest_opened_img": "images/locations/oak_pokeball_bw.png",
+            "access_rules": [
+              "deliver_oaks_parcel,defeat_route_22_rival"
+            ]
+          },
+          {
+            "name": "Oak's Post Champion Reward 1",
+            "chest_unopened_img": "images/locations/oak_mystic_ticket.png",
+            "chest_opened_img": "images/locations/oak_mystic_ticket_bw.png",
+            "access_rules": [
+              "defeat_champion"
+            ]
+          },
+          {
+            "name": "Oak's Post Champion Reward 2",
+            "chest_unopened_img": "images/locations/oak_aurora_ticket.png",
+            "chest_opened_img": "images/locations/oak_aurora_ticket_bw.png",
+            "access_rules": [
+              "defeat_champion"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 44,
+            "y": 108
+          },
+          {
+            "map": "kanto",
+            "x": 44,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Viridian City",
+        "sections": [
+          {
+            "name": "Poké Mart Clerk",
+            "chest_unopened_img": "images/locations/clerk_oaks_parcel.png",
+            "chest_opened_img": "images/locations/clerk_oaks_parcel_bw.png"
+          },
+          {
+            "name": "Item Near Cuttable Tree"
+          },
+          {
+            "name": "Old Man",
+            "chest_unopened_img": "images/locations/old_man_teachy_tv.png",
+            "chest_opened_img": "images/locations/old_man_teachy_tv_bw.png",
+            "access_rules": [
+              "deliver_oaks_parcel",
+              "viridian_city_open"
+            ]
+          },
+          {
+            "name": "Defeat Giovanni (Event)",
+            "hosted_item": "defeat_giovanni_hosted",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ]
+          },
+          {
+            "name": "Leader Giovanni Prize",
+            "chest_unopened_img": "images/locations/giovanni_earth_badge.png",
+            "chest_opened_img": "images/locations/giovanni_earth_badge_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ]
+          },
+          {
+            "name": "Leader Giovanni Reward",
+            "chest_unopened_img": "images/locations/giovanni_ground_tm.png",
+            "chest_opened_img": "images/locations/giovanni_ground_tm_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ]
+          },
+          {
+            "name": "Hidden Item Under Giovanni",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req,itemfinder"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 44,
+            "y": 84
+          },
+          {
+            "map": "kanto",
+            "x": 44,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Pewter City",
+        "access_rules": [
+          "@Pewter City Access"
+        ],
+        "sections": [
+          {
+            "name": "Defeat Brock (Event)",
+            "hosted_item": "defeat_brock_hosted"
+          },
+          {
+            "name": "Leader Brock Prize",
+            "chest_unopened_img": "images/locations/brock_boulder_badge.png",
+            "chest_opened_img": "images/locations/brock_boulder_badge_bw.png"
+          },
+          {
+            "name": "Leader Brock Reward",
+            "chest_unopened_img": "images/locations/brock_rock_tm.png",
+            "chest_opened_img": "images/locations/brock_rock_tm_bw.png"
+          },
+          {
+            "name": "Northwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Pewter Museum 1F Scientist",
+            "chest_unopened_img": "images/locations/scientist_old_amber.png",
+            "chest_opened_img": "images/locations/scientist_old_amber_bw.png",
+            "access_rules": [
+              "$cut"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 44,
+            "y": 52
+          },
+          {
+            "map": "kanto",
+            "x": 44,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Cerulean City",
+        "access_rules": [
+          "@Cerulean City Access"
+        ],
+        "sections": [
+          {
+            "name": "Hidden Item Behind Badge Guy's House",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Berry Powder Man",
+            "chest_unopened_img": "images/locations/old_man_powder_jar.png",
+            "chest_opened_img": "images/locations/old_man_powder_jar_bw.png"
+          },
+          {
+            "name": "Rival Reward",
+            "chest_unopened_img": "images/locations/rival_fame_checker.png",
+            "chest_opened_img": "images/locations/rival_fame_checker_bw.png"
+          },
+          {
+            "name": "Defeat Misty (Event)",
+            "hosted_item": "defeat_misty_hosted"
+          },
+          {
+            "name": "Leader Misty Prize",
+            "chest_unopened_img": "images/locations/misty_cascade_badge.png",
+            "chest_opened_img": "images/locations/misty_cascade_badge_bw.png"
+          },
+          {
+            "name": "Leader Misty Reward",
+            "chest_unopened_img": "images/locations/misty_water_tm.png",
+            "chest_opened_img": "images/locations/misty_water_tm_bw.png"
+          },
+          {
+            "name": "Bike Shop Owner",
+            "chest_unopened_img": "images/locations/clerk_bicycle.png",
+            "chest_opened_img": "images/locations/clerk_bicycle_bw.png",
+            "access_rules": [
+              "bike_voucher",
+              "{}"
+            ]
+          },
+          {
+            "name": "Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/rocket_male_ground_tm.png",
+            "chest_opened_img": "images/locations/rocket_male_ground_tm_bw.png",
+            "access_rules": [
+              "@Cerulean City Outskirts Access"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 124,
+            "y": 44
+          },
+          {
+            "map": "kanto",
+            "x": 124,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Vermilion City",
+        "access_rules": [
+          "@Vermilion City Access"
+        ],
+        "sections": [
+          {
+            "name": "Hidden Item Near Pokémon Center",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Vs. Seeker Woman",
+            "chest_unopened_img": "images/locations/cooltrainer_female_vs_seeker.png",
+            "chest_opened_img": "images/locations/cooltrainer_female_vs_seeker_bw.png"
+          },
+          {
+            "name": "Fishing Guru",
+            "chest_unopened_img": "images/locations/fisherman_old_rod.png",
+            "chest_opened_img": "images/locations/fisherman_old_rod_bw.png"
+          },
+          {
+            "name": "Pokémon Fan Club Chairman",
+            "chest_unopened_img": "images/locations/gentleman_bike_voucher.png",
+            "chest_opened_img": "images/locations/gentleman_bike_voucher_bw.png"
+          },
+          {
+            "name": "Defeat Lt. Surge (Event)",
+            "hosted_item": "defeat_lt_surge_hosted",
+            "access_rules": [
+              "$cut",
+              "$surf"
+            ]
+          },
+          {
+            "name": "Leader Lt. Surge Prize",
+            "chest_unopened_img": "images/locations/lt_surge_thunder_badge.png",
+            "chest_opened_img": "images/locations/lt_surge_thunder_badge_bw.png",
+            "access_rules": [
+              "$cut",
+              "$surf"
+            ]
+          },
+          {
+            "name": "Leader Lt. Surge Reward",
+            "chest_unopened_img": "images/locations/lt_surge_thunder_tm.png",
+            "chest_opened_img": "images/locations/lt_surge_thunder_tm_bw.png",
+            "access_rules": [
+              "$cut",
+              "$surf"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 124,
+            "y": 92
+          },
+          {
+            "map": "kanto",
+            "x": 124,
+            "y": 92
+          }
+        ]
+      },
+      {
+        "name": "Lavender Town",
+        "access_rules": [
+          "@Lavender Town Access"
+        ],
+        "sections": [
+          {
+            "name": "Mr. Fuji",
+            "chest_unopened_img": "images/locations/mr_fuji_poke_flute.png",
+            "chest_opened_img": "images/locations/mr_fuji_poke_flute_bw.png",
+            "access_rules": [
+              "rescue_mr_fuji"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 68
+          },
+          {
+            "map": "kanto",
+            "x": 156,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Celadon City",
+        "access_rules": [
+          "@Celadon City Access"
+        ],
+        "sections": [
+          {
+            "name": "Northwest Item"
+          },
+          {
+            "name": "Tea Woman",
+            "chest_unopened_img": "images/locations/old_woman_tea.png",
+            "chest_opened_img": "images/locations/old_woman_tea_bw.png"
+          },
+          {
+            "name": "Buy Lemonade (Event)",
+            "hosted_item": "lemonade_hosted"
+          },
+          {
+            "name": "Girl's Fresh Water Reward",
+            "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
+            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
+          },
+          {
+            "name": "Girl's Soda Pop Reward",
+            "chest_unopened_img": "images/locations/little_girl_normal_tm.png",
+            "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png"
+          },
+          {
+            "name": "Girl's Lemonade Reward",
+            "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
+            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
+          },
+          {
+            "name": "Coin Case Man",
+            "chest_unopened_img": "images/locations/balding_man_coin_case.png",
+            "chest_opened_img": "images/locations/balding_man_coin_case_bw.png"
+          },
+          {
+            "name": "Hidden Item Near Cuttable Tree",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Defeat Erika (Event)",
+            "hosted_item": "defeat_erika_hosted",
+            "access_rules": [
+              "$cut"
+            ]
+          },
+          {
+            "name": "Leader Erika Prize",
+            "chest_unopened_img": "images/locations/erika_rainbow_badge.png",
+            "chest_opened_img": "images/locations/erika_rainbow_badge_bw.png",
+            "access_rules": [
+              "$cut"
+            ]
+          },
+          {
+            "name": "Leader Erika Reward",
+            "chest_unopened_img": "images/locations/erika_grass_tm.png",
+            "chest_opened_img": "images/locations/erika_grass_tm_bw.png",
+            "access_rules": [
+              "$cut"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 100,
+            "y": 68
+          },
+          {
+            "map": "kanto",
+            "x": 100,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia City",
+        "access_rules": [
+          "@Fuchsia City Access"
+        ],
+        "sections": [
+          {
+            "name": "Fishing Guru's Brother",
+            "chest_unopened_img": "images/locations/fisherman_good_rod.png",
+            "chest_opened_img": "images/locations/fisherman_good_rod_bw.png"
+          },
+          {
+            "name": "Hidden Item Behind Fishing Guru's House",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Safari Zone Warden",
+            "chest_unopened_img": "images/locations/old_man_normal_tm.png",
+            "chest_opened_img": "images/locations/old_man_normal_tm_bw.png",
+            "access_rules": [
+              "gold_teeth"
+            ]
+          },
+          {
+            "name": "Warden's House Item",
+            "access_rules": [
+              "$strength"
+            ]
+          },
+          {
+            "name": "Defeat Koga (Event)",
+            "hosted_item": "defeat_koga_hosted"
+          },
+          {
+            "name": "Leader Koga Prize",
+            "chest_unopened_img": "images/locations/koga_soul_badge.png",
+            "chest_opened_img": "images/locations/koga_soul_badge_bw.png"
+          },
+          {
+            "name": "Leader Koga Reward",
+            "chest_unopened_img": "images/locations/koga_poison_tm.png",
+            "chest_opened_img": "images/locations/koga_poison_tm_bw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 108,
+            "y": 116
+          },
+          {
+            "map": "kanto",
+            "x": 108,
+            "y": 116
+          }
+        ]
+      },
+      {
+        "name": "Saffron City",
+        "access_rules": [
+          "@Saffron City Access"
+        ],
+        "sections": [
+          {
+            "name": "Mr. Psychic",
+            "chest_unopened_img": "images/locations/balding_man_psychic_tm.png",
+            "chest_opened_img": "images/locations/balding_man_psychic_tm_bw.png"
+          },
+          {
+            "name": "Copycat's House 2F Desk Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "liberate_silph_co,^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Defeat Sabrina (Event)",
+            "hosted_item": "defeat_sabrina_hosted",
+            "access_rules": [
+              "liberate_silph_co"
+            ]
+          },
+          {
+            "name": "Leader Sabrina Prize",
+            "chest_unopened_img": "images/locations/sabrina_marsh_badge.png",
+            "chest_opened_img": "images/locations/sabrina_marsh_badge_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ]
+          },
+          {
+            "name": "Leader Sabrina Reward",
+            "chest_unopened_img": "images/locations/sabrina_psychic_tm.png",
+            "chest_opened_img": "images/locations/sabrina_psychic_tm_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 124,
+            "y": 68
+          },
+          {
+            "map": "kanto",
+            "x": 124,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Cinnabar Island",
+        "access_rules": [
+          "@Cinnabar Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Defeat Blaine (Event)",
+            "hosted_item": "defeat_blaine_hosted",
+            "access_rules": [
+              "secret_key"
+            ]
+          },
+          {
+            "name": "Leader Blaine Prize",
+            "chest_unopened_img": "images/locations/blaine_volcano_badge.png",
+            "chest_opened_img": "images/locations/blaine_volcano_badge_bw.png",
+            "access_rules": [
+              "secret_key"
+            ]
+          },
+          {
+            "name": "Leader Blaine Reward",
+            "chest_unopened_img": "images/locations/blaine_fire_tm.png",
+            "chest_opened_img": "images/locations/blaine_fire_tm_bw.png",
+            "access_rules": [
+              "secret_key"
+            ]
+          },
+          {
+            "name": "Bill",
+            "chest_unopened_img": "images/locations/bill_tri_pass.png",
+            "chest_opened_img": "images/locations/bill_tri_pass_bw.png",
+            "access_rules": [
+              "defeat_blaine"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 44,
+            "y": 132
+          },
+          {
+            "map": "kanto",
+            "x": 44,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau",
+        "access_rules": [
+          "$has_route_22_gate_req,$surf,$has_route_23_guard_req,$strength,$has_e4_req"
+        ],
+        "sections": [
+          {
+            "name": "Defeat Champion (Event)",
+            "hosted_item": "defeat_champion_hosted"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 28,
+            "y": 44
+          },
+          {
+            "map": "kanto",
+            "x": 28,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  }
+]

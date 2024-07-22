@@ -13,11 +13,7 @@ Tracker:AddItems("items/settings.json")
 
 Tracker:AddMaps("maps/maps.json")
 
-Tracker:AddLocations("locations/access.json")
-Tracker:AddLocations("locations/cities.json")
-Tracker:AddLocations("locations/dungeons.json")
-Tracker:AddLocations("locations/islands.json")
-Tracker:AddLocations("locations/routes.json")
+ScriptHost:LoadScript("scripts/locations.lua")
 
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/events.json")

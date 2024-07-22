@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Navel Rock",
+    "children": [
+      {
+        "name": "Hidden Item Near Ho-Oh",
+        "sections": [
+          {
+            "ref": "Islands/Navel Rock/Hidden Item Near Ho-Oh",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit",
+            "x": 152,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  }
+]

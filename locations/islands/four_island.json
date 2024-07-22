@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Four Island",
+    "children": [
+      {
+        "name": "Beach Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Four Island/Beach Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 360,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Beach Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Four Island/Beach Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 104,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Beach Item",
+        "sections": [
+          {
+            "ref": "Islands/Four Island/Beach Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 88,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Northeast Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Four Island/Northeast Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 520,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/1F - Center Item",
+            "name": "1F - Center Item"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/B1F - East Item",
+            "name": "B1F - East Item"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/B1F - Southwest Item",
+            "name": "B1F - Southwest Item"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/1F - Southeast Ledge Item",
+            "name": "1F - Southeast Ledge Item"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Back - Help Lorelei (Event)",
+            "name": "Back - Help Lorelei (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 616,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  }
+]

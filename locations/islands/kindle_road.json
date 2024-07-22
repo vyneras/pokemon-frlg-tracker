@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Kindle Road",
+    "children": [
+      {
+        "name": "Plateau Item",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Isolated Beach Item",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Isolated Beach Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 280,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Smashable Rock",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Item Behind Smashable Rock",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 248,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Ember Spa",
+        "sections": [
+          {
+            "ref": "Islands/Ember Spa/Rock Smash Man"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 248,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Hidden Item Near West Cave Entrance",
+            "name": "Exterior - Hidden Item Near West Cave Entrance"
+          },
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - East Item",
+            "name": "Exterior - East Item"
+          },
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Item Near Summit",
+            "name": "Exterior - Item Near Summit"
+          },
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Northwest Rock Hidden Item",
+            "name": "Exterior - Northwest Rock Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - West Item",
+            "name": "Exterior - West Item"
+          },
+          {
+            "ref": "Dungeons/Mt. Ember/Ruby Path B5F - Ruby",
+            "name": "Ruby Path B5F - Ruby"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_north",
+            "x": 192,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

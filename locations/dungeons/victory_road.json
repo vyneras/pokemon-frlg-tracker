@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Victory Road",
+    "children": [
+      {
+        "name": "North Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - North Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 264,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "North Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - North Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 232,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "North Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - North Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Center Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - Center Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Item Below Plateau",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Item Below Plateau",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 232,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Item Above Plateau",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Item Above Plateau",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 408,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 648,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 616,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 200,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 280,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

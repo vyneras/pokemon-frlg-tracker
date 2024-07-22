@@ -39,38 +39,19 @@
         },
         {
           "type": "dock",
-					"content":
-          {
-						"type": "layout",
-						"key": "map_layout"
-					}
+          "content": {
+            "type": "layout",
+            "key": "map_layout"
+          }
         }
       ]
     }
   },
   "settings_popup": {
-    "type": "array",
-    "orientation": "vertical",
-    "h_alignment": "left",
-    "content": [
-      {
-        "type": "group",
-        "header": "Settings",
-        "dock": "bottom",
-        "content": {
-          "type": "layout",
-          "key": "setting_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Requirements",
-        "dock": "bottom",
-        "content": {
-          "type": "layout",
-          "key": "requirement_grid"
-        }
-      }
-    ]
+    "type": "dock",
+    "content": {
+      "type": "layout",
+      "key": "setting_layout"
+    }
   }
 }

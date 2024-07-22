@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Ruin Valley",
+    "children": [
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/Southeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 696,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 88,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Plateau Item",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 312,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  }
+]

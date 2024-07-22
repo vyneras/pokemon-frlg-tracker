@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Route 24",
+    "children": [
+      {
+        "name": "Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 200,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Northwest Ledge Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Northwest Ledge Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 184,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Northeast Ledge Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Northeast Ledge Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 312,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Route 13",
+    "children": [
+      {
+        "name": "Maze South Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Maze South Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_west",
+            "x": 376,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  }
+]

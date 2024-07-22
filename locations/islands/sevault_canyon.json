@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Sevault Canyon",
+    "children": [
+      {
+        "name": "North Item",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/North Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 280,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Item",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Tall Grass Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 120,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Smashable Rocks",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Item Behind Smashable Rocks",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 296,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Chansey House",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Chansey House Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Chansey House",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Hidden Item Near Chansey House",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 248,
+            "y": 424
+          }
+        ]
+      }
+    ]
+  }
+]

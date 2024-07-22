@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Vermilion City",
+    "children": [
+      {
+        "name": "Hidden Item Near Pokémon Center",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Hidden Item Near Pokémon Center",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Vs. Seeker Woman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 248,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Fishing Guru's House",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Fishing Guru"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Fan Club",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Pokémon Fan Club Chairman",
+            "name": "Chairman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 200,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Gym",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Defeat Lt. Surge (Event)",
+            "name": "Defeat Lt. Surge (Event)"
+          },
+          {
+            "ref": "Cities/Vermilion City/Leader Lt. Surge Prize",
+            "name": "Leader Lt. Surge Prize"
+          },
+          {
+            "ref": "Cities/Vermilion City/Leader Lt. Surge Reward",
+            "name": "Leader Lt. Surge Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/East Pier Hidden Item",
+            "name": "East Pier Hidden Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Kitchen - Item",
+            "name": "Kitchen - Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Top)",
+            "name": "Kitchen - Trash Can Hidden Item (Top)"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Middle)",
+            "name": "Kitchen - Trash Can Hidden Item (Middle)"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Bottom)",
+            "name": "Kitchen - Trash Can Hidden Item (Bottom)"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/1F Room 2 - Item",
+            "name": "1F Room 2 - Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Corridor - Trash Can Hidden Item",
+            "name": "B1F Corridor - Trash Can Hidden Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Room 2 - Item",
+            "name": "B1F Room 2 - Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Room 3 - Item",
+            "name": "B1F Room 3 - Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Room 5 - Item",
+            "name": "B1F Room 5 - Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/2F Room 2 - Item",
+            "name": "2F Room 2 - Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/2F Room 4 - Item",
+            "name": "2F Room 4 - Item"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Captain's Office - Captain",
+            "name": "Captain's Office - Captain"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 376,
+            "y": 552
+          }
+        ]
+      }
+    ]
+  }
+]

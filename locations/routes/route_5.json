@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Route 5",
+    "children": [
+      {
+        "name": "Underground Path North-South Tunnel",
+        "sections": [
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Farthest North Hidden Item",
+            "name": "Farthest North Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Far North Hidden Item",
+            "name": "Far North Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/North Hidden Item",
+            "name": "North Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Center Hidden Item",
+            "name": "Center Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/South Hidden Item",
+            "name": "South Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Far South Hidden Item",
+            "name": "Far South Hidden Item"
+          },
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Farthest South Hidden Item",
+            "name": "Farthest South Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "x": 504,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  }
+]

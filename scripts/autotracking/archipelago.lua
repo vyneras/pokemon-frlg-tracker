@@ -2,6 +2,7 @@ ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 
 CUR_INDEX = -1
 
@@ -136,6 +137,15 @@ function onNotifyLaunch(key, value)
     end
 end
 
+function onBounce(json)
+    local data = json["data"]
+    if data then
+        if data["type"] == "MapUpdate" then
+            updateMap(data["mapId"], data["sectionId"])
+        end
+    end
+end
+
 function updateEvents(value)
     if value ~= nil then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -145,7 +155,8 @@ function updateEvents(value)
             local bitmask = 2 ^ bit
             for _, code in pairs(codes) do
                 if code == "lemonade" then
-                    Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or value & bitmask ~= 0
+                    Tracker:FindObjectForCode(code).Active =
+                        Tracker:FindObjectForCode(code).Active or value & bitmask ~= 0
                 else
                     Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
                 end
@@ -163,8 +174,20 @@ function updatePokedex(value)
     end
 end
 
+function updateMap(mapId, sectionId)
+    if has("auto_tab_on") then
+        local tabs = TAB_MAPPING[mapId][sectionId]
+        if tabs then
+            for _, tab in ipairs(tabs) do
+                Tracker:UiHint("ActivateTab", tab)
+            end
+        end
+    end
+end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddBouncedHandler("bounce handler", onBounce)

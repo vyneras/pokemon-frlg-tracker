@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Cape Brink",
+    "children": [
+      {
+        "name": "Hidden Item Across Pond",
+        "sections": [
+          {
+            "ref": "Islands/Cape Brink/Hidden Item Across Pond",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cape_brink",
+            "x": 264,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind House",
+        "sections": [
+          {
+            "ref": "Islands/Cape Brink/Hidden Item Behind House",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cape_brink",
+            "x": 248,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Route 22",
+    "children": [
+      {
+        "name": "Rival",
+        "sections": [
+          {
+            "ref": "Routes/Route 22/Defeat Rival (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_22",
+            "x": 408,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

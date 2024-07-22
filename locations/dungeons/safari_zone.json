@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Safari Zone",
+    "children": [
+      {
+        "name": "Island Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/Center - Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 392,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/Center - Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 440,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Southeast Plateau Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/East - Southeast Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 584,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/East - Tall Grass Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 504,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Item Near Bush",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/East - Item Near Bush",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 216,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Item Near Rest House",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/East - Item Near Rest House",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 600,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "South Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/North - South Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Center Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/North - Center Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 456,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "North Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/North - North Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 536,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/West - Southeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 440,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/West - Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 264,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/West - Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 456,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/West - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 280,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Secret House",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/West - Hidden Item Near Secret House",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 216,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Secret House",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/Secret House - Attendent",
+            "name": "Attendent"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 200,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

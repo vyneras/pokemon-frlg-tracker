@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ember Spa",
+    "children": [
+      {
+        "name": "Rock Smash Man",
+        "sections": [
+          {
+            "ref": "Islands/Ember Spa/Rock Smash Man",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ember_spa",
+            "x": 168,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

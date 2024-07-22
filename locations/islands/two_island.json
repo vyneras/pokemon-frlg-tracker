@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Two Island",
+    "children": [
+      {
+        "name": "Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Islands/Two Island/Item Behind Cuttable Tree",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 632,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Market Stall",
+        "sections": [
+          {
+            "ref": "Islands/Two Island/Buy Lemonade (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 456,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Game Corner",
+        "sections": [
+          {
+            "ref": "Islands/Two Island/Deliver Meteorite (Event)",
+            "name": "Deliver Meteorite (Event)"
+          },
+          {
+            "ref": "Islands/Two Island/Lostelle's Father",
+            "name": "Lostelle's Father"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 632,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

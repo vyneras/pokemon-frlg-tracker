@@ -1,0 +1,31 @@
+[
+  {
+    "name": "One Island",
+    "children": [
+      {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Islands/One Island/Bill",
+            "name": "Bill"
+          },
+          {
+            "ref": "Islands/One Island/Celio",
+            "name": "Celio"
+          },
+          {
+            "ref": "Islands/One Island/Restore Pokémon Network Machine (Event)",
+            "name": "Restore Pokémon Network Machine (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 232,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

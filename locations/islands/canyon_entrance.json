@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Canyon Entrance",
+    "children": [
+      {
+        "name": "Southwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Canyon Entrance/Southwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 136,
+            "y": 472
+          }
+        ]
+      }
+    ]
+  }
+]
