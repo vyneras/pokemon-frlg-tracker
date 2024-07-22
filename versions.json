@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "1.2.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.2.0.zip",
+      "sha256": "8f67d1b88db8d4df8d7128118c3ee4541e128bccf73c661a700338750f65d789",
+      "changelog": [
+        "Updated icon for most checks",
+        "Added maps for most areas of the game",
+        "Added new auto tab feature for the newly added maps"
+      ]
+    },
+    {
       "package_version": "1.1.2",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.1.2.zip",
       "sha256": "70d86f6293a7b380e7d0a1597c4e5bccd99d14b95e6fde354d91994f9d91f23b",
