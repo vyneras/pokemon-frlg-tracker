@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "1.2.1",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.2.1.zip",
+      "sha256": "cda7e7f2ca184b6c8576b758f3c80ceaec66a1c2ea7af10400e3909e6287864f",
+      "changelog": [
+        "Fixed the Navel Rock Base map",
+        "Fixed the auto tracking for the B1F Mt. Moon First Tunnel Hidden Items"
+      ]
+    },
+    {
       "package_version": "1.2.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.2.0.zip",
       "sha256": "8f67d1b88db8d4df8d7128118c3ee4541e128bccf73c661a700338750f65d789",
