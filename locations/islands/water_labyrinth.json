@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Water Labyrinth",
+    "children": [
+      {
+        "name": "Pokémon Breeder Alize",
+        "sections": [
+          {
+            "ref": "Islands/Water Labyrinth/Pokémon Breeder Alize Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_labyrinth_west",
+            "x": 152,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

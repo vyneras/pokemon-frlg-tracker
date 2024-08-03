@@ -17,6 +17,166 @@
             "y": 232
           }
         ]
+      },
+      {
+        "name": "Beauty Lola",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Beauty Lola Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_east",
+            "x": 104,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Beauty Sheila",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Beauty Sheila Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_east",
+            "x": 88,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Biker Jared",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Biker Jared Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_west",
+            "x": 232,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Perry",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Bird Keeper Perry Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_west",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Robert",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Bird Keeper Robert Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_west",
+            "x": 152,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Sebastian",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Bird Keeper Sebastian Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_east",
+            "x": 424,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Alma",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Picnicker Alma Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_east",
+            "x": 408,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Gwen",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Picnicker Gwen Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_west",
+            "x": 472,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Susie",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Picnicker Susie Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_east",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Valerie",
+        "sections": [
+          {
+            "ref": "Routes/Route 13/Picnicker Valerie Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_13_west",
+            "x": 568,
+            "y": 168
+          }
+        ]
       }
     ]
   }

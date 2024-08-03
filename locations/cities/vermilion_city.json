@@ -68,12 +68,28 @@
         "name": "Vermilion Gym",
         "sections": [
           {
+            "ref": "Cities/Vermilion City/Sailor Dwayne Reward",
+            "name": "Sailor Dwayne Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Engineer Baily Reward",
+            "name": "Engineer Baily Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Gentleman Tucker Reward",
+            "name": "Gentleman Tucker Reward"
+          },
+          {
             "ref": "Cities/Vermilion City/Defeat Lt. Surge (Event)",
             "name": "Defeat Lt. Surge (Event)"
           },
           {
             "ref": "Cities/Vermilion City/Leader Lt. Surge Prize",
             "name": "Leader Lt. Surge Prize"
+          },
+          {
+            "ref": "Cities/Vermilion City/Leader Lt. Surge TM",
+            "name": "Leader Lt. Surge TM"
           },
           {
             "ref": "Cities/Vermilion City/Leader Lt. Surge Reward",
@@ -85,70 +101,6 @@
             "map": "vermilion_city",
             "x": 232,
             "y": 408
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne",
-        "sections": [
-          {
-            "ref": "Dungeons/S.S. Anne/East Pier Hidden Item",
-            "name": "East Pier Hidden Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/Kitchen - Item",
-            "name": "Kitchen - Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Top)",
-            "name": "Kitchen - Trash Can Hidden Item (Top)"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Middle)",
-            "name": "Kitchen - Trash Can Hidden Item (Middle)"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/Kitchen - Trash Can Hidden Item (Bottom)",
-            "name": "Kitchen - Trash Can Hidden Item (Bottom)"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/1F Room 2 - Item",
-            "name": "1F Room 2 - Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/B1F Corridor - Trash Can Hidden Item",
-            "name": "B1F Corridor - Trash Can Hidden Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/B1F Room 2 - Item",
-            "name": "B1F Room 2 - Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/B1F Room 3 - Item",
-            "name": "B1F Room 3 - Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/B1F Room 5 - Item",
-            "name": "B1F Room 5 - Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/2F Room 2 - Item",
-            "name": "2F Room 2 - Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/2F Room 4 - Item",
-            "name": "2F Room 4 - Item"
-          },
-          {
-            "ref": "Dungeons/S.S. Anne/Captain's Office - Captain",
-            "name": "Captain's Office - Captain"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 376,
-            "y": 552
           }
         ]
       }

@@ -8,6 +8,22 @@ SLOT_CODES = {
             [2] = 2 -- All Hidden Items Shuffled
         }
     },
+    extra_key_items = {
+        code = "extra_key_items_setting",
+        type = "progressive",
+        mapping = {
+          [0] = 0, -- Extra Key Items Off
+          [1] = 1, -- Extra Key Items On
+        }
+    },
+    trainersanity = {
+      code = "trainersanity_setting",
+      type = "progressive",
+      mapping = {
+        [0] = 0, -- Trainersanity Off
+        [1] = 1, -- Trainersanity On
+      }
+  },
     itemfinder_required = {
         code = "itemfinder_setting",
         type = "progressive",
@@ -134,20 +150,33 @@ SLOT_CODES = {
         mapping = {
             [0] = 0, -- None
             [2] = 1, -- Pewter
-            [3] = 2, -- Cerulean
-            [4] = 3, -- Vermilion
-            [5] = 4, -- Lavender
-            [6] = 5, -- Celadon
-            [7] = 6, -- Fuchsia
-            [8] = 7, -- Saffron
-            [9] = 8, -- Cinnabar
-            [10] = 9, -- One Island
-            [11] = 10, -- Two Island
-            [12] = 11, -- Three Island
-            [13] = 12, -- Four Island
-            [14] = 13, -- Five Island
-            [15] = 14, -- Six Island
-            [16] = 15 -- Seven Island
+            [3] = 2, -- Route 4
+            [4] = 3, -- Cerulean
+            [5] = 4, -- Vermilion
+            [6] = 5, -- Route 10
+            [7] = 6, -- Lavender
+            [8] = 7, -- Celadon
+            [9] = 8, -- Fuchsia
+            [10] = 9, -- Saffron
+            [11] = 10, -- Cinnabar
+            [12] = 11, -- Indigo
+            [13] = 12, -- One Island
+            [14] = 13, -- Two Island
+            [15] = 14, -- Three Island
+            [16] = 15, -- Four Island
+            [17] = 16, -- Five Island
+            [18] = 17, -- Six Island
+            [19] = 18 -- Seven Island
         }
     }
+}
+
+BADGE_FOR_HM = {
+  ["Cut"] = "cascade_badge_required",
+  ["Fly"] = "thunder_badge_required",
+  ["Surf"] = "soul_badge_required",
+  ["Strength"] = "rainbow_badge_required",
+  ["Flash"] = "boulder_badge_required",
+  ["Rock Smash"] = "marsh_badge_required",
+  ["Waterfall"] = "volcano_badge_required"
 }

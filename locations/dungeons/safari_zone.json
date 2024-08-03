@@ -1,6 +1,6 @@
 [
   {
-    "name": "Safari Zone",
+    "name": "Safari Zone Center",
     "children": [
       {
         "name": "Island Item",
@@ -33,7 +33,12 @@
             "y": 248
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone East",
+    "children": [
       {
         "name": "Southeast Plateau Item",
         "sections": [
@@ -97,7 +102,12 @@
             "y": 248
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone North",
+    "children": [
       {
         "name": "South Item",
         "sections": [
@@ -145,7 +155,12 @@
             "y": 88
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone West",
+    "children": [
       {
         "name": "Southeast Item",
         "sections": [

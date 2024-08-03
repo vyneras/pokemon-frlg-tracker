@@ -9,4 +9,5 @@ function initialize_watch_items()
         ScriptHost:AddWatchForCode(code, code, toggle_item)
         ScriptHost:AddWatchForCode(code .. "_hosted", code .. "_hosted", toggle_hosted_item)
     end
+    ScriptHost:AddWatchForCode("extra_key_items", "extra_key_items_setting", toggle_item_grid)
 end

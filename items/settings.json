@@ -6,7 +6,7 @@
     "stages": [
       {
         "img": "images/settings/hidden_items.png",
-        "img_mods": "@disabled",
+        "img_mods": "overlay|/images/overlays/off.png,@disabled",
         "codes": "hidden_setting,hidden_off",
         "inherit_codes": false,
         "name": "Shuffle Hidden Items - Off"
@@ -27,6 +27,48 @@
     ]
   },
   {
+    "name": "Extra Key Items",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/extra_key_items.png",
+        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "codes": "extra_key_items_setting,extra_key_items_off",
+        "inherit_codes": false,
+        "name": "Trainersanity - Off"
+      },
+      {
+        "img": "images/settings/extra_key_items.png",
+        "img_mods": "overlay|/images/overlays/on.png",
+        "codes": "extra_key_items_setting,extra_key_items_on",
+        "inherit_codes": false,
+        "name": "Extra Key Items - On"
+      }
+    ]
+  },
+  {
+    "name": "Trainersanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/trainer.png",
+        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "codes": "trainersanity_setting,trainersanity_off",
+        "inherit_codes": false,
+        "name": "Trainersanity - Off"
+      },
+      {
+        "img": "images/settings/trainer.png",
+        "img_mods": "overlay|/images/overlays/on.png",
+        "codes": "trainersanity_setting,trainersanity_on",
+        "inherit_codes": false,
+        "name": "Trainersanity - On"
+      }
+    ]
+  },
+  {
     "name": "Itemfinder Required",
     "type": "progressive",
     "allow_disabled": false,
@@ -34,7 +76,7 @@
     "stages": [
       {
         "img": "images/settings/itemfinder.png",
-        "img_mods": "@disabled",
+        "img_mods": "overlay|/images/overlays/off.png,@disabled",
         "codes": "itemfinder_setting,itemfinder_off",
         "inherit_codes": false,
         "name": "Itemfinder Required - Off"
@@ -403,6 +445,55 @@
     "codes": "route_15_oaks_aide_count"
   },
   {
+    "name": "Boulder Badge Required",
+    "type": "toggle",
+    "img": "images/settings/boulder_badge.png",
+    "initial_active_state": true,
+    "codes": "boulder_badge_required"
+  },
+  {
+    "name": "Cascade Badge Required",
+    "type": "toggle",
+    "img": "images/settings/cascade_badge.png",
+    "initial_active_state": true,
+    "codes": "cascade_badge_required"
+  },
+  {
+    "name": "Thunder Badge Required",
+    "type": "toggle",
+    "img": "images/settings/thunder_badge.png",
+    "initial_active_state": true,
+    "codes": "thunder_badge_required"
+  },
+  {
+    "name": "Rainbow Badge Required",
+    "type": "toggle",
+    "img": "images/settings/rainbow_badge.png",
+    "initial_active_state": true,
+    "codes": "rainbow_badge_required"
+  },
+  {
+    "name": "Soul Badge Required",
+    "type": "toggle",
+    "img": "images/settings/soul_badge.png",
+    "initial_active_state": true,
+    "codes": "soul_badge_required"
+  },
+  {
+    "name": "Marsh Badge Required",
+    "type": "toggle",
+    "img": "images/settings/marsh_badge.png",
+    "initial_active_state": true,
+    "codes": "marsh_badge_required"
+  },
+  {
+    "name": "Volcano Badge Required",
+    "type": "toggle",
+    "img": "images/settings/volcano_badge.png",
+    "initial_active_state": true,
+    "codes": "volcano_badge_required"
+  },
+  {
     "name": "Free Fly Location",
     "type": "progressive",
     "allow_disabled": false,
@@ -421,6 +512,12 @@
         "name": "Free Fly Location - Pewter City"
       },
       {
+        "img": "images/settings/free_fly_route_4.png",
+        "codes": "free_fly_setting,free_fly_route_4",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Route 4"
+      },
+      {
         "img": "images/settings/free_fly_cerulean.png",
         "codes": "free_fly_setting,free_fly_cerulean",
         "inherit_codes": false,
@@ -431,6 +528,12 @@
         "codes": "free_fly_setting,free_fly_vermilion",
         "inherit_codes": false,
         "name": "Free Fly Location - Vermilion City"
+      },
+      {
+        "img": "images/settings/free_fly_route_10.png",
+        "codes": "free_fly_setting,free_fly_route_10",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Route 10"
       },
       {
         "img": "images/settings/free_fly_lavender.png",
@@ -461,6 +564,12 @@
         "codes": "free_fly_setting,free_fly_cinnabar",
         "inherit_codes": false,
         "name": "Free Fly Location - Cinnabar Island"
+      },
+      {
+        "img": "images/settings/free_fly_indigo.png",
+        "codes": "free_fly_setting,free_fly_indigo",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Indigo Plateau"
       },
       {
         "img": "images/settings/free_fly_one_island.png",

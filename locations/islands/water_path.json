@@ -81,6 +81,102 @@
             "y": 312
           }
         ]
+      },
+      {
+        "name": "Hiker Earl",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Hiker Earl Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_south",
+            "x": 184,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Juggler Edward",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Juggler Edward Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_center",
+            "x": 184,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Denise",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Swimmer Denise Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_center",
+            "x": 248,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Samir",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Swimmer Samir Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_center",
+            "x": 216,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Aroma Lady Rose",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Aroma Lady Rose Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 200,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Twins Miu & Mia Rose",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Twins Miu & Mia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 112,
+            "y": 344
+          }
+        ]
       }
     ]
   }

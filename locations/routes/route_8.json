@@ -51,42 +51,194 @@
         ]
       },
       {
-        "name": "Underground Path East-West Tunnel",
+        "name": "Biker Jaren",
         "sections": [
           {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Farthest East Hidden Item",
-            "name": "Farthest East Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Far East Hidden Item",
-            "name": "Far East Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/East Hidden Item",
-            "name": "East Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Center Hidden Item",
-            "name": "Center Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/West Hidden Item",
-            "name": "West Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Far West Hidden Item",
-            "name": "Far West Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Farthest West Hidden Item",
-            "name": "Farthest West Hidden Item"
+            "ref": "Routes/Route 8/Biker Jaren Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "route_8_west",
-            "x": 216,
+            "x": 392,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Biker Ricardo",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Biker Ricardo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 232,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Gamer Rich",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Gamer Rich Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 376,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Gamer Stan",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Gamer Stan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 344,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Lass Andrea",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Lass Andrea Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 472,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Lass Julia",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Lass Julia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 488,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Lass Megan",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Lass Megan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 472,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Lass Paige",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Lass Paige Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 472,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Aiden",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Super Nerd Aiden Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Glenn",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Super Nerd Glenn Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 312,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Leslie",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Super Nerd Leslie Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 472,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Twins Eli & Anne",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Twins Eli & Anne Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 144,
+            "y": 56
           }
         ]
       }

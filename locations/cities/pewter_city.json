@@ -6,12 +6,20 @@
         "name": "Pewter Gym",
         "sections": [
           {
+            "ref": "Cities/Pewter City/Camper Liam Reward",
+            "name": "Camper Liam Reward"
+          },
+          {
             "ref": "Cities/Pewter City/Defeat Brock (Event)",
             "name": "Defeat Brock (Event)"
           },
           {
             "ref": "Cities/Pewter City/Leader Brock Prize",
             "name": "Leader Brock Prize"
+          },
+          {
+            "ref": "Cities/Pewter City/Leader Brock TM",
+            "name": "Leader Brock TM"
           },
           {
             "ref": "Cities/Pewter City/Leader Brock Reward",

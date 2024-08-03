@@ -65,6 +65,70 @@
             "y": 88
           }
         ]
+      },
+      {
+        "name": "Ruin Maniac Brandon",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Ruin Maniac Brandon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 568,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Gentleman Clifford",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Gentleman Clifford Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Painter Edna",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Painter Edna Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 264,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Benjamin",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Ruin Maniac Benjamin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 392,
+            "y": 184
+          }
+        ]
       }
     ]
   }

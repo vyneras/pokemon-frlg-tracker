@@ -101,6 +101,150 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Camper Flint",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Camper Flint Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 456,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Hiker Franklin",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hiker Franklin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 184,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Hiker Nob",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hiker Nob Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 440,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Hiker Wayne",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hiker Wayne Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 280,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Lass Haley",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Lass Haley Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Kelsey",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Picnicker Kelsey Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 360,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Youngster Chad",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Youngster Chad Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 8,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Youngster Dan",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Youngster Dan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 360,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Youngster Joey",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Youngster Joey Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 296,
+            "y": 40
+          }
+        ]
       }
     ]
   }

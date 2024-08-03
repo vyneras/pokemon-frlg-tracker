@@ -8,6 +8,14 @@
         "name": "Pallet Town",
         "sections": [
           {
+            "name": "Rival Reward",
+            "chest_unopened_img": "images/locations/rival.png",
+            "chest_opened_img": "images/locations/rival_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Deliver Oak's Parcel (Event)",
             "hosted_item": "deliver_oaks_parcel_hosted",
             "access_rules": [
@@ -15,7 +23,7 @@
             ]
           },
           {
-            "name": "Oak's Parcel Delivery Reward",
+            "name": "Oak's Parcel Delivery Gift",
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
@@ -31,7 +39,7 @@
             ]
           },
           {
-            "name": "Oak's Post Route 22 Rival Reward",
+            "name": "Oak's Post Route 22 Rival Gift",
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
@@ -39,7 +47,7 @@
             ]
           },
           {
-            "name": "Oak's Post Champion Reward 1",
+            "name": "Oak's Post Champion Gift 1",
             "chest_unopened_img": "images/locations/oak_mystic_ticket.png",
             "chest_opened_img": "images/locations/oak_mystic_ticket_bw.png",
             "access_rules": [
@@ -47,7 +55,7 @@
             ]
           },
           {
-            "name": "Oak's Post Champion Reward 2",
+            "name": "Oak's Post Champion Gift 2",
             "chest_unopened_img": "images/locations/oak_aurora_ticket.png",
             "chest_opened_img": "images/locations/oak_aurora_ticket_bw.png",
             "access_rules": [
@@ -89,6 +97,94 @@
             ]
           },
           {
+            "name": "Tamer Cole Reward",
+            "chest_unopened_img": "images/locations/man.png",
+            "chest_opened_img": "images/locations/man_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Kiyo Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cooltrainer Samuel Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cooltrainer Yuji Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Atsushi Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Tamer Jason Reward",
+            "chest_unopened_img": "images/locations/man.png",
+            "chest_opened_img": "images/locations/man_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cooltrainer Warren Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Takashi Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Defeat Giovanni (Event)",
             "hosted_item": "defeat_giovanni_hosted",
             "access_rules": [
@@ -104,11 +200,22 @@
             ]
           },
           {
-            "name": "Leader Giovanni Reward",
+            "name": "Leader Giovanni TM",
             "chest_unopened_img": "images/locations/giovanni_ground_tm.png",
             "chest_opened_img": "images/locations/giovanni_ground_tm_bw.png",
             "access_rules": [
               "@Pewter City Access,$has_giovanni_req"
+            ]
+          },
+          {
+            "name": "Leader Giovanni Reward",
+            "chest_unopened_img": "images/locations/giovanni.png",
+            "chest_opened_img": "images/locations/giovanni_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -143,6 +250,14 @@
         ],
         "sections": [
           {
+            "name": "Camper Liam Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Defeat Brock (Event)",
             "hosted_item": "defeat_brock_hosted"
           },
@@ -152,9 +267,17 @@
             "chest_opened_img": "images/locations/brock_boulder_badge_bw.png"
           },
           {
-            "name": "Leader Brock Reward",
+            "name": "Leader Brock TM",
             "chest_unopened_img": "images/locations/brock_rock_tm.png",
             "chest_opened_img": "images/locations/brock_rock_tm_bw.png"
+          },
+          {
+            "name": "Leader Brock Reward",
+            "chest_unopened_img": "images/locations/brock.png",
+            "chest_opened_img": "images/locations/brock_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           },
           {
             "name": "Northwest Hidden Item",
@@ -212,9 +335,44 @@
             "chest_opened_img": "images/locations/old_man_powder_jar_bw.png"
           },
           {
-            "name": "Rival Reward",
+            "name": "Rival",
             "chest_unopened_img": "images/locations/rival_fame_checker.png",
             "chest_opened_img": "images/locations/rival_fame_checker_bw.png"
+          },
+          {
+            "name": "Rival Reward",
+            "chest_unopened_img": "images/locations/rival.png",
+            "chest_opened_img": "images/locations/rival_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Hidden Item In Water",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "$surf,itemfinder"
+            ],
+            "visibility_rules": [
+              "extra_key_items_on"
+            ]
+          },
+          {
+            "name": "Swimmer Luis Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Diana Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           },
           {
             "name": "Defeat Misty (Event)",
@@ -226,9 +384,17 @@
             "chest_opened_img": "images/locations/misty_cascade_badge_bw.png"
           },
           {
-            "name": "Leader Misty Reward",
+            "name": "Leader Misty TM",
             "chest_unopened_img": "images/locations/misty_water_tm.png",
             "chest_opened_img": "images/locations/misty_water_tm_bw.png"
+          },
+          {
+            "name": "Leader Misty Reward",
+            "chest_unopened_img": "images/locations/misty.png",
+            "chest_opened_img": "images/locations/misty_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           },
           {
             "name": "Bike Shop Owner",
@@ -240,11 +406,22 @@
             ]
           },
           {
-            "name": "Team Rocket Grunt Reward",
+            "name": "Team Rocket Grunt",
             "chest_unopened_img": "images/locations/rocket_male_ground_tm.png",
             "chest_opened_img": "images/locations/rocket_male_ground_tm_bw.png",
             "access_rules": [
               "@Cerulean City Outskirts Access"
+            ]
+          },
+          {
+            "name": "Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/rocket_male.png",
+            "chest_opened_img": "images/locations/rocket_male_bw.png",
+            "access_rules": [
+              "@Cerulean City Outskirts Access"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -294,6 +471,42 @@
             "chest_opened_img": "images/locations/gentleman_bike_voucher_bw.png"
           },
           {
+            "name": "Sailor Dwayne Reward",
+            "chest_unopened_img": "images/locations/sailor.png",
+            "chest_opened_img": "images/locations/sailor_bw.png",
+            "access_rules": [
+              "$cut",
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Engineer Baily Reward",
+            "chest_unopened_img": "images/locations/balding_man.png",
+            "chest_opened_img": "images/locations/balding_man_bw.png",
+            "access_rules": [
+              "$cut",
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Gentleman Tucker Reward",
+            "chest_unopened_img": "images/locations/gentleman.png",
+            "chest_opened_img": "images/locations/gentleman_bw.png",
+            "access_rules": [
+              "$cut",
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Defeat Lt. Surge (Event)",
             "hosted_item": "defeat_lt_surge_hosted",
             "access_rules": [
@@ -311,12 +524,24 @@
             ]
           },
           {
-            "name": "Leader Lt. Surge Reward",
+            "name": "Leader Lt. Surge TM",
             "chest_unopened_img": "images/locations/lt_surge_thunder_tm.png",
             "chest_opened_img": "images/locations/lt_surge_thunder_tm_bw.png",
             "access_rules": [
               "$cut",
               "$surf"
+            ]
+          },
+          {
+            "name": "Leader Lt. Surge Reward",
+            "chest_unopened_img": "images/locations/lt_surge.png",
+            "chest_opened_img": "images/locations/lt_surge_bw.png",
+            "access_rules": [
+              "$cut",
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -380,17 +605,17 @@
             "hosted_item": "lemonade_hosted"
           },
           {
-            "name": "Girl's Fresh Water Reward",
+            "name": "Girl's Fresh Water Gift",
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
             "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
           },
           {
-            "name": "Girl's Soda Pop Reward",
+            "name": "Girl's Soda Pop Gift",
             "chest_unopened_img": "images/locations/little_girl_normal_tm.png",
             "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png"
           },
           {
-            "name": "Girl's Lemonade Reward",
+            "name": "Girl's Lemonade Gift",
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
             "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
           },
@@ -398,6 +623,12 @@
             "name": "Coin Case Man",
             "chest_unopened_img": "images/locations/balding_man_coin_case.png",
             "chest_opened_img": "images/locations/balding_man_coin_case_bw.png"
+          },
+          {
+            "name": "Rocket House Item",
+            "visibility_rules": [
+              "extra_key_items_on"
+            ]
           },
           {
             "name": "Hidden Item Near Cuttable Tree",
@@ -408,6 +639,91 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/rocket_male.png",
+            "chest_opened_img": "images/locations/rocket_male_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Kay Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Beauty Bridget Reward",
+            "chest_unopened_img": "images/locations/beauty.png",
+            "chest_opened_img": "images/locations/beauty_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Beauty Tamia Reward",
+            "chest_unopened_img": "images/locations/beauty.png",
+            "chest_opened_img": "images/locations/beauty_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Tina Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cooltrainer Mary Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_female.png",
+            "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Beauty Lori Reward",
+            "chest_unopened_img": "images/locations/beauty.png",
+            "chest_opened_img": "images/locations/beauty_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Lisa Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -426,11 +742,22 @@
             ]
           },
           {
-            "name": "Leader Erika Reward",
+            "name": "Leader Erika TM",
             "chest_unopened_img": "images/locations/erika_grass_tm.png",
             "chest_opened_img": "images/locations/erika_grass_tm_bw.png",
             "access_rules": [
               "$cut"
+            ]
+          },
+          {
+            "name": "Leader Erika Reward",
+            "chest_unopened_img": "images/locations/erika.png",
+            "chest_opened_img": "images/locations/erika_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -484,6 +811,62 @@
             ]
           },
           {
+            "name": "Safari Zone Office Worker",
+            "chest_unopened_img": "images/locations/worker_safari_pass.png",
+            "chest_opened_img": "images/locations/worker_safari_pass_bw.png",
+            "visibility_rules": [
+              "extra_key_items_on"
+            ]
+          },
+          {
+            "name": "Juggler Nate Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Juggler Kayden Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Juggler Kirk Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Tamer Edgar Reward",
+            "chest_unopened_img": "images/locations/man.png",
+            "chest_opened_img": "images/locations/man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Tamer Phil Reward",
+            "chest_unopened_img": "images/locations/man.png",
+            "chest_opened_img": "images/locations/man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Juggler Shawn Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Defeat Koga (Event)",
             "hosted_item": "defeat_koga_hosted"
           },
@@ -493,9 +876,17 @@
             "chest_opened_img": "images/locations/koga_soul_badge_bw.png"
           },
           {
-            "name": "Leader Koga Reward",
+            "name": "Leader Koga TM",
             "chest_unopened_img": "images/locations/koga_poison_tm.png",
             "chest_opened_img": "images/locations/koga_poison_tm_bw.png"
+          },
+          {
+            "name": "Leader Koga Reward",
+            "chest_unopened_img": "images/locations/koga.png",
+            "chest_opened_img": "images/locations/koga_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           }
         ],
         "map_locations": [
@@ -523,6 +914,46 @@
             "chest_opened_img": "images/locations/balding_man_psychic_tm_bw.png"
           },
           {
+            "name": "Black Belt Hideki Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Hitoshi Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Mike Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Aaron Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Koichi Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Copycat's House 2F Desk Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -531,6 +962,83 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Psychic Cameron Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Channeler Tasha Reward",
+            "chest_unopened_img": "images/locations/channeler.png",
+            "chest_opened_img": "images/locations/channeler_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Psychic Tyron Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Channeler Stacy Reward",
+            "chest_unopened_img": "images/locations/channeler.png",
+            "chest_opened_img": "images/locations/channeler_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Psychic Johan Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Channeler Amanda Reward",
+            "chest_unopened_img": "images/locations/channeler.png",
+            "chest_opened_img": "images/locations/channeler_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Psychic Preston Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -549,11 +1057,22 @@
             ]
           },
           {
-            "name": "Leader Sabrina Reward",
+            "name": "Leader Sabrina TM",
             "chest_unopened_img": "images/locations/sabrina_psychic_tm.png",
             "chest_opened_img": "images/locations/sabrina_psychic_tm_bw.png",
             "access_rules": [
               "liberate_silph_co"
+            ]
+          },
+          {
+            "name": "Leader Sabrina Reward",
+            "chest_unopened_img": "images/locations/sabrina.png",
+            "chest_opened_img": "images/locations/sabrina_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -577,6 +1096,91 @@
         ],
         "sections": [
           {
+            "name": "Pokémon Lab Research Room Scientist",
+            "chest_unopened_img": "images/locations/scientist_letter.png",
+            "chest_opened_img": "images/locations/scientist_letter_bw.png",
+            "visibility_rules": [
+              "extra_key_items_on"
+            ]
+          },
+          {
+            "name": "Burglar Quinn Reward",
+            "chest_unopened_img": "images/locations/super_nerd.png",
+            "chest_opened_img": "images/locations/super_nerd_bw.png",
+            "access_rules": [
+              "secret_key"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Super Nerd Erik Reward",
+            "chest_unopened_img": "images/locations/scientist.png",
+            "chest_opened_img": "images/locations/scientist_bw.png",
+            "access_rules": [
+              "secret_key"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Super Nerd Avery Reward",
+            "chest_unopened_img": "images/locations/scientist.png",
+            "chest_opened_img": "images/locations/scientist_bw.png",
+            "access_rules": [
+              "secret_key"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Burglar Ramon Reward",
+            "chest_unopened_img": "images/locations/super_nerd.png",
+            "chest_opened_img": "images/locations/super_nerd_bw.png",
+            "access_rules": [
+              "secret_key"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Super Nerd Derek Reward",
+            "chest_unopened_img": "images/locations/scientist.png",
+            "chest_opened_img": "images/locations/scientist_bw.png",
+            "access_rules": [
+              "secret_key"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Burglar Dusty Reward",
+            "chest_unopened_img": "images/locations/super_nerd.png",
+            "chest_opened_img": "images/locations/super_nerd_bw.png",
+            "access_rules": [
+              "secret_key"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Super Nerd Zac Reward",
+            "chest_unopened_img": "images/locations/scientist.png",
+            "chest_opened_img": "images/locations/scientist_bw.png",
+            "access_rules": [
+              "secret_key"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Defeat Blaine (Event)",
             "hosted_item": "defeat_blaine_hosted",
             "access_rules": [
@@ -592,11 +1196,22 @@
             ]
           },
           {
-            "name": "Leader Blaine Reward",
+            "name": "Leader Blaine TM",
             "chest_unopened_img": "images/locations/blaine_fire_tm.png",
             "chest_opened_img": "images/locations/blaine_fire_tm_bw.png",
             "access_rules": [
               "secret_key"
+            ]
+          },
+          {
+            "name": "Leader Blaine Reward",
+            "chest_unopened_img": "images/locations/blaine.png",
+            "chest_opened_img": "images/locations/blaine_bw.png",
+            "access_rules": [
+              "secret_key"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -624,12 +1239,52 @@
       {
         "name": "Indigo Plateau",
         "access_rules": [
-          "$has_route_22_gate_req,$surf,$has_route_23_guard_req,$strength,$has_e4_req"
+          "@Indigo Plateau Access,$has_e4_req"
         ],
         "sections": [
           {
+            "name": "Elite Four Lorelei Reward",
+            "chest_unopened_img": "images/locations/lorelei.png",
+            "chest_opened_img": "images/locations/lorelei_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Elite Four Bruno Reward",
+            "chest_unopened_img": "images/locations/bruno.png",
+            "chest_opened_img": "images/locations/bruno_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Elite Four Agatha Reward",
+            "chest_unopened_img": "images/locations/agatha.png",
+            "chest_opened_img": "images/locations/agatha_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Elite Four Lance Reward",
+            "chest_unopened_img": "images/locations/lance.png",
+            "chest_opened_img": "images/locations/lance_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Defeat Champion (Event)",
             "hosted_item": "defeat_champion_hosted"
+          },
+          {
+            "name": "Champion Reward",
+            "chest_unopened_img": "images/locations/rival.png",
+            "chest_opened_img": "images/locations/rival_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           }
         ],
         "map_locations": [

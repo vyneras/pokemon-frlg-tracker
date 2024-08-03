@@ -16,62 +16,6 @@
             "y": 184
           }
         ]
-      },
-      {
-        "name": "Pokémon Tower",
-        "sections": [
-          {
-            "ref": "Dungeons/Pokémon Tower/3F - North Item",
-            "name": "3F - North Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/4F - Center Item (Right)",
-            "name": "4F - Center Item (Right)"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/4F - Center Item (Left)",
-            "name": "4F - Center Item (Left)"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/4F - South Item",
-            "name": "4F - South Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/5F - Northwest Hidden Item",
-            "name": "5F - Northwest Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/5F - Healing Area Item",
-            "name": "5F - Healing Area Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/5F - Southwest Item",
-            "name": "5F - Southwest Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/6F - Southeast Item",
-            "name": "6F - Southeast Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/6F - Southwest Item",
-            "name": "6F - Southwest Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/7F - Rescue Mr. Fuji (Event)",
-            "name": "7F - Rescue Mr. Fuji (Event)"
-          },
-          {
-            "ref": "Dungeons/Pokémon Tower/7F - Hidden Item Between Statues",
-            "name": "7F - Hidden Item Between Statues"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "lavender_town",
-            "x": 296,
-            "y": 104
-          }
-        ]
       }
     ]
   }

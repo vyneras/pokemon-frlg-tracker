@@ -17,46 +17,6 @@
             "y": 248
           }
         ]
-      },
-      {
-        "name": "Underground Path East-West Tunnel",
-        "sections": [
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Farthest East Hidden Item",
-            "name": "Farthest East Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Far East Hidden Item",
-            "name": "Far East Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/East Hidden Item",
-            "name": "East Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Center Hidden Item",
-            "name": "Center Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/West Hidden Item",
-            "name": "West Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Far West Hidden Item",
-            "name": "Far West Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path East-West Tunnel/Farthest West Hidden Item",
-            "name": "Farthest West Hidden Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_7",
-            "x": 120,
-            "y": 232
-          }
-        ]
       }
     ]
   }

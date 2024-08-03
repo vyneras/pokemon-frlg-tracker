@@ -1,23 +1,7 @@
 [
   {
-    "name": "Cerulean Cave",
+    "name": "Cerulean Cave 1F",
     "children": [
-      {
-        "name": "East Item",
-        "sections": [
-          {
-            "ref": "Dungeons/Cerulean Cave/2F - East Item",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_cave_2f",
-            "x": 536,
-            "y": 200
-          }
-        ]
-      },
       {
         "name": "West Plateau Hidden Item",
         "sections": [
@@ -51,22 +35,6 @@
         ]
       },
       {
-        "name": "West Item",
-        "sections": [
-          {
-            "ref": "Dungeons/Cerulean Cave/2F - West Item",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_cave_2f",
-            "x": 152,
-            "y": 296
-          }
-        ]
-      },
-      {
         "name": "Southwest Item",
         "sections": [
           {
@@ -78,22 +46,6 @@
           {
             "map": "cerulean_cave_1f",
             "x": 184,
-            "y": 264
-          }
-        ]
-      },
-      {
-        "name": "Center Item",
-        "sections": [
-          {
-            "ref": "Dungeons/Cerulean Cave/2F - Center Item",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_cave_2f",
-            "x": 472,
             "y": 264
           }
         ]
@@ -113,7 +65,65 @@
             "y": 88
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Cave 2F",
+    "children": [
+      {
+        "name": "East Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - East Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 536,
+            "y": 200
+          }
+        ]
       },
+      {
+        "name": "West Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - West Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 152,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Center Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - Center Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 472,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Cave B1F",
+    "children": [
       {
         "name": "Northeast Item",
         "sections": [

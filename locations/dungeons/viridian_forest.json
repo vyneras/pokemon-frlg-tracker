@@ -51,6 +51,38 @@
         ]
       },
       {
+        "name": "Bug Catcher Rick",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Rick Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 760,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Doug",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Doug Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 760,
+            "y": 472
+          }
+        ]
+      },
+      {
         "name": "Northeast Item",
         "sections": [
           {
@@ -67,6 +99,39 @@
         ]
       },
       {
+        "name": "Bug Catcher Charlie",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Charlie Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 264,
+            "y": 88
+          }
+
+        ]
+      },
+      {
+        "name": "Bug Catcher Anthony",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Anthony Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 696,
+            "y": 104
+          }
+        ]
+      },
+      {
         "name": "Center Item",
         "sections": [
           {
@@ -79,6 +144,22 @@
             "map": "viridian_forest_north",
             "x": 344,
             "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Sammy",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Sammy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 120,
+            "y": 360
           }
         ]
       },

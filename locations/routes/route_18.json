@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Route 18",
+    "children": [
+      {
+        "name": "Bird Keeper Jacob",
+        "sections": [
+          {
+            "ref": "Routes/Route 18/Bird Keeper Jacob Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 264,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Ramiro",
+        "sections": [
+          {
+            "ref": "Routes/Route 18/Bird Keeper Ramiro Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 184,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Wilton",
+        "sections": [
+          {
+            "ref": "Routes/Route 18/Bird Keeper Wilton Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 152,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  }
+]

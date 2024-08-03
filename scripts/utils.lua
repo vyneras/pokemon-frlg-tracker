@@ -57,3 +57,11 @@ function toggle_hosted_item(code)
         end
     end
 end
+
+function toggle_item_grid(code)
+    if has("extra_key_items_on") then
+        Tracker:AddLayouts("layouts/items_extra.json")
+    else
+        Tracker:AddLayouts("layouts/items.json")
+    end
+end

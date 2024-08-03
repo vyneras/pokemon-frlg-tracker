@@ -6,16 +6,20 @@
         "name": "Oak's Lab",
         "sections": [
           {
+            "ref": "Cities/Pallet Town/Rival Reward",
+            "name": "Rival Reward"
+          },
+          {
             "ref": "Cities/Pallet Town/Deliver Oak's Parcel (Event)",
             "name": "Deliver Oak's Parcel (Event)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Parcel Delivery Reward",
-            "name": "Oak's Parcel Delivery Reward"
+            "ref": "Cities/Pallet Town/Oak's Parcel Delivery Gift",
+            "name": "Oak's Parcel Delivery Gift"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Post Route 22 Rival Reward",
-            "name": "Oak's Post Route 22 Rival Reward"
+            "ref": "Cities/Pallet Town/Oak's Post Route 22 Rival Gift",
+            "name": "Oak's Post Route 22 Rival Gift"
           }
         ],
         "map_locations": [
@@ -42,15 +46,15 @@
         ]
       },
       {
-        "name": "Oak's Post Champion Rewards",
+        "name": "Oak's Post Champion Gifts",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak's Post Champion Reward 1",
-            "name": "Reward 1"
+            "ref": "Cities/Pallet Town/Oak's Post Champion Gift 1",
+            "name": "Gift 1"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Post Champion Reward 2",
-            "name": "Reward 2"
+            "ref": "Cities/Pallet Town/Oak's Post Champion Gift 2",
+            "name": "Gift 2"
           }
         ],
         "map_locations": [

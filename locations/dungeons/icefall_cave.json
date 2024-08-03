@@ -1,6 +1,6 @@
 [
   {
-    "name": "Icefall Cave",
+    "name": "Icefall Cave 1F",
     "children": [
       {
         "name": "Center Item",
@@ -18,6 +18,27 @@
           }
         ]
       },
+      {
+        "name": "Southeast Ledge Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/1F - Southeast Ledge Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave B1F",
+    "children": [
       {
         "name": "East Item",
         "sections": [
@@ -49,25 +70,14 @@
             "y": 232
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave Back",
+    "children": [
       {
-        "name": "Southeast Ledge Item",
-        "sections": [
-          {
-            "ref": "Dungeons/Icefall Cave/1F - Southeast Ledge Item",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_1f",
-            "x": 200,
-            "y": 264
-          }
-        ]
-      },
-      {
-        "name": "Southeast Ledge Item",
+        "name": "Lorelei",
         "sections": [
           {
             "ref": "Dungeons/Icefall Cave/Back - Help Lorelei (Event)",
@@ -79,6 +89,22 @@
             "map": "icefall_cave_back",
             "x": 200,
             "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/Back - Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_back",
+            "x": 216,
+            "y": 232
           }
         ]
       }

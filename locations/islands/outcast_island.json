@@ -49,6 +49,86 @@
             "y": 264
           }
         ]
+      },
+      {
+        "name": "Fisherman Tylor",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/Fisherman Tylor Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 200,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Sis and Bro Ava & Geb",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/Sis and Bro Ava & Geb Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_south",
+            "x": 176,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Nicole",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/Swimmer Nicole Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_south",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Mymo",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/Swimmer Mymo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 216,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 152,
+            "y": 392
+          }
+        ]
       }
     ]
   }

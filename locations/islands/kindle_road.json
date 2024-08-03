@@ -51,53 +51,194 @@
         ]
       },
       {
-        "name": "Ember Spa",
+        "name": "Swimmer Abigail",
         "sections": [
           {
-            "ref": "Islands/Ember Spa/Rock Smash Man"
+            "ref": "Islands/Kindle Road/Swimmer Abigail Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 280,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Hugh",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Black Belt Hugh Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "kindle_road_center_top",
-            "x": 248,
-            "y": 456
+            "x": 184,
+            "y": 552
           }
         ]
       },
       {
-        "name": "Mt. Ember",
+        "name": "Black Belt Shea",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Hidden Item Near West Cave Entrance",
-            "name": "Exterior - Hidden Item Near West Cave Entrance"
-          },
+            "ref": "Islands/Kindle Road/Black Belt Shea Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - East Item",
-            "name": "Exterior - East Item"
-          },
+            "map": "kindle_road_center_top",
+            "x": 264,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Camper Bryce",
+        "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Item Near Summit",
-            "name": "Exterior - Item Near Summit"
-          },
+            "ref": "Islands/Kindle Road/Camper Bryce Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Northwest Rock Hidden Item",
-            "name": "Exterior - Northwest Rock Hidden Item"
-          },
+            "map": "kindle_road_center_bottom",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Sharon",
+        "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - West Item",
-            "name": "Exterior - West Item"
-          },
+            "ref": "Islands/Kindle Road/Crush Girl Sharon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
           {
-            "ref": "Dungeons/Mt. Ember/Ruby Path B5F - Ruby",
-            "name": "Ruby Path B5F - Ruby"
+            "map": "kindle_road_center_top",
+            "x": 152,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Tanya",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Crush Girl Tanya Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 296,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Crush Kin Mik & Kia",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Crush Kin Mik & Kia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 144,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Claire",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Picnicker Claire Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Garrett",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Swimmer Garrett Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 312,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Tommy",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Fisherman Tommy Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "kindle_road_north",
-            "x": 192,
-            "y": 104
+            "x": 248,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Maria",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Swimmer Maria Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 184,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Finn",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Swimmer Finn Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 120,
+            "y": 152
           }
         ]
       }

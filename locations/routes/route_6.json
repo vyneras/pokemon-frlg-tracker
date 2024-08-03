@@ -35,42 +35,98 @@
         ]
       },
       {
-        "name": "Underground Path North-South Tunnel",
+        "name": "Bug Catcher Elijah",
         "sections": [
           {
-            "ref": "Dungeons/Underground Path North-South Tunnel/Farthest North Hidden Item",
-            "name": "Farthest North Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path North-South Tunnel/Far North Hidden Item",
-            "name": "Far North Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path North-South Tunnel/North Hidden Item",
-            "name": "North Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path North-South Tunnel/Center Hidden Item",
-            "name": "Center Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path North-South Tunnel/South Hidden Item",
-            "name": "South Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path North-South Tunnel/Far South Hidden Item",
-            "name": "Far South Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Underground Path North-South Tunnel/Farthest South Hidden Item",
-            "name": "Farthest South Hidden Item"
+            "ref": "Routes/Route 6/Bug Catcher Elijah Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "route_6",
-            "x": 312,
-            "y": 216
+            "x": 328,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Keigo",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Bug Catcher Keigo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 56,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Camper Jeff",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Camper Jeff Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Camper Ricky",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Camper Ricky Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 200,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Isabelle",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Picnicker Isabelle Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Nancy",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Picnicker Nancy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 344
           }
         ]
       }

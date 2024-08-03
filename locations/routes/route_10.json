@@ -98,79 +98,98 @@
         ]
       },
       {
-        "name": "Rock Tunnel",
+        "name": "Picnicker Heidi",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Northeast Area Item",
-            "name": "1F - Northeast Area Item"
-          },
-          {
-            "ref": "Dungeons/Rock Tunnel/B1F - Southeast Area Item",
-            "name": "B1F - Southeast Area Item"
-          },
-          {
-            "ref": "Dungeons/Rock Tunnel/1F - Northwest Area Item",
-            "name": "1F - Northwest Area Item"
-          },
-          {
-            "ref": "Dungeons/Rock Tunnel/B1F - Northwest Area Item",
-            "name": "B1F - Northwest Area Item"
-          },
-          {
-            "ref": "Dungeons/Rock Tunnel/1F - South Area Item",
-            "name": "1F - South Area Item"
+            "ref": "Routes/Route 10 North/Picnicker Heidi Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "route_10_north",
-            "x": 136,
-            "y": 312
-          },
-          {
-            "map": "route_10_south",
-            "x": 136,
-            "y": 408
+            "x": 152,
+            "y": 440
           }
         ]
       },
       {
-        "name": "Power Plant",
+        "name": "Hiker Clark",
         "sections": [
           {
-            "ref": "Dungeons/Power Plant/Item Near Entrance",
-            "name": "Item Near Entrance"
-          },
+            "ref": "Routes/Route 10 South/Hiker Clark Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
           {
-            "ref": "Dungeons/Power Plant/Long Center Room Item (Right)",
-            "name": "Long Center Room Item (Right)"
-          },
+            "map": "route_10_south",
+            "x": 72,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Hiker Trent",
+        "sections": [
           {
-            "ref": "Dungeons/Power Plant/Long Center Room Item (Left)",
-            "name": "Long Center Room Item (Left)"
-          },
+            "ref": "Routes/Route 10 South/Hiker Trent Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
           {
-            "ref": "Dungeons/Power Plant/Southeast Room Item",
-            "name": "Southeast Room Item"
-          },
+            "map": "route_10_south",
+            "x": 72,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Carol",
+        "sections": [
           {
-            "ref": "Dungeons/Power Plant/Northeast Room Item",
-            "name": "Northeast Room Item"
-          },
-          {
-            "ref": "Dungeons/Power Plant/Center Machine Room Hidden Item",
-            "name": "Center Machine Room Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Power Plant/Hidden Item Near Zapdos",
-            "name": "Hidden Item Near Zapdos"
+            "ref": "Routes/Route 10 South/Picnicker Carol Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "route_10_south",
             "x": 120,
-            "y": 136
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "PokéManiac Herman",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 South/PokéManiac Herman Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 248,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "PokéManiac Mark",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/PokéManiac Mark Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 216,
+            "y": 200
           }
         ]
       }

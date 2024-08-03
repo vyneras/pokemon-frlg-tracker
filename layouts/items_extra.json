@@ -1,0 +1,72 @@
+{
+  "item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "boulder_badge",
+                "cascade_badge",
+                "thunder_badge",
+                "rainbow_badge",
+                "soul_badge",
+                "marsh_badge",
+                "volcano_badge",
+                "earth_badge"
+              ],
+              [
+                "hm01_cut",
+                "hm02_fly",
+                "hm03_surf",
+                "hm04_strength",
+                "hm05_flash",
+                "hm06_rock_smash",
+                "hm07_waterfall"
+              ],
+              [
+                "oaks_parcel",
+                "ss_ticket",
+                "bike_voucher",
+                "bicycle",
+                "itemfinder",
+                "hideout_key",
+                "lift_key",
+                "silph_scope"
+              ],
+              [
+                "tea",
+                "lemonade",
+                "poke_flute",
+                "gold_teeth",
+                "card_key",
+                "letter",
+                "secret_key",
+                "pokedex"
+              ],
+              [
+                "machine_part",
+                "safari_pass",
+                "tri_pass",
+                "rainbow_pass",
+                "mystic_ticket",
+                "meteorite",
+                "ruby",
+                "sapphire"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

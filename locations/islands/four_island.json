@@ -65,38 +65,6 @@
             "y": 312
           }
         ]
-      },
-      {
-        "name": "Icefall Cave",
-        "sections": [
-          {
-            "ref": "Dungeons/Icefall Cave/1F - Center Item",
-            "name": "1F - Center Item"
-          },
-          {
-            "ref": "Dungeons/Icefall Cave/B1F - East Item",
-            "name": "B1F - East Item"
-          },
-          {
-            "ref": "Dungeons/Icefall Cave/B1F - Southwest Item",
-            "name": "B1F - Southwest Item"
-          },
-          {
-            "ref": "Dungeons/Icefall Cave/1F - Southeast Ledge Item",
-            "name": "1F - Southeast Ledge Item"
-          },
-          {
-            "ref": "Dungeons/Icefall Cave/Back - Help Lorelei (Event)",
-            "name": "Back - Help Lorelei (Event)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "four_island",
-            "x": 616,
-            "y": 200
-          }
-        ]
       }
     ]
   }

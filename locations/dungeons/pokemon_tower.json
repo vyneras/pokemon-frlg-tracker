@@ -1,6 +1,27 @@
 [
   {
-    "name": "Pokémon Tower",
+    "name": "Pokémon Tower 2F",
+    "children": [
+      {
+        "name": "Rival",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/2F - Rival Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_2f",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 3F",
     "children": [
       {
         "name": "North Item",
@@ -18,6 +39,59 @@
           }
         ]
       },
+      {
+        "name": "Channeler Carly",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - Channeler Carly Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Channeler Hope",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - Channeler Hope Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 200,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Channeler Patricia",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - Channeler Patricia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 4F",
+    "children": [
       {
         "name": "Center Item (Right)",
         "sections": [
@@ -67,6 +141,59 @@
         ]
       },
       {
+        "name": "Channeler Jody",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Channeler Jody Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 248,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Channeler Laurel",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Channeler Laurel Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 280,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Channeler Paula",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Channeler Paula Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 72,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 5F",
+    "children": [
+      {
         "name": "Northwest Hidden Item",
         "sections": [
           {
@@ -115,6 +242,75 @@
         ]
       },
       {
+        "name": "Channeler Janae",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Channeler Janae Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Channeler Karina",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Channeler Karina Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 120,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Channeler Ruth",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Channeler Ruth Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 184,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Channeler Tammy",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Channeler Tammy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 312,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 6F",
+    "children": [
+      {
         "name": "Southeast Item",
         "sections": [
           {
@@ -147,6 +343,59 @@
         ]
       },
       {
+        "name": "Channeler Angelica",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Channeler Angelica Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 216,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Channeler Emilia",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Channeler Emilia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Channeler Jennifer",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Channeler Jennifer Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 296,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 7F",
+    "children": [
+      {
         "name": "Mr. Fuji",
         "sections": [
           {
@@ -154,8 +403,8 @@
             "name": "Rescue Mr. Fuji (Event)"
           },
           {
-            "ref": "Dungeons/Pokémon Tower/7F - Hidden Item Between Statues",
-            "name": "Hidden Item Between Statues"
+            "ref": "Dungeons/Pokémon Tower/7F - Hidden Item Under Mr. Fuji",
+            "name": "Hidden Item Under Mr. Fuji"
           }
         ],
         "map_locations": [
@@ -163,6 +412,54 @@
             "map": "pokemon_tower_7f",
             "x": 184,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "South Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - South Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 152,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Center Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - Center Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 216,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "North Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - North Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 152,
+            "y": 104
           }
         ]
       }

@@ -67,34 +67,114 @@
         ]
       },
       {
-        "name": "Lost Cave",
+        "name": "Painter Rayna",
         "sections": [
           {
-            "ref": "Dungeons/Lost Cave/Room 10 - Item",
-            "name": "Room 10 - Item"
-          },
+            "ref": "Islands/Resort Gorgeous/Painter Rayna Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
           {
-            "ref": "Dungeons/Lost Cave/Room 11 - Item",
-            "name": "Room 11 - Item"
-          },
+            "map": "resort_gorgeous_west",
+            "x": 200,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Toby",
+        "sections": [
           {
-            "ref": "Dungeons/Lost Cave/Room 12 - Item",
-            "name": "Room 12 - Item"
-          },
-          {
-            "ref": "Dungeons/Lost Cave/Room 13 - Item",
-            "name": "Room 13 - Item"
-          },
-          {
-            "ref": "Dungeons/Lost Cave/Room 14 - Item",
-            "name": "Room 14 - Item"
+            "ref": "Islands/Resort Gorgeous/Swimmer Toby Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "resort_gorgeous_east",
-            "x": 440,
-            "y": 216
+            "x": 312,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Lady Gillian",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Lady Gillian Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Lady Jacki",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Lady Jacki Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 376,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Painter Celina",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Painter Celina Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Painter Daisy",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Painter Daisy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Youngster Destin",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Youngster Destin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 56
           }
         ]
       }

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Seafoam Islands",
+    "name": "Seafoam Islands 1F",
     "children": [
       {
         "name": "Plateau Item",
@@ -17,7 +17,12 @@
             "y": 136
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B1F",
+    "children": [
       {
         "name": "Center Plateau Item",
         "sections": [
@@ -31,22 +36,6 @@
             "map": "seafoam_islands_b1f",
             "x": 392,
             "y": 232
-          }
-        ]
-      },
-      {
-        "name": "Item Below Center Plateau",
-        "sections": [
-          {
-            "ref": "Dungeons/Seafoam Islands/B2F - Item Below Center Plateau",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seafoam_islands_b2f",
-            "x": 296,
-            "y": 248
           }
         ]
       },
@@ -65,7 +54,33 @@
             "y": 296
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B2F",
+    "children": [
+      {
+        "name": "Item Below Center Plateau",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B2F - Item Below Center Plateau",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 296,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B3F",
+    "children": [
       {
         "name": "West Plateau Rock Hidden Item",
         "sections": [
@@ -81,7 +96,12 @@
             "y": 200
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B4F",
+    "children": [
       {
         "name": "West Rock Hidden Item",
         "sections": [

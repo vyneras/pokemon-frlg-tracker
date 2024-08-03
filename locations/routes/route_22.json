@@ -6,7 +6,16 @@
         "name": "Rival",
         "sections": [
           {
-            "ref": "Routes/Route 22/Defeat Rival (Event)"
+            "ref": "Routes/Route 22/Defeat Rival (Event)",
+            "name": "Defeat Rival (Event)"
+          },
+          {
+            "ref": "Routes/Route 22/Early Rival Reward",
+            "name": "Early Reward"
+          },
+          {
+            "ref": "Routes/Route 22/Late Rival Reward",
+            "name": "Late Reward"
           }
         ],
         "map_locations": [

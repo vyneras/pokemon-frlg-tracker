@@ -49,6 +49,70 @@
             "y": 216
           }
         ]
+      },
+      {
+        "name": "Biker Goon (Left)",
+        "sections": [
+          {
+            "ref": "Islands/Three Island/Biker Goon Reward (Left)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 152,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Biker Goon (Right)",
+        "sections": [
+          {
+            "ref": "Islands/Three Island/Biker Goon Reward (Right)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 168,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Biker Goon (Top)",
+        "sections": [
+          {
+            "ref": "Islands/Three Island/Biker Goon Reward (Top)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 152,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Paxton",
+        "sections": [
+          {
+            "ref": "Islands/Three Island/Cue Ball Paxton Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 136,
+            "y": 392
+          }
+        ]
       }
     ]
   }

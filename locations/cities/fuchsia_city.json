@@ -53,8 +53,48 @@
         ]
       },
       {
+        "name": "Safari Zone Office",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Safari Zone Office Worker",
+            "name": "Worker"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 456,
+            "y": 264
+          }
+        ]
+      },
+      {
         "name": "Fuchsia Gym",
         "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Nate Reward",
+            "name": "Juggler Nate Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kayden Reward",
+            "name": "Juggler Kayden Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kirk Reward",
+            "name": "Juggler Kirk Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Tamer Edgar Reward",
+            "name": "Tamer Edgar Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Tamer Phil Reward",
+            "name": "Tamer Phil Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Shawn Reward",
+            "name": "Juggler Shawn Reward"
+          },
           {
             "ref": "Cities/Fuchsia City/Defeat Koga (Event)",
             "name": "Defeat Koga (Event)"
@@ -62,6 +102,10 @@
           {
             "ref": "Cities/Fuchsia City/Leader Koga Prize",
             "name": "Leader Koga Prize"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Leader Koga TM",
+            "name": "Leader Koga TM"
           },
           {
             "ref": "Cities/Fuchsia City/Leader Koga Reward",
@@ -73,78 +117,6 @@
             "map": "fuchsia_city",
             "x": 152,
             "y": 520
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone",
-        "sections": [
-          {
-            "ref": "Dungeons/Safari Zone/Center - Island Item",
-            "name": "Center - Island Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/Center - Island Hidden Item",
-            "name": "Center - Island Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/East - Southeast Plateau Item",
-            "name": "East - Southeast Plateau Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/East - Tall Grass Item",
-            "name": "East - Tall Grass Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/East - Item Near Bush",
-            "name": "East - Item Near Bush"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/East - Item Near Rest House",
-            "name": "East - Item Near Rest House"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/North - South Item",
-            "name": "North - South Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/North - Center Item",
-            "name": "North - Center Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/North - North Item",
-            "name": "North - North Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/West - Southeast Item",
-            "name": "West - Southeast Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/West - Southwest Item",
-            "name": "West - Southwest Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/West - Northeast Item",
-            "name": "West - Northeast Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/West - Northwest Item",
-            "name": "West - Northwest Item"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/West - Hidden Item Near Secret House",
-            "name": "West - Hidden Item Near Secret House"
-          },
-          {
-            "ref": "Dungeons/Safari Zone/Secret House - Attendent",
-            "name": "Secret House - Attendent"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 392,
-            "y": 88
           }
         ]
       }

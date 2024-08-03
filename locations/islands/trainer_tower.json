@@ -49,6 +49,38 @@
             "y": 440
           }
         ]
+      },
+      {
+        "name": "Psychic Dario",
+        "sections": [
+          {
+            "ref": "Islands/Trainer Tower Exterior/Psychic Dario Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 296,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Psychic Rodette",
+        "sections": [
+          {
+            "ref": "Islands/Trainer Tower Exterior/Psychic Rodette Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 296,
+            "y": 472
+          }
+        ]
       }
     ]
   }

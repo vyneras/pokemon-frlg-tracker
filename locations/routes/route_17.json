@@ -81,6 +81,166 @@
             "y": 600
           }
         ]
+      },
+      {
+        "name": "Biker Billy",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Biker Billy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 120,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Biker Jaxon",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Biker Jaxon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_bottom",
+            "x": 72,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Biker Nikolas",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Biker Nikolas Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 296,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Biker Virgil",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Biker Virgil Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 72,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Biker William",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Biker William Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_south",
+            "x": 264,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Corey",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Cue Ball Corey Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_bottom",
+            "x": 296,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Isaiah",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Cue Ball Isaiah Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 184,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Jamal",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Cue Ball Jamal Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 40,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Raul",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Cue Ball Raul Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 248,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Zeek",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Cue Ball Zeek Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 344,
+            "y": 344
+          }
+        ]
       }
     ]
   }

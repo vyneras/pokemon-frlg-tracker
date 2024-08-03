@@ -49,6 +49,86 @@
             "y": 184
           }
         ]
+      },
+      {
+        "name": "Hiker Daryl",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/Hiker Daryl Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 232,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "PokéManiac Hector",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/PokéManiac Hector Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 344,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Foster",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/Ruin Maniac Foster Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 536,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Larry",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/Ruin Maniac Larry Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 504,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Stanly",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/Ruin Maniac Stanly Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 520,
+            "y": 184
+          }
+        ]
       }
     ]
   }

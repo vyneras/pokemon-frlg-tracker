@@ -1,6 +1,6 @@
 [
   {
-    "name": "Mt. Moon",
+    "name": "Mt. Moon 1F",
     "children": [
       {
         "name": "Southwest Item",
@@ -31,70 +31,6 @@
             "map": "mt_moon_1f",
             "x": 40,
             "y": 360
-          }
-        ]
-      },
-      {
-        "name": "First Tunnel East Rock Hidden Item",
-        "sections": [
-          {
-            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel East Rock Hidden Item",
-            "name": "Hidden Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "mt_moon_b1f",
-            "x": 632,
-            "y": 552
-          }
-        ]
-      },
-      {
-        "name": "First Tunnel West Rock Hidden Item (Right)",
-        "sections": [
-          {
-            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel West Rock Hidden Item (Right)",
-            "name": "Hidden Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "mt_moon_b1f",
-            "x": 408,
-            "y": 552
-          }
-        ]
-      },
-      {
-        "name": "First Tunnel West Rock Hidden Item (Left)",
-        "sections": [
-          {
-            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel West Rock Hidden Item (Left)",
-            "name": "Hidden Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "mt_moon_b1f",
-            "x": 392,
-            "y": 568
-          }
-        ]
-      },
-      {
-        "name": "Isolated Room Item",
-        "sections": [
-          {
-            "ref": "Dungeons/Mt. Moon/B2F - Isolated Room Item",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "mt_moon_b2f",
-            "x": 488,
-            "y": 424
           }
         ]
       },
@@ -147,6 +83,187 @@
         ]
       },
       {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 56,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Kent",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Bug Catcher Kent Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 120,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Lass Iris",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Lass Iris Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 328,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Jovan",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Super Nerd Jovan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 488,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Robby",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Bug Catcher Robby Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 584,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Lass Miriam",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Lass Miriam Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 536,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Youngster Josh",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Youngster Josh Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 216,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Hiker Marcos",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Hiker Marcos Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Moon B1F",
+    "children": [
+      {
+        "name": "First Tunnel East Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel East Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 632,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "First Tunnel West Rock Hidden Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel West Rock Hidden Item (Right)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 408,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "First Tunnel West Rock Hidden Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - First Tunnel West Rock Hidden Item (Left)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 392,
+            "y": 568
+          }
+        ]
+      },
+      {
         "name": "Second Tunnel Rock Hidden Item",
         "sections": [
           {
@@ -159,6 +276,59 @@
             "map": "mt_moon_b1f",
             "x": 424,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Third Tunnel Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - Third Tunnel Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 104,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Fourth Tunnel Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - Fourth Tunnel Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 744,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Moon B2F",
+    "children": [
+      {
+        "name": "Isolated Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Isolated Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 488,
+            "y": 424
           }
         ]
       },
@@ -191,38 +361,6 @@
             "map": "mt_moon_b2f",
             "x": 632,
             "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Northwest Item",
-        "sections": [
-          {
-            "ref": "Dungeons/Mt. Moon/1F - Northwest Item",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "mt_moon_1f",
-            "x": 56,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Third Tunnel Rock Hidden Item",
-        "sections": [
-          {
-            "ref": "Dungeons/Mt. Moon/B1F - Third Tunnel Rock Hidden Item",
-            "name": "Hidden Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "mt_moon_b1f",
-            "x": 104,
-            "y": 200
           }
         ]
       },
@@ -307,18 +445,82 @@
         ]
       },
       {
-        "name": "Fourth Tunnel Rock Hidden Item",
+        "name": "Super Nerd Miguel",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Moon/B1F - Fourth Tunnel Rock Hidden Item",
-            "name": "Hidden Item"
+            "ref": "Dungeons/Mt. Moon/B2F - Super Nerd Miguel Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
-            "map": "mt_moon_b1f",
-            "x": 744,
-            "y": 40
+            "map": "mt_moon_b2f",
+            "x": 216,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "East Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - East Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 600,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "West Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - West Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 200,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Isolated Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Isolated Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 296,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Northeast Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Northeast Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 568,
+            "y": 200
           }
         ]
       }

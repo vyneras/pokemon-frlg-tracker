@@ -51,6 +51,14 @@
         ],
         "sections": [
           {
+            "name": "Swimmer Amara Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Beach West Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -161,6 +169,38 @@
         ],
         "sections": [
           {
+            "name": "Swimmer Abigail Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_land.png",
+            "chest_opened_img": "images/locations/swimmer_female_land_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Claire Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Bryce Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Crush Girl Tanya Reward",
+            "chest_unopened_img": "images/locations/battle_girl.png",
+            "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Plateau Item",
             "access_rules": [
               "$rock_smash"
@@ -170,9 +210,73 @@
             "name": "Isolated Beach Item"
           },
           {
+            "name": "Swimmer Garrett Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_land.png",
+            "chest_opened_img": "images/locations/swimmer_male_land_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Item Behind Smashable Rock",
             "access_rules": [
               "$rock_smash"
+            ]
+          },
+          {
+            "name": "Crush Kin Mik & Kia Reward",
+            "chest_unopened_img": "images/locations/crush_kin.png",
+            "chest_opened_img": "images/locations/crush_kin_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Hugh Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt Shea Reward",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Crush Girl Sharon Reward",
+            "chest_unopened_img": "images/locations/battle_girl.png",
+            "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Finn Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Maria Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Fisherman Tommy Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -215,6 +319,11 @@
             "x": 28,
             "y": 64,
             "size": 4
+          },
+          {
+            "map": "kindle_road_center_top",
+            "x": 248,
+            "y": 456
           }
         ]
       },
@@ -345,6 +454,16 @@
             "x": 164,
             "y": 124,
             "size": 4
+          },
+          {
+            "map": "three_isle_port",
+            "x": 264,
+            "y": 72
+          },
+          {
+            "map": "three_isle_port",
+            "x": 616,
+            "y": 88
           }
         ]
       },
@@ -354,6 +473,38 @@
           "@Three Island Access"
         ],
         "sections": [
+          {
+            "name": "Biker Goon Reward (Left)",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Goon Reward (Right)",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Goon Reward (Top)",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cue Ball Paxton Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
           {
             "name": "Anti-Biker",
             "chest_unopened_img": "images/locations/man_full_restore.png",
@@ -397,6 +548,14 @@
         ],
         "sections": [
           {
+            "name": "Twins Joy & Meg Reward",
+            "chest_unopened_img": "images/locations/twins.png",
+            "chest_opened_img": "images/locations/twins_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Rock Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -405,6 +564,22 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Aroma Lady Violet Reward",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Tuber Alexis Reward",
+            "chest_unopened_img": "images/locations/tuber_female.png",
+            "chest_opened_img": "images/locations/tuber_female_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -419,6 +594,14 @@
             ]
           },
           {
+            "name": "Swimmer Tisha Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "West Beach Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -427,6 +610,22 @@
             ],
             "visibility_rules": [
               "hidden_all"
+            ]
+          },
+          {
+            "name": "Tuber Amira Reward",
+            "chest_unopened_img": "images/locations/tuber_female.png",
+            "chest_opened_img": "images/locations/tuber_female_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Aroma Lady Nikki Reward",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -512,6 +711,30 @@
             ]
           },
           {
+            "name": "North Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/rocket_male.png",
+            "chest_opened_img": "images/locations/rocket_male_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Center Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/rocket_female.png",
+            "chest_opened_img": "images/locations/rocket_female_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "South Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/rocket_male.png",
+            "chest_opened_img": "images/locations/rocket_male_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Southwest Island Item",
             "access_rules": [
               "$surf"
@@ -540,6 +763,14 @@
         ],
         "sections": [
           {
+            "name": "Bird Keeper Milo Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Tall Grass North Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -548,6 +779,14 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Bird Keeper Chaz Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -570,6 +809,14 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Bird Keeper Harold Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -612,11 +859,49 @@
         ]
       },
       {
+        "name": "Water Labyrinth",
+        "access_rules": [
+          "@Five Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Pokémon Breeder Alize Reward",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 324,
+            "y": 100,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 132,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
         "name": "Resort Gorgeous",
         "access_rules": [
           "@Five Island Access,$surf"
         ],
         "sections": [
+          {
+            "name": "Painter Rayna Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
           {
             "name": "West Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
@@ -626,6 +911,14 @@
             ],
             "visibility_rules": [
               "hidden_all"
+            ]
+          },
+          {
+            "name": "Lady Jacki Reward",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -640,6 +933,14 @@
             ]
           },
           {
+            "name": "Youngster Destin Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Main Island Southwest Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -651,6 +952,22 @@
             ]
           },
           {
+            "name": "Lady Gillian Reward",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Painter Celina Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Main Island Southeast Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -659,6 +976,22 @@
             ],
             "visibility_rules": [
               "hidden_all"
+            ]
+          },
+          {
+            "name": "Painter Daisy Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Toby Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -715,6 +1048,14 @@
         ],
         "sections": [
           {
+            "name": "Juggler Edward Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Tall Grass North Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -737,9 +1078,61 @@
             ]
           },
           {
+            "name": "Hiker Earl Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "South Island Item",
             "access_rules": [
               "$surf"
+            ]
+          },
+          {
+            "name": "Swimmer Denise Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Samir Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Twins Miu & Mia Reward",
+            "chest_unopened_img": "images/locations/twins.png",
+            "chest_opened_img": "images/locations/twins_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Aroma Lady Rose Reward",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -794,9 +1187,49 @@
             ]
           },
           {
+            "name": "Hiker Daryl Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Plateau Item",
             "access_rules": [
               "$strength"
+            ]
+          },
+          {
+            "name": "PokéManiac Hector Reward",
+            "chest_unopened_img": "images/locations/super_nerd.png",
+            "chest_opened_img": "images/locations/super_nerd_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Ruin Maniac Stanly Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Ruin Maniac Foster Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Ruin Maniac Larry Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -821,6 +1254,14 @@
           "@Six Island Access,$surf"
         ],
         "sections": [
+          {
+            "name": "Psychic Jaclyn Reward",
+            "chest_unopened_img": "images/locations/woman.png",
+            "chest_opened_img": "images/locations/woman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
           {
             "name": "West Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
@@ -855,6 +1296,30 @@
         ],
         "sections": [
           {
+            "name": "Swimmer Nicole Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Sis and Bro Ava & Geb Reward",
+            "chest_unopened_img": "images/locations/sis_and_bro.png",
+            "chest_opened_img": "images/locations/sis_and_bro_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Mymo Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "West Beach Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -866,6 +1331,14 @@
             ]
           },
           {
+            "name": "Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/rocket_male.png",
+            "chest_opened_img": "images/locations/rocket_male_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "East Beach Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -874,6 +1347,14 @@
             ],
             "visibility_rules": [
               "hidden_all"
+            ]
+          },
+          {
+            "name": "Fisherman Tylor Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -902,6 +1383,38 @@
         ],
         "sections": [
           {
+            "name": "Aroma Lady Miah Reward",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Juggler Mason Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Pokémon Ranger Nicolas Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Pokémon Ranger Madeline Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Southwest Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -910,6 +1423,14 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Young Couple Eve & Jon Reward",
+            "chest_unopened_img": "images/locations/young_couple.png",
+            "chest_opened_img": "images/locations/young_couple_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -935,15 +1456,71 @@
         ],
         "sections": [
           {
+            "name": "Cool Couple Lex & Nya Reward",
+            "chest_unopened_img": "images/locations/cool_couple.png",
+            "chest_opened_img": "images/locations/cool_couple_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "North Item"
+          },
+          {
+            "name": "Tamer Evan Reward",
+            "chest_unopened_img": "images/locations/man.png",
+            "chest_opened_img": "images/locations/man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           },
           {
             "name": "Tall Grass Item"
           },
           {
+            "name": "Pokémon Ranger Jackson Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Pokémon Ranger Katelyn Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Crush Girl Cyndy Reward",
+            "chest_unopened_img": "images/locations/battle_girl.png",
+            "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Item Behind Smashable Rocks",
             "access_rules": [
               "$strength,$rock_smash"
+            ]
+          },
+          {
+            "name": "Cooltrainer Leroy Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cooltrainer Michelle Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_female.png",
+            "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -994,6 +1571,14 @@
             ]
           },
           {
+            "name": "Ruin Maniac Brandon Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Scufib Chamber Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1005,6 +1590,22 @@
             ]
           },
           {
+            "name": "Gentleman Clifford Reward",
+            "chest_unopened_img": "images/locations/gentleman.png",
+            "chest_opened_img": "images/locations/gentleman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Painter Edna Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Weepth Chamber Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1013,6 +1614,14 @@
             ],
             "visibility_rules": [
               "hidden_all"
+            ]
+          },
+          {
+            "name": "Ruin Maniac Benjamin Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -1049,6 +1658,14 @@
         ],
         "sections": [
           {
+            "name": "Psychic Rodette Reward",
+            "chest_unopened_img": "images/locations/woman.png",
+            "chest_opened_img": "images/locations/woman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Hidden Item Near Fence",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1079,6 +1696,14 @@
             ],
             "visibility_rules": [
               "hidden_all"
+            ]
+          },
+          {
+            "name": "Psychic Dario Reward",
+            "chest_unopened_img": "images/locations/boy.png",
+            "chest_opened_img": "images/locations/boy_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],

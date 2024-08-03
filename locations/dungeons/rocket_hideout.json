@@ -1,6 +1,6 @@
 [
   {
-    "name": "Rocket Hideout",
+    "name": "Rocket Hideout B1F",
     "children": [
       {
         "name": "West Room Item",
@@ -34,6 +34,107 @@
           }
         ]
       },
+      {
+        "name": "Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 24,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Northeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Northeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 392,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Northwest Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Northwest Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Southeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 344,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Team Rocket Grunt (Top)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Team Rocket Grunt Reward (Top)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 168,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Southwest Room Team Rocket Grunt (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Team Rocket Grunt Reward (Bottom)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 104,
+            "y": 520
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B2F",
+    "children": [
       {
         "name": "Maze Northeast Item",
         "sections": [
@@ -99,21 +200,26 @@
         ]
       },
       {
-        "name": "Southwest Room Item",
+        "name": "Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Item",
-            "name": "Item"
+            "ref": "Dungeons/Rocket Hideout/B2F - Team Rocket Grunt Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
-            "map": "rocket_hideout_b1f",
-            "x": 24,
-            "y": 360
+            "map": "rocket_hideout_b2f",
+            "x": 328,
+            "y": 104
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B3F",
+    "children": [
       {
         "name": "East Room Item",
         "sections": [
@@ -178,6 +284,43 @@
           }
         ]
       },
+      {
+        "name": "Maze Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Maze Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 40,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Northeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Northeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 312,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B4F",
+    "children": [
       {
         "name": "West Room Item",
         "sections": [
@@ -287,6 +430,70 @@
             "map": "rocket_hideout_b4f",
             "x": 360,
             "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Northwest Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Northwest Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Giovanni",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Boss Giovanni Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 312,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Door Guard Team Rocket Grunt (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Door Guard Team Rocket Grunt Reward (Left)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 264,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Door Guard Team Rocket Grunt (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Door Guard Team Rocket Grunt Reward (Right)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 312,
+            "y": 232
           }
         ]
       }

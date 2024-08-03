@@ -5,12 +5,14 @@
       "$free_fly|pewter",
       "deliver_oaks_parcel",
       "viridian_city_open",
-      "$cut"
+      "$cut",
+      "@Route 3 Access"
     ]
   },
   {
     "name": "Route 3 Access",
     "access_rules": [
+      "$free_fly|route_4",
       "@Pewter City Access,$leave_pewter_city",
       "@Cerulean City Access,$surf"
     ]
@@ -54,6 +56,7 @@
   {
     "name": "Route 10 North Access",
     "access_rules": [
+      "$free_fly|route_10",
       "@Cerulean City Outskirts Access,$cut",
       "@Lavender Town Access,^$rock_tunnel"
     ]
@@ -105,6 +108,34 @@
     "access_rules": [
       "$free_fly|cinnabar",
       "$surf"
+    ]
+  },
+  {
+    "name": "Route 23 South Access",
+    "access_rules": [
+      "$has_route_22_gate_req",
+      "@Route 23 Center Access,$surf"
+    ]
+  },
+  {
+    "name": "Route 23 Center Access",
+    "access_rules": [
+      "@Route 23 South Access,$surf",
+      "@Victory Road Access"
+    ]
+  },
+  {
+    "name": "Victory Road Access",
+    "access_rules": [
+      "@Route 23 Center Access,$has_route_23_guard_req",
+      "@Indigo Plateau Access,$strength"
+    ]
+  },
+  {
+    "name": "Indigo Plateau Access",
+    "access_rules": [
+      "$free_fly|indigo",
+      "@Victory Road Access,$strength"
     ]
   },
   {

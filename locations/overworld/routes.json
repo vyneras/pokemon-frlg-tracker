@@ -72,6 +72,46 @@
         ],
         "sections": [
           {
+            "name": "Lass Janice Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bug Catcher Colton Reward",
+            "chest_unopened_img": "images/locations/bug_catcher.png",
+            "chest_opened_img": "images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Youngster Ben Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bug Catcher Greg Reward",
+            "chest_unopened_img": "images/locations/bug_catcher.png",
+            "chest_opened_img": "images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Sally Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Hidden Item Between Ledges",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -80,6 +120,30 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Youngster Calvin Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bug Catcher James Reward",
+            "chest_unopened_img": "images/locations/bug_catcher.png",
+            "chest_opened_img": "images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Robin Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -133,16 +197,13 @@
       },
       {
         "name": "Route 4 East",
-        "access_rules": [
-          "@Route 3 Access"
-        ],
         "sections": [
           {
             "name": "Hidden Item Near Move Tutors",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Route 3 Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -153,14 +214,28 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Route 3 Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
             ]
           },
           {
-            "name": "East Ledges Item"
+            "name": "East Ledges Item",
+            "access_rules": [
+              "@Route 3 Access"
+            ]
+          },
+          {
+            "name": "Lass Crissy Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "access_rules": [
+              "@Cerulean City Access,$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           }
         ],
         "map_locations": [
@@ -204,6 +279,54 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Bug Catcher Keigo Reward",
+            "chest_unopened_img": "images/locations/bug_catcher.png",
+            "chest_opened_img": "images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Ricky Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Nancy Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bug Catcher Elijah Reward",
+            "chest_unopened_img": "images/locations/bug_catcher.png",
+            "chest_opened_img": "images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Isabelle Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Jeff Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -262,6 +385,30 @@
         ],
         "sections": [
           {
+            "name": "Lass Julia Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Gamer Rich Reward",
+            "chest_unopened_img": "images/locations/old_man.png",
+            "chest_opened_img": "images/locations/old_man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Super Nerd Glenn Reward",
+            "chest_unopened_img": "images/locations/scientist.png",
+            "chest_opened_img": "images/locations/scientist_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Tall Grass Northwest Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -293,6 +440,78 @@
             "visibility_rules": [
               "hidden_nonrecurring"
             ]
+          },
+          {
+            "name": "Twins Eli & Anne Reward",
+            "chest_unopened_img": "images/locations/twins.png",
+            "chest_opened_img": "images/locations/twins_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Paige Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Super Nerd Leslie Reward",
+            "chest_unopened_img": "images/locations/scientist.png",
+            "chest_opened_img": "images/locations/scientist_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Andrea Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Megan Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Jaren Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Ricardo Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Super Nerd Aiden Reward",
+            "chest_unopened_img": "images/locations/scientist.png",
+            "chest_opened_img": "images/locations/scientist_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Gamer Stan Reward",
+            "chest_unopened_img": "images/locations/old_man.png",
+            "chest_opened_img": "images/locations/old_man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           }
         ],
         "map_locations": [
@@ -317,7 +536,39 @@
         ],
         "sections": [
           {
+            "name": "Picnicker Alicia Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Southwest Item"
+          },
+          {
+            "name": "Hiker Jeremy Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Chris Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bug Catcher Brent Reward",
+            "chest_unopened_img": "images/locations/bug_catcher.png",
+            "chest_opened_img": "images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           },
           {
             "name": "Northwest Ledge Rock Hidden Item",
@@ -331,7 +582,31 @@
             ]
           },
           {
+            "name": "Hiker Alan Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Southeast Item"
+          },
+          {
+            "name": "Bug Catcher Conner Reward",
+            "chest_unopened_img": "images/locations/bug_catcher.png",
+            "chest_opened_img": "images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Drew Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           },
           {
             "name": "Northeast Ledge Hidden Item (Left)",
@@ -345,6 +620,14 @@
             ]
           },
           {
+            "name": "Hiker Brice Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Northeast Ledge Hidden Item (Right)",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -353,6 +636,14 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Picnicker Caitlin Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -398,6 +689,14 @@
             ]
           },
           {
+            "name": "Picnicker Heidi Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "West Hidden Item Near Pokémon Center",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -417,6 +716,17 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "PokéManiac Mark Reward",
+            "chest_unopened_img": "images/locations/super_nerd.png",
+            "chest_opened_img": "images/locations/super_nerd_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -453,6 +763,22 @@
         ],
         "sections": [
           {
+            "name": "Picnicker Carol Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Hiker Clark Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Hidden Item Near Rock Tunnel South Entrance",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -461,6 +787,22 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "PokéManiac Herman Reward",
+            "chest_unopened_img": "images/locations/super_nerd.png",
+            "chest_opened_img": "images/locations/super_nerd_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Hiker Trent Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -489,10 +831,79 @@
             "name": "Northwest Item"
           },
           {
+            "name": "Youngster Eddie Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Gamer Hugo Reward",
+            "chest_unopened_img": "images/locations/old_man.png",
+            "chest_opened_img": "images/locations/old_man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Engineer Bernie Reward",
+            "chest_unopened_img": "images/locations/balding_man.png",
+            "chest_opened_img": "images/locations/balding_man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Youngster Dave Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Youngster Dillon Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Engineer Braxton Reward",
+            "chest_unopened_img": "images/locations/balding_man.png",
+            "chest_opened_img": "images/locations/balding_man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Tall Grass Item"
           },
           {
-            "name": "Item Behind Trees"
+            "name": "Gamer Jasper Reward",
+            "chest_unopened_img": "images/locations/old_man.png",
+            "chest_opened_img": "images/locations/old_man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Youngster Yasu Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Gamer Darian Reward",
+            "chest_unopened_img": "images/locations/old_man.png",
+            "chest_opened_img": "images/locations/old_man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           },
           {
             "name": "Northeast Rock Hidden Item",
@@ -504,6 +915,17 @@
             "visibility_rules": [
               "hidden_nonrecurring"
             ]
+          },
+          {
+            "name": "Gamer Dirk Reward",
+            "chest_unopened_img": "images/locations/old_man.png",
+            "chest_opened_img": "images/locations/old_man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Item Behind Trees"
           },
           {
             "name": "Professor Oak's Aide",
@@ -542,9 +964,33 @@
             "chest_opened_img": "images/locations/lass_normal_tm_bw.png"
           },
           {
+            "name": "Fisherman Ned Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "North Island Item",
             "access_rules": [
               "$surf"
+            ]
+          },
+          {
+            "name": "Fisherman Chip Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Fisherman Hank Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -556,6 +1002,22 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Fisherman Elliot Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Young Couple Gia & Jes Reward",
+            "chest_unopened_img": "images/locations/young_couple.png",
+            "chest_opened_img": "images/locations/young_couple_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -597,9 +1059,36 @@
             "chest_opened_img": "images/locations/fisherman_super_rod_bw.png"
           },
           {
+            "name": "Rocker Luca Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Justin Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Item Behind Cuttable Tree",
             "access_rules": [
               "$cut"
+            ]
+          },
+          {
+            "name": "Fisherman Andrew Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -636,6 +1125,62 @@
         ],
         "sections": [
           {
+            "name": "Picnicker Alma Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Sebastian Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Susie Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Beauty Lola Reward",
+            "chest_unopened_img": "images/locations/beauty.png",
+            "chest_opened_img": "images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Beauty Sheila Reward",
+            "chest_unopened_img": "images/locations/beauty.png",
+            "chest_opened_img": "images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Valerie Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Gwen Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Maze South Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -644,6 +1189,30 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Bird Keeper Robert Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Perry Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Jared Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -669,6 +1238,54 @@
         ],
         "sections": [
           {
+            "name": "Bird Keeper Carter Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Mitch Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Marlon Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Beck Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Donald Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Benny Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Southeast Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -677,6 +1294,46 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Twins Kiri & Jan Reward",
+            "chest_unopened_img": "images/locations/twins.png",
+            "chest_opened_img": "images/locations/twins_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Lukas Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Gerald Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Malik Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Isaac Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -713,9 +1370,114 @@
         ],
         "sections": [
           {
+            "name": "Picnicker Becky Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Crush Kin Ron & Mya Reward",
+            "chest_unopened_img": "images/locations/crush_kin.png",
+            "chest_opened_img": "images/locations/crush_kin_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Celia Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Northwest Item",
             "access_rules": [
               "$cut"
+            ]
+          },
+          {
+            "name": "Biker Ernest Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Ernest Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Alex Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Beauty Grace Reward",
+            "chest_unopened_img": "images/locations/beauty.png",
+            "chest_opened_img": "images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Beauty Olivia Reward",
+            "chest_unopened_img": "images/locations/beauty.png",
+            "chest_opened_img": "images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Kindra Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Chester Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Edwin Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Yazmin Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -747,6 +1509,17 @@
         "name": "Route 16",
         "sections": [
           {
+            "name": "Young Couple Lea & Jed Reward",
+            "chest_unopened_img": "images/locations/young_couple.png",
+            "chest_opened_img": "images/locations/young_couple_bw.png",
+            "access_rules": [
+              "@Celadon City Access,$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Fly House Woman",
             "chest_unopened_img": "images/locations/woman_flying_tm.png",
             "chest_opened_img": "images/locations/woman_flying_tm_bw.png",
@@ -775,6 +1548,72 @@
               "@Fuchsia City Access,bicycle,$route_16_oaks_aide",
               "@Fuchsia City Access,bicycle,{}"
             ]
+          },
+          {
+            "name": "Biker Lao Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Fuchsia City Access,bicycle"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cue Ball Koji Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Fuchsia City Access,bicycle"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cue Ball Luke Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Fuchsia City Access,bicycle"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Hideo Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Fuchsia City Access,bicycle"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Ruben Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Fuchsia City Access,bicycle"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cue Ball Camron Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Fuchsia City Access,bicycle"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           }
         ],
         "map_locations": [
@@ -799,6 +1638,46 @@
         ],
         "sections": [
           {
+            "name": "Cue Ball Isaiah Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Virgil Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Cue Ball Raul Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Billy Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Nikolas Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Dirt Path Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -810,18 +1689,23 @@
             ]
           },
           {
-            "name": "West Stone Path Hidden Item (Top)",
-            "chest_unopened_img": "images/locations/hidden_item.png",
-            "chest_opened_img": "images/locations/hidden_item_bw.png",
-            "access_rules": [
-              "^$hidden"
-            ],
+            "name": "Cue Ball Jamal Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "trainersanity_on"
             ]
           },
           {
-            "name": "West Stone Path Hidden Item (Bottom)",
+            "name": "Cue Ball Zeek Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "West Stone Path Hidden Item (Top)",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
@@ -840,6 +1724,41 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Cue Ball Corey Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Biker Jaxon Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "West Stone Path Hidden Item (Bottom)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Biker William Reward",
+            "chest_unopened_img": "images/locations/biker.png",
+            "chest_opened_img": "images/locations/biker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -870,11 +1789,218 @@
         ]
       },
       {
-        "name": "Route 20",
+        "name": "Route 18",
+        "access_rules": [
+          "@Fuchsia City Access"
+        ],
+        "sections": [
+          {
+            "name": "Bird Keeper Wilton Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Jacob Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Ramiro Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 19",
+        "access_rules": [
+          "@Fuchsia City Access"
+        ],
+        "sections": [
+          {
+            "name": "Swimmer Richard Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_land.png",
+            "chest_opened_img": "images/locations/swimmer_male_land_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Reece Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_land.png",
+            "chest_opened_img": "images/locations/swimmer_male_land_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Tony Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer David Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Douglas Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Matthew Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Sis and Bro Lia & Luc Reward",
+            "chest_unopened_img": "images/locations/sis_and_bro.png",
+            "chest_opened_img": "images/locations/sis_and_bro_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Alice Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Connie Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Axle Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Anya Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 108,
+            "y": 128,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 108,
+            "y": 128,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 20 West",
         "access_rules": [
           "$surf"
         ],
         "sections": [
+          {
+            "name": "Swimmer Melissa Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Missy Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Dean Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
           {
             "name": "Northwest Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
@@ -885,18 +2011,96 @@
             "visibility_rules": [
               "hidden_all"
             ]
+          },
+          {
+            "name": "Swimmer Nora Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Roger Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Irene Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           }
         ],
         "map_locations": [
           {
             "map": "kanto_sevii",
-            "x": 56,
+            "x": 60,
             "y": 132,
             "size": 4
           },
           {
             "map": "kanto",
-            "x": 56,
+            "x": 60,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 20 East",
+        "access_rules": [
+          "@Fuchsia City Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Swimmer Barry Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Darrin Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Shirley Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Tiffany Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 92,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 92,
             "y": 132,
             "size": 4
           }
@@ -909,6 +2113,38 @@
         ],
         "sections": [
           {
+            "name": "Fisherman Ronald Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Fisherman Wade Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Sis and Bro Lil & Ian Reward",
+            "chest_unopened_img": "images/locations/sis_and_bro.png",
+            "chest_opened_img": "images/locations/sis_and_bro_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Spencer Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "East Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -917,6 +2153,46 @@
             ],
             "visibility_rules": [
               "hidden_all"
+            ]
+          },
+          {
+            "name": "Fisherman Claude Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Fisherman Nolan Reward",
+            "chest_unopened_img": "images/locations/fisherman.png",
+            "chest_opened_img": "images/locations/fisherman_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Jack Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Roland Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Jerome Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -942,8 +2218,29 @@
             "name": "Defeat Rival (Event)",
             "hosted_item": "defeat_route_22_rival_hosted",
             "access_rules": [
-              "deliver_oaks_parcel",
-              "defeat_giovanni"
+              "deliver_oaks_parcel"
+            ]
+          },
+          {
+            "name": "Early Rival Reward",
+            "chest_unopened_img": "images/locations/rival.png",
+            "chest_opened_img": "images/locations/rival_bw.png",
+            "access_rules": [
+              "deliver_oaks_parcel"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Late Rival Reward",
+            "chest_unopened_img": "images/locations/rival.png",
+            "chest_opened_img": "images/locations/rival_bw.png",
+            "access_rules": [
+              "defeat_route_22_rival,defeat_giovanni"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           }
         ],
@@ -964,16 +2261,13 @@
       },
       {
         "name": "Route 23",
-        "access_rules": [
-          "$has_route_22_gate_req"
-        ],
         "sections": [
           {
             "name": "Hidden Item After Second Checkpoint",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Route 23 South Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -984,7 +2278,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Route 23 South Access,$surf,^$hidden",
+              "@Route 23 Center Access,$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -995,7 +2290,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Route 23 Center Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1006,7 +2301,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Route 23 Center Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1017,7 +2312,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Route 23 Center Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1028,7 +2323,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,$has_route_23_guard_req,^$hidden"
+              "@Victory Road Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1039,7 +2334,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,$has_route_23_guard_req,$strength,^$hidden"
+              "@Indigo Plateau Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1050,7 +2345,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,$has_route_23_guard_req,$strength,^$hidden"
+              "@Indigo Plateau Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1079,9 +2374,65 @@
         ],
         "sections": [
           {
-            "name": "Team Rocket Grunt Reward",
+            "name": "Bug Catcher Cale Reward",
+            "chest_unopened_img": "images/locations/bug_catcher.png",
+            "chest_opened_img": "images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Ali Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Youngster Timmy Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lass Reli Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Ethan Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Team Rocket Grunt",
             "chest_unopened_img": "images/locations/man_nugget.png",
             "chest_opened_img": "images/locations/man_nugget_bw.png"
+          },
+          {
+            "name": "Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/man.png",
+            "chest_opened_img": "images/locations/man_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Shane Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           },
           {
             "name": "Northwest Ledge Item"
@@ -1120,6 +2471,14 @@
         ],
         "sections": [
           {
+            "name": "Hiker Franklin Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Northwest Hidden Item Near Bush",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1128,6 +2487,54 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Youngster Joey Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Hiker Wayne Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Youngster Dan Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Kelsey Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Hiker Nob Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Camper Flint Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {
@@ -1148,6 +2555,14 @@
             ]
           },
           {
+            "name": "Youngster Chad Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
             "name": "Hidden Item Near North Flowers",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1156,6 +2571,14 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Lass Haley Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "visibility_rules": [
+              "trainersanity_on"
             ]
           },
           {

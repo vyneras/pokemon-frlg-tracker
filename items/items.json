@@ -84,6 +84,12 @@
     "codes": "helix_fossil"
   },
   {
+    "name": "Hideout Key",
+    "type": "toggle",
+    "img": "images/items/hideout_key.png",
+    "codes": "hideout_key"
+  },
+  {
     "name": "HM01 Cut",
     "type": "toggle",
     "img": "images/items/normal_hm.png",
@@ -145,10 +151,22 @@
     "codes": "lemonade"
   },
   {
+    "name": "Letter",
+    "type": "toggle",
+    "img": "images/items/letter.png",
+    "codes": "letter"
+  },
+  {
     "name": "Lift Key",
     "type": "toggle",
     "img": "images/items/lift_key.png",
     "codes": "lift_key"
+  },
+  {
+    "name": "Machine Part",
+    "type": "toggle",
+    "img": "images/items/machine_part.png",
+    "codes": "machine_part"
   },
   {
     "name": "Marsh Badge",
@@ -218,6 +236,12 @@
     "type": "toggle",
     "img": "images/items/ruby.png",
     "codes": "ruby"
+  },
+  {
+    "name": "Safari Pass",
+    "type": "toggle",
+    "img": "images/items/safari_pass.png",
+    "codes": "safari_pass"
   },
   {
     "name": "Sapphire",

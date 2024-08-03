@@ -117,6 +117,134 @@
             "y": 520
           }
         ]
+      },
+      {
+        "name": "Fisherman Chip",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Fisherman Chip Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 152,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Elliot",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Fisherman Elliot Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 216,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Hank",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Fisherman Hank Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Ned",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Fisherman Ned Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 280,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Young Couple Gia & Jes",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 312,
+            "y": 352
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Andrew",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Fisherman Andrew Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 296,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Rocker Luca",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Rocker Luca Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 216,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Camper Justin",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Camper Justin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 168,
+            "y": 248
+          }
+        ]
       }
     ]
   }

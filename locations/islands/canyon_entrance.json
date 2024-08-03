@@ -17,6 +17,86 @@
             "y": 472
           }
         ]
+      },
+      {
+        "name": "Aroma Lady Miah",
+        "sections": [
+          {
+            "ref": "Islands/Canyon Entrance/Aroma Lady Miah Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Juggler Mason",
+        "sections": [
+          {
+            "ref": "Islands/Canyon Entrance/Juggler Mason Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 184,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Madeline",
+        "sections": [
+          {
+            "ref": "Islands/Canyon Entrance/Pokémon Ranger Madeline Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 168,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Nicolas",
+        "sections": [
+          {
+            "ref": "Islands/Canyon Entrance/Pokémon Ranger Nicolas Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 184,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Young Couple Eve & Jon",
+        "sections": [
+          {
+            "ref": "Islands/Canyon Entrance/Young Couple Eve & Jon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 64,
+            "y": 552
+          }
+        ]
       }
     ]
   }

@@ -129,63 +129,6 @@
             "y": 136
           }
         ]
-      },
-      {
-        "name": "Victory Road",
-        "sections": [
-          {
-            "ref": "Dungeons/Victory Road/1F - North Rock Hidden Item",
-            "name": "1F - North Rock Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Victory Road/1F - North Item (Right)",
-            "name": "1F - North Item (Right)"
-          },
-          {
-            "ref": "Dungeons/Victory Road/1F - North Item (Left)",
-            "name": "1F - North Item (Left)"
-          },
-          {
-            "ref": "Dungeons/Victory Road/1F - Center Rock Hidden Item",
-            "name": "1F - Center Rock Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Victory Road/2F - Item Below Plateau",
-            "name": "2F - Item Below Plateau"
-          },
-          {
-            "ref": "Dungeons/Victory Road/2F - Item Above Plateau",
-            "name": "2F - Item Above Plateau"
-          },
-          {
-            "ref": "Dungeons/Victory Road/2F - Northeast Item",
-            "name": "2F - Northeast Item"
-          },
-          {
-            "ref": "Dungeons/Victory Road/3F - Northeast Item",
-            "name": "3F - Northeast Item"
-          },
-          {
-            "ref": "Dungeons/Victory Road/3F - Northwest Item",
-            "name": "3F - Northwest Item"
-          },
-          {
-            "ref": "Dungeons/Victory Road/2F - Northwest Item",
-            "name": "2F - Northwest Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_23_north",
-            "x": 88,
-            "y": 456
-          },
-          {
-            "map": "route_23_north",
-            "x": 296,
-            "y": 456
-          }
-        ]
       }
     ]
   }

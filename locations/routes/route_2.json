@@ -53,47 +53,6 @@
             "y": 24
           }
         ]
-      },
-      {
-        "name": "Viridian Forest",
-        "sections": [
-          {
-            "ref": "Dungeons/Viridian Forest/Hidden Item Near South Entrance",
-            "name": "Hidden Item Near South Entrance"
-          },
-          {
-            "ref": "Dungeons/Viridian Forest/West Item",
-            "name": "West Item"
-          },
-          {
-            "ref": "Dungeons/Viridian Forest/Southeast Item",
-            "name": "Southeast Item"
-          },
-          {
-            "ref": "Dungeons/Viridian Forest/Northeast Item",
-            "name": "Northeast Item"
-          },
-          {
-            "ref": "Dungeons/Viridian Forest/Center Item",
-            "name": "Center Item"
-          },
-          {
-            "ref": "Dungeons/Viridian Forest/Hidden Item Near North Entrance",
-            "name": "Hidden Item Near North Entrance"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_2_south",
-            "x": 96,
-            "y": 184
-          },
-          {
-            "map": "route_2_north",
-            "x": 96,
-            "y": 216
-          }
-        ]
       }
     ]
   }

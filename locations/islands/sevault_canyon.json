@@ -81,6 +81,118 @@
             "y": 424
           }
         ]
+      },
+      {
+        "name": "Cooltrainer Leroy",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Cooltrainer Leroy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 120,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Michelle",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Cooltrainer Michelle Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Cool Couple Lex & Nya",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Cool Couple Lex & Nya Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 232,
+            "y": 224
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Cyndy",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Crush Girl Cyndy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 216,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Jackson",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Pokémon Ranger Jackson Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 56,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Katelyn",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Pokémon Ranger Katelyn Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 56,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Tamer Evan",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Tamer Evan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 216,
+            "y": 584
+          }
+        ]
       }
     ]
   }

@@ -97,6 +97,54 @@
             "y": 280
           }
         ]
+      },
+      {
+        "name": "Bird Keeper Chaz",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Chaz Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 232,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Harold",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Harold Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 280,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Milo",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Milo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 200,
+            "y": 104
+          }
+        ]
       }
     ]
   }

@@ -35,17 +35,34 @@ function resetLocations()
     end
 end
 
+function resetBadgeRequirements()
+    for _, setting in pairs(BADGE_FOR_HM) do
+        local object = Tracker:FindObjectForCode(setting)
+        if object then
+            object.Active = true
+        end
+    end
+end
+
 function onClear(slot_data)
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     CUR_INDEX = -1
     resetItems()
     resetLocations()
+    resetBadgeRequirements()
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
     for key, value in pairs(slot_data) do
-        if SLOT_CODES[key] then
+        if key == "remove_badge_requirement" then
+            for _, hm in pairs(slot_data["remove_badge_requirement"]) do
+                local object = Tracker:FindObjectForCode(BADGE_FOR_HM[hm])
+                if object then
+                    object.Active = false
+                end
+            end
+        elseif SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
             if object then
                 if SLOT_CODES[key].type == "toggle" then

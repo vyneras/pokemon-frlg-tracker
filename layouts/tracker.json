@@ -71,6 +71,15 @@
             "type": "layout",
             "key": "requirement_grid"
           }
+        },
+        {
+          "type": "group",
+          "header": "Badges Required",
+          "dock": "bottom",
+          "content": {
+            "type": "layout",
+            "key": "badge_grid"
+          }
         }
       ]
     }

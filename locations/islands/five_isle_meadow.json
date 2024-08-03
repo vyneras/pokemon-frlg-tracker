@@ -35,42 +35,50 @@
         ]
       },
       {
-        "name": "Rocket Warehouse",
+        "name": "North Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Dungeons/Rocket Warehouse/Maze South Item",
-            "name": "Maze South Item"
-          },
-          {
-            "ref": "Dungeons/Rocket Warehouse/Maze Center Box Hidden Item",
-            "name": "Maze Center Box Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Rocket Warehouse/Maze West Item",
-            "name": "Maze West Item"
-          },
-          {
-            "ref": "Dungeons/Rocket Warehouse/Northwest Room Item",
-            "name": "Northwest Room Item"
-          },
-          {
-            "ref": "Dungeons/Rocket Warehouse/North Room Item",
-            "name": "North Room Item"
-          },
-          {
-            "ref": "Dungeons/Rocket Warehouse/Scientist Gideon Reward",
-            "name": "Scientist Gideon Reward"
-          },
-          {
-            "ref": "Dungeons/Rocket Warehouse/Northeast Room Box Hidden Item",
-            "name": "Northeast Room Box Hidden Item"
+            "ref": "Islands/Five Isle Meadow/North Team Rocket Grunt Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "five_isle_meadow",
-            "x": 200,
-            "y": 344
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Center Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/Center Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 296,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "South Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/South Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 184,
+            "y": 440
           }
         ]
       }

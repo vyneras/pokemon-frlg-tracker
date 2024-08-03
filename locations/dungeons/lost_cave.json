@@ -1,9 +1,51 @@
 [
   {
-    "name": "Lost Cave",
+    "name": "Lost Cave Room 1",
     "children": [
       {
-        "name": "Room 10 Item",
+        "name": "Ruin Maniac Lawson",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 1 - Ruin Maniac Lawson Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_1",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave Room 4",
+    "children": [
+      {
+        "name": "Ruin Maniac Lawson",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 4 - Psychic Laura Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_4",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave Room 10",
+    "children": [
+      {
+        "name": "Item",
         "sections": [
           {
             "ref": "Dungeons/Lost Cave/Room 10 - Item",
@@ -19,7 +61,28 @@
         ]
       },
       {
-        "name": "Room 11 Item",
+        "name": "Lady Selphy",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/Room 10 - Lady Selphy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_10",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave Room 11",
+    "children": [
+      {
+        "name": "Item",
         "sections": [
           {
             "ref": "Dungeons/Lost Cave/Room 11 - Item",
@@ -33,9 +96,14 @@
             "y": 88
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave Room 12",
+    "children": [
       {
-        "name": "Room 12 Item",
+        "name": "Item",
         "sections": [
           {
             "ref": "Dungeons/Lost Cave/Room 12 - Item",
@@ -49,9 +117,14 @@
             "y": 88
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave Room 13",
+    "children": [
       {
-        "name": "Room 13 Item",
+        "name": "Item",
         "sections": [
           {
             "ref": "Dungeons/Lost Cave/Room 13 - Item",
@@ -65,9 +138,14 @@
             "y": 88
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave Room 14",
+    "children": [
       {
-        "name": "Room 14 Item",
+        "name": "Item",
         "sections": [
           {
             "ref": "Dungeons/Lost Cave/Room 14 - Item",

@@ -3,8 +3,52 @@
     "name": "Cinnabar Island",
     "children": [
       {
+        "name": "Pokémon Lab",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Pokémon Lab Research Room Scientist",
+            "name": "Research Room Scientist"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 136,
+            "y": 152
+          }
+        ]
+      },
+      {
         "name": "Cinnabar Gym",
         "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Burglar Quinn Reward",
+            "name": "Burglar Quinn Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Erik Reward",
+            "name": "Super Nerd Erik Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Avery Reward",
+            "name": "Super Nerd Avery Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Burglar Ramon Reward",
+            "name": "Burglar Ramon Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Derek Reward",
+            "name": "Super Nerd Derek Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Burglar Dusty Reward",
+            "name": "Burglar Dusty Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Zac Reward",
+            "name": "Super Nerd Zac Reward"
+          },
           {
             "ref": "Cities/Cinnabar Island/Defeat Blaine (Event)",
             "name": "Defeat Blaine (Event)"
@@ -12,6 +56,10 @@
           {
             "ref": "Cities/Cinnabar Island/Leader Blaine Prize",
             "name": "Leader Blaine Prize"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Leader Blaine TM",
+            "name": "Leader Blaine TM"
           },
           {
             "ref": "Cities/Cinnabar Island/Leader Blaine Reward",
@@ -38,78 +86,6 @@
             "map": "cinnabar_island",
             "x": 232,
             "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Pokémon Mansion",
-        "sections": [
-          {
-            "ref": "Dungeons/Pokémon Mansion/1F - West Rubble Hidden Item",
-            "name": "1F - West Rubble Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/1F - Item Between North Pillars",
-            "name": "1F - Item Between North Pillars"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/1F - Item Behind Gate",
-            "name": "1F - Item Behind Gate"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/3F - Southwest Room Item",
-            "name": "3F - Southwest Room Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/2F - West Balcony Item",
-            "name": "2F - West Balcony Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/2F - Northeast Room Item",
-            "name": "2F - Northeast Room Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/3F - Northeast Room Item",
-            "name": "3F - Northeast Room Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/3F - East Hallway Hidden Item",
-            "name": "3F - East Hallway Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/2F - Item Near East Balcony",
-            "name": "2F - Item Near East Balcony"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/1F - Item Near B1F Stairs",
-            "name": "1F - Item Near B1F Stairs"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/B1F - Southwest Hallway Item",
-            "name": "B1F - Southwest Hallway Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/B1F - Northeast Room Hidden Item",
-            "name": "B1F - Northeast Room Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/B1F - North Room Item",
-            "name": "B1F - North Room Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/B1F - Northwest Room Item",
-            "name": "B1F - Northwest Room Item"
-          },
-          {
-            "ref": "Dungeons/Pokémon Mansion/B1F - West Room Item",
-            "name": "B1F - West Room Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 136,
-            "y": 56
           }
         ]
       }

@@ -6,7 +6,7 @@
         "name": "Northwest Island Hidden Item",
         "sections": [
           {
-            "ref": "Routes/Route 20/Northwest Island Hidden Item",
+            "ref": "Routes/Route 20 West/Northwest Island Hidden Item",
             "name": "Hidden Item"
           }
         ],
@@ -19,47 +19,162 @@
         ]
       },
       {
-        "name": "Seafoam Islands",
+        "name": "Swimmer Shirley",
         "sections": [
           {
-            "ref": "Dungeons/Seafoam Islands/1F - Plateau Item",
-            "name": "1F - Plateau Item"
-          },
+            "ref": "Routes/Route 20 East/Swimmer Shirley Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
           {
-            "ref": "Dungeons/Seafoam Islands/B1F - Center Plateau Item",
-            "name": "B1F - Center Plateau Item"
-          },
+            "map": "route_20_east",
+            "x": 216,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Tiffany",
+        "sections": [
           {
-            "ref": "Dungeons/Seafoam Islands/B2F - Item Below Center Plateau",
-            "name": "B2F - Item Below Center Plateau"
-          },
-          {
-            "ref": "Dungeons/Seafoam Islands/B1F - South Item",
-            "name": "B1F - South Item"
-          },
-          {
-            "ref": "Dungeons/Seafoam Islands/B3F - West Plateau Rock Hidden Item",
-            "name": "B3F - West Plateau Rock Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Seafoam Islands/B4F - West Rock Hidden Item",
-            "name": "B4F - West Rock Hidden Item"
-          },
-          {
-            "ref": "Dungeons/Seafoam Islands/B4F - South Peninsula Item",
-            "name": "B4F - South Peninsula Item"
+            "ref": "Routes/Route 20 East/Swimmer Tiffany Reward",
+            "name": "Reward"
           }
         ],
         "map_locations": [
           {
             "map": "route_20_center",
-            "x": 328,
-            "y": 136
-          },
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Barry",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 East/Swimmer Barry Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_east",
+            "x": 504,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Darrin",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 East/Swimmer Darrin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_east",
+            "x": 424,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Irene",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 West/Picnicker Irene Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
           {
             "map": "route_20_center",
-            "x": 520,
+            "x": 536,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Roger",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 West/Bird Keeper Roger Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_center",
+            "x": 56,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Missy",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 West/Picnicker Missy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_west",
+            "x": 264,
             "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Melissa",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 West/Swimmer Melissa Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_west",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Nora",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 West/Swimmer Nora Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_west",
+            "x": 552,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Dean",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 West/Swimmer Dean Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_west",
+            "x": 376,
+            "y": 168
           }
         ]
       }

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Mt. Ember",
+    "name": "Mt. Ember Exterior",
     "children": [
       {
         "name": "Hidden Item Near West Cave Entrance",
@@ -67,10 +67,10 @@
         ]
       },
       {
-        "name": "West Item",
+        "name": "Northwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - West Item",
+            "ref": "Dungeons/Mt. Ember/Exterior - Northwest Item",
             "name": "Item"
           }
         ],
@@ -82,6 +82,91 @@
           }
         ]
       },
+      {
+        "name": "Team Rocket Grunt (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Team Rocket Grunt Reward (Left)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 664,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Team Rocket Grunt Reward (Right)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 680,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Jocelyn",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Crush Girl Jocelyn Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 360,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Beth",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Pokémon Ranger Beth Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 232,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Logan",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Pokémon Ranger Logan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 248,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B5F",
+    "children": [
       {
         "name": "Ruby",
         "sections": [
