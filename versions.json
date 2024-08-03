@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "package_version": "1.3.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.3.0.zip",
+      "sha256": "f9045452c70c49e814751b739f3edd396a994e9d299eeaedbd077bac1d12da5a",
+      "changelog": [
+        "Added Extra Key Items setting, items, and locations",
+        "Added Trainersanity setting and locations",
+        "Added settings for if the relevant badge is required to use an HM",
+        "Added Route 4, Route 10, and Indigo Plateau to Free Fly setting",
+        "Fixed the location of one of Treasure Beach's Hidden Items"
+      ]
+    },
+    {
       "package_version": "1.2.1",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.2.1.zip",
       "sha256": "cda7e7f2ca184b6c8576b758f3c80ceaec66a1c2ea7af10400e3909e6287864f",
