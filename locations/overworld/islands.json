@@ -597,6 +597,9 @@
             "name": "Swimmer Tisha Reward",
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
