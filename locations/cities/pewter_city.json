@@ -14,16 +14,16 @@
             "name": "Defeat Brock (Event)"
           },
           {
-            "ref": "Cities/Pewter City/Leader Brock Prize",
-            "name": "Leader Brock Prize"
-          },
-          {
-            "ref": "Cities/Pewter City/Leader Brock TM",
-            "name": "Leader Brock TM"
-          },
-          {
             "ref": "Cities/Pewter City/Leader Brock Reward",
             "name": "Leader Brock Reward"
+          },
+          {
+            "ref": "Cities/Pewter City/Pewter Gym Prize",
+            "name": "Pewter Gym Prize"
+          },
+          {
+            "ref": "Cities/Pewter City/Brock TM",
+            "name": "Brock TM"
           }
         ],
         "map_locations": [
@@ -54,8 +54,7 @@
         "name": "Pewter Museum",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Pewter Museum 1F Scientist",
-            "name": "Scientist"
+            "ref": "Cities/Pewter City/Scientist in Pewter Museum"
           }
         ],
         "map_locations": [

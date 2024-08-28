@@ -34,13 +34,13 @@
         ]
       },
       {
-        "name": "Warden's House",
+        "name": "Safari Zone Warden's House",
         "sections": [
           {
             "ref": "Cities/Fuchsia City/Safari Zone Warden"
           },
           {
-            "ref": "Cities/Fuchsia City/Warden's House Item",
+            "ref": "Cities/Fuchsia City/Safari Zone Warden's House Item",
             "name": "Item"
           }
         ],
@@ -56,8 +56,7 @@
         "name": "Safari Zone Office",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Safari Zone Office Worker",
-            "name": "Worker"
+            "ref": "Cities/Fuchsia City/Safari Zone Worker"
           }
         ],
         "map_locations": [
@@ -100,16 +99,16 @@
             "name": "Defeat Koga (Event)"
           },
           {
-            "ref": "Cities/Fuchsia City/Leader Koga Prize",
-            "name": "Leader Koga Prize"
-          },
-          {
-            "ref": "Cities/Fuchsia City/Leader Koga TM",
-            "name": "Leader Koga TM"
-          },
-          {
             "ref": "Cities/Fuchsia City/Leader Koga Reward",
             "name": "Leader Koga Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Fuchsia Gym Prize",
+            "name": "Fuchsia Gym Prize"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Koga TM",
+            "name": "Koga TM"
           }
         ],
         "map_locations": [

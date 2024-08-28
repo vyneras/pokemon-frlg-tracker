@@ -86,12 +86,12 @@
         "name": "Scientist Gideon",
         "sections": [
           {
-            "ref": "Dungeons/Rocket Warehouse/Scientist Gideon",
-            "name": "Gift"
-          },
-          {
             "ref": "Dungeons/Rocket Warehouse/Scientist Gideon Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Recover Stolen Gem",
+            "name": "Recover Stolen Gem"
           }
         ],
         "map_locations": [

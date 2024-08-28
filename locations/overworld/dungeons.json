@@ -2583,13 +2583,16 @@
       {
         "name": "Mt. Ember",
         "access_rules": [
-          "@One Island Access,$surf,$strength"
+          "@One Island Access,$surf"
         ],
         "sections": [
           {
             "name": "Exterior - Pokémon Ranger Beth Reward",
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$strength"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
@@ -2599,7 +2602,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$strength,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2609,6 +2612,9 @@
             "name": "Exterior - Pokémon Ranger Logan Reward",
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
+            "access_rules": [
+              "$strength"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
@@ -2617,17 +2623,23 @@
             "name": "Exterior - Crush Girl Jocelyn Reward",
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "access_rules": [
+              "$strength"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
           },
           {
-            "name": "Exterior - East Item"
+            "name": "Exterior - East Item",
+            "access_rules": [
+              "$strength"
+            ]
           },
           {
             "name": "Exterior - Item Near Summit",
             "access_rules": [
-              "$rock_smash"
+              "$strength,$rock_smash"
             ]
           },
           {
@@ -2635,19 +2647,25 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$strength,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
             ]
           },
           {
-            "name": "Exterior - Northwest Item"
+            "name": "Exterior - Northwest Item",
+            "access_rules": [
+              "$strength"
+            ]
           },
           {
             "name": "Exterior - Team Rocket Grunt Reward (Left)",
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
+            "access_rules": [
+              "deliver_meteorite"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
@@ -2656,6 +2674,9 @@
             "name": "Exterior - Team Rocket Grunt Reward (Right)",
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
+            "access_rules": [
+              "deliver_meteorite"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
@@ -2665,7 +2686,7 @@
             "chest_unopened_img": "images/locations/ruby.png",
             "chest_opened_img": "images/locations/ruby_bw.png",
             "access_rules": [
-              "deliver_meteorite"
+              "$strength,deliver_meteorite"
             ]
           }
         ],
@@ -3007,17 +3028,17 @@
             ]
           },
           {
-            "name": "Scientist Gideon",
-            "chest_unopened_img": "images/locations/scientist_sapphire.png",
-            "chest_opened_img": "images/locations/scientist_sapphire_bw.png"
-          },
-          {
             "name": "Scientist Gideon Reward",
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "visibility_rules": [
               "trainersanity_on"
             ]
+          },
+          {
+            "name": "Recover Stolen Gem",
+            "chest_unopened_img": "images/locations/scientist_sapphire.png",
+            "chest_opened_img": "images/locations/scientist_sapphire_bw.png"
           },
           {
             "name": "Northeast Room Box Hidden Item",
@@ -3058,7 +3079,7 @@
         ],
         "sections": [
           {
-            "name": "Room 1 - Ruin Maniac Lawson Reward",
+            "name": "B1F Room 1 - Ruin Maniac Lawson Reward",
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
             "visibility_rules": [
@@ -3066,10 +3087,10 @@
             ]
           },
           {
-            "name": "Room 11 - Item"
+            "name": "B1F Room 11 - Item"
           },
           {
-            "name": "Room 4 - Psychic Laura Reward",
+            "name": "B1F Room 4 - Psychic Laura Reward",
             "chest_unopened_img": "images/locations/woman.png",
             "chest_opened_img": "images/locations/woman_bw.png",
             "visibility_rules": [
@@ -3077,16 +3098,16 @@
             ]
           },
           {
-            "name": "Room 12 - Item"
+            "name": "B1F Room 12 - Item"
           },
           {
-            "name": "Room 13 - Item"
+            "name": "B1F Room 13 - Item"
           },
           {
-            "name": "Room 14 - Item"
+            "name": "B1F Room 14 - Item"
           },
           {
-            "name": "Room 10 - Lady Selphy Reward",
+            "name": "B1F Room 10 - Lady Selphy Reward",
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "visibility_rules": [
@@ -3094,7 +3115,7 @@
             ]
           },
           {
-            "name": "Room 10 - Item"
+            "name": "B1F Room 10 - Item"
           }
         ],
         "map_locations": [

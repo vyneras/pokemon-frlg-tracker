@@ -6,8 +6,7 @@
         "name": "Pokémon Lab",
         "sections": [
           {
-            "ref": "Cities/Cinnabar Island/Pokémon Lab Research Room Scientist",
-            "name": "Research Room Scientist"
+            "ref": "Cities/Cinnabar Island/Scientist in Pokémon Lab"
           }
         ],
         "map_locations": [
@@ -54,16 +53,16 @@
             "name": "Defeat Blaine (Event)"
           },
           {
-            "ref": "Cities/Cinnabar Island/Leader Blaine Prize",
-            "name": "Leader Blaine Prize"
-          },
-          {
-            "ref": "Cities/Cinnabar Island/Leader Blaine TM",
-            "name": "Leader Blaine TM"
-          },
-          {
             "ref": "Cities/Cinnabar Island/Leader Blaine Reward",
             "name": "Leader Blaine Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Cinnabar Gym Prize",
+            "name": "Cinnabar Gym Prize"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Blaine TM",
+            "name": "Blaine TM"
           }
         ],
         "map_locations": [
@@ -71,21 +70,6 @@
             "map": "cinnabar_island",
             "x": 328,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Pokémon Center",
-        "sections": [
-          {
-            "ref": "Cities/Cinnabar Island/Bill"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 232,
-            "y": 184
           }
         ]
       }

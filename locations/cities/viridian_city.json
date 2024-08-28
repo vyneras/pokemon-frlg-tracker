@@ -6,8 +6,7 @@
         "name": "Poké Mart",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Poké Mart Clerk",
-            "name": "Clerk"
+            "ref": "Cities/Viridian City/Poké Mart Clerk"
           }
         ],
         "map_locations": [
@@ -90,16 +89,16 @@
             "name": "Defeat Giovanni (Event)"
           },
           {
-            "ref": "Cities/Viridian City/Leader Giovanni Prize",
-            "name": "Leader Giovanni Prize"
-          },
-          {
-            "ref": "Cities/Viridian City/Leader Giovanni TM",
-            "name": "Leader Giovanni TM"
-          },
-          {
             "ref": "Cities/Viridian City/Leader Giovanni Reward",
             "name": "Leader Giovanni Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Viridian Gym Prize",
+            "name": "Viridian Gym Prize"
+          },
+          {
+            "ref": "Cities/Viridian City/Giovanni TM",
+            "name": "Giovanni TM"
           },
           {
             "ref": "Cities/Viridian City/Hidden Item Under Giovanni",

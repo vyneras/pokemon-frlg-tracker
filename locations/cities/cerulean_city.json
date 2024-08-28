@@ -38,12 +38,12 @@
         "name": "Rival",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Rival",
-            "name": "Gift"
-          },
-          {
             "ref": "Cities/Cerulean City/Rival Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Rival",
+            "name": "Gift"
           }
         ],
         "map_locations": [
@@ -58,8 +58,8 @@
         "name": "Cerulean Gym",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Hidden Item In Water",
-            "name": "Hidden Item In Water"
+            "ref": "Cities/Cerulean City/Hidden Item in Water",
+            "name": "Hidden Item in Water"
           },
           {
             "ref": "Cities/Cerulean City/Swimmer Luis Reward",
@@ -74,16 +74,16 @@
             "name": "Defeat Misty (Event)"
           },
           {
-            "ref": "Cities/Cerulean City/Leader Misty Prize",
-            "name": "Leader Misty Prize"
-          },
-          {
-            "ref": "Cities/Cerulean City/Leader Misty TM",
-            "name": "Leader Misty TM"
-          },
-          {
             "ref": "Cities/Cerulean City/Leader Misty Reward",
             "name": "Leader Misty Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Cerulean Gym Prize",
+            "name": "Cerulean Gym Prize"
+          },
+          {
+            "ref": "Cities/Cerulean City/Misty TM",
+            "name": "Misty TM"
           }
         ],
         "map_locations": [
@@ -98,8 +98,7 @@
         "name": "Bike Shop",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Bike Shop Owner",
-            "name": "Owner"
+            "ref": "Cities/Cerulean City/Bicycle Purchase"
           }
         ],
         "map_locations": [
@@ -114,12 +113,11 @@
         "name": "Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Team Rocket Grunt",
-            "name": "Gift"
-          },
-          {
             "ref": "Cities/Cerulean City/Team Rocket Grunt Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Recover Stolen TM"
           }
         ],
         "map_locations": [

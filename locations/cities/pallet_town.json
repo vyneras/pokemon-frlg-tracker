@@ -14,12 +14,12 @@
             "name": "Deliver Oak's Parcel (Event)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Parcel Delivery Gift",
-            "name": "Oak's Parcel Delivery Gift"
+            "ref": "Cities/Pallet Town/Oak (Deliver Parcel)",
+            "name": "Oak (Deliver Parcel)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Post Route 22 Rival Gift",
-            "name": "Oak's Post Route 22 Rival Gift"
+            "ref": "Cities/Pallet Town/Oak (After Route 22 Rival)",
+            "name": "Oak (After Route 22 Rival)"
           }
         ],
         "map_locations": [
@@ -46,15 +46,15 @@
         ]
       },
       {
-        "name": "Oak's Post Champion Gifts",
+        "name": "Oak",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak's Post Champion Gift 1",
-            "name": "Gift 1"
+            "ref": "Cities/Pallet Town/Oak (First Gift After Champion)",
+            "name": "First Gift"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Post Champion Gift 2",
-            "name": "Gift 2"
+            "ref": "Cities/Pallet Town/Oak (Second Gift After Champion)",
+            "name": "Second Gift"
           }
         ],
         "map_locations": [

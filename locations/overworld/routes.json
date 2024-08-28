@@ -41,7 +41,7 @@
             "name": "South Item"
           },
           {
-            "name": "Professor Oak's Aide",
+            "name": "Oak's Aide",
             "chest_unopened_img": "images/locations/scientist_normal_tm.png",
             "chest_opened_img": "images/locations/scientist_normal_tm_bw.png",
             "access_rules": [
@@ -669,7 +669,7 @@
         ],
         "sections": [
           {
-            "name": "Professor Oak's Aide",
+            "name": "Oak's Aide",
             "chest_unopened_img": "images/locations/scientist_everstone.png",
             "chest_opened_img": "images/locations/scientist_everstone_bw.png",
             "access_rules": [
@@ -928,7 +928,7 @@
             "name": "Item Behind Trees"
           },
           {
-            "name": "Professor Oak's Aide",
+            "name": "Oak's Aide",
             "chest_unopened_img": "images/locations/scientist_itemfinder.png",
             "chest_opened_img": "images/locations/scientist_itemfinder_bw.png",
             "access_rules": [
@@ -959,7 +959,7 @@
         ],
         "sections": [
           {
-            "name": "North Entrance 2F Lass",
+            "name": "Mourning Lass in Gate",
             "chest_unopened_img": "images/locations/lass_normal_tm.png",
             "chest_opened_img": "images/locations/lass_normal_tm_bw.png"
           },
@@ -1473,7 +1473,7 @@
             ]
           },
           {
-            "name": "Professor Oak's Aide",
+            "name": "Oak's Aide",
             "chest_unopened_img": "images/locations/scientist_exp_share.png",
             "chest_opened_img": "images/locations/scientist_exp_share_bw.png",
             "access_rules": [
@@ -1512,7 +1512,7 @@
             ]
           },
           {
-            "name": "Fly House Woman",
+            "name": "Woman in Fly House",
             "chest_unopened_img": "images/locations/woman_flying_tm.png",
             "chest_opened_img": "images/locations/woman_flying_tm_bw.png",
             "access_rules": [
@@ -1531,7 +1531,7 @@
             ]
           },
           {
-            "name": "Professor Oak's Aide",
+            "name": "Oak's Aide",
             "chest_unopened_img": "images/locations/scientist_amulet_coin.png",
             "chest_opened_img": "images/locations/scientist_amulet_coin_bw.png",
             "access_rules": [
@@ -2406,17 +2406,17 @@
             ]
           },
           {
-            "name": "Team Rocket Grunt",
-            "chest_unopened_img": "images/locations/man_nugget.png",
-            "chest_opened_img": "images/locations/man_nugget_bw.png"
-          },
-          {
             "name": "Team Rocket Grunt Reward",
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "visibility_rules": [
               "trainersanity_on"
             ]
+          },
+          {
+            "name": "Clear Nugget Bridge",
+            "chest_unopened_img": "images/locations/man_nugget.png",
+            "chest_opened_img": "images/locations/man_nugget_bw.png"
           },
           {
             "name": "Camper Shane Reward",

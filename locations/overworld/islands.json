@@ -16,7 +16,12 @@
             "chest_opened_img": "images/locations/bill_meteorite_bw.png"
           },
           {
-            "name": "Celio",
+            "name": "Celio (First Visit)",
+            "chest_unopened_img": "images/locations/celio_tri_pass.png",
+            "chest_opened_img": "images/locations/celio_tri_pass_bw.png"
+          },
+          {
+            "name": "Celio (Deliver Ruby)",
             "chest_unopened_img": "images/locations/celio_rainbow_pass.png",
             "chest_opened_img": "images/locations/celio_rainbow_pass_bw.png",
             "access_rules": [
@@ -354,7 +359,7 @@
             ]
           },
           {
-            "name": "Lostelle's Father",
+            "name": "Lostelle's Dad",
             "chest_unopened_img": "images/locations/balding_man_moon_stone.png",
             "chest_opened_img": "images/locations/balding_man_moon_stone_bw.png",
             "access_rules": [

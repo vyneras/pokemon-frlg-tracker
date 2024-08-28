@@ -142,6 +142,7 @@
     "name": "One Island Access",
     "access_rules": [
       "$free_fly|one_island",
+      "@Cinnabar Island Access,defeat_blaine",
       "@Vermilion City Access,tri_pass",
       "@Two Island Access,tri_pass",
       "@Three Island Access,tri_pass",

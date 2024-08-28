@@ -23,7 +23,7 @@
             ]
           },
           {
-            "name": "Oak's Parcel Delivery Gift",
+            "name": "Oak (Deliver Parcel)",
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
@@ -39,7 +39,7 @@
             ]
           },
           {
-            "name": "Oak's Post Route 22 Rival Gift",
+            "name": "Oak (After Route 22 Rival)",
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
@@ -47,7 +47,7 @@
             ]
           },
           {
-            "name": "Oak's Post Champion Gift 1",
+            "name": "Oak (First Gift After Champion)",
             "chest_unopened_img": "images/locations/oak_mystic_ticket.png",
             "chest_opened_img": "images/locations/oak_mystic_ticket_bw.png",
             "access_rules": [
@@ -55,7 +55,7 @@
             ]
           },
           {
-            "name": "Oak's Post Champion Gift 2",
+            "name": "Oak (Second Gift After Champion)",
             "chest_unopened_img": "images/locations/oak_aurora_ticket.png",
             "chest_opened_img": "images/locations/oak_aurora_ticket_bw.png",
             "access_rules": [
@@ -192,22 +192,6 @@
             ]
           },
           {
-            "name": "Leader Giovanni Prize",
-            "chest_unopened_img": "images/locations/giovanni_earth_badge.png",
-            "chest_opened_img": "images/locations/giovanni_earth_badge_bw.png",
-            "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
-            ]
-          },
-          {
-            "name": "Leader Giovanni TM",
-            "chest_unopened_img": "images/locations/giovanni_ground_tm.png",
-            "chest_opened_img": "images/locations/giovanni_ground_tm_bw.png",
-            "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
-            ]
-          },
-          {
             "name": "Leader Giovanni Reward",
             "chest_unopened_img": "images/locations/giovanni.png",
             "chest_opened_img": "images/locations/giovanni_bw.png",
@@ -216,6 +200,22 @@
             ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Viridian Gym Prize",
+            "chest_unopened_img": "images/locations/giovanni_earth_badge.png",
+            "chest_opened_img": "images/locations/giovanni_earth_badge_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ]
+          },
+          {
+            "name": "Giovanni TM",
+            "chest_unopened_img": "images/locations/giovanni_ground_tm.png",
+            "chest_opened_img": "images/locations/giovanni_ground_tm_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
             ]
           },
           {
@@ -250,6 +250,25 @@
         ],
         "sections": [
           {
+            "name": "Northwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Scientist in Pewter Museum",
+            "chest_unopened_img": "images/locations/scientist_old_amber.png",
+            "chest_opened_img": "images/locations/scientist_old_amber_bw.png",
+            "access_rules": [
+              "$cut"
+            ]
+          },
+          {
             "name": "Camper Liam Reward",
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
@@ -262,16 +281,6 @@
             "hosted_item": "defeat_brock_hosted"
           },
           {
-            "name": "Leader Brock Prize",
-            "chest_unopened_img": "images/locations/brock_boulder_badge.png",
-            "chest_opened_img": "images/locations/brock_boulder_badge_bw.png"
-          },
-          {
-            "name": "Leader Brock TM",
-            "chest_unopened_img": "images/locations/brock_rock_tm.png",
-            "chest_opened_img": "images/locations/brock_rock_tm_bw.png"
-          },
-          {
             "name": "Leader Brock Reward",
             "chest_unopened_img": "images/locations/brock.png",
             "chest_opened_img": "images/locations/brock_bw.png",
@@ -280,23 +289,14 @@
             ]
           },
           {
-            "name": "Northwest Hidden Item",
-            "chest_unopened_img": "images/locations/hidden_item.png",
-            "chest_opened_img": "images/locations/hidden_item_bw.png",
-            "access_rules": [
-              "^$hidden"
-            ],
-            "visibility_rules": [
-              "hidden_nonrecurring"
-            ]
+            "name": "Pewter Gym Prize",
+            "chest_unopened_img": "images/locations/brock_boulder_badge.png",
+            "chest_opened_img": "images/locations/brock_boulder_badge_bw.png"
           },
           {
-            "name": "Pewter Museum 1F Scientist",
-            "chest_unopened_img": "images/locations/scientist_old_amber.png",
-            "chest_opened_img": "images/locations/scientist_old_amber_bw.png",
-            "access_rules": [
-              "$cut"
-            ]
+            "name": "Brock TM",
+            "chest_unopened_img": "images/locations/brock_rock_tm.png",
+            "chest_opened_img": "images/locations/brock_rock_tm_bw.png"
           }
         ],
         "map_locations": [
@@ -348,7 +348,7 @@
             ]
           },
           {
-            "name": "Hidden Item In Water",
+            "name": "Hidden Item in Water",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
@@ -356,6 +356,34 @@
             ],
             "visibility_rules": [
               "extra_key_items_on"
+            ]
+          },
+          {
+            "name": "Bicycle Purchase",
+            "chest_unopened_img": "images/locations/clerk_bicycle.png",
+            "chest_opened_img": "images/locations/clerk_bicycle_bw.png",
+            "access_rules": [
+              "bike_voucher",
+              "{}"
+            ]
+          },
+          {
+            "name": "Team Rocket Grunt Reward",
+            "chest_unopened_img": "images/locations/rocket_male.png",
+            "chest_opened_img": "images/locations/rocket_male_bw.png",
+            "access_rules": [
+              "@Cerulean City Outskirts Access"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Recover Stolen TM",
+            "chest_unopened_img": "images/locations/rocket_male_ground_tm.png",
+            "chest_opened_img": "images/locations/rocket_male_ground_tm_bw.png",
+            "access_rules": [
+              "@Cerulean City Outskirts Access"
             ]
           },
           {
@@ -379,16 +407,6 @@
             "hosted_item": "defeat_misty_hosted"
           },
           {
-            "name": "Leader Misty Prize",
-            "chest_unopened_img": "images/locations/misty_cascade_badge.png",
-            "chest_opened_img": "images/locations/misty_cascade_badge_bw.png"
-          },
-          {
-            "name": "Leader Misty TM",
-            "chest_unopened_img": "images/locations/misty_water_tm.png",
-            "chest_opened_img": "images/locations/misty_water_tm_bw.png"
-          },
-          {
             "name": "Leader Misty Reward",
             "chest_unopened_img": "images/locations/misty.png",
             "chest_opened_img": "images/locations/misty_bw.png",
@@ -397,32 +415,14 @@
             ]
           },
           {
-            "name": "Bike Shop Owner",
-            "chest_unopened_img": "images/locations/clerk_bicycle.png",
-            "chest_opened_img": "images/locations/clerk_bicycle_bw.png",
-            "access_rules": [
-              "bike_voucher",
-              "{}"
-            ]
+            "name": "Cerulean Gym Prize",
+            "chest_unopened_img": "images/locations/misty_cascade_badge.png",
+            "chest_opened_img": "images/locations/misty_cascade_badge_bw.png"
           },
           {
-            "name": "Team Rocket Grunt",
-            "chest_unopened_img": "images/locations/rocket_male_ground_tm.png",
-            "chest_opened_img": "images/locations/rocket_male_ground_tm_bw.png",
-            "access_rules": [
-              "@Cerulean City Outskirts Access"
-            ]
-          },
-          {
-            "name": "Team Rocket Grunt Reward",
-            "chest_unopened_img": "images/locations/rocket_male.png",
-            "chest_opened_img": "images/locations/rocket_male_bw.png",
-            "access_rules": [
-              "@Cerulean City Outskirts Access"
-            ],
-            "visibility_rules": [
-              "trainersanity_on"
-            ]
+            "name": "Misty TM",
+            "chest_unopened_img": "images/locations/misty_water_tm.png",
+            "chest_opened_img": "images/locations/misty_water_tm_bw.png"
           }
         ],
         "map_locations": [
@@ -515,24 +515,6 @@
             ]
           },
           {
-            "name": "Leader Lt. Surge Prize",
-            "chest_unopened_img": "images/locations/lt_surge_thunder_badge.png",
-            "chest_opened_img": "images/locations/lt_surge_thunder_badge_bw.png",
-            "access_rules": [
-              "$cut",
-              "$surf"
-            ]
-          },
-          {
-            "name": "Leader Lt. Surge TM",
-            "chest_unopened_img": "images/locations/lt_surge_thunder_tm.png",
-            "chest_opened_img": "images/locations/lt_surge_thunder_tm_bw.png",
-            "access_rules": [
-              "$cut",
-              "$surf"
-            ]
-          },
-          {
             "name": "Leader Lt. Surge Reward",
             "chest_unopened_img": "images/locations/lt_surge.png",
             "chest_opened_img": "images/locations/lt_surge_bw.png",
@@ -542,6 +524,24 @@
             ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Vermilion Gym Prize",
+            "chest_unopened_img": "images/locations/lt_surge_thunder_badge.png",
+            "chest_opened_img": "images/locations/lt_surge_thunder_badge_bw.png",
+            "access_rules": [
+              "$cut",
+              "$surf"
+            ]
+          },
+          {
+            "name": "Lt. Surge TM",
+            "chest_unopened_img": "images/locations/lt_surge_thunder_tm.png",
+            "chest_opened_img": "images/locations/lt_surge_thunder_tm_bw.png",
+            "access_rules": [
+              "$cut",
+              "$surf"
             ]
           }
         ],
@@ -605,17 +605,17 @@
             "hosted_item": "lemonade_hosted"
           },
           {
-            "name": "Girl's Fresh Water Gift",
+            "name": "Thirsty Girl (Fresh Water)",
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
             "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
           },
           {
-            "name": "Girl's Soda Pop Gift",
+            "name": "Thirsty Girl (Soda Pop)",
             "chest_unopened_img": "images/locations/little_girl_normal_tm.png",
             "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png"
           },
           {
-            "name": "Girl's Lemonade Gift",
+            "name": "Thirsty Girl (Lemonade)",
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
             "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
           },
@@ -734,22 +734,6 @@
             ]
           },
           {
-            "name": "Leader Erika Prize",
-            "chest_unopened_img": "images/locations/erika_rainbow_badge.png",
-            "chest_opened_img": "images/locations/erika_rainbow_badge_bw.png",
-            "access_rules": [
-              "$cut"
-            ]
-          },
-          {
-            "name": "Leader Erika TM",
-            "chest_unopened_img": "images/locations/erika_grass_tm.png",
-            "chest_opened_img": "images/locations/erika_grass_tm_bw.png",
-            "access_rules": [
-              "$cut"
-            ]
-          },
-          {
             "name": "Leader Erika Reward",
             "chest_unopened_img": "images/locations/erika.png",
             "chest_opened_img": "images/locations/erika_bw.png",
@@ -758,6 +742,22 @@
             ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Celadon Gym Prize",
+            "chest_unopened_img": "images/locations/erika_rainbow_badge.png",
+            "chest_opened_img": "images/locations/erika_rainbow_badge_bw.png",
+            "access_rules": [
+              "$cut"
+            ]
+          },
+          {
+            "name": "Erika TM",
+            "chest_unopened_img": "images/locations/erika_grass_tm.png",
+            "chest_opened_img": "images/locations/erika_grass_tm_bw.png",
+            "access_rules": [
+              "$cut"
             ]
           }
         ],
@@ -805,13 +805,13 @@
             ]
           },
           {
-            "name": "Warden's House Item",
+            "name": "Safari Zone Warden's House Item",
             "access_rules": [
               "$strength"
             ]
           },
           {
-            "name": "Safari Zone Office Worker",
+            "name": "Safari Zone Worker",
             "chest_unopened_img": "images/locations/worker_safari_pass.png",
             "chest_opened_img": "images/locations/worker_safari_pass_bw.png",
             "visibility_rules": [
@@ -871,22 +871,22 @@
             "hosted_item": "defeat_koga_hosted"
           },
           {
-            "name": "Leader Koga Prize",
-            "chest_unopened_img": "images/locations/koga_soul_badge.png",
-            "chest_opened_img": "images/locations/koga_soul_badge_bw.png"
-          },
-          {
-            "name": "Leader Koga TM",
-            "chest_unopened_img": "images/locations/koga_poison_tm.png",
-            "chest_opened_img": "images/locations/koga_poison_tm_bw.png"
-          },
-          {
             "name": "Leader Koga Reward",
             "chest_unopened_img": "images/locations/koga.png",
             "chest_opened_img": "images/locations/koga_bw.png",
             "visibility_rules": [
               "trainersanity_on"
             ]
+          },
+          {
+            "name": "Fuchsia Gym Prize",
+            "chest_unopened_img": "images/locations/koga_soul_badge.png",
+            "chest_opened_img": "images/locations/koga_soul_badge_bw.png"
+          },
+          {
+            "name": "Koga TM",
+            "chest_unopened_img": "images/locations/koga_poison_tm.png",
+            "chest_opened_img": "images/locations/koga_poison_tm_bw.png"
           }
         ],
         "map_locations": [
@@ -1049,22 +1049,6 @@
             ]
           },
           {
-            "name": "Leader Sabrina Prize",
-            "chest_unopened_img": "images/locations/sabrina_marsh_badge.png",
-            "chest_opened_img": "images/locations/sabrina_marsh_badge_bw.png",
-            "access_rules": [
-              "liberate_silph_co"
-            ]
-          },
-          {
-            "name": "Leader Sabrina TM",
-            "chest_unopened_img": "images/locations/sabrina_psychic_tm.png",
-            "chest_opened_img": "images/locations/sabrina_psychic_tm_bw.png",
-            "access_rules": [
-              "liberate_silph_co"
-            ]
-          },
-          {
             "name": "Leader Sabrina Reward",
             "chest_unopened_img": "images/locations/sabrina.png",
             "chest_opened_img": "images/locations/sabrina_bw.png",
@@ -1073,6 +1057,22 @@
             ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Saffron Gym Prize",
+            "chest_unopened_img": "images/locations/sabrina_marsh_badge.png",
+            "chest_opened_img": "images/locations/sabrina_marsh_badge_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ]
+          },
+          {
+            "name": "Sabrina TM",
+            "chest_unopened_img": "images/locations/sabrina_psychic_tm.png",
+            "chest_opened_img": "images/locations/sabrina_psychic_tm_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
             ]
           }
         ],
@@ -1096,7 +1096,7 @@
         ],
         "sections": [
           {
-            "name": "Pokémon Lab Research Room Scientist",
+            "name": "Scientist in Pokémon Lab",
             "chest_unopened_img": "images/locations/scientist_letter.png",
             "chest_opened_img": "images/locations/scientist_letter_bw.png",
             "visibility_rules": [
@@ -1188,22 +1188,6 @@
             ]
           },
           {
-            "name": "Leader Blaine Prize",
-            "chest_unopened_img": "images/locations/blaine_volcano_badge.png",
-            "chest_opened_img": "images/locations/blaine_volcano_badge_bw.png",
-            "access_rules": [
-              "secret_key"
-            ]
-          },
-          {
-            "name": "Leader Blaine TM",
-            "chest_unopened_img": "images/locations/blaine_fire_tm.png",
-            "chest_opened_img": "images/locations/blaine_fire_tm_bw.png",
-            "access_rules": [
-              "secret_key"
-            ]
-          },
-          {
             "name": "Leader Blaine Reward",
             "chest_unopened_img": "images/locations/blaine.png",
             "chest_opened_img": "images/locations/blaine_bw.png",
@@ -1215,11 +1199,19 @@
             ]
           },
           {
-            "name": "Bill",
-            "chest_unopened_img": "images/locations/bill_tri_pass.png",
-            "chest_opened_img": "images/locations/bill_tri_pass_bw.png",
+            "name": "Cinnabar Gym Prize",
+            "chest_unopened_img": "images/locations/blaine_volcano_badge.png",
+            "chest_opened_img": "images/locations/blaine_volcano_badge_bw.png",
             "access_rules": [
-              "defeat_blaine"
+              "secret_key"
+            ]
+          },
+          {
+            "name": "Blaine TM",
+            "chest_unopened_img": "images/locations/blaine_fire_tm.png",
+            "chest_opened_img": "images/locations/blaine_fire_tm_bw.png",
+            "access_rules": [
+              "secret_key"
             ]
           }
         ],

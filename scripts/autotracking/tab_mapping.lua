@@ -629,11 +629,11 @@ TAB_MAPPING = {
     [362] = { -- Mt. Ember Ruby Path B3F
         [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path B3F"}
     },
-    [363] = { -- Mt. Ember Ruby Path B1F Stairs
-        [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path B1F Stairs"}
+    [364] = { -- Mt. Ember Ruby Path B1F Return
+        [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path B1F Return"}
     },
-    [364] = { -- Mt. Ember Ruby Path B2F Stairs
-        [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path B2F Stairs"}
+    [363] = { -- Mt. Ember Ruby Path B2F Return
+        [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path B2F Return"}
     },
     [781] = { -- Two Island
         [0] = {"Islands", "Two Island", "Town"}

@@ -1141,7 +1141,7 @@
                 "dock": "top",
                 "tabs": [
                   {
-                    "title": "Center",
+                    "title": "Center Area",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -1150,7 +1150,7 @@
                     }
                   },
                   {
-                    "title": "East",
+                    "title": "East Area",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -1159,7 +1159,7 @@
                     }
                   },
                   {
-                    "title": "North",
+                    "title": "North Area",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -1168,7 +1168,7 @@
                     }
                   },
                   {
-                    "title": "West",
+                    "title": "West Area",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -1615,11 +1615,11 @@
                           }
                         },
                         {
-                          "title": "Ruby Path B1F Stairs",
+                          "title": "Ruby Path B1F Return",
                           "content": {
                             "type": "map",
                             "maps": [
-                              "mt_ember_ruby_path_b1f_stairs"
+                              "mt_ember_ruby_path_b1f_return"
                             ]
                           }
                         },
@@ -1633,11 +1633,11 @@
                           }
                         },
                         {
-                          "title": "Ruby Path B2F Stairs",
+                          "title": "Ruby Path B2F Return",
                           "content": {
                             "type": "map",
                             "maps": [
-                              "mt_ember_ruby_path_b2f_stairs"
+                              "mt_ember_ruby_path_b2f_return"
                             ]
                           }
                         },
@@ -1730,7 +1730,7 @@
                     "content": {
                       "type": "map",
                       "maps": [
-                        "dunsparce_tunnel"
+                        "three_isle_path"
                       ]
                     }
                   },
