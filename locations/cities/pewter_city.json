@@ -3,6 +3,21 @@
     "name": "Pewter City",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 280,
+            "y": 408
+          }
+        ]
+      },
+      {
         "name": "Pewter Gym",
         "sections": [
           {

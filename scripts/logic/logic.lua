@@ -7,8 +7,8 @@ function cut()
     return (has("cascade_badge") or not has("cascade_badge_required")) and has("hm01_cut")
 end
 
-function fly()
-    return (has("thunder_badge") or not has("thunder_badge_required")) and has("hm02_fly")
+function fly(location)
+    return (has("thunder_badge") or not has("thunder_badge_required")) and has("hm02_fly") and has("fly_"..location)
 end
 
 function surf()
@@ -38,10 +38,6 @@ function hidden()
         return AccessibilityLevel.SequenceBreak
     end
     return AccessibilityLevel.None
-end
-
-function free_fly(location)
-    return has("free_fly_" .. location) and fly()
 end
 
 function route_2_oaks_aide()

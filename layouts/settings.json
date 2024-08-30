@@ -11,9 +11,11 @@
         "item_size": "32,40",
         "rows": [
           [
+            "kanto_only_setting",
             "hidden_setting",
             "extra_key_items_setting",
             "trainersanity_setting",
+            "fly_destination_unlocks_setting",
             "itemfinder_setting",
             "flash_required",
             "viridian_city_setting",
@@ -82,6 +84,25 @@
             "soul_badge_required",
             "marsh_badge_required",
             "volcano_badge_required"
+          ]
+        ]
+      }
+    ]
+  },
+  "free_fly_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "item_size": "184,32",
+        "rows": [
+          [
+            "free_fly_setting",
+            "town_map_fly_setting"
           ]
         ]
       }

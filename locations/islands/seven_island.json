@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Seven Island Town",
+    "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

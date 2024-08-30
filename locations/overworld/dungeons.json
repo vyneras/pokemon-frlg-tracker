@@ -1508,8 +1508,19 @@
           },
           {
             "map": "celadon_city",
+            "x": 552,
+            "y": 344,
+            "force_invisibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "map": "celadon_city",
             "x": 560,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": [
+              "trainersanity_off"
+            ]
           }
         ]
       },
@@ -2585,6 +2596,9 @@
         "access_rules": [
           "@One Island Access,$surf"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Exterior - Pokémon Ranger Beth Reward",
@@ -2714,6 +2728,9 @@
         "name": "Berry Forest",
         "access_rules": [
           "@Three Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -2906,6 +2923,9 @@
         "access_rules": [
           "@Four Island Access,$surf"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "1F - Center Item"
@@ -2962,6 +2982,9 @@
         "name": "Rocket Warehouse",
         "access_rules": [
           "@Five Island Access,learn_rocket_warehouse_password"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -3077,6 +3100,9 @@
         "access_rules": [
           "@Five Island Access,$surf"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "B1F Room 1 - Ruin Maniac Lawson Reward",
@@ -3142,6 +3168,9 @@
         "name": "Pattern Bush",
         "access_rules": [
           "@Six Island Access,$surf"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -3271,6 +3300,9 @@
         "access_rules": [
           "@Six Island Access,help_lorelei,$cut"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Sapphire Room - Learn Rocket Warehouse Password (Event)",
@@ -3323,7 +3355,6 @@
             "access_rules": [
               "$rock_smash"
             ]
-
           },
           {
             "name": "1F - Southwest Item"

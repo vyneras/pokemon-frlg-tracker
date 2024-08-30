@@ -5,11 +5,22 @@
     "chest_opened_img": "images/locations/pokeball_bw.png",
     "children": [
       {
-        "name": "One Island",
+        "name": "One Island Town",
         "access_rules": [
           "@One Island Access"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Bill",
             "chest_unopened_img": "images/locations/bill_meteorite.png",
@@ -53,6 +64,9 @@
         "name": "Treasure Beach",
         "access_rules": [
           "@One Island Access,$surf"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -171,6 +185,9 @@
         "name": "Kindle Road",
         "access_rules": [
           "@One Island Access,$surf"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -305,6 +322,9 @@
         "access_rules": [
           "@One Island Access,$surf"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Rock Smash Man",
@@ -333,11 +353,22 @@
         ]
       },
       {
-        "name": "Two Island",
+        "name": "Two Island Town",
         "access_rules": [
           "@Two Island Access"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Item Behind Cuttable Tree",
             "access_rules": [
@@ -385,6 +416,9 @@
         "access_rules": [
           "@Two Island Access"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Hidden Item Across Pond",
@@ -428,6 +462,9 @@
         "name": "Three Isle Path",
         "access_rules": [
           "@Three Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -473,11 +510,22 @@
         ]
       },
       {
-        "name": "Three Island",
+        "name": "Three Island Town",
         "access_rules": [
           "@Three Island Access"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Biker Goon Reward (Left)",
             "chest_unopened_img": "images/locations/biker.png",
@@ -550,6 +598,9 @@
         "name": "Bond Bridge",
         "access_rules": [
           "@Three Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -653,11 +704,22 @@
         ]
       },
       {
-        "name": "Four Island",
+        "name": "Four Island Town",
         "access_rules": [
           "@Four Island Access"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Beach Southeast Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
@@ -707,9 +769,43 @@
         ]
       },
       {
+        "name": "Five Island Town",
+        "access_rules": [
+          "@Five Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
+        "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 332,
+            "y": 108
+          },
+          {
+            "map": "sevii_45",
+            "x": 140,
+            "y": 108
+          }
+        ]
+      },
+      {
         "name": "Five Isle Meadow",
         "access_rules": [
           "@Five Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -768,6 +864,9 @@
         "name": "Memorial Pillar",
         "access_rules": [
           "@Five Island Access,$surf"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -871,6 +970,9 @@
         "access_rules": [
           "@Five Island Access,$surf"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Pokémon Breeder Alize Reward",
@@ -900,6 +1002,9 @@
         "name": "Resort Gorgeous",
         "access_rules": [
           "@Five Island Access,$surf"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -1019,11 +1124,22 @@
         ]
       },
       {
-        "name": "Six Island",
+        "name": "Six Island Town",
         "access_rules": [
           "@Six Island Access"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Hidden Item Behind Pokémon Center",
             "chest_unopened_img": "images/locations/hidden_item.png",
@@ -1053,6 +1169,9 @@
         "name": "Water Path",
         "access_rules": [
           "@Six Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -1181,6 +1300,9 @@
         "access_rules": [
           "@Six Island Access"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Southeast Item",
@@ -1261,6 +1383,9 @@
         "access_rules": [
           "@Six Island Access,$surf"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Psychic Jaclyn Reward",
@@ -1301,6 +1426,9 @@
         "name": "Outcast Island",
         "access_rules": [
           "@Six Island Access,$surf"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -1385,9 +1513,43 @@
         ]
       },
       {
+        "name": "Seven Island Town",
+        "access_rules": [
+          "@Seven Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
+        "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 244,
+            "y": 228
+          },
+          {
+            "map": "sevii_67",
+            "x": 52,
+            "y": 84
+          }
+        ]
+      },
+      {
         "name": "Canyon Entrance",
         "access_rules": [
           "@Seven Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -1461,6 +1623,9 @@
         "name": "Sevault Canyon",
         "access_rules": [
           "@Seven Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {
@@ -1566,6 +1731,9 @@
         "access_rules": [
           "@Seven Island Access,$surf"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Viapois Chamber Island Hidden Item",
@@ -1664,6 +1832,9 @@
         "access_rules": [
           "@Seven Island Access"
         ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
         "sections": [
           {
             "name": "Psychic Rodette Reward",
@@ -1734,6 +1905,9 @@
         "name": "Navel Rock",
         "access_rules": [
           "@Navel Rock Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
         ],
         "sections": [
           {

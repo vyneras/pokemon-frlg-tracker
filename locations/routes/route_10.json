@@ -6,7 +6,12 @@
         "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/Oak's Aide"
+            "ref": "Routes/Route 10 North/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "ref": "Routes/Route 10 North/Oak's Aide",
+            "name": "Oak's Aide"
           }
         ],
         "map_locations": [

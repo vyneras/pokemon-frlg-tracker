@@ -1,12 +1,27 @@
 [
   {
-    "name": "Three Island",
+    "name": "Three Island Town",
     "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 232,
+            "y": 440
+          }
+        ]
+      },
       {
         "name": "Anti-Biker",
         "sections": [
           {
-            "ref": "Islands/Three Island/Anti-Biker",
+            "ref": "Islands/Three Island Town/Anti-Biker",
             "name": "Gift"
           }
         ],
@@ -22,7 +37,7 @@
         "name": "Item Behind East Fence",
         "sections": [
           {
-            "ref": "Islands/Three Island/Item Behind East Fence",
+            "ref": "Islands/Three Island Town/Item Behind East Fence",
             "name": "Item"
           }
         ],
@@ -38,7 +53,7 @@
         "name": "Hidden Item Behind West Fence",
         "sections": [
           {
-            "ref": "Islands/Three Island/Hidden Item Behind West Fence",
+            "ref": "Islands/Three Island Town/Hidden Item Behind West Fence",
             "name": "Hidden Item"
           }
         ],
@@ -54,7 +69,7 @@
         "name": "Biker Goon (Left)",
         "sections": [
           {
-            "ref": "Islands/Three Island/Biker Goon Reward (Left)",
+            "ref": "Islands/Three Island Town/Biker Goon Reward (Left)",
             "name": "Reward"
           }
         ],
@@ -70,7 +85,7 @@
         "name": "Biker Goon (Right)",
         "sections": [
           {
-            "ref": "Islands/Three Island/Biker Goon Reward (Right)",
+            "ref": "Islands/Three Island Town/Biker Goon Reward (Right)",
             "name": "Reward"
           }
         ],
@@ -86,7 +101,7 @@
         "name": "Biker Goon (Top)",
         "sections": [
           {
-            "ref": "Islands/Three Island/Biker Goon Reward (Top)",
+            "ref": "Islands/Three Island Town/Biker Goon Reward (Top)",
             "name": "Reward"
           }
         ],
@@ -102,7 +117,7 @@
         "name": "Cue Ball Paxton",
         "sections": [
           {
-            "ref": "Islands/Three Island/Cue Ball Paxton Reward",
+            "ref": "Islands/Three Island Town/Cue Ball Paxton Reward",
             "name": "Reward"
           }
         ],

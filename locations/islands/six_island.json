@@ -1,12 +1,27 @@
 [
   {
-    "name": "Six Island",
+    "name": "Six Island Town",
     "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
       {
         "name": "Hidden Item Behind Pokémon Center",
         "sections": [
           {
-            "ref": "Islands/Six Island/Hidden Item Behind Pokémon Center",
+            "ref": "Islands/Six Island Town/Hidden Item Behind Pokémon Center",
             "name": "Hidden Item"
           }
         ],

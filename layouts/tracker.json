@@ -26,6 +26,15 @@
                 },
                 {
                   "type": "group",
+                  "header": "Fly Destinations",
+                  "dock": "left",
+                  "content": {
+                    "type": "layout",
+                    "key": "fly_destination_grid"
+                  }
+                },
+                {
+                  "type": "group",
                   "header": "Events",
                   "dock": "left",
                   "content": {
@@ -79,6 +88,15 @@
           "content": {
             "type": "layout",
             "key": "badge_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Free Fly Locations",
+          "dock": "bottom",
+          "content": {
+            "type": "layout",
+            "key": "free_fly_grid"
           }
         }
       ]

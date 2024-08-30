@@ -8,6 +8,14 @@
         "name": "Pallet Town",
         "sections": [
           {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
+          {
             "name": "Rival Reward",
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
@@ -79,6 +87,14 @@
       {
         "name": "Viridian City",
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Poké Mart Clerk",
             "chest_unopened_img": "images/locations/clerk_oaks_parcel.png",
@@ -250,6 +266,14 @@
         ],
         "sections": [
           {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
+          {
             "name": "Northwest Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -319,6 +343,14 @@
         ],
         "sections": [
           {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
+          {
             "name": "Hidden Item Behind Badge Guy's House",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -335,11 +367,6 @@
             "chest_opened_img": "images/locations/old_man_powder_jar_bw.png"
           },
           {
-            "name": "Rival",
-            "chest_unopened_img": "images/locations/rival_fame_checker.png",
-            "chest_opened_img": "images/locations/rival_fame_checker_bw.png"
-          },
-          {
             "name": "Rival Reward",
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
@@ -348,15 +375,9 @@
             ]
           },
           {
-            "name": "Hidden Item in Water",
-            "chest_unopened_img": "images/locations/hidden_item.png",
-            "chest_opened_img": "images/locations/hidden_item_bw.png",
-            "access_rules": [
-              "$surf,itemfinder"
-            ],
-            "visibility_rules": [
-              "extra_key_items_on"
-            ]
+            "name": "Rival",
+            "chest_unopened_img": "images/locations/rival_fame_checker.png",
+            "chest_opened_img": "images/locations/rival_fame_checker_bw.png"
           },
           {
             "name": "Bicycle Purchase",
@@ -384,6 +405,17 @@
             "chest_opened_img": "images/locations/rocket_male_ground_tm_bw.png",
             "access_rules": [
               "@Cerulean City Outskirts Access"
+            ]
+          },
+          {
+            "name": "Hidden Item in Water",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "$surf,itemfinder"
+            ],
+            "visibility_rules": [
+              "extra_key_items_on"
             ]
           },
           {
@@ -444,6 +476,14 @@
           "@Vermilion City Access"
         ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Hidden Item Near Pokémon Center",
             "chest_unopened_img": "images/locations/hidden_item.png",
@@ -565,6 +605,14 @@
         ],
         "sections": [
           {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
+          {
             "name": "Mr. Fuji",
             "chest_unopened_img": "images/locations/mr_fuji_poke_flute.png",
             "chest_opened_img": "images/locations/mr_fuji_poke_flute_bw.png",
@@ -592,6 +640,14 @@
           "@Celadon City Access"
         ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Northwest Item"
           },
@@ -781,6 +837,14 @@
         ],
         "sections": [
           {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
+          {
             "name": "Fishing Guru's Brother",
             "chest_unopened_img": "images/locations/fisherman_good_rod.png",
             "chest_opened_img": "images/locations/fisherman_good_rod_bw.png"
@@ -908,6 +972,14 @@
           "@Saffron City Access"
         ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Mr. Psychic",
             "chest_unopened_img": "images/locations/balding_man_psychic_tm.png",
@@ -1096,6 +1168,14 @@
         ],
         "sections": [
           {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
+          {
             "name": "Scientist in Pokémon Lab",
             "chest_unopened_img": "images/locations/scientist_letter.png",
             "chest_opened_img": "images/locations/scientist_letter_bw.png",
@@ -1234,6 +1314,14 @@
           "@Indigo Plateau Access,$has_e4_req"
         ],
         "sections": [
+          {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
           {
             "name": "Elite Four Lorelei Reward",
             "chest_unopened_img": "images/locations/lorelei.png",

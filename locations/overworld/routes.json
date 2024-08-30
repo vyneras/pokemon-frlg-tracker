@@ -169,6 +169,14 @@
         ],
         "sections": [
           {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
+          {
             "name": "Hidden Item Near Pokémon Center",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -669,6 +677,14 @@
         ],
         "sections": [
           {
+            "name": "Unlock Fly Destination",
+            "chest_unopened_img": "images/locations/fly_destination_unlock.png",
+            "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "visibility_rules": [
+              "fly_destination_unlocks_on"
+            ]
+          },
+          {
             "name": "Oak's Aide",
             "chest_unopened_img": "images/locations/scientist_everstone.png",
             "chest_opened_img": "images/locations/scientist_everstone_bw.png",
@@ -1068,8 +1084,8 @@
           },
           {
             "name": "Camper Justin Reward",
-            "chest_unopened_img": "images/locations/rocker.png",
-            "chest_opened_img": "images/locations/rocker_bw.png",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
             "access_rules": [
               "$cut"
             ],
@@ -1370,45 +1386,6 @@
         ],
         "sections": [
           {
-            "name": "Picnicker Becky Reward",
-            "chest_unopened_img": "images/locations/picnicker.png",
-            "chest_opened_img": "images/locations/picnicker_bw.png",
-            "access_rules": [
-              "$cut"
-            ],
-            "visibility_rules": [
-              "trainersanity_on"
-            ]
-          },
-          {
-            "name": "Crush Kin Ron & Mya Reward",
-            "chest_unopened_img": "images/locations/crush_kin.png",
-            "chest_opened_img": "images/locations/crush_kin_bw.png",
-            "access_rules": [
-              "$cut"
-            ],
-            "visibility_rules": [
-              "trainersanity_on"
-            ]
-          },
-          {
-            "name": "Picnicker Celia Reward",
-            "chest_unopened_img": "images/locations/picnicker.png",
-            "chest_opened_img": "images/locations/picnicker_bw.png",
-            "access_rules": [
-              "$cut"
-            ],
-            "visibility_rules": [
-              "trainersanity_on"
-            ]
-          },
-          {
-            "name": "Northwest Item",
-            "access_rules": [
-              "$cut"
-            ]
-          },
-          {
             "name": "Biker Ernest Reward",
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
@@ -1470,6 +1447,45 @@
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Becky Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Crush Kin Ron & Mya Reward",
+            "chest_unopened_img": "images/locations/crush_kin.png",
+            "chest_opened_img": "images/locations/crush_kin_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Picnicker Celia Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$cut"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Northwest Item",
+            "access_rules": [
+              "$cut"
             ]
           },
           {

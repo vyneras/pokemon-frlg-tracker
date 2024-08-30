@@ -3,6 +3,21 @@
     "name": "Viridian City",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 424,
+            "y": 424
+          }
+        ]
+      },
+      {
         "name": "Poké Mart",
         "sections": [
           {

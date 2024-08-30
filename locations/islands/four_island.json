@@ -1,12 +1,27 @@
 [
   {
-    "name": "Four Island",
+    "name": "Four Island Town",
     "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 296,
+            "y": 328
+          }
+        ]
+      },
       {
         "name": "Beach Southeast Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Four Island/Beach Southeast Hidden Item",
+            "ref": "Islands/Four Island Town/Beach Southeast Hidden Item",
             "name": "Hidden Item"
           }
         ],
@@ -22,7 +37,7 @@
         "name": "Beach Northwest Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Four Island/Beach Northwest Hidden Item",
+            "ref": "Islands/Four Island Town/Beach Northwest Hidden Item",
             "name": "Hidden Item"
           }
         ],
@@ -38,7 +53,7 @@
         "name": "Beach Item",
         "sections": [
           {
-            "ref": "Islands/Four Island/Beach Item",
+            "ref": "Islands/Four Island Town/Beach Item",
             "name": "Item"
           }
         ],
@@ -54,7 +69,7 @@
         "name": "Northeast Island Item",
         "sections": [
           {
-            "ref": "Islands/Four Island/Northeast Island Item",
+            "ref": "Islands/Four Island Town/Northeast Island Item",
             "name": "Item"
           }
         ],

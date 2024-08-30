@@ -22,7 +22,12 @@
         "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/Vs. Seeker Woman"
+            "ref": "Cities/Vermilion City/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "ref": "Cities/Vermilion City/Vs. Seeker Woman",
+            "name": "Vs. Seeker Woman"
           }
         ],
         "map_locations": [

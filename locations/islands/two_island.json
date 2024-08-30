@@ -1,12 +1,27 @@
 [
   {
-    "name": "Two Island",
+    "name": "Two Island Town",
     "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 344,
+            "y": 120
+          }
+        ]
+      },
       {
         "name": "Item Behind Cuttable Tree",
         "sections": [
           {
-            "ref": "Islands/Two Island/Item Behind Cuttable Tree",
+            "ref": "Islands/Two Island Town/Item Behind Cuttable Tree",
             "name": "Item"
           }
         ],
@@ -22,7 +37,7 @@
         "name": "Market Stall",
         "sections": [
           {
-            "ref": "Islands/Two Island/Buy Lemonade (Event)"
+            "ref": "Islands/Two Island Town/Buy Lemonade (Event)"
           }
         ],
         "map_locations": [
@@ -37,11 +52,11 @@
         "name": "Game Corner",
         "sections": [
           {
-            "ref": "Islands/Two Island/Deliver Meteorite (Event)",
+            "ref": "Islands/Two Island Town/Deliver Meteorite (Event)",
             "name": "Deliver Meteorite (Event)"
           },
           {
-            "ref": "Islands/Two Island/Lostelle's Dad",
+            "ref": "Islands/Two Island Town/Lostelle's Dad",
             "name": "Lostelle's Dad"
           }
         ],

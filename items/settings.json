@@ -1,5 +1,27 @@
 [
   {
+    "name": "Kanto Only",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/celio.png",
+        "img_mods": "overlay|/images/overlays/green_check.png",
+        "codes": "kanto_only_setting,kanto_only_off",
+        "inherit_codes": false,
+        "name": "Kanto Only - Off"
+      },
+      {
+        "img": "images/settings/celio.png",
+        "img_mods": "overlay|/images/overlays/red_x.png",
+        "codes": "kanto_only_setting,kanto_only_on",
+        "inherit_codes": false,
+        "name": "Kanto Only - On"
+      }
+    ]
+  },
+  {
     "name": "Shuffle Hidden Items",
     "type": "progressive",
     "allow_disabled": false,
@@ -65,6 +87,27 @@
         "codes": "trainersanity_setting,trainersanity_on",
         "inherit_codes": false,
         "name": "Trainersanity - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Fly Destination Unlocks",
+    "type": "progressive",
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/fly_destinations.png",
+        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_off",
+        "inherit_codes": false,
+        "name": "Shuffle Fly Destination Unlocks - Off"
+      },
+      {
+        "img": "images/settings/fly_destinations.png",
+        "img_mods": "overlay|/images/overlays/on.png",
+        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_on",
+        "inherit_codes": false,
+        "name": "Shuffle Fly Destination Unlocks - On"
       }
     ]
   },
@@ -612,6 +655,128 @@
         "codes": "free_fly_setting,free_fly_seven_island",
         "inherit_codes": false,
         "name": "Free Fly Location - Seven Island"
+      }
+    ]
+  },
+  {
+    "name": "Town Map Fly Location",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/town_map_fly_none.png",
+        "codes": "town_map_fly_setting,town_map_fly_none",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - None"
+      },
+      {
+        "img": "images/settings/town_map_fly_pewter.png",
+        "codes": "town_map_fly_setting,town_map_fly_pewter",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Pewter City"
+      },
+      {
+        "img": "images/settings/town_map_fly_route_4.png",
+        "codes": "town_map_fly_setting,town_map_fly_route_4",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Route 4"
+      },
+      {
+        "img": "images/settings/town_map_fly_cerulean.png",
+        "codes": "town_map_fly_setting,town_map_fly_cerulean",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Cerulean City"
+      },
+      {
+        "img": "images/settings/town_map_fly_vermilion.png",
+        "codes": "town_map_fly_setting,town_map_fly_vermilion",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Vermilion City"
+      },
+      {
+        "img": "images/settings/town_map_fly_route_10.png",
+        "codes": "town_map_fly_setting,town_map_fly_route_10",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Route 10"
+      },
+      {
+        "img": "images/settings/town_map_fly_lavender.png",
+        "codes": "town_map_fly_setting,town_map_fly_lavender",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Lavender Town"
+      },
+      {
+        "img": "images/settings/town_map_fly_celadon.png",
+        "codes": "town_map_fly_setting,town_map_fly_celadon",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Celadon City"
+      },
+      {
+        "img": "images/settings/town_map_fly_fuchsia.png",
+        "codes": "town_map_fly_setting,town_map_fly_fuchsia",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Fuchsia City"
+      },
+      {
+        "img": "images/settings/town_map_fly_saffron.png",
+        "codes": "town_map_fly_setting,town_map_fly_saffron",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Saffron City"
+      },
+      {
+        "img": "images/settings/town_map_fly_cinnabar.png",
+        "codes": "town_map_fly_setting,town_map_fly_cinnabar",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Cinnabar Island"
+      },
+      {
+        "img": "images/settings/town_map_fly_indigo.png",
+        "codes": "town_map_fly_setting,town_map_fly_indigo",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Indigo Plateau"
+      },
+      {
+        "img": "images/settings/town_map_fly_one_island.png",
+        "codes": "town_map_fly_setting,town_map_fly_one_island",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - One Island"
+      },
+      {
+        "img": "images/settings/town_map_fly_two_island.png",
+        "codes": "town_map_fly_setting,town_map_fly_two_island",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Two Island"
+      },
+      {
+        "img": "images/settings/town_map_fly_three_island.png",
+        "codes": "town_map_fly_setting,town_map_fly_three_island",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Three Island"
+      },
+      {
+        "img": "images/settings/town_map_fly_four_island.png",
+        "codes": "town_map_fly_setting,town_map_fly_four_island",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Four Island"
+      },
+      {
+        "img": "images/settings/town_map_fly_five_island.png",
+        "codes": "town_map_fly_setting,town_map_fly_five_island",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Five Island"
+      },
+      {
+        "img": "images/settings/town_map_fly_six_island.png",
+        "codes": "town_map_fly_setting,town_map_fly_six_island",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Six Island"
+      },
+      {
+        "img": "images/settings/town_map_fly_seven_island.png",
+        "codes": "town_map_fly_setting,town_map_fly_seven_island",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Seven Island"
       }
     ]
   },

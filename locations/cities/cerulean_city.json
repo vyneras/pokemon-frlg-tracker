@@ -3,6 +3,21 @@
     "name": "Cerulean City",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      },
+      {
         "name": "Hidden Item Behind Badge Guy's House",
         "sections": [
           {

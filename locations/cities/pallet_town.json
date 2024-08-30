@@ -3,6 +3,21 @@
     "name": "Pallet Town",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Pallet Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 104,
+            "y": 120
+          }
+        ]
+      },
+      {
         "name": "Oak's Lab",
         "sections": [
           {

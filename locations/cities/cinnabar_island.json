@@ -3,6 +3,21 @@
     "name": "Cinnabar Island",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
         "name": "Pokémon Lab",
         "sections": [
           {

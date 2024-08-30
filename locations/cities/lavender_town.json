@@ -3,6 +3,21 @@
     "name": "Lavender Town",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Lavender Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      },
+      {
         "name": "Volunteer Pokémon House",
         "sections": [
           {

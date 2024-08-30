@@ -2,7 +2,7 @@
   {
     "name": "Pewter City Access",
     "access_rules": [
-      "$free_fly|pewter",
+      "$fly|pewter",
       "deliver_oaks_parcel",
       "viridian_city_open",
       "$cut",
@@ -12,7 +12,7 @@
   {
     "name": "Route 3 Access",
     "access_rules": [
-      "$free_fly|route_4",
+      "$fly|route_4",
       "@Pewter City Access,$leave_pewter_city",
       "@Cerulean City Access,$surf"
     ]
@@ -20,7 +20,7 @@
   {
     "name": "Cerulean City Access",
     "access_rules": [
-      "$free_fly|cerulean",
+      "$fly|cerulean",
       "@Route 3 Access",
       "@Cerulean City Outskirts Access"
     ]
@@ -38,7 +38,7 @@
   {
     "name": "Vermilion City Access",
     "access_rules": [
-      "$free_fly|vermilion",
+      "$fly|vermilion",
       "$cut",
       "@Cerulean City Outskirts Access",
       "@Lavender Town Access,poke_flute",
@@ -56,7 +56,7 @@
   {
     "name": "Route 10 North Access",
     "access_rules": [
-      "$free_fly|route_10",
+      "$fly|route_10",
       "@Cerulean City Outskirts Access,$cut",
       "@Lavender Town Access,^$rock_tunnel"
     ]
@@ -64,7 +64,7 @@
   {
     "name": "Lavender Town Access",
     "access_rules": [
-      "$free_fly|lavender",
+      "$fly|lavender",
       "@Route 10 North Access,^$rock_tunnel",
       "@Vermilion City Access,poke_flute",
       "@Celadon City Access",
@@ -76,7 +76,7 @@
   {
     "name": "Celadon City Access",
     "access_rules": [
-      "$free_fly|celadon",
+      "$fly|celadon",
       "@Lavender Town Access",
       "@Fuchsia City Access,bicycle,poke_flute",
       "@Saffron City Access,tea"
@@ -85,7 +85,7 @@
   {
     "name": "Fuchsia City Access",
     "access_rules": [
-      "$free_fly|fuchsia",
+      "$fly|fuchsia",
       "$surf,$strength",
       "@Vermilion City Access,poke_flute",
       "@Lavender Town Access,poke_flute",
@@ -96,7 +96,7 @@
   {
     "name": "Saffron City Access",
     "access_rules": [
-      "$free_fly|saffron",
+      "$fly|saffron",
       "@Cerulean City Outskirts Access,tea",
       "@Vermilion City Access,tea",
       "@Lavender Town Access,tea",
@@ -106,7 +106,7 @@
   {
     "name": "Cinnabar Island Access",
     "access_rules": [
-      "$free_fly|cinnabar",
+      "$fly|cinnabar",
       "$surf"
     ]
   },
@@ -134,14 +134,14 @@
   {
     "name": "Indigo Plateau Access",
     "access_rules": [
-      "$free_fly|indigo",
+      "$fly|indigo",
       "@Victory Road Access,$strength"
     ]
   },
   {
     "name": "One Island Access",
     "access_rules": [
-      "$free_fly|one_island",
+      "$fly|one_island",
       "@Cinnabar Island Access,defeat_blaine",
       "@Vermilion City Access,tri_pass",
       "@Two Island Access,tri_pass",
@@ -155,7 +155,7 @@
   {
     "name": "Two Island Access",
     "access_rules": [
-      "$free_fly|two_island",
+      "$fly|two_island",
       "@Vermilion City Access,tri_pass",
       "@One Island Access,tri_pass",
       "@Three Island Access,tri_pass",
@@ -168,7 +168,7 @@
   {
     "name": "Three Island Access",
     "access_rules": [
-      "$free_fly|three_island",
+      "$fly|three_island",
       "@Vermilion City Access,tri_pass",
       "@One Island Access,tri_pass",
       "@Two Island Access,tri_pass",
@@ -181,7 +181,7 @@
   {
     "name": "Four Island Access",
     "access_rules": [
-      "$free_fly|four_island",
+      "$fly|four_island",
       "@Vermilion City Access,rainbow_pass",
       "@One Island Access,rainbow_pass",
       "@Two Island Access,rainbow_pass",
@@ -194,7 +194,7 @@
   {
     "name": "Five Island Access",
     "access_rules": [
-      "$free_fly|five_island",
+      "$fly|five_island",
       "@Vermilion City Access,rainbow_pass",
       "@One Island Access,rainbow_pass",
       "@Two Island Access,rainbow_pass",
@@ -207,7 +207,7 @@
   {
     "name": "Six Island Access",
     "access_rules": [
-      "$free_fly|six_island",
+      "$fly|six_island",
       "@Vermilion City Access,rainbow_pass",
       "@One Island Access,rainbow_pass",
       "@Two Island Access,rainbow_pass",
@@ -220,7 +220,7 @@
   {
     "name": "Seven Island Access",
     "access_rules": [
-      "$free_fly|seven_island",
+      "$fly|seven_island",
       "@Vermilion City Access,rainbow_pass",
       "@One Island Access,rainbow_pass",
       "@Two Island Access,rainbow_pass",

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Five Island Town",
+    "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Islands/Five Island Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 296,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

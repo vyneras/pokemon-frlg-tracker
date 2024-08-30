@@ -1,36 +1,52 @@
 SLOT_CODES = {
+    kanto_only = {
+        code = "kanto_only_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Kanto Only Off
+            [1] = 1  -- Kanto Only On
+        }
+    },
     shuffle_hidden = {
         code = "hidden_setting",
         type = "progressive",
         mapping = {
             [0] = 0, -- Hidden Items Not Shuffled
             [1] = 1, -- Nonrecurring Hiiden Items Shuffled
-            [2] = 2 -- All Hidden Items Shuffled
+            [2] = 2  -- All Hidden Items Shuffled
         }
     },
     extra_key_items = {
         code = "extra_key_items_setting",
         type = "progressive",
         mapping = {
-          [0] = 0, -- Extra Key Items Off
-          [1] = 1, -- Extra Key Items On
+            [0] = 0, -- Extra Key Items Off
+            [1] = 1, -- Extra Key Items On
         }
     },
     trainersanity = {
-      code = "trainersanity_setting",
-      type = "progressive",
-      mapping = {
-        [0] = 0, -- Trainersanity Off
-        [1] = 1, -- Trainersanity On
-      }
-  },
+        code = "trainersanity_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Trainersanity Off
+            [1] = 1, -- Trainersanity On
+        }
+    },
+    shuffle_fly_destination_unlocks = {
+        code = "fly_destination_unlocks_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Fly Destination Unlocks Off
+            [1] = 1, -- Fly Destination Unlocks On
+        }
+    },
     itemfinder_required = {
         code = "itemfinder_setting",
         type = "progressive",
         mapping = {
             [0] = 0, -- Itemfinder Not Required
             [1] = 1, -- Itemfinder Logically Required
-            [2] = 2 -- Itemfinder Required
+            [2] = 2  -- Itemfinder Required
         }
     },
     flash_required = {
@@ -43,7 +59,7 @@ SLOT_CODES = {
         mapping = {
             [0] = 0, -- Vanilla
             [1] = 0, -- Early Parcel
-            [2] = 1 -- Open
+            [2] = 1  -- Open
         }
     },
     pewter_city_roadblock = {
@@ -54,7 +70,7 @@ SLOT_CODES = {
             [1] = 1, -- Brock
             [2] = 2, -- Any Gyms
             [3] = 3, -- Boulder Badge
-            [4] = 4 -- Any Badge
+            [4] = 4  -- Any Badge
         }
     },
     cerulean_city_roadblocks = {
@@ -66,7 +82,7 @@ SLOT_CODES = {
         type = "progressive",
         mapping = {
             [0] = 0, -- Badges
-            [1] = 1 -- Gyms
+            [1] = 1  -- Gyms
         }
     },
     elite_four_count = {
@@ -78,7 +94,7 @@ SLOT_CODES = {
         type = "progressive",
         mapping = {
             [0] = 0, -- Badges
-            [1] = 1 -- Gyms
+            [1] = 1  -- Gyms
         }
     },
     route22_gate_count = {
@@ -90,7 +106,7 @@ SLOT_CODES = {
         type = "progressive",
         mapping = {
             [0] = 0, -- Badges
-            [1] = 1 -- Gyms
+            [1] = 1  -- Gyms
         }
     },
     route23_guard_count = {
@@ -102,7 +118,7 @@ SLOT_CODES = {
         type = "progressive",
         mapping = {
             [0] = 0, -- Badges
-            [1] = 1 -- Gyms
+            [1] = 1  -- Gyms
         }
     },
     viridian_gym_count = {
@@ -117,7 +133,7 @@ SLOT_CODES = {
             [1] = 1, -- Defeat Champion
             [2] = 2, -- Restore Pokémon Network Machine
             [3] = 3, -- Badges
-            [4] = 4 -- Gyms
+            [4] = 4  -- Gyms
         }
     },
     cerulean_cave_count = {
@@ -148,35 +164,60 @@ SLOT_CODES = {
         code = "free_fly_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- None
-            [2] = 1, -- Pewter
-            [3] = 2, -- Route 4
-            [4] = 3, -- Cerulean
-            [5] = 4, -- Vermilion
-            [6] = 5, -- Route 10
-            [7] = 6, -- Lavender
-            [8] = 7, -- Celadon
-            [9] = 8, -- Fuchsia
-            [10] = 9, -- Saffron
-            [11] = 10, -- Cinnabar
-            [12] = 11, -- Indigo
-            [13] = 12, -- One Island
-            [14] = 13, -- Two Island
-            [15] = 14, -- Three Island
-            [16] = 15, -- Four Island
-            [17] = 16, -- Five Island
+            [0] = 0,   -- None
+            [3] = 1,   -- Pewter
+            [19] = 2,  -- Route 4
+            [4] = 3,   -- Cerulean
+            [6] = 4,   -- Vermilion
+            [20] = 5,  -- Route 10
+            [5] = 6,   -- Lavender
+            [7] = 7,   -- Celadon
+            [8] = 8,   -- Fuchsia
+            [11] = 9,  -- Saffron
+            [9] = 10,  -- Cinnabar
+            [10] = 11, -- Indigo
+            [12] = 12, -- One Island
+            [13] = 13, -- Two Island
+            [14] = 14, -- Three Island
+            [15] = 15, -- Four Island
+            [16] = 16, -- Five Island
             [18] = 17, -- Six Island
-            [19] = 18 -- Seven Island
+            [17] = 18  -- Seven Island
+        }
+    },
+    town_map_fly_location_id = {
+        code = "town_map_fly_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0,   -- None
+            [3] = 1,   -- Pewter
+            [19] = 2,  -- Route 4
+            [4] = 3,   -- Cerulean
+            [6] = 4,   -- Vermilion
+            [20] = 5,  -- Route 10
+            [5] = 6,   -- Lavender
+            [7] = 7,   -- Celadon
+            [8] = 8,   -- Fuchsia
+            [11] = 9,  -- Saffron
+            [9] = 10,  -- Cinnabar
+            [10] = 11, -- Indigo
+            [12] = 12, -- One Island
+            [13] = 13, -- Two Island
+            [14] = 14, -- Three Island
+            [15] = 15, -- Four Island
+            [16] = 16, -- Five Island
+            [18] = 17, -- Six Island
+            [17] = 18  -- Seven Island
         }
     }
 }
 
 BADGE_FOR_HM = {
-  ["Cut"] = "cascade_badge_required",
-  ["Fly"] = "thunder_badge_required",
-  ["Surf"] = "soul_badge_required",
-  ["Strength"] = "rainbow_badge_required",
-  ["Flash"] = "boulder_badge_required",
-  ["Rock Smash"] = "marsh_badge_required",
-  ["Waterfall"] = "volcano_badge_required"
+    ["Cut"] = "cascade_badge_required",
+    ["Fly"] = "thunder_badge_required",
+    ["Surf"] = "soul_badge_required",
+    ["Strength"] = "rainbow_badge_required",
+    ["Flash"] = "boulder_badge_required",
+    ["Rock Smash"] = "marsh_badge_required",
+    ["Waterfall"] = "volcano_badge_required"
 }

@@ -17,6 +17,7 @@ ScriptHost:LoadScript("scripts/locations.lua")
 
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/events.json")
+Tracker:AddLayouts("layouts/fly_destinations.json")
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/tabs.json")

@@ -7,6 +7,7 @@ ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 CUR_INDEX = -1
 
 EVENT_ID = ""
+FLY_UNLOCK_ID = ""
 POKEDEX_ID = ""
 
 function resetItems()
@@ -79,13 +80,17 @@ function onClear(slot_data)
     end
     if PLAYER_NUMBER > -1 then
         updateEvents(0)
+        updateFlyUnlocks(0)
         updatePokedex(0)
         EVENT_ID = "pokemon_frlg_events_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+        FLY_UNLOCK_ID = "pokemon_frlg_fly_unlocks_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEDEX_ID = "pokemon_frlg_pokedex_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
-        Archipelago:SetNotify({EVENT_ID})
-        Archipelago:Get({EVENT_ID})
-        Archipelago:SetNotify({POKEDEX_ID})
-        Archipelago:Get({POKEDEX_ID})
+        Archipelago:SetNotify({ EVENT_ID })
+        Archipelago:Get({ EVENT_ID })
+        Archipelago:SetNotify({ FLY_UNLOCK_ID })
+        Archipelago:Get({ FLY_UNLOCK_ID })
+        Archipelago:SetNotify({ POKEDEX_ID })
+        Archipelago:Get({ POKEDEX_ID })
     end
 end
 
@@ -140,6 +145,8 @@ function onNotify(key, value, old_value)
     if value ~= old_value then
         if key == EVENT_ID then
             updateEvents(value)
+        elseif key == FLY_UNLOCK_ID then
+            updateFlyUnlocks(value)
         elseif key == POKEDEX_ID then
             updatePokedex(value)
         end
@@ -149,6 +156,8 @@ end
 function onNotifyLaunch(key, value)
     if key == EVENT_ID then
         updateEvents(value)
+    elseif key == FLY_UNLOCK_ID then
+        updateFlyUnlocks(value)
     elseif key == POKEDEX_ID then
         updatePokedex(value)
     end
@@ -177,6 +186,20 @@ function updateEvents(value)
                 else
                     Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
                 end
+            end
+        end
+    end
+end
+
+function updateFlyUnlocks(value)
+    if value ~= nil then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("updateFlyUnlocks: Value - %s", value))
+        end
+        for bit, codes in pairs(FLY_UNLOCK_FLAG_MAPPING) do
+            local bitmask = 2 ^ bit
+            for _, code in pairs(codes) do
+                Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
             end
         end
     end

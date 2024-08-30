@@ -41,7 +41,7 @@
                 "defeat_champion"
               ]
             ]
-          },
+          }
         ]
       },
       {
@@ -49,17 +49,6 @@
         "orientation": "horizontal",
         "margin": "0,0",
         "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "2,2",
-            "h_alignment": "center",
-            "item_size": "184,32",
-            "rows": [
-              [
-                "free_fly_setting"
-              ]
-            ]
-          },
           {
             "type": "itemgrid",
             "item_margin": "2,2",

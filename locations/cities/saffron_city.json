@@ -3,6 +3,21 @@
     "name": "Saffron City",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 392,
+            "y": 616
+          }
+        ]
+      },
+      {
         "name": "Mr. Psychic's House",
         "sections": [
           {

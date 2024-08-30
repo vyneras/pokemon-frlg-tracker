@@ -3,6 +3,21 @@
     "name": "Route 4",
     "children": [
       {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 200,
+            "y": 88
+          }
+        ]
+      },
+      {
         "name": "Hidden Item Near Pokémon Center",
         "sections": [
           {

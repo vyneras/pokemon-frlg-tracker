@@ -3,6 +3,21 @@
     "name": "Fuchsia City",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 408,
+            "y": 504
+          }
+        ]
+      },
+      {
         "name": "Fishing Guru's Brother's House",
         "sections": [
           {
