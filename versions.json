@@ -1,6 +1,29 @@
 {
   "versions": [
     {
+      "package_version": "1.4.1",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.4.1.zip",
+      "sha256": "a5377063eae53ba30ffed899e90249f76974f347a2ecaf72d8151fff3bd4f872",
+      "changelog": [
+        "Added Ruby location to the Mt. Ember Exterior map",
+        "Fixed an issue where auto tabbing didn't work in the Safari Zone",
+        "Fixed and issue where rescuing Lostelle wasn't considered as a logical way to reach Two Island",
+        "Fixed an issue where the Indigo Plateau Fly Unlock location required E4 access"
+      ]
+    },
+    {
+      "package_version": "1.4.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.4.0.zip",
+      "sha256": "7d932f7abfc92466880d36735947482e59220c7189128ca4f8d6782fd5a3eaf4",
+      "changelog": [
+        "Added settings for Kanto Only, Shuffle Fly Destination Unlocks, and Town Map Fly Location",
+        "Moved the Free Fly setting to the settings popup",
+        "Added new item grid for fly destinations",
+        "Updated many locations to match new AP names",
+        "Fixes to the access rules for a few locations"
+      ]
+    },
+    {
       "package_version": "1.3.1",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.3.1.zip",
       "sha256": "135838e37dfd623cf3bd06aefc519e6edfaaa662685de75f6b68342be050c2b2",
