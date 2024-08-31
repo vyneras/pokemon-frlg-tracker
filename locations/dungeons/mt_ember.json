@@ -165,6 +165,27 @@
     ]
   },
   {
+    "name": "Mt. Ember Ruby Path",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Ruby Path B5F - Ruby",
+            "name": "B5F - Ruby"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 680,
+            "y": 632
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Mt. Ember Ruby Path B5F",
     "children": [
       {

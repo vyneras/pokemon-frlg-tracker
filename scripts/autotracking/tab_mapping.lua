@@ -462,31 +462,31 @@ TAB_MAPPING = {
         [0] = {"Dungeons", "Rocket Hideout", "B4F"}
     },
     [319] = { -- Safari Zone Center
-        [0] = {"Dungeons", "Safari Zone", "Center"}
+        [0] = {"Dungeons", "Safari Zone", "Center Area"}
     },
     [320] = { -- Safari Zone East
-        [0] = {"Dungeons", "Safari Zone", "East"}
+        [0] = {"Dungeons", "Safari Zone", "East Area"}
     },
     [321] = { -- Safari Zone North
-        [0] = {"Dungeons", "Safari Zone", "North"}
+        [0] = {"Dungeons", "Safari Zone", "North Area"}
     },
     [322] = { -- Safari Zone West
-        [0] = {"Dungeons", "Safari Zone", "West"}
+        [0] = {"Dungeons", "Safari Zone", "West Area"}
     },
     [323] = { -- Safari Zone Center Rest House
-        [0] = {"Dungeons", "Safari Zone", "Center"}
+        [0] = {"Dungeons", "Safari Zone", "Center Area"}
     },
     [324] = { -- Safari Zone East Rest House
-        [0] = {"Dungeons", "Safari Zone", "East"}
+        [0] = {"Dungeons", "Safari Zone", "East Area"}
     },
     [325] = { -- Safari Zone North Rest House
-        [0] = {"Dungeons", "Safari Zone", "North"}
+        [0] = {"Dungeons", "Safari Zone", "North Area"}
     },
     [326] = { -- Safari Zone West Rest House
-        [0] = {"Dungeons", "Safari Zone", "West"}
+        [0] = {"Dungeons", "Safari Zone", "West Area"}
     },
     [327] = { -- Safari Zone West Secret House
-        [0] = {"Dungeons", "Safari Zone", "West"}
+        [0] = {"Dungeons", "Safari Zone", "West Area"}
     },
     [303] = { -- Silph Co. 1F
         [0] = {"Dungeons", "Silph Co.", "1F"}
