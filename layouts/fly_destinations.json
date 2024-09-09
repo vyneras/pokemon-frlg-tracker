@@ -49,5 +49,52 @@
         ]
       }
     ]
+  },
+  "fly_destination_grid_vertical": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "fly_pallet",
+                "fly_viridian",
+                "fly_pewter",
+                "fly_route_4",
+                "fly_cerulean",
+                "fly_vermilion",
+                "fly_route_10",
+                "fly_lavender"
+              ],
+              [
+                "fly_celadon",
+                "fly_fuchsia",
+                "fly_saffron",
+                "fly_cinnabar",
+                "fly_indigo",
+                "fly_one_island",
+                "fly_two_island",
+                "fly_three_island"
+              ],
+              [
+                "fly_four_island",
+                "fly_five_island",
+                "fly_six_island",
+                "fly_seven_island"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
   }
 }

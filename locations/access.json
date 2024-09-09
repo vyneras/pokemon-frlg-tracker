@@ -156,7 +156,7 @@
     "name": "Two Island Access",
     "access_rules": [
       "$fly|two_island",
-      "rescue_lostelle",
+      "@Three Island Access,rescue_lostelle",
       "@Vermilion City Access,tri_pass",
       "@One Island Access,tri_pass",
       "@Three Island Access,tri_pass",

@@ -62,5 +62,52 @@
         ]
       }
     ]
+  },
+  "event_grid_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "item_size": "32,40",
+            "rows": [
+              [
+                "defeat_brock",
+                "defeat_misty",
+                "defeat_lt_surge",
+                "defeat_erika",
+                "defeat_koga",
+                "defeat_sabrina",
+                "defeat_blaine",
+                "defeat_giovanni"
+              ],
+              [
+                "deliver_oaks_parcel",
+                "defeat_route_22_rival",
+                "save_bill",
+                "rescue_mr_fuji",
+                "liberate_silph_co",
+                "restore_pokemon_network_machine"
+              ],
+              [
+                "rescue_lostelle",
+                "deliver_meteorite",
+                "help_lorelei",
+                "learn_rocket_warehouse_password",
+                "defeat_champion"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
