@@ -1,4 +1,12 @@
 SLOT_CODES = {
+    goal = {
+      code = "goal_setting",
+      type = "progressive",
+      mapping = {
+        [0] = 0, -- Goal E4
+        [1] = 1  -- Goal E4 Rematch
+      }
+    },
     kanto_only = {
         code = "kanto_only_setting",
         type = "progressive",
@@ -21,7 +29,7 @@ SLOT_CODES = {
         type = "progressive",
         mapping = {
             [0] = 0, -- Extra Key Items Off
-            [1] = 1, -- Extra Key Items On
+            [1] = 1  -- Extra Key Items On
         }
     },
     trainersanity = {
@@ -29,7 +37,15 @@ SLOT_CODES = {
         type = "progressive",
         mapping = {
             [0] = 0, -- Trainersanity Off
-            [1] = 1, -- Trainersanity On
+            [1] = 1  -- Trainersanity On
+        }
+    },
+    famesanity = {
+        code = "famesanity_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Famesanity Off
+            [1] = 1  -- Famesanity On
         }
     },
     shuffle_fly_destination_unlocks = {
@@ -37,7 +53,34 @@ SLOT_CODES = {
         type = "progressive",
         mapping = {
             [0] = 0, -- Fly Destination Unlocks Off
-            [1] = 1, -- Fly Destination Unlocks On
+            [1] = 1  -- Fly Destination Unlocks On
+        }
+    },
+    pokemon_request_locations = {
+        code = "pokemon_request_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Pokémon Request Locations Off
+            [1] = 1, -- Pokémon Request Locations On
+        }
+    },
+    card_key = {
+        code = "card_keys_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Card Keys Vanilla
+            [1] = 1, -- Card Keys Split
+            [2] = 2  -- Card Keys Progressive
+        }
+    },
+    island_passes = {
+        code = "island_passes_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Island Passes Vanilla
+            [1] = 1, -- Island Passes Progressive
+            [2] = 2, -- Island Passes Split
+            [3] = 3  -- Island Passes Split/Progressive
         }
     },
     itemfinder_required = {
@@ -50,8 +93,21 @@ SLOT_CODES = {
         }
     },
     flash_required = {
-        code = "flash_required",
-        type = "toggle"
+        code = "flash_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Flash Not Required
+            [1] = 1, -- Flash Logically Required
+            [2] = 2  -- Flash Required
+        }
+    },
+    fame_checker_required = {
+        code = "fame_checker_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Fame Checker Not Required
+            [1] = 1  -- Fame Checker Required
+        }
     },
     viridian_city_roadblock = {
         code = "viridian_city_setting",
@@ -72,10 +128,6 @@ SLOT_CODES = {
             [3] = 3, -- Boulder Badge
             [4] = 4  -- Any Badge
         }
-    },
-    cerulean_city_roadblocks = {
-        code = "cerulean_city_roadblocks",
-        type = "toggle"
     },
     elite_four_requirement = {
         code = "elite_four_setting",
@@ -220,4 +272,27 @@ BADGE_FOR_HM = {
     ["Flash"] = "boulder_badge_required",
     ["Rock Smash"] = "marsh_badge_required",
     ["Waterfall"] = "volcano_badge_required"
+}
+
+MODIFY_WORLD_STATE = {
+    ["Modify Route 2"] = "modify_route_2_setting",
+    ["Remove Cerulean Roadblocks"] = "cerulean_roadblock_setting",
+    ["Block Tunnels"] = "block_tunnels_setting",
+    ["Modify Route 9"] = "modify_route_9_setting",
+    ["Modify Route 10"] = "modify_route_10_setting",
+    ["Block Tower"] = "block_tower_setting",
+    ["Route 12 Boulders"] = "rotue_12_boulders_setting",
+    ["Modify Route 12"] = "modify_route_12_setting",
+    ["Modify Route 16"] = "modify_route_16_setting",
+    ["Route 23 Trees"] = "route_23_trees_setting",
+    ["Modify Route 23"] = "modify_route_23_setting",
+    ["Victory Road Rocks"] = "victory_road_rocks_setting",
+    ["Early Gossipers"] = "early_gossipers_setting",
+    ["Total Darkness"] = ""
+}
+
+ADDITIONAL_DARK_CAVES = {
+    ["Mt. Moon"] = "mt_moon_dark_setting",
+    ["Diglett's Cave"] = "digletts_cave_dark_setting",
+    ["Victory Road"] = "victory_road_dark_setting"
 }

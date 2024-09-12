@@ -22,17 +22,17 @@
             ]
           },
           {
-            "name": "Bill",
+            "name": "Delivery for Lostelle's Dad",
             "chest_unopened_img": "images/locations/bill_meteorite.png",
             "chest_opened_img": "images/locations/bill_meteorite_bw.png"
           },
           {
-            "name": "Celio (First Visit)",
+            "name": "Celio's Gift (First Visit)",
             "chest_unopened_img": "images/locations/celio_tri_pass.png",
             "chest_opened_img": "images/locations/celio_tri_pass_bw.png"
           },
           {
-            "name": "Celio (Deliver Ruby)",
+            "name": "Celio's Gift (Deliver Ruby)",
             "chest_unopened_img": "images/locations/celio_rainbow_pass.png",
             "chest_opened_img": "images/locations/celio_rainbow_pass_bw.png",
             "access_rules": [
@@ -43,7 +43,40 @@
             "name": "Restore Pokémon Network Machine (Event)",
             "hosted_item": "restore_pokemon_network_machine_hosted",
             "access_rules": [
-              "deliver_meteorite,ruby,sapphire"
+              "deliver_meteorite,ruby,free_captured_pokemon,sapphire"
+            ]
+          },
+          {
+            "name": "Celio's Info (Bill 4)",
+            "chest_unopened_img": "images/locations/celio_info.png",
+            "chest_opened_img": "images/locations/celio_info_bw.png",
+            "access_rules": [
+              "$fame,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Celio's Info (Bill 5)",
+            "chest_unopened_img": "images/locations/celio_info.png",
+            "chest_opened_img": "images/locations/celio_info_bw.png",
+            "access_rules": [
+              "$fame,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Celio's Info (Bill 6)",
+            "chest_unopened_img": "images/locations/celio_info.png",
+            "chest_opened_img": "images/locations/celio_info_bw.png",
+            "access_rules": [
+              "$fame,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           }
         ],
@@ -327,9 +360,20 @@
         ],
         "sections": [
           {
-            "name": "Rock Smash Man",
+            "name": "Rock Smash Man's Gift",
             "chest_unopened_img": "images/locations/old_man_fighting_tm.png",
             "chest_opened_img": "images/locations/old_man_fighting_tm_bw.png"
+          },
+          {
+            "name": "Black Belt's Info (Bruno 4)",
+            "chest_unopened_img": "images/locations/black_belt_info.png",
+            "chest_opened_img": "images/locations/black_belt_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           }
         ],
         "map_locations": [
@@ -376,10 +420,30 @@
             ]
           },
           {
+            "name": "Sailor's Gift",
+            "chest_unopened_img": "images/locations/sailor_tri_pass.png",
+            "chest_opened_img": "images/locations/sailor_tri_pass_bw.png",
+            "visibility_rules": [
+              "island_passes_split",
+              "island_passes_split_prog"
+            ]
+          },
+          {
             "name": "Buy Lemonade (Event)",
             "hosted_item": "lemonade_hosted",
             "access_rules": [
-              "defeat_champion"
+              "rescue_lostelle,defeat_champion,^$grind_money"
+            ]
+          },
+          {
+            "name": "Beauty's Info (Bruno 5)",
+            "chest_unopened_img": "images/locations/beauty_info.png",
+            "chest_opened_img": "images/locations/beauty_info_bw.png",
+            "access_rules": [
+              "rescue_lostelle,defeat_champion,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -390,7 +454,7 @@
             ]
           },
           {
-            "name": "Lostelle's Dad",
+            "name": "Lostelle's Dad's Gift",
             "chest_unopened_img": "images/locations/balding_man_moon_stone.png",
             "chest_opened_img": "images/locations/balding_man_moon_stone_bw.png",
             "access_rules": [
@@ -479,7 +543,7 @@
             ]
           },
           {
-            "name": "Prospector",
+            "name": "Prospector's Gift",
             "chest_unopened_img": "images/locations/fat_man_nugget.png",
             "chest_opened_img": "images/locations/fat_man_nugget_bw.png"
           }
@@ -559,9 +623,29 @@
             ]
           },
           {
-            "name": "Anti-Biker",
+            "name": "Anti-Biker's Gift",
             "chest_unopened_img": "images/locations/man_full_restore.png",
             "chest_opened_img": "images/locations/man_full_restore_bw.png"
+          },
+          {
+            "name": "Woman's Gift",
+            "chest_unopened_img": "images/locations/woman_tri_pass.png",
+            "chest_opened_img": "images/locations/woman_tri_pass_bw.png",
+            "visibility_rules": [
+              "island_passes_split",
+              "island_passes_split_prog"
+            ]
+          },
+          {
+            "name": "Sabrina Fan's Info (Sabrina 2)",
+            "chest_unopened_img": "images/locations/man_info.png",
+            "chest_opened_img": "images/locations/man_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "Item Behind East Fence",
@@ -749,6 +833,50 @@
             ]
           },
           {
+            "name": "Bookshelf's Info (Daisy 6)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Old Man's Info (Lorelei 3)",
+            "chest_unopened_img": "images/locations/old_man_info.png",
+            "chest_opened_img": "images/locations/old_man_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Old Woman's Info (Lorelei 6)",
+            "chest_unopened_img": "images/locations/old_woman_info.png",
+            "chest_opened_img": "images/locations/old_woman_info_bw.png",
+            "access_rules": [
+              "restore_pokemon_network_machine,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Little Girl's Info (Lorelei 5)",
+            "chest_unopened_img": "images/locations/little_girl_info.png",
+            "chest_opened_img": "images/locations/little_girl_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Northeast Island Item",
             "access_rules": [
               "$surf"
@@ -783,6 +911,26 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "Fisherman's Gift",
+            "chest_unopened_img": "images/locations/fisherman_rainbow_pass.png",
+            "chest_opened_img": "images/locations/fisherman_rainbow_pass_bw.png",
+            "visibility_rules": [
+              "island_passes_split",
+              "island_passes_split_prog"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Lorelei 4)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           }
         ],
@@ -927,7 +1075,7 @@
             ]
           },
           {
-            "name": "Memorial Man",
+            "name": "Memorial Man's Gift",
             "chest_unopened_img": "images/locations/man_normal_tm.png",
             "chest_opened_img": "images/locations/man_normal_tm_bw.png",
             "access_rules": [
@@ -974,6 +1122,17 @@
           "kanto_only_off"
         ],
         "sections": [
+          {
+            "name": "Gentleman's Info (Daisy 3)",
+            "chest_unopened_img": "images/locations/gentleman_info.png",
+            "chest_opened_img": "images/locations/gentleman_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on,pokemon_request_on"
+            ]
+          },
           {
             "name": "Pokémon Breeder Alize Reward",
             "chest_unopened_img": "images/locations/woman_2.png",
@@ -1092,6 +1251,28 @@
             ]
           },
           {
+            "name": "Selphy's Gift",
+            "chest_unopened_img": "images/locations/woman_2_luxury_ball.png",
+            "chest_opened_img": "images/locations/woman_2_luxury_ball_bw.png",
+            "access_rules": [
+              "rescue_selphy"
+            ],
+            "visibility_rules": [
+              "pokemon_request_on"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Blaine 6)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Painter Daisy Reward",
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
@@ -1138,6 +1319,26 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "Boy's Gift",
+            "chest_unopened_img": "images/locations/boy_rainbow_pass.png",
+            "chest_opened_img": "images/locations/boy_rainbow_pass_bw.png",
+            "visibility_rules": [
+              "island_passes_split",
+              "island_passes_split_prog"
+            ]
+          },
+          {
+            "name": "Old Woman's Info (Agatha 6)",
+            "chest_unopened_img": "images/locations/old_woman_info.png",
+            "chest_opened_img": "images/locations/old_woman_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -1277,6 +1478,14 @@
             "name": "North Island Item",
             "access_rules": [
               "$surf"
+            ]
+          },
+          {
+            "name": "Heracross Woman's Gift",
+            "chest_unopened_img": "images/locations/beauty_nest_ball.png",
+            "chest_opened_img": "images/locations/beauty_nest_ball_bw.png",
+            "visibility_rules": [
+              "pokemon_request_on"
             ]
           }
         ],
@@ -1528,6 +1737,26 @@
             "visibility_rules": [
               "fly_destination_unlocks_on"
             ]
+          },
+          {
+            "name": "Old Woman's Gift",
+            "chest_unopened_img": "images/locations/old_woman_rainbow_pass.png",
+            "chest_opened_img": "images/locations/old_woman_rainbow_pass_bw.png",
+            "visibility_rules": [
+              "island_passes_split",
+              "island_passes_split_prog"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Agatha 4)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           }
         ],
         "map_locations": [
@@ -1649,6 +1878,17 @@
           },
           {
             "name": "Tall Grass Item"
+          },
+          {
+            "name": "Black Belt's Info (Bruno 6)",
+            "chest_unopened_img": "images/locations/black_belt_info.png",
+            "chest_opened_img": "images/locations/black_belt_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "Pokémon Ranger Jackson Reward",

@@ -14,6 +14,13 @@
     "access_rules": [
       "$fly|route_4",
       "@Pewter City Access,$leave_pewter_city",
+      "@Route 4 East Access,^$mt_moon"
+    ]
+  },
+  {
+    "name": "Route 4 East Access",
+    "access_rules": [
+      "@Route 3 Access,^$mt_moon",
       "@Cerulean City Access,$surf"
     ]
   },
@@ -21,17 +28,16 @@
     "name": "Cerulean City Access",
     "access_rules": [
       "$fly|cerulean",
-      "@Route 3 Access",
+      "@Route 4 East Access",
       "@Cerulean City Outskirts Access"
     ]
   },
   {
     "name": "Cerulean City Outskirts Access",
     "access_rules": [
-      "@Cerulean City Access,save_bill",
-      "@Cerulean City Access,$not_has|cerulean_city_roadblocks",
-      "@Vermilion City Access",
-      "@Route 10 North Access,$cut",
+      "@Cerulean City Access,$leave_cerulean",
+      "@Vermilion City Access,$tunnels",
+      "@Route 10 North Access,$route_9",
       "@Saffron City Access,tea"
     ]
   },
@@ -39,10 +45,10 @@
     "name": "Vermilion City Access",
     "access_rules": [
       "$fly|vermilion",
-      "$cut",
-      "@Cerulean City Outskirts Access",
-      "@Lavender Town Access,poke_flute",
-      "@Fuchsia City Access,poke_flute",
+      "@Pewter City Access,$route_2,^$digletts_cave",
+      "@Cerulean City Outskirts Access,$tunnels",
+      "@Lavender Town Access,poke_flute,$route_12",
+      "@Fuchsia City Access,poke_flute,$route_12",
       "@Saffron City Access,tea",
       "@One Island Access",
       "@Two Island Access",
@@ -57,8 +63,9 @@
     "name": "Route 10 North Access",
     "access_rules": [
       "$fly|route_10",
-      "@Cerulean City Outskirts Access,$cut",
-      "@Lavender Town Access,^$rock_tunnel"
+      "@Cerulean City Outskirts Access,$route_9",
+      "@Lavender Town Access,^$rock_tunnel",
+      "@Lavender Town Access,$route_10"
     ]
   },
   {
@@ -66,10 +73,11 @@
     "access_rules": [
       "$fly|lavender",
       "@Route 10 North Access,^$rock_tunnel",
-      "@Vermilion City Access,poke_flute",
-      "@Celadon City Access",
-      "@Fuchsia City Access,poke_flute",
-      "@Fuchsia City Access,$surf",
+      "@Route 10 North Access,$route_10",
+      "@Vermilion City Access,poke_flute,$route_12",
+      "@Celadon City Access,$tunnels",
+      "@Fuchsia City Access,poke_flute,$route_12",
+      "@Fuchsia City Access,$surf,modify_route_12_off",
       "@Saffron City Access,tea"
     ]
   },
@@ -77,8 +85,8 @@
     "name": "Celadon City Access",
     "access_rules": [
       "$fly|celadon",
-      "@Lavender Town Access",
-      "@Fuchsia City Access,bicycle,poke_flute",
+      "@Lavender Town Access,$tunnels",
+      "@Fuchsia City Access,bicycle,$route_16",
       "@Saffron City Access,tea"
     ]
   },
@@ -87,10 +95,10 @@
     "access_rules": [
       "$fly|fuchsia",
       "$surf,$strength",
-      "@Vermilion City Access,poke_flute",
-      "@Lavender Town Access,poke_flute",
-      "@Lavender Town Access,$surf",
-      "@Celadon City Access,poke_flute,bicycle"
+      "@Vermilion City Access,poke_flute,$route_12",
+      "@Lavender Town Access,poke_flute,$route_12",
+      "@Lavender Town Access,$surf,modify_route_12_off",
+      "@Celadon City Access,bicycle,$route_16"
     ]
   },
   {
@@ -114,56 +122,53 @@
     "name": "Route 23 South Access",
     "access_rules": [
       "$has_route_22_gate_req",
-      "@Route 23 Center Access,$surf"
+      "@Route 23 Center Bottom Access,$surf"
     ]
   },
   {
-    "name": "Route 23 Center Access",
+    "name": "Route 23 Center Bottom Access",
     "access_rules": [
-      "@Route 23 South Access,$surf",
-      "@Victory Road Access"
+      "@Route 23 South Access,$surf,$route_23_waterfall",
+      "@Route 23 Center Top Access,$route_23_cut"
     ]
   },
   {
-    "name": "Victory Road Access",
+    "name": "Route 23 Center Top Access",
     "access_rules": [
-      "@Route 23 Center Access,$has_route_23_guard_req",
-      "@Indigo Plateau Access,$strength"
+      "@Route 23 Center Bottom Access,$route_23_cut",
+      "@Victory Road Front Access"
+    ]
+  },
+  {
+    "name": "Victory Road Front Access",
+    "access_rules": [
+      "@Route 23 Center Top Access,$has_route_23_guard_req",
+      "@Indigo Plateau Access,$strength,$victory_road"
     ]
   },
   {
     "name": "Indigo Plateau Access",
     "access_rules": [
       "$fly|indigo",
-      "@Victory Road Access,$strength"
+      "@Victory Road Front Access,$strength,$victory_road,$victory_road_rock_smash"
     ]
   },
   {
     "name": "One Island Access",
     "access_rules": [
       "$fly|one_island",
-      "@Cinnabar Island Access,defeat_blaine",
+      "defeat_blaine",
       "@Vermilion City Access,tri_pass",
-      "@Two Island Access,tri_pass",
-      "@Three Island Access,tri_pass",
-      "@Four Island Access,tri_pass",
-      "@Five Island Access,tri_pass",
-      "@Six Island Access,tri_pass",
-      "@Seven Island Access,tri_pass"
+      "@Vermilion City Access,one_pass"
     ]
   },
   {
     "name": "Two Island Access",
     "access_rules": [
       "$fly|two_island",
-      "@Three Island Access,rescue_lostelle",
+      "rescue_lostelle",
       "@Vermilion City Access,tri_pass",
-      "@One Island Access,tri_pass",
-      "@Three Island Access,tri_pass",
-      "@Four Island Access,tri_pass",
-      "@Five Island Access,tri_pass",
-      "@Six Island Access,tri_pass",
-      "@Seven Island Access,tri_pass"
+      "@Vermilion City Access,two_pass"
     ]
   },
   {
@@ -171,12 +176,7 @@
     "access_rules": [
       "$fly|three_island",
       "@Vermilion City Access,tri_pass",
-      "@One Island Access,tri_pass",
-      "@Two Island Access,tri_pass",
-      "@Four Island Access,tri_pass",
-      "@Five Island Access,tri_pass",
-      "@Six Island Access,tri_pass",
-      "@Seven Island Access,tri_pass"
+      "@Vermilion City Access,three_pass"
     ]
   },
   {
@@ -184,12 +184,7 @@
     "access_rules": [
       "$fly|four_island",
       "@Vermilion City Access,rainbow_pass",
-      "@One Island Access,rainbow_pass",
-      "@Two Island Access,rainbow_pass",
-      "@Three Island Access,rainbow_pass",
-      "@Five Island Access,rainbow_pass",
-      "@Six Island Access,rainbow_pass",
-      "@Seven Island Access,rainbow_pass"
+      "@Vermilion City Access,four_pass"
     ]
   },
   {
@@ -197,12 +192,7 @@
     "access_rules": [
       "$fly|five_island",
       "@Vermilion City Access,rainbow_pass",
-      "@One Island Access,rainbow_pass",
-      "@Two Island Access,rainbow_pass",
-      "@Three Island Access,rainbow_pass",
-      "@Four Island Access,rainbow_pass",
-      "@Six Island Access,rainbow_pass",
-      "@Seven Island Access,rainbow_pass"
+      "@Vermilion City Access,five_pass"
     ]
   },
   {
@@ -210,12 +200,7 @@
     "access_rules": [
       "$fly|six_island",
       "@Vermilion City Access,rainbow_pass",
-      "@One Island Access,rainbow_pass",
-      "@Two Island Access,rainbow_pass",
-      "@Three Island Access,rainbow_pass",
-      "@Four Island Access,rainbow_pass",
-      "@Five Island Access,rainbow_pass",
-      "@Seven Island Access,rainbow_pass"
+      "@Vermilion City Access,six_pass"
     ]
   },
   {
@@ -223,12 +208,7 @@
     "access_rules": [
       "$fly|seven_island",
       "@Vermilion City Access,rainbow_pass",
-      "@One Island Access,rainbow_pass",
-      "@Two Island Access,rainbow_pass",
-      "@Three Island Access,rainbow_pass",
-      "@Four Island Access,rainbow_pass",
-      "@Five Island Access,rainbow_pass",
-      "@Six Island Access,rainbow_pass"
+      "@Vermilion City Access,seven_pass"
     ]
   },
   {

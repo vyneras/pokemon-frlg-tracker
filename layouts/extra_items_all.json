@@ -1,0 +1,102 @@
+{
+  "extra_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "hideout_key",
+                "machine_part",
+                "safari_pass",
+                "letter"
+              ],
+              [
+                "card_key_2f",
+                "card_key_3f",
+                "card_key_4f",
+                "card_key_5f",
+                "card_key_6f"
+              ],
+              [
+                "card_key_7f",
+                "card_key_8f",
+                "card_key_9f",
+                "card_key_10f",
+                "card_key_11f"
+              ],
+              [
+                "one_pass",
+                "two_pass",
+                "three_pass"
+              ],
+              [
+                "four_pass",
+                "five_pass",
+                "six_pass",
+                "seven_pass"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "extra_item_grid_vertical": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "17,0,0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "hideout_key",
+                "machine_part",
+                "safari_pass",
+                "letter",
+                "card_key_2f",
+                "card_key_3f",
+                "card_key_4f"
+              ],
+              [
+                "card_key_5f",
+                "card_key_6f",
+                "card_key_7f",
+                "card_key_8f",
+                "card_key_9f",
+                "card_key_10f",
+                "card_key_11f"
+              ],
+              [
+                "one_pass",
+                "two_pass",
+                "three_pass",
+                "four_pass",
+                "five_pass",
+                "six_pass",
+                "seven_pass"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -161,6 +161,22 @@
             "y": 456
           }
         ]
+      },
+      {
+        "name": "Exterior - Learn Goldeen Need Log (Event)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Learn Goldeen Need Log (Event)",
+            "name": "Learn Goldeen Need Log (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 616,
+            "y": 696
+          }
+        ]
       }
     ]
   },

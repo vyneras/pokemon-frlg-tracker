@@ -58,7 +58,7 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "0,0",
+        "margin": "17,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -72,20 +72,20 @@
                 "fly_route_4",
                 "fly_cerulean",
                 "fly_vermilion",
-                "fly_route_10",
-                "fly_lavender"
+                "fly_route_10"
               ],
               [
+                "fly_lavender",
                 "fly_celadon",
                 "fly_fuchsia",
                 "fly_saffron",
                 "fly_cinnabar",
                 "fly_indigo",
-                "fly_one_island",
-                "fly_two_island",
-                "fly_three_island"
+                "fly_one_island"
               ],
               [
+                "fly_two_island",
+                "fly_three_island",
                 "fly_four_island",
                 "fly_five_island",
                 "fly_six_island",

@@ -3,10 +3,15 @@
     "name": "Lavender Town",
     "children": [
       {
-        "name": "Visit",
+        "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Unlock Fly Destination"
+            "ref": "Cities/Lavender Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "ref": "Cities/Lavender Town/Balding Man's Info (Mr. Fuji 4)",
+            "name": "Balding Man's Info (Mr. Fuji 4)"
           }
         ],
         "map_locations": [
@@ -21,7 +26,16 @@
         "name": "Volunteer Pokémon House",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Mr. Fuji"
+            "ref": "Cities/Lavender Town/Little Girl's Info (Mr. Fuji 1)",
+            "name": "Little Girl's Info (Mr. Fuji 1)"
+          },
+          {
+            "ref": "Cities/Lavender Town/Journal's Info (Mr. Fuji 3)",
+            "name": "Journal's Info (Mr. Fuji 3)"
+          },
+          {
+            "ref": "Cities/Lavender Town/Mr. Fuji's Gift",
+            "name": "Mr. Fuji's Gift"
           }
         ],
         "map_locations": [

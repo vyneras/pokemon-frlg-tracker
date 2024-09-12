@@ -3,7 +3,39 @@
     "name": "Pewter City",
     "children": [
       {
-        "name": "Visit",
+        "name": "Gym Sign",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Gym Sign's Info (Brock 1)",
+            "name": "Info (Brock 1)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Fat Man",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Fat Man's Info (Brock 3)",
+            "name": "Info (Brock 3)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 344,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Center",
         "sections": [
           {
             "ref": "Cities/Pewter City/Unlock Fly Destination"
@@ -33,12 +65,16 @@
             "name": "Leader Brock Reward"
           },
           {
+            "ref": "Cities/Pewter City/Brock's Info (Brock 2)",
+            "name": "Brock's Info (Brock 2)"
+          },
+          {
             "ref": "Cities/Pewter City/Pewter Gym Prize",
             "name": "Pewter Gym Prize"
           },
           {
-            "ref": "Cities/Pewter City/Brock TM",
-            "name": "Brock TM"
+            "ref": "Cities/Pewter City/Brock's TM",
+            "name": "Brock's TM"
           }
         ],
         "map_locations": [
@@ -69,7 +105,12 @@
         "name": "Pewter Museum",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Scientist in Pewter Museum"
+            "ref": "Cities/Pewter City/Scientist's Gift",
+            "name": "Scientist's Gift"
+          },
+          {
+            "ref": "Cities/Pewter City/Bookshelf's Info (Brock 6)",
+            "name": "Bookshelf's Info (Brock 6)"
           }
         ],
         "map_locations": [

@@ -8,7 +8,7 @@
         "name": "Route 1",
         "sections": [
           {
-            "name": "Poké Mart Employee",
+            "name": "Poké Mart Employee's Gift",
             "chest_unopened_img": "images/locations/clerk_potion.png",
             "chest_opened_img": "images/locations/clerk_potion_bw.png"
           }
@@ -41,7 +41,7 @@
             "name": "South Item"
           },
           {
-            "name": "Oak's Aide",
+            "name": "Oak's Aide's Gift",
             "chest_unopened_img": "images/locations/scientist_normal_tm.png",
             "chest_opened_img": "images/locations/scientist_normal_tm_bw.png",
             "access_rules": [
@@ -177,6 +177,17 @@
             ]
           },
           {
+            "name": "Boy's Info (Brock 4)",
+            "chest_unopened_img": "images/locations/boy_info.png",
+            "chest_opened_img": "images/locations/boy_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Hidden Item Near Pokémon Center",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -211,7 +222,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 3 Access,^$hidden"
+              "@Route 4 East Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -222,7 +233,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 3 Access,^$hidden"
+              "@Route 4 East Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -231,7 +242,7 @@
           {
             "name": "East Ledges Item",
             "access_rules": [
-              "@Route 3 Access"
+              "@Route 4 East Access"
             ]
           },
           {
@@ -685,7 +696,7 @@
             ]
           },
           {
-            "name": "Oak's Aide",
+            "name": "Oak's Aide's Gift",
             "chest_unopened_img": "images/locations/scientist_everstone.png",
             "chest_opened_img": "images/locations/scientist_everstone_bw.png",
             "access_rules": [
@@ -944,7 +955,7 @@
             "name": "Item Behind Trees"
           },
           {
-            "name": "Oak's Aide",
+            "name": "Oak's Aide's Gift",
             "chest_unopened_img": "images/locations/scientist_itemfinder.png",
             "chest_opened_img": "images/locations/scientist_itemfinder_bw.png",
             "access_rules": [
@@ -975,7 +986,7 @@
         ],
         "sections": [
           {
-            "name": "Mourning Lass in Gate",
+            "name": "Mourning Lass' Gift",
             "chest_unopened_img": "images/locations/lass_normal_tm.png",
             "chest_opened_img": "images/locations/lass_normal_tm_bw.png"
           },
@@ -1066,13 +1077,22 @@
       {
         "name": "Route 12 South",
         "access_rules": [
-          "@Fuchsia City Access"
+          "@Fuchsia City Access,$surf",
+          "@Fuchsia City Access,$route_12"
         ],
         "sections": [
           {
-            "name": "Fishing Guru's Brother",
+            "name": "Fishing Guru's Brother's Gift",
             "chest_unopened_img": "images/locations/fisherman_super_rod.png",
             "chest_opened_img": "images/locations/fisherman_super_rod_bw.png"
+          },
+          {
+            "name": "Fishing Guru's Brother's Gift (Show Magikarp)",
+            "chest_unopened_img": "images/locations/fisherman_net_ball.png",
+            "chest_opened_img": "images/locations/fisherman_net_ball_bw.png",
+            "visibility_rules": [
+              "pokemon_request_on"
+            ]
           },
           {
             "name": "Rocker Luca Reward",
@@ -1489,7 +1509,7 @@
             ]
           },
           {
-            "name": "Oak's Aide",
+            "name": "Oak's Aide's Gift",
             "chest_unopened_img": "images/locations/scientist_exp_share.png",
             "chest_opened_img": "images/locations/scientist_exp_share_bw.png",
             "access_rules": [
@@ -1521,7 +1541,8 @@
             "chest_unopened_img": "images/locations/young_couple.png",
             "chest_opened_img": "images/locations/young_couple_bw.png",
             "access_rules": [
-              "@Celadon City Access,$cut"
+              "@Celadon City Access,$cut",
+              "@Fuchsia City Access,bicycle,$rock_smash,modify_route_16_on"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1532,7 +1553,8 @@
             "chest_unopened_img": "images/locations/woman_flying_tm.png",
             "chest_opened_img": "images/locations/woman_flying_tm_bw.png",
             "access_rules": [
-              "@Celadon City Access,$cut"
+              "@Celadon City Access,$cut",
+              "@Fuchsia City Access,bicycle,$rock_smash,modify_route_16_on"
             ]
           },
           {
@@ -1547,12 +1569,12 @@
             ]
           },
           {
-            "name": "Oak's Aide",
+            "name": "Oak's Aide's Gift",
             "chest_unopened_img": "images/locations/scientist_amulet_coin.png",
             "chest_opened_img": "images/locations/scientist_amulet_coin_bw.png",
             "access_rules": [
-              "@Celadon City Access,poke_flute,$route_16_oaks_aide",
-              "@Celadon City Access,poke_flute,{}",
+              "@Celadon City Access,$route_16,$route_16_oaks_aide",
+              "@Celadon City Access,$route_16,{}",
               "@Fuchsia City Access,bicycle,$route_16_oaks_aide",
               "@Fuchsia City Access,bicycle,{}"
             ]
@@ -2097,6 +2119,17 @@
             "visibility_rules": [
               "trainersanity_on"
             ]
+          },
+          {
+            "name": "Camper's Info (Misty 4)",
+            "chest_unopened_img": "images/locations/camper_info.png",
+            "chest_opened_img": "images/locations/camper_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           }
         ],
         "map_locations": [
@@ -2286,8 +2319,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 23 South Access,$surf,^$hidden",
-              "@Route 23 Center Access,$surf,^$hidden"
+              "@Route 23 South Access,$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2298,7 +2330,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 23 Center Access,^$hidden"
+              "@Route 23 Center Bottom Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2309,7 +2341,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 23 Center Access,^$hidden"
+              "@Route 23 Center Bottom Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2320,7 +2352,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 23 Center Access,^$hidden"
+              "@Route 23 Center Top Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2331,7 +2363,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Victory Road Access,^$hidden"
+              "@Victory Road Front Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2590,6 +2622,17 @@
             ]
           },
           {
+            "name": "Beauty's Info (Misty 5)",
+            "chest_unopened_img": "images/locations/beauty_info.png",
+            "chest_opened_img": "images/locations/beauty_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Hidden Item Past Sea Cottage",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -2605,7 +2648,7 @@
             "hosted_item": "save_bill_hosted"
           },
           {
-            "name": "Bill",
+            "name": "Bill's Gift",
             "chest_unopened_img": "images/locations/bill_ss_ticket.png",
             "chest_opened_img": "images/locations/bill_ss_ticket_bw.png"
           }

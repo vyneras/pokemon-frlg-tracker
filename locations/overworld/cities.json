@@ -16,6 +16,17 @@
             ]
           },
           {
+            "name": "Oak's Lab Sign's Info (Oak 1)",
+            "chest_unopened_img": "images/locations/sign_info.png",
+            "chest_opened_img": "images/locations/sign_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Rival Reward",
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
@@ -31,7 +42,7 @@
             ]
           },
           {
-            "name": "Oak (Deliver Parcel)",
+            "name": "Oak's Gift (Deliver Parcel)",
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
@@ -39,15 +50,18 @@
             ]
           },
           {
-            "name": "Daisy",
-            "chest_unopened_img": "images/locations/daisy_town_map.png",
-            "chest_opened_img": "images/locations/daisy_town_map_bw.png",
+            "name": "Oak's Info (Oak 2)",
+            "chest_unopened_img": "images/locations/oak_info.png",
+            "chest_opened_img": "images/locations/oak_info_bw.png",
             "access_rules": [
-              "deliver_oaks_parcel"
+              "oaks_parcel,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
-            "name": "Oak (After Route 22 Rival)",
+            "name": "Oak's Gift (After Route 22 Rival)",
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
@@ -55,19 +69,44 @@
             ]
           },
           {
-            "name": "Oak (First Gift After Champion)",
-            "chest_unopened_img": "images/locations/oak_mystic_ticket.png",
-            "chest_opened_img": "images/locations/oak_mystic_ticket_bw.png",
+            "name": "Oak's Aide's Info (Oak 3)",
+            "chest_unopened_img": "images/locations/scientist_info.png",
+            "chest_opened_img": "images/locations/scientist_info_bw.png",
             "access_rules": [
-              "defeat_champion"
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
-            "name": "Oak (Second Gift After Champion)",
-            "chest_unopened_img": "images/locations/oak_aurora_ticket.png",
-            "chest_opened_img": "images/locations/oak_aurora_ticket_bw.png",
+            "name": "Oak's Aide's Info (Daisy 1)",
+            "chest_unopened_img": "images/locations/scientist_info.png",
+            "chest_opened_img": "images/locations/scientist_info_bw.png",
             "access_rules": [
-              "defeat_champion"
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Oak's Aide's Info (Oak 6)",
+            "chest_unopened_img": "images/locations/scientist_info.png",
+            "chest_opened_img": "images/locations/scientist_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Daisy's Gift",
+            "chest_unopened_img": "images/locations/daisy_town_map.png",
+            "chest_opened_img": "images/locations/daisy_town_map_bw.png",
+            "access_rules": [
+              "deliver_oaks_parcel"
             ]
           }
         ],
@@ -96,20 +135,53 @@
             ]
           },
           {
-            "name": "Poké Mart Clerk",
+            "name": "Delivery for Oak",
             "chest_unopened_img": "images/locations/clerk_oaks_parcel.png",
             "chest_opened_img": "images/locations/clerk_oaks_parcel_bw.png"
+          },
+          {
+            "name": "Bookshelf's Info (Oak 4)",
+            "chest_unopened_img": "images/locations/bookshelf_2_info.png",
+            "chest_opened_img": "images/locations/bookshelf_2_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Daisy 4)",
+            "chest_unopened_img": "images/locations/bookshelf_2_info.png",
+            "chest_opened_img": "images/locations/bookshelf_2_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "Item Near Cuttable Tree"
           },
           {
-            "name": "Old Man",
+            "name": "Old Man's Gift",
             "chest_unopened_img": "images/locations/old_man_teachy_tv.png",
             "chest_opened_img": "images/locations/old_man_teachy_tv_bw.png",
             "access_rules": [
               "deliver_oaks_parcel",
               "viridian_city_open"
+            ]
+          },
+          {
+            "name": "Gym Guy's Info (Giovanni 5)",
+            "chest_unopened_img": "images/locations/gym_guy_info.png",
+            "chest_opened_img": "images/locations/gym_guy_info_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req,defeat_giovanni,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -219,6 +291,17 @@
             ]
           },
           {
+            "name": "Giovanni's Info (Giovanni 4)",
+            "chest_unopened_img": "images/locations/giovanni_info.png",
+            "chest_opened_img": "images/locations/giovanni_info_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Viridian Gym Prize",
             "chest_unopened_img": "images/locations/giovanni_earth_badge.png",
             "chest_opened_img": "images/locations/giovanni_earth_badge_bw.png",
@@ -227,7 +310,7 @@
             ]
           },
           {
-            "name": "Giovanni TM",
+            "name": "Giovanni's TM",
             "chest_unopened_img": "images/locations/giovanni_ground_tm.png",
             "chest_opened_img": "images/locations/giovanni_ground_tm_bw.png",
             "access_rules": [
@@ -274,6 +357,17 @@
             ]
           },
           {
+            "name": "Fat Man's Info (Brock 3)",
+            "chest_unopened_img": "images/locations/fat_man_info.png",
+            "chest_opened_img": "images/locations/fat_man_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Northwest Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -285,11 +379,33 @@
             ]
           },
           {
-            "name": "Scientist in Pewter Museum",
+            "name": "Gym Sign's Info (Brock 1)",
+            "chest_unopened_img": "images/locations/gym_sign_info.png",
+            "chest_opened_img": "images/locations/gym_sign_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Scientist's Gift",
             "chest_unopened_img": "images/locations/scientist_old_amber.png",
             "chest_opened_img": "images/locations/scientist_old_amber_bw.png",
             "access_rules": [
               "$cut"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Brock 6)",
+            "chest_unopened_img": "images/locations/bookshelf_2_info.png",
+            "chest_opened_img": "images/locations/bookshelf_2_info_bw.png",
+            "access_rules": [
+              "$cut,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -313,12 +429,23 @@
             ]
           },
           {
+            "name": "Brock's Info (Brock 2)",
+            "chest_unopened_img": "images/locations/brock_info.png",
+            "chest_opened_img": "images/locations/brock_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Pewter Gym Prize",
             "chest_unopened_img": "images/locations/brock_boulder_badge.png",
             "chest_opened_img": "images/locations/brock_boulder_badge_bw.png"
           },
           {
-            "name": "Brock TM",
+            "name": "Brock's TM",
             "chest_unopened_img": "images/locations/brock_rock_tm.png",
             "chest_opened_img": "images/locations/brock_rock_tm_bw.png"
           }
@@ -338,14 +465,14 @@
       },
       {
         "name": "Cerulean City",
-        "access_rules": [
-          "@Cerulean City Access"
-        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ],
             "visibility_rules": [
               "fly_destination_unlocks_on"
             ]
@@ -355,37 +482,90 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Cerulean City Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
             ]
           },
           {
-            "name": "Berry Powder Man",
+            "name": "Berry Powder Man's Gift",
             "chest_unopened_img": "images/locations/old_man_powder_jar.png",
-            "chest_opened_img": "images/locations/old_man_powder_jar_bw.png"
+            "chest_opened_img": "images/locations/old_man_powder_jar_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ]
+          },
+          {
+            "name": "Rival's Info (Bill 1)",
+            "chest_unopened_img": "images/locations/rival_info.png",
+            "chest_opened_img": "images/locations/rival_info_bw.png",
+            "access_rules": [
+              "@Cerulean City Access,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "Rival Reward",
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
           },
           {
-            "name": "Rival",
+            "name": "Rival's Gift",
             "chest_unopened_img": "images/locations/rival_fame_checker.png",
-            "chest_opened_img": "images/locations/rival_fame_checker_bw.png"
+            "chest_opened_img": "images/locations/rival_fame_checker_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ]
+          },
+          {
+            "name": "Youngster's Info (Bill 2)",
+            "chest_unopened_img": "images/locations/youngster_info.png",
+            "chest_opened_img": "images/locations/youngster_info_bw.png",
+            "access_rules": [
+              "@Cerulean City Access,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Misty 6)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "@Cerulean City Access,$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Gym Sign's Info (Misty 1)",
+            "chest_unopened_img": "images/locations/gym_sign_info.png",
+            "chest_opened_img": "images/locations/gym_sign_info_bw.png",
+            "access_rules": [
+              "@Cerulean City Access,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "Bicycle Purchase",
             "chest_unopened_img": "images/locations/clerk_bicycle.png",
             "chest_opened_img": "images/locations/clerk_bicycle_bw.png",
             "access_rules": [
-              "bike_voucher",
-              "{}"
+              "@Cerulean City Access,bike_voucher",
+              "@Cerulean City Access,{}"
             ]
           },
           {
@@ -412,7 +592,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,itemfinder"
+              "@Cerulean City Access,$surf,itemfinder"
             ],
             "visibility_rules": [
               "extra_key_items_on"
@@ -422,39 +602,79 @@
             "name": "Swimmer Luis Reward",
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Swimmer Luis's Info (Misty 3)",
+            "chest_unopened_img": "images/locations/swimmer_male_water_info.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_info_bw.png",
+            "access_rules": [
+              "@Cerulean City Access,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
             "name": "Picnicker Diana Reward",
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
           },
           {
             "name": "Defeat Misty (Event)",
-            "hosted_item": "defeat_misty_hosted"
+            "hosted_item": "defeat_misty_hosted",
+            "access_rules": [
+              "@Cerulean City Access"
+            ]
           },
           {
             "name": "Leader Misty Reward",
             "chest_unopened_img": "images/locations/misty.png",
             "chest_opened_img": "images/locations/misty_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ],
             "visibility_rules": [
               "trainersanity_on"
             ]
           },
           {
-            "name": "Cerulean Gym Prize",
-            "chest_unopened_img": "images/locations/misty_cascade_badge.png",
-            "chest_opened_img": "images/locations/misty_cascade_badge_bw.png"
+            "name": "Misty's Info (Misty 2)",
+            "chest_unopened_img": "images/locations/misty_info.png",
+            "chest_opened_img": "images/locations/misty_info_bw.png",
+            "access_rules": [
+              "@Cerulean City Access,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
-            "name": "Misty TM",
+            "name": "Cerulean Gym Prize",
+            "chest_unopened_img": "images/locations/misty_cascade_badge.png",
+            "chest_opened_img": "images/locations/misty_cascade_badge_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ]
+          },
+          {
+            "name": "Misty's TM",
             "chest_unopened_img": "images/locations/misty_water_tm.png",
-            "chest_opened_img": "images/locations/misty_water_tm_bw.png"
+            "chest_opened_img": "images/locations/misty_water_tm_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ]
           }
         ],
         "map_locations": [
@@ -496,19 +716,52 @@
             ]
           },
           {
-            "name": "Vs. Seeker Woman",
+            "name": "Vs. Seeker Woman's Gift",
             "chest_unopened_img": "images/locations/cooltrainer_female_vs_seeker.png",
             "chest_opened_img": "images/locations/cooltrainer_female_vs_seeker_bw.png"
           },
           {
-            "name": "Fishing Guru",
+            "name": "Bookshelf's Info (Lt. Surge 6)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "defeat_lt_surge,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Fishing Guru's Gift",
             "chest_unopened_img": "images/locations/fisherman_old_rod.png",
             "chest_opened_img": "images/locations/fisherman_old_rod_bw.png"
           },
           {
-            "name": "Pokémon Fan Club Chairman",
+            "name": "Pokémon Fan Club Chairman's Gift",
             "chest_unopened_img": "images/locations/gentleman_bike_voucher.png",
             "chest_opened_img": "images/locations/gentleman_bike_voucher_bw.png"
+          },
+          {
+            "name": "Pokémon Fan Club Worker's Info (Daisy 2)",
+            "chest_unopened_img": "images/locations/worker_female_info.png",
+            "chest_opened_img": "images/locations/worker_female_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Gym Sign's Info (Lt. Surge 1)",
+            "chest_unopened_img": "images/locations/gym_sign_info.png",
+            "chest_opened_img": "images/locations/gym_sign_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "Sailor Dwayne Reward",
@@ -520,6 +773,18 @@
             ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Sailor Dwayne's Info (Lt. Surge 5)",
+            "chest_unopened_img": "images/locations/sailor_info.png",
+            "chest_opened_img": "images/locations/sailor_info_bw.png",
+            "access_rules": [
+              "$cut,$fame",
+              "surf,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -547,11 +812,47 @@
             ]
           },
           {
+            "name": "Gentleman Tucker's Info (Lt. Surge 3)",
+            "chest_unopened_img": "images/locations/gentleman_info.png",
+            "chest_opened_img": "images/locations/gentleman_info_bw.png",
+            "access_rules": [
+              "$cut,$fame",
+              "surf,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Gentleman Tucker's Info (Lt. Surge 4)",
+            "chest_unopened_img": "images/locations/gentleman_info.png",
+            "chest_opened_img": "images/locations/gentleman_info_bw.png",
+            "access_rules": [
+              "$cut,$fame",
+              "surf,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Defeat Lt. Surge (Event)",
             "hosted_item": "defeat_lt_surge_hosted",
             "access_rules": [
               "$cut",
               "$surf"
+            ]
+          },
+          {
+            "name": "Lt. Surge's Info (Lt. Surge 2)",
+            "chest_unopened_img": "images/locations/lt_surge_info.png",
+            "chest_opened_img": "images/locations/lt_surge_info_bw.png",
+            "access_rules": [
+              "$cut,$fame",
+              "surf,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -576,7 +877,7 @@
             ]
           },
           {
-            "name": "Lt. Surge TM",
+            "name": "Lt. Surge's TM",
             "chest_unopened_img": "images/locations/lt_surge_thunder_tm.png",
             "chest_opened_img": "images/locations/lt_surge_thunder_tm_bw.png",
             "access_rules": [
@@ -613,7 +914,40 @@
             ]
           },
           {
-            "name": "Mr. Fuji",
+            "name": "Balding Man's Info (Mr. Fuji 4)",
+            "chest_unopened_img": "images/locations/balding_man_info.png",
+            "chest_opened_img": "images/locations/balding_man_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Little Girl's Info (Mr. Fuji 1)",
+            "chest_unopened_img": "images/locations/little_girl_info.png",
+            "chest_opened_img": "images/locations/little_girl_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Journal's Info (Mr. Fuji 3)",
+            "chest_unopened_img": "images/locations/journal_info.png",
+            "chest_opened_img": "images/locations/journal_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Mr. Fuji's Gift",
             "chest_unopened_img": "images/locations/mr_fuji_poke_flute.png",
             "chest_opened_img": "images/locations/mr_fuji_poke_flute_bw.png",
             "access_rules": [
@@ -652,31 +986,76 @@
             "name": "Northwest Item"
           },
           {
-            "name": "Tea Woman",
+            "name": "Tea Woman's Gift",
             "chest_unopened_img": "images/locations/old_woman_tea.png",
             "chest_opened_img": "images/locations/old_woman_tea_bw.png"
           },
           {
+            "name": "Tea Woman's Info (Daisy 5)",
+            "chest_unopened_img": "images/locations/old_woman_info.png",
+            "chest_opened_img": "images/locations/old_woman_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Erika 6)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "defeat_erika,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Woman's Info (Lance 4)",
+            "chest_unopened_img": "images/locations/woman_info.png",
+            "chest_opened_img": "images/locations/woman_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Buy Lemonade (Event)",
-            "hosted_item": "lemonade_hosted"
+            "hosted_item": "lemonade_hosted",
+            "access_rules": [
+              "^$grind_money"
+            ]
           },
           {
-            "name": "Thirsty Girl (Fresh Water)",
+            "name": "Thirsty Girl's Gift (Give Fresh Water)",
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
-            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
+            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png",
+            "access_rules": [
+              "^$grind_money"
+            ]
           },
           {
-            "name": "Thirsty Girl (Soda Pop)",
+            "name": "Thirsty Girl's Gift (Give Soda Pop)",
             "chest_unopened_img": "images/locations/little_girl_normal_tm.png",
-            "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png"
+            "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png",
+            "access_rules": [
+              "^$grind_money"
+            ]
           },
           {
-            "name": "Thirsty Girl (Lemonade)",
+            "name": "Thirsty Girl's Gift (Give Lemonade)",
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
-            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
+            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png",
+            "access_rules": [
+              "^$grind_money"
+            ]
           },
           {
-            "name": "Coin Case Man",
+            "name": "Coin Case Man's Gift",
             "chest_unopened_img": "images/locations/balding_man_coin_case.png",
             "chest_opened_img": "images/locations/balding_man_coin_case_bw.png"
           },
@@ -698,11 +1077,178 @@
             ]
           },
           {
+            "name": "Fisherman's Gift",
+            "chest_unopened_img": "images/locations/fisherman_coins.png",
+            "chest_opened_img": "images/locations/fisherman_coins_bw.png",
+            "access_rules": [
+              "coin_case"
+            ]
+          },
+          {
+            "name": "Scientist's Gift",
+            "chest_unopened_img": "images/locations/scientist_coins.png",
+            "chest_opened_img": "images/locations/scientist_coins_bw.png",
+            "access_rules": [
+              "coin_case"
+            ]
+          },
+          {
+            "name": "Gentleman's Gift",
+            "chest_unopened_img": "images/locations/gentleman_coins.png",
+            "chest_opened_img": "images/locations/gentleman_coins_bw.png",
+            "access_rules": [
+              "coin_case"
+            ]
+          },
+          {
+            "name": "Game Corner Southwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner South Hidden Item (Left)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner South Hidden Item (Right)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner Southeast Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner West Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner Center Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner East Hidden Item (Left)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner East Hidden Item (Right)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner Northwest Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner North Hidden Item (Left)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner North Hidden Item (Right)",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "Game Corner Northeast Hidden Item",
+            "chest_unopened_img": "images/locations/hidden_item.png",
+            "chest_opened_img": "images/locations/hidden_item_bw.png",
+            "access_rules": [
+              "^$hidden"
+            ],
+            "visibility_rules": [
+              "hidden_nonrecurring"
+            ]
+          },
+          {
             "name": "Team Rocket Grunt Reward",
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Gym Sign's Info (Erika 1)",
+            "chest_unopened_img": "images/locations/gym_sign_info.png",
+            "chest_opened_img": "images/locations/gym_sign_info_bw.png",
+            "access_rules": [
+              "$cut,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -736,6 +1282,17 @@
             ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Beauty Tamia's Info (Erika 4)",
+            "chest_unopened_img": "images/locations/beauty_info.png",
+            "chest_opened_img": "images/locations/beauty_info_bw.png",
+            "access_rules": [
+              "$cut,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -783,6 +1340,17 @@
             ]
           },
           {
+            "name": "Lass Lisa's Info (Erika 3)",
+            "chest_unopened_img": "images/locations/lass_info.png",
+            "chest_opened_img": "images/locations/lass_info_bw.png",
+            "access_rules": [
+              "$cut,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Defeat Erika (Event)",
             "hosted_item": "defeat_erika_hosted",
             "access_rules": [
@@ -801,6 +1369,17 @@
             ]
           },
           {
+            "name": "Erika's Info (Erika 2)",
+            "chest_unopened_img": "images/locations/erika_info.png",
+            "chest_opened_img": "images/locations/erika_info_bw.png",
+            "access_rules": [
+              "$cut,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Celadon Gym Prize",
             "chest_unopened_img": "images/locations/erika_rainbow_badge.png",
             "chest_opened_img": "images/locations/erika_rainbow_badge_bw.png",
@@ -809,11 +1388,22 @@
             ]
           },
           {
-            "name": "Erika TM",
+            "name": "Erika's TM",
             "chest_unopened_img": "images/locations/erika_grass_tm.png",
             "chest_opened_img": "images/locations/erika_grass_tm_bw.png",
             "access_rules": [
               "$cut"
+            ]
+          },
+          {
+            "name": "Erika's Info (Erika 5)",
+            "chest_unopened_img": "images/locations/erika_info.png",
+            "chest_opened_img": "images/locations/erika_info_bw.png",
+            "access_rules": [
+              "$cut,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           }
         ],
@@ -845,12 +1435,12 @@
             ]
           },
           {
-            "name": "Fishing Guru's Brother",
+            "name": "Fishing Guru's Brother's Gift",
             "chest_unopened_img": "images/locations/fisherman_good_rod.png",
             "chest_opened_img": "images/locations/fisherman_good_rod_bw.png"
           },
           {
-            "name": "Hidden Item Behind Fishing Guru's House",
+            "name": "Hidden Item Behind Fishing Guru's Gift's House",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
@@ -861,7 +1451,7 @@
             ]
           },
           {
-            "name": "Safari Zone Warden",
+            "name": "Safari Zone Warden's Gift",
             "chest_unopened_img": "images/locations/old_man_normal_tm.png",
             "chest_opened_img": "images/locations/old_man_normal_tm_bw.png",
             "access_rules": [
@@ -875,11 +1465,55 @@
             ]
           },
           {
-            "name": "Safari Zone Worker",
+            "name": "Bookshelf's Info (Koga 5)",
+            "chest_unopened_img": "images/locations/bookshelf_3_info.png",
+            "chest_opened_img": "images/locations/bookshelf_3_info_bw.png",
+            "access_rules": [
+              "defeat_koga,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Safari Zone Worker's Gift",
             "chest_unopened_img": "images/locations/worker_safari_pass.png",
             "chest_opened_img": "images/locations/worker_safari_pass_bw.png",
             "visibility_rules": [
               "extra_key_items_on"
+            ]
+          },
+          {
+            "name": "Koga's Daughter's Info (Koga 4)",
+            "chest_unopened_img": "images/locations/lass_info.png",
+            "chest_opened_img": "images/locations/lass_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Bill's Grandpa's Info (Bill 3)",
+            "chest_unopened_img": "images/locations/old_man_info.png",
+            "chest_opened_img": "images/locations/old_man_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Gym Sign's Info (Koga 1)",
+            "chest_unopened_img": "images/locations/gym_sign_info.png",
+            "chest_opened_img": "images/locations/gym_sign_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -904,6 +1538,17 @@
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Juggler Kirk's Info (Koga 3)",
+            "chest_unopened_img": "images/locations/rocker_info.png",
+            "chest_opened_img": "images/locations/rocker_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -943,12 +1588,23 @@
             ]
           },
           {
+            "name": "Koga's Info (Koga 2)",
+            "chest_unopened_img": "images/locations/koga_info.png",
+            "chest_opened_img": "images/locations/koga_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Fuchsia Gym Prize",
             "chest_unopened_img": "images/locations/koga_soul_badge.png",
             "chest_opened_img": "images/locations/koga_soul_badge_bw.png"
           },
           {
-            "name": "Koga TM",
+            "name": "Koga's TM",
             "chest_unopened_img": "images/locations/koga_poison_tm.png",
             "chest_opened_img": "images/locations/koga_poison_tm_bw.png"
           }
@@ -981,9 +1637,53 @@
             ]
           },
           {
-            "name": "Mr. Psychic",
+            "name": "Bookshelf's Info (Sabrina 5)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "defeat_sabrina,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Mr. Psychic's Gift",
             "chest_unopened_img": "images/locations/balding_man_psychic_tm.png",
             "chest_opened_img": "images/locations/balding_man_psychic_tm_bw.png"
+          },
+          {
+            "name": "Battle Girl's Info (Lance 3)",
+            "chest_unopened_img": "images/locations/battle_girl_info.png",
+            "chest_opened_img": "images/locations/battle_girl_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Bruno 3)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Gym Sign's Info (Sabrina 1)",
+            "chest_unopened_img": "images/locations/gym_sign_info.png",
+            "chest_opened_img": "images/locations/gym_sign_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "Black Belt Hideki Reward",
@@ -1070,6 +1770,17 @@
             ]
           },
           {
+            "name": "Psychic Tyron's Info (Sabrina 6)",
+            "chest_unopened_img": "images/locations/cooltrainer_male_info.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_info_bw.png",
+            "access_rules": [
+              "liberate_silph_co,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Channeler Stacy Reward",
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
@@ -1132,6 +1843,28 @@
             ]
           },
           {
+            "name": "Sabrina's Info (Sabrina 3)",
+            "chest_unopened_img": "images/locations/sabrina_info.png",
+            "chest_opened_img": "images/locations/sabrina_info_bw.png",
+            "access_rules": [
+              "liberate_silph_co,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Sabrina's Info (Sabrina 4)",
+            "chest_unopened_img": "images/locations/sabrina_info.png",
+            "chest_opened_img": "images/locations/sabrina_info_bw.png",
+            "access_rules": [
+              "liberate_silph_co,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Saffron Gym Prize",
             "chest_unopened_img": "images/locations/sabrina_marsh_badge.png",
             "chest_opened_img": "images/locations/sabrina_marsh_badge_bw.png",
@@ -1140,7 +1873,7 @@
             ]
           },
           {
-            "name": "Sabrina TM",
+            "name": "Sabrina's TM",
             "chest_unopened_img": "images/locations/sabrina_psychic_tm.png",
             "chest_opened_img": "images/locations/sabrina_psychic_tm_bw.png",
             "access_rules": [
@@ -1176,7 +1909,40 @@
             ]
           },
           {
-            "name": "Scientist in Pokémon Lab",
+            "name": "Gym Sign's Info (Blaine 1)",
+            "chest_unopened_img": "images/locations/gym_sign_info.png",
+            "chest_opened_img": "images/locations/gym_sign_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Woman's Info (Blaine 4)",
+            "chest_unopened_img": "images/locations/woman_2_info.png",
+            "chest_opened_img": "images/locations/woman_2_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Mr. Fuji 6)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Scientist's Gift",
             "chest_unopened_img": "images/locations/scientist_letter.png",
             "chest_opened_img": "images/locations/scientist_letter_bw.png",
             "visibility_rules": [
@@ -1239,6 +2005,17 @@
             ]
           },
           {
+            "name": "Super Nerd Derek's Info (Blaine 3)",
+            "chest_unopened_img": "images/locations/scientist_info.png",
+            "chest_opened_img": "images/locations/scientist_info_bw.png",
+            "access_rules": [
+              "secret_key,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Burglar Dusty Reward",
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
@@ -1279,6 +2056,17 @@
             ]
           },
           {
+            "name": "Blaine's Info (Blaine 2)",
+            "chest_unopened_img": "images/locations/blaine_info.png",
+            "chest_opened_img": "images/locations/blaine_info_bw.png",
+            "access_rules": [
+              "secret_key,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Cinnabar Gym Prize",
             "chest_unopened_img": "images/locations/blaine_volcano_badge.png",
             "chest_opened_img": "images/locations/blaine_volcano_badge_bw.png",
@@ -1287,11 +2075,33 @@
             ]
           },
           {
-            "name": "Blaine TM",
+            "name": "Blaine's TM",
             "chest_unopened_img": "images/locations/blaine_fire_tm.png",
             "chest_opened_img": "images/locations/blaine_fire_tm_bw.png",
             "access_rules": [
               "secret_key"
+            ]
+          },
+          {
+            "name": "Photo's Info (Blaine 5)",
+            "chest_unopened_img": "images/locations/photo_info.png",
+            "chest_opened_img": "images/locations/photo_info_bw.png",
+            "access_rules": [
+              "secret_key,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Photo's Info (Mr. Fuji 5)",
+            "chest_unopened_img": "images/locations/photo_info.png",
+            "chest_opened_img": "images/locations/photo_info_bw.png",
+            "access_rules": [
+              "secret_key,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           }
         ],
@@ -1323,6 +2133,72 @@
             ]
           },
           {
+            "name": "Cooltrainer's Info (Lance 6)",
+            "chest_unopened_img": "images/locations/cooltrainer_male_info.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt's Info (Agatha 2)",
+            "chest_unopened_img": "images/locations/black_belt_info.png",
+            "chest_opened_img": "images/locations/black_belt_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Black Belt's Info (Agatha 3)",
+            "chest_unopened_img": "images/locations/black_belt_info.png",
+            "chest_opened_img": "images/locations/black_belt_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Bookshelf's Info (Lance 5)",
+            "chest_unopened_img": "images/locations/bookshelf_info.png",
+            "chest_opened_img": "images/locations/bookshelf_info_bw.png",
+            "access_rules": [
+              "$fame,$post_game_fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Lorelei's Info (Lorelei 1)",
+            "chest_unopened_img": "images/locations/lorelei_info.png",
+            "chest_opened_img": "images/locations/lorelei_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Lorelei's Info (Lorelei 2)",
+            "chest_unopened_img": "images/locations/lorelei_info.png",
+            "chest_opened_img": "images/locations/lorelei_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Elite Four Lorelei Reward",
             "chest_unopened_img": "images/locations/lorelei.png",
             "chest_opened_img": "images/locations/lorelei_bw.png",
@@ -1331,6 +2207,28 @@
             ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Bruno's Info (Bruno 1)",
+            "chest_unopened_img": "images/locations/bruno_info.png",
+            "chest_opened_img": "images/locations/bruno_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Bruno's Info (Bruno 2)",
+            "chest_unopened_img": "images/locations/bruno_info.png",
+            "chest_opened_img": "images/locations/bruno_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -1345,6 +2243,39 @@
             ]
           },
           {
+            "name": "Agatha's Info (Agatha 1)",
+            "chest_unopened_img": "images/locations/agatha_info.png",
+            "chest_opened_img": "images/locations/agatha_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Agatha's Info (Agatha 5)",
+            "chest_unopened_img": "images/locations/agatha_info.png",
+            "chest_opened_img": "images/locations/agatha_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Agatha's Info (Oak 5)",
+            "chest_unopened_img": "images/locations/agatha_info.png",
+            "chest_opened_img": "images/locations/agatha_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "Elite Four Agatha Reward",
             "chest_unopened_img": "images/locations/agatha.png",
             "chest_opened_img": "images/locations/agatha_bw.png",
@@ -1353,6 +2284,28 @@
             ],
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Lance's Info (Lance 1)",
+            "chest_unopened_img": "images/locations/lance_info.png",
+            "chest_opened_img": "images/locations/lance_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
+            "name": "Lance's Info (Lance 2)",
+            "chest_unopened_img": "images/locations/lance_info.png",
+            "chest_opened_img": "images/locations/lance_info_bw.png",
+            "access_rules": [
+              "$has_e4_req,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -1383,6 +2336,84 @@
             "visibility_rules": [
               "trainersanity_on"
             ]
+          },
+          {
+            "name": "Oak's Gift (First)",
+            "chest_unopened_img": "images/locations/oak_mystic_ticket.png",
+            "chest_opened_img": "images/locations/oak_mystic_ticket_bw.png",
+            "access_rules": [
+              "$has_e4_req"
+            ]
+          },
+          {
+            "name": "Oak's Gift (Second)",
+            "chest_unopened_img": "images/locations/oak_aurora_ticket.png",
+            "chest_opened_img": "images/locations/oak_aurora_ticket_bw.png",
+            "access_rules": [
+              "$has_e4_req"
+            ]
+          },
+          {
+            "name": "Elite Four Lorelei Rematch Reward",
+            "chest_unopened_img": "images/locations/lorelei.png",
+            "chest_opened_img": "images/locations/lorelei_bw.png",
+            "access_rules": [
+              "defeat_champion,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Elite Four Bruno Rematch Reward",
+            "chest_unopened_img": "images/locations/bruno.png",
+            "chest_opened_img": "images/locations/bruno_bw.png",
+            "access_rules": [
+              "defeat_champion,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Elite Four Agatha Rematch Reward",
+            "chest_unopened_img": "images/locations/agatha.png",
+            "chest_opened_img": "images/locations/agatha_bw.png",
+            "access_rules": [
+              "defeat_champion,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Elite Four Lance Rematch Reward",
+            "chest_unopened_img": "images/locations/lance.png",
+            "chest_opened_img": "images/locations/lance_bw.png",
+            "access_rules": [
+              "defeat_champion,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
+          },
+          {
+            "name": "Defeat Champion Rematch (Event)",
+            "hosted_item": "defeat_champion_rematch_hosted",
+            "access_rules": [
+              "defeat_champion,restore_pokemon_network_machine"
+            ]
+          },
+          {
+            "name": "Champion Rematch Reward",
+            "chest_unopened_img": "images/locations/rival.png",
+            "chest_opened_img": "images/locations/rival_bw.png",
+            "access_rules": [
+              "defeat_champion,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "trainersanity_on"
+            ]
           }
         ],
         "map_locations": [
@@ -1395,6 +2426,11 @@
             "map": "kanto",
             "x": 28,
             "y": 44
+          },
+          {
+            "map": "indigo_plateau",
+            "x": 184,
+            "y": 104
           }
         ]
       }

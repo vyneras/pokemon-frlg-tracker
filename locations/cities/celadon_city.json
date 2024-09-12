@@ -3,7 +3,7 @@
     "name": "Celadon City",
     "children": [
       {
-        "name": "Visit",
+        "name": "Pokémon Center",
         "sections": [
           {
             "ref": "Cities/Celadon City/Unlock Fly Destination"
@@ -37,7 +37,16 @@
         "name": "Condominiums",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Tea Woman"
+            "ref": "Cities/Celadon City/Tea Woman's Gift",
+            "name": "Tea Woman's Gift"
+          },
+          {
+            "ref": "Cities/Celadon City/Tea Woman's Info (Daisy 5)",
+            "name": "Tea Woman's Info (Daisy 5)"
+          },
+          {
+            "ref": "Cities/Celadon City/Bookshelf's Info (Erika 6)",
+            "name": "Bookshelf's Info (Erika 6)"
           }
         ],
         "map_locations": [
@@ -52,20 +61,24 @@
         "name": "Department Store",
         "sections": [
           {
+            "ref": "Cities/Celadon City/Woman's Info (Lance 4)",
+            "name": "Woman's Info (Lance 4)"
+          },
+          {
             "ref": "Cities/Celadon City/Buy Lemonade (Event)",
             "name": "Buy Lemonade (Event)"
           },
           {
-            "ref": "Cities/Celadon City/Thirsty Girl (Fresh Water)",
-            "name": "Thirsty Girl (Fresh Water)"
+            "ref": "Cities/Celadon City/Thirsty Girl's Gift (Give Fresh Water)",
+            "name": "Thirsty Girl's Gift (Give Fresh Water)"
           },
           {
-            "ref": "Cities/Celadon City/Thirsty Girl (Soda Pop)",
-            "name": "Thirsty Girl (Soda Pop)"
+            "ref": "Cities/Celadon City/Thirsty Girl's Gift (Give Soda Pop)",
+            "name": "Thirsty Girl's Gift (Give Soda Pop)"
           },
           {
-            "ref": "Cities/Celadon City/Thirsty Girl (Lemonade)",
-            "name": "Thirsty Girl (Lemonade)"
+            "ref": "Cities/Celadon City/Thirsty Girl's Gift (Give Lemonade)",
+            "name": "Thirsty Girl's Gift (Give Lemonade)"
           }
         ],
         "map_locations": [
@@ -85,7 +98,7 @@
         "name": "Restaurant",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Coin Case Man"
+            "ref": "Cities/Celadon City/Coin Case Man's Gift"
           }
         ],
         "map_locations": [
@@ -131,6 +144,66 @@
         "name": "Celadon Game Corner",
         "sections": [
           {
+            "ref": "Cities/Celadon City/Fisherman's Gift",
+            "name": "Fisherman's Gift"
+          },
+          {
+            "ref": "Cities/Celadon City/Scientist's Gift",
+            "name": "Scientist's Gift"
+          },
+          {
+            "ref": "Cities/Celadon City/Gentleman's Gift",
+            "name": "Gentleman's Gift"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Southwest Hidden Item",
+            "name": "Southwest Hidden Item"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner South Hidden Item (Left)",
+            "name": "South Hidden Item (Left)"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner South Hidden Item (Right)",
+            "name": "South Hidden Item (Right)"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Southeast Hidden Item",
+            "name": "Southeast Hidden Item"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner West Hidden Item",
+            "name": "West Hidden Item"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Center Hidden Item",
+            "name": "Center Hidden Item"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner East Hidden Item (Left)",
+            "name": "East Hidden Item (Left)"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner East Hidden Item (Right)",
+            "name": "East Hidden Item (Right)"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Northwest Hidden Item",
+            "name": "Northwest Hidden Item"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner North Hidden Item (Left)",
+            "name": "North Hidden Item (Left)"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner North Hidden Item (Right)",
+            "name": "North Hidden Item (Right)"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Northeast Hidden Item",
+            "name": "Northeast Hidden Item"
+          },
+          {
             "ref": "Cities/Celadon City/Team Rocket Grunt Reward",
             "name": "Team Rocket Grunt Reward"
           }
@@ -140,6 +213,22 @@
             "map": "celadon_city",
             "x": 544,
             "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Gym Sign",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Gym Sign's Info (Erika 1)",
+            "name": "Info (Erika 1)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 264,
+            "y": 504
           }
         ]
       },
@@ -159,6 +248,10 @@
             "name": "Beauty Tamia Reward"
           },
           {
+            "ref": "Cities/Celadon City/Beauty Tamia's Info (Erika 4)",
+            "name": "Beauty Tamia's Info (Erika 4)"
+          },
+          {
             "ref": "Cities/Celadon City/Picnicker Tina Reward",
             "name": "Picnicker Tina Reward"
           },
@@ -175,6 +268,10 @@
             "name": "Lass Lisa Reward"
           },
           {
+            "ref": "Cities/Celadon City/Lass Lisa's Info (Erika 3)",
+            "name": "Lass Lisa's Info (Erika 3)"
+          },
+          {
             "ref": "Cities/Celadon City/Defeat Erika (Event)",
             "name": "Defeat Erika (Event)"
           },
@@ -183,12 +280,20 @@
             "name": "Leader Erika Reward"
           },
           {
+            "ref": "Cities/Celadon City/Erika's Info (Erika 2)",
+            "name": "Erika's Info (Erika 2)"
+          },
+          {
             "ref": "Cities/Celadon City/Celadon Gym Prize",
             "name": "Celadon Gym Prize"
           },
           {
-            "ref": "Cities/Celadon City/Erika TM",
-            "name": "Erika TM"
+            "ref": "Cities/Celadon City/Erika's TM",
+            "name": "Erika's TM"
+          },
+          {
+            "ref": "Cities/Celadon City/Erika's Info (Erika 5)",
+            "name": "Erika's Info (Erika 5)"
           }
         ],
         "map_locations": [

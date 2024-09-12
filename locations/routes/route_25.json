@@ -90,8 +90,8 @@
             "name": "Save Bill (Event)"
           },
           {
-            "ref": "Routes/Route 25/Bill",
-            "name": "Bill"
+            "ref": "Routes/Route 25/Bill's Gift",
+            "name": "Bill's Gift"
           }
         ],
         "map_locations": [
@@ -243,6 +243,22 @@
             "map": "route_25_west",
             "x": 296,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Beauty",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Beauty's Info (Misty 5)",
+            "name": "Info (Misty 5)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 216,
+            "y": 168
           }
         ]
       }

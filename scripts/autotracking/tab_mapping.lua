@@ -409,6 +409,15 @@ TAB_MAPPING = {
     [285] = { -- S.S. Anne 1F Room 6
         [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
     },
+    [292] = { -- Diglett's Cave North Entrance
+    	[0] = {"Dungeons", "Diglett's Cave"}
+    },
+    [293] = { -- Diglett's Cave B1F
+    	[0] = {"Dungeons", "Diglett's Cave"}
+    },
+    [294] = { -- Diglett's Cave South Entrance
+    	[0] = {"Dungeons", "Diglett's Cave"}
+    },
     [337] = { -- Rock Tunnel 1F
         [0] = {"Dungeons", "Rock Tunnel", "1F"}
     },

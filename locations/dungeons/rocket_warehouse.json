@@ -92,6 +92,10 @@
           {
             "ref": "Dungeons/Rocket Warehouse/Recover Stolen Gem",
             "name": "Recover Stolen Gem"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Scientist Gideon's Info (Giovanni 6)",
+            "name": "Info (Giovanni 6)"
           }
         ],
         "map_locations": [
@@ -121,6 +125,10 @@
       {
         "name": "East Room Team Rocket Admin",
         "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Free Captured Pokémon (Event)",
+            "name": "Free Captured Pokémon (Event)"
+          },
           {
             "ref": "Dungeons/Rocket Warehouse/East Room Team Rocket Admin Reward",
             "name": "Reward"

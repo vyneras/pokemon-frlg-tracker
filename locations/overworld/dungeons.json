@@ -113,7 +113,7 @@
       {
         "name": "Mt. Moon",
         "access_rules": [
-          "@Route 3 Access"
+          "@Route 3 Access,^$mt_moon"
         ],
         "sections": [
           {
@@ -206,6 +206,17 @@
           },
           {
             "name": "1F - East Item"
+          },
+          {
+            "name": "1F - Balding Man's Info (Brock 5)",
+            "chest_unopened_img": "images/locations/balding_man_info.png",
+            "chest_opened_img": "images/locations/balding_man_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "1F - Lass Miriam Reward",
@@ -369,7 +380,7 @@
       {
         "name": "Underground Path North-South Tunnel",
         "access_rules": [
-          "@Cerulean City Outskirts Access"
+          "@Cerulean City Outskirts Access,$tunnels"
         ],
         "sections": [
           {
@@ -694,7 +705,7 @@
             ]
           },
           {
-            "name": "Captain's Office - Captain",
+            "name": "Captain's Office - Captain's Gift",
             "chest_unopened_img": "images/locations/captain_normal_tm.png",
             "chest_opened_img": "images/locations/captain_normal_tm_bw.png"
           }
@@ -954,7 +965,7 @@
       {
         "name": "Pokémon Tower",
         "access_rules": [
-          "@Lavender Town Access"
+          "@Lavender Town Access,$tower"
         ],
         "sections": [
           {
@@ -1127,6 +1138,17 @@
             ]
           },
           {
+            "name": "7F - Team Rocket Grunt's Info (Mr. Fuji 2)",
+            "chest_unopened_img": "images/locations/little_girl_info.png",
+            "chest_opened_img": "images/locations/little_girl_info_bw.png",
+            "access_rules": [
+              "silph_scope,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "7F - North Team Rocket Grunt Reward",
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
@@ -1179,7 +1201,7 @@
       {
         "name": "Underground Path East-West Tunnel",
         "access_rules": [
-          "@Lavender Town Access"
+          "@Lavender Town Access,$tunnels"
         ],
         "sections": [
           {
@@ -1443,6 +1465,17 @@
             ]
           },
           {
+            "name": "B4F - Giovanni's Info (Giovanni 1)",
+            "chest_unopened_img": "images/locations/giovanni_info.png",
+            "chest_opened_img": "images/locations/giovanni_info_bw.png",
+            "access_rules": [
+              "lift_key,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "B4F - Boss Giovanni Reward",
             "chest_unopened_img": "images/locations/giovanni.png",
             "chest_opened_img": "images/locations/giovanni_bw.png",
@@ -1508,19 +1541,8 @@
           },
           {
             "map": "celadon_city",
-            "x": 552,
-            "y": 344,
-            "force_invisibility_rules": [
-              "trainersanity_on"
-            ]
-          },
-          {
-            "map": "celadon_city",
             "x": 560,
-            "y": 344,
-            "force_invisibility_rules": [
-              "trainersanity_off"
-            ]
+            "y": 344
           }
         ]
       },
@@ -1570,6 +1592,17 @@
             "name": "North - North Item"
           },
           {
+            "name": "North Rest House - Balding Man's Info (Koga 6)",
+            "chest_unopened_img": "images/locations/balding_man_info.png",
+            "chest_opened_img": "images/locations/balding_man_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
+          },
+          {
             "name": "West - Southeast Item"
           },
           {
@@ -1593,7 +1626,7 @@
             ]
           },
           {
-            "name": "Secret House - Attendant",
+            "name": "Secret House - Attendant's Gift",
             "chest_unopened_img": "images/locations/worker_male_water_tm.png",
             "chest_opened_img": "images/locations/worker_male_water_tm_bw.png"
           }
@@ -1624,6 +1657,18 @@
           "@Saffron City Access,rescue_mr_fuji"
         ],
         "sections": [
+          {
+            "name": "1F - Receptionist's Gift",
+            "chest_unopened_img": "images/locations/worker_female_card_key.png",
+            "chest_opened_img": "images/locations/worker_female_card_key_bw.png",
+            "access_rules": [
+              "liberate_silph_co"
+            ],
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
+            ]
+          },
           {
             "name": "2F - East Team Rocket Grunt Reward",
             "chest_unopened_img": "images/locations/rocket_male.png",
@@ -1676,6 +1721,15 @@
             ]
           },
           {
+            "name": "3F - Worker's Gift",
+            "chest_unopened_img": "images/locations/worker_male_card_key.png",
+            "chest_opened_img": "images/locations/worker_male_card_key_bw.png",
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
+            ]
+          },
+          {
             "name": "3F - Southeast Plant Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1691,7 +1745,9 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_3f",
+              "card_key_9f"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1700,7 +1756,9 @@
           {
             "name": "3F - West Room Item",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_3f",
+              "card_key_9f"
             ]
           },
           {
@@ -1744,19 +1802,35 @@
           {
             "name": "4F - West Room Item (Left)",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_4f"
             ]
           },
           {
             "name": "4F - West Room Item (Right)",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_4f"
             ]
           },
           {
             "name": "4F - West Room Item (Middle)",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_4f"
+            ]
+          },
+          {
+            "name": "4F - Worker's Gift",
+            "chest_unopened_img": "images/locations/worker_male_card_key.png",
+            "chest_opened_img": "images/locations/worker_male_card_key_bw.png",
+            "access_rules": [
+              "card_key",
+              "card_key_4f"
+            ],
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
             ]
           },
           {
@@ -1787,11 +1861,25 @@
             ]
           },
           {
+            "name": "5F - Worker's Gift",
+            "chest_unopened_img": "images/locations/worker_male_card_key.png",
+            "chest_opened_img": "images/locations/worker_male_card_key_bw.png",
+            "access_rules": [
+              "card_key",
+              "card_key_5f"
+            ],
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
+            ]
+          },
+          {
             "name": "5F - Center Room Southwest Plant Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "card_key,^$hidden"
+              "card_key,^$hidden",
+              "card_key_5f,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1819,7 +1907,20 @@
           {
             "name": "5F - Northwest Room Item",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_5f"
+            ]
+          },
+          {
+            "name": "5F - Scientist's Info (Giovanni 2)",
+            "chest_unopened_img": "images/locations/scientist_info.png",
+            "chest_opened_img": "images/locations/scientist_info_bw.png",
+            "access_rules": [
+              "card_key,$fame",
+              "card_key_5f,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -1831,6 +1932,15 @@
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "6F - Worker's Gift",
+            "chest_unopened_img": "images/locations/worker_male_card_key.png",
+            "chest_opened_img": "images/locations/worker_male_card_key_bw.png",
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
             ]
           },
           {
@@ -1863,13 +1973,15 @@
           {
             "name": "6F - Southwest Room Item (Top)",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_6f"
             ]
           },
           {
             "name": "6F - Southwest Room Item (Bottom)",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_6f"
             ]
           },
           {
@@ -1886,6 +1998,19 @@
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "visibility_rules": [
               "trainersanity_on"
+            ]
+          },
+          {
+            "name": "7F - Worker's Gift",
+            "chest_unopened_img": "images/locations/worker_female_card_key.png",
+            "chest_opened_img": "images/locations/worker_female_card_key_bw.png",
+            "access_rules": [
+              "card_key",
+              "card_key_7f"
+            ],
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
             ]
           },
           {
@@ -1910,7 +2035,8 @@
           {
             "name": "7F - East Room Item",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_7f"
             ]
           },
           {
@@ -1918,7 +2044,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "card_key,^$hidden"
+              "card_key,^$hidden",
+              "card_key_7f,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1929,7 +2056,8 @@
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_3f"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1960,6 +2088,15 @@
             ]
           },
           {
+            "name": "8F - Worker's Gift",
+            "chest_unopened_img": "images/locations/worker_male_card_key.png",
+            "chest_opened_img": "images/locations/worker_male_card_key_bw.png",
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
+            ]
+          },
+          {
             "name": "8F - East Room Item"
           },
           {
@@ -1971,6 +2108,17 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "8F - Scientist's Info (Giovanni 3)",
+            "chest_unopened_img": "images/locations/scientist_info.png",
+            "chest_opened_img": "images/locations/scientist_info_bw.png",
+            "access_rules": [
+              "$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
             ]
           },
           {
@@ -1994,10 +2142,24 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "card_key,^$hidden"
+              "card_key,^$hidden",
+              "card_key_9f,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
+            ]
+          },
+          {
+            "name": "9F - Nurse's Gift",
+            "chest_unopened_img": "images/locations/woman_2_card_key.png",
+            "chest_opened_img": "images/locations/woman_2_card_key_bw.png",
+            "access_rules": [
+              "card_key",
+              "card_key_9f"
+            ],
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
             ]
           },
           {
@@ -2005,7 +2167,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "card_key,^$hidden"
+              "card_key,^$hidden",
+              "card_key_9f,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2016,7 +2179,9 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_3f",
+              "card_key_9f"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2059,6 +2224,15 @@
             ]
           },
           {
+            "name": "10F - Worker's Gift",
+            "chest_unopened_img": "images/locations/worker_female_card_key.png",
+            "chest_opened_img": "images/locations/worker_female_card_key_bw.png",
+            "visibility_rules": [
+              "card_keys_split",
+              "card_keys_prog"
+            ]
+          },
+          {
             "name": "11F - East Team Rocket Grunt Reward",
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
@@ -2074,7 +2248,8 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_3f"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2085,7 +2260,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "card_key,^$hidden"
+              "card_key,^$hidden",
+              "card_key_3f,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2095,7 +2271,8 @@
             "name": "11F - Liberate Silph Co. (Event)",
             "hosted_item": "liberate_silph_co_hosted",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_3f,card_key_11f"
             ]
           },
           {
@@ -2103,18 +2280,20 @@
             "chest_unopened_img": "images/locations/giovanni.png",
             "chest_opened_img": "images/locations/giovanni_bw.png",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_3f,card_key_11f"
             ],
             "visibility_rules": [
               "trainersanity_on"
             ]
           },
           {
-            "name": "11F - President",
+            "name": "11F - President's Gift",
             "chest_unopened_img": "images/locations/old_man_master_ball.png",
             "chest_opened_img": "images/locations/old_man_master_ball_bw.png",
             "access_rules": [
-              "card_key"
+              "card_key",
+              "card_key_3f,card_key_11f"
             ]
           }
         ],
@@ -2362,13 +2541,17 @@
       },
       {
         "name": "Victory Road",
+        "access_rules": [
+          "^$victory_road"
+        ],
         "sections": [
           {
             "name": "1F - Cooltrainer Naomi Reward",
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2379,7 +2562,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength,^$hidden"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,^$hidden",
+              "@Indigo Plateau Access,$strength,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2388,13 +2572,15 @@
           {
             "name": "1F - North Item (Right)",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ]
           },
           {
             "name": "1F - North Item (Left)",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ]
           },
           {
@@ -2402,7 +2588,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength,^$hidden"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,^$hidden",
+              "@Indigo Plateau Access,$strength,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -2413,7 +2600,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2424,7 +2612,8 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2433,7 +2622,8 @@
           {
             "name": "2F - Item Below Plateau",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ]
           },
           {
@@ -2441,7 +2631,8 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2450,7 +2641,8 @@
           {
             "name": "2F - Item Above Plateau",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ]
           },
           {
@@ -2458,7 +2650,8 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2469,7 +2662,8 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2478,7 +2672,8 @@
           {
             "name": "2F - Northeast Item",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ]
           },
           {
@@ -2486,7 +2681,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2495,13 +2691,15 @@
           {
             "name": "3F - Northeast Item",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ]
           },
           {
             "name": "3F - Northwest Item",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ]
           },
           {
@@ -2509,7 +2707,8 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2518,7 +2717,8 @@
           {
             "name": "2F - Northwest Item",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ]
           },
           {
@@ -2526,7 +2726,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2537,7 +2738,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2548,7 +2750,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "access_rules": [
-              "@Victory Road Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
+              "@Indigo Plateau Access,$strength"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2671,6 +2874,13 @@
             "name": "Exterior - Northwest Item",
             "access_rules": [
               "$strength"
+            ]
+          },
+          {
+            "name": "Exterior - Learn Goldeen Need Log (Event)",
+            "hosted_item": "learn_goldeen_need_log_hosted",
+            "access_rules": [
+              "deliver_meteorite"
             ]
           },
           {
@@ -2882,7 +3092,7 @@
             "hosted_item": "rescue_lostelle_hosted"
           },
           {
-            "name": "Lostelle",
+            "name": "Lostelle's Gift",
             "chest_unopened_img": "images/locations/little_girl_iapapa_berry.png",
             "chest_opened_img": "images/locations/little_girl_iapapa_berry_bw.png"
           },
@@ -2981,7 +3191,7 @@
       {
         "name": "Rocket Warehouse",
         "access_rules": [
-          "@Five Island Access,learn_rocket_warehouse_password"
+          "@Five Island Access,learn_goldeen_need_log,learn_yes_nah_chansey"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -3043,6 +3253,10 @@
             ]
           },
           {
+            "name": "Free Captured Pokémon (Event)",
+            "hosted_item": "free_captured_pokemon_hosted"
+          },
+          {
             "name": "East Room Team Rocket Admin Reward",
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
@@ -3062,6 +3276,17 @@
             "name": "Recover Stolen Gem",
             "chest_unopened_img": "images/locations/scientist_sapphire.png",
             "chest_opened_img": "images/locations/scientist_sapphire_bw.png"
+          },
+          {
+            "name": "Scientist Gideon's Info (Giovanni 6)",
+            "chest_unopened_img": "images/locations/scientist_info.png",
+            "chest_opened_img": "images/locations/scientist_info_bw.png",
+            "access_rules": [
+              "restore_pokemon_network_machine,$fame"
+            ],
+            "visibility_rules": [
+              "famesanity_on"
+            ]
           },
           {
             "name": "Northeast Room Box Hidden Item",
@@ -3131,6 +3356,10 @@
           },
           {
             "name": "B1F Room 14 - Item"
+          },
+          {
+            "name": "B1F Room 10 - Rescue Selphy (Event)",
+            "hosted_item": "rescue_selphy_hosted"
           },
           {
             "name": "B1F Room 10 - Lady Selphy Reward",
@@ -3305,8 +3534,8 @@
         ],
         "sections": [
           {
-            "name": "Sapphire Room - Learn Rocket Warehouse Password (Event)",
-            "hosted_item": "learn_rocket_warehouse_password_hosted"
+            "name": "Sapphire Room - Learn Yes Nah Chansey (Event)",
+            "hosted_item": "learn_yes_nah_chansey_hosted"
           }
         ],
         "map_locations": [
@@ -3321,6 +3550,11 @@
             "x": 140,
             "y": 84,
             "size": 4
+          },
+          {
+            "map": "ruin_valley",
+            "x": 392,
+            "y": 392
           }
         ]
       },

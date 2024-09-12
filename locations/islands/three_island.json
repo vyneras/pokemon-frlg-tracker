@@ -3,7 +3,7 @@
     "name": "Three Island Town",
     "children": [
       {
-        "name": "Visit",
+        "name": "Pokémon Center",
         "sections": [
           {
             "ref": "Islands/Three Island Town/Unlock Fly Destination"
@@ -21,7 +21,7 @@
         "name": "Anti-Biker",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Anti-Biker",
+            "ref": "Islands/Three Island Town/Anti-Biker's Gift",
             "name": "Gift"
           }
         ],
@@ -30,6 +30,37 @@
             "map": "three_island",
             "x": 120,
             "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Woman",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Woman's Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Sabrina Fan's House",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Sabrina Fan's Info (Sabrina 2)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 72,
+            "y": 104
           }
         ]
       },

@@ -3,7 +3,7 @@
     "name": "Two Island Town",
     "children": [
       {
-        "name": "Visit",
+        "name": "Pokémon Center",
         "sections": [
           {
             "ref": "Islands/Two Island Town/Unlock Fly Destination"
@@ -34,6 +34,22 @@
         ]
       },
       {
+        "name": "Sailor",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Sailor's Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 424,
+            "y": 88
+          }
+        ]
+      },
+      {
         "name": "Market Stall",
         "sections": [
           {
@@ -49,6 +65,22 @@
         ]
       },
       {
+        "name": "Beauty",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Beauty's Info (Bruno 5)",
+            "name": "Info (Bruno 5)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
         "name": "Game Corner",
         "sections": [
           {
@@ -56,8 +88,8 @@
             "name": "Deliver Meteorite (Event)"
           },
           {
-            "ref": "Islands/Two Island Town/Lostelle's Dad",
-            "name": "Lostelle's Dad"
+            "ref": "Islands/Two Island Town/Lostelle's Dad's Gift",
+            "name": "Lostelle's Dad's Gift"
           }
         ],
         "map_locations": [

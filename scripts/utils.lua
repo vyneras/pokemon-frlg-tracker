@@ -59,8 +59,45 @@ function toggle_hosted_item(code)
 end
 
 function toggle_item_grid(code)
-    if has("extra_key_items_on") then
-        Tracker:AddLayouts("layouts/items_extra.json")
+    local extra_item_settings = {"extra_key_items_on", "card_keys_split", "card_keys_prog", "island_passes_split", "island_passes_split_prog"}
+    local extra_grid = false
+    local extra_key_items = has("extra_key_items_on")
+    local split_card_keys = has("card_keys_split") or has("card_keys_prog")
+    local split_passes = has("island_passes_split") or has("island_passes_split_prog")
+
+    for _, setting in pairs(extra_item_settings) do
+        if has(setting) then
+            extra_grid = true
+        end
+    end
+
+    if extra_grid then
+        Tracker:AddLayouts("layouts/item_grids_extra.json")
+    else
+        Tracker:AddLayouts("layouts/item_grids.json")
+    end
+
+    if extra_key_items and split_card_keys and split_passes then
+        Tracker:AddLayouts("layouts/items_no_ck_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_all.json")
+    elseif extra_key_items and split_card_keys then
+        Tracker:AddLayouts("layouts/items_no_ck_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_key_ck.json")
+    elseif extra_key_items and split_passes then
+        Tracker:AddLayouts("layouts/items_no_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_key_pass.json")
+    elseif split_card_keys and split_passes then
+        Tracker:AddLayouts("layouts/items_no_ck_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_ck_pass.json")
+    elseif split_card_keys then
+        Tracker:AddLayouts("layouts/items_no_ck.json")
+        Tracker:AddLayouts("layouts/extra_items_ck.json")
+    elseif split_passes then
+        Tracker:AddLayouts("layouts/items_no_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_pass.json")
+    elseif extra_key_items then
+        Tracker:AddLayouts("layouts/items.json")
+        Tracker:AddLayouts("layouts/extra_items_key.json")
     else
         Tracker:AddLayouts("layouts/items.json")
     end

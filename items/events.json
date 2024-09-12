@@ -9,6 +9,7 @@
     "name": "Defeat Route 22 Rival",
     "type": "toggle",
     "img": "images/events/rival.png",
+    "img_mods": "overlay|images/overlays/route_22.png",
     "codes": "defeat_route_22_rival"
   },
   {
@@ -78,10 +79,11 @@
     "codes": "defeat_giovanni"
   },
   {
-    "name": "Restore Pokémon Network Machine",
+    "name": "Defeat Champion",
     "type": "toggle",
-    "img": "images/events/celio.png",
-    "codes": "restore_pokemon_network_machine"
+    "img": "images/events/rival.png",
+    "img_mods": "overlay|images/overlays/e4.png",
+    "codes": "defeat_champion"
   },
   {
     "name": "Rescue Lostelle",
@@ -96,21 +98,46 @@
     "codes": "deliver_meteorite"
   },
   {
+    "name": "Learn Goldeen Need Log",
+    "type": "toggle",
+    "img": "images/events/rocket_male.png",
+    "codes": "learn_goldeen_need_log"
+  },
+  {
     "name": "Help Lorelei",
     "type": "toggle",
     "img": "images/events/lorelei.png",
     "codes": "help_lorelei"
   },
   {
-    "name": "Learn Rocket Warehouse Password",
+    "name": "Rescue Selphy",
     "type": "toggle",
-    "img": "images/events/gideon.png",
-    "codes": "learn_rocket_warehouse_password"
+    "img": "images/events/selphy.png",
+    "codes": "rescue_selphy"
   },
   {
-    "name": "Defeat Champion",
+    "name": "Learn Yes Nah Chansey",
+    "type": "toggle",
+    "img": "images/events/gideon.png",
+    "codes": "learn_yes_nah_chansey"
+  },
+  {
+    "name": "Free Captured Pokémon",
+    "type": "toggle",
+    "img": "images/events/lapras.png",
+    "codes": "free_captured_pokemon"
+  },
+  {
+    "name": "Restore Pokémon Network Machine",
+    "type": "toggle",
+    "img": "images/events/celio.png",
+    "codes": "restore_pokemon_network_machine"
+  },
+  {
+    "name": "Defeat Champion Rematch",
     "type": "toggle",
     "img": "images/events/rival.png",
-    "codes": "defeat_champion"
+    "img_mods": "overlay|images/overlays/e4_rematch.png",
+    "codes": "defeat_champion_rematch"
   }
 ]

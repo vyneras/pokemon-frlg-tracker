@@ -11,38 +11,8 @@
           "dock": "bottom",
           "content": [
             {
-              "type": "dock",
-              "dock": "top",
-              "v_alignment": "stretch",
-              "content": [
-                {
-                  "type": "group",
-                  "header": "Items",
-                  "dock": "left",
-                  "content": {
-                    "type": "layout",
-                    "key": "item_grid"
-                  }
-                },
-                {
-                  "type": "group",
-                  "header": "Fly Destinations",
-                  "dock": "left",
-                  "content": {
-                    "type": "layout",
-                    "key": "fly_destination_grid"
-                  }
-                },
-                {
-                  "type": "group",
-                  "header": "Events",
-                  "dock": "left",
-                  "content": {
-                    "type": "layout",
-                    "key": "event_grid"
-                  }
-                }
-              ]
+              "type": "layout",
+              "key": "main_grid"
             }
           ]
         },
@@ -65,17 +35,35 @@
       "content": [
         {
           "type": "group",
-          "header": "Settings",
-          "dock": "bottom",
+          "header": "Goal/Shuffles",
+          "dock": "top",
           "content": {
             "type": "layout",
-            "key": "setting_grid"
+            "key": "shuffle_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Logic",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "logic_grid"
+          }
+        },
+        {
+          "type": "group",
+          "header": "Additional Dark Caves",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "dark_cave_grid"
           }
         },
         {
           "type": "group",
           "header": "Requirements",
-          "dock": "bottom",
+          "dock": "top",
           "content": {
             "type": "layout",
             "key": "requirement_grid"
@@ -84,7 +72,7 @@
         {
           "type": "group",
           "header": "Badges Required",
-          "dock": "bottom",
+          "dock": "top",
           "content": {
             "type": "layout",
             "key": "badge_grid"
@@ -93,7 +81,7 @@
         {
           "type": "group",
           "header": "Free Fly Locations",
-          "dock": "bottom",
+          "dock": "top",
           "content": {
             "type": "layout",
             "key": "free_fly_grid"

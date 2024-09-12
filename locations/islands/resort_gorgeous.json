@@ -177,6 +177,26 @@
             "y": 56
           }
         ]
+      },
+      {
+        "name": "Resort Gorgeous House",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Selphy's Gift",
+            "name": "Selphy's Gift"
+          },
+          {
+            "ref": "Islands/Resort Gorgeous/Bookshelf's Info (Blaine 6)",
+            "name": "Bookshelf's Info (Blaine 6)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 40,
+            "y": 136
+          }
+        ]
       }
     ]
   }

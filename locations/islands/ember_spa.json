@@ -6,7 +6,7 @@
         "name": "Rock Smash Man",
         "sections": [
           {
-            "ref": "Islands/Ember Spa/Rock Smash Man",
+            "ref": "Islands/Ember Spa/Rock Smash Man's Gift",
             "name": "Gift"
           }
         ],
@@ -15,6 +15,22 @@
             "map": "ember_spa",
             "x": 168,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Black Belt",
+        "sections": [
+          {
+            "ref": "Islands/Ember Spa/Black Belt's Info (Bruno 4)",
+            "name": "Info (Bruno 4)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ember_spa",
+            "x": 104,
+            "y": 136
           }
         ]
       }

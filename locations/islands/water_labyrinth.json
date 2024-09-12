@@ -3,6 +3,22 @@
     "name": "Water Labyrinth",
     "children": [
       {
+        "name": "Gentleman",
+        "sections": [
+          {
+            "ref": "Islands/Water Labyrinth/Gentleman's Info (Daisy 3)",
+            "name": "Info (Daisy 3)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_labyrinth_west",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
         "name": "Pokémon Breeder Alize",
         "sections": [
           {

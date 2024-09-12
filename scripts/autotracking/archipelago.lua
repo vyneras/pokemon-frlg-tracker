@@ -5,6 +5,31 @@ ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 
 CUR_INDEX = -1
+PROG_CARD_KEY_COUNT = 0
+PROG_PASS_COUNT = 0
+
+PROG_CARD_KEY = {
+    [0] = "card_key_2f",
+    [1] = "card_key_3f",
+    [2] = "card_key_4f",
+    [3] = "card_key_5f",
+    [4] = "card_key_6f",
+    [5] = "card_key_7f",
+    [6] = "card_key_8f",
+    [7] = "card_key_9f",
+    [8] = "card_key_10f",
+    [9] = "card_key_11f"
+}
+
+PROG_PASS = {
+    [0] = "one_pass",
+    [1] = "two_pass",
+    [2] = "three_pass",
+    [3] = "four_pass",
+    [4] = "five_pass",
+    [5] = "six_pass",
+    [6] = "seven_pass"
+}
 
 EVENT_ID = ""
 FLY_UNLOCK_ID = ""
@@ -15,7 +40,9 @@ function resetItems()
         if value[1] then
             local object = Tracker:FindObjectForCode(value[1])
             if object then
-                object.Active = false
+                if value[2] == "toggle" then
+                    object.Active = false
+                end
             end
         end
     end
@@ -45,13 +72,36 @@ function resetBadgeRequirements()
     end
 end
 
+function resetWorldStateSettings()
+    for _, setting in pairs(MODIFY_WORLD_STATE) do
+        local object = Tracker:FindObjectForCode(setting)
+        if object then
+            object.CurrentStage = 0
+        end
+    end
+end
+
+function resetDarkCaves()
+    for _, setting in pairs(ADDITIONAL_DARK_CAVES) do
+        local object = Tracker:FindObjectForCode(setting)
+        if object then
+            object.CurrentStage = 0
+        end
+    end
+end
+
 function onClear(slot_data)
+    Tracker.BulkUpdate = true
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     CUR_INDEX = -1
+    PROG_CARD_KEY_COUNT = 0
+    PROG_PASS_COUNT = 0
     resetItems()
     resetLocations()
     resetBadgeRequirements()
+    resetWorldStateSettings()
+    resetDarkCaves()
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
@@ -61,6 +111,20 @@ function onClear(slot_data)
                 local object = Tracker:FindObjectForCode(BADGE_FOR_HM[hm])
                 if object then
                     object.Active = false
+                end
+            end
+        elseif key == "modify_world_state" then
+            for _, setting in pairs(slot_data["modify_world_state"]) do
+                local object = Tracker:FindObjectForCode(MODIFY_WORLD_STATE[setting])
+                if object then
+                    object.CurrentStage = 1
+                end
+            end
+        elseif key == "additional_dark_caves" then
+            for _, setting in pairs(slot_data["additional_dark_caves"]) do
+                local object = Tracker:FindObjectForCode(ADDITIONAL_DARK_CAVES[setting])
+                if object then
+                    object.CurrentStage = 1
                 end
             end
         elseif SLOT_CODES[key] then
@@ -92,6 +156,7 @@ function onClear(slot_data)
         Archipelago:SetNotify({ POKEDEX_ID })
         Archipelago:Get({ POKEDEX_ID })
     end
+    Tracker.BulkUpdate = false
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -109,13 +174,39 @@ function onItem(index, item_id, item_name, player_number)
         end
         return
     end
-    local object = Tracker:FindObjectForCode(value[1])
-    if object then
-        if value[2] == "toggle" then
-            object.Active = true
+    if value[1] == "prog_card_key" then
+        addProgressiveCardKey()
+    elseif value[1] == "prog_pass" then
+        addProgressivePass()
+    else
+        local object = Tracker:FindObjectForCode(value[1])
+        if object then
+            if value[2] == "toggle" then
+                object.Active = true
+            end
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onItem: could not find object for code %s", v[1]))
         end
-    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onItem: could not find object for code %s", v[1]))
+    end
+end
+
+function addProgressiveCardKey()
+    if PROG_CARD_KEY_COUNT <= 9 then
+        local object = Tracker:FindObjectForCode(PROG_CARD_KEY[PROG_CARD_KEY_COUNT])
+        if object then
+            object.Active = true
+            PROG_CARD_KEY_COUNT = PROG_CARD_KEY_COUNT + 1
+        end
+    end
+end
+
+function addProgressivePass()
+    if PROG_PASS_COUNT <= 6 then
+        local object = Tracker:FindObjectForCode(PROG_PASS[PROG_PASS_COUNT])
+        if object then
+            object.Active = true
+            PROG_PASS_COUNT = PROG_PASS_COUNT + 1
+        end
     end
 end
 

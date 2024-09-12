@@ -3,7 +3,7 @@
     "name": "Six Island Town",
     "children": [
       {
-        "name": "Visit",
+        "name": "Pokémon Center",
         "sections": [
           {
             "ref": "Islands/Six Island Town/Unlock Fly Destination"
@@ -13,6 +13,37 @@
           {
             "map": "six_island",
             "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Boy",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Boy's Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 168,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Old Woman's Info (Agatha 6)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 328,
             "y": 184
           }
         ]

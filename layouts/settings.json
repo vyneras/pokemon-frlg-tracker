@@ -1,5 +1,5 @@
 {
-  "setting_grid": {
+  "shuffle_grid": {
     "type": "array",
     "orientation": "vertical",
     "margin": "0,0",
@@ -11,16 +11,75 @@
         "item_size": "32,40",
         "rows": [
           [
+            "goal_setting",
             "kanto_only_setting",
             "hidden_setting",
             "extra_key_items_setting",
             "trainersanity_setting",
+            "famesanity_setting",
             "fly_destination_unlocks_setting",
+            "pokemon_request_setting",
+            "card_keys_setting",
+            "island_passes_setting"
+          ]
+        ]
+      }
+    ]
+  },
+  "logic_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "item_size": "32,40",
+        "rows": [
+          [
             "itemfinder_setting",
-            "flash_required",
+            "flash_setting",
+            "fame_checker_setting",
             "viridian_city_setting",
             "pewter_city_setting",
-            "cerulean_city_roadblocks"
+            "cerulean_roadblock_setting",
+            "modify_route_2_setting",
+            "block_tunnels_setting",
+            "modify_route_9_setting",
+            "modify_route_10_setting"
+          ],
+          [
+            "block_tower_setting",
+            "rotue_12_boulders_setting",
+            "modify_route_12_setting",
+            "modify_route_16_setting",
+            "route_23_trees_setting",
+            "modify_route_23_setting",
+            "victory_road_rocks_setting",
+            "early_gossipers_setting",
+            "",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  "dark_cave_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "item_size": "32,40",
+        "rows": [
+          [
+            "mt_moon_dark_setting",
+            "digletts_cave_dark_setting",
+            "victory_road_dark_setting"
           ]
         ]
       }

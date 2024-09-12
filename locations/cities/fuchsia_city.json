@@ -3,7 +3,7 @@
     "name": "Fuchsia City",
     "children": [
       {
-        "name": "Visit",
+        "name": "Pokémon Center",
         "sections": [
           {
             "ref": "Cities/Fuchsia City/Unlock Fly Destination"
@@ -18,10 +18,26 @@
         ]
       },
       {
+        "name": "Gym Sign",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Gym Sign's Info (Koga 1)",
+            "name": "Info (Koga 1)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 88,
+            "y": 520
+          }
+        ]
+      },
+      {
         "name": "Fishing Guru's Brother's House",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Fishing Guru's Brother"
+            "ref": "Cities/Fuchsia City/Fishing Guru's Brother's Gift"
           }
         ],
         "map_locations": [
@@ -33,10 +49,10 @@
         ]
       },
       {
-        "name": "Hidden Item Behind Fishing Guru's House",
+        "name": "Hidden Item Behind Fishing Guru's Gift's House",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Hidden Item Behind Fishing Guru's House",
+            "ref": "Cities/Fuchsia City/Hidden Item Behind Fishing Guru's Gift's House",
             "name": "Hidden Item"
           }
         ],
@@ -52,11 +68,16 @@
         "name": "Safari Zone Warden's House",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Safari Zone Warden"
+            "ref": "Cities/Fuchsia City/Safari Zone Warden's Gift",
+            "name": "Safari Zone Warden's Gift"
           },
           {
             "ref": "Cities/Fuchsia City/Safari Zone Warden's House Item",
             "name": "Item"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Bookshelf's Info (Koga 5)",
+            "name": "Bookshelf's Info (Koga 5)"
           }
         ],
         "map_locations": [
@@ -68,10 +89,26 @@
         ]
       },
       {
+        "name": "Koga's Daughter",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Koga's Daughter's Info (Koga 4)",
+            "name": "Info (Koga 4)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 648,
+            "y": 104
+          }
+        ]
+      },
+      {
         "name": "Safari Zone Office",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Safari Zone Worker"
+            "ref": "Cities/Fuchsia City/Safari Zone Worker's Gift"
           }
         ],
         "map_locations": [
@@ -79,6 +116,21 @@
             "map": "fuchsia_city",
             "x": 456,
             "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Bill's Grandpa's House",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Bill's Grandpa's Info (Bill 3)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 232,
+            "y": 504
           }
         ]
       },
@@ -96,6 +148,10 @@
           {
             "ref": "Cities/Fuchsia City/Juggler Kirk Reward",
             "name": "Juggler Kirk Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kirk's Info (Koga 3)",
+            "name": "Juggler Kirk's Info (Koga 3)"
           },
           {
             "ref": "Cities/Fuchsia City/Tamer Edgar Reward",
@@ -118,12 +174,16 @@
             "name": "Leader Koga Reward"
           },
           {
+            "ref": "Cities/Fuchsia City/Koga's Info (Koga 2)",
+            "name": "Koga's Info (Koga 2)"
+          },
+          {
             "ref": "Cities/Fuchsia City/Fuchsia Gym Prize",
             "name": "Fuchsia Gym Prize"
           },
           {
-            "ref": "Cities/Fuchsia City/Koga TM",
-            "name": "Koga TM"
+            "ref": "Cities/Fuchsia City/Koga's TM",
+            "name": "Koga's TM"
           }
         ],
         "map_locations": [

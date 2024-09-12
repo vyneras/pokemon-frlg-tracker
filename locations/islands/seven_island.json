@@ -3,10 +3,15 @@
     "name": "Seven Island Town",
     "children": [
       {
-        "name": "Visit",
+        "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/Unlock Fly Destination"
+            "ref": "Islands/Seven Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Bookshelf's Info (Agatha 4)",
+            "name": "Bookshelf's Info (Agatha 4)"
           }
         ],
         "map_locations": [
@@ -14,6 +19,22 @@
             "map": "seven_island",
             "x": 200,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Old Woman",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Old Woman's Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 152,
+            "y": 120
           }
         ]
       }

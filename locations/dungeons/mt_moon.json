@@ -99,6 +99,22 @@
         ]
       },
       {
+        "name": "Balding Man",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Balding Man's Info (Brock 5)",
+            "name": "Info (Brock 5)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 680,
+            "y": 120
+          }
+        ]
+      },
+      {
         "name": "Bug Catcher Kent",
         "sections": [
           {

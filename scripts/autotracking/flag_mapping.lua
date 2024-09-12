@@ -12,13 +12,17 @@ EVENT_FLAG_MAPPING = {
     [10] = { "save_bill" },
     [11] = { "rescue_mr_fuji" },
     [12] = { "liberate_silph_co" },
-    [13] = { "restore_pokemon_network_machine" },
+    [13] = { "defeat_champion" },
     [14] = { "rescue_lostelle" },
     [15] = { "deliver_meteorite" },
-    [16] = { "help_lorelei" },
-    [17] = { "learn_rocket_warehouse_password" },
-    [18] = { "defeat_champion" },
-    [19] = { "lemonade" }
+    [16] = { "learn_goldeen_need_log" },
+    [17] = { "help_lorelei" },
+    [18] = { "rescue_selphy" },
+    [19] = { "learn_yes_nah_chansey" },
+    [20] = { "free_captured_pokemon" },
+    [21] = { "restore_pokemon_network_machine" },
+    [22] = { "defeat_champion_rematch" },
+    [23] = { "lemonade" }
 }
 
 FLY_UNLOCK_FLAG_MAPPING = {

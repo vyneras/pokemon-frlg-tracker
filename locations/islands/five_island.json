@@ -3,10 +3,15 @@
     "name": "Five Island Town",
     "children": [
       {
-        "name": "Visit",
+        "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Islands/Five Island Town/Unlock Fly Destination"
+            "ref": "Islands/Five Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "ref": "Islands/Five Island Town/Bookshelf's Info (Lorelei 4)",
+            "name": "Bookshelf's Info (Lorelei 4)"
           }
         ],
         "map_locations": [
@@ -14,6 +19,22 @@
             "map": "five_island",
             "x": 296,
             "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Fisherman",
+        "sections": [
+          {
+            "ref": "Islands/Five Island Town/Fisherman's Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 136,
+            "y": 88
           }
         ]
       }

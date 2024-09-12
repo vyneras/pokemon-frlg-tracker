@@ -26,8 +26,8 @@
             "name": "Unlock Fly Destination"
           },
           {
-            "ref": "Cities/Vermilion City/Vs. Seeker Woman",
-            "name": "Vs. Seeker Woman"
+            "ref": "Cities/Vermilion City/Vs. Seeker Woman's Gift",
+            "name": "Vs. Seeker Woman's Gift"
           }
         ],
         "map_locations": [
@@ -39,10 +39,10 @@
         ]
       },
       {
-        "name": "Fishing Guru's House",
+        "name": "Fishing Guru's Gift's House",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/Fishing Guru"
+            "ref": "Cities/Vermilion City/Fishing Guru's Gift"
           }
         ],
         "map_locations": [
@@ -57,8 +57,12 @@
         "name": "Pokémon Fan Club",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/Pokémon Fan Club Chairman",
-            "name": "Chairman"
+            "ref": "Cities/Vermilion City/Pokémon Fan Club Chairman's Gift",
+            "name": "Chairman's Gift"
+          },
+          {
+            "ref": "Cities/Vermilion City/Pokémon Fan Club Worker's Info (Daisy 2)",
+            "name": "Worker's Info"
           }
         ],
         "map_locations": [
@@ -97,8 +101,8 @@
             "name": "Vermilion Gym Prize"
           },
           {
-            "ref": "Cities/Vermilion City/Lt. Surge TM",
-            "name": "Lt. Surge TM"
+            "ref": "Cities/Vermilion City/Lt. Surge's TM",
+            "name": "Lt. Surge's TM"
           }
         ],
         "map_locations": [
