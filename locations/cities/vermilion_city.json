@@ -19,6 +19,22 @@
         ]
       },
       {
+        "name": "Gym Sign",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Gym Sign's Info (Lt. Surge 1)",
+            "name": "Info (Lt. Surge 1)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 168,
+            "y": 392
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {

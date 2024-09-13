@@ -22,6 +22,11 @@ PROG_CARD_KEY = {
 }
 
 PROG_PASS = {
+    [0] = "tri_pass",
+    [1] = "rainbow_pass"
+}
+
+PROG_PASS_SPLIT = {
     [0] = "one_pass",
     [1] = "two_pass",
     [2] = "three_pass",
@@ -201,11 +206,21 @@ function addProgressiveCardKey()
 end
 
 function addProgressivePass()
-    if PROG_PASS_COUNT <= 6 then
-        local object = Tracker:FindObjectForCode(PROG_PASS[PROG_PASS_COUNT])
-        if object then
-            object.Active = true
-            PROG_PASS_COUNT = PROG_PASS_COUNT + 1
+    if has("island_passes_vanilla") or has("island_passes_prog") then
+        if PROG_PASS_COUNT <= 1 then
+            local object = Tracker:FindObjectForCode(PROG_PASS[PROG_PASS_COUNT])
+            if object then
+                object.Active = true
+                PROG_PASS_COUNT = PROG_PASS_COUNT + 1
+            end
+        end
+    else
+        if PROG_PASS_COUNT <= 6 then
+            local object = Tracker:FindObjectForCode(PROG_PASS_SPLIT[PROG_PASS_COUNT])
+            if object then
+                object.Active = true
+                PROG_PASS_COUNT = PROG_PASS_COUNT + 1
+            end
         end
     end
 end
