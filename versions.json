@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "1.5.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.5.0.zip",
+      "sha256": "4e3b54111175583b140174571de5fd1d5164a8cddbe2c99fa545dc0f713482b6",
+      "changelog": [
+        "Added new settings and events introduced in Apworld 0.7.0",
+        "Added new section in the item grid for extra key items & progressive items",
+        "Added new locations to the map introduced in Apworld 0.7.0",
+        "Added vertical and items only variants"
+      ]
+    },
+    {
       "package_version": "1.4.1",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.4.1.zip",
       "sha256": "a5377063eae53ba30ffed899e90249f76974f347a2ecaf72d8151fff3bd4f872",
