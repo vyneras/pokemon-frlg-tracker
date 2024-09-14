@@ -1077,8 +1077,7 @@
       {
         "name": "Route 12 South",
         "access_rules": [
-          "@Fuchsia City Access,$surf",
-          "@Fuchsia City Access,$route_12"
+          "@Route 12 South Access"
         ],
         "sections": [
           {
