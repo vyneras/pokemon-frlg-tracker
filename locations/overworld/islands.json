@@ -1484,6 +1484,9 @@
             "name": "Heracross Woman's Gift",
             "chest_unopened_img": "images/locations/beauty_nest_ball.png",
             "chest_opened_img": "images/locations/beauty_nest_ball_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "pokemon_request_on"
             ]
