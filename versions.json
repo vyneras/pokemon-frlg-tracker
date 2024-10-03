@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "1.5.1",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.5.1.zip",
+      "sha256": "92d9d12ccef6ab1a3d0e9b0e958ab7c2584ac0d6a4ae617071e0944c8330de5b",
+      "changelog": [
+        "Fixed logic for Route 12 South access",
+        "Fixed issue where the extra key item options label said Trainersanity",
+        "Added the Vermilion City famesanity checks to the city map",
+        "Fixed logic for the Heracross Woman's Gift"
+      ]
+    },
+    {
       "package_version": "1.5.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.5.0.zip",
       "sha256": "4e3b54111175583b140174571de5fd1d5164a8cddbe2c99fa545dc0f713482b6",
