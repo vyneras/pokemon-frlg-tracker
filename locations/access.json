@@ -93,7 +93,7 @@
   {
     "name": "Route 12 South Access",
     "access_rules": [
-      "@Vermilion City Access,poke_flute",
+      "@Vermilion City Access,poke_flute,$route_12",
       "@Lavender Town Access,poke_flute",
       "@Lavender Town Access,$surf,modify_route_12_off",
       "@Fuchsia City Access,$surf",
@@ -166,7 +166,7 @@
     "name": "One Island Access",
     "access_rules": [
       "$fly|one_island",
-      "defeat_blaine",
+      "defeat_blaine,kanto_only_off",
       "@Vermilion City Access,tri_pass",
       "@Vermilion City Access,one_pass"
     ]
