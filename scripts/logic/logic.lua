@@ -160,7 +160,7 @@ function tower()
 end
 
 function route_12()
-    return has("rotue_12_boulders_off") or strength()
+    return has("route_12_boulders_off") or strength()
 end
 
 function route_16()
