@@ -1553,7 +1553,7 @@
             "chest_opened_img": "images/locations/woman_flying_tm_bw.png",
             "access_rules": [
               "@Celadon City Access,$cut",
-              "@Celadon City Access,$rock_smash,modify_route_16_on,poke_flute",
+              "@Celadon City Access,poke_flute,$rock_smash,modify_route_16_on",
               "@Fuchsia City Access,bicycle,$rock_smash,modify_route_16_on"
             ]
           },
