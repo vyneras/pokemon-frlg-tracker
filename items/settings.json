@@ -537,14 +537,14 @@
       {
         "img": "images/settings/boulder.png",
         "img_mods": "overlay|/images/overlays/route_12.png,@disabled",
-        "codes": "rotue_12_boulders_setting,rotue_12_boulders_off",
+        "codes": "route_12_boulders_setting,route_12_boulders_off",
         "inherit_codes": false,
         "name": "Route 12 Boulders - Off"
       },
       {
         "img": "images/settings/boulder.png",
         "img_mods": "overlay|/images/overlays/route_12.png",
-        "codes": "rotue_12_boulders_setting,rotue_12_boulders_on",
+        "codes": "route_12_boulders_setting,route_12_boulders_on",
         "inherit_codes": false,
         "name": "Route 12 Boulders - On"
       }
