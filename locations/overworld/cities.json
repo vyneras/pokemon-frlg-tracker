@@ -1071,34 +1071,22 @@
           },
           {
             "name": "Buy Lemonade (Event)",
-            "hosted_item": "lemonade_hosted",
-            "access_rules": [
-              "^$grind_money"
-            ]
+            "hosted_item": "lemonade_hosted"
           },
           {
             "name": "Thirsty Girl's Gift (Give Fresh Water)",
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
-            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png",
-            "access_rules": [
-              "^$grind_money"
-            ]
+            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
           },
           {
             "name": "Thirsty Girl's Gift (Give Soda Pop)",
             "chest_unopened_img": "images/locations/little_girl_normal_tm.png",
-            "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png",
-            "access_rules": [
-              "^$grind_money"
-            ]
+            "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png"
           },
           {
             "name": "Thirsty Girl's Gift (Give Lemonade)",
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
-            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png",
-            "access_rules": [
-              "^$grind_money"
-            ]
+            "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png"
           },
           {
             "name": "Coin Case Man's Gift",

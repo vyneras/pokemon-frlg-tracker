@@ -48,13 +48,6 @@ function post_game_fame()
     return has("defeat_champion") or has("early_gossipers_on")
 end
 
-function grind_money()
-    if has("vs_seeker") or (has("defeat_chmapion") and has("restore_pokemon_network_machine")) then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.SequenceBreak
-end
-
 function route_2_oaks_aide()
     return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_2_oaks_aide_count")
 end
