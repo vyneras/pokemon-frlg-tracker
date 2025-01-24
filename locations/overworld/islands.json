@@ -1730,6 +1730,22 @@
             ]
           },
           {
+            "name": "Scientist's Gift (First)",
+            "chest_unopened_img": "images/locations/scientist_deep_sea_scale.png",
+            "chest_opened_img": "images/locations/scientist_deep_sea_scale_bw.png",
+            "access_rules": [
+              "scanner"
+            ]
+          },
+          {
+            "name": "Scientist's Gift (Second)",
+            "chest_unopened_img": "images/locations/scientist_deep_sea_tooth.png",
+            "chest_opened_img": "images/locations/scientist_deep_sea_tooth_bw.png",
+            "access_rules": [
+              "scanner"
+            ]
+          },
+          {
             "name": "Bookshelf's Info (Agatha 4)",
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
@@ -1957,6 +1973,12 @@
           "kanto_only_off"
         ],
         "sections": [
+          {
+            "name": "Island Item",
+            "access_rules": [
+              "unlock_ruins"
+            ]
+          },
           {
             "name": "Viapois Chamber Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",

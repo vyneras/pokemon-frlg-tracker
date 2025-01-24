@@ -3,6 +3,22 @@
     "name": "Tanoby Ruins",
     "children": [
       {
+        "name": "Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
         "name": "Viapois Chamber Island Hidden Item",
         "sections": [
           {

@@ -3557,6 +3557,38 @@
         ]
       },
       {
+        "name": "Tanoby Key",
+        "access_rules": [
+          "@Seven Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
+        "sections": [
+          {
+            "name": "Unlock Ruins (Event)",
+            "hosted_item": "unlock_ruins_hosted",
+            "access_rules": [
+              "$strength"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 252,
+            "y": 236,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 60,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
         "name": "Cerulean Cave",
         "access_rules": [
           "@Cerulean City Access,$surf,$has_cerulean_cave_req"

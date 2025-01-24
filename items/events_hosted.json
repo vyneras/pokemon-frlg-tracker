@@ -167,7 +167,15 @@
     "disabled_img_mods": "none",
     "codes": "free_captured_pokemon_hosted"
   },
-    {
+  {
+    "name": "Unlock Ruins",
+    "type": "toggle",
+    "img": "images/events/unown.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "unlock_ruins_hosted"
+  },
+  {
     "name": "Restore Pokémon Network Machine",
     "type": "toggle",
     "img": "images/locations/celio.png",
