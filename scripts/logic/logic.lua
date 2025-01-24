@@ -263,6 +263,23 @@ function has_e4_req()
     return count >= req
 end
 
+function has_e4_rematch_req()
+    local req = Tracker:ProviderCountForCode("elite_four_rematch_count")
+    local req_items = {}
+    local count = 0
+    if has("elite_four_rematch_badges") then
+        req_items = BADGES
+    elseif has("elite_four_rematch_gyms") then
+        req_items = GYMS
+    end
+    for _, item in pairs(req_items) do
+        if has(item) then
+            count = count + 1
+        end
+    end
+    return count >= req
+end
+
 function has_cerulean_cave_req()
     local req = Tracker:ProviderCountForCode("cerulean_cave_count")
     local req_items = {}

@@ -2399,7 +2399,7 @@
             "chest_unopened_img": "images/locations/lorelei.png",
             "chest_opened_img": "images/locations/lorelei_bw.png",
             "access_rules": [
-              "defeat_champion,restore_pokemon_network_machine"
+              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2410,7 +2410,7 @@
             "chest_unopened_img": "images/locations/bruno.png",
             "chest_opened_img": "images/locations/bruno_bw.png",
             "access_rules": [
-              "defeat_champion,restore_pokemon_network_machine"
+              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2421,7 +2421,7 @@
             "chest_unopened_img": "images/locations/agatha.png",
             "chest_opened_img": "images/locations/agatha_bw.png",
             "access_rules": [
-              "defeat_champion,restore_pokemon_network_machine"
+              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2432,7 +2432,7 @@
             "chest_unopened_img": "images/locations/lance.png",
             "chest_opened_img": "images/locations/lance_bw.png",
             "access_rules": [
-              "defeat_champion,restore_pokemon_network_machine"
+              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -2442,7 +2442,7 @@
             "name": "Defeat Champion Rematch (Event)",
             "hosted_item": "defeat_champion_rematch_hosted",
             "access_rules": [
-              "defeat_champion,restore_pokemon_network_machine"
+              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ]
           },
           {
@@ -2450,7 +2450,7 @@
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
             "access_rules": [
-              "defeat_champion,restore_pokemon_network_machine"
+              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "trainersanity_on"

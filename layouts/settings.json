@@ -20,19 +20,8 @@
             "fly_destination_unlocks_setting",
             "pokemon_request_setting",
             "card_keys_setting",
-            "island_passes_setting"
-          ],
-          [
-            "teas_setting",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "island_passes_setting",
+            "teas_setting"
           ]
         ]
       }
@@ -59,10 +48,10 @@
             "modify_route_2_setting",
             "block_tunnels_setting",
             "modify_route_9_setting",
-            "modify_route_10_setting"
+            "modify_route_10_setting",
+            "block_tower_setting"
           ],
           [
-            "block_tower_setting",
             "route_12_boulders_setting",
             "modify_route_12_setting",
             "modify_route_16_setting",
@@ -71,6 +60,8 @@
             "victory_road_rocks_setting",
             "early_gossipers_setting",
             "block_sailing_setting",
+            "",
+            "",
             ""
           ]
         ]
@@ -110,6 +101,7 @@
         "rows": [
           [
             "elite_four_setting",
+            "elite_four_rematch_setting",
             "route_22_gate_setting",
             "route_23_guard_setting",
             "viridian_gym_setting",
@@ -122,6 +114,7 @@
           ],
           [
             "elite_four_count",
+            "elite_four_rematch_count",
             "route_22_gate_count",
             "route_23_guard_count",
             "viridian_gym_count",

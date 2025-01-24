@@ -83,6 +83,14 @@ SLOT_CODES = {
             [3] = 3  -- Island Passes Split/Progressive
         }
     },
+    split_teas = {
+        code = "teas_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Teas Vanilla
+            [1] = 1  -- Teas Split
+        }
+    },
     itemfinder_required = {
         code = "itemfinder_setting",
         type = "progressive",
@@ -139,6 +147,18 @@ SLOT_CODES = {
     },
     elite_four_count = {
         code = "elite_four_count",
+        type = "consumable"
+    },
+    elite_four_rematch_requirement = {
+        code = "elite_four_rematch_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Badges
+            [1] = 1  -- Gyms
+        }
+    },
+    elite_four_rematch_count = {
+        code = "elite_four_rematch_count",
         type = "consumable"
     },
     route22_gate_requirement = {
@@ -288,7 +308,8 @@ MODIFY_WORLD_STATE = {
     ["Modify Route 23"] = "modify_route_23_setting",
     ["Victory Road Rocks"] = "victory_road_rocks_setting",
     ["Early Gossipers"] = "early_gossipers_setting",
-    ["Total Darkness"] = ""
+    ["Total Darkness"] = "",
+    ["Block Vermilion Sailing"] = "block_sailing_setting"
 }
 
 ADDITIONAL_DARK_CAVES = {

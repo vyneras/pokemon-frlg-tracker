@@ -823,6 +823,38 @@
     "codes": "elite_four_count"
   },
   {
+    "name": "Elite Four Rematch Requirement",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/rival.png",
+        "img_mods": "overlay|/images/overlays/e4_rematch_rainbow_badge.png",
+        "codes": "elite_four_rematch_setting,elite_four_rematch_badges",
+        "inherit_codes": false,
+        "name": "Elite Four Rematch Requirement - Badges"
+      },
+      {
+        "img": "images/settings/rival.png",
+        "img_mods": "overlay|/images/overlays/e4_rematch_gym.png",
+        "codes": "elite_four_rematch_setting,elite_four_rematch_gyms",
+        "inherit_codes": false,
+        "name": "Elite Four Rematch Requirement - Gyms"
+      }
+    ]
+  },
+  {
+    "name": "Elite Four Rematch Count",
+    "type": "consumable",
+    "img": "images/settings/badge_gym.png",
+    "max_quantity": 8,
+    "initial_quantity": 8,
+    "overlay_font_size": 16,
+    "overlay_background": "#000000",
+    "codes": "elite_four_rematch_count"
+  },
+  {
     "name": "Route 22 Gate Requirement",
     "type": "progressive",
     "allow_disabled": false,
