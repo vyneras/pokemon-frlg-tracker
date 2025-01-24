@@ -76,10 +76,8 @@
       "$fly|lavender",
       "@Route 10 North Access,^$rock_tunnel",
       "@Route 10 North Access,$route_10",
-      "@Vermilion City Access,poke_flute,$route_12",
       "@Celadon City Access,$tunnels",
-      "@Route 12 South Access,poke_flute",
-      "@Route 12 South Access,$surf,modify_route_12_off",
+      "@Route 12 North Access,$route_12",
       "@Saffron City Access,tea",
       "@Saffron City Access,purple_tea"
     ]
@@ -95,11 +93,18 @@
     ]
   },
   {
+    "name": "Route 12 North Access",
+    "access_rules": [
+      "@Vermilion City Access,poke_flute,$route_12",
+      "@Lavender Town Access,$route_12"
+    ]
+  },
+  {
     "name": "Route 12 South Access",
     "access_rules": [
       "@Vermilion City Access,poke_flute,$route_12",
-      "@Lavender Town Access,poke_flute",
-      "@Lavender Town Access,$surf,modify_route_12_off",
+      "@Route 12 North Access,poke_flute",
+      "@Route 12 North Access,$surf,modify_route_12_off",
       "@Fuchsia City Access,$surf",
       "@Fuchsia City Access,$route_12"
     ]
