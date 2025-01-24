@@ -27,12 +27,12 @@
             "chest_opened_img": "images/locations/bill_meteorite_bw.png"
           },
           {
-            "name": "Celio's Gift (First Visit)",
+            "name": "Meet Celio",
             "chest_unopened_img": "images/locations/celio_tri_pass.png",
             "chest_opened_img": "images/locations/celio_tri_pass_bw.png"
           },
           {
-            "name": "Celio's Gift (Deliver Ruby)",
+            "name": "Celio Gift (Deliver Ruby)",
             "chest_unopened_img": "images/locations/celio_rainbow_pass.png",
             "chest_opened_img": "images/locations/celio_rainbow_pass_bw.png",
             "access_rules": [
@@ -47,7 +47,7 @@
             ]
           },
           {
-            "name": "Celio's Gift (Deliver Sapphire)",
+            "name": "Celio Gift (Deliver Sapphire)",
             "chest_unopened_img": "images/locations/celio_rainbow_pass.png",
             "chest_opened_img": "images/locations/celio_rainbow_pass_bw.png",
             "access_rules": [
@@ -59,7 +59,7 @@
             ]
           },
           {
-            "name": "Celio's Info (Bill 4)",
+            "name": "Celio Info 1",
             "chest_unopened_img": "images/locations/celio_info.png",
             "chest_opened_img": "images/locations/celio_info_bw.png",
             "access_rules": [
@@ -70,7 +70,7 @@
             ]
           },
           {
-            "name": "Celio's Info (Bill 5)",
+            "name": "Celio Info 2",
             "chest_unopened_img": "images/locations/celio_info.png",
             "chest_opened_img": "images/locations/celio_info_bw.png",
             "access_rules": [
@@ -81,7 +81,7 @@
             ]
           },
           {
-            "name": "Celio's Info (Bill 6)",
+            "name": "Celio Info 3",
             "chest_unopened_img": "images/locations/celio_info.png",
             "chest_opened_img": "images/locations/celio_info_bw.png",
             "access_rules": [
@@ -372,12 +372,12 @@
         ],
         "sections": [
           {
-            "name": "Rock Smash Man's Gift",
+            "name": "Rock Smash Man Gift",
             "chest_unopened_img": "images/locations/old_man_fighting_tm.png",
             "chest_opened_img": "images/locations/old_man_fighting_tm_bw.png"
           },
           {
-            "name": "Black Belt's Info (Bruno 4)",
+            "name": "Black Belt Info",
             "chest_unopened_img": "images/locations/black_belt_info.png",
             "chest_opened_img": "images/locations/black_belt_info_bw.png",
             "access_rules": [
@@ -439,7 +439,7 @@
             ]
           },
           {
-            "name": "Beauty's Info (Bruno 5)",
+            "name": "Beauty Info",
             "chest_unopened_img": "images/locations/beauty_info.png",
             "chest_opened_img": "images/locations/beauty_info_bw.png",
             "access_rules": [
@@ -457,7 +457,7 @@
             ]
           },
           {
-            "name": "Lostelle's Dad's Gift",
+            "name": "Lostelle's Dad Gift",
             "chest_unopened_img": "images/locations/balding_man_moon_stone.png",
             "chest_opened_img": "images/locations/balding_man_moon_stone_bw.png",
             "access_rules": [
@@ -546,7 +546,7 @@
             ]
           },
           {
-            "name": "Prospector's Gift",
+            "name": "Prospector Gift",
             "chest_unopened_img": "images/locations/fat_man_nugget.png",
             "chest_opened_img": "images/locations/fat_man_nugget_bw.png"
           }
@@ -594,7 +594,7 @@
             ]
           },
           {
-            "name": "Lostelle's Gift",
+            "name": "Lostelle Gift",
             "chest_unopened_img": "images/locations/lostelle_tri_pass.png",
             "chest_opened_img": "images/locations/lostelle_tri_pass_bw.png",
             "access_rules": [
@@ -638,12 +638,12 @@
             ]
           },
           {
-            "name": "Anti-Biker's Gift",
+            "name": "Anti-Biker Gift",
             "chest_unopened_img": "images/locations/man_full_restore.png",
             "chest_opened_img": "images/locations/man_full_restore_bw.png"
           },
           {
-            "name": "Sabrina Fan's Info (Sabrina 2)",
+            "name": "Sabrina Fan Info",
             "chest_unopened_img": "images/locations/man_info.png",
             "chest_opened_img": "images/locations/man_info_bw.png",
             "access_rules": [
@@ -839,7 +839,7 @@
             ]
           },
           {
-            "name": "Bookshelf's Info (Daisy 6)",
+            "name": "Bookshelf Info",
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
@@ -850,7 +850,7 @@
             ]
           },
           {
-            "name": "Old Man's Info (Lorelei 3)",
+            "name": "Old Man Info",
             "chest_unopened_img": "images/locations/old_man_info.png",
             "chest_opened_img": "images/locations/old_man_info_bw.png",
             "access_rules": [
@@ -861,7 +861,7 @@
             ]
           },
           {
-            "name": "Old Woman's Info (Lorelei 6)",
+            "name": "Old Woman Info",
             "chest_unopened_img": "images/locations/old_woman_info.png",
             "chest_opened_img": "images/locations/old_woman_info_bw.png",
             "access_rules": [
@@ -872,7 +872,7 @@
             ]
           },
           {
-            "name": "Little Girl's Info (Lorelei 5)",
+            "name": "Little Girl Info",
             "chest_unopened_img": "images/locations/little_girl_info.png",
             "chest_opened_img": "images/locations/little_girl_info_bw.png",
             "access_rules": [
@@ -920,7 +920,7 @@
             ]
           },
           {
-            "name": "Bookshelf's Info (Lorelei 4)",
+            "name": "Bookshelf Info",
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
@@ -1072,7 +1072,7 @@
             ]
           },
           {
-            "name": "Memorial Man's Gift",
+            "name": "Memorial Man Gift",
             "chest_unopened_img": "images/locations/man_normal_tm.png",
             "chest_opened_img": "images/locations/man_normal_tm_bw.png",
             "access_rules": [
@@ -1120,7 +1120,7 @@
         ],
         "sections": [
           {
-            "name": "Gentleman's Info (Daisy 3)",
+            "name": "Gentleman Info",
             "chest_unopened_img": "images/locations/gentleman_info.png",
             "chest_opened_img": "images/locations/gentleman_info_bw.png",
             "access_rules": [
@@ -1248,7 +1248,7 @@
             ]
           },
           {
-            "name": "Selphy's Gift",
+            "name": "Selphy Gift (Show Pokemon)",
             "chest_unopened_img": "images/locations/woman_2_luxury_ball.png",
             "chest_opened_img": "images/locations/woman_2_luxury_ball_bw.png",
             "access_rules": [
@@ -1259,7 +1259,7 @@
             ]
           },
           {
-            "name": "Bookshelf's Info (Blaine 6)",
+            "name": "Bookshelf Info",
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
@@ -1319,7 +1319,7 @@
             ]
           },
           {
-            "name": "Old Woman's Info (Agatha 6)",
+            "name": "Old Woman Info",
             "chest_unopened_img": "images/locations/old_woman_info.png",
             "chest_opened_img": "images/locations/old_woman_info_bw.png",
             "access_rules": [
@@ -1469,7 +1469,7 @@
             ]
           },
           {
-            "name": "Heracross Woman's Gift",
+            "name": "Woman Gift (Show Heracross)",
             "chest_unopened_img": "images/locations/beauty_nest_ball.png",
             "chest_opened_img": "images/locations/beauty_nest_ball_bw.png",
             "access_rules": [
@@ -1730,7 +1730,7 @@
             ]
           },
           {
-            "name": "Scientist's Gift (First)",
+            "name": "Scientist Gift 1 (Trade Scanner)",
             "chest_unopened_img": "images/locations/scientist_deep_sea_scale.png",
             "chest_opened_img": "images/locations/scientist_deep_sea_scale_bw.png",
             "access_rules": [
@@ -1738,7 +1738,7 @@
             ]
           },
           {
-            "name": "Scientist's Gift (Second)",
+            "name": "Scientist Gift 2 (Trade Scanner)",
             "chest_unopened_img": "images/locations/scientist_deep_sea_tooth.png",
             "chest_opened_img": "images/locations/scientist_deep_sea_tooth_bw.png",
             "access_rules": [
@@ -1746,7 +1746,7 @@
             ]
           },
           {
-            "name": "Bookshelf's Info (Agatha 4)",
+            "name": "Bookshelf Info",
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
@@ -1878,7 +1878,7 @@
             "name": "Tall Grass Item"
           },
           {
-            "name": "Black Belt's Info (Bruno 6)",
+            "name": "Black Belt Info",
             "chest_unopened_img": "images/locations/black_belt_info.png",
             "chest_opened_img": "images/locations/black_belt_info_bw.png",
             "access_rules": [

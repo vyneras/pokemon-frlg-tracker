@@ -8,7 +8,7 @@
         "name": "Route 1",
         "sections": [
           {
-            "name": "Poké Mart Employee's Gift",
+            "name": "Free Sample",
             "chest_unopened_img": "images/locations/clerk_potion.png",
             "chest_opened_img": "images/locations/clerk_potion_bw.png"
           }
@@ -41,7 +41,7 @@
             "name": "South Item"
           },
           {
-            "name": "Oak's Aide's Gift",
+            "name": "Oak's Aide Gift (Pokedex Progress)",
             "chest_unopened_img": "images/locations/scientist_normal_tm.png",
             "chest_opened_img": "images/locations/scientist_normal_tm_bw.png",
             "access_rules": [
@@ -177,7 +177,7 @@
             ]
           },
           {
-            "name": "Boy's Info (Brock 4)",
+            "name": "Boy Info",
             "chest_unopened_img": "images/locations/boy_info.png",
             "chest_opened_img": "images/locations/boy_info_bw.png",
             "access_rules": [
@@ -696,7 +696,7 @@
             ]
           },
           {
-            "name": "Oak's Aide's Gift",
+            "name": "Oak's Aide Gift (Pokedex Progress)",
             "chest_unopened_img": "images/locations/scientist_everstone.png",
             "chest_opened_img": "images/locations/scientist_everstone_bw.png",
             "access_rules": [
@@ -955,7 +955,7 @@
             "name": "Item Behind Trees"
           },
           {
-            "name": "Oak's Aide's Gift",
+            "name": "Oak's Aide Gift (Pokedex Progress)",
             "chest_unopened_img": "images/locations/scientist_itemfinder.png",
             "chest_opened_img": "images/locations/scientist_itemfinder_bw.png",
             "access_rules": [
@@ -986,7 +986,7 @@
         ],
         "sections": [
           {
-            "name": "Mourning Lass' Gift",
+            "name": "Mourning Lass Gift",
             "chest_unopened_img": "images/locations/lass_normal_tm.png",
             "chest_opened_img": "images/locations/lass_normal_tm_bw.png"
           },
@@ -1081,12 +1081,12 @@
         ],
         "sections": [
           {
-            "name": "Fishing Guru's Brother's Gift",
+            "name": "Fishing Guru Gift",
             "chest_unopened_img": "images/locations/fisherman_super_rod.png",
             "chest_opened_img": "images/locations/fisherman_super_rod_bw.png"
           },
           {
-            "name": "Fishing Guru's Brother's Gift (Show Magikarp)",
+            "name": "Fishing Guru Gift (Show Magikarp)",
             "chest_unopened_img": "images/locations/fisherman_net_ball.png",
             "chest_opened_img": "images/locations/fisherman_net_ball_bw.png",
             "visibility_rules": [
@@ -1508,7 +1508,7 @@
             ]
           },
           {
-            "name": "Oak's Aide's Gift",
+            "name": "Oak's Aide Gift (Pokedex Progress)",
             "chest_unopened_img": "images/locations/scientist_exp_share.png",
             "chest_opened_img": "images/locations/scientist_exp_share_bw.png",
             "access_rules": [
@@ -1548,7 +1548,7 @@
             ]
           },
           {
-            "name": "Woman in Fly House",
+            "name": "Woman Gift",
             "chest_unopened_img": "images/locations/woman_flying_tm.png",
             "chest_opened_img": "images/locations/woman_flying_tm_bw.png",
             "access_rules": [
@@ -1569,7 +1569,7 @@
             ]
           },
           {
-            "name": "Oak's Aide's Gift",
+            "name": "Oak's Aide Gift (Pokedex Progress)",
             "chest_unopened_img": "images/locations/scientist_amulet_coin.png",
             "chest_opened_img": "images/locations/scientist_amulet_coin_bw.png",
             "access_rules": [
@@ -2121,7 +2121,7 @@
             ]
           },
           {
-            "name": "Camper's Info (Misty 4)",
+            "name": "Camper Info",
             "chest_unopened_img": "images/locations/camper_info.png",
             "chest_opened_img": "images/locations/camper_info_bw.png",
             "access_rules": [
@@ -2622,7 +2622,7 @@
             ]
           },
           {
-            "name": "Beauty's Info (Misty 5)",
+            "name": "Beauty Info",
             "chest_unopened_img": "images/locations/beauty_info.png",
             "chest_opened_img": "images/locations/beauty_info_bw.png",
             "access_rules": [
@@ -2648,7 +2648,7 @@
             "hosted_item": "save_bill_hosted"
           },
           {
-            "name": "Bill's Gift",
+            "name": "Bill Gift",
             "chest_unopened_img": "images/locations/bill_ss_ticket.png",
             "chest_opened_img": "images/locations/bill_ss_ticket_bw.png"
           }

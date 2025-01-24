@@ -10,12 +10,12 @@
             "name": "Unlock Fly Destination"
           },
           {
-            "ref": "Cities/Cerulean City/Youngster's Info (Bill 2)",
-            "name": "Youngster's Info (Bill 2)"
+            "ref": "Cities/Cerulean City/Youngster Info",
+            "name": "Youngster Info"
           },
           {
-            "ref": "Cities/Cerulean City/Bookshelf's Info (Misty 6)",
-            "name": "Bookshelf's Info (Misty 6)"
+            "ref": "Cities/Cerulean City/Bookshelf Info",
+            "name": "Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -30,8 +30,8 @@
         "name": "Gym Sign",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Gym Sign's Info (Misty 1)",
-            "name": "Info (Misty 1)"
+            "ref": "Cities/Cerulean City/Gym Sign Info",
+            "name": "Info"
           }
         ],
         "map_locations": [
@@ -62,8 +62,7 @@
         "name": "Berry Powder Man's House",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Berry Powder Man's Gift",
-            "name": "Man"
+            "ref": "Cities/Cerulean City/Berry Powder Man Gift"
           }
         ],
         "map_locations": [
@@ -78,15 +77,15 @@
         "name": "Rival",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Rival's Info (Bill 1)",
-            "name": "Info (Bill 1)"
+            "ref": "Cities/Cerulean City/Rival Info",
+            "name": "Info"
           },
           {
             "ref": "Cities/Cerulean City/Rival Reward",
             "name": "Reward"
           },
           {
-            "ref": "Cities/Cerulean City/Rival's Gift",
+            "ref": "Cities/Cerulean City/Rival Gift",
             "name": "Gift"
           }
         ],
@@ -110,8 +109,8 @@
             "name": "Swimmer Luis Reward"
           },
           {
-            "ref": "Cities/Cerulean City/Swimmer Luis's Info (Misty 3)",
-            "name": "Swimmer Luis's Info (Misty 3)"
+            "ref": "Cities/Cerulean City/Swimmer Luis Info",
+            "name": "Swimmer Luis Info"
           },
           {
             "ref": "Cities/Cerulean City/Picnicker Diana Reward",
@@ -126,16 +125,16 @@
             "name": "Leader Misty Reward"
           },
           {
-            "ref": "Cities/Cerulean City/Misty's Info (Misty 2)",
-            "name": "Misty's Info (Misty 2)"
+            "ref": "Cities/Cerulean City/Misty Info",
+            "name": "Misty Info"
           },
           {
             "ref": "Cities/Cerulean City/Cerulean Gym Prize",
             "name": "Cerulean Gym Prize"
           },
           {
-            "ref": "Cities/Cerulean City/Misty's TM",
-            "name": "Misty's TM"
+            "ref": "Cities/Cerulean City/Misty TM",
+            "name": "Misty TM"
           }
         ],
         "map_locations": [

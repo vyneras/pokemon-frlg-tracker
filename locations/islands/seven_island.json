@@ -10,8 +10,8 @@
             "name": "Unlock Fly Destination"
           },
           {
-            "ref": "Islands/Seven Island Town/Bookshelf's Info (Agatha 4)",
-            "name": "Bookshelf's Info (Agatha 4)"
+            "ref": "Islands/Seven Island Town/Bookshelf Info",
+            "name": "Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -19,6 +19,26 @@
             "map": "seven_island",
             "x": 200,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Scientist",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Scientist Gift 1 (Trade Scanner)",
+            "name": "Gift 1 (Trade Scanner)"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Scientist Gift 2 (Trade Scanner)",
+            "name": "Gift 2 (Trade Scanner)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 248,
+            "y": 88
           }
         ]
       }

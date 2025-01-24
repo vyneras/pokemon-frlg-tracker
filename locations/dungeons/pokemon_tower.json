@@ -396,7 +396,7 @@
     "name": "Pokémon Tower 7F",
     "children": [
       {
-        "name": "Mr. Fuji's Gift",
+        "name": "Mr. Fuji",
         "sections": [
           {
             "ref": "Dungeons/Pokémon Tower/7F - Rescue Mr. Fuji (Event)",
@@ -439,8 +439,8 @@
             "name": "Reward"
           },
           {
-            "ref": "Dungeons/Pokémon Tower/7F - Team Rocket Grunt's Info (Mr. Fuji 2)",
-            "name": "Info (Mr. Fuji 2)"
+            "ref": "Dungeons/Pokémon Tower/7F - Team Rocket Grunt Info",
+            "name": "Info"
           }
         ],
         "map_locations": [

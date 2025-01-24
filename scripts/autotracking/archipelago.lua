@@ -40,6 +40,12 @@ EVENT_ID = ""
 FLY_UNLOCK_ID = ""
 POKEDEX_ID = ""
 
+BASE_OFFSET = 6420000
+
+function remove_base_offset(value)
+    return value - BASE_OFFSET
+end
+
 function resetItems()
     for _, value in pairs(ITEM_MAPPING) do
         if value[1] then
@@ -169,7 +175,7 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
     CUR_INDEX = index
-    local value = ITEM_MAPPING[item_id]
+    local value = ITEM_MAPPING[remove_base_offset(item_id)]
     if not value then
         return
     end
@@ -226,11 +232,8 @@ function addProgressivePass()
 end
 
 function onLocation(location_id, location_name)
-    local value = LOCATION_MAPPING[location_id]
+    local value = LOCATION_MAPPING[remove_base_offset(location_id)]
     if not value then
-        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onLocation: could not find location mapping for id %s", location_id))
-        end
         return
     end
     for _, code in pairs(value) do

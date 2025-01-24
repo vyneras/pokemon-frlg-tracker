@@ -26,8 +26,8 @@
         "name": "Oak's Lab Sign",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak's Lab Sign's Info (Oak 1)",
-            "name": "Info (Oak 1)"
+            "ref": "Cities/Pallet Town/Oak's Lab Sign Info",
+            "name": "Info"
           }
         ],
         "map_locations": [
@@ -50,28 +50,28 @@
             "name": "Deliver Oak's Parcel (Event)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Gift (Deliver Parcel)",
-            "name": "Oak's Gift (Deliver Parcel)"
+            "ref": "Cities/Pallet Town/Oak Gift (Deliver Parcel)",
+            "name": "Oak Gift (Deliver Parcel)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Info (Oak 2)",
-            "name": "Oak's Info (Oak 2)"
+            "ref": "Cities/Pallet Town/Oak Info",
+            "name": "Oak Info"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Gift (After Route 22 Rival)",
-            "name": "Oak's Gift (After Route 22 Rival)"
+            "ref": "Cities/Pallet Town/Oak Gift (Post Route 22 Rival)",
+            "name": "Oak Gift (Post Route 22 Rival)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Aide's Info (Oak 3)",
-            "name": "Oak's Aide's Info (Oak 3)"
+            "ref": "Cities/Pallet Town/Oak's Aide F Info",
+            "name": "Oak's Aide F Info"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Aide's Info (Daisy 1)",
-            "name": "Oak's Aide's Info (Daisy 1)"
+            "ref": "Cities/Pallet Town/Oak's Aide M Info (Right)",
+            "name": "Oak's Aide M Info (Right)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Aide's Info (Oak 6)",
-            "name": "Oak's Aide's Info (Oak 6)"
+            "ref": "Cities/Pallet Town/Oak's Aide M Info (Left)",
+            "name": "Oak's Aide M Info (Left)"
           }
         ],
         "map_locations": [
@@ -86,7 +86,7 @@
         "name": "Rival's House",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Daisy's Gift"
+            "ref": "Cities/Pallet Town/Daisy Gift"
           }
         ],
         "map_locations": [
@@ -101,11 +101,11 @@
         "name": "Oak",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak's Gift (First)",
+            "ref": "Cities/Pallet Town/Oak Gift 1",
             "name": "First Gift"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Gift (Second)",
+            "ref": "Cities/Pallet Town/Oak Gift 2",
             "name": "Second Gift"
           }
         ],

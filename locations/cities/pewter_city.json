@@ -6,8 +6,8 @@
         "name": "Gym Sign",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Gym Sign's Info (Brock 1)",
-            "name": "Info (Brock 1)"
+            "ref": "Cities/Pewter City/Gym Sign Info",
+            "name": "Info"
           }
         ],
         "map_locations": [
@@ -22,8 +22,8 @@
         "name": "Fat Man",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Fat Man's Info (Brock 3)",
-            "name": "Info (Brock 3)"
+            "ref": "Cities/Pewter City/Fat Man Info",
+            "name": "Info"
           }
         ],
         "map_locations": [
@@ -65,16 +65,16 @@
             "name": "Leader Brock Reward"
           },
           {
-            "ref": "Cities/Pewter City/Brock's Info (Brock 2)",
-            "name": "Brock's Info (Brock 2)"
+            "ref": "Cities/Pewter City/Brock Info",
+            "name": "Brock Info"
           },
           {
             "ref": "Cities/Pewter City/Pewter Gym Prize",
             "name": "Pewter Gym Prize"
           },
           {
-            "ref": "Cities/Pewter City/Brock's TM",
-            "name": "Brock's TM"
+            "ref": "Cities/Pewter City/Brock TM",
+            "name": "Brock TM"
           }
         ],
         "map_locations": [
@@ -105,12 +105,12 @@
         "name": "Pewter Museum",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Scientist's Gift",
-            "name": "Scientist's Gift"
+            "ref": "Cities/Pewter City/Scientist Gift",
+            "name": "Scientist Gift"
           },
           {
-            "ref": "Cities/Pewter City/Bookshelf's Info (Brock 6)",
-            "name": "Bookshelf's Info (Brock 6)"
+            "ref": "Cities/Pewter City/Bookshelf Info",
+            "name": "Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -125,8 +125,7 @@
         "name": "Oak's Aide",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Oak's Aide's Gift",
-            "name": "Gift"
+            "ref": "Cities/Pewter City/Gift from Mom"
           }
         ],
         "map_locations": [
