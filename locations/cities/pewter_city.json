@@ -120,6 +120,22 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Oak's Aide's Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 744,
+            "y": 328
+          }
+        ]
       }
     ]
   }

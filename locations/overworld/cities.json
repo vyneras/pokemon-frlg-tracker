@@ -409,6 +409,14 @@
             ]
           },
           {
+            "name": "Oak's Aide's Gift",
+            "chest_unopened_img": "images/locations/scientist_running_shoes.png",
+            "chest_opened_img": "images/locations/scientist_running_shoes_bw.png",
+            "access_rules": [
+              "@Route 3 Access,defeat_brock"
+            ]
+          },
+          {
             "name": "Camper Liam Reward",
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
