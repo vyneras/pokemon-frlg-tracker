@@ -615,6 +615,50 @@
     ]
   },
   {
+    "name": "Open Silph Co.",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/mr_fuji.png",
+        "img_mods": "overlay|/images/overlays/green_check.png",
+        "codes": "open_silph_setting,open_silph_off",
+        "inherit_codes": false,
+        "name": "Open Silph Co. - Off"
+      },
+      {
+        "img": "images/settings/mr_fuji.png",
+        "img_mods": "overlay|/images/overlays/red_x.png",
+        "codes": "open_silph_setting,open_silph_on",
+        "inherit_codes": false,
+        "name": "Open Silph Co. - On"
+      }
+    ]
+  },
+  {
+    "name": "Remove Saffron Rockets",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/rocket_male.png",
+        "img_mods": "overlay|/images/overlays/green_check.png",
+        "codes": "saffron_rockets_setting,saffron_rockets_off",
+        "inherit_codes": false,
+        "name": "Remove Saffron Rockets - Off"
+      },
+      {
+        "img": "images/settings/rocket_male.png",
+        "img_mods": "overlay|/images/overlays/red_x.png",
+        "codes": "saffron_rockets_setting,saffron_rockets_on",
+        "inherit_codes": false,
+        "name": "Remove Saffron Rockets - On"
+      }
+    ]
+  },
+  {
     "name": "Route 23 Trees",
     "type": "progressive",
     "allow_disabled": false,

@@ -1776,7 +1776,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "liberate_silph_co,^$hidden"
+              "$saffron_rockets,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1787,7 +1787,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1798,7 +1798,7 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1809,7 +1809,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1820,7 +1820,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male_info.png",
             "chest_opened_img": "images/locations/cooltrainer_male_info_bw.png",
             "access_rules": [
-              "liberate_silph_co,$fame"
+              "$saffron_rockets,$fame"
             ],
             "visibility_rules": [
               "famesanity_on"
@@ -1831,7 +1831,7 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1842,7 +1842,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1853,7 +1853,7 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1864,7 +1864,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1874,7 +1874,7 @@
             "name": "Defeat Sabrina (Event)",
             "hosted_item": "defeat_sabrina_hosted",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ]
           },
           {
@@ -1882,7 +1882,7 @@
             "chest_unopened_img": "images/locations/sabrina.png",
             "chest_opened_img": "images/locations/sabrina_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ],
             "visibility_rules": [
               "trainersanity_on"
@@ -1893,7 +1893,7 @@
             "chest_unopened_img": "images/locations/sabrina_info.png",
             "chest_opened_img": "images/locations/sabrina_info_bw.png",
             "access_rules": [
-              "liberate_silph_co,$fame"
+              "$saffron_rockets,$fame"
             ],
             "visibility_rules": [
               "famesanity_on"
@@ -1904,7 +1904,7 @@
             "chest_unopened_img": "images/locations/sabrina_info.png",
             "chest_opened_img": "images/locations/sabrina_info_bw.png",
             "access_rules": [
-              "liberate_silph_co,$fame"
+              "$saffron_rockets,$fame"
             ],
             "visibility_rules": [
               "famesanity_on"
@@ -1915,7 +1915,7 @@
             "chest_unopened_img": "images/locations/sabrina_marsh_badge.png",
             "chest_opened_img": "images/locations/sabrina_marsh_badge_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ]
           },
           {
@@ -1923,7 +1923,7 @@
             "chest_unopened_img": "images/locations/sabrina_psychic_tm.png",
             "chest_opened_img": "images/locations/sabrina_psychic_tm_bw.png",
             "access_rules": [
-              "liberate_silph_co"
+              "$saffron_rockets"
             ]
           }
         ],

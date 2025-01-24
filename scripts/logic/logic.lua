@@ -167,6 +167,14 @@ function route_16()
     return has("poke_flute") or (cut() and rock_smash() and has("modify_route_16_on"))
 end
 
+function open_silph()
+    return has("open_silph_on") or has("saffron_rockets_on") or has("rescue_mr_fuji")
+end
+
+function saffron_rockets()
+    return has("saffron_rockets_on") or has("liberate_silph_co")
+end
+
 function vermilion_sailing()
     return has("block_sailing_off") or has("ss_ticket")
 end
