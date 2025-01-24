@@ -8,7 +8,11 @@ function cut()
 end
 
 function fly(location)
-    return (has("thunder_badge") or not has("thunder_badge_required")) and has("hm02_fly") and has("fly_"..location)
+    return (has("thunder_badge") or not has("thunder_badge_required")) and has("hm02_fly") and has_fly_location(location)
+end
+
+function has_fly_location(location)
+    return has("fly_"..location) or has("free_fly_"..location) or (has("town_map_fly_"..location) and has("town_map"))
 end
 
 function surf()
