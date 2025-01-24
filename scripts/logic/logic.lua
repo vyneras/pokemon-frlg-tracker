@@ -167,6 +167,10 @@ function route_16()
     return has("poke_flute") or (cut() and rock_smash() and has("modify_route_16_on"))
 end
 
+function vermilion_sailing()
+    return has("block_sailing_off") or has("ss_ticket")
+end
+
 function has_giovanni_req()
     local req = Tracker:ProviderCountForCode("viridian_gym_count")
     local req_items = {}

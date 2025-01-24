@@ -297,7 +297,6 @@
         "name": "Itemfinder Required - Required"
       }
     ]
-
   },
   {
     "name": "Flash Required",
@@ -328,7 +327,6 @@
         "name": "Flash Required - Required"
       }
     ]
-
   },
   {
     "name": "Fame Checker Required",
@@ -701,6 +699,28 @@
         "codes": "early_gossipers_setting,early_gossipers_on",
         "inherit_codes": false,
         "name": "Early Gossipers - On"
+      }
+    ]
+  },
+  {
+    "name": "Block Vermilion Sailing",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/ss_ticket.png",
+        "img_mods": "overlay|/images/overlays/sail.png,@disabled",
+        "codes": "block_sailing_setting,block_sailing_off",
+        "inherit_codes": false,
+        "name": "Block Vermilion Sailing - Off"
+      },
+      {
+        "img": "images/settings/ss_ticket.png",
+        "img_mods": "overlay|/images/overlays/sail.png",
+        "codes": "block_sailing_setting,block_sailing_on",
+        "inherit_codes": false,
+        "name": "Block Vermilion Sailing - On"
       }
     ]
   },
