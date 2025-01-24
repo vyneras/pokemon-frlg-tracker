@@ -14,4 +14,5 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("split_card_keys", "card_keys_setting", toggle_item_grid)
     ScriptHost:AddWatchForCode("split_passes", "island_passes_setting", toggle_item_grid)
     ScriptHost:AddWatchForCode("split_teas", "teas_setting", toggle_item_grid)
+    ScriptHost:AddWatchForCode("split_map_setting", "split_map_setting", toggle_split_map)
 end

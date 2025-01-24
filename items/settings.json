@@ -1447,5 +1447,28 @@
         "name": "Auto Tab - On"
       }
     ]
+  },
+  {
+    "name": "Split Map",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/town_map_open.png",
+        "img_mods": "overlay|/images/overlays/split_alt.png,@disabled",
+        "codes": "split_map_setting,split_map_off",
+        "inherit_codes": false,
+        "name": "Split Map - Off"
+      },
+      {
+        "img": "images/settings/town_map_open.png",
+        "img_mods": "overlay|/images/overlays/split_alt.png",
+        "codes": "split_map_setting,split_map_on",
+        "inherit_codes": false,
+        "name": "Split Map - On"
+      }
+    ]
   }
 ]

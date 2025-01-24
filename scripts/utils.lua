@@ -128,3 +128,12 @@ function toggle_item_grid(code)
         Tracker:AddLayouts("layouts/items.json")
     end
 end
+
+function toggle_split_map(code)
+    local map_split = has("split_map_on")
+    if map_split then
+        Tracker:AddLayouts("layouts/tabs_split.json")
+    else
+        Tracker:AddLayouts("layouts/tabs.json")
+    end
+end
