@@ -1105,7 +1105,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1116,7 +1116,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1127,7 +1127,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1138,7 +1138,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1149,7 +1149,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1160,7 +1160,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1171,7 +1171,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1182,7 +1182,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1193,7 +1193,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1204,7 +1204,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1215,7 +1215,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
@@ -1226,7 +1226,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "coin_case,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring"
