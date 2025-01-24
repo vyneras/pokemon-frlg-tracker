@@ -1,26 +1,5 @@
 [
   {
-    "name": "Silph Co. 1F",
-    "children": [
-      {
-        "name": "Receptionist",
-        "sections": [
-          {
-            "ref": "Dungeons/Silph Co./1F - Receptionist's Gift",
-            "name": "Gift"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "silph_co_1f",
-            "x": 56,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Silph Co. 2F",
     "children": [
       {
@@ -102,6 +81,22 @@
             "y": 312
           }
         ]
+      },
+      {
+        "name": "Southeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./2F - Southeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 488,
+            "y": 312
+          }
+        ]
       }
     ]
   },
@@ -173,17 +168,17 @@
         ]
       },
       {
-        "name": "Worker",
+        "name": "East Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./3F - Worker's Gift",
-            "name": "Gift"
+            "ref": "Dungeons/Silph Co./3F - East Room Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
           {
             "map": "silph_co_3f",
-            "x": 504,
+            "x": 536,
             "y": 216
           }
         ]
@@ -322,18 +317,18 @@
         ]
       },
       {
-        "name": "Worker",
+        "name": "North Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./4F - Worker's Gift",
-            "name": "Gift"
+            "ref": "Dungeons/Silph Co./4F - North Room Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
           {
             "map": "silph_co_4f",
-            "x": 88,
-            "y": 88
+            "x": 216,
+            "y": 120
           }
         ]
       }
@@ -501,22 +496,6 @@
             "y": 120
           }
         ]
-      },
-      {
-        "name": "Worker",
-        "sections": [
-          {
-            "ref": "Dungeons/Silph Co./5F - Worker's Gift",
-            "name": "Gift"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "silph_co_5f",
-            "x": 264,
-            "y": 216
-          }
-        ]
       }
     ]
   },
@@ -620,18 +599,18 @@
         ]
       },
       {
-        "name": "Worker",
+        "name": "Center Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./6F - Worker's Gift",
-            "name": "Gift"
+            "ref": "Dungeons/Silph Co./6F - Center Room Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
           {
             "map": "silph_co_6f",
-            "x": 232,
-            "y": 152
+            "x": 328,
+            "y": 200
           }
         ]
       }
@@ -769,18 +748,18 @@
         ]
       },
       {
-        "name": "Worker",
+        "name": "Northwest Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./7F - Worker's Gift",
-            "name": "Gift"
+            "ref": "Dungeons/Silph Co./7F - Northwest Room Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
           {
             "map": "silph_co_7f",
-            "x": 168,
-            "y": 168
+            "x": 72,
+            "y": 104
           }
         ]
       }
@@ -886,18 +865,18 @@
         ]
       },
       {
-        "name": "Worker",
+        "name": "West Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./8F - Worker's Gift",
-            "name": "Gift"
+            "ref": "Dungeons/Silph Co./8F - West Room Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
           {
             "map": "silph_co_8f",
             "x": 40,
-            "y": 88
+            "y": 168
           }
         ]
       }
@@ -987,18 +966,18 @@
         ]
       },
       {
-        "name": "Nurse",
+        "name": "Northwest Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./9F - Nurse's Gift",
-            "name": "Gift"
+            "ref": "Dungeons/Silph Co./9F - Northwest Room Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
           {
             "map": "silph_co_9f",
-            "x": 40,
-            "y": 264
+            "x": 24,
+            "y": 200
           }
         ]
       }
@@ -1104,18 +1083,18 @@
         ]
       },
       {
-        "name": "Worker",
+        "name": "Southeast Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./10F - Worker's Gift",
-            "name": "Gift"
+            "ref": "Dungeons/Silph Co./10F - Southeast Room Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
           {
             "map": "silph_co_10f",
-            "x": 168,
-            "y": 280
+            "x": 200,
+            "y": 264
           }
         ]
       }
@@ -1221,6 +1200,22 @@
             "map": "silph_co_11f",
             "x": 104,
             "y": 184
+          }
+        ]
+      },
+      {
+        "name": "West Hallway Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - West Hallway Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 200,
+            "y": 296
           }
         ]
       }

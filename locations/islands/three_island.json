@@ -34,22 +34,6 @@
         ]
       },
       {
-        "name": "Woman",
-        "sections": [
-          {
-            "ref": "Islands/Three Island Town/Woman's Gift",
-            "name": "Gift"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "three_island",
-            "x": 248,
-            "y": 120
-          }
-        ]
-      },
-      {
         "name": "Sabrina Fan's House",
         "sections": [
           {
@@ -157,6 +141,21 @@
             "map": "three_island",
             "x": 136,
             "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Lostelle's House",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Lostelle's Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 56,
+            "y": 504
           }
         ]
       }

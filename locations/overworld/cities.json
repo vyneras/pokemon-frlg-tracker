@@ -1996,6 +1996,18 @@
             ]
           },
           {
+            "name": "Bill's Gift",
+            "chest_unopened_img": "images/locations/bill_tri_pass.png",
+            "chest_opened_img": "images/locations/bill_tri_pass_bw.png",
+            "access_rules": [
+              "defeat_blaine"
+            ],
+            "visibility_rules": [
+              "island_passes_split,kanto_only_off",
+              "island_passes_split_prog,kanto_only_off"
+            ]
+          },
+          {
             "name": "Burglar Quinn Reward",
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",

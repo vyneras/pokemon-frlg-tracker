@@ -47,6 +47,18 @@
             ]
           },
           {
+            "name": "Celio's Gift (Deliver Sapphire)",
+            "chest_unopened_img": "images/locations/celio_rainbow_pass.png",
+            "chest_opened_img": "images/locations/celio_rainbow_pass_bw.png",
+            "access_rules": [
+              "deliver_meteorite,ruby,free_captured_pokemon,sapphire"
+            ],
+            "visibility_rules": [
+              "island_passes_split",
+              "island_passes_split_prog"
+            ]
+          },
+          {
             "name": "Celio's Info (Bill 4)",
             "chest_unopened_img": "images/locations/celio_info.png",
             "chest_opened_img": "images/locations/celio_info_bw.png",
@@ -420,15 +432,6 @@
             ]
           },
           {
-            "name": "Sailor's Gift",
-            "chest_unopened_img": "images/locations/sailor_tri_pass.png",
-            "chest_opened_img": "images/locations/sailor_tri_pass_bw.png",
-            "visibility_rules": [
-              "island_passes_split",
-              "island_passes_split_prog"
-            ]
-          },
-          {
             "name": "Buy Lemonade (Event)",
             "hosted_item": "lemonade_hosted",
             "access_rules": [
@@ -591,6 +594,18 @@
             ]
           },
           {
+            "name": "Lostelle's Gift",
+            "chest_unopened_img": "images/locations/lostelle_tri_pass.png",
+            "chest_opened_img": "images/locations/lostelle_tri_pass_bw.png",
+            "access_rules": [
+              "deliver_meteorite"
+            ],
+            "visibility_rules": [
+              "island_passes_split",
+              "island_passes_split_prog"
+            ]
+          },
+          {
             "name": "Biker Goon Reward (Left)",
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
@@ -626,15 +641,6 @@
             "name": "Anti-Biker's Gift",
             "chest_unopened_img": "images/locations/man_full_restore.png",
             "chest_opened_img": "images/locations/man_full_restore_bw.png"
-          },
-          {
-            "name": "Woman's Gift",
-            "chest_unopened_img": "images/locations/woman_tri_pass.png",
-            "chest_opened_img": "images/locations/woman_tri_pass_bw.png",
-            "visibility_rules": [
-              "island_passes_split",
-              "island_passes_split_prog"
-            ]
           },
           {
             "name": "Sabrina Fan's Info (Sabrina 2)",
@@ -911,15 +917,6 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
-            ]
-          },
-          {
-            "name": "Fisherman's Gift",
-            "chest_unopened_img": "images/locations/fisherman_rainbow_pass.png",
-            "chest_opened_img": "images/locations/fisherman_rainbow_pass_bw.png",
-            "visibility_rules": [
-              "island_passes_split",
-              "island_passes_split_prog"
             ]
           },
           {
@@ -1319,15 +1316,6 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
-            ]
-          },
-          {
-            "name": "Boy's Gift",
-            "chest_unopened_img": "images/locations/boy_rainbow_pass.png",
-            "chest_opened_img": "images/locations/boy_rainbow_pass_bw.png",
-            "visibility_rules": [
-              "island_passes_split",
-              "island_passes_split_prog"
             ]
           },
           {
@@ -1739,15 +1727,6 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
-            ]
-          },
-          {
-            "name": "Old Woman's Gift",
-            "chest_unopened_img": "images/locations/old_woman_rainbow_pass.png",
-            "chest_opened_img": "images/locations/old_woman_rainbow_pass_bw.png",
-            "visibility_rules": [
-              "island_passes_split",
-              "island_passes_split_prog"
             ]
           },
           {
