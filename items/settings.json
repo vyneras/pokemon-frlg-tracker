@@ -247,6 +247,28 @@
     ]
   },
   {
+    "name": "Teas",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/tea.png",
+        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "codes": "teas_setting,teas_vanilla",
+        "inherit_codes": false,
+        "name": "Teas - Vanilla"
+      },
+      {
+        "img": "images/settings/tea.png",
+        "img_mods": "overlay|/images/overlays/split.png",
+        "codes": "teas_setting,teas_split",
+        "inherit_codes": false,
+        "name": "Teas - Split"
+      }
+    ]
+  },
+  {
     "name": "Itemfinder Required",
     "type": "progressive",
     "allow_disabled": false,

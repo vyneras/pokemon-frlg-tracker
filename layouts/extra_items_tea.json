@@ -1,0 +1,62 @@
+{
+  "extra_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "green_tea"
+              ],
+              [
+                "red_tea"
+              ],
+              [
+                "blue_tea"
+              ],
+              [
+                "purple_tea"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "extra_item_grid_vertical": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "68,0,0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "green_tea",
+                "red_tea",
+                "blue_tea",
+                "purple_tea"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

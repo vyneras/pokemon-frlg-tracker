@@ -38,7 +38,8 @@
       "@Cerulean City Access,$leave_cerulean",
       "@Vermilion City Access,$tunnels",
       "@Route 10 North Access,$route_9",
-      "@Saffron City Access,tea"
+      "@Saffron City Access,tea",
+      "@Saffron City Access,blue_tea"
     ]
   },
   {
@@ -50,6 +51,7 @@
       "@Lavender Town Access,poke_flute,$route_12",
       "@Fuchsia City Access,poke_flute,$route_12",
       "@Saffron City Access,tea",
+      "@Saffron City Access,red_tea",
       "@One Island Access",
       "@Two Island Access",
       "@Three Island Access",
@@ -78,7 +80,8 @@
       "@Celadon City Access,$tunnels",
       "@Route 12 South Access,poke_flute",
       "@Route 12 South Access,$surf,modify_route_12_off",
-      "@Saffron City Access,tea"
+      "@Saffron City Access,tea",
+      "@Saffron City Access,purple_tea"
     ]
   },
   {
@@ -87,7 +90,8 @@
       "$fly|celadon",
       "@Lavender Town Access,$tunnels",
       "@Fuchsia City Access,bicycle,$route_16",
-      "@Saffron City Access,tea"
+      "@Saffron City Access,tea",
+      "@Saffron City Access,green_tea"
     ]
   },
   {
@@ -115,9 +119,13 @@
     "access_rules": [
       "$fly|saffron",
       "@Cerulean City Outskirts Access,tea",
+      "@Cerulean City Outskirts Access,blue_tea",
       "@Vermilion City Access,tea",
+      "@Vermilion City Access,red_tea",
       "@Lavender Town Access,tea",
-      "@Celadon City Access,tea"
+      "@Lavender Town Access,purple_tea",
+      "@Celadon City Access,tea",
+      "@Celadon City Access,green_tea"
     ]
   },
   {
