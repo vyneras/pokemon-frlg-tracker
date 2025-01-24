@@ -6,7 +6,12 @@
         "name": "Player's House",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Unlock Fly Destination"
+            "ref": "Cities/Pallet Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "ref": "Cities/Pallet Town/PC Item",
+            "name": "PC Item"
           }
         ],
         "map_locations": [
