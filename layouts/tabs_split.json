@@ -58,5 +58,65 @@
         ]
       }
     ]
+  },
+  "map_layout_vertical": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "dock",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "overworld"
+        }
+      },
+      {
+        "type": "tabbed",
+        "dock": "top",
+        "tabs": [
+          {
+            "title": "Cities",
+            "content": {
+              "type": "dock",
+              "content": {
+                "type": "layout",
+                "key": "cities"
+              }
+            }
+          },
+          {
+            "title": "Routes",
+            "content": {
+              "type": "dock",
+              "content": {
+                "type": "layout",
+                "key": "routes"
+              }
+            }
+          },
+          {
+            "title": "Dungeons",
+            "content": {
+              "type": "dock",
+              "content": {
+                "type": "layout",
+                "key": "dungeons"
+              }
+            }
+          },
+          {
+            "title": "Islands",
+            "content": {
+              "type": "dock",
+              "content": {
+                "type": "layout",
+                "key": "islands"
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 }
