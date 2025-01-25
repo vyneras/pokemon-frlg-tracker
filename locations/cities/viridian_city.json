@@ -3,7 +3,7 @@
     "name": "Viridian City",
     "children": [
       {
-        "name": "Pokémon Center",
+        "name": "Visit",
         "sections": [
           {
             "ref": "Cities/Viridian City/Unlock Fly Destination"
@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "viridian_city",
-            "x": 424,
-            "y": 424
+            "x": 12,
+            "y": 12
           }
         ]
       },
@@ -93,7 +93,7 @@
           },
           {
             "ref": "Cities/Viridian City/Tamer Cole Reward",
-            "name": "Tamer Cole Reward Reward"
+            "name": "Tamer Cole Reward"
           },
           {
             "ref": "Cities/Viridian City/Black Belt Kiyo Reward",
@@ -153,6 +153,236 @@
             "map": "viridian_city",
             "x": 584,
             "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Gym",
+    "children": [
+      {
+        "name": "Gym Guy",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Gym Guy Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 264,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Tamer Cole",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Tamer Cole Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 40,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Kiyo",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Black Belt Kiyo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 56,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Samuel",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Cooltrainer Samuel Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Yuji",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Cooltrainer Yuji Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 200,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Atsushi",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Black Belt Atsushi Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 184,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Tamer Jason",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Tamer Jason Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 168,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Warren",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Cooltrainer Warren Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 216,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Takashi",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Black Belt Takashi Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 168,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Giovanni",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Defeat Giovanni (Event)",
+            "name": "Defeat Giovanni (Event)"
+          },
+          {
+            "ref": "Cities/Viridian City/Leader Giovanni Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Giovanni Info",
+            "name": "Info"
+          },
+          {
+            "ref": "Cities/Viridian City/Viridian Gym Prize",
+            "name": "Gym Prize"
+          },
+          {
+            "ref": "Cities/Viridian City/Giovanni TM",
+            "name": "TM"
+          },
+          {
+            "ref": "Cities/Viridian City/Hidden Item Under Giovanni",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian School",
+    "children": [
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Bookshelf Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Viridian City/Bookshelf Info 2",
+            "name": "Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_school",
+            "x": 144,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Mart",
+    "children": [
+      {
+        "name": "Poké Mart Employee",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Delivery for Oak"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

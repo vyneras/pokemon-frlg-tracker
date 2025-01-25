@@ -247,5 +247,26 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Route 11 Gate 2F",
+    "children": [
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Oak's Aide Gift (Pokedex Progress)",
+            "name": "Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_2f",
+            "x": 40,
+            "y": 104
+          }
+        ]
+      }
+    ]
   }
 ]

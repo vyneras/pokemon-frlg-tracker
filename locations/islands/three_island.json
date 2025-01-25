@@ -3,7 +3,7 @@
     "name": "Three Island Town",
     "children": [
       {
-        "name": "Pokémon Center",
+        "name": "Visit",
         "sections": [
           {
             "ref": "Islands/Three Island Town/Unlock Fly Destination"
@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "three_island",
-            "x": 232,
-            "y": 440
+            "x": 12,
+            "y": 12
           }
         ]
       },
@@ -156,6 +156,48 @@
             "map": "three_island",
             "x": 56,
             "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lostelle's House",
+    "children": [
+      {
+        "name": "Lostelle",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Lostelle Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_house",
+            "x": 56,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sabrina Fan's House",
+    "children": [
+      {
+        "name": "Sabrina Fan",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Sabrina Fan Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_sabrina_fans_house",
+            "x": 120,
+            "y": 72
           }
         ]
       }

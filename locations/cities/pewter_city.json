@@ -3,6 +3,21 @@
     "name": "Pewter City",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Gym Sign",
         "sections": [
           {
@@ -31,21 +46,6 @@
             "map": "pewter_city",
             "x": 344,
             "y": 456
-          }
-        ]
-      },
-      {
-        "name": "Pokémon Center",
-        "sections": [
-          {
-            "ref": "Cities/Pewter City/Unlock Fly Destination"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_city",
-            "x": 280,
-            "y": 408
           }
         ]
       },
@@ -133,6 +133,96 @@
             "map": "pewter_city",
             "x": 744,
             "y": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Museum",
+    "children": [
+      {
+        "name": "Scientist",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Scientist Gift",
+            "name": "Scientist Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "x": 344,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Bookshelf Info",
+            "name": "Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "x": 432,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Gym",
+    "children": [
+      {
+        "name": "Camper Liam",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Camper Liam Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_gym",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Brock",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Defeat Brock (Event)",
+            "name": "Defeat Brock (Event)"
+          },
+          {
+            "ref": "Cities/Pewter City/Leader Brock Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Pewter City/Brock Info",
+            "name": "Info"
+          },
+          {
+            "ref": "Cities/Pewter City/Pewter Gym Prize",
+            "name": "Gym Prize"
+          },
+          {
+            "ref": "Cities/Pewter City/Brock TM",
+            "name": "TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_gym",
+            "x": 104,
+            "y": 88
           }
         ]
       }

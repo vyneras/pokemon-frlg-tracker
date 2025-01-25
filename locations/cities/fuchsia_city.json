@@ -3,7 +3,7 @@
     "name": "Fuchsia City",
     "children": [
       {
-        "name": "Pokémon Center",
+        "name": "Visit",
         "sections": [
           {
             "ref": "Cities/Fuchsia City/Unlock Fly Destination"
@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "fuchsia_city",
-            "x": 408,
-            "y": 504
+            "x": 12,
+            "y": 12
           }
         ]
       },
@@ -34,7 +34,7 @@
         ]
       },
       {
-        "name": "Fishing Guru's Brother's House",
+        "name": "Fishing Guru's House",
         "sections": [
           {
             "ref": "Cities/Fuchsia City/Fishing Guru Gift"
@@ -191,6 +191,259 @@
             "map": "fuchsia_city",
             "x": 152,
             "y": 520
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Office",
+    "children": [
+      {
+        "name": "Worker",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Safari Zone Worker Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_office",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Gym",
+    "children": [
+      {
+        "name": "Juggler Nate",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Nate Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 40,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Juggler Kayden",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kayden Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Juggler Kirk",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kirk Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kirk Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Tamer Edgar",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Tamer Edgar Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Tamer Phil",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Tamer Phil Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Juggler Shawn",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Shawn Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 40,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Koga",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Defeat Koga (Event)",
+            "name": "Defeat Koga (Event)"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Leader Koga Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Koga Info",
+            "name": "Info"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Fuchsia Gym Prize",
+            "name": "Gym Prize"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Koga TM",
+            "name": "TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 120,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bill's Grandpa's House",
+    "children": [
+      {
+        "name": "Bill's Grandpa",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Bill's Grandpa Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bills_grandpas_house",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Warden's House",
+    "children": [
+      {
+        "name": "Safari Zone Warden",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Safari Zone Warden Gift (Return Teeth)",
+            "name": "Gift (Return Teeth)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 56,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Safari Zone Warden's House Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 72,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Fishing House",
+    "children": [
+      {
+        "name": "Fishing Guru",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Fishing Guru Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_fishing_house",
+            "x": 104,
+            "y": 88
           }
         ]
       }

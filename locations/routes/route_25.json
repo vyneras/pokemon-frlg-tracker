@@ -263,5 +263,30 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Sea Cottage",
+    "children": [
+      {
+        "name": "Bill",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Save Bill (Event)",
+            "name": "Save Bill (Event)"
+          },
+          {
+            "ref": "Routes/Route 25/Bill Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sea_cottage",
+            "x": 120,
+            "y": 88
+          }
+        ]
+      }
+    ]
   }
 ]

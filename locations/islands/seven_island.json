@@ -3,15 +3,25 @@
     "name": "Seven Island Town",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/Unlock Fly Destination",
-            "name": "Unlock Fly Destination"
-          },
-          {
-            "ref": "Islands/Seven Island Town/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "ref": "Islands/Seven Island Town/Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -39,6 +49,26 @@
             "map": "seven_island",
             "x": 248,
             "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_pokemon_center_1f",
+            "x": 48,
+            "y": 32
           }
         ]
       }

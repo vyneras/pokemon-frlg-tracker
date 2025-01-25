@@ -3,15 +3,25 @@
     "name": "Five Island Town",
     "children": [
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Islands/Five Island Town/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Islands/Five Island Town/Unlock Fly Destination",
-            "name": "Unlock Fly Destination"
-          },
-          {
-            "ref": "Islands/Five Island Town/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "ref": "Islands/Five Island Town/Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -19,6 +29,27 @@
             "map": "five_island",
             "x": 296,
             "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "ref": "Islands/Five Island Town/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_pokemon_center_1f",
+            "x": 48,
+            "y": 32
           }
         ]
       }

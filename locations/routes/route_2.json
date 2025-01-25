@@ -55,5 +55,26 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Route 2 Gate",
+    "children": [
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/Oak's Aide Gift (Pokedex Progress)",
+            "name": "Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -199,5 +199,41 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Route 10 Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Oak's Aide Gift (Pokedex Progress)",
+            "name": "Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 200,
+            "y": 88
+          }
+        ]
+      }
+    ]
   }
 ]

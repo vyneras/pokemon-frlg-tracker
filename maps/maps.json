@@ -36,10 +36,70 @@
     "img": "images/maps/pallet_town.png"
   },
   {
+    "name": "players_house_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/players_house_1f.png"
+  },
+  {
+    "name": "players_house_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/players_house_2f.png"
+  },
+  {
+    "name": "rivals_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/rivals_house.png"
+  },
+  {
+    "name": "oaks_lab",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/oaks_lab.png"
+  },
+  {
     "name": "viridian_city",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/viridian_city.png"
+  },
+  {
+    "name": "viridian_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/viridian_house.png"
+  },
+  {
+    "name": "viridian_gym",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/viridian_gym.png"
+  },
+  {
+    "name": "viridian_school",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/viridian_school.png"
+  },
+  {
+    "name": "viridian_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/viridian_mart.png"
+  },
+  {
+    "name": "viridian_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/viridian_pokemon_center_1f.png"
+  },
+  {
+    "name": "viridian_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/viridian_pokemon_center_2f.png"
   },
   {
     "name": "pewter_city",
@@ -48,10 +108,118 @@
     "img": "images/maps/pewter_city.png"
   },
   {
+    "name": "pewter_museum_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_museum_1f.png"
+  },
+  {
+    "name": "pewter_museum_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_museum_2f.png"
+  },
+  {
+    "name": "pewter_gym",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_gym.png"
+  },
+  {
+    "name": "pewter_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_mart.png"
+  },
+  {
+    "name": "pewter_nidoran_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_nidoran_house.png"
+  },
+  {
+    "name": "pewter_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_pokemon_center_1f.png"
+  },
+  {
+    "name": "pewter_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_pokemon_center_2f.png"
+  },
+  {
+    "name": "pewter_info_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_info_house.png"
+  },
+  {
     "name": "cerulean_city",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/cerulean_city.png"
+  },
+  {
+    "name": "badge_guys_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/badge_guys_house.png"
+  },
+  {
+    "name": "robbed_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/robbed_house.png"
+  },
+  {
+    "name": "cerulean_trade_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cerulean_trade_house.png"
+  },
+  {
+    "name": "cerulean_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cerulean_pokemon_center_1f.png"
+  },
+  {
+    "name": "cerulean_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cerulean_pokemon_center_2f.png"
+  },
+  {
+    "name": "cerulean_gym",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cerulean_gym.png"
+  },
+  {
+    "name": "bike_shop",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/bike_shop.png"
+  },
+  {
+    "name": "cerulean_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cerulean_mart.png"
+  },
+  {
+    "name": "wonder_news_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/wonder_news_house.png"
+  },
+  {
+    "name": "berry_powder_mans_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/berry_powder_mans_house.png"
   },
   {
     "name": "vermilion_city",
@@ -60,10 +228,94 @@
     "img": "images/maps/vermilion_city.png"
   },
   {
+    "name": "vermilion_fishing_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/vermilion_fishing_house.png"
+  },
+  {
+    "name": "vermilion_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/vermilion_pokemon_center_1f.png"
+  },
+  {
+    "name": "vermilion_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/vermilion_pokemon_center_2f.png"
+  },
+  {
+    "name": "pokemon_fan_club",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pokemon_fan_club.png"
+  },
+  {
+    "name": "vermilion_trade_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/vermilion_trade_house.png"
+  },
+  {
+    "name": "vermilion_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/vermilion_mart.png"
+  },
+  {
+    "name": "vermilion_gym",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/vermilion_gym.png"
+  },
+  {
+    "name": "vermilion_pidgey_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/vermilion_pidgey_house.png"
+  },
+  {
     "name": "lavender_town",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/lavender_town.png"
+  },
+  {
+    "name": "lavender_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/lavender_pokemon_center_1f.png"
+  },
+  {
+    "name": "lavender_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/lavender_pokemon_center_2f.png"
+  },
+  {
+    "name": "volunteer_pokemon_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/volunteer_pokemon_house.png"
+  },
+  {
+    "name": "lavender_cubone_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/lavender_cubone_house.png"
+  },
+  {
+    "name": "name_raters_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/name_raters_house.png"
+  },
+  {
+    "name": "lavender_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/lavender_mart.png"
   },
   {
     "name": "celadon_city",
@@ -72,10 +324,184 @@
     "img": "images/maps/celadon_city.png"
   },
   {
+    "name": "celadon_department_store_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_department_store_1f.png"
+  },
+  {
+    "name": "celadon_department_store_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_department_store_2f.png"
+  },
+  {
+    "name": "celadon_department_store_3f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_department_store_3f.png"
+  },
+  {
+    "name": "celadon_department_store_4f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_department_store_4f.png"
+  },
+  {
+    "name": "celadon_department_store_5f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_department_store_5f.png"
+  },
+  {
+    "name": "celadon_department_store_roof",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_department_store_roof.png"
+  },
+  {
+    "name": "celadon_department_store_elevator",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_department_store_elevator.png"
+  },
+  {
+    "name": "celadon_condominiums_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_condominiums_1f.png"
+  },
+  {
+    "name": "celadon_condominiums_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_condominiums_2f.png"
+  },
+  {
+    "name": "celadon_condominiums_3f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_condominiums_3f.png"
+  },
+  {
+    "name": "celadon_condominiums_roof",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_condominiums_roof.png"
+  },
+  {
+    "name": "celadon_condominiums_roof_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_condominiums_roof_room.png"
+  },
+  {
+    "name": "celadon_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_pokemon_center_1f.png"
+  },
+  {
+    "name": "celadon_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_pokemon_center_2f.png"
+  },
+  {
+    "name": "celadon_game_corner",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_game_corner.png"
+  },
+  {
+    "name": "celadon_game_corner_prize_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_game_corner_prize_room.png"
+  },
+  {
+    "name": "celadon_gym",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_gym.png"
+  },
+  {
+    "name": "celadon_restaurant",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_restaurant.png"
+  },
+  {
+    "name": "celadon_rocket_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_rocket_house.png"
+  },
+  {
+    "name": "celadon_hotel",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_hotel.png"
+  },
+  {
     "name": "fuchsia_city",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/fuchsia_city.png"
+  },
+  {
+    "name": "fuchsia_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/fuchsia_mart.png"
+  },
+  {
+    "name": "safari_zone_office",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_office.png"
+  },
+  {
+    "name": "fuchsia_gym",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/fuchsia_gym.png"
+  },
+  {
+    "name": "bills_grandpas_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/bills_grandpas_house.png"
+  },
+  {
+    "name": "fuchsia_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/fuchsia_pokemon_center_1f.png"
+  },
+  {
+    "name": "fuchsia_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/fuchsia_pokemon_center_2f.png"
+  },
+  {
+    "name": "safari_zone_wardens_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_wardens_house.png"
+  },
+  {
+    "name": "fuchsia_fishing_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/fuchsia_fishing_house.png"
+  },
+  {
+    "name": "move_deleters_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/move_deleters_house.png"
   },
   {
     "name": "saffron_city",
@@ -84,16 +510,172 @@
     "img": "images/maps/saffron_city.png"
   },
   {
+    "name": "copycats_house_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/copycats_house_1f.png"
+  },
+  {
+    "name": "copycats_house_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/copycats_house_2f.png"
+  },
+  {
+    "name": "saffron_dojo",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/saffron_dojo.png"
+  },
+  {
+    "name": "saffron_gym",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/saffron_gym.png"
+  },
+  {
+    "name": "saffron_pidgey_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/saffron_pidgey_house.png"
+  },
+  {
+    "name": "saffron_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/saffron_mart.png"
+  },
+  {
+    "name": "saffron_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/saffron_pokemon_center_1f.png"
+  },
+  {
+    "name": "saffron_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/saffron_pokemon_center_2f.png"
+  },
+  {
+    "name": "mr_psychics_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/mr_psychics_house.png"
+  },
+  {
+    "name": "pokemon_trainer_fan_club",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pokemon_trainer_fan_club.png"
+  },
+  {
     "name": "cinnabar_island",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/cinnabar_island.png"
   },
   {
+    "name": "cinnabar_gym",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cinnabar_gym.png"
+  },
+  {
+    "name": "pokemon_lab_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pokemon_lab_entrance.png"
+  },
+  {
+    "name": "pokemon_lab_lounge",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pokemon_lab_lounge.png"
+  },
+  {
+    "name": "pokemon_lab_research_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pokemon_lab_research_room.png"
+  },
+  {
+    "name": "pokemon_lab_experiment_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pokemon_lab_experiment_room.png"
+  },
+  {
+    "name": "cinnabar_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cinnabar_pokemon_center_1f.png"
+  },
+  {
+    "name": "cinnabar_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cinnabar_pokemon_center_2f.png"
+  },
+  {
+    "name": "cinnabar_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/cinnabar_mart.png"
+  },
+  {
     "name": "indigo_plateau",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/indigo_plateau.png"
+  },
+  {
+    "name": "indigo_plateau_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/indigo_plateau_pokemon_center_1f.png"
+  },
+  {
+    "name": "indigo_plateau_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/indigo_plateau_pokemon_center_2f.png"
+  },
+  {
+    "name": "loreleis_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/loreleis_room.png"
+  },
+  {
+    "name": "brunos_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/brunos_room.png"
+  },
+  {
+    "name": "agathas_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/agathas_room.png"
+  },
+  {
+    "name": "lances_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/lances_room.png"
+  },
+  {
+    "name": "champions_room",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/champions_room.png"
+  },
+  {
+    "name": "hall_of_fame",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/hall_of_fame.png"
   },
   {
     "name": "viridian_forest_north",
@@ -106,6 +688,18 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/viridian_forest_south.png"
+  },
+  {
+    "name": "viridian_forest_south_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/viridian_forest_south_entrance.png"
+  },
+  {
+    "name": "viridian_forest_north_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/viridian_forest_north_entrance.png"
   },
   {
     "name": "mt_moon_1f",
@@ -124,6 +718,18 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/mt_moon_b2f.png"
+  },
+  {
+    "name": "underground_path_north_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/underground_path_north_entrance.png"
+  },
+  {
+    "name": "underground_path_south_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/underground_path_south_entrance.png"
   },
   {
     "name": "underground_path_north_south_tunnel_north",
@@ -184,6 +790,18 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/ss_anne_captains_office.png"
+  },
+  {
+    "name": "digletts_cave_north_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/digletts_cave_north_entrance.png"
+  },
+  {
+    "name": "digletts_cave_south_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/digletts_cave_south_entrance.png"
   },
   {
     "name": "digletts_cave_b1f",
@@ -252,6 +870,18 @@
     "img": "images/maps/pokemon_tower_7f.png"
   },
   {
+    "name": "underground_path_east_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/underground_path_east_entrance.png"
+  },
+  {
+    "name": "underground_path_west_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/underground_path_west_entrance.png"
+  },
+  {
     "name": "underground_path_east_west_tunnel_west",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -288,10 +918,22 @@
     "img": "images/maps/rocket_hideout_b4f.png"
   },
   {
+    "name": "safari_zone_entrance",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_entrance.png"
+  },
+  {
     "name": "safari_zone_center",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/safari_zone_center.png"
+  },
+  {
+    "name": "safari_zone_center_rest_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_center_rest_house.png"
   },
   {
     "name": "safari_zone_east",
@@ -300,16 +942,40 @@
     "img": "images/maps/safari_zone_east.png"
   },
   {
+    "name": "safari_zone_east_rest_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_east_rest_house.png"
+  },
+  {
     "name": "safari_zone_north",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/safari_zone_north.png"
   },
   {
+    "name": "safari_zone_north_rest_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_north_rest_house.png"
+  },
+  {
     "name": "safari_zone_west",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/safari_zone_west.png"
+  },
+  {
+    "name": "safari_zone_west_rest_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_west_rest_house.png"
+  },
+  {
+    "name": "safari_zone_secret_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_secret_house.png"
   },
   {
     "name": "silph_co_1f",
@@ -780,6 +1446,36 @@
     "img": "images/maps/one_island.png"
   },
   {
+    "name": "one_island_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/one_island_pokemon_center_1f.png"
+  },
+  {
+    "name": "one_island_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/one_island_pokemon_center_2f.png"
+  },
+  {
+    "name": "one_island_old_couples_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/one_island_old_couples_house.png"
+  },
+  {
+    "name": "one_island_lass_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/one_island_lass_house.png"
+  },
+  {
+    "name": "one_island_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/one_island_harbor.png"
+  },
+  {
     "name": "treasure_beach",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -822,16 +1518,58 @@
     "img": "images/maps/two_island.png"
   },
   {
+    "name": "two_island_game_corner",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/two_island_game_corner.png"
+  },
+  {
+    "name": "two_island_move_maniacs_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/two_island_move_maniacs_house.png"
+  },
+  {
+    "name": "two_island_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/two_island_pokemon_center_1f.png"
+  },
+  {
+    "name": "two_island_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/two_island_pokemon_center_2f.png"
+  },
+  {
+    "name": "two_island_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/two_island_harbor.png"
+  },
+  {
     "name": "cape_brink",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/cape_brink.png"
   },
   {
+    "name": "starter_tutors_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/starter_tutors_house.png"
+  },
+  {
     "name": "three_isle_port",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/three_isle_port.png"
+  },
+  {
+    "name": "three_isle_port_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_isle_port_harbor.png"
   },
   {
     "name": "three_isle_path",
@@ -844,6 +1582,54 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/three_island.png"
+  },
+  {
+    "name": "three_island_lostelles_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_island_lostelles_house.png"
+  },
+  {
+    "name": "three_island_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_island_pokemon_center_1f.png"
+  },
+  {
+    "name": "three_island_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_island_pokemon_center_2f.png"
+  },
+  {
+    "name": "three_island_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_island_mart.png"
+  },
+  {
+    "name": "three_island_sabrina_fans_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_island_sabrina_fans_house.png"
+  },
+  {
+    "name": "three_island_beautys_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_island_beautys_house.png"
+  },
+  {
+    "name": "three_island_worried_fathers_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_island_worried_fathers_house.png"
+  },
+  {
+    "name": "three_island_lostelles_friends_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/three_island_lostelles_friends_house.png"
   },
   {
     "name": "bond_bridge_west",
@@ -864,10 +1650,88 @@
     "img": "images/maps/four_island.png"
   },
   {
+    "name": "four_island_pokemon_day_care",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/four_island_pokemon_day_care.png"
+  },
+  {
+    "name": "four_island_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/four_island_pokemon_center_1f.png"
+  },
+  {
+    "name": "four_island_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/four_island_pokemon_center_2f.png"
+  },
+  {
+    "name": "four_island_move_tutors_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/four_island_move_tutors_house.png"
+  },
+  {
+    "name": "loreleis_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/loreleis_house.png"
+  },
+  {
+    "name": "four_island_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/four_island_harbor.png"
+  },
+  {
+    "name": "sticker_mans_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/sticker_mans_house.png"
+  },
+  {
+    "name": "four_island_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/four_island_mart.png"
+  },
+  {
     "name": "five_island",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/five_island.png"
+  },
+  {
+    "name": "five_island_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/five_island_pokemon_center_1f.png"
+  },
+  {
+    "name": "five_island_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/five_island_pokemon_center_2f.png"
+  },
+  {
+    "name": "five_island_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/five_island_harbor.png"
+  },
+  {
+    "name": "five_island_couples_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/five_island_couples_house.png"
+  },
+  {
+    "name": "five_island_old_mans_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/five_island_old_mans_house.png"
   },
   {
     "name": "five_isle_meadow",
@@ -918,10 +1782,46 @@
     "img": "images/maps/resort_gorgeous_east.png"
   },
   {
+    "name": "resort_gorgeous_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/resort_gorgeous_house.png"
+  },
+  {
     "name": "six_island",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/six_island.png"
+  },
+  {
+    "name": "six_island_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/six_island_pokemon_center_1f.png"
+  },
+  {
+    "name": "six_island_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/six_island_pokemon_center_2f.png"
+  },
+  {
+    "name": "six_island_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/six_island_harbor.png"
+  },
+  {
+    "name": "six_island_old_mans_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/six_island_old_mans_house.png"
+  },
+  {
+    "name": "six_island_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/six_island_mart.png"
   },
   {
     "name": "water_path_north",
@@ -940,6 +1840,18 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/water_path_south.png"
+  },
+  {
+    "name": "water_path_heracross_womans_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/water_path_heracross_womans_house.png"
+  },
+  {
+    "name": "water_path_mans_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/water_path_mans_house.png"
   },
   {
     "name": "ruin_valley",
@@ -978,6 +1890,36 @@
     "img": "images/maps/seven_island.png"
   },
   {
+    "name": "seven_island_battle_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/seven_island_battle_house.png"
+  },
+  {
+    "name": "seven_island_mart",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/seven_island_mart.png"
+  },
+  {
+    "name": "seven_island_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/seven_island_pokemon_center_1f.png"
+  },
+  {
+    "name": "seven_island_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/seven_island_pokemon_center_2f.png"
+  },
+  {
+    "name": "seven_island_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/seven_island_harbor.png"
+  },
+  {
     "name": "canyon_entrance",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -994,6 +1936,12 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/sevault_canyon_south.png"
+  },
+  {
+    "name": "sevault_canyon_chansey_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/sevault_canyon_chansey_house.png"
   },
   {
     "name": "tanoby_ruins_west",
@@ -1024,6 +1972,12 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/trainer_tower_exterior.png"
+  },
+  {
+    "name": "trainer_tower_lobby",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/trainer_tower_lobby.png"
   },
   {
     "name": "navel_rock_exterior",
@@ -1188,6 +2142,18 @@
     "img": "images/maps/route_2_south.png"
   },
   {
+    "name": "route_2_gate",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_2_gate.png"
+  },
+  {
+    "name": "route_2_trade_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_2_trade_house.png"
+  },
+  {
     "name": "route_3_west",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -1212,10 +2178,34 @@
     "img": "images/maps/route_4_east.png"
   },
   {
+    "name": "route_4_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_4_pokemon_center_1f.png"
+  },
+  {
+    "name": "route_4_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_4_pokemon_center_2f.png"
+  },
+  {
     "name": "route_5",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/route_5.png"
+  },
+  {
+    "name": "route_5_pokemon_day_care",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_5_pokemon_day_care.png"
+  },
+  {
+    "name": "route_5_gate",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_5_gate.png"
   },
   {
     "name": "route_6",
@@ -1224,10 +2214,22 @@
     "img": "images/maps/route_6.png"
   },
   {
+    "name": "route_6_gate",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_6_gate.png"
+  },
+  {
     "name": "route_7",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/route_7.png"
+  },
+  {
+    "name": "route_7_gate",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_7_gate.png"
   },
   {
     "name": "route_8_west",
@@ -1240,6 +2242,12 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/route_8_east.png"
+  },
+  {
+    "name": "route_8_gate",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_8_gate.png"
   },
   {
     "name": "route_9_west",
@@ -1266,6 +2274,18 @@
     "img": "images/maps/route_10_south.png"
   },
   {
+    "name": "route_10_pokemon_center_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_10_pokemon_center_1f.png"
+  },
+  {
+    "name": "route_10_pokemon_center_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_10_pokemon_center_2f.png"
+  },
+  {
     "name": "route_11_west",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -1276,6 +2296,18 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/route_11_east.png"
+  },
+  {
+    "name": "route_11_gate_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_11_gate_1f.png"
+  },
+  {
+    "name": "route_11_gate_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_11_gate_2f.png"
   },
   {
     "name": "route_12_north",
@@ -1294,6 +2326,24 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/route_12_south.png"
+  },
+  {
+    "name": "route_12_gate_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_12_gate_1f.png"
+  },
+  {
+    "name": "route_12_gate_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_12_gate_2f.png"
+  },
+  {
+    "name": "route_12_fishing_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_12_fishing_house.png"
   },
   {
     "name": "route_13_west",
@@ -1332,10 +2382,40 @@
     "img": "images/maps/route_15_east.png"
   },
   {
+    "name": "route_15_gate_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_15_gate_1f.png"
+  },
+  {
+    "name": "route_15_gate_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_15_gate_2f.png"
+  },
+  {
     "name": "route_16",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/route_16.png"
+  },
+  {
+    "name": "route_16_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_16_house.png"
+  },
+  {
+    "name": "route_16_gate_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_16_gate_1f.png"
+  },
+  {
+    "name": "route_16_gate_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_16_gate_2f.png"
   },
   {
     "name": "route_17_north",
@@ -1372,6 +2452,18 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/route_18_east.png"
+  },
+  {
+    "name": "route_18_gate_1f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_18_gate_1f.png"
+  },
+  {
+    "name": "route_18_gate_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_18_gate_2f.png"
   },
   {
     "name": "route_19_north",
@@ -1422,6 +2514,12 @@
     "img": "images/maps/route_22.png"
   },
   {
+    "name": "route_22_gate",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/route_22_gate.png"
+  },
+  {
     "name": "route_23_north",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -1462,5 +2560,11 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/route_25_east.png"
+  },
+  {
+    "name": "sea_cottage",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/sea_cottage.png"
   }
 ]

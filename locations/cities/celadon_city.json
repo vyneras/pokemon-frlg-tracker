@@ -3,7 +3,7 @@
     "name": "Celadon City",
     "children": [
       {
-        "name": "Pokémon Center",
+        "name": "Visit",
         "sections": [
           {
             "ref": "Cities/Celadon City/Unlock Fly Destination"
@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "celadon_city",
-            "x": 776,
-            "y": 184
+            "x": 12,
+            "y": 12
           }
         ]
       },
@@ -313,6 +313,630 @@
             "map": "celadon_city",
             "x": 184,
             "y": 488
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 2F",
+    "children": [
+      {
+        "name": "Woman",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Woman Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_2f",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store Roof",
+    "children": [
+      {
+        "name": "Vending Machines",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Buy Lemonade (Event)",
+            "name": "Buy Lemonade (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_roof",
+            "x": 184,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Thirsty Girl",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Fresh Water)",
+            "name": "Gift (Give Fresh Water)"
+          },
+          {
+            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Soda Pop)",
+            "name": "Gift (Give Soda Pop)"
+          },
+          {
+            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Lemonade)",
+            "name": "Gift (Give Lemonade)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_roof",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums 1F",
+    "children": [
+      {
+        "name": "Tea Woman",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Tea Woman Gift",
+            "name": "Gift"
+          },
+          {
+            "ref": "Cities/Celadon City/Tea Woman Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "x": 40,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Brock",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Brock Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "x": 8,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Misty",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Misty Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "x": 88,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Erika",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Erika Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "x": 56,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums 2F",
+    "children": [
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "x": 96,
+            "y": 112
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Game Corner",
+    "children": [
+      {
+        "name": "Fisherman",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Fisherman Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Scientist",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Scientist Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 216,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Gentleman",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Gentleman Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 264,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Southwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner Southwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 40,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "South Hidden Item (Left)",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner South Hidden Item (Left)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 104,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "South Hidden Item (Right)",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner South Hidden Item (Right)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 248,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "West Hidden Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner West Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Center Hidden Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner Center Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "East Hidden Item (Left)",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner East Hidden Item (Left)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 248,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "East Hidden Item (Right)",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner East Hidden Item (Right)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 40,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "North Hidden Item (Left)",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner North Hidden Item (Left)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 136,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "North Hidden Item (Right)",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner North Hidden Item (Right)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 168,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Northeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner Northeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 216,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 184,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Gym",
+    "children": [
+      {
+        "name": "Lass Kay",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Lass Kay Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 56,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Beauty Bridget",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Beauty Bridget Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 152,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Beauty Tamia",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Beauty Tamia Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Beauty Tamia Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 40,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Tina",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Picnicker Tina Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Mary",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Cooltrainer Mary Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 136,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Beauty Lori",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Beauty Lori Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Lass Lisa",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Lass Lisa Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Lass Lisa Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Erika",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Defeat Erika (Event)",
+            "name": "Defeat Erika (Event)"
+          },
+          {
+            "ref": "Cities/Celadon City/Leader Erika Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Erika Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Celadon City/Celadon Gym Prize",
+            "name": "Gym Prize"
+          },
+          {
+            "ref": "Cities/Celadon City/Erika TM",
+            "name": "TM"
+          },
+          {
+            "ref": "Cities/Celadon City/Erika Info 2",
+            "name": "Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Restaurant",
+    "children": [
+      {
+        "name": "Coin Case Man",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Coin Case Man Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_restaurant",
+            "x": 24,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Rocket House",
+    "children": [
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Rocket House Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_rocket_house",
+            "x": 88,
+            "y": 72
           }
         ]
       }

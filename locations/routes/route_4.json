@@ -114,5 +114,25 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Route 4 Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -194,5 +194,26 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Water Path Heracross Woman's House",
+    "children": [
+      {
+        "name": "Woman",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Woman Gift (Show Heracross)",
+            "name": "Gift (Show Heracross)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_heracross_womans_house",
+            "x": 56,
+            "y": 72
+          }
+        ]
+      }
+    ]
   }
 ]

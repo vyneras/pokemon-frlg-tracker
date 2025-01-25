@@ -6,8 +6,7 @@
         "name": "Fly House",
         "sections": [
           {
-            "ref": "Routes/Route 16/Woman Gift",
-            "name": "Woman"
+            "ref": "Routes/Route 16/Woman Gift"
           }
         ],
         "map_locations": [
@@ -163,6 +162,48 @@
             "map": "route_16",
             "x": 200,
             "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 House",
+    "children": [
+      {
+        "name": "Woman",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Woman Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_house",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Gate 2F",
+    "children": [
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Oak's Aide Gift (Pokedex Progress)",
+            "name": "Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_2f",
+            "x": 168,
+            "y": 104
           }
         ]
       }

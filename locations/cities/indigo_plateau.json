@@ -1,0 +1,393 @@
+[
+  {
+    "name": "Indigo Plateau",
+    "children": [
+      {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Cooltrainer Info",
+            "name": "Cooltrainer Info"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Black Belt Info 1",
+            "name": "Black Belt Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Black Belt Info 2",
+            "name": "Black Belt Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Bookshelf Info",
+            "name": "Bookshelf Info"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Lorelei Info 1",
+            "name": "Lorelei Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Lorelei Info 2",
+            "name": "Lorelei Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Reward",
+            "name": "Elite Four Lorelei Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Bruno Info 1",
+            "name": "Bruno Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Bruno Info 2",
+            "name": "Bruno Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Bruno Reward",
+            "name": "Elite Four Bruno Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Agatha Info 1",
+            "name": "Agatha Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Bruno Info 2",
+            "name": "Agatha Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Agatha Info 3",
+            "name": "Agatha Info 3"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Agatha Reward",
+            "name": "Elite Four Agatha Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Lance Info 1",
+            "name": "Lance Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Lance Info 2",
+            "name": "Lance Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lance Reward",
+            "name": "Elite Four Lance Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Defeat Champion (Event)",
+            "name": "Defeat Champion (Event)"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Champion Reward",
+            "name": "Champion Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Oak Gift 1",
+            "name": "Oak Gift 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Oak Gift 2",
+            "name": "Oak Gift 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Rematch Reward",
+            "name": "Elite Four Lorelei Rematch Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Bruno Rematch Reward",
+            "name": "Elite Four Bruno Rematch Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Agatha Rematch Reward",
+            "name": "Elite Four Agatha Rematch Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lance Rematch Reward",
+            "name": "Elite Four Lance Rematch Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Defeat Champion Rematch (Event)",
+            "name": "Defeat Champion Rematch (Event)"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Champion Rematch Reward",
+            "name": "Champion Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Indigo Plateau Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Cooltrainer",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Cooltrainer Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 264,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Black Belt",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Black Belt Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Black Belt Info 2",
+            "name": "Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 376,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 368,
+            "y": 160
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lorelei's Room",
+    "children": [
+      {
+        "name": "Lorelei",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Lorelei Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Lorelei Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "loreleis_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bruno's Room",
+    "children": [
+      {
+        "name": "Bruno",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Bruno Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Bruno Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Bruno Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Bruno Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "brunos_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Agatha's Room",
+    "children": [
+      {
+        "name": "Agatha",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Agatha Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Agatha Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Agatha Info 3",
+            "name": "Info 3"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Agatha Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Agatha Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "agathas_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lance's Room",
+    "children": [
+      {
+        "name": "Lance",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Lance Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Lance Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lance Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lance Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lances_room",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Champion's Room",
+    "children": [
+      {
+        "name": "Champion",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Defeat Champion (Event)",
+            "name": "Defeat Champion (Event)"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Champion Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Defeat Champion Rematch (Event)",
+            "name": "Defeat Champion Rematch (Event)"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Champion Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "champions_room",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hall of Fame",
+    "children": [
+      {
+        "name": "Oak",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Oak Gift 1",
+            "name": "Gift 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Oak Gift 2",
+            "name": "Gift 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hall_of_fame",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

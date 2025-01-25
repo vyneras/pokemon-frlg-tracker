@@ -199,5 +199,42 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Resort Gorgeous House",
+    "children": [
+      {
+        "name": "Selphy",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Selphy Gift (Show Pokemon)",
+            "name": "Gift (Show Pokemon)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "x": 144,
+            "y": 32
+          }
+        ]
+      }
+    ]
   }
 ]

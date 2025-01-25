@@ -274,5 +274,47 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Safari Zone North Rest House",
+    "children": [
+      {
+        "name": "Balding Man",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/North Rest House - Balding Man Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north_rest_house",
+            "x": 184,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Secret House",
+    "children": [
+      {
+        "name": "Attendant",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/Secret House - Campaign Prize",
+            "name": "Campaign Prize"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_secret_house",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
   }
 ]

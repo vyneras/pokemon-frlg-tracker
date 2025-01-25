@@ -3,7 +3,7 @@
     "name": "Two Island Town",
     "children": [
       {
-        "name": "Pokémon Center",
+        "name": "Visit",
         "sections": [
           {
             "ref": "Islands/Two Island Town/Unlock Fly Destination"
@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "two_island",
-            "x": 344,
-            "y": 120
+            "x": 12,
+            "y": 12
           }
         ]
       },
@@ -81,6 +81,31 @@
             "map": "two_island",
             "x": 632,
             "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Game Corner",
+    "children": [
+      {
+        "name": "Lostelle's Dad",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Deliver Meteorite (Event)",
+            "name": "Deliver Meteorite (Event)"
+          },
+          {
+            "ref": "Islands/Two Island Town/Lostelle's Dad Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_game_corner",
+            "x": 88,
+            "y": 88
           }
         ]
       }

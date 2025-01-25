@@ -3,7 +3,7 @@
     "name": "Six Island Town",
     "children": [
       {
-        "name": "Pokémon Center",
+        "name": "Visit",
         "sections": [
           {
             "ref": "Islands/Six Island Town/Unlock Fly Destination"
@@ -12,8 +12,8 @@
         "map_locations": [
           {
             "map": "six_island",
-            "x": 184,
-            "y": 184
+            "x": 12,
+            "y": 12
           }
         ]
       },
@@ -45,6 +45,27 @@
             "map": "six_island",
             "x": 152,
             "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Mart",
+    "children": [
+      {
+        "name": "Old Woman",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Old Woman Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "x": 136,
+            "y": 56
           }
         ]
       }

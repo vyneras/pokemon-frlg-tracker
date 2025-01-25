@@ -55,99 +55,1196 @@
       {
         "title": "Pallet Town",
         "content": {
-          "type": "map",
-          "maps": [
-            "pallet_town"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pallet_town"
+                ]
+              }
+            },
+            {
+              "title": "Player's House",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "players_house_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "players_house_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Rival's House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "rivals_house"
+                ]
+              }
+            },
+            {
+              "title": "Oak's Lab",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "oaks_lab"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Viridian City",
         "content": {
-          "type": "map",
-          "maps": [
-            "viridian_city"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "viridian_city"
+                ]
+              }
+            },
+            {
+              "title": "House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "viridian_house"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "viridian_gym"
+                ]
+              }
+            },
+            {
+              "title": "School",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "viridian_school"
+                ]
+              }
+            },
+            {
+              "title": "Mart",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "viridian_mart"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "viridian_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "viridian_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Pewter City",
         "content": {
-          "type": "map",
-          "maps": [
-            "pewter_city"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pewter_city"
+                ]
+              }
+            },
+            {
+              "title": "Museum",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pewter_museum_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pewter_museum_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pewter_gym"
+                ]
+              }
+            },
+            {
+              "title": "Mart",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pewter_mart"
+                ]
+              }
+            },
+            {
+              "title": "Nidoran House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pewter_nidoran_house"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pewter_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pewter_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Info House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pewter_info_house"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Cerulean City",
         "content": {
-          "type": "map",
-          "maps": [
-            "cerulean_city"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cerulean_city"
+                ]
+              }
+            },
+            {
+              "title": "Badge Guy's House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "badge_guys_house"
+                ]
+              }
+            },
+            {
+              "title": "Robbed House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "robbed_house"
+                ]
+              }
+            },
+            {
+              "title": "Trade House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cerulean_trade_house"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cerulean_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cerulean_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cerulean_gym"
+                ]
+              }
+            },
+            {
+              "title": "Bike Shop",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "bike_shop"
+                ]
+              }
+            },
+            {
+              "title": "Mart",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cerulean_mart"
+                ]
+              }
+            },
+            {
+              "title": "Wonder News House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wonder_news_house"
+                ]
+              }
+            },
+            {
+              "title": "Berry Powder Man's House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "berry_powder_mans_house"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Vermilion City",
         "content": {
-          "type": "map",
-          "maps": [
-            "vermilion_city"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "vermilion_city"
+                ]
+              }
+            },
+            {
+              "title": "Fishing House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "vermilion_fishing_house"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "vermilion_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "vermilion_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Fan Club",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pokemon_fan_club"
+                ]
+              }
+            },
+            {
+              "title": "Trade House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "vermilion_trade_house"
+                ]
+              }
+            },
+            {
+              "title": "Mart",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "vermilion_mart"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "vermilion_gym"
+                ]
+              }
+            },
+            {
+              "title": "Pidgey House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "vermilion_pidgey_house"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Lavender Town",
         "content": {
-          "type": "map",
-          "maps": [
-            "lavender_town"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "lavender_town"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lavender_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lavender_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Volunteer Pokémon House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "volunteer_pokemon_house"
+                ]
+              }
+            },
+            {
+              "title": "Cubone House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "lavender_cubone_house"
+                ]
+              }
+            },
+            {
+              "title": "Name Rater's House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "name_raters_house"
+                ]
+              }
+            },
+            {
+              "title": "Mart",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "lavender_mart"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Celadon City",
         "content": {
-          "type": "map",
-          "maps": [
-            "celadon_city"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "celadon_city"
+                ]
+              }
+            },
+            {
+              "title": "Department Store",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_department_store_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_department_store_2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_department_store_3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "4F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_department_store_4f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "5F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_department_store_5f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Roof",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_department_store_roof"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Elevator",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_department_store_elevator"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Condominiums",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_condominiums_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_condominiums_2f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "3F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_condominiums_3f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Roof",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_condominiums_roof"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Roof Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_condominiums_roof_room"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "celadon_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Game Corner",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "celadon_game_corner"
+                ]
+              }
+            },
+            {
+              "title": "Game Corner Prize Room",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "celadon_game_corner_prize_room"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "celadon_gym"
+                ]
+              }
+            },
+            {
+              "title": "Restaurant",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "celadon_restaurant"
+                ]
+              }
+            },
+            {
+              "title": "Rocket House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "celadon_rocket_house"
+                ]
+              }
+            },
+            {
+              "title": "Hotel",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "celadon_hotel"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Fuchsia City",
         "content": {
-          "type": "map",
-          "maps": [
-            "fuchsia_city"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fuchsia_city"
+                ]
+              }
+            },
+            {
+              "title": "Mart",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fuchsia_mart"
+                ]
+              }
+            },
+            {
+              "title": "Safari Zone Office",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "safari_zone_office"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fuchsia_gym"
+                ]
+              }
+            },
+            {
+              "title": "Bill's Grandpa's House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "bills_grandpas_house"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fuchsia_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fuchsia_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Safari Zone Warden's House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "safari_zone_wardens_house"
+                ]
+              }
+            },
+            {
+              "title": "Fishing House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fuchsia_fishing_house"
+                ]
+              }
+            },
+            {
+              "title": "Move Deleter's House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "move_deleters_house"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Saffron City",
         "content": {
-          "type": "map",
-          "maps": [
-            "saffron_city"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "saffron_city"
+                ]
+              }
+            },
+            {
+              "title": "Copycat's House",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "copycats_house_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "copycats_house_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Dojo",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "saffron_dojo"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "saffron_gym"
+                ]
+              }
+            },
+            {
+              "title": "Pidgey House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "saffron_pidgey_house"
+                ]
+              }
+            },
+            {
+              "title": "Mart",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "saffron_mart"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "saffron_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "saffron_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Mr. Psychic's House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mr_psychics_house"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Trainer Fan Club",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "pokemon_trainer_fan_club"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Cinnabar Island",
         "content": {
-          "type": "map",
-          "maps": [
-            "cinnabar_island"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cinnabar_island"
+                ]
+              }
+            },
+            {
+              "title": "Gym",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cinnabar_gym"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Lab",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Entrance",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_lab_entrance"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lounge",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_lab_lounge"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Research Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_lab_research_room"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Experiment Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pokemon_lab_experiment_room"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cinnabar_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cinnabar_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Mart",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "cinnabar_mart"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Indigo Plateau",
         "content": {
-          "type": "map",
-          "maps": [
-            "indigo_plateau"
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "indigo_plateau"
+                ]
+              }
+            },
+            {
+              "title": "Pokémon Center",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "indigo_plateau_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "indigo_plateau_pokemon_center_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Pokémon League",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Lorelei's Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "loreleis_room"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Bruno's Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "brunos_room"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Agatha's Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "agathas_room"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lance's Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lances_room"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Champion's Room",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "champions_room"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Hall of Fame",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "hall_of_fame"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       }
@@ -172,20 +1269,47 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "North",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_2_north"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_2_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_2_south"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "South",
+              "title": "Gate",
               "content": {
                 "type": "map",
                 "maps": [
-                  "route_2_south"
+                  "route_2_gate"
+                ]
+              }
+            },
+            {
+              "title": "Trade House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_2_trade_house"
                 ]
               }
             }
@@ -226,20 +1350,56 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "West",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_4_west"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_4_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_4_east"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "East",
+              "title": "Pokémon Center",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_4_east"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_4_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_4_pokemon_center_2f"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -249,27 +1409,90 @@
       {
         "title": "Route 5",
         "content": {
-          "type": "map",
-          "maps": [
-            "route_5"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Route",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_5"
+                ]
+              }
+            },
+            {
+              "title": "Day Care",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_5_pokemon_day_care"
+                ]
+              }
+            },
+            {
+              "title": "Gate",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_5_gate"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Route 6",
         "content": {
-          "type": "map",
-          "maps": [
-            "route_6"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Route",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_6"
+                ]
+              }
+            },
+            {
+              "title": "Gate",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_6_gate"
+                ]
+              }
+            }
           ]
         }
       },
       {
         "title": "Route 7",
         "content": {
-          "type": "map",
-          "maps": [
-            "route_7"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Route",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_7"
+                ]
+              }
+            },
+            {
+              "title": "Gate",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_7_gate"
+                ]
+              }
+            }
           ]
         }
       },
@@ -280,20 +1503,38 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "West",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_8_west"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_8_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_8_east"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "East",
+              "title": "Gate",
               "content": {
                 "type": "map",
                 "maps": [
-                  "route_8_east"
+                  "route_8_gate"
                 ]
               }
             }
@@ -334,20 +1575,56 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "North",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_10_north"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_10_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_10_south"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "South",
+              "title": "Pokémon Center",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_10_south"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_10_pokemon_center_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_10_pokemon_center_2f"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -361,20 +1638,56 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "West",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_11_west"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_11_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_11_east"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "East",
+              "title": "Gate",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_11_east"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_11_gate_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_11_gate_2f"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -388,29 +1701,74 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "North",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_12_north"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_12_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Center",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_12_center"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_12_south"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "Center",
+              "title": "Gate",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_12_center"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_12_gate_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_12_gate_2f"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "South",
+              "title": "Fishing House",
               "content": {
                 "type": "map",
                 "maps": [
-                  "route_12_south"
+                  "route_12_fishing_house"
                 ]
               }
             }
@@ -478,20 +1836,56 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "West",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_15_west"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_15_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_15_east"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "East",
+              "title": "Gate",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_15_east"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_15_gate_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_15_gate_2f"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -501,9 +1895,54 @@
       {
         "title": "Route 16",
         "content": {
-          "type": "map",
-          "maps": [
-            "route_16"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Route",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_16"
+                ]
+              }
+            },
+            {
+              "title": "Fly House",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_16_house"
+                ]
+              }
+            },
+            {
+              "title": "Gate",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_16_gate_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_16_gate_2f"
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
           ]
         }
       },
@@ -559,20 +1998,56 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "West",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_18_west"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_18_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_18_east"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "East",
+              "title": "Gate",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_18_east"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "1F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_18_gate_1f"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "2F",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_18_gate_2f"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -672,9 +2147,27 @@
       {
         "title": "Route 22",
         "content": {
-          "type": "map",
-          "maps": [
-            "route_22"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Route",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_22"
+                ]
+              }
+            },
+            {
+              "title": "Gate",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "route_22_gate"
+                ]
+              }
+            }
           ]
         }
       },
@@ -739,20 +2232,38 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "West",
+              "title": "Route",
               "content": {
-                "type": "map",
-                "maps": [
-                  "route_25_west"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_25_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "route_25_east"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "East",
+              "title": "Sea Cottage",
               "content": {
                 "type": "map",
                 "maps": [
-                  "route_25_east"
+                  "sea_cottage"
                 ]
               }
             }
@@ -771,20 +2282,47 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "North",
+              "title": "North Entrance",
               "content": {
                 "type": "map",
                 "maps": [
-                  "viridian_forest_north"
+                  "viridian_forest_north_entrance"
                 ]
               }
             },
             {
-              "title": "South",
+              "title": "South Entrance",
               "content": {
                 "type": "map",
                 "maps": [
-                  "viridian_forest_south"
+                  "viridian_forest_south_entrance"
+                ]
+              }
+            },
+            {
+              "title": "Forest",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "viridian_forest_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "viridian_forest_south"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -834,20 +2372,47 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "North",
+              "title": "North Entrance",
               "content": {
                 "type": "map",
                 "maps": [
-                  "underground_path_north_south_tunnel_north"
+                  "underground_path_north_entrance"
                 ]
               }
             },
             {
-              "title": "South",
+              "title": "South Entrance",
               "content": {
                 "type": "map",
                 "maps": [
-                  "underground_path_north_south_tunnel_south"
+                  "underground_path_south_entrance"
+                ]
+              }
+            },
+            {
+              "title": "Tunnel",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "underground_path_north_south_tunnel_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "underground_path_north_south_tunnel_south"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -938,9 +2503,35 @@
       {
         "title": "Diglett's Cave",
         "content": {
-          "type": "map",
-          "maps": [
-            "digletts_cave_b1f"
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "North Entrance",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "digletts_cave_north_entrance"
+                ]
+              }
+            },
+            {
+              "title": "South Entrance",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "digletts_cave_south_entrance"
+                ]
+              }
+            },
+            {
+              "title": "B1F",
+              "content": {
+                "maps": [
+                  "digletts_cave_b1f"
+                ]
+              }
+            }
           ]
         }
       },
@@ -1059,20 +2650,47 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "West",
+              "title": "West Entrance",
               "content": {
                 "type": "map",
                 "maps": [
-                  "underground_path_east_west_tunnel_west"
+                  "underground_path_west_entrance"
                 ]
               }
             },
             {
-              "title": "East",
+              "title": "East Entrance",
               "content": {
                 "type": "map",
                 "maps": [
-                  "underground_path_east_west_tunnel_east"
+                  "underground_path_east_entrance"
+                ]
+              }
+            },
+            {
+              "title": "Tunnel",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "West",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "underground_path_east_west_tunnel_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "East",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "underground_path_east_west_tunnel_east"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -1131,38 +2749,128 @@
           "dock": "top",
           "tabs": [
             {
-              "title": "Center Area",
+              "title": "Entrance",
               "content": {
                 "type": "map",
                 "maps": [
-                  "safari_zone_center"
+                  "safari_zone_entrance"
                 ]
               }
             },
             {
-              "title": "East Area",
+              "title": "Center",
               "content": {
-                "type": "map",
-                "maps": [
-                  "safari_zone_east"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Area",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_center"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Rest House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_center_rest_house"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "North Area",
+              "title": "East",
               "content": {
-                "type": "map",
-                "maps": [
-                  "safari_zone_north"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Area",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_east"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Rest House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_east_rest_house"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "West Area",
+              "title": "North",
               "content": {
-                "type": "map",
-                "maps": [
-                  "safari_zone_west"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Area",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Rest House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_north_rest_house"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "West",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Area",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_west"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Rest House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_west_rest_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Secret House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "safari_zone_secret_house"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -1462,9 +3170,72 @@
             {
               "title": "Town",
               "content": {
-                "type": "map",
-                "maps": [
-                  "one_island"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "one_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokémon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "one_island_pokemon_center_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "one_island_pokemon_center_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Old Couple's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "one_island_old_couples_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lass' House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "one_island_lass_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "one_island_harbor"
+                      ]
+                    }
+                  }
                 ]
               }
             },
@@ -1669,18 +3440,99 @@
             {
               "title": "Town",
               "content": {
-                "type": "map",
-                "maps": [
-                  "two_island"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "two_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Game Corner",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "two_island_game_corner"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Move Maniac's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "two_island_move_maniacs_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokémon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "two_island_pokemon_center_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "two_island_pokemon_center_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "two_island_harbor"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
               "title": "Cape Brink",
               "content": {
-                "type": "map",
-                "maps": [
-                  "cape_brink"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Cape",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cape_brink"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Starter Tutor's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "starter_tutors_house"
+                      ]
+                    }
+                  }
                 ]
               }
             }
@@ -1696,18 +3548,126 @@
             {
               "title": "Town",
               "content": {
-                "type": "map",
-                "maps": [
-                  "three_island"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lostelle's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_island_lostelles_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokémon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "three_island_pokemon_center_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "three_island_pokemon_center_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_island_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Sabrina Fan's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_island_sabrina_fans_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Beauty's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_island_beautys_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Worried Father's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_island_worried_fathers_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lostelle's Friend's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_island_lostelles_friends_house"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
               "title": "Three Isle Port",
               "content": {
-                "type": "map",
-                "maps": [
-                  "three_isle_port"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Port",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_isle_port"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "three_isle_port_harbor"
+                      ]
+                    }
+                  }
                 ]
               }
             },
@@ -1768,9 +3728,99 @@
             {
               "title": "Town",
               "content": {
-                "type": "map",
-                "maps": [
-                  "four_island"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "four_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Day Care",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "four_island_pokemon_day_care"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokémon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "four_island_pokemon_center_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "four_island_pokemon_center_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Move Tutor's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "four_island_move_tutors_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lorelei's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "loreleis_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "four_island_harbor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Sticker Man's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "sticker_mans_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "four_island_mart"
+                      ]
+                    }
+                  }
                 ]
               }
             },
@@ -1831,9 +3881,72 @@
             {
               "title": "Town",
               "content": {
-                "type": "map",
-                "maps": [
-                  "five_island"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "five_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokémon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "five_island_pokemon_center_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "five_island_pokemon_center_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "five_island_harbor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Couple's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "five_island_couples_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Old Man's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "five_island_old_mans_house"
+                      ]
+                    }
+                  }
                 ]
               }
             },
@@ -1916,20 +4029,38 @@
                 "dock": "top",
                 "tabs": [
                   {
-                    "title": "West",
+                    "title": "Resort",
                     "content": {
-                      "type": "map",
-                      "maps": [
-                        "resort_gorgeous_west"
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "West",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "resort_gorgeous_west"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "East",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "resort_gorgeous_east"
+                            ]
+                          }
+                        }
                       ]
                     }
                   },
                   {
-                    "title": "East",
+                    "title": "Selphy's House",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "resort_gorgeous_east"
+                        "resort_gorgeous_house"
                       ]
                     }
                   }
@@ -2092,9 +4223,72 @@
             {
               "title": "Town",
               "content": {
-                "type": "map",
-                "maps": [
-                  "six_island"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "six_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokémon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "six_island_pokemon_center_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "six_island_pokemon_center_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "six_island_harbor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Old Man's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "six_island_old_mans_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "six_island_mart"
+                      ]
+                    }
+                  }
                 ]
               }
             },
@@ -2105,29 +4299,56 @@
                 "dock": "top",
                 "tabs": [
                   {
-                    "title": "North",
+                    "title": "Path",
                     "content": {
-                      "type": "map",
-                      "maps": [
-                        "water_path_north"
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "North",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "water_path_north"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Center",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "water_path_center"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "water_path_south"
+                            ]
+                          }
+                        }
                       ]
                     }
                   },
                   {
-                    "title": "Center",
+                    "title": "Heracross Woman's House",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "water_path_center"
+                        "water_path_heracross_womans_house"
                       ]
                     }
                   },
                   {
-                    "title": "South",
+                    "title": "Man's House",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "water_path_south"
+                        "water_path_mans_house"
                       ]
                     }
                   }
@@ -2290,9 +4511,72 @@
             {
               "title": "Town",
               "content": {
-                "type": "map",
-                "maps": [
-                  "seven_island"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seven_island"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Battle House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seven_island_battle_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seven_island_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokémon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "seven_island_pokemon_center_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "seven_island_pokemon_center_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "seven_island_harbor"
+                      ]
+                    }
+                  }
                 ]
               }
             },
@@ -2312,20 +4596,38 @@
                 "dock": "top",
                 "tabs": [
                   {
-                    "title": "North",
+                    "title": "Canyon",
                     "content": {
-                      "type": "map",
-                      "maps": [
-                        "sevault_canyon_north"
+                      "type": "tabbed",
+                      "dock": "top",
+                      "tabs": [
+                        {
+                          "title": "North",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sevault_canyon_north"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "South",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sevault_canyon_south"
+                            ]
+                          }
+                        }
                       ]
                     }
                   },
                   {
-                    "title": "South",
+                    "title": "Chansey House",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "sevault_canyon_south"
+                        "sevault_canyon_chansey_house"
                       ]
                     }
                   }
@@ -2459,11 +4761,29 @@
               }
             },
             {
-              "title": "Trainer Tower Exterior",
+              "title": "Trainer Tower",
               "content": {
-                "type": "map",
-                "maps": [
-                  "trainer_tower_exterior"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Exterior",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "trainer_tower_exterior"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lobby",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "trainer_tower_lobby"
+                      ]
+                    }
+                  }
                 ]
               }
             }

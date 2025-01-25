@@ -72,7 +72,7 @@
         ]
       },
       {
-        "name": "Fishing Guru's Brother's House",
+        "name": "Fishing Guru's House",
         "sections": [
           {
             "ref": "Routes/Route 12 South/Fishing Guru Gift",
@@ -248,6 +248,52 @@
             "map": "route_12_south",
             "x": 168,
             "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Gate 2F",
+    "children": [
+      {
+        "name": "Mourning Lass",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Mourning Lass Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_2f",
+            "x": 120,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Fishing House",
+    "children": [
+      {
+        "name": "Fishing Guru",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Fishing Guru Gift",
+            "name": "Gift"
+          },
+          {
+            "ref": "Routes/Route 12 South/Fishing Guru Gift (Show Magikarp)",
+            "name": "Gift (Show Magikarp)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_fishing_house",
+            "x": 72,
+            "y": 72
           }
         ]
       }
