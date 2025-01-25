@@ -629,8 +629,8 @@ TAB_MAPPING = {
     [569] = { -- Ember Spa
         [0] = {"Islands", "One Island", "Ember Spa"}
     },
-    [352] = { -- Mt. Ember Ruby Path 4F
-        [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path 4F"}
+    [352] = { -- Mt. Ember Ruby Path B4F
+        [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path B4F"}
     },
     [353] = { -- Mt. Ember Exterior
         [0] = {"Islands", "One Island", "Mt. Ember", "Exterior"}
@@ -647,8 +647,8 @@ TAB_MAPPING = {
     [357] = { -- Mt. Ember Summit
         [0] = {"Islands", "One Island", "Mt. Ember", "Summit"}
     },
-    [358] = { -- Mt. Ember Ruby Path 5F
-        [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path 5F"}
+    [358] = { -- Mt. Ember Ruby Path B5F
+        [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path B5F"}
     },
     [359] = { -- Mt. Ember Ruby Path 1F
         [0] = {"Islands", "One Island", "Mt. Ember", "Ruby Path 1F"}
