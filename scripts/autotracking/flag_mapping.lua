@@ -20,9 +20,10 @@ EVENT_FLAG_MAPPING = {
     [18] = { "rescue_selphy" },
     [19] = { "learn_yes_nah_chansey" },
     [20] = { "free_captured_pokemon" },
-    [21] = { "restore_pokemon_network_machine" },
-    [22] = { "defeat_champion_rematch" },
-    [23] = { "lemonade" }
+    [21] = { "unlock_ruins" },
+    [22] = { "restore_pokemon_network_machine" },
+    [23] = { "defeat_champion_rematch" },
+    [24] = { "lemonade" }
 }
 
 FLY_UNLOCK_FLAG_MAPPING = {
