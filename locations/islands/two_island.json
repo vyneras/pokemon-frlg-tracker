@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 344,
+            "y": 120
+          }
+        ]
+      },
+      {
         "name": "Item Behind Cuttable Tree",
         "sections": [
           {
@@ -81,6 +96,27 @@
             "map": "two_island",
             "x": 632,
             "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
           }
         ]
       }

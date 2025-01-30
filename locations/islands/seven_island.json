@@ -21,7 +21,12 @@
         "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/Bookshelf Info"
+            "ref": "Islands/Seven Island Town/PC Item",
+            "name": "PC Item"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Bookshelf Info",
+            "name": "Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -57,6 +62,22 @@
   {
     "name": "Seven Island Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Bookshelf",
         "sections": [

@@ -53,6 +53,10 @@
         "name": "Pokémon Center",
         "sections": [
           {
+            "ref": "Cities/Cinnabar Island/PC Item",
+            "name": "PC Item"
+          },
+          {
             "ref": "Cities/Cinnabar Island/Bill Gift",
             "name": "Bill Gift"
           },
@@ -355,6 +359,22 @@
   {
     "name": "Cinnabar Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Bill",
         "sections": [

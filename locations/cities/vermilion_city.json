@@ -53,6 +53,10 @@
         "name": "Pokémon Center",
         "sections": [
           {
+            "ref": "Cities/Vermilion City/PC Item",
+            "name": "PC Item"
+          },
+          {
             "ref": "Cities/Vermilion City/Vs. Seeker Woman Gift",
             "name": "Vs. Seeker Woman Gift"
           },
@@ -183,8 +187,24 @@
     ]
   },
   {
-    "name": "Vermilion Pokémon Center",
+    "name": "Vermilion Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Vs. Seeker Woman",
         "sections": [

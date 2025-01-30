@@ -153,6 +153,24 @@
       }
     ]
   },
+  "start_town_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "item_size": "184,32",
+        "rows": [
+          [
+            "start_town_setting"
+          ]
+        ]
+      }
+    ]
+  },
   "free_fly_grid": {
     "type": "array",
     "orientation": "horizontal",

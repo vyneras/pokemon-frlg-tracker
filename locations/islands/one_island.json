@@ -21,6 +21,10 @@
         "name": "Pokémon Center",
         "sections": [
           {
+            "ref": "Islands/One Island Town/PC Item",
+            "name": "PC Item"
+          },
+          {
             "ref": "Islands/One Island Town/Delivery for Lostelle's Dad",
             "name": "Delivery for Lostelle's Dad"
           },
@@ -66,6 +70,22 @@
   {
     "name": "One Island Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Islands/One Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "x": 152,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Bill",
         "sections": [

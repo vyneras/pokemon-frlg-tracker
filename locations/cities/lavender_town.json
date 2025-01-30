@@ -21,7 +21,12 @@
         "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Balding Man Info"
+            "ref": "Cities/Lavender Town/PC Item",
+            "name": "PC Item"
+          },
+          {
+            "ref": "Cities/Lavender Town/Balding Man Info",
+            "name": "Balding Man Info"
           }
         ],
         "map_locations": [
@@ -59,8 +64,24 @@
     ]
   },
   {
-    "name": "Lavender Pokémon Center",
+    "name": "Lavender Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Lavender Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Balding Man",
         "sections": [

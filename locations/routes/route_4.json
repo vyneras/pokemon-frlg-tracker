@@ -6,7 +6,12 @@
         "name": "Pokémon Center",
         "sections": [
           {
-            "ref": "Routes/Route 4 West/Unlock Fly Destination"
+            "ref": "Routes/Route 4 West/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "ref": "Routes/Route 4 West/PC Item",
+            "name": "PC Item"
           }
         ],
         "map_locations": [
@@ -118,6 +123,22 @@
   {
     "name": "Route 4 Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Visit",
         "sections": [

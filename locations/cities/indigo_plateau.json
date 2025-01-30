@@ -21,6 +21,10 @@
         "name": "Pokémon Center",
         "sections": [
           {
+            "ref": "Cities/Indigo Plateau/PC Item",
+            "name": "PC Item"
+          },
+          {
             "ref": "Cities/Indigo Plateau/Cooltrainer Info",
             "name": "Cooltrainer Info"
           },
@@ -142,6 +146,22 @@
   {
     "name": "Indigo Plateau Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
       {
         "name": "Cooltrainer",
         "sections": [

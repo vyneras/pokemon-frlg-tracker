@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 424,
+            "y": 424
+          }
+        ]
+      },
+      {
         "name": "Poké Mart",
         "sections": [
           {
@@ -153,6 +168,27 @@
             "map": "viridian_city",
             "x": 584,
             "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Pokémon Center 1F",
+    "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_pokemon_center_1f",
+            "x": 184,
+            "y": 24
           }
         ]
       }

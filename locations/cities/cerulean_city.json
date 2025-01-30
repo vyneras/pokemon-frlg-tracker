@@ -21,6 +21,10 @@
         "name": "Pokémon Center",
         "sections": [
           {
+            "ref": "Cities/Cerulean City/PC Item",
+            "name": "PC Item"
+          },
+          {
             "ref": "Cities/Cerulean City/Youngster Info",
             "name": "Youngster Info"
           },
@@ -193,8 +197,24 @@
     ]
   },
   {
-    "name": "Cerulean Pokémon Center",
+    "name": "Cerulean Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Youngster",
         "sections": [

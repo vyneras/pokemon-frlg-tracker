@@ -80,6 +80,15 @@
         },
         {
           "type": "group",
+          "header": "Starting Town",
+          "dock": "top",
+          "content": {
+            "type": "layout",
+            "key": "start_town_grid"
+          }
+        },
+        {
+          "type": "group",
           "header": "Free Fly Locations",
           "dock": "top",
           "content": {

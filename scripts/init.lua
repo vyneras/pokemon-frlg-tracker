@@ -1,4 +1,4 @@
-ENABLE_DEBUG_LOG = true
+-- ENABLE_DEBUG_LOG = true
 
 ScriptHost:LoadScript("scripts/autotracking.lua")
 ScriptHost:LoadScript("scripts/utils.lua")

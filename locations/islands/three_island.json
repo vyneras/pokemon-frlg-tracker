@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 232,
+            "y": 440
+          }
+        ]
+      },
+      {
         "name": "Anti-Biker",
         "sections": [
           {
@@ -156,6 +171,27 @@
             "map": "three_island",
             "x": 56,
             "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
           }
         ]
       }

@@ -22,6 +22,14 @@
             ]
           },
           {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_one_island"
+            ]
+          },
+          {
             "name": "Delivery for Lostelle's Dad",
             "chest_unopened_img": "images/locations/bill_meteorite.png",
             "chest_opened_img": "images/locations/bill_meteorite_bw.png"
@@ -426,6 +434,14 @@
             ]
           },
           {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_two_island"
+            ]
+          },
+          {
             "name": "Item Behind Cuttable Tree",
             "access_rules": [
               "$cut"
@@ -591,6 +607,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_three_island"
             ]
           },
           {
@@ -811,6 +835,14 @@
             ]
           },
           {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_four_island"
+            ]
+          },
+          {
             "name": "Beach Southeast Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -917,6 +949,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_five_island"
             ]
           },
           {
@@ -1316,6 +1356,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_six_island"
             ]
           },
           {
@@ -1727,6 +1775,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_seven_island"
             ]
           },
           {

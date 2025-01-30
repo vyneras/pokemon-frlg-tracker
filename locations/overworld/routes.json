@@ -6,6 +6,9 @@
     "children": [
       {
         "name": "Route 1",
+        "access_rules": [
+          "@Pallet Town Access"
+        ],
         "sections": [
           {
             "name": "Free Sample",
@@ -31,7 +34,7 @@
       {
         "name": "Route 2",
         "access_rules": [
-          "$cut"
+          "@Pewter City Access,$cut"
         ],
         "sections": [
           {
@@ -174,6 +177,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_route_4"
             ]
           },
           {
@@ -693,6 +704,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_route_10"
             ]
           },
           {
@@ -2004,7 +2023,7 @@
       {
         "name": "Route 20 West",
         "access_rules": [
-          "$surf"
+          "@Cinnabar Island Access,$surf"
         ],
         "sections": [
           {
@@ -2150,7 +2169,7 @@
       {
         "name": "Route 21",
         "access_rules": [
-          "$surf"
+          "@Cinnabar Island Access,$surf"
         ],
         "sections": [
           {
@@ -2254,6 +2273,9 @@
       },
       {
         "name": "Route 22",
+        "access_rules": [
+          "@Viridian City Access"
+        ],
         "sections": [
           {
             "name": "Defeat Rival (Event)",

@@ -1182,6 +1182,134 @@
     "codes": "volcano_badge_required"
   },
   {
+    "name": "Starting Town",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/start_town_pallet.png",
+        "codes": "start_town_setting,start_town_pallet",
+        "inherit_codes": false,
+        "name": "Starting Town - Pallet Town"
+      },
+      {
+        "img": "images/settings/start_town_viridian.png",
+        "codes": "start_town_setting,start_town_viridian",
+        "inherit_codes": false,
+        "name": "Starting Town - Viridian City"
+      },
+      {
+        "img": "images/settings/start_town_pewter.png",
+        "codes": "start_town_setting,start_town_pewter",
+        "inherit_codes": false,
+        "name": "Starting Town - Pewter City"
+      },
+      {
+        "img": "images/settings/start_town_route_4.png",
+        "codes": "start_town_setting,start_town_route_4",
+        "inherit_codes": false,
+        "name": "Starting Town - Route 4"
+      },
+      {
+        "img": "images/settings/start_town_cerulean.png",
+        "codes": "start_town_setting,start_town_cerulean",
+        "inherit_codes": false,
+        "name": "Starting Town - Cerulean City"
+      },
+      {
+        "img": "images/settings/start_town_vermilion.png",
+        "codes": "start_town_setting,start_town_vermilion",
+        "inherit_codes": false,
+        "name": "Starting Town - Vermilion City"
+      },
+      {
+        "img": "images/settings/start_town_route_10.png",
+        "codes": "start_town_setting,start_town_route_10",
+        "inherit_codes": false,
+        "name": "Starting Town - Route 10"
+      },
+      {
+        "img": "images/settings/start_town_lavender.png",
+        "codes": "start_town_setting,start_town_lavender",
+        "inherit_codes": false,
+        "name": "Starting Town - Lavender Town"
+      },
+      {
+        "img": "images/settings/start_town_celadon.png",
+        "codes": "start_town_setting,start_town_celadon",
+        "inherit_codes": false,
+        "name": "Starting Town - Celadon City"
+      },
+      {
+        "img": "images/settings/start_town_fuchsia.png",
+        "codes": "start_town_setting,start_town_fuchsia",
+        "inherit_codes": false,
+        "name": "Starting Town - Fuchsia City"
+      },
+      {
+        "img": "images/settings/start_town_saffron.png",
+        "codes": "start_town_setting,start_town_saffron",
+        "inherit_codes": false,
+        "name": "Starting Town - Saffron City"
+      },
+      {
+        "img": "images/settings/start_town_cinnabar.png",
+        "codes": "start_town_setting,start_town_cinnabar",
+        "inherit_codes": false,
+        "name": "Starting Town - Cinnabar Island"
+      },
+      {
+        "img": "images/settings/start_town_indigo.png",
+        "codes": "start_town_setting,start_town_indigo",
+        "inherit_codes": false,
+        "name": "Starting Town - Indigo Plateau"
+      },
+      {
+        "img": "images/settings/start_town_one_island.png",
+        "codes": "start_town_setting,start_town_one_island",
+        "inherit_codes": false,
+        "name": "Starting Town - One Island"
+      },
+      {
+        "img": "images/settings/start_town_two_island.png",
+        "codes": "start_town_setting,start_town_two_island",
+        "inherit_codes": false,
+        "name": "Starting Town - Two Island"
+      },
+      {
+        "img": "images/settings/start_town_three_island.png",
+        "codes": "start_town_setting,start_town_three_island",
+        "inherit_codes": false,
+        "name": "Starting Town - Three Island"
+      },
+      {
+        "img": "images/settings/start_town_four_island.png",
+        "codes": "start_town_setting,start_town_four_island",
+        "inherit_codes": false,
+        "name": "Starting Town - Four Island"
+      },
+      {
+        "img": "images/settings/start_town_five_island.png",
+        "codes": "start_town_setting,start_town_five_island",
+        "inherit_codes": false,
+        "name": "Starting Town - Five Island"
+      },
+      {
+        "img": "images/settings/start_town_six_island.png",
+        "codes": "start_town_setting,start_town_six_island",
+        "inherit_codes": false,
+        "name": "Starting Town - Six Island"
+      },
+      {
+        "img": "images/settings/start_town_seven_island.png",
+        "codes": "start_town_setting,start_town_seven_island",
+        "inherit_codes": false,
+        "name": "Starting Town - Seven Island"
+      }
+    ]
+  },
+  {
     "name": "Free Fly Location",
     "type": "progressive",
     "allow_disabled": false,
@@ -1192,6 +1320,18 @@
         "codes": "free_fly_setting,free_fly_none",
         "inherit_codes": false,
         "name": "Free Fly Location - None"
+      },
+      {
+        "img": "images/settings/free_fly_pallet.png",
+        "codes": "free_fly_setting,free_fly_pallet",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Pallet Town"
+      },
+      {
+        "img": "images/settings/free_fly_viridian.png",
+        "codes": "free_fly_setting,free_fly_viridian",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Viridian City"
       },
       {
         "img": "images/settings/free_fly_pewter.png",
@@ -1314,6 +1454,18 @@
         "codes": "town_map_fly_setting,town_map_fly_none",
         "inherit_codes": false,
         "name": "Town Map Fly Location - None"
+      },
+      {
+        "img": "images/settings/town_map_fly_pallet.png",
+        "codes": "town_map_fly_setting,town_map_fly_pallet",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Pallet Town"
+      },
+      {
+        "img": "images/settings/town_map_fly_viridian.png",
+        "codes": "town_map_fly_setting,town_map_fly_viridian",
+        "inherit_codes": false,
+        "name": "Town Map Fly Location - Viridian City"
       },
       {
         "img": "images/settings/town_map_fly_pewter.png",

@@ -10,6 +10,10 @@
             "name": "Unlock Fly Destination"
           },
           {
+            "ref": "Routes/Route 10 North/PC Item",
+            "name": "PC Item"
+          },
+          {
             "ref": "Routes/Route 10 North/Oak's Aide Gift (Pokedex Progress)",
             "name": "Oak's Aide Gift (Pokedex Progress)"
           }
@@ -203,6 +207,22 @@
   {
     "name": "Route 10 Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Visit",
         "sections": [

@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
         "name": "Poké Mart",
         "sections": [
           {
@@ -45,6 +60,27 @@
             "map": "six_island",
             "x": 152,
             "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
           }
         ]
       }

@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 408,
+            "y": 504
+          }
+        ]
+      },
+      {
         "name": "Gym Sign",
         "sections": [
           {
@@ -212,6 +227,27 @@
             "map": "safari_zone_office",
             "x": 104,
             "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Pokémon Center 1F",
+    "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_pokemon_center_1f",
+            "x": 184,
+            "y": 24
           }
         ]
       }

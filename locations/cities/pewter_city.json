@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 280,
+            "y": 408
+          }
+        ]
+      },
+      {
         "name": "Gym Sign",
         "sections": [
           {
@@ -133,6 +148,27 @@
             "map": "pewter_city",
             "x": 744,
             "y": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Pokémon Center 1F",
+    "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_pokemon_center_1f",
+            "x": 184,
+            "y": 24
           }
         ]
       }

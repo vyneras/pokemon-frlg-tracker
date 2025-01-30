@@ -6,6 +6,9 @@
     "children": [
       {
         "name": "Pallet Town",
+        "access_rules": [
+          "@Pallet Town Access"
+        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
@@ -18,7 +21,10 @@
           {
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
-            "chest_opened_img": "images/locations/pc_potion_bw.png"
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_pallet"
+            ]
           },
           {
             "name": "Oak's Lab Sign Info",
@@ -130,6 +136,9 @@
       },
       {
         "name": "Viridian City",
+        "access_rules": [
+          "@Viridian City Access"
+        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
@@ -137,6 +146,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_viridian"
             ]
           },
           {
@@ -362,6 +379,14 @@
             ]
           },
           {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_pewter"
+            ]
+          },
+          {
             "name": "Fat Man Info",
             "chest_unopened_img": "images/locations/fat_man_info.png",
             "chest_opened_img": "images/locations/fat_man_info_bw.png",
@@ -488,6 +513,14 @@
             ],
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_cerulean"
             ]
           },
           {
@@ -718,6 +751,14 @@
             ]
           },
           {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_vermilion"
+            ]
+          },
+          {
             "name": "Hidden Item Near Pokémon Center",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -927,6 +968,14 @@
             ]
           },
           {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_lavender"
+            ]
+          },
+          {
             "name": "Balding Man Info",
             "chest_unopened_img": "images/locations/balding_man_info.png",
             "chest_opened_img": "images/locations/balding_man_info_bw.png",
@@ -993,6 +1042,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_celadon"
             ]
           },
           {
@@ -1469,6 +1526,14 @@
             ]
           },
           {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_fuchsia"
+            ]
+          },
+          {
             "name": "Fishing Guru Gift",
             "chest_unopened_img": "images/locations/fisherman_good_rod.png",
             "chest_opened_img": "images/locations/fisherman_good_rod_bw.png"
@@ -1668,6 +1733,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_saffron"
             ]
           },
           {
@@ -1943,6 +2016,14 @@
             ]
           },
           {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_cinnabar"
+            ]
+          },
+          {
             "name": "Gym Sign Info",
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
@@ -2176,6 +2257,14 @@
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
               "fly_destination_unlocks_on"
+            ]
+          },
+          {
+            "name": "PC Item",
+            "chest_unopened_img": "images/locations/pc_potion.png",
+            "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "visibility_rules": [
+              "start_town_indigo"
             ]
           },
           {

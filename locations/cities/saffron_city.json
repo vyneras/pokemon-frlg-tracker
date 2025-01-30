@@ -21,6 +21,10 @@
         "name": "Pokémon Center",
         "sections": [
           {
+            "ref": "Cities/Saffron City/PC Item",
+            "name": "PC Item"
+          },
+          {
             "ref": "Cities/Saffron City/Pokémon Center Bookshelf Info",
             "name": "Bookshelf Info"
           }
@@ -480,6 +484,22 @@
   {
     "name": "Saffron Pokémon Center 1F",
     "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
       {
         "name": "Bookshelf",
         "sections": [

@@ -18,6 +18,21 @@
         ]
       },
       {
+        "name": "Pokémon Center",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 776,
+            "y": 184
+          }
+        ]
+      },
+      {
         "name": "Northwest Item",
         "sections": [
           {
@@ -313,6 +328,27 @@
             "map": "celadon_city",
             "x": 184,
             "y": 488
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Pokémon Center 1F",
+    "children": [
+      {
+        "name": "PC",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_pokemon_center_1f",
+            "x": 184,
+            "y": 24
           }
         ]
       }

@@ -1,5 +1,11 @@
 LOCATION_MAPPING = {
-    [740]   = {"@Cities/Pallet Town/PC Item"},
+    [740]   = {"@Cities/Pallet Town/PC Item", "@Cities/Viridian City/PC Item", "@Cities/Pewter City/PC Item",
+               "@Cities/Cerulean City/PC Item", "@Cities/Vermilion City/PC Item", "@Cities/Lavender Town/PC Item",
+               "@Cities/Celadon City/PC Item", "@Cities/Fuchsia City/PC Item", "@Cities/Saffron City/PC Item",
+               "@Cities/Cinnabar Island/PC Item", "@Cities/Indigo Plateau/PC Item", "@Islands/One Island Town/PC Item",
+               "@Islands/Two Island Town/PC Item", "@Islands/Three Island Town/PC Item", "@Islands/Four Island Town/PC Item",
+               "@Islands/Five Island Town/PC Item", "@Islands/Six Island Town/PC Item", "@Islands/Seven Island Town/PC Item",
+               "@Routes/Route 4 West/PC Item", "@Routes/Route 10 North/PC Item"},
     [1223]  = {"@Cities/Pallet Town/Unlock Fly Destination"},
     [24576] = {"@Cities/Pallet Town/Oak's Lab Sign Info"},
     [588]   = {"@Cities/Pallet Town/Daisy Gift"},
