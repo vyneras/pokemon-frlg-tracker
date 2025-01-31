@@ -1,6 +1,49 @@
 {
   "versions": [
     {
+      "package_version": "1.6.2",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.6.2.zip",
+      "sha256": "81e345db9181a4012319ebad6e333668108c352817f1a8d473f2b0684c2d1e82",
+      "changelog": [
+        "Added Starting Town to the Settings Menu",
+        "Connecting to AP will now hide Trainersanity locations that do not have checks",
+        "Updated the Shuffle Fly Unlocks setting to have three options: off, some, or all",
+        "Fixed an issue with Route 12 North access rules"
+      ]
+    },
+    {
+      "package_version": "1.6.1",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.6.1.zip",
+      "sha256": "8bab1c9e401ea30d70a28e3b80a5b9a8bba6df19ade4813432433f42c4855691",
+      "changelog": [
+        "Added auto tracking for unlocking Tanoby Ruins",
+        "Switched the split map layout for the vertical map variant to a proper vertical layout",
+        "Added back in Diglett's Cave B1F map"
+      ]
+    },
+    {
+      "package_version": "1.6.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.6.0.zip",
+      "sha256": "6f2927e831167727e9ff3b97e2115e89a34ef97d86dc25ec4eb33e12c13d2962",
+      "changelog": [
+        "Added split map view",
+        "Added pretty much all interior maps (exceptions are Trainer Tower other than the lobby and the unreachable room in the Seven Island House)",
+        "Added split Teas setting and items",
+        "Added Open Silph Co. setting",
+        "Added Remove Saffron Rockets setting",
+        "Added Block Vermilion Sailing setting",
+        "Added Elite Four Rematch requirements and count settings",
+        "Removed money grinding access rules",
+        "Added Coin Case to Celadon Game Corner hidden items access rules",
+        "Added Route 12 boulders to the access rules of Lavender <-> Route 12 North Access when the setting is on",
+        "Updated the split Card Key and Pass locations",
+        "Renamed several locations",
+        "Added new locations",
+        "Fly unlocks are now auto tracked when randomized without needing to connect to the game",
+        "Fixed issue where the map wouldn't auto tab to Mt. Ember Ruby Path B4F and B5F"
+      ]
+    },
+    {
       "package_version": "1.5.1",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.5.1.zip",
       "sha256": "92d9d12ccef6ab1a3d0e9b0e958ab7c2584ac0d6a4ae617071e0944c8330de5b",
