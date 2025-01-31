@@ -1,4 +1,5 @@
 -- ENABLE_DEBUG_LOG = true
+Tracker.AllowDeferredLogicUpdate = true
 
 ScriptHost:LoadScript("scripts/autotracking.lua")
 ScriptHost:LoadScript("scripts/utils.lua")

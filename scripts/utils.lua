@@ -8,10 +8,6 @@ function has(item, amount)
     end
 end
 
-function not_has(item)
-    return not has(item)
-end
-
 function dump_table(o, depth)
     if depth == nil then
         depth = 0

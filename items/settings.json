@@ -152,10 +152,16 @@
       },
       {
         "img": "images/settings/fly_destinations.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_on",
+        "img_mods": "overlay|/images/overlays/some.png",
+        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_some",
         "inherit_codes": false,
-        "name": "Shuffle Fly Destination Unlocks - On"
+        "name": "Shuffle Fly Destination Unlocks - Excldue Indigo"
+      },
+      {
+        "img": "images/settings/fly_destinations.png",
+        "img_mods": "overlay|/images/overlays/all.png",
+        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_all",
+        "name": "Shuffle Fly Destination Unlocks - All"
       }
     ]
   },
@@ -333,6 +339,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
+    "initial_stage_idx": 1,
     "stages": [
       {
         "img": "images/settings/fame_checker.png",

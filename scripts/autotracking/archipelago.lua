@@ -3,6 +3,7 @@ ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/trainer_mapping.lua")
 
 CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
@@ -101,6 +102,33 @@ function resetDarkCaves()
     end
 end
 
+function set_trainersanity_visibility()
+    local checked_locations = Archipelago.CheckedLocations
+    local missing_locations = Archipelago.MissingLocations
+    remove_trainer_checks = {}
+    for value, _ in pairs(TRAINER_MAPPING) do
+        remove_trainer_checks[value] = true
+    end
+    for _, value in pairs(checked_locations) do
+        if remove_trainer_checks[remove_base_offset(value)] ~= nil then
+            remove_trainer_checks[remove_base_offset(value)] = false
+        end
+    end
+    for _, value in pairs(missing_locations) do
+        if remove_trainer_checks[remove_base_offset(value)] ~= nil then
+            remove_trainer_checks[remove_base_offset(value)] = false
+        end
+    end
+    for value, code in pairs(TRAINER_MAPPING) do
+        if remove_trainer_checks[value] then
+            local object = Tracker:FindObjectForCode(code)
+            if object then
+                object.Active = false
+            end
+        end
+    end
+end
+
 function onClear(slot_data)
     Tracker.BulkUpdate = true
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
@@ -152,6 +180,9 @@ function onClear(slot_data)
                 print(string.format("No setting could be found for key: %s", key))
             end
         end
+    end
+    if has("trainersanity_on") then
+        set_trainersanity_visibility()
     end
     if PLAYER_NUMBER > -1 then
         updateEvents(0)
