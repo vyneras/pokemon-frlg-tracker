@@ -123,7 +123,9 @@
     "name": "Route 12 North Access",
     "access_rules": [
       "@Vermilion City Access,poke_flute,$route_12",
-      "@Lavender Town Access,$route_12"
+      "@Lavender Town Access,$route_12",
+      "@Route 12 South Access,poke_flute",
+      "@Route 12 South Access,$surf,modify_route_12_off"
     ]
   },
   {
