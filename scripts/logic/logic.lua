@@ -3,8 +3,6 @@ BADGES = {"boulder_badge", "cascade_badge", "thunder_badge", "rainbow_badge", "s
 GYMS = {"defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defeat_koga", "defeat_sabrina",
         "defeat_blaine", "defeat_giovanni"}
 
-
-
 function cut()
     return (has("cascade_badge") or not has("cascade_badge_required")) and has("hm01_cut")
 end
