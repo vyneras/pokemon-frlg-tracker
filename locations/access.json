@@ -75,13 +75,7 @@
       "@Fuchsia City Access,poke_flute,$route_12",
       "@Saffron City Access,tea",
       "@Saffron City Access,red_tea",
-      "@One Island Access,$vermilion_sailing",
-      "@Two Island Access,$vermilion_sailing",
-      "@Three Island Access,$vermilion_sailing",
-      "@Four Island Access,$vermilion_sailing",
-      "@Five Island Access,$vermilion_sailing",
-      "@Six Island Access,$vermilion_sailing",
-      "@Seven Island Access,$vermilion_sailing"
+      "@Seagallop Access,$vermilion_sailing"
     ]
   },
   {
@@ -213,8 +207,8 @@
       "start_town_one_island",
       "$fly|one_island",
       "defeat_blaine,kanto_only_off",
-      "@Vermilion City Access,tri_pass",
-      "@Vermilion City Access,one_pass"
+      "@Seagallop Access,tri_pass",
+      "@Seagallop Access,one_pass"
     ]
   },
   {
@@ -223,8 +217,8 @@
       "start_town_two_island",
       "$fly|two_island",
       "rescue_lostelle",
-      "@Vermilion City Access,tri_pass",
-      "@Vermilion City Access,two_pass"
+      "@Seagallop Access,tri_pass",
+      "@Seagallop Access,two_pass"
     ]
   },
   {
@@ -232,8 +226,8 @@
     "access_rules": [
       "start_town_three_island",
       "$fly|three_island",
-      "@Vermilion City Access,tri_pass",
-      "@Vermilion City Access,three_pass"
+      "@Seagallop Access,tri_pass",
+      "@Seagallop Access,three_pass"
     ]
   },
   {
@@ -241,8 +235,8 @@
     "access_rules": [
       "start_town_four_island",
       "$fly|four_island",
-      "@Vermilion City Access,rainbow_pass",
-      "@Vermilion City Access,four_pass"
+      "@Seagallop Access,rainbow_pass",
+      "@Seagallop Access,four_pass"
     ]
   },
   {
@@ -250,8 +244,8 @@
     "access_rules": [
       "start_town_five_island",
       "$fly|five_island",
-      "@Vermilion City Access,rainbow_pass",
-      "@Vermilion City Access,five_pass"
+      "@Seagallop Access,rainbow_pass",
+      "@Seagallop Access,five_pass"
     ]
   },
   {
@@ -259,8 +253,8 @@
     "access_rules": [
       "start_town_six_island",
       "$fly|six_island",
-      "@Vermilion City Access,rainbow_pass",
-      "@Vermilion City Access,six_pass"
+      "@Seagallop Access,rainbow_pass",
+      "@Seagallop Access,six_pass"
     ]
   },
   {
@@ -268,14 +262,27 @@
     "access_rules": [
       "start_town_seven_island",
       "$fly|seven_island",
-      "@Vermilion City Access,rainbow_pass",
-      "@Vermilion City Access,seven_pass"
+      "@Seagallop Access,rainbow_pass",
+      "@Seagallop Access,seven_pass"
     ]
   },
   {
     "name": "Navel Rock Access",
     "access_rules": [
       "@Vermilion City Access,mystic_ticket"
+    ]
+  },
+  {
+    "name": "Seagallop Access",
+    "access_rules": [
+      "@Vermilion City Access",
+      "@One Island Access",
+      "@Two Island Access",
+      "@Three Island Access",
+      "@Four Island Access",
+      "@Five Island Access",
+      "@Six Island Access",
+      "@Seven Island Access"
     ]
   }
 ]
