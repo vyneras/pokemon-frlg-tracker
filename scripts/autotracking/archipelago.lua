@@ -41,12 +41,6 @@ EVENT_ID = ""
 FLY_UNLOCK_ID = ""
 POKEDEX_ID = ""
 
-BASE_OFFSET = 6420000
-
-function remove_base_offset(value)
-    return value - BASE_OFFSET
-end
-
 function resetItems()
     for _, value in pairs(ITEM_MAPPING) do
         if value[1] then
@@ -110,20 +104,22 @@ function set_trainersanity_visibility()
         remove_trainer_checks[value] = true
     end
     for _, value in pairs(checked_locations) do
-        if remove_trainer_checks[remove_base_offset(value)] ~= nil then
-            remove_trainer_checks[remove_base_offset(value)] = false
+        if remove_trainer_checks[value] ~= nil then
+            remove_trainer_checks[value] = false
         end
     end
     for _, value in pairs(missing_locations) do
-        if remove_trainer_checks[remove_base_offset(value)] ~= nil then
-            remove_trainer_checks[remove_base_offset(value)] = false
+        if remove_trainer_checks[value] ~= nil then
+            remove_trainer_checks[value] = false
         end
     end
     for value, code in pairs(TRAINER_MAPPING) do
-        if remove_trainer_checks[value] then
-            local object = Tracker:FindObjectForCode(code)
-            if object then
+        local object = Tracker:FindObjectForCode(code)
+        if object then
+            if remove_trainer_checks[value] then
                 object.Active = false
+            else
+                object.Active = true
             end
         end
     end
@@ -206,7 +202,7 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
     CUR_INDEX = index
-    local value = ITEM_MAPPING[remove_base_offset(item_id)]
+    local value = ITEM_MAPPING[item_id]
     if not value then
         return
     end
@@ -263,7 +259,7 @@ function addProgressivePass()
 end
 
 function onLocation(location_id, location_name)
-    local value = LOCATION_MAPPING[remove_base_offset(location_id)]
+    local value = LOCATION_MAPPING[location_id]
     if not value then
         return
     end

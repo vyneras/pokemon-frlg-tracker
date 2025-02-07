@@ -2028,6 +2028,15 @@
             ]
           },
           {
+            "name": "7F - Rival Gift",
+            "chest_unopened_img": "images/locations/rival_link_cable.png",
+            "chest_opened_img": "images/locations/rival_link_cable_bw.png",
+            "access_rules": [
+              "card_key",
+              "card_key_3f"
+            ]
+          },
+          {
             "name": "7F - Northwest Room Item",
             "access_rules": [
               "card_key",

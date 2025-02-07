@@ -461,6 +461,7 @@ LOCATION_MAPPING = {
     [1663]  = {"@Dungeons/Silph Co./7F - Northeast Team Rocket Grunt Reward"},
     [1665]  = {"@Dungeons/Silph Co./7F - North Room Team Rocket Grunt Reward"},
     [1713]  = {"@Dungeons/Silph Co./7F - Rival Reward"},
+    [686]   = {"@Dungeons/Silph Co./7F - Rival Gift"},
     [1140]  = {"@Dungeons/Silph Co./7F - East Room Plant Hidden Item"},
     [406]   = {"@Dungeons/Silph Co./7F - East Room Item"},
     [1664]  = {"@Dungeons/Silph Co./7F - Southeast Room Team Rocket Grunt Reward"},
