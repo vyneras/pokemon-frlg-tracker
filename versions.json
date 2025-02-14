@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "package_version": "1.6.3",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.6.3.zip",
+      "sha256": "c0c19a827c3ed4896a58160ef7540231a14436c3ae75348a757005a2b2137a21",
+      "changelog": [
+        "Added new Silph Co. 7F - Rival Gift location",
+        "Updated access rules due to changes made to Seafoam Island B3F",
+        "Fixed a number of issues with partial trainersanity visibilities",
+        "Fixed issue where Pewter City access through Diglett's Cave did not take into account needing flash when the cave is dark",
+        "Fixed an issue with Sevii Island access rules where access to Vermilion City was always required to sail to the islands"
+      ]
+    },
+    {
       "package_version": "1.6.2",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.6.2.zip",
       "sha256": "81e345db9181a4012319ebad6e333668108c352817f1a8d473f2b0684c2d1e82",
