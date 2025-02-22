@@ -317,8 +317,7 @@ function updateEvents(value)
             local bitmask = 2 ^ bit
             for _, code in pairs(codes) do
                 if code == "lemonade" then
-                    Tracker:FindObjectForCode(code).Active =
-                        Tracker:FindObjectForCode(code).Active or value & bitmask ~= 0
+                    Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or value & bitmask ~= 0
                 else
                     Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
                 end

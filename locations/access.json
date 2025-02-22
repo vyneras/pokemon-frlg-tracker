@@ -75,6 +75,7 @@
       "@Fuchsia City Access,poke_flute,$route_12",
       "@Saffron City Access,tea",
       "@Saffron City Access,red_tea",
+      "@Cinnabar Island Access,defeat_blaine,kanto_only_on",
       "@Seagallop Access,$vermilion_sailing"
     ]
   },
@@ -207,7 +208,7 @@
     "access_rules": [
       "start_town_one_island",
       "$fly|one_island",
-      "defeat_blaine,kanto_only_off",
+      "@Cinnabar Island Access,defeat_blaine,kanto_only_off",
       "@Seagallop Access,tri_pass",
       "@Seagallop Access,one_pass"
     ]

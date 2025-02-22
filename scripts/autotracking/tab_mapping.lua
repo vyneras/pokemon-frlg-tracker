@@ -1151,7 +1151,7 @@ TAB_MAPPING = {
         [0] = {"Routes", "Route 12", "Gate", "1F"}
     },
     [5889] = { -- Route 12 North Entrance 2F
-        [0] = {"Routes", "Route 12", "Gate", "1F"}
+        [0] = {"Routes", "Route 12", "Gate", "2F"}
     },
     [5890] = { -- Route 12 Fishing House
         [0] = {"Routes", "Route 12", "Fishing House"}
