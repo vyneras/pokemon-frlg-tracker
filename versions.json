@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "1.6.4",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.6.4.zip",
+      "sha256": "e1c2db3223399aa457939d530b14af9f9dd04b61b4b92ff4df2c45c7c6859a0a",
+      "changelog": [
+        "Vermilion City access has been updated to account for sailing with Bill from Cinnabar Island if Kanto Only is on",
+        "Fixed some issues with partial trainersanity visibility",
+        "Fixed an issue with the logic of the Young Couple Lea & Jed Reward location",
+        "Fixed an issue where the map didn't auto tab to the 2nd floor of the Route 12 Gate"
+      ]
+    },
+    {
       "package_version": "1.6.3",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.6.3.zip",
       "sha256": "c0c19a827c3ed4896a58160ef7540231a14436c3ae75348a757005a2b2137a21",
