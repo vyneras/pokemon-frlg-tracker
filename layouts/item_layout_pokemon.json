@@ -1,0 +1,94 @@
+{
+  "item_layout": {
+    "type": "tabbed",
+    "dock": "top",
+    "tabs": [
+      {
+        "title": "Items",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "main_item_layout"
+          }
+        }
+      },
+      {
+        "title": "Kanto Pokemon",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "kanto_pokemon_layout"
+          }
+        }
+      },
+      {
+        "title": "Johto Pokemon",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "johto_pokemon_layout"
+          }
+        }
+      },
+      {
+        "title": "Hoenn Pokemon",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "hoenn_pokemon_layout"
+          }
+        }
+      }
+    ]
+  },
+  "item_layout_vertical": {
+    "type": "tabbed",
+    "dock": "top",
+    "tabs": [
+      {
+        "title": "Items",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "main_item_layout_vertical"
+          }
+        }
+      },
+      {
+        "title": "Kanto Pokemon",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "kanto_pokemon_layout_vertical"
+          }
+        }
+      },
+      {
+        "title": "Johto Pokemon",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "johto_pokemon_layout_vertical"
+          }
+        }
+      },
+      {
+        "title": "Hoenn Pokemon",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "hoenn_pokemon_layout_vertical"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,43 +1,16 @@
 {
-  "main_item_layout": {
+  "kanto_pokemon_layout": {
     "type": "dock",
     "dock": "top",
     "v_alignment": "stretch",
     "content": [
       {
         "type": "group",
-        "header": "Items",
+        "header": "Kanto Pokemon",
         "dock": "left",
         "content": {
           "type": "layout",
-          "key": "item_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Extra Items",
-        "dock": "left",
-        "content": {
-          "type": "layout",
-          "key": "extra_item_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Fly Destinations",
-        "dock": "left",
-        "content": {
-          "type": "layout",
-          "key": "fly_destination_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Events",
-        "dock": "left",
-        "content": {
-          "type": "layout",
-          "key": "event_grid"
+          "key": "kanto_grid"
         }
       },
       {
@@ -51,45 +24,18 @@
       }
     ]
   },
-  "main_item_layout_vertical": {
+  "johto_pokemon_layout": {
     "type": "dock",
     "dock": "top",
     "v_alignment": "stretch",
     "content": [
       {
         "type": "group",
-        "header": "Items",
-        "dock": "top",
+        "header": "Johto Pokemon",
+        "dock": "left",
         "content": {
           "type": "layout",
-          "key": "item_grid"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Extra Items",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "extra_item_grid_vertical"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Fly Destinations",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "fly_destination_grid_vertical"
-        }
-      },
-      {
-        "type": "group",
-        "header": "Events",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "event_grid"
+          "key": "johto_grid"
         }
       },
       {
@@ -98,50 +44,107 @@
         "dock": "left",
         "content": {
           "type": "layout",
-          "key": "pack_settings_grid_vertical"
+          "key": "pack_settings_grid"
         }
       }
     ]
   },
-  "main_item_layout_broadcast": {
+  "hoenn_pokemon_layout": {
     "type": "dock",
     "dock": "top",
     "v_alignment": "stretch",
     "content": [
       {
         "type": "group",
-        "header": "Items",
-        "dock": "top",
+        "header": "Hoenn Pokemon",
+        "dock": "left",
         "content": {
           "type": "layout",
-          "key": "item_grid"
+          "key": "hoenn_grid"
         }
       },
       {
         "type": "group",
-        "header": "Extra Items",
+        "header": "Settings",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "pack_settings_grid"
+        }
+      }
+    ]
+  },
+    "kanto_pokemon_layout_vertical": {
+    "type": "dock",
+    "dock": "top",
+    "v_alignment": "stretch",
+    "content": [
+      {
+        "type": "group",
+        "header": "Kanto Pokemon",
         "dock": "top",
         "content": {
           "type": "layout",
-          "key": "extra_item_grid_vertical"
+          "key": "kanto_grid_vertical"
         }
       },
       {
         "type": "group",
-        "header": "Fly Destinations",
+        "header": "Settings",
         "dock": "top",
         "content": {
           "type": "layout",
-          "key": "fly_destination_grid_vertical"
+          "key": "pack_settings_grid_vertical"
+        }
+      }
+    ]
+  },
+  "johto_pokemon_layout_vertical": {
+    "type": "dock",
+    "dock": "top",
+    "v_alignment": "stretch",
+    "content": [
+      {
+        "type": "group",
+        "header": "Johto Pokemon",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "johto_grid_vertical"
         }
       },
       {
         "type": "group",
-        "header": "Events",
+        "header": "Settings",
         "dock": "top",
         "content": {
           "type": "layout",
-          "key": "event_grid"
+          "key": "pack_settings_grid_vertical"
+        }
+      }
+    ]
+  },
+  "hoenn_pokemon_layout_vertical": {
+    "type": "dock",
+    "dock": "top",
+    "v_alignment": "stretch",
+    "content": [
+      {
+        "type": "group",
+        "header": "Hoenn Pokemon",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "hoenn_grid_vertical"
+        }
+      },
+      {
+        "type": "group",
+        "header": "Settings",
+        "dock": "top",
+        "content": {
+          "type": "layout",
+          "key": "pack_settings_grid_vertical"
         }
       }
     ]

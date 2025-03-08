@@ -1629,5 +1629,28 @@
         "name": "Split Map - On"
       }
     ]
+  },
+  {
+    "name": "Pokemon Tabs",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/mew.png",
+        "img_mods": "overlay|/images/overlays/off_alt.png,@disabled",
+        "codes": "pokemon_tabs_setting,pokemon_tabs_off",
+        "inherit_codes": false,
+        "name": "Pokemon Tabs - Off"
+      },
+      {
+        "img": "images/settings/mew.png",
+        "img_mods": "overlay|/images/overlays/on_alt.png",
+        "codes": "pokemon_tabs_setting,pokemon_tabs_on",
+        "inherit_codes": false,
+        "name": "Pokemon Tabs - On"
+      }
+    ]
   }
 ]

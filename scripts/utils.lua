@@ -128,8 +128,17 @@ end
 function toggle_split_map(code)
     local map_split = has("split_map_on")
     if map_split then
-        Tracker:AddLayouts("layouts/tabs_split.json")
+        Tracker:AddLayouts("layouts/map_layout_split.json")
     else
-        Tracker:AddLayouts("layouts/tabs.json")
+        Tracker:AddLayouts("layouts/map_layout.json")
+    end
+end
+
+function toggle_item_tabs(code)
+    local pokemon_tabs_on = has("pokemon_tabs_on")
+    if pokemon_tabs_on then
+        Tracker:AddLayouts("layouts/item_layout_pokemon.json")
+    else
+        Tracker:AddLayouts("layouts/item_layout.json")
     end
 end

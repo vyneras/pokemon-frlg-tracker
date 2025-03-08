@@ -1,5 +1,5 @@
 {
-  "main_grid": {
+  "main_item_layout": {
     "type": "dock",
     "dock": "top",
     "v_alignment": "stretch",
@@ -30,10 +30,19 @@
           "type": "layout",
           "key": "event_grid"
         }
+      },
+      {
+        "type": "group",
+        "header": "Settings",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "pack_settings_grid"
+        }
       }
     ]
   },
-  "main_grid_vertical": {
+  "main_item_layout_vertical": {
     "type": "dock",
     "dock": "top",
     "v_alignment": "stretch",
@@ -64,10 +73,19 @@
           "type": "layout",
           "key": "event_grid"
         }
+      },
+      {
+        "type": "group",
+        "header": "Settings",
+        "dock": "left",
+        "content": {
+          "type": "layout",
+          "key": "pack_settings_grid_vertical"
+        }
       }
     ]
   },
-  "main_grid_broadcast": {
+  "main_item_layout_broadcast": {
     "type": "dock",
     "dock": "top",
     "v_alignment": "stretch",
@@ -96,7 +114,7 @@
         "dock": "top",
         "content": {
           "type": "layout",
-          "key": "event_grid_broadcast"
+          "key": "event_grid"
         }
       }
     ]

@@ -1,0 +1,18 @@
+{
+  "item_layout": {
+    "type": "dock",
+    "dock": "top",
+    "content": {
+      "type": "layout",
+      "key": "main_item_layout"
+    }
+  },
+  "item_layout_vertical": {
+    "type": "dock",
+    "dock": "top",
+    "content": {
+      "type": "layout",
+      "key": "main_item_layout_vertical"
+    }
+  }
+}
