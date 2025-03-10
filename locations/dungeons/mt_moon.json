@@ -3,6 +3,22 @@
     "name": "Mt. Moon 1F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Southwest Item",
         "sections": [
           {
@@ -232,6 +248,22 @@
     "name": "Mt. Moon B1F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B1F - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 768,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "First Tunnel East Rock Hidden Item",
         "sections": [
           {
@@ -332,6 +364,22 @@
   {
     "name": "Mt. Moon B2F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Moon/B2F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Isolated Room Item",
         "sections": [

@@ -3,6 +3,22 @@
     "name": "Lost Cave B1F Room 1",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 1 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_1",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Ruin Maniac Lawson",
         "sections": [
           {
@@ -21,10 +37,68 @@
     ]
   },
   {
+    "name": "Lost Cave B1F Room 2",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 2 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_2",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave B1F Room 3",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 3 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_3",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Lost Cave B1F Room 4",
     "children": [
       {
-        "name": "Ruin Maniac Lawson",
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 4 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_4",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Psychic Laura",
         "sections": [
           {
             "ref": "Dungeons/Lost Cave/B1F Room 4 - Psychic Laura Reward",
@@ -42,8 +116,129 @@
     ]
   },
   {
+    "name": "Lost Cave B1F Room 5",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 5 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_5",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave B1F Room 6",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 6 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_6",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave B1F Room 7",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 7 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_7",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave B1F Room 8",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 8 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_8",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave B1F Room 9",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 9 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_9",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Lost Cave B1F Room 10",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 10 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_10",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Item",
         "sections": [
@@ -86,6 +281,22 @@
     "name": "Lost Cave B1F Room 11",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 11 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_11",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Item",
         "sections": [
           {
@@ -106,6 +317,22 @@
   {
     "name": "Lost Cave B1F Room 12",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 12 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_12",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Item",
         "sections": [
@@ -128,6 +355,22 @@
     "name": "Lost Cave B1F Room 13",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 13 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_13",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Item",
         "sections": [
           {
@@ -148,6 +391,22 @@
   {
     "name": "Lost Cave B1F Room 14",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Lost Cave/B1F Room 14 - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_14",
+            "x": 160,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Item",
         "sections": [

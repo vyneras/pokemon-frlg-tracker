@@ -3,6 +3,22 @@
     "name": "Canyon Entrance",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Canyon Entrance/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Southwest Hidden Item",
         "sections": [
           {

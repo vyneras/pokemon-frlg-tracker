@@ -3,6 +3,42 @@
     "name": "Berry Forest",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Berry Forest/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "berry_forest",
+            "x": 896,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Center Hidden Item (Right)",
         "sections": [
           {
@@ -248,6 +284,10 @@
           {
             "ref": "Dungeons/Berry Forest/Rescue Lostelle (Event)",
             "name": "Rescue Lostelle (Event)"
+          },
+          {
+            "ref": "Dungeons/Berry Forest/Scary Pokémon",
+            "name": "Scary Pokémon"
           },
           {
             "ref": "Dungeons/Berry Forest/Lostelle Gift",

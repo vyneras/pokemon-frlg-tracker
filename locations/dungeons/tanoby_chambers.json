@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Viapois Chamber",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Viapois Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viapois_chamber",
+            "x": 352,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rixy Chamber",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Rixy Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rixy_chamber",
+            "x": 352,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scufib Chamber",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Scufib Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "scufib_chamber",
+            "x": 352,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dilford Chamber",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Dilford Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dilford_chamber",
+            "x": 352,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Weepth Chamber",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Weepth Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "weepth_chamber",
+            "x": 352,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Liptoo Chamber",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Liptoo Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "liptoo_chamber",
+            "x": 352,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monean Chamber",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Monean Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "monean_chamber",
+            "x": 352,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  }
+]

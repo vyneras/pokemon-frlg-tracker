@@ -3,6 +3,27 @@
     "name": "Route 15",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 560,
+            "y": 12
+          },
+          {
+            "map": "route_15_east",
+            "x": 560,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Northwest Item",
         "sections": [
           {

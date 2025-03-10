@@ -3,6 +3,27 @@
     "name": "Route 9",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 9/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_9_west",
+            "x": 560,
+            "y": 12
+          },
+          {
+            "map": "route_9_east",
+            "x": 560,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Southwest Item",
         "sections": [
           {

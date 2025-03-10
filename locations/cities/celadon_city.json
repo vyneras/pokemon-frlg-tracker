@@ -18,6 +18,30 @@
         ]
       },
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Cities/Celadon City/Old-Good-Super Rod Encounter",
+            "name": "Old-Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Cities/Celadon City/Super Rod Encounter",
+            "name": "Super Rod Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 948,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {
@@ -49,7 +73,7 @@
         ]
       },
       {
-        "name": "Condominiums",
+        "name": "Condominiums (Front)",
         "sections": [
           {
             "ref": "Cities/Celadon City/Tea Woman Gift",
@@ -81,6 +105,22 @@
             "map": "celadon_city",
             "x": 488,
             "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Condominiums (Back)",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Roof Room Pokémon",
+            "name": "Roof Room Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 488,
+            "y": 72
           }
         ]
       },
@@ -240,6 +280,38 @@
             "map": "celadon_city",
             "x": 544,
             "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Celadon Game Corner Prize Room",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 1",
+            "name": "Prize Pokémon 1"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 2",
+            "name": "Prize Pokémon 2"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 3",
+            "name": "Prize Pokémon 3"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 4",
+            "name": "Prize Pokémon 4"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 5",
+            "name": "Prize Pokémon 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 632,
+            "y": 328
           }
         ]
       },
@@ -515,6 +587,27 @@
     ]
   },
   {
+    "name": "Celadon Condominiums Roof Room",
+    "children": [
+      {
+        "name": "Pokémon",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Roof Room Pokémon",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof_room",
+            "x": 120,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Celadon Game Corner",
     "children": [
       {
@@ -774,6 +867,43 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Celadon Game Corner Prize Room",
+    "children": [
+      {
+        "name": "Worker (Middle)",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 1",
+            "name": "Prize Pokémon 1"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 2",
+            "name": "Prize Pokémon 2"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 3",
+            "name": "Prize Pokémon 3"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 4",
+            "name": "Prize Pokémon 4"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize Pokémon 5",
+            "name": "Prize Pokémon 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner_prize_room",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      }
+      ]
   },
   {
     "name": "Celadon Gym",

@@ -18,6 +18,38 @@
         ]
       },
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Cities/Pallet Town/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Cities/Pallet Town/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Pallet Town/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Pallet Town/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Cities/Pallet Town/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Player's House",
         "sections": [
           {

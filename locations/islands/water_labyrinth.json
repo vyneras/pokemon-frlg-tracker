@@ -3,8 +3,45 @@
     "name": "Water Labyrinth",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Water Labyrinth/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Water Labyrinth/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Water Labyrinth/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Water Labyrinth/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_labyrinth_west",
+            "x": 560,
+            "y": 12
+          },
+          {
+            "map": "water_labyrinth_east",
+            "x": 560,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Gentleman",
         "sections": [
+          {
+            "ref": "Islands/Water Labyrinth/Pokémon Egg",
+            "name": "Pokémon Egg"
+          },
           {
             "ref": "Islands/Water Labyrinth/Gentleman Info",
             "name": "Info"

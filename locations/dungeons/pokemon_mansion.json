@@ -3,6 +3,22 @@
     "name": "Pokémon Mansion 1F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 584,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "West Rubble Hidden Item",
         "sections": [
           {
@@ -104,6 +120,22 @@
     "name": "Pokémon Mansion 2F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/2F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 584,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Item Near East Balcony",
         "sections": [
           {
@@ -172,6 +204,22 @@
   {
     "name": "Pokémon Mansion 3F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 584,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Southwest Room Item",
         "sections": [
@@ -257,6 +305,22 @@
   {
     "name": "Pokémon Mansion B1F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 584,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Southwest Hallway Item",
         "sections": [

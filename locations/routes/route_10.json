@@ -3,6 +3,47 @@
     "name": "Route 10",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Routes/Route 10 North/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Routes/Route 10 North/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 10 North/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 10 North/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 10 North/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_10_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {

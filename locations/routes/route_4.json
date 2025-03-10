@@ -3,6 +3,47 @@
     "name": "Route 4",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 East/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Routes/Route 4 East/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Routes/Route 4 East/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 4 East/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 4 East/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 4 East/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 880,
+            "y": 12
+          },
+          {
+            "map": "route_4_east",
+            "x": 816,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {
@@ -12,6 +53,10 @@
           {
             "ref": "Routes/Route 4 West/PC Item",
             "name": "PC Item"
+          },
+          {
+            "ref": "Routes/Route 4 West/Purchase Pokémon",
+            "name": "Purchase Pokémon"
           }
         ],
         "map_locations": [
@@ -151,6 +196,21 @@
             "map": "route_4_pokemon_center_1f",
             "x": 12,
             "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Balding Man",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/Purchase Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "x": 24,
+            "y": 56
           }
         ]
       }

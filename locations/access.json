@@ -137,7 +137,7 @@
     "access_rules": [
       "start_town_fuchsia",
       "$fly|fuchsia",
-      "$surf,$strength",
+      "@Cinnabar Island Access,$surf,$strength",
       "@Route 12 South Access,$surf",
       "@Route 12 South Access,$route_12",
       "@Celadon City Access,bicycle,$route_16"
@@ -272,6 +272,12 @@
     "name": "Navel Rock Access",
     "access_rules": [
       "@Vermilion City Access,mystic_ticket"
+    ]
+  },
+  {
+    "name": "Birth Island Access",
+    "access_rules": [
+      "@Vermilion City Access,aurora_ticket"
     ]
   },
   {

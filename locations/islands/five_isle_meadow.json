@@ -3,6 +3,38 @@
     "name": "Five Isle Meadow",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Islands/Five Isle Meadow/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Five Isle Meadow/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Five Isle Meadow/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Five Isle Meadow/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Item Behind Cuttable Tree",
         "sections": [
           {

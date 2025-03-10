@@ -3,6 +3,39 @@
     "name": "Green Path",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Green Path/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Green Path/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Green Path/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Green Path/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_west",
+            "x": 560,
+            "y": 12
+          },
+          {
+            "map": "green_path_east",
+            "x": 560,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "West Island Hidden Item",
         "sections": [
           {

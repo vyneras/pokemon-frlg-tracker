@@ -18,6 +18,38 @@
         ]
       },
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Cities/Cerulean City/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Cerulean City/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Cerulean City/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Cities/Cerulean City/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {

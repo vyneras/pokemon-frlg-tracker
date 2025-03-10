@@ -3,6 +3,48 @@
     "name": "Water Path",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Water Path/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Islands/Water Path/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Water Path/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Water Path/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Water Path/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "water_path_center",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "water_path_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Tall Grass North Hidden Item",
         "sections": [
           {

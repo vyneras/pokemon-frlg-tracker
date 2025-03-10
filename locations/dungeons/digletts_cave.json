@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Diglett's Cave B1F",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Diglett's Cave/B1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_north",
+            "x": 1344,
+            "y": 12
+          },
+          {
+            "map": "digletts_cave_b1f_south",
+            "x": 1344,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  }
+]

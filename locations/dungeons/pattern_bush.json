@@ -3,6 +3,22 @@
     "name": "Pattern Bush",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 944,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Bug Catcher Garret",
         "sections": [
           {

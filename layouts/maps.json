@@ -2527,9 +2527,27 @@
             {
               "title": "B1F",
               "content": {
-                "type": "map",
-                "maps": [
-                  "digletts_cave_b1f"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "digletts_cave_b1f_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "digletts_cave_b1f_south"
+                      ]
+                    }
+                  }
                 ]
               }
             }

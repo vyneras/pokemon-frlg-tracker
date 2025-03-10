@@ -18,6 +18,38 @@
         ]
       },
       {
+        "name": "Visit",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Cities/Viridian City/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Viridian City/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Viridian City/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Cities/Viridian City/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {

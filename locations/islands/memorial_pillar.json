@@ -6,6 +6,43 @@
         "name": "Tall Grass North Hidden Item",
         "sections": [
           {
+            "ref": "Islands/Memorial Pillar/Land Encounter",
+            "name": "Land Encounter"
+          },
+          {
+            "ref": "Islands/Memorial Pillar/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Memorial Pillar/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Memorial Pillar/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Memorial Pillar/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "memorial_pillar_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass North Hidden Item",
+        "sections": [
+          {
             "ref": "Islands/Memorial Pillar/Tall Grass North Hidden Item",
             "name": "Hidden Item"
           }

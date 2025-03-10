@@ -3,6 +3,22 @@
     "name": "Route 7",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 7/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Southeast Hidden Item",
         "sections": [
           {

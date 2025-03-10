@@ -18,6 +18,34 @@
         ]
       },
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/One Island Town/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/One Island Town/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/One Island Town/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/One Island Town/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Pokémon Center",
         "sections": [
           {

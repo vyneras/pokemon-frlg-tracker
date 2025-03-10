@@ -18,6 +18,42 @@
         ]
       },
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Cities/Vermilion City/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Vermilion City/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Vermilion City/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Cities/Vermilion City/Good-Super Rod Encounters",
+            "name": "Good-Super Rod Encounters"
+          },
+          {
+            "ref": "Cities/Vermilion City/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Hidden Item Near Pokémon Center",
         "sections": [
           {

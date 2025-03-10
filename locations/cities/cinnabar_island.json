@@ -18,6 +18,38 @@
         ]
       },
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Gym Sign",
         "sections": [
           {
@@ -77,7 +109,20 @@
         "name": "Pokémon Lab",
         "sections": [
           {
-            "ref": "Cities/Cinnabar Island/Scientist Gift"
+            "ref": "Cities/Cinnabar Island/Scientist Gift",
+            "name": "Scientist Gift"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Revive Dome Fossil",
+            "name": "Revive Dome Fossil"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Revive Helix Fossil",
+            "name": "Revive Helix Fossil"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Revive Old Amber",
+            "name": "Revive Old Amber"
           }
         ],
         "map_locations": [
@@ -350,6 +395,35 @@
           {
             "map": "pokemon_lab_research_room",
             "x": 168,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Lab Experiment Room",
+    "children": [
+      {
+        "name": "Scientist",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Revive Dome Fossil",
+            "name": "Revive Dome Fossil"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Revive Helix Fossil",
+            "name": "Revive Helix Fossil"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Revive Old Amber",
+            "name": "Revive Old Amber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_experiment_room",
+            "x": 200,
             "y": 56
           }
         ]

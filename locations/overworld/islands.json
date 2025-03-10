@@ -18,7 +18,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_some"
+              "fly_destination_unlocks_on,$item_locations_visible"
             ]
           },
           {
@@ -26,18 +26,24 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
-              "start_town_one_island"
+              "start_town_one_island,$item_locations_visible"
             ]
           },
           {
             "name": "Delivery for Lostelle's Dad",
             "chest_unopened_img": "images/locations/bill_meteorite.png",
-            "chest_opened_img": "images/locations/bill_meteorite_bw.png"
+            "chest_opened_img": "images/locations/bill_meteorite_bw.png",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "Meet Celio",
             "chest_unopened_img": "images/locations/celio_tri_pass.png",
-            "chest_opened_img": "images/locations/celio_tri_pass_bw.png"
+            "chest_opened_img": "images/locations/celio_tri_pass_bw.png",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "Celio Gift (Deliver Ruby)",
@@ -45,6 +51,9 @@
             "chest_opened_img": "images/locations/celio_rainbow_pass_bw.png",
             "access_rules": [
               "deliver_meteorite,ruby"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -52,6 +61,9 @@
             "hosted_item": "restore_pokemon_network_machine_hosted",
             "access_rules": [
               "deliver_meteorite,ruby,free_captured_pokemon,sapphire"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -62,8 +74,8 @@
               "deliver_meteorite,ruby,free_captured_pokemon,sapphire"
             ],
             "visibility_rules": [
-              "island_passes_split",
-              "island_passes_split_prog"
+              "island_passes_split,$item_locations_visible",
+              "island_passes_split_prog,$item_locations_visible"
             ]
           },
           {
@@ -74,7 +86,7 @@
               "$fame,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -85,7 +97,7 @@
               "$fame,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -96,7 +108,57 @@
               "$fame,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -127,7 +189,7 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "visibility_rules": [
-              "trainersanity_on,swimmer_amara"
+              "trainersanity_on,swimmer_amara,$item_locations_visible"
             ]
           },
           {
@@ -138,7 +200,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -149,7 +211,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -160,7 +222,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -171,7 +233,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -182,7 +244,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -193,7 +255,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -204,7 +266,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -215,7 +277,67 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -248,7 +370,7 @@
             "chest_unopened_img": "images/locations/swimmer_female_land.png",
             "chest_opened_img": "images/locations/swimmer_female_land_bw.png",
             "visibility_rules": [
-              "trainersanity_on,swimmer_abigail"
+              "trainersanity_on,swimmer_abigail,$item_locations_visible"
             ]
           },
           {
@@ -256,7 +378,7 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,picnicker_claire"
+              "trainersanity_on,picnicker_claire,$item_locations_visible"
             ]
           },
           {
@@ -264,7 +386,7 @@
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
             "visibility_rules": [
-              "trainersanity_on,camper_bryce"
+              "trainersanity_on,camper_bryce,$item_locations_visible"
             ]
           },
           {
@@ -272,30 +394,39 @@
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
             "visibility_rules": [
-              "trainersanity_on,crush_girl_tanya"
+              "trainersanity_on,crush_girl_tanya,$item_locations_visible"
             ]
           },
           {
             "name": "Plateau Item",
             "access_rules": [
               "$rock_smash"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
-            "name": "Isolated Beach Item"
+            "name": "Isolated Beach Item",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "Swimmer Garrett Reward",
             "chest_unopened_img": "images/locations/swimmer_male_land.png",
             "chest_opened_img": "images/locations/swimmer_male_land_bw.png",
             "visibility_rules": [
-              "trainersanity_on,swimmer_garrett"
+              "trainersanity_on,swimmer_garrett,$item_locations_visible"
             ]
           },
           {
             "name": "Item Behind Smashable Rock",
             "access_rules": [
               "$rock_smash"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -303,7 +434,7 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "visibility_rules": [
-              "trainersanity_on,crush_kin_mik_and_kia"
+              "trainersanity_on,crush_kin_mik_and_kia,$item_locations_visible"
             ]
           },
           {
@@ -311,7 +442,7 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "visibility_rules": [
-              "trainersanity_on,black_belt_hugh"
+              "trainersanity_on,black_belt_hugh,$item_locations_visible"
             ]
           },
           {
@@ -319,7 +450,7 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "visibility_rules": [
-              "trainersanity_on,black_belt_shea"
+              "trainersanity_on,black_belt_shea,$item_locations_visible"
             ]
           },
           {
@@ -327,7 +458,7 @@
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
             "visibility_rules": [
-              "trainersanity_on,crush_girl_sharon"
+              "trainersanity_on,crush_girl_sharon,$item_locations_visible"
             ]
           },
           {
@@ -335,7 +466,7 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "visibility_rules": [
-              "trainersanity_on,swimmer_finn"
+              "trainersanity_on,swimmer_finn,$item_locations_visible"
             ]
           },
           {
@@ -343,7 +474,7 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "visibility_rules": [
-              "trainersanity_on,swimmer_maria"
+              "trainersanity_on,swimmer_maria,$item_locations_visible"
             ]
           },
           {
@@ -351,7 +482,67 @@
             "chest_unopened_img": "images/locations/fisherman.png",
             "chest_opened_img": "images/locations/fisherman_bw.png",
             "visibility_rules": [
-              "trainersanity_on,fisherman_tommy"
+              "trainersanity_on,fisherman_tommy,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -382,7 +573,10 @@
           {
             "name": "Rock Smash Man Gift",
             "chest_unopened_img": "images/locations/old_man_fighting_tm.png",
-            "chest_opened_img": "images/locations/old_man_fighting_tm_bw.png"
+            "chest_opened_img": "images/locations/old_man_fighting_tm_bw.png",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "Black Belt Info",
@@ -392,7 +586,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           }
         ],
@@ -430,7 +624,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_some"
+              "fly_destination_unlocks_on,$item_locations_visible"
             ]
           },
           {
@@ -438,13 +632,16 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
-              "start_town_two_island"
+              "start_town_two_island,$item_locations_visible"
             ]
           },
           {
             "name": "Item Behind Cuttable Tree",
             "access_rules": [
               "$cut"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -452,6 +649,9 @@
             "hosted_item": "lemonade_hosted",
             "access_rules": [
               "rescue_lostelle,defeat_champion"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -462,7 +662,7 @@
               "rescue_lostelle,defeat_champion,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -470,6 +670,9 @@
             "hosted_item": "deliver_meteorite_hosted",
             "access_rules": [
               "rescue_lostelle,meteorite"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -478,6 +681,9 @@
             "chest_opened_img": "images/locations/balding_man_moon_stone_bw.png",
             "access_rules": [
               "rescue_lostelle,meteorite"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           }
         ],
@@ -511,7 +717,7 @@
               "$surf,itemfinder"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -522,7 +728,78 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -537,6 +814,39 @@
             "map": "sevii_123",
             "x": 84,
             "y": 80,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Port",
+        "access_rules": [
+          "@Three Island Access"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
+        "sections": [
+          {
+            "name": "Land Encounter",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 156,
+            "y": 124,
             "size": 4
           }
         ]
@@ -558,13 +868,16 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
             "name": "Prospector Gift",
             "chest_unopened_img": "images/locations/fat_man_nugget.png",
-            "chest_opened_img": "images/locations/fat_man_nugget_bw.png"
+            "chest_opened_img": "images/locations/fat_man_nugget_bw.png",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           }
         ],
         "map_locations": [
@@ -606,7 +919,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_some"
+              "fly_destination_unlocks_on,$item_locations_visible"
             ]
           },
           {
@@ -614,7 +927,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
-              "start_town_three_island"
+              "start_town_three_island,$item_locations_visible"
             ]
           },
           {
@@ -625,8 +938,8 @@
               "deliver_meteorite"
             ],
             "visibility_rules": [
-              "island_passes_split",
-              "island_passes_split_prog"
+              "island_passes_split,$item_locations_visible",
+              "island_passes_split_prog,$item_locations_visible"
             ]
           },
           {
@@ -634,7 +947,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,biker_goon_1"
+              "trainersanity_on,biker_goon_1,$item_locations_visible"
             ]
           },
           {
@@ -642,7 +955,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,biker_goon_2"
+              "trainersanity_on,biker_goon_2,$item_locations_visible"
             ]
           },
           {
@@ -650,7 +963,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,biker_goon_3"
+              "trainersanity_on,biker_goon_3,$item_locations_visible"
             ]
           },
           {
@@ -658,13 +971,16 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,cue_ball_paxton"
+              "trainersanity_on,cue_ball_paxton,$item_locations_visible"
             ]
           },
           {
             "name": "Anti-Biker Gift",
             "chest_unopened_img": "images/locations/man_full_restore.png",
-            "chest_opened_img": "images/locations/man_full_restore_bw.png"
+            "chest_opened_img": "images/locations/man_full_restore_bw.png",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "Sabrina Fan Info",
@@ -674,13 +990,16 @@
               "$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
             "name": "Item Behind East Fence",
             "access_rules": [
               "$cut"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -691,7 +1010,7 @@
               "$cut,^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           }
         ],
@@ -722,7 +1041,7 @@
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
             "visibility_rules": [
-              "trainersanity_on,twins_joy_and_meg"
+              "trainersanity_on,twins_joy_and_meg,$item_locations_visible"
             ]
           },
           {
@@ -733,7 +1052,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -741,7 +1060,7 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "visibility_rules": [
-              "trainersanity_on,aroma_lady_violet"
+              "trainersanity_on,aroma_lady_violet,$item_locations_visible"
             ]
           },
           {
@@ -749,7 +1068,7 @@
             "chest_unopened_img": "images/locations/tuber_female.png",
             "chest_opened_img": "images/locations/tuber_female_bw.png",
             "visibility_rules": [
-              "trainersanity_on,tuber_alexis"
+              "trainersanity_on,tuber_alexis,$item_locations_visible"
             ]
           },
           {
@@ -760,7 +1079,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -771,7 +1090,7 @@
               "$surf"
             ],
             "visibility_rules": [
-              "trainersanity_on,swimmer_tisha"
+              "trainersanity_on,swimmer_tisha,$item_locations_visible"
             ]
           },
           {
@@ -782,7 +1101,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -790,7 +1109,7 @@
             "chest_unopened_img": "images/locations/tuber_female.png",
             "chest_opened_img": "images/locations/tuber_female_bw.png",
             "visibility_rules": [
-              "trainersanity_on,tuber_amira"
+              "trainersanity_on,tuber_amira,$item_locations_visible"
             ]
           },
           {
@@ -798,7 +1117,67 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "visibility_rules": [
-              "trainersanity_on,aroma_lady_nikki"
+              "trainersanity_on,aroma_lady_nikki,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -831,7 +1210,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_some"
+              "fly_destination_unlocks_on,$item_locations_visible"
             ]
           },
           {
@@ -839,7 +1218,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
-              "start_town_four_island"
+              "start_town_four_island,$item_locations_visible"
             ]
           },
           {
@@ -850,7 +1229,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -861,13 +1240,16 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
             "name": "Beach Item",
             "access_rules": [
               "$rock_smash"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -878,7 +1260,7 @@
               "$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -889,7 +1271,7 @@
               "$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -900,7 +1282,7 @@
               "restore_pokemon_network_machine,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -911,13 +1293,77 @@
               "$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
             "name": "Northeast Island Item",
             "access_rules": [
               "$surf"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -948,7 +1394,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_some"
+              "fly_destination_unlocks_on,$item_locations_visible"
             ]
           },
           {
@@ -956,7 +1402,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
-              "start_town_five_island"
+              "start_town_five_island,$item_locations_visible"
             ]
           },
           {
@@ -967,7 +1413,57 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -997,6 +1493,9 @@
             "name": "Item Behind Cuttable Tree",
             "access_rules": [
               "$cut"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -1004,7 +1503,7 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "visibility_rules": [
-              "trainersanity_on,team_rocket_grunt_49"
+              "trainersanity_on,team_rocket_grunt_49,$item_locations_visible"
             ]
           },
           {
@@ -1012,7 +1511,7 @@
             "chest_unopened_img": "images/locations/rocket_female.png",
             "chest_opened_img": "images/locations/rocket_female_bw.png",
             "visibility_rules": [
-              "trainersanity_on,team_rocket_grunt_51"
+              "trainersanity_on,team_rocket_grunt_51,$item_locations_visible"
             ]
           },
           {
@@ -1020,13 +1519,76 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "visibility_rules": [
-              "trainersanity_on,team_rocket_grunt_50"
+              "trainersanity_on,team_rocket_grunt_50,$item_locations_visible"
             ]
           },
           {
             "name": "Southwest Island Item",
             "access_rules": [
               "$surf"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -1059,7 +1621,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,bird_keeper_milo"
+              "trainersanity_on,bird_keeper_milo,$item_locations_visible"
             ]
           },
           {
@@ -1070,7 +1632,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -1078,7 +1640,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,bird_keeper_chaz"
+              "trainersanity_on,bird_keeper_chaz,$item_locations_visible"
             ]
           },
           {
@@ -1089,7 +1651,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -1100,7 +1662,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -1108,7 +1670,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,bird_keeper_harold"
+              "trainersanity_on,bird_keeper_harold,$item_locations_visible"
             ]
           },
           {
@@ -1118,10 +1680,16 @@
             "access_rules": [
               "lemonade,[@Cities/Celadon City/Buy Lemonade (Event)]",
               "lemonade,[@Islands/Two Island/Buy Lemonade (Event)]"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
-            "name": "South Island Item"
+            "name": "South Island Item",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "South Beach Hidden Item",
@@ -1131,7 +1699,65 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounter",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -1160,6 +1786,14 @@
         ],
         "sections": [
           {
+            "name": "Pokémon Egg",
+            "chest_unopened_img": "images/locations/gentleman.png",
+            "chest_opened_img": "images/locations/gentleman_bw.png",
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
             "name": "Gentleman Info",
             "chest_unopened_img": "images/locations/gentleman_info.png",
             "chest_opened_img": "images/locations/gentleman_info_bw.png",
@@ -1167,7 +1801,7 @@
               "$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,pokemon_request_on"
+              "famesanity_on,pokemon_request_on,$item_locations_visible"
             ]
           },
           {
@@ -1175,7 +1809,57 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "visibility_rules": [
-              "trainersanity_on,pokemon_breeder_alize"
+              "trainersanity_on,pokemon_breeder_alize,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -1208,7 +1892,7 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "visibility_rules": [
-              "trainersanity_on,painter_rayna"
+              "trainersanity_on,painter_rayna,$item_locations_visible"
             ]
           },
           {
@@ -1219,7 +1903,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -1227,7 +1911,7 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "visibility_rules": [
-              "trainersanity_on,lady_jacki"
+              "trainersanity_on,lady_jacki,$item_locations_visible"
             ]
           },
           {
@@ -1238,7 +1922,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -1246,7 +1930,7 @@
             "chest_unopened_img": "images/locations/youngster.png",
             "chest_opened_img": "images/locations/youngster_bw.png",
             "visibility_rules": [
-              "trainersanity_on,youngster_destin"
+              "trainersanity_on,youngster_destin,$item_locations_visible"
             ]
           },
           {
@@ -1257,7 +1941,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -1265,7 +1949,7 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "visibility_rules": [
-              "trainersanity_on,lady_gillian"
+              "trainersanity_on,lady_gillian,$item_locations_visible"
             ]
           },
           {
@@ -1273,7 +1957,7 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "visibility_rules": [
-              "trainersanity_on,painter_celina"
+              "trainersanity_on,painter_celina,$item_locations_visible"
             ]
           },
           {
@@ -1284,7 +1968,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -1295,7 +1979,7 @@
               "rescue_selphy"
             ],
             "visibility_rules": [
-              "pokemon_request_on"
+              "pokemon_request_on,$item_locations_visible"
             ]
           },
           {
@@ -1306,7 +1990,7 @@
               "$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -1314,7 +1998,7 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "visibility_rules": [
-              "trainersanity_on,painter_daisy"
+              "trainersanity_on,painter_daisy,$item_locations_visible"
             ]
           },
           {
@@ -1322,7 +2006,57 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "visibility_rules": [
-              "trainersanity_on,swimmer_toby"
+              "trainersanity_on,swimmer_toby,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -1355,7 +2089,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_some"
+              "fly_destination_unlocks_on,$item_locations_visible"
             ]
           },
           {
@@ -1363,7 +2097,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
-              "start_town_six_island"
+              "start_town_six_island,$item_locations_visible"
             ]
           },
           {
@@ -1374,7 +2108,7 @@
               "$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -1385,7 +2119,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           }
         ],
@@ -1416,7 +2150,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,juggler_edward"
+              "trainersanity_on,juggler_edward,$item_locations_visible"
             ]
           },
           {
@@ -1427,7 +2161,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -1438,7 +2172,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -1446,13 +2180,16 @@
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,hiker_earl"
+              "trainersanity_on,hiker_earl,$item_locations_visible"
             ]
           },
           {
             "name": "South Island Item",
             "access_rules": [
               "$surf"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -1463,7 +2200,7 @@
               "$surf"
             ],
             "visibility_rules": [
-              "trainersanity_on,swimmer_denise"
+              "trainersanity_on,swimmer_denise,$item_locations_visible"
             ]
           },
           {
@@ -1474,7 +2211,7 @@
               "$surf"
             ],
             "visibility_rules": [
-              "trainersanity_on,swimmer_samir"
+              "trainersanity_on,swimmer_samir,$item_locations_visible"
             ]
           },
           {
@@ -1485,7 +2222,7 @@
               "$surf"
             ],
             "visibility_rules": [
-              "trainersanity_on,twins_miu_and_mia"
+              "trainersanity_on,twins_miu_and_mia,$item_locations_visible"
             ]
           },
           {
@@ -1496,7 +2233,7 @@
               "$surf"
             ],
             "visibility_rules": [
-              "trainersanity_on,aroma_lady_rose"
+              "trainersanity_on,aroma_lady_rose,$item_locations_visible"
             ]
           },
           {
@@ -1507,13 +2244,16 @@
               "$surf,^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
             "name": "North Island Item",
             "access_rules": [
               "$surf"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -1524,7 +2264,67 @@
               "$surf"
             ],
             "visibility_rules": [
-              "pokemon_request_on"
+              "pokemon_request_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -1556,12 +2356,18 @@
             "name": "Southeast Item",
             "access_rules": [
               "$strength"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
             "name": "Southwest Item",
             "access_rules": [
               "$strength"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -1569,13 +2375,16 @@
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,hiker_daryl"
+              "trainersanity_on,hiker_daryl,$item_locations_visible"
             ]
           },
           {
             "name": "Plateau Item",
             "access_rules": [
               "$strength"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -1583,7 +2392,7 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "visibility_rules": [
-              "trainersanity_on,pokemaniac_hector"
+              "trainersanity_on,pokemaniac_hector,$item_locations_visible"
             ]
           },
           {
@@ -1591,7 +2400,7 @@
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,ruin_maniac_stanly"
+              "trainersanity_on,ruin_maniac_stanly,$item_locations_visible"
             ]
           },
           {
@@ -1599,7 +2408,7 @@
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,ruin_maniac_foster"
+              "trainersanity_on,ruin_maniac_foster,$item_locations_visible"
             ]
           },
           {
@@ -1607,7 +2416,76 @@
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,ruin_maniac_larry"
+              "trainersanity_on,ruin_maniac_larry,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounter",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -1640,7 +2518,7 @@
             "chest_unopened_img": "images/locations/woman.png",
             "chest_opened_img": "images/locations/woman_bw.png",
             "visibility_rules": [
-              "trainersanity_on,psychic_jaclyn"
+              "trainersanity_on,psychic_jaclyn,$item_locations_visible"
             ]
           },
           {
@@ -1651,7 +2529,57 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -1684,7 +2612,7 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "visibility_rules": [
-              "trainersanity_on,swimmer_nicole"
+              "trainersanity_on,swimmer_nicole,$item_locations_visible"
             ]
           },
           {
@@ -1692,7 +2620,7 @@
             "chest_unopened_img": "images/locations/sis_and_bro.png",
             "chest_opened_img": "images/locations/sis_and_bro_bw.png",
             "visibility_rules": [
-              "trainersanity_on,sis_and_bro_ava_and_geb"
+              "trainersanity_on,sis_and_bro_ava_and_geb,$item_locations_visible"
             ]
           },
           {
@@ -1700,7 +2628,7 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "visibility_rules": [
-              "trainersanity_on,swimmer_mymo"
+              "trainersanity_on,swimmer_mymo,$item_locations_visible"
             ]
           },
           {
@@ -1711,7 +2639,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -1719,7 +2647,7 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "visibility_rules": [
-              "trainersanity_on,team_rocket_grunt_46"
+              "trainersanity_on,team_rocket_grunt_46,$item_locations_visible"
             ]
           },
           {
@@ -1730,7 +2658,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -1738,11 +2666,64 @@
             "chest_unopened_img": "images/locations/fisherman.png",
             "chest_opened_img": "images/locations/fisherman_bw.png",
             "visibility_rules": [
-              "trainersanity_on,fisherman_tylor"
+              "trainersanity_on,fisherman_tylor,$item_locations_visible"
             ]
           },
           {
-            "name": "North Beach Item"
+            "name": "North Beach Item",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
           }
         ],
         "map_locations": [
@@ -1774,7 +2755,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_some"
+              "fly_destination_unlocks_on,$item_locations_visible"
             ]
           },
           {
@@ -1782,7 +2763,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
-              "start_town_seven_island"
+              "start_town_seven_island,$item_locations_visible"
             ]
           },
           {
@@ -1791,6 +2772,9 @@
             "chest_opened_img": "images/locations/scientist_deep_sea_scale_bw.png",
             "access_rules": [
               "scanner"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -1799,6 +2783,9 @@
             "chest_opened_img": "images/locations/scientist_deep_sea_tooth_bw.png",
             "access_rules": [
               "scanner"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -1809,7 +2796,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           }
         ],
@@ -1840,7 +2827,7 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "visibility_rules": [
-              "trainersanity_on,aroma_lady_miah"
+              "trainersanity_on,aroma_lady_miah,$item_locations_visible"
             ]
           },
           {
@@ -1848,7 +2835,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,juggler_mason"
+              "trainersanity_on,juggler_mason,$item_locations_visible"
             ]
           },
           {
@@ -1856,7 +2843,7 @@
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
             "visibility_rules": [
-              "trainersanity_on,pokemon_ranger_nicolas"
+              "trainersanity_on,pokemon_ranger_nicolas,$item_locations_visible"
             ]
           },
           {
@@ -1864,7 +2851,7 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,pokemon_ranger_madeline"
+              "trainersanity_on,pokemon_ranger_madeline,$item_locations_visible"
             ]
           },
           {
@@ -1875,7 +2862,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -1883,7 +2870,17 @@
             "chest_unopened_img": "images/locations/young_couple.png",
             "chest_opened_img": "images/locations/young_couple_bw.png",
             "visibility_rules": [
-              "trainersanity_on,young_couple_eve_and_jon"
+              "trainersanity_on,young_couple_eve_and_jon,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -1916,22 +2913,28 @@
             "chest_unopened_img": "images/locations/cool_couple.png",
             "chest_opened_img": "images/locations/cool_couple_bw.png",
             "visibility_rules": [
-              "trainersanity_on,cool_couple_lex_and_nya"
+              "trainersanity_on,cool_couple_lex_and_nya,$item_locations_visible"
             ]
           },
           {
-            "name": "North Item"
+            "name": "North Item",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "Tamer Evan Reward",
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "visibility_rules": [
-              "trainersanity_on,tamer_evan"
+              "trainersanity_on,tamer_evan,$item_locations_visible"
             ]
           },
           {
-            "name": "Tall Grass Item"
+            "name": "Tall Grass Item",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "Black Belt Info",
@@ -1941,7 +2944,7 @@
               "$fame"
             ],
             "visibility_rules": [
-              "famesanity_on"
+              "famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -1949,7 +2952,7 @@
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
             "visibility_rules": [
-              "trainersanity_on,pokemon_ranger_jackson"
+              "trainersanity_on,pokemon_ranger_jackson,$item_locations_visible"
             ]
           },
           {
@@ -1957,7 +2960,7 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "visibility_rules": [
-              "trainersanity_on,pokemon_ranger_katelyn"
+              "trainersanity_on,pokemon_ranger_katelyn,$item_locations_visible"
             ]
           },
           {
@@ -1965,13 +2968,16 @@
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
             "visibility_rules": [
-              "trainersanity_on,crush_girl_cyndy"
+              "trainersanity_on,crush_girl_cyndy,$item_locations_visible"
             ]
           },
           {
             "name": "Item Behind Smashable Rocks",
             "access_rules": [
               "$strength,$rock_smash"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -1979,7 +2985,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "visibility_rules": [
-              "trainersanity_on,cooltrainer_leroy"
+              "trainersanity_on,cooltrainer_leroy,$item_locations_visible"
             ]
           },
           {
@@ -1987,11 +2993,14 @@
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "visibility_rules": [
-              "trainersanity_on,cooltrainer_michelle"
+              "trainersanity_on,cooltrainer_michelle,$item_locations_visible"
             ]
           },
           {
-            "name": "Chansey House Item"
+            "name": "Chansey House Item",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
           },
           {
             "name": "Hidden Item Near Chansey House",
@@ -2001,7 +3010,17 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 10,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -2023,7 +3042,7 @@
       {
         "name": "Tanoby Ruins",
         "access_rules": [
-          "@Seven Island Access,$surf"
+          "@Seven Island Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -2032,7 +3051,10 @@
           {
             "name": "Island Item",
             "access_rules": [
-              "unlock_ruins"
+              "$surf,unlock_ruins"
+            ],
+            "visibility_rules": [
+              "$item_locations_visible"
             ]
           },
           {
@@ -2040,18 +3062,21 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$surf,^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
             "name": "Ruin Maniac Brandon Reward",
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
-              "trainersanity_on,ruin_maniac_brandon"
+              "trainersanity_on,ruin_maniac_brandon,$item_locations_visible"
             ]
           },
           {
@@ -2059,26 +3084,32 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$surf,^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
             "name": "Gentleman Clifford Reward",
             "chest_unopened_img": "images/locations/gentleman.png",
             "chest_opened_img": "images/locations/gentleman_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
-              "trainersanity_on,gentleman_clifford"
+              "trainersanity_on,gentleman_clifford,$item_locations_visible"
             ]
           },
           {
             "name": "Painter Edna Reward",
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
-              "trainersanity_on,painter_edna"
+              "trainersanity_on,painter_edna,$item_locations_visible"
             ]
           },
           {
@@ -2086,18 +3117,21 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$surf,^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
             "name": "Ruin Maniac Benjamin Reward",
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
-              "trainersanity_on,ruin_maniac_benjamin"
+              "trainersanity_on,ruin_maniac_benjamin,$item_locations_visible"
             ]
           },
           {
@@ -2105,10 +3139,60 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$surf,^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -2141,7 +3225,7 @@
             "chest_unopened_img": "images/locations/woman.png",
             "chest_opened_img": "images/locations/woman_bw.png",
             "visibility_rules": [
-              "trainersanity_on,psychic_rodette"
+              "trainersanity_on,psychic_rodette,$item_locations_visible"
             ]
           },
           {
@@ -2152,7 +3236,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
             ]
           },
           {
@@ -2163,7 +3247,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -2174,7 +3258,7 @@
               "^$hidden"
             ],
             "visibility_rules": [
-              "hidden_all"
+              "hidden_all,$item_locations_visible"
             ]
           },
           {
@@ -2182,7 +3266,57 @@
             "chest_unopened_img": "images/locations/boy.png",
             "chest_opened_img": "images/locations/boy_bw.png",
             "visibility_rules": [
-              "trainersanity_on,psychic_dario"
+              "trainersanity_on,psychic_dario,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Surf Encounters",
+            "chest_unopened_img": "images/locations/surfing.png",
+            "chest_opened_img": "images/locations/surfing_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Old-Good Rod Encounter",
+            "chest_unopened_img": "images/locations/old_rod.png",
+            "chest_opened_img": "images/locations/old_rod_bw.png",
+            "access_rules": [
+              "old_rod",
+              "good_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Good-Super Rod Encounter",
+            "chest_unopened_img": "images/locations/good_rod.png",
+            "chest_opened_img": "images/locations/good_rod_bw.png",
+            "access_rules": [
+              "good_rod",
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Super Rod Encounters",
+            "chest_unopened_img": "images/locations/super_rod.png",
+            "chest_opened_img": "images/locations/super_rod_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "access_rules": [
+              "super_rod"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -2206,9 +3340,6 @@
         "access_rules": [
           "@Navel Rock Access"
         ],
-        "visibility_rules": [
-          "kanto_only_off"
-        ],
         "sections": [
           {
             "name": "Hidden Item Near Ho-Oh",
@@ -2218,7 +3349,23 @@
               "itemfinder"
             ],
             "visibility_rules": [
-              "hidden_nonrecurring"
+              "hidden_nonrecurring,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Summit - Legendary Pokémon",
+            "chest_unopened_img": "images/locations/ho_oh.png",
+            "chest_opened_img": "images/locations/ho_oh_bw.png",
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Base - Legendary Pokémon",
+            "chest_unopened_img": "images/locations/lugia.png",
+            "chest_opened_img": "images/locations/lugia_bw.png",
+            "visibility_rules": [
+              "$pokemon_locations_visible"
             ]
           }
         ],
@@ -2233,6 +3380,36 @@
             "map": "sevii_45",
             "x": 92,
             "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Birth Island",
+        "access_rules": [
+          "@Birth Island Access"
+        ],
+        "sections": [
+          {
+            "name": "Legendary Pokémon",
+            "chest_unopened_img": "images/locations/deoxys.png",
+            "chest_opened_img": "images/locations/deoxys_bw.png",
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 348,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 156,
+            "y": 124,
             "size": 4
           }
         ]

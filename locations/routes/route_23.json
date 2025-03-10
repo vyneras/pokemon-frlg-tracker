@@ -6,6 +6,57 @@
         "name": "Hidden Item After Second Checkpoint",
         "sections": [
           {
+            "ref": "Routes/Route 23/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Routes/Route 23/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Routes/Route 23/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 23/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 23/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 23/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_23_center_top",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_23_center_bottom",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_23_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item After Second Checkpoint",
+        "sections": [
+          {
             "ref": "Routes/Route 23/Hidden Item After Second Checkpoint",
             "name": "Hidden Item"
           }

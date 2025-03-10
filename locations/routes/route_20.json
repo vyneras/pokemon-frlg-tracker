@@ -3,6 +3,48 @@
     "name": "Route 20",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 West/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Routes/Route 20 West/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 20 West/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 20 West/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 20 West/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_west",
+            "x": 624,
+            "y": 12
+          },
+          {
+            "map": "route_20_center",
+            "x": 624,
+            "y": 12
+          },
+          {
+            "map": "route_20_east",
+            "x": 624,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Northwest Island Hidden Item",
         "sections": [
           {

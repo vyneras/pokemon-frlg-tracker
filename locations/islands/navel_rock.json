@@ -1,7 +1,23 @@
 [
   {
-    "name": "Navel Rock",
+    "name": "Navel Rock Summit",
     "children": [
+      {
+        "name": "Legendary Pokémon",
+        "sections": [
+          {
+            "ref": "Islands/Navel Rock/Summit - Legendary Pokémon",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
       {
         "name": "Hidden Item Near Ho-Oh",
         "sections": [
@@ -15,6 +31,27 @@
             "map": "navel_rock_summit",
             "x": 152,
             "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base",
+    "children": [
+      {
+        "name": "Legendary Pokémon",
+        "sections": [
+          {
+            "ref": "Islands/Navel Rock/Base - Legendary Pokémon",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base",
+            "x": 168,
+            "y": 248
           }
         ]
       }

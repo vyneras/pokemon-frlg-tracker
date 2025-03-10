@@ -122,6 +122,14 @@
           {
             "ref": "Cities/Saffron City/Black Belt Koichi Reward",
             "name": "Black Belt Koichi Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Dojo Pokémon (Left)",
+            "name": "Dojo Pokémon (Left)"
+          },
+          {
+            "ref": "Cities/Saffron City/Dojo Pokémon (Right)",
+            "name": "Dojo Pokémon (Right)"
           }
         ],
         "map_locations": [
@@ -319,6 +327,38 @@
             "map": "saffron_dojo",
             "x": 104,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Pokémon (Left)",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Dojo Pokémon (Left)",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 88,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pokémon (Right)",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Dojo Pokémon (Right)",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 120,
+            "y": 56
           }
         ]
       }

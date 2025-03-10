@@ -3,6 +3,52 @@
     "name": "Route 12",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Routes/Route 12 North/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Routes/Route 12 North/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 12 North/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 12 North/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 12 North/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_12_center",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_12_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Gate",
         "sections": [
           {
@@ -56,11 +102,15 @@
         ]
       },
       {
-        "name": "Hidden Item Under Snorlax",
+        "name": "Snorlax",
         "sections": [
           {
+            "ref": "Routes/Route 12 North/Sleeping Pokémon",
+            "name": "Sleeping Pokémon"
+          },
+          {
             "ref": "Routes/Route 12 North/Hidden Item Under Snorlax",
-            "name": "Hidden Item"
+            "name": "Hidden Item Under Snorlax"
           }
         ],
         "map_locations": [

@@ -1,11 +1,19 @@
 SLOT_CODES = {
+    game_version = {
+        code = "game_version_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Fire Red
+            [1] = 1  -- Leaf Green
+        }
+    },
     goal = {
-      code = "goal_setting",
-      type = "progressive",
-      mapping = {
-        [0] = 0, -- Goal E4
-        [1] = 1  -- Goal E4 Rematch
-      }
+        code = "goal_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Goal E4
+            [1] = 1 -- Goal E4 Rematch
+        }
     },
     kanto_only = {
         code = "kanto_only_setting",
@@ -54,7 +62,7 @@ SLOT_CODES = {
         mapping = {
             [0] = 0, -- Fly Destination Unlocks Off
             [1] = 1, -- Fly Destination Unlocks Exclude Indigo
-            [2] = 2  -- Fly Destination Unlocks All
+            [2] = 1  -- Fly Destination Unlocks All
         }
     },
     pokemon_request_locations = {
@@ -273,8 +281,8 @@ SLOT_CODES = {
             [20] = 7,  -- Route 10
             [5] = 8,   -- Lavender
             [7] = 9,   -- Celadon
-            [8] = 10,   -- Fuchsia
-            [11] = 11,  -- Saffron
+            [8] = 10,  -- Fuchsia
+            [11] = 11, -- Saffron
             [9] = 12,  -- Cinnabar
             [10] = 13, -- Indigo
             [12] = 14, -- One Island
@@ -300,8 +308,8 @@ SLOT_CODES = {
             [20] = 7,  -- Route 10
             [5] = 8,   -- Lavender
             [7] = 9,   -- Celadon
-            [8] = 10,   -- Fuchsia
-            [11] = 11,  -- Saffron
+            [8] = 10,  -- Fuchsia
+            [11] = 11, -- Saffron
             [9] = 12,  -- Cinnabar
             [10] = 13, -- Indigo
             [12] = 14, -- One Island

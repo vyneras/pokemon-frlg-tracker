@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Route 5",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 5/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  }
+]

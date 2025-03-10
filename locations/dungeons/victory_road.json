@@ -3,6 +3,22 @@
     "name": "Victory Road 1F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "North Rock Hidden Item",
         "sections": [
           {
@@ -103,6 +119,22 @@
   {
     "name": "Victory Road 2F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 800,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Item Below Plateau",
         "sections": [
@@ -252,6 +284,22 @@
   {
     "name": "Victory Road 3F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 704,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Northeast Item",
         "sections": [

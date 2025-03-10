@@ -3,6 +3,42 @@
     "name": "Cerulean Cave 1F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/1F - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 624,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "West Plateau Hidden Item",
         "sections": [
           {
@@ -72,6 +108,22 @@
     "name": "Cerulean Cave 2F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/2F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 624,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "East Item",
         "sections": [
           {
@@ -125,6 +177,42 @@
     "name": "Cerulean Cave B1F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_b1f",
+            "x": 624,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Northeast Item",
         "sections": [
           {
@@ -153,6 +241,22 @@
             "map": "cerulean_cave_b1f",
             "x": 504,
             "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Legendary Pokémon",
+        "sections": [
+          {
+            "ref": "Dungeons/Cerulean Cave/B1F - Legendary Pokémon",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_b1f",
+            "x": 120,
+            "y": 200
           }
         ]
       }

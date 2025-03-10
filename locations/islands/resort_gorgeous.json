@@ -3,6 +3,39 @@
     "name": "Resort Gorgeous",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Resort Gorgeous/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Resort Gorgeous/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Resort Gorgeous/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 576,
+            "y": 12
+          },
+          {
+            "map": "resort_gorgeous_east",
+            "x": 544,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "West Island Hidden Item",
         "sections": [
           {

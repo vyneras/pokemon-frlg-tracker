@@ -3,6 +3,27 @@
     "name": "Sevault Canyon",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "sevault_canyon_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "North Item",
         "sections": [
           {

@@ -3,6 +3,22 @@
     "name": "Seafoam Islands 1F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "x": 592,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Plateau Item",
         "sections": [
           {
@@ -23,6 +39,22 @@
   {
     "name": "Seafoam Islands B1F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 592,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Center Plateau Item",
         "sections": [
@@ -61,6 +93,22 @@
     "name": "Seafoam Islands B2F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B2F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 592,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Item Below Center Plateau",
         "sections": [
           {
@@ -82,6 +130,42 @@
     "name": "Seafoam Islands B3F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B3F - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B3F - Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B3F - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B3F - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B3F - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B3F - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "x": 592,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "West Plateau Rock Hidden Item",
         "sections": [
           {
@@ -102,6 +186,42 @@
   {
     "name": "Seafoam Islands B4F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "x": 592,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "West Rock Hidden Item",
         "sections": [
@@ -131,6 +251,22 @@
             "map": "seafoam_islands_b4f",
             "x": 360,
             "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Legendary Pokémon",
+        "sections": [
+          {
+            "ref": "Dungeons/Seafoam Islands/B4F - Legendary Pokémon",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "x": 152,
+            "y": 40
           }
         ]
       }

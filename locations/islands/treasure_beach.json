@@ -3,6 +3,38 @@
     "name": "Treasure Beach",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Treasure Beach/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Islands/Treasure Beach/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Treasure Beach/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Treasure Beach/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Treasure Beach/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "treasure_beach",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Beach West Hidden Item",
         "sections": [
           {

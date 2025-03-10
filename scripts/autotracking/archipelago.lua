@@ -1,6 +1,7 @@
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/pokemon_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/trainer_mapping.lua")
@@ -8,6 +9,7 @@ ScriptHost:LoadScript("scripts/autotracking/trainer_mapping.lua")
 CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
 PROG_PASS_COUNT = 0
+VANILLA_RUNNING_SHOES = false
 
 PROG_CARD_KEY = {
     [0] = "card_key_2f",
@@ -37,8 +39,11 @@ PROG_PASS_SPLIT = {
     [6] = "seven_pass"
 }
 
+DEXSANITY_LOCATIONS = {}
+
 EVENT_ID = ""
 FLY_UNLOCK_ID = ""
+POKEMON_ID = ""
 POKEDEX_ID = ""
 
 function resetItems()
@@ -55,14 +60,15 @@ function resetItems()
 end
 
 function resetLocations()
-    for _, value in pairs(LOCATION_MAPPING) do
+    for id, value in pairs(LOCATION_MAPPING) do
         for _, code in pairs(value) do
             local object = Tracker:FindObjectForCode(code)
             if object then
                 if code:sub(1, 1) == "@" then
                     object.AvailableChestCount = object.ChestCount
                 else
-                    object.Active = false
+                    object.CurrentStage = 0
+                    DEXSANITY_LOCATIONS[id] = code
                 end
             end
         end
@@ -96,7 +102,7 @@ function resetDarkCaves()
     end
 end
 
-function set_trainersanity_visibility()
+function setTrainersanityVisibility()
     local checked_locations = Archipelago.CheckedLocations
     local missing_locations = Archipelago.MissingLocations
     remove_trainer_checks = {}
@@ -125,6 +131,27 @@ function set_trainersanity_visibility()
     end
 end
 
+function setDexsanityLocations()
+    local checked_locations = Archipelago.CheckedLocations
+    local missing_locations = Archipelago.MissingLocations
+    for _, value in pairs(checked_locations) do
+        if DEXSANITY_LOCATIONS[value] ~= nil then
+            local object = Tracker:FindObjectForCode(DEXSANITY_LOCATIONS[value])
+            if object then
+                object.CurrentStage = 1
+            end
+        end
+    end
+    for _, value in pairs(missing_locations) do
+        if DEXSANITY_LOCATIONS[value] ~= nil then
+            local object = Tracker:FindObjectForCode(DEXSANITY_LOCATIONS[value])
+            if object then
+                object.CurrentStage = 1
+            end
+        end
+    end
+end
+
 function onClear(slot_data)
     Tracker.BulkUpdate = true
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
@@ -132,6 +159,7 @@ function onClear(slot_data)
     CUR_INDEX = -1
     PROG_CARD_KEY_COUNT = 0
     PROG_PASS_COUNT = 0
+    VANILLA_RUNNING_SHOES = false
     resetItems()
     resetLocations()
     resetBadgeRequirements()
@@ -177,20 +205,28 @@ function onClear(slot_data)
             end
         end
     end
-    if has("trainersanity_on") then
-        set_trainersanity_visibility()
+    if SLOT_CODES["shuffle_running_shoes"] == 0 then
+        VANILLA_RUNNING_SHOES = true
     end
+    if has("trainersanity_on") then
+        setTrainersanityVisibility()
+    end
+    setDexsanityLocations()
     if PLAYER_NUMBER > -1 then
         updateEvents(0)
         updateFlyUnlocks(0)
+        updatePokemon({})
         updatePokedex(0)
         EVENT_ID = "pokemon_frlg_events_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         FLY_UNLOCK_ID = "pokemon_frlg_fly_unlocks_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+        POKEMON_ID = "pokemon_frlg_pokemon_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEDEX_ID = "pokemon_frlg_pokedex_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         Archipelago:SetNotify({ EVENT_ID })
         Archipelago:Get({ EVENT_ID })
         Archipelago:SetNotify({ FLY_UNLOCK_ID })
         Archipelago:Get({ FLY_UNLOCK_ID })
+        Archipelago:SetNotify({ POKEMON_ID })
+        Archipelago:Get({ POKEMON_ID })
         Archipelago:SetNotify({ POKEDEX_ID })
         Archipelago:Get({ POKEDEX_ID })
     end
@@ -269,7 +305,7 @@ function onLocation(location_id, location_name)
             if code:sub(1, 1) == "@" then
                 object.AvailableChestCount = object.AvailableChestCount - 1
             else
-                object.Active = true
+                object.CurrentStage = 2
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onLocation: could not find object for code %s", code))
@@ -278,14 +314,14 @@ function onLocation(location_id, location_name)
 end
 
 function onNotify(key, value, old_value)
-    if value ~= old_value then
-        if key == EVENT_ID then
-            updateEvents(value)
-        elseif key == FLY_UNLOCK_ID then
-            updateFlyUnlocks(value)
-        elseif key == POKEDEX_ID then
-            updatePokedex(value)
-        end
+    if key == EVENT_ID then
+        updateEvents(value)
+    elseif key == FLY_UNLOCK_ID then
+        updateFlyUnlocks(value)
+    elseif key == POKEMON_ID then
+        updatePokemon(value)
+    elseif key == POKEDEX_ID then
+        updatePokedex(value)
     end
 end
 
@@ -294,6 +330,8 @@ function onNotifyLaunch(key, value)
         updateEvents(value)
     elseif key == FLY_UNLOCK_ID then
         updateFlyUnlocks(value)
+    elseif key == POKEMON_ID then
+        updatePokemon(value)
     elseif key == POKEDEX_ID then
         updatePokedex(value)
     end
@@ -318,6 +356,10 @@ function updateEvents(value)
             for _, code in pairs(codes) do
                 if code == "lemonade" then
                     Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or value & bitmask ~= 0
+                elseif code == "running_shoes" then
+                    if VANILLA_RUNNING_SHOES then
+                        Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
+                    end
                 else
                     Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
                 end
@@ -327,6 +369,9 @@ function updateEvents(value)
 end
 
 function updateFlyUnlocks(value)
+    if not has("fly_destination_unlocks_off") then
+        return
+    end
     if value ~= nil then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateFlyUnlocks: Value - %s", value))
@@ -336,6 +381,16 @@ function updateFlyUnlocks(value)
             for _, code in pairs(codes) do
                 Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
             end
+        end
+    end
+end
+
+function updatePokemon(pokemon)
+    for dex_number, code in pairs(POKEMON_MAPPING) do
+        if table_contains(pokemon, dex_number) then
+            Tracker:FindObjectForCode(code).Active = true
+        else
+            Tracker:FindObjectForCode(code).Active = false
         end
     end
 end

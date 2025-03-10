@@ -3,6 +3,53 @@
     "name": "Kindle Road",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Islands/Kindle Road/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Kindle Road/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Kindle Road/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Kindle Road/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_north",
+            "x": 368,
+            "y": 12
+          },
+        {
+            "map": "kindle_road_center_top",
+            "x": 368,
+            "y": 12
+          },
+        {
+            "map": "kindle_road_center_bottom",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "kindle_road_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Plateau Item",
         "sections": [
           {

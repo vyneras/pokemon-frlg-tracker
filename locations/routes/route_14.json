@@ -3,6 +3,27 @@
     "name": "Route 14",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_14_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Southeast Hidden Item",
         "sections": [
           {

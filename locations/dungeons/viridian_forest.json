@@ -3,6 +3,27 @@
     "name": "Viridian Forest",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 848,
+            "y": 12
+          },
+          {
+            "map": "viridian_forest_south",
+            "x": 848,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Hidden Item Near South Entrance",
         "sections": [
           {

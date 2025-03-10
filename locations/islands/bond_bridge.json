@@ -6,6 +6,43 @@
         "name": "Rock Hidden Item",
         "sections": [
           {
+            "ref": "Islands/Bond Bridge/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Islands/Bond Bridge/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Bond Bridge/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Bond Bridge/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Bond Bridge/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 720,
+            "y": 12
+          },
+          {
+            "map": "bond_bridge_east",
+            "x": 784,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Rock Hidden Item",
+        "sections": [
+          {
             "ref": "Islands/Bond Bridge/Rock Hidden Item",
             "name": "Hidden Item"
           }

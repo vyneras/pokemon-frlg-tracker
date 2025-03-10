@@ -3,6 +3,22 @@
     "name": "Route 1",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 1/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_1",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Poké Mart Employee",
         "sections": [
           {

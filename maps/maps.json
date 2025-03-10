@@ -804,10 +804,16 @@
     "img": "images/maps/digletts_cave_south_entrance.png"
   },
   {
-    "name": "digletts_cave_b1f",
+    "name": "digletts_cave_b1f_north",
     "location_size": 12,
     "location_border_thickness": 2,
-    "img": "images/maps/digletts_cave_b1f.png"
+    "img": "images/maps/digletts_cave_b1f_north.png"
+  },
+  {
+    "name": "digletts_cave_b1f_south",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/digletts_cave_b1f_south.png"
   },
   {
     "name": "rock_tunnel_1f",

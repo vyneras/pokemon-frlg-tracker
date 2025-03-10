@@ -1,5 +1,27 @@
 [
   {
+    "name": "Game Version",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/red.png",
+        "img_mods": "overlay|images/overlays/fire.png",
+        "codes": "game_version_setting,game_version_fire",
+        "inherit_codes": false,
+        "name": "Game Version - Fire Red"
+      },
+      {
+        "img": "images/settings/green.png",
+        "img_mods": "overlay|images/overlays/leaf.png",
+        "codes": "game_version_setting,game_version_leaf",
+        "inherit_codes": false,
+        "name": "Game Version - Leaf Green"
+      }
+    ]
+  },
+  {
     "name": "Goal",
     "type": "progressive",
     "allow_disabled": false,
@@ -7,14 +29,14 @@
     "stages": [
       {
         "img": "images/settings/rival.png",
-        "img_mods": "overlay|/images/overlays/e4.png",
+        "img_mods": "overlay|images/overlays/e4.png",
         "codes": "goal_setting,goal_e4",
         "inherit_codes": false,
         "name": "Goal - Elite Four"
       },
       {
         "img": "images/settings/rival.png",
-        "img_mods": "overlay|/images/overlays/e4_rematch.png",
+        "img_mods": "overlay|images/overlays/e4_rematch.png",
         "codes": "goal_setting,goal_e4_rematch",
         "inherit_codes": false,
         "name": "Goal - Elite Four Rematch"
@@ -29,14 +51,14 @@
     "stages": [
       {
         "img": "images/settings/celio.png",
-        "img_mods": "overlay|/images/overlays/green_check.png",
+        "img_mods": "overlay|images/overlays/green_check.png",
         "codes": "kanto_only_setting,kanto_only_off",
         "inherit_codes": false,
         "name": "Kanto Only - Off"
       },
       {
         "img": "images/settings/celio.png",
-        "img_mods": "overlay|/images/overlays/red_x.png",
+        "img_mods": "overlay|images/overlays/red_x.png",
         "codes": "kanto_only_setting,kanto_only_on",
         "inherit_codes": false,
         "name": "Kanto Only - On"
@@ -51,21 +73,21 @@
     "stages": [
       {
         "img": "images/settings/hidden_items.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "hidden_setting,hidden_off",
         "inherit_codes": false,
         "name": "Shuffle Hidden Items - Off"
       },
       {
         "img": "images/settings/hidden_items.png",
-        "img_mods": "overlay|/images/overlays/some.png",
+        "img_mods": "overlay|images/overlays/some.png",
         "codes": "hidden_setting,hidden_nonrecurring",
         "inherit_codes": false,
         "name": "Shuffle Hidden Items - Nonrecurring"
       },
       {
         "img": "images/settings/hidden_items.png",
-        "img_mods": "overlay|/images/overlays/all.png",
+        "img_mods": "overlay|images/overlays/all.png",
         "codes": "hidden_setting,hidden_all",
         "name": "Shuffle Hidden Items - All"
       }
@@ -79,14 +101,14 @@
     "stages": [
       {
         "img": "images/settings/extra_key_items.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "extra_key_items_setting,extra_key_items_off",
         "inherit_codes": false,
         "name": "Extra Key Items - Off"
       },
       {
         "img": "images/settings/extra_key_items.png",
-        "img_mods": "overlay|/images/overlays/on.png",
+        "img_mods": "overlay|images/overlays/on.png",
         "codes": "extra_key_items_setting,extra_key_items_on",
         "inherit_codes": false,
         "name": "Extra Key Items - On"
@@ -101,14 +123,14 @@
     "stages": [
       {
         "img": "images/settings/trainer.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "trainersanity_setting,trainersanity_off",
         "inherit_codes": false,
         "name": "Trainersanity - Off"
       },
       {
         "img": "images/settings/trainer.png",
-        "img_mods": "overlay|/images/overlays/on.png",
+        "img_mods": "overlay|images/overlays/on.png",
         "codes": "trainersanity_setting,trainersanity_on",
         "inherit_codes": false,
         "name": "Trainersanity - On"
@@ -123,14 +145,14 @@
     "stages": [
       {
         "img": "images/settings/fame_checker.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "famesanity_setting,famesanity_off",
         "inherit_codes": false,
         "name": "Famesanity - Off"
       },
       {
         "img": "images/settings/fame_checker.png",
-        "img_mods": "overlay|/images/overlays/on.png",
+        "img_mods": "overlay|images/overlays/on.png",
         "codes": "famesanity_setting,famesanity_on",
         "inherit_codes": false,
         "name": "Famesanity - On"
@@ -145,23 +167,17 @@
     "stages": [
       {
         "img": "images/settings/fly_destinations.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_off",
         "inherit_codes": false,
         "name": "Shuffle Fly Destination Unlocks - Off"
       },
       {
         "img": "images/settings/fly_destinations.png",
-        "img_mods": "overlay|/images/overlays/some.png",
-        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_some",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_on",
         "inherit_codes": false,
-        "name": "Shuffle Fly Destination Unlocks - Excldue Indigo"
-      },
-      {
-        "img": "images/settings/fly_destinations.png",
-        "img_mods": "overlay|/images/overlays/all.png",
-        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_all",
-        "name": "Shuffle Fly Destination Unlocks - All"
+        "name": "Shuffle Fly Destination Unlocks - On"
       }
     ]
   },
@@ -173,14 +189,14 @@
     "stages": [
       {
         "img": "images/settings/pikachu.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "pokemon_request_setting,pokemon_request_off",
         "inherit_codes": false,
         "name": "Pokémon Request Locations - Off"
       },
       {
         "img": "images/settings/pikachu.png",
-        "img_mods": "overlay|/images/overlays/on.png",
+        "img_mods": "overlay|images/overlays/on.png",
         "codes": "pokemon_request_setting,pokemon_request_on",
         "inherit_codes": false,
         "name": "Pokémon Request Locations - On"
@@ -195,21 +211,21 @@
     "stages": [
       {
         "img": "images/settings/card_key.png",
-        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "img_mods": "overlay|images/overlays/vanilla.png",
         "codes": "card_keys_setting,card_keys_vanilla",
         "inherit_codes": false,
         "name": "Card Keys - Vanilla"
       },
       {
         "img": "images/settings/card_key.png",
-        "img_mods": "overlay|/images/overlays/split.png",
+        "img_mods": "overlay|images/overlays/split.png",
         "codes": "card_keys_setting,card_keys_split",
         "inherit_codes": false,
         "name": "Card Keys - Split"
       },
       {
         "img": "images/settings/card_key.png",
-        "img_mods": "overlay|/images/overlays/progressive.png",
+        "img_mods": "overlay|images/overlays/progressive.png",
         "codes": "card_keys_setting,card_keys_prog",
         "inherit_codes": false,
         "name": "Card Keys - Progressive"
@@ -224,28 +240,28 @@
     "stages": [
       {
         "img": "images/settings/rainbow_pass.png",
-        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "img_mods": "overlay|images/overlays/vanilla.png",
         "codes": "island_passes_setting,island_passes_vanilla",
         "inherit_codes": false,
         "name": "Island Passes - Vanilla"
       },
       {
         "img": "images/settings/rainbow_pass.png",
-        "img_mods": "overlay|/images/overlays/progressive.png",
+        "img_mods": "overlay|images/overlays/progressive.png",
         "codes": "island_passes_setting,island_passes_prog",
         "inherit_codes": false,
         "name": "Island Passes - Progressive"
       },
       {
         "img": "images/settings/rainbow_pass.png",
-        "img_mods": "overlay|/images/overlays/split.png",
+        "img_mods": "overlay|images/overlays/split.png",
         "codes": "island_passes_setting,island_passes_split",
         "inherit_codes": false,
         "name": "Island Passes - Split"
       },
       {
         "img": "images/settings/rainbow_pass.png",
-        "img_mods": "overlay|/images/overlays/progressive.png",
+        "img_mods": "overlay|images/overlays/progressive.png",
         "codes": "island_passes_setting,island_passes_split_prog",
         "inherit_codes": false,
         "name": "Island Passes - Split & Progressive"
@@ -260,14 +276,14 @@
     "stages": [
       {
         "img": "images/settings/tea.png",
-        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "img_mods": "overlay|images/overlays/vanilla.png",
         "codes": "teas_setting,teas_vanilla",
         "inherit_codes": false,
         "name": "Teas - Vanilla"
       },
       {
         "img": "images/settings/tea.png",
-        "img_mods": "overlay|/images/overlays/split.png",
+        "img_mods": "overlay|images/overlays/split.png",
         "codes": "teas_setting,teas_split",
         "inherit_codes": false,
         "name": "Teas - Split"
@@ -283,21 +299,21 @@
     "stages": [
       {
         "img": "images/settings/itemfinder.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "itemfinder_setting,itemfinder_off",
         "inherit_codes": false,
         "name": "Itemfinder Required - Off"
       },
       {
         "img": "images/settings/itemfinder.png",
-        "img_mods": "overlay|/images/overlays/logic.png",
+        "img_mods": "overlay|images/overlays/logic.png",
         "codes": "itemfinder_setting,itemfinder_logic",
         "inherit_codes": false,
         "name": "Itemfinder Required - Logic"
       },
       {
         "img": "images/settings/itemfinder.png",
-        "img_mods": "overlay|/images/overlays/required.png",
+        "img_mods": "overlay|images/overlays/required.png",
         "codes": "itemfinder_setting,itemfinder_req",
         "inherit_codes": false,
         "name": "Itemfinder Required - Required"
@@ -313,21 +329,21 @@
     "stages": [
       {
         "img": "images/settings/normal_hm.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "flash_setting,flash_off",
         "inherit_codes": false,
         "name": "Flash Required - Off"
       },
       {
         "img": "images/settings/normal_hm.png",
-        "img_mods": "overlay|/images/overlays/logic.png",
+        "img_mods": "overlay|images/overlays/logic.png",
         "codes": "flash_setting,flash_logic",
         "inherit_codes": false,
         "name": "Flash Required - Logic"
       },
       {
         "img": "images/settings/normal_hm.png",
-        "img_mods": "overlay|/images/overlays/required.png",
+        "img_mods": "overlay|images/overlays/required.png",
         "codes": "flash_setting,flash_req",
         "inherit_codes": false,
         "name": "Flash Required - Required"
@@ -343,14 +359,14 @@
     "stages": [
       {
         "img": "images/settings/fame_checker.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "fame_checker_setting,fame_checker_off",
         "inherit_codes": false,
         "name": "Fame Checker Required - Off"
       },
       {
         "img": "images/settings/fame_checker.png",
-        "img_mods": "overlay|/images/overlays/required.png",
+        "img_mods": "overlay|images/overlays/required.png",
         "codes": "fame_checker_setting,fame_checker_req",
         "inherit_codes": false,
         "name": "Fame Checker Required - Required"
@@ -365,14 +381,14 @@
     "stages": [
       {
         "img": "images/settings/old_man.png",
-        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "img_mods": "overlay|images/overlays/vanilla.png",
         "codes": "viridian_city_setting,viridian_city_vanilla",
         "inherit_codes": false,
         "name": "Viridian City Roadblock - Vanilla"
       },
       {
         "img": "images/settings/old_man.png",
-        "img_mods": "overlay|/images/overlays/open.png",
+        "img_mods": "overlay|images/overlays/open.png",
         "codes": "viridian_city_setting,viridian_city_open",
         "inherit_codes": false,
         "name": "Viridian City Roadblock - Open"
@@ -388,35 +404,35 @@
     "stages": [
       {
         "img": "images/settings/boy.png",
-        "img_mods": "overlay|/images/overlays/open.png",
+        "img_mods": "overlay|images/overlays/open.png",
         "codes": "pewter_city_setting,pewter_city_open",
         "inherit_codes": false,
         "name": "Pewter City Roadblock - Open"
       },
       {
         "img": "images/settings/boy.png",
-        "img_mods": "overlay|/images/overlays/brock.png",
+        "img_mods": "overlay|images/overlays/brock.png",
         "codes": "pewter_city_setting,pewter_city_brock",
         "inherit_codes": false,
         "name": "Pewter City Roadblock - Brock"
       },
       {
         "img": "images/settings/boy.png",
-        "img_mods": "overlay|/images/overlays/gym.png",
+        "img_mods": "overlay|images/overlays/gym.png",
         "codes": "pewter_city_setting,pewter_city_gym",
         "inherit_codes": false,
         "name": "Pewter City Roadblock - Any Gym"
       },
       {
         "img": "images/settings/boy.png",
-        "img_mods": "overlay|/images/overlays/boulder_badge.png",
+        "img_mods": "overlay|images/overlays/boulder_badge.png",
         "codes": "pewter_city_setting,pewter_city_boulder_badge",
         "inherit_codes": false,
         "name": "Pewter City Roadblock - Boulder Badge"
       },
       {
         "img": "images/settings/boy.png",
-        "img_mods": "overlay|/images/overlays/rainbow_badge.png",
+        "img_mods": "overlay|images/overlays/rainbow_badge.png",
         "codes": "pewter_city_setting,pewter_city_any_badge",
         "inherit_codes": false,
         "name": "Pewter City Roadblock - Any Badge"
@@ -431,14 +447,14 @@
     "stages": [
       {
         "img": "images/settings/bill.png",
-        "img_mods": "overlay|/images/overlays/green_check.png",
+        "img_mods": "overlay|images/overlays/green_check.png",
         "codes": "cerulean_roadblock_setting,cerulean_roadblock_on",
         "inherit_codes": false,
         "name": "Cerulean City Roadblock - On"
       },
       {
         "img": "images/settings/bill.png",
-        "img_mods": "overlay|/images/overlays/red_x.png",
+        "img_mods": "overlay|images/overlays/red_x.png",
         "codes": "cerulean_roadblock_setting,cerulean_roadblock_off",
         "inherit_codes": false,
         "name": "Cerulean City Roadblock - Off"
@@ -453,14 +469,14 @@
     "stages": [
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/route_2.png,@disabled",
+        "img_mods": "overlay|images/overlays/route_2.png,@disabled",
         "codes": "modify_route_2_setting,modify_route_2_off",
         "inherit_codes": false,
         "name": "Modify Route 2 - Off"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/route_2.png",
+        "img_mods": "overlay|images/overlays/route_2.png",
         "codes": "modify_route_2_setting,modify_route_2_on",
         "inherit_codes": false,
         "name": "Modify Route 2 - On"
@@ -475,14 +491,14 @@
     "stages": [
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/tunnel.png,@disabled",
+        "img_mods": "overlay|images/overlays/tunnel.png,@disabled",
         "codes": "block_tunnels_setting,block_tunnels_off",
         "inherit_codes": false,
         "name": "Block Underground Tunnels - Off"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/tunnel.png",
+        "img_mods": "overlay|images/overlays/tunnel.png",
         "codes": "block_tunnels_setting,block_tunnels_on",
         "inherit_codes": false,
         "name": "Block Underground Tunnels - On"
@@ -497,14 +513,14 @@
     "stages": [
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/route_9.png,@disabled",
+        "img_mods": "overlay|images/overlays/route_9.png,@disabled",
         "codes": "modify_route_9_setting,modify_route_9_off",
         "inherit_codes": false,
         "name": "Modify Route 9 - Off"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/route_9.png",
+        "img_mods": "overlay|images/overlays/route_9.png",
         "codes": "modify_route_9_setting,modify_route_9_on",
         "inherit_codes": false,
         "name": "Modify Route 9 - On"
@@ -519,14 +535,14 @@
     "stages": [
       {
         "img": "images/settings/waterfall.png",
-        "img_mods": "overlay|/images/overlays/route_10.png,@disabled",
+        "img_mods": "overlay|images/overlays/route_10.png,@disabled",
         "codes": "modify_route_10_setting,modify_route_10_off",
         "inherit_codes": false,
         "name": "Modify Route 10 - Off"
       },
       {
         "img": "images/settings/waterfall.png",
-        "img_mods": "overlay|/images/overlays/route_10.png",
+        "img_mods": "overlay|images/overlays/route_10.png",
         "codes": "modify_route_10_setting,modify_route_10_on",
         "inherit_codes": false,
         "name": "Modify Route 10 - On"
@@ -541,14 +557,14 @@
     "stages": [
       {
         "img": "images/settings/cubone.png",
-        "img_mods": "overlay|/images/overlays/tower.png,@disabled",
+        "img_mods": "overlay|images/overlays/tower.png,@disabled",
         "codes": "block_tower_setting,block_tower_off",
         "inherit_codes": false,
         "name": "Block Pokémon Tower - Off"
       },
       {
         "img": "images/settings/cubone.png",
-        "img_mods": "overlay|/images/overlays/tower.png",
+        "img_mods": "overlay|images/overlays/tower.png",
         "codes": "block_tower_setting,block_tower_on",
         "inherit_codes": false,
         "name": "Block Pokémon Tower - On"
@@ -563,14 +579,14 @@
     "stages": [
       {
         "img": "images/settings/boulder.png",
-        "img_mods": "overlay|/images/overlays/route_12.png,@disabled",
+        "img_mods": "overlay|images/overlays/route_12.png,@disabled",
         "codes": "route_12_boulders_setting,route_12_boulders_off",
         "inherit_codes": false,
         "name": "Route 12 Boulders - Off"
       },
       {
         "img": "images/settings/boulder.png",
-        "img_mods": "overlay|/images/overlays/route_12.png",
+        "img_mods": "overlay|images/overlays/route_12.png",
         "codes": "route_12_boulders_setting,route_12_boulders_on",
         "inherit_codes": false,
         "name": "Route 12 Boulders - On"
@@ -585,14 +601,14 @@
     "stages": [
       {
         "img": "images/settings/water_rock.png",
-        "img_mods": "overlay|/images/overlays/route_12.png,@disabled",
+        "img_mods": "overlay|images/overlays/route_12.png,@disabled",
         "codes": "modify_route_12_setting,modify_route_12_off",
         "inherit_codes": false,
         "name": "Modify Route 12 - Off"
       },
       {
         "img": "images/settings/water_rock.png",
-        "img_mods": "overlay|/images/overlays/route_12.png",
+        "img_mods": "overlay|images/overlays/route_12.png",
         "codes": "modify_route_12_setting,modify_route_12_on",
         "inherit_codes": false,
         "name": "Modify Route 12 - On"
@@ -607,14 +623,14 @@
     "stages": [
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/route_16.png,@disabled",
+        "img_mods": "overlay|images/overlays/route_16.png,@disabled",
         "codes": "modify_route_16_setting,modify_route_16_off",
         "inherit_codes": false,
         "name": "Modify Route 16 - Off"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/route_16.png",
+        "img_mods": "overlay|images/overlays/route_16.png",
         "codes": "modify_route_16_setting,modify_route_16_on",
         "inherit_codes": false,
         "name": "Modify Route 16 - On"
@@ -629,14 +645,14 @@
     "stages": [
       {
         "img": "images/settings/mr_fuji.png",
-        "img_mods": "overlay|/images/overlays/green_check.png",
+        "img_mods": "overlay|images/overlays/green_check.png",
         "codes": "open_silph_setting,open_silph_off",
         "inherit_codes": false,
         "name": "Open Silph Co. - Off"
       },
       {
         "img": "images/settings/mr_fuji.png",
-        "img_mods": "overlay|/images/overlays/red_x.png",
+        "img_mods": "overlay|images/overlays/red_x.png",
         "codes": "open_silph_setting,open_silph_on",
         "inherit_codes": false,
         "name": "Open Silph Co. - On"
@@ -651,14 +667,14 @@
     "stages": [
       {
         "img": "images/settings/rocket_male.png",
-        "img_mods": "overlay|/images/overlays/green_check.png",
+        "img_mods": "overlay|images/overlays/green_check.png",
         "codes": "saffron_rockets_setting,saffron_rockets_off",
         "inherit_codes": false,
         "name": "Remove Saffron Rockets - Off"
       },
       {
         "img": "images/settings/rocket_male.png",
-        "img_mods": "overlay|/images/overlays/red_x.png",
+        "img_mods": "overlay|images/overlays/red_x.png",
         "codes": "saffron_rockets_setting,saffron_rockets_on",
         "inherit_codes": false,
         "name": "Remove Saffron Rockets - On"
@@ -673,14 +689,14 @@
     "stages": [
       {
         "img": "images/settings/cut_tree.png",
-        "img_mods": "overlay|/images/overlays/route_23.png,@disabled",
+        "img_mods": "overlay|images/overlays/route_23.png,@disabled",
         "codes": "route_23_trees_setting,route_23_trees_off",
         "inherit_codes": false,
         "name": "Route 23 Trees - Off"
       },
       {
         "img": "images/settings/cut_tree.png",
-        "img_mods": "overlay|/images/overlays/route_23.png",
+        "img_mods": "overlay|images/overlays/route_23.png",
         "codes": "route_23_trees_setting,route_23_trees_on",
         "inherit_codes": false,
         "name": "Route 23 Trees - On"
@@ -695,14 +711,14 @@
     "stages": [
       {
         "img": "images/settings/waterfall.png",
-        "img_mods": "overlay|/images/overlays/route_23.png,@disabled",
+        "img_mods": "overlay|images/overlays/route_23.png,@disabled",
         "codes": "modify_route_23_setting,modify_route_23_off",
         "inherit_codes": false,
         "name": "Modify Route 23 - Off"
       },
       {
         "img": "images/settings/waterfall.png",
-        "img_mods": "overlay|/images/overlays/route_23.png",
+        "img_mods": "overlay|images/overlays/route_23.png",
         "codes": "modify_route_23_setting,modify_route_23_on",
         "inherit_codes": false,
         "name": "Modify Route 23 - On"
@@ -717,14 +733,14 @@
     "stages": [
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/road.png,@disabled",
+        "img_mods": "overlay|images/overlays/road.png,@disabled",
         "codes": "victory_road_rocks_setting,victory_road_rocks_off",
         "inherit_codes": false,
         "name": "Victory Road Rocks - Off"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|/images/overlays/road.png",
+        "img_mods": "overlay|images/overlays/road.png",
         "codes": "victory_road_rocks_setting,victory_road_rocks_on",
         "inherit_codes": false,
         "name": "Victory Road Rocks - On"
@@ -739,14 +755,14 @@
     "stages": [
       {
         "img": "images/settings/fame_checker.png",
-        "img_mods": "overlay|/images/overlays/early.png,@disabled",
+        "img_mods": "overlay|images/overlays/early.png,@disabled",
         "codes": "early_gossipers_setting,early_gossipers_off",
         "inherit_codes": false,
         "name": "Early Gossipers - Off"
       },
       {
         "img": "images/settings/fame_checker.png",
-        "img_mods": "overlay|/images/overlays/early.png",
+        "img_mods": "overlay|images/overlays/early.png",
         "codes": "early_gossipers_setting,early_gossipers_on",
         "inherit_codes": false,
         "name": "Early Gossipers - On"
@@ -761,14 +777,14 @@
     "stages": [
       {
         "img": "images/settings/ss_ticket.png",
-        "img_mods": "overlay|/images/overlays/sail.png,@disabled",
+        "img_mods": "overlay|images/overlays/sail.png,@disabled",
         "codes": "block_sailing_setting,block_sailing_off",
         "inherit_codes": false,
         "name": "Block Vermilion Sailing - Off"
       },
       {
         "img": "images/settings/ss_ticket.png",
-        "img_mods": "overlay|/images/overlays/sail.png",
+        "img_mods": "overlay|images/overlays/sail.png",
         "codes": "block_sailing_setting,block_sailing_on",
         "inherit_codes": false,
         "name": "Block Vermilion Sailing - On"
@@ -783,14 +799,14 @@
     "stages": [
       {
         "img": "images/settings/light_cave.png",
-        "img_mods": "overlay|/images/overlays/moon.png,@disabled",
+        "img_mods": "overlay|images/overlays/moon.png,@disabled",
         "codes": "mt_moon_dark_setting,mt_moon_dark_off",
         "inherit_codes": false,
         "name": "Mt. Moon - Off"
       },
       {
         "img": "images/settings/light_cave.png",
-        "img_mods": "overlay|/images/overlays/moon.png",
+        "img_mods": "overlay|images/overlays/moon.png",
         "codes": "mt_moon_dark_setting,mt_moon_dark_on",
         "inherit_codes": false,
         "name": "Mt. Moon - On"
@@ -805,14 +821,14 @@
     "stages": [
       {
         "img": "images/settings/digletts_cave.png",
-        "img_mods": "overlay|/images/overlays/cave.png,@disabled",
+        "img_mods": "overlay|images/overlays/cave.png,@disabled",
         "codes": "digletts_cave_dark_setting,digletts_cave_dark_off",
         "inherit_codes": false,
         "name": "Diglett's Cave - Off"
       },
       {
         "img": "images/settings/digletts_cave.png",
-        "img_mods": "overlay|/images/overlays/cave.png",
+        "img_mods": "overlay|images/overlays/cave.png",
         "codes": "digletts_cave_dark_setting,digletts_cave_dark_on",
         "inherit_codes": false,
         "name": "Diglett's Cave - On"
@@ -827,14 +843,14 @@
     "stages": [
       {
         "img": "images/settings/light_cave.png",
-        "img_mods": "overlay|/images/overlays/road.png,@disabled",
+        "img_mods": "overlay|images/overlays/road.png,@disabled",
         "codes": "victory_road_dark_setting,victory_road_dark_off",
         "inherit_codes": false,
         "name": "Victory Road - Off"
       },
       {
         "img": "images/settings/light_cave.png",
-        "img_mods": "overlay|/images/overlays/road.png",
+        "img_mods": "overlay|images/overlays/road.png",
         "codes": "victory_road_dark_setting,victory_road_dark_on",
         "inherit_codes": false,
         "name": "Victory Road - On"
@@ -849,14 +865,14 @@
     "stages": [
       {
         "img": "images/settings/rival.png",
-        "img_mods": "overlay|/images/overlays/rainbow_badge.png",
+        "img_mods": "overlay|images/overlays/rainbow_badge.png",
         "codes": "elite_four_setting,elite_four_badges",
         "inherit_codes": false,
         "name": "Elite Four Requirement - Badges"
       },
       {
         "img": "images/settings/rival.png",
-        "img_mods": "overlay|/images/overlays/gym.png",
+        "img_mods": "overlay|images/overlays/gym.png",
         "codes": "elite_four_setting,elite_four_gyms",
         "inherit_codes": false,
         "name": "Elite Four Requirement - Gyms"
@@ -881,14 +897,14 @@
     "stages": [
       {
         "img": "images/settings/rival.png",
-        "img_mods": "overlay|/images/overlays/e4_rematch_rainbow_badge.png",
+        "img_mods": "overlay|images/overlays/e4_rematch_rainbow_badge.png",
         "codes": "elite_four_rematch_setting,elite_four_rematch_badges",
         "inherit_codes": false,
         "name": "Elite Four Rematch Requirement - Badges"
       },
       {
         "img": "images/settings/rival.png",
-        "img_mods": "overlay|/images/overlays/e4_rematch_gym.png",
+        "img_mods": "overlay|images/overlays/e4_rematch_gym.png",
         "codes": "elite_four_rematch_setting,elite_four_rematch_gyms",
         "inherit_codes": false,
         "name": "Elite Four Rematch Requirement - Gyms"
@@ -913,14 +929,14 @@
     "stages": [
       {
         "img": "images/settings/policeman.png",
-        "img_mods": "overlay|/images/overlays/route_22_rainbow_badge.png",
+        "img_mods": "overlay|images/overlays/route_22_rainbow_badge.png",
         "codes": "route_22_gate_setting,route_22_gate_badges",
         "inherit_codes": false,
         "name": "Route 22 Gate Requirement - Badges"
       },
       {
         "img": "images/settings/policeman.png",
-        "img_mods": "overlay|/images/overlays/route_22_gym.png",
+        "img_mods": "overlay|images/overlays/route_22_gym.png",
         "codes": "route_22_gate_setting,route_22_gate_gyms",
         "inherit_codes": false,
         "name": "Route 22 Gate Requirement - Gyms"
@@ -945,14 +961,14 @@
     "stages": [
       {
         "img": "images/settings/policeman.png",
-        "img_mods": "overlay|/images/overlays/route_23_rainbow_badge.png",
+        "img_mods": "overlay|images/overlays/route_23_rainbow_badge.png",
         "codes": "route_23_guard_setting,route_23_guard_badges",
         "inherit_codes": false,
         "name": "Route 23 Guard Requirement - Badges"
       },
       {
         "img": "images/settings/policeman.png",
-        "img_mods": "overlay|/images/overlays/route_22_gym.png",
+        "img_mods": "overlay|images/overlays/route_22_gym.png",
         "codes": "route_23_guard_setting,route_23_guard_gyms",
         "inherit_codes": false,
         "name": "Route 23 Gate Requirement - Gyms"
@@ -977,14 +993,14 @@
     "stages": [
       {
         "img": "images/settings/giovanni.png",
-        "img_mods": "overlay|/images/overlays/rainbow_badge.png",
+        "img_mods": "overlay|images/overlays/rainbow_badge.png",
         "codes": "viridian_gym_setting,viridian_gym_badges",
         "inherit_codes": false,
         "name": "Viridian Gym Requirement - Badges"
       },
       {
         "img": "images/settings/giovanni.png",
-        "img_mods": "overlay|/images/overlays/gym.png",
+        "img_mods": "overlay|images/overlays/gym.png",
         "codes": "viridian_gym_setting,viridian_gym_gyms",
         "inherit_codes": false,
         "name": "Viridian Gym Requirement - Gyms"
@@ -1009,35 +1025,35 @@
     "stages": [
       {
         "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "img_mods": "overlay|images/overlays/vanilla.png",
         "codes": "ceruelan_cave_setting,ceruelan_cave_vanilla",
         "inherit_codes": false,
         "name": "Cerulean Cave Requirement - Vanilla"
       },
       {
         "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|/images/overlays/rival.png",
+        "img_mods": "overlay|images/overlays/rival.png",
         "codes": "ceruelan_cave_setting,ceruelan_cave_champion",
         "inherit_codes": false,
         "name": "Cerulean Cave Requirement - Champion"
       },
       {
         "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|/images/overlays/celio.png",
+        "img_mods": "overlay|images/overlays/celio.png",
         "codes": "ceruelan_cave_setting,ceruelan_cave_restore",
         "inherit_codes": false,
         "name": "Cerulean Cave Requirement - Restore Network Machine"
       },
       {
         "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|/images/overlays/rainbow_badge.png",
+        "img_mods": "overlay|images/overlays/rainbow_badge.png",
         "codes": "ceruelan_cave_setting,ceruelan_cave_badges",
         "inherit_codes": false,
         "name": "Cerulean Cave Requirement - Badges"
       },
       {
         "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|/images/overlays/gym.png",
+        "img_mods": "overlay|images/overlays/gym.png",
         "codes": "ceruelan_cave_setting,ceruelan_cave_gyms",
         "inherit_codes": false,
         "name": "Cerulean Cave Requirement - Gyms"
@@ -1593,14 +1609,14 @@
     "stages": [
       {
         "img": "images/settings/town_map.png",
-        "img_mods": "overlay|/images/overlays/off_alt.png,@disabled",
+        "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
         "codes": "auto_tab_setting,auto_tab_off",
         "inherit_codes": false,
         "name": "Auto Tab - Off"
       },
       {
         "img": "images/settings/town_map.png",
-        "img_mods": "overlay|/images/overlays/on_alt.png",
+        "img_mods": "overlay|images/overlays/on_alt.png",
         "codes": "auto_tab_setting,auto_tab_on",
         "inherit_codes": false,
         "name": "Auto Tab - On"
@@ -1616,14 +1632,14 @@
     "stages": [
       {
         "img": "images/settings/town_map_open.png",
-        "img_mods": "overlay|/images/overlays/split_alt.png,@disabled",
+        "img_mods": "overlay|images/overlays/split_alt.png,@disabled",
         "codes": "split_map_setting,split_map_off",
         "inherit_codes": false,
         "name": "Split Map - Off"
       },
       {
         "img": "images/settings/town_map_open.png",
-        "img_mods": "overlay|/images/overlays/split_alt.png",
+        "img_mods": "overlay|images/overlays/split_alt.png",
         "codes": "split_map_setting,split_map_on",
         "inherit_codes": false,
         "name": "Split Map - On"
@@ -1639,17 +1655,47 @@
     "stages": [
       {
         "img": "images/settings/mew.png",
-        "img_mods": "overlay|/images/overlays/off_alt.png,@disabled",
+        "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
         "codes": "pokemon_tabs_setting,pokemon_tabs_off",
         "inherit_codes": false,
         "name": "Pokemon Tabs - Off"
       },
       {
         "img": "images/settings/mew.png",
-        "img_mods": "overlay|/images/overlays/on_alt.png",
+        "img_mods": "overlay|images/overlays/on_alt.png",
         "codes": "pokemon_tabs_setting,pokemon_tabs_on",
         "inherit_codes": false,
         "name": "Pokemon Tabs - On"
+      }
+    ]
+  },
+  {
+    "name": "Pokemon Locations",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/grass.png",
+        "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
+        "codes": "pokemon_locations_setting,pokemon_locations_off",
+        "inherit_codes": false,
+        "name": "Pokemon Locations - Off"
+      },
+      {
+        "img": "images/settings/grass.png",
+        "img_mods": "overlay|images/overlays/on_alt.png",
+        "codes": "pokemon_locations_setting,pokemon_locations_on",
+        "inherit_codes": false,
+        "name": "Pokemon Locations - On"
+      },
+      {
+        "img": "images/settings/grass.png",
+        "img_mods": "overlay|images/overlays/only_alt.png",
+        "codes": "pokemon_locations_setting,pokemon_locations_only",
+        "inherit_codes": false,
+        "name": "Pokemon Locations - Only"
       }
     ]
   }

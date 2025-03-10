@@ -3,6 +3,39 @@
     "name": "Outcast Island",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Outcast Island/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Outcast Island/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Outcast Island/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "outcast_island_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "West Beach Hidden Item",
         "sections": [
           {

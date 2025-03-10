@@ -3,6 +3,47 @@
     "name": "Route 21",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Land Encounter",
+            "name": "Land Encounter"
+          },
+          {
+            "ref": "Routes/Route 21/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Routes/Route 21/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 21/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 21/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Routes/Route 21/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_21_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "East Island Hidden Item",
         "sections": [
           {

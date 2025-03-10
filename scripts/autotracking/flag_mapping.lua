@@ -23,7 +23,8 @@ EVENT_FLAG_MAPPING = {
     [21] = { "unlock_ruins" },
     [22] = { "restore_pokemon_network_machine" },
     [23] = { "defeat_champion_rematch" },
-    [24] = { "lemonade" }
+    [24] = { "lemonade" },
+    [25] = { "running_shoes" }
 }
 
 FLY_UNLOCK_FLAG_MAPPING = {

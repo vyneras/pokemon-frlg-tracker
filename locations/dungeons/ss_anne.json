@@ -6,6 +6,38 @@
         "name": "East Pier Hidden Item",
         "sections": [
           {
+            "ref": "Dungeons/S.S. Anne/Exterior - Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Exterior - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Exterior - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Exterior - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/S.S. Anne/Exterior - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_exterior",
+            "x": 704,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "East Pier Hidden Item",
+        "sections": [
+          {
             "ref": "Dungeons/S.S. Anne/Exterior - East Pier Hidden Item",
             "name": "Hidden Item"
           }

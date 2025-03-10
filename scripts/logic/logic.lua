@@ -316,3 +316,11 @@ function has_cerulean_cave_req()
     end
     return count >= req
 end
+
+function item_locations_visible()
+    return has("pokemon_locations_off") or has("pokemon_locations_on")
+end
+
+function pokemon_locations_visible()
+    return has("pokemon_locations_on") or has("pokemon_locations_only")
+end

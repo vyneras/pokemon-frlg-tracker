@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Three Isle Port",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Three Isle Port/Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  }
+]

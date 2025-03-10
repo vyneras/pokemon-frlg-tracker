@@ -3,6 +3,37 @@
     "name": "Route 17",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 17/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_17_center_top",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_17_center_bottom",
+            "x": 368,
+            "y": 12
+          },
+          {
+            "map": "route_17_south",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Dirt Path Hidden Item",
         "sections": [
           {

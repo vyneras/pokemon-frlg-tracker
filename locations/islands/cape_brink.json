@@ -3,6 +3,42 @@
     "name": "Cape Brink",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Cape Brink/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Islands/Cape Brink/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Cape Brink/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Cape Brink/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Cape Brink/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Cape Brink/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cape_brink",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Hidden Item Across Pond",
         "sections": [
           {

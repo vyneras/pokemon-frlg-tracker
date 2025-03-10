@@ -24,6 +24,22 @@
     "name": "Pokémon Tower 3F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "North Item",
         "sections": [
           {
@@ -92,6 +108,22 @@
   {
     "name": "Pokémon Tower 4F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Center Item (Right)",
         "sections": [
@@ -193,6 +225,22 @@
   {
     "name": "Pokémon Tower 5F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Northwest Hidden Item",
         "sections": [
@@ -311,6 +359,22 @@
     "name": "Pokémon Tower 6F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Southeast Item",
         "sections": [
           {
@@ -395,6 +459,22 @@
   {
     "name": "Pokémon Tower 7F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Mr. Fuji",
         "sections": [

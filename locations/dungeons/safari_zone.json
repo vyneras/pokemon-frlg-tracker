@@ -3,6 +3,42 @@
     "name": "Safari Zone Center Area",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/Center - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/Center - Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/Center - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/Center - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/Center - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/Center - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 800,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Island Item",
         "sections": [
           {
@@ -39,6 +75,42 @@
   {
     "name": "Safari Zone East Area",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/East - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/East - Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/East - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/East - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/East - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/East - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 848,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Southeast Plateau Item",
         "sections": [
@@ -109,6 +181,42 @@
     "name": "Safari Zone North Area",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/North - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/North - Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/North - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/North - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/North - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/North - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 896,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "South Item",
         "sections": [
           {
@@ -177,6 +285,42 @@
   {
     "name": "Safari Zone West Area",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/West - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/West - Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/West - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/West - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/West - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Safari Zone/West - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Southeast Item",
         "sections": [

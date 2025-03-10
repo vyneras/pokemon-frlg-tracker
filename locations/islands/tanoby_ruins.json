@@ -3,6 +3,49 @@
     "name": "Tanoby Ruins",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Tanoby Ruins/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Tanoby Ruins/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Tanoby Ruins/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 592,
+            "y": 12
+          },
+          {
+            "map": "tanoby_ruins_center_left",
+            "x": 480,
+            "y": 12
+          },
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 432,
+            "y": 12
+          },
+          {
+            "map": "tanoby_ruins_east",
+            "x": 544,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Island Item",
         "sections": [
           {

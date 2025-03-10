@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Altering Cave",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Altering Cave/Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "altering_cave",
+            "x": 496,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  }
+]

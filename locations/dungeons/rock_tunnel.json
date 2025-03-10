@@ -6,6 +6,22 @@
         "name": "Northeast Area Item",
         "sections": [
           {
+            "ref": "Dungeons/Rock Tunnel/1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Northeast Area Item",
+        "sections": [
+          {
             "ref": "Dungeons/Rock Tunnel/1F - Northeast Area Item",
             "name": "Item"
           }
@@ -167,6 +183,22 @@
   {
     "name": "Rock Tunnel B1F",
     "children": [
+      {
+        "name": "Northeast Area Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rock Tunnel/B1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Southeast Area Item",
         "sections": [

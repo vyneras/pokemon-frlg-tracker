@@ -1,7 +1,64 @@
 [
   {
+    "name": "Icefall Cave Entrance",
+    "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/Entrance - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Entrance - Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Entrance - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Entrance - Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Entrance - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Entrance - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_entrance",
+            "x": 464,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Icefall Cave 1F",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 304,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Center Item",
         "sections": [
@@ -40,6 +97,22 @@
     "name": "Icefall Cave B1F",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/B1F - Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "x": 368,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "East Item",
         "sections": [
           {
@@ -76,6 +149,38 @@
   {
     "name": "Icefall Cave Back",
     "children": [
+      {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Icefall Cave/Back - Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Back - Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Back - Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Back - Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Dungeons/Icefall Cave/Back - Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_back",
+            "x": 384,
+            "y": 12
+          }
+        ]
+      },
       {
         "name": "Lorelei",
         "sections": [

@@ -3,6 +3,27 @@
     "name": "Route 18",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 18/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_west",
+            "x": 464,
+            "y": 12
+          },
+          {
+            "map": "route_18_east",
+            "x": 464,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Bird Keeper Jacob",
         "sections": [
           {

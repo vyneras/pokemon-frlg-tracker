@@ -3,6 +3,34 @@
     "name": "Trainer Tower Exterior",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Trainer Tower Exterior/Surf Encounters",
+            "name": "Surf Encounters"
+          },
+          {
+            "ref": "Islands/Trainer Tower Exterior/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Trainer Tower Exterior/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Trainer Tower Exterior/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 656,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Hidden Item Near Fence",
         "sections": [
           {

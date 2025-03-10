@@ -3,6 +3,27 @@
     "name": "Route 3",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 3/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_3_west",
+            "x": 656,
+            "y": 12
+          },
+          {
+            "map": "route_3_east",
+            "x": 656,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Hidden Item Between Ledges",
         "sections": [
           {

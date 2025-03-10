@@ -3,6 +3,27 @@
     "name": "Route 8",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Land Encounters",
+            "name": "Land Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 496,
+            "y": 12
+          },
+          {
+            "map": "route_8_east",
+            "x": 624,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Tall Grass Northwest Hidden Item",
         "sections": [
           {

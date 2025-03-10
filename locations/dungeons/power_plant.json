@@ -3,6 +3,26 @@
     "name": "Power Plant",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Land Encounters (FireRed)",
+            "name": "Land Encounters (FireRed)"
+          },
+          {
+            "ref": "Dungeons/Power Plant/Land Encounters (LeafGreen)",
+            "name": "Land Encounters (LeafGreen)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 760,
+            "y": 20
+          }
+        ]
+      },
+      {
         "name": "Item Near Entrance",
         "sections": [
           {
@@ -51,6 +71,22 @@
         ]
       },
       {
+        "name": "South Room Pokémon Trap",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/South Room Pokémon Trap",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 488,
+            "y": 616
+          }
+        ]
+      },
+      {
         "name": "Southeast Room Item",
         "sections": [
           {
@@ -83,6 +119,22 @@
         ]
       },
       {
+        "name": "Northeast Room Pokémon Trap (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Northeast Room Pokémon Trap (Left)",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 584,
+            "y": 88
+          }
+        ]
+      },
+      {
         "name": "Center Machine Room Hidden Item",
         "sections": [
           {
@@ -95,6 +147,22 @@
             "map": "power_plant",
             "x": 472,
             "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Legendary Pokémon",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Legendary Pokémon",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 88,
+            "y": 184
           }
         ]
       },

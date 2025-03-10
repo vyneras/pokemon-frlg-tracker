@@ -3,6 +3,42 @@
     "name": "Ruin Valley",
     "children": [
       {
+        "name": "Encounters",
+        "sections": [
+          {
+            "ref": "Islands/Ruin Valley/Land Encounters",
+            "name": "Land Encounters"
+          },
+          {
+            "ref": "Islands/Ruin Valley/Surf Encounter",
+            "name": "Surf Encounter"
+          },
+          {
+            "ref": "Islands/Ruin Valley/Old-Good Rod Encounter",
+            "name": "Old-Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Ruin Valley/Good Rod Encounter",
+            "name": "Good Rod Encounter"
+          },
+          {
+            "ref": "Islands/Ruin Valley/Good-Super Rod Encounter",
+            "name": "Good-Super Rod Encounter"
+          },
+          {
+            "ref": "Islands/Ruin Valley/Super Rod Encounters",
+            "name": "Super Rod Encounters"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 752,
+            "y": 12
+          }
+        ]
+      },
+      {
         "name": "Southeast Item",
         "sections": [
           {
