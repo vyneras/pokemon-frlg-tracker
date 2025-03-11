@@ -56,7 +56,7 @@ SLOT_CODES = {
             [1] = 1  -- Famesanity On
         }
     },
-    shuffle_fly_destination_unlocks = {
+    shuffle_fly_unlocks = {
         code = "fly_destination_unlocks_setting",
         type = "progressive",
         mapping = {
