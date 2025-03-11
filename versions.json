@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "1.7.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.7.0.zip",
+      "sha256": "e5750d06238c8f6f4f247de614ce6c1cb0779d22e5bf7d2f624ba63965422442",
+      "changelog": [
+        "Added Pokémon /Dexsanity tracking to the item grids section (full auto-tracking support)",
+        "Added Encounter tracking to the map section (manual tracking)",
+        "Added a new settings area to the item grid where you can toggle various pack settings at will",
+        "Updated the main item grid with items that are relevant for Pokemon/Encounter locations"
+      ]
+    },
+    {
       "package_version": "1.6.4",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.6.4.zip",
       "sha256": "e1c2db3223399aa457939d530b14af9f9dd04b61b4b92ff4df2c45c7c6859a0a",
