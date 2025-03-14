@@ -1,0 +1,94 @@
+{
+  "map_layout": {
+    "type": "tabbed",
+    "dock": "top",
+    "tabs": [
+      {
+        "title": "Overworld",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "overworld"
+          }
+        }
+      },
+      {
+        "title": "Cities",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "cities"
+          }
+        }
+      },
+      {
+        "title": "Routes",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "routes"
+          }
+        }
+      },
+      {
+        "title": "Dungeons",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "dungeons"
+          }
+        }
+      }
+    ]
+  },
+  "map_layout_vertical": {
+    "type": "tabbed",
+    "dock": "top",
+    "tabs": [
+      {
+        "title": "Overworld",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "overworld"
+          }
+        }
+      },
+      {
+        "title": "Cities",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "cities"
+          }
+        }
+      },
+      {
+        "title": "Routes",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "routes"
+          }
+        }
+      },
+      {
+        "title": "Dungeons",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "dungeons"
+          }
+        }
+      }
+    ]
+  }
+}
