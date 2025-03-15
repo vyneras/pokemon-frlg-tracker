@@ -922,8 +922,8 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "$surf,old_rod",
+              "$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -934,7 +934,7 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod"
+              "$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -945,8 +945,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "$surf,good_rod",
+              "$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -959,7 +959,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"

@@ -2136,6 +2136,9 @@
             "name": "Center - Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -2202,6 +2205,9 @@
             "name": "East - Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -2268,6 +2274,9 @@
             "name": "North - Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -2334,6 +2343,9 @@
             "name": "West - Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -3332,7 +3344,7 @@
             "name": "B4F - Land Encounters",
             "chest_unopened_img": "images/locations/ice_cave.png",
             "chest_opened_img": "images/locations/ice_cave_bw.png",
-            "item_count": 6,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "@Cinnabar Island Access,$surf"
@@ -5445,6 +5457,11 @@
             "x": 60,
             "y": 92,
             "size": 4
+          },
+          {
+            "map": "sevault_canyon_north",
+            "x": 120,
+            "y": 280
           }
         ]
       },
