@@ -83,7 +83,7 @@ function toggle_item_grid(code)
     else
         Tracker:AddLayouts("layouts/item_grids.json")
     end
-        
+
     if extra_key_items and split_card_keys and split_passes and split_teas then
         Tracker:AddLayouts("layouts/items_no_ck_pass_tea.json")
         Tracker:AddLayouts("layouts/extra_items_all.json")
