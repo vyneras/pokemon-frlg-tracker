@@ -3894,6 +3894,14 @@
             ]
           },
           {
+            "name": "Man Gift",
+            "chest_unopened_img": "images/locations/man_cerulean_key.png",
+            "chest_opened_img": "images/locations/man_cerulean_key_bw.png",
+            "visibility_rules": [
+              "gym_keys_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Hidden Item Past Sea Cottage",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",

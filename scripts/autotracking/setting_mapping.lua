@@ -100,6 +100,14 @@ SLOT_CODES = {
             [1] = 1  -- Teas Split
         }
     },
+    gym_keys = {
+        code = "gym_keys_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Gym Keys Off
+            [1] = 1  -- Gym Keys On
+        }
+    },
     itemfinder_required = {
         code = "itemfinder_setting",
         type = "progressive",

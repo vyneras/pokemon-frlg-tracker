@@ -15,10 +15,22 @@
             "h_alignment": "center",
             "rows": [
               [
-                "hideout_key",
-                "machine_part",
-                "safari_pass",
-                "letter"
+                "green_tea",
+                "red_tea",
+                "blue_tea",
+                "purple_tea"
+              ],
+              [
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key"
+              ],
+              [
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
               ],
               [
                 "one_pass",
@@ -47,7 +59,6 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "17,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -55,10 +66,20 @@
             "h_alignment": "center",
             "rows": [
               [
-                "hideout_key",
-                "machine_part",
-                "safari_pass",
-                "letter"
+                "green_tea",
+                "red_tea",
+                "blue_tea",
+                "purple_tea"
+              ],
+              [
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key",
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
               ],
               [
                 "one_pass",

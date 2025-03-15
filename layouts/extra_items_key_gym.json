@@ -16,22 +16,23 @@
             "rows": [
               [
                 "hideout_key",
+                "pewter_key",
+                "cerulean_key"
+              ],
+              [
                 "machine_part",
+                "vermilion_key",
+                "celadon_key"
+              ],
+              [
                 "safari_pass",
-                "letter"
+                "fuchsia_key",
+                "saffron_key"
               ],
               [
-                "one_pass",
-                "two_pass",
-                "three_pass"
-              ],
-              [
-                "four_pass",
-                "five_pass"
-              ],
-              [
-                "six_pass",
-                "seven_pass"
+                "letter",
+                "cinnabar_key",
+                "viridian_key"
               ]
             ]
           }
@@ -47,7 +48,6 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "17,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -61,13 +61,14 @@
                 "letter"
               ],
               [
-                "one_pass",
-                "two_pass",
-                "three_pass",
-                "four_pass",
-                "five_pass",
-                "six_pass",
-                "seven_pass"
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key",
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
               ]
             ]
           }

@@ -44,7 +44,6 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "68,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -55,9 +54,7 @@
                 "hideout_key",
                 "machine_part",
                 "safari_pass",
-                "letter"
-              ],
-              [
+                "letter",
                 "green_tea",
                 "red_tea",
                 "blue_tea",

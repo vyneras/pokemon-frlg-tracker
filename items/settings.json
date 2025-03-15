@@ -291,6 +291,28 @@
     ]
   },
   {
+    "name": "Gym Keys",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/secret_key.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "gym_keys_setting,gym_keys_off",
+        "inherit_codes": false,
+        "name": "Gym Keys - Off"
+      },
+      {
+        "img": "images/settings/secret_key.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "gym_keys_setting,gym_keys_on",
+        "inherit_codes": false,
+        "name": "Gym Keys - On"
+      }
+    ]
+  },
+  {
     "name": "Itemfinder Required",
     "type": "progressive",
     "allow_disabled": false,

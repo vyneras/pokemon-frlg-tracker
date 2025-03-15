@@ -174,6 +174,22 @@
             "y": 248
           }
         ]
+      },
+      {
+        "name": "Rest House",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/East Rest House - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 648,
+            "y": 232
+          }
+        ]
       }
     ]
   },
@@ -413,6 +429,27 @@
           {
             "map": "safari_zone_west",
             "x": 200,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone East Rest House",
+    "children": [
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Safari Zone/East Rest House - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east_rest_house",
+            "x": 136,
             "y": 120
           }
         ]

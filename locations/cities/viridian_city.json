@@ -116,6 +116,22 @@
         ]
       },
       {
+        "name": "Tutorial Man",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Tutorial Man Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 344,
+            "y": 104
+          }
+        ]
+      },
+      {
         "name": "Old Man",
         "sections": [
           {
@@ -126,8 +142,8 @@
         "map_locations": [
           {
             "map": "viridian_city",
-            "x": 344,
-            "y": 104
+            "x": 552,
+            "y": 184
           }
         ]
       },

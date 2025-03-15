@@ -47,7 +47,7 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "34,0,0,0",
+        "margin": "17,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -58,11 +58,11 @@
                 "green_tea",
                 "red_tea",
                 "blue_tea",
-                "purple_tea",
-                "one_pass",
-                "two_pass"
+                "purple_tea"
               ],
               [
+                "one_pass",
+                "two_pass",
                 "three_pass",
                 "four_pass",
                 "five_pass",

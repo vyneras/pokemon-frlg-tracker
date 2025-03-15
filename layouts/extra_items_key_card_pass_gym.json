@@ -21,6 +21,18 @@
                 "letter"
               ],
               [
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key"
+              ],
+              [
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
+              ],
+              [
                 "card_key_2f",
                 "card_key_3f",
                 "card_key_4f",
@@ -59,7 +71,6 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "17,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -70,14 +81,26 @@
                 "hideout_key",
                 "machine_part",
                 "safari_pass",
-                "letter",
-                "card_key_2f",
-                "card_key_3f",
-                "card_key_4f"
+                "letter"
               ],
               [
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key",
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
+              ],
+              [
+                "card_key_2f",
+                "card_key_3f",
+                "card_key_4f",
                 "card_key_5f",
-                "card_key_6f",
+                "card_key_6f"
+              ],
+              [
                 "card_key_7f",
                 "card_key_8f",
                 "card_key_9f",

@@ -264,7 +264,7 @@
             ]
           },
           {
-            "name": "Old Man Gift",
+            "name": "Tutorial Man Gift",
             "chest_unopened_img": "images/locations/old_man_teachy_tv.png",
             "chest_opened_img": "images/locations/old_man_teachy_tv_bw.png",
             "access_rules": [
@@ -276,11 +276,23 @@
             ]
           },
           {
+            "name": "Old Man Gift",
+            "chest_unopened_img": "images/locations/old_man_viridian_key.png",
+            "chest_opened_img": "images/locations/old_man_viridian_key_bw.png",
+            "access_rules": [
+              "@Pewter City Access,$has_giovanni_req"
+            ],
+            "visibility_rules": [
+              "gym_keys_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Gym Guy Info",
             "chest_unopened_img": "images/locations/gym_guy_info.png",
             "chest_opened_img": "images/locations/gym_guy_info_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,defeat_giovanni,$fame"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off,defeat_giovanni,$fame",
+              "@Pewter City Access,$has_giovanni_req,viridian_key,defeat_giovanni,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -291,7 +303,8 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_cole,$item_locations_visible"
@@ -302,7 +315,8 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_kiyo,$item_locations_visible"
@@ -313,7 +327,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_samuel,$item_locations_visible"
@@ -324,7 +339,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_yuji,$item_locations_visible"
@@ -335,7 +351,8 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_atsushi,$item_locations_visible"
@@ -346,7 +363,8 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_jason,$item_locations_visible"
@@ -357,7 +375,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_warren,$item_locations_visible"
@@ -368,7 +387,8 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_takashi,$item_locations_visible"
@@ -378,7 +398,8 @@
             "name": "Defeat Giovanni (Event)",
             "hosted_item": "defeat_giovanni_hosted",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -389,7 +410,8 @@
             "chest_unopened_img": "images/locations/giovanni.png",
             "chest_opened_img": "images/locations/giovanni_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_giovanni,$item_locations_visible"
@@ -400,7 +422,8 @@
             "chest_unopened_img": "images/locations/giovanni_info.png",
             "chest_opened_img": "images/locations/giovanni_info_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,$fame"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off,$fame",
+              "@Pewter City Access,$has_giovanni_req,viridian_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -411,7 +434,8 @@
             "chest_unopened_img": "images/locations/giovanni_earth_badge.png",
             "chest_opened_img": "images/locations/giovanni_earth_badge_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -422,7 +446,8 @@
             "chest_unopened_img": "images/locations/giovanni_ground_tm.png",
             "chest_opened_img": "images/locations/giovanni_ground_tm_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
+              "@Pewter City Access,$has_giovanni_req,viridian_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -433,7 +458,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,itemfinder"
+              "@Pewter City Access,$has_giovanni_req,gym_keys_off,itemfinder",
+              "@Pewter City Access,$has_giovanni_req,viridian_key,itemfinder"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -568,6 +594,12 @@
             ]
           },
           {
+            "name": "Pewter Museum Item",
+            "visibility_rules": [
+              "gym_keys_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Scientist Gift",
             "chest_unopened_img": "images/locations/scientist_old_amber.png",
             "chest_opened_img": "images/locations/scientist_old_amber_bw.png",
@@ -604,6 +636,10 @@
             "name": "Camper Liam Reward",
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "pewter_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,camper_liam,$item_locations_visible"
             ]
@@ -611,6 +647,10 @@
           {
             "name": "Defeat Brock (Event)",
             "hosted_item": "defeat_brock_hosted",
+            "access_rules": [
+              "gym_keys_off",
+              "pewter_key"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -619,6 +659,10 @@
             "name": "Leader Brock Reward",
             "chest_unopened_img": "images/locations/brock.png",
             "chest_opened_img": "images/locations/brock_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "pewter_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,leader_brock,$item_locations_visible"
             ]
@@ -628,7 +672,8 @@
             "chest_unopened_img": "images/locations/brock_info.png",
             "chest_opened_img": "images/locations/brock_info_bw.png",
             "access_rules": [
-              "$fame"
+              "gym_keys_off,$fame",
+              "pewter_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -638,6 +683,10 @@
             "name": "Pewter Gym Prize",
             "chest_unopened_img": "images/locations/brock_boulder_badge.png",
             "chest_opened_img": "images/locations/brock_boulder_badge_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "pewter_key"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -646,6 +695,10 @@
             "name": "Brock TM",
             "chest_unopened_img": "images/locations/brock_rock_tm.png",
             "chest_opened_img": "images/locations/brock_rock_tm_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "pewter_key"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -824,7 +877,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "@Cerulean City Access,gym_keys_off",
+              "@Cerulean City Access,cerulean_key"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_luis,$item_locations_visible"
@@ -835,7 +889,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water_info.png",
             "chest_opened_img": "images/locations/swimmer_male_water_info_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$fame"
+              "@Cerulean City Access,gym_keys_off,$fame",
+              "@Cerulean City Access,cerulean_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -846,7 +901,8 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "@Cerulean City Access,gym_keys_off",
+              "@Cerulean City Access,cerulean_key"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_diana,$item_locations_visible"
@@ -856,7 +912,8 @@
             "name": "Defeat Misty (Event)",
             "hosted_item": "defeat_misty_hosted",
             "access_rules": [
-              "@Cerulean City Access"
+              "@Cerulean City Access,gym_keys_off",
+              "@Cerulean City Access,cerulean_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -867,7 +924,8 @@
             "chest_unopened_img": "images/locations/misty.png",
             "chest_opened_img": "images/locations/misty_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "@Cerulean City Access,gym_keys_off",
+              "@Cerulean City Access,cerulean_key"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_misty,$item_locations_visible"
@@ -878,7 +936,8 @@
             "chest_unopened_img": "images/locations/misty_info.png",
             "chest_opened_img": "images/locations/misty_info_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$fame"
+              "@Cerulean City Access,gym_keys_off,$fame",
+              "@Cerulean City Access,cerulean_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -889,7 +948,8 @@
             "chest_unopened_img": "images/locations/misty_cascade_badge.png",
             "chest_opened_img": "images/locations/misty_cascade_badge_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "@Cerulean City Access,gym_keys_off",
+              "@Cerulean City Access,cerulean_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -900,7 +960,8 @@
             "chest_unopened_img": "images/locations/misty_water_tm.png",
             "chest_opened_img": "images/locations/misty_water_tm_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "@Cerulean City Access,gym_keys_off",
+              "@Cerulean City Access,cerulean_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -911,7 +972,7 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "$surf"
+              "@Cerulean City Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -922,8 +983,8 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "$surf,old_rod",
-              "$surf,good_rod"
+              "@Cerulean City Access,$surf,old_rod",
+              "@Cerulean City Access,$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -934,7 +995,7 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "$surf,good_rod"
+              "@Cerulean City Access,$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -945,8 +1006,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "$surf,good_rod",
-              "$surf,super_rod"
+              "@Cerulean City Access,$surf,good_rod",
+              "@Cerulean City Access,$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -959,7 +1020,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$surf,super_rod"
+              "@Cerulean City Access,$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -1074,8 +1135,10 @@
             "chest_unopened_img": "images/locations/sailor.png",
             "chest_opened_img": "images/locations/sailor_bw.png",
             "access_rules": [
-              "$cut",
-              "$surf"
+              "$cut,gym_keys_off",
+              "$cut,vermilion_key",
+              "$surf,gym_keys_off",
+              "$surf,vermilion_key"
             ],
             "visibility_rules": [
               "trainersanity_on,sailor_dwayne,$item_locations_visible"
@@ -1086,8 +1149,10 @@
             "chest_unopened_img": "images/locations/sailor_info.png",
             "chest_opened_img": "images/locations/sailor_info_bw.png",
             "access_rules": [
-              "$cut,$fame",
-              "$surf,$fame"
+              "$cut,gym_keys_off,$fame",
+              "$cut,vermilion_key,$fame",
+              "$surf,gym_keys_off,$fame",
+              "$surf,vermilion_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1098,8 +1163,10 @@
             "chest_unopened_img": "images/locations/balding_man.png",
             "chest_opened_img": "images/locations/balding_man_bw.png",
             "access_rules": [
-              "$cut",
-              "$surf"
+              "$cut,gym_keys_off",
+              "$cut,vermilion_key",
+              "$surf,gym_keys_off",
+              "$surf,vermilion_key"
             ],
             "visibility_rules": [
               "trainersanity_on,engineer_baily,$item_locations_visible"
@@ -1110,8 +1177,10 @@
             "chest_unopened_img": "images/locations/gentleman.png",
             "chest_opened_img": "images/locations/gentleman_bw.png",
             "access_rules": [
-              "$cut",
-              "$surf"
+              "$cut,gym_keys_off",
+              "$cut,vermilion_key",
+              "$surf,gym_keys_off",
+              "$surf,vermilion_key"
             ],
             "visibility_rules": [
               "trainersanity_on,gentleman_tucker,$item_locations_visible"
@@ -1122,8 +1191,10 @@
             "chest_unopened_img": "images/locations/gentleman_info.png",
             "chest_opened_img": "images/locations/gentleman_info_bw.png",
             "access_rules": [
-              "$cut,$fame",
-              "$surf,$fame"
+              "$cut,gym_keys_off,$fame",
+              "$cut,vermilion_key,$fame",
+              "$surf,gym_keys_off,$fame",
+              "$surf,vermilion_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1134,8 +1205,10 @@
             "chest_unopened_img": "images/locations/gentleman_info.png",
             "chest_opened_img": "images/locations/gentleman_info_bw.png",
             "access_rules": [
-              "$cut,$fame",
-              "$surf,$fame"
+              "$cut,gym_keys_off,$fame",
+              "$cut,vermilion_key,$fame",
+              "$surf,gym_keys_off,$fame",
+              "$surf,vermilion_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1145,8 +1218,10 @@
             "name": "Defeat Lt. Surge (Event)",
             "hosted_item": "defeat_lt_surge_hosted",
             "access_rules": [
-              "$cut",
-              "$surf"
+              "$cut,gym_keys_off",
+              "$cut,vermilion_key",
+              "$surf,gym_keys_off",
+              "$surf,vermilion_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1157,8 +1232,10 @@
             "chest_unopened_img": "images/locations/lt_surge_info.png",
             "chest_opened_img": "images/locations/lt_surge_info_bw.png",
             "access_rules": [
-              "$cut,$fame",
-              "surf,$fame"
+              "$cut,gym_keys_off,$fame",
+              "$cut,vermilion_key,$fame",
+              "$surf,gym_keys_off,$fame",
+              "$surf,vermilion_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1169,8 +1246,10 @@
             "chest_unopened_img": "images/locations/lt_surge.png",
             "chest_opened_img": "images/locations/lt_surge_bw.png",
             "access_rules": [
-              "$cut",
-              "$surf"
+              "$cut,gym_keys_off",
+              "$cut,vermilion_key",
+              "$surf,gym_keys_off",
+              "$surf,vermilion_key"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_lt_surge,$item_locations_visible"
@@ -1181,8 +1260,10 @@
             "chest_unopened_img": "images/locations/lt_surge_thunder_badge.png",
             "chest_opened_img": "images/locations/lt_surge_thunder_badge_bw.png",
             "access_rules": [
-              "$cut",
-              "$surf"
+              "$cut,gym_keys_off",
+              "$cut,vermilion_key",
+              "$surf,gym_keys_off",
+              "$surf,vermilion_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1193,8 +1274,10 @@
             "chest_unopened_img": "images/locations/lt_surge_thunder_tm.png",
             "chest_opened_img": "images/locations/lt_surge_thunder_tm_bw.png",
             "access_rules": [
-              "$cut",
-              "$surf"
+              "$cut,gym_keys_off",
+              "$cut,vermilion_key",
+              "$surf,gym_keys_off",
+              "$surf,vermilion_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1521,6 +1604,12 @@
             ]
           },
           {
+            "name": "Hotel Item",
+            "visibility_rules": [
+              "gym_keys_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Hidden Item Near Cuttable Tree",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1775,7 +1864,8 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "trainersanity_on,lass_kay,$item_locations_visible"
@@ -1786,7 +1876,8 @@
             "chest_unopened_img": "images/locations/beauty.png",
             "chest_opened_img": "images/locations/beauty_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "trainersanity_on,beauty_bridget,$item_locations_visible"
@@ -1797,7 +1888,8 @@
             "chest_unopened_img": "images/locations/beauty.png",
             "chest_opened_img": "images/locations/beauty_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "trainersanity_on,beauty_tamia,$item_locations_visible"
@@ -1808,7 +1900,8 @@
             "chest_unopened_img": "images/locations/beauty_info.png",
             "chest_opened_img": "images/locations/beauty_info_bw.png",
             "access_rules": [
-              "$cut,$fame"
+              "$cut,gym_keys_off,$fame",
+              "$cut,celadon_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1819,7 +1912,8 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_tina,$item_locations_visible"
@@ -1830,7 +1924,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_mary,$item_locations_visible"
@@ -1841,7 +1936,8 @@
             "chest_unopened_img": "images/locations/beauty.png",
             "chest_opened_img": "images/locations/beauty_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "trainersanity_on,beauty_lori,$item_locations_visible"
@@ -1852,7 +1948,8 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "trainersanity_on,lass_lisa,$item_locations_visible"
@@ -1863,7 +1960,8 @@
             "chest_unopened_img": "images/locations/lass_info.png",
             "chest_opened_img": "images/locations/lass_info_bw.png",
             "access_rules": [
-              "$cut,$fame"
+              "$cut,gym_keys_off,$fame",
+              "$cut,celadon_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1873,7 +1971,8 @@
             "name": "Defeat Erika (Event)",
             "hosted_item": "defeat_erika_hosted",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1884,7 +1983,8 @@
             "chest_unopened_img": "images/locations/erika.png",
             "chest_opened_img": "images/locations/erika_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_erika,$item_locations_visible"
@@ -1895,7 +1995,8 @@
             "chest_unopened_img": "images/locations/erika_info.png",
             "chest_opened_img": "images/locations/erika_info_bw.png",
             "access_rules": [
-              "$cut,$fame"
+              "$cut,gym_keys_off,$fame",
+              "$cut,celadon_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1906,7 +2007,8 @@
             "chest_unopened_img": "images/locations/erika_rainbow_badge.png",
             "chest_opened_img": "images/locations/erika_rainbow_badge_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1917,7 +2019,8 @@
             "chest_unopened_img": "images/locations/erika_grass_tm.png",
             "chest_opened_img": "images/locations/erika_grass_tm_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut,gym_keys_off",
+              "$cut,celadon_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1928,7 +2031,8 @@
             "chest_unopened_img": "images/locations/erika_info.png",
             "chest_opened_img": "images/locations/erika_info_bw.png",
             "access_rules": [
-              "$cut,$fame"
+              "$cut,gym_keys_off,$fame",
+              "$cut,celadon_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2102,6 +2206,10 @@
             "name": "Juggler Nate Reward",
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,juggler_nate,$item_locations_visible"
             ]
@@ -2110,6 +2218,10 @@
             "name": "Juggler Kayden Reward",
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,juggler_kayden,$item_locations_visible"
             ]
@@ -2118,6 +2230,10 @@
             "name": "Juggler Kirk Reward",
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,juggler_kirk,$item_locations_visible"
             ]
@@ -2127,7 +2243,8 @@
             "chest_unopened_img": "images/locations/rocker_info.png",
             "chest_opened_img": "images/locations/rocker_info_bw.png",
             "access_rules": [
-              "$fame"
+              "gym_keys_off,$fame",
+              "fuchsia_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2137,6 +2254,10 @@
             "name": "Tamer Edgar Reward",
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,tamer_edgar,$item_locations_visible"
             ]
@@ -2145,6 +2266,10 @@
             "name": "Tamer Phil Reward",
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,tamer_phil,$item_locations_visible"
             ]
@@ -2153,6 +2278,10 @@
             "name": "Juggler Shawn Reward",
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,juggler_shawn,$item_locations_visible"
             ]
@@ -2160,6 +2289,10 @@
           {
             "name": "Defeat Koga (Event)",
             "hosted_item": "defeat_koga_hosted",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -2168,6 +2301,10 @@
             "name": "Leader Koga Reward",
             "chest_unopened_img": "images/locations/koga.png",
             "chest_opened_img": "images/locations/koga_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "trainersanity_on,leader_koga,$item_locations_visible"
             ]
@@ -2177,7 +2314,8 @@
             "chest_unopened_img": "images/locations/koga_info.png",
             "chest_opened_img": "images/locations/koga_info_bw.png",
             "access_rules": [
-              "$fame"
+              "gym_keys_off,$fame",
+              "fuchsia_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2187,6 +2325,10 @@
             "name": "Fuchsia Gym Prize",
             "chest_unopened_img": "images/locations/koga_soul_badge.png",
             "chest_opened_img": "images/locations/koga_soul_badge_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -2195,6 +2337,10 @@
             "name": "Koga TM",
             "chest_unopened_img": "images/locations/koga_poison_tm.png",
             "chest_opened_img": "images/locations/koga_poison_tm_bw.png",
+            "access_rules": [
+              "gym_keys_off",
+              "fuchsia_key"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -2393,6 +2539,12 @@
             ]
           },
           {
+            "name": "Dojo Item (Center)",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
+          },
+          {
             "name": "Dojo Pokémon (Right)",
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2414,7 +2566,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_cameron,$item_locations_visible"
@@ -2425,7 +2578,8 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "trainersanity_on,channeler_tasha,$item_locations_visible"
@@ -2436,7 +2590,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_tyron,$item_locations_visible"
@@ -2447,7 +2602,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male_info.png",
             "chest_opened_img": "images/locations/cooltrainer_male_info_bw.png",
             "access_rules": [
-              "$saffron_rockets,$fame"
+              "$saffron_rockets,gym_keys_off,$fame",
+              "$saffron_rockets,saffron_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2458,7 +2614,8 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "trainersanity_on,channeler_stacy,$item_locations_visible"
@@ -2469,7 +2626,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_johan,$item_locations_visible"
@@ -2480,7 +2638,8 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "trainersanity_on,channeler_amanda,$item_locations_visible"
@@ -2491,7 +2650,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_preston,$item_locations_visible"
@@ -2501,7 +2661,8 @@
             "name": "Defeat Sabrina (Event)",
             "hosted_item": "defeat_sabrina_hosted",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2512,7 +2673,8 @@
             "chest_unopened_img": "images/locations/sabrina.png",
             "chest_opened_img": "images/locations/sabrina_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_sabrina,$item_locations_visible"
@@ -2523,7 +2685,8 @@
             "chest_unopened_img": "images/locations/sabrina_info.png",
             "chest_opened_img": "images/locations/sabrina_info_bw.png",
             "access_rules": [
-              "$saffron_rockets,$fame"
+              "$saffron_rockets,gym_keys_off,$fame",
+              "$saffron_rockets,saffron_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2534,7 +2697,8 @@
             "chest_unopened_img": "images/locations/sabrina_info.png",
             "chest_opened_img": "images/locations/sabrina_info_bw.png",
             "access_rules": [
-              "$saffron_rockets,$fame"
+              "$saffron_rockets,gym_keys_off,$fame",
+              "$saffron_rockets,saffron_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2545,7 +2709,8 @@
             "chest_unopened_img": "images/locations/sabrina_marsh_badge.png",
             "chest_opened_img": "images/locations/sabrina_marsh_badge_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2556,7 +2721,8 @@
             "chest_unopened_img": "images/locations/sabrina_psychic_tm.png",
             "chest_opened_img": "images/locations/sabrina_psychic_tm_bw.png",
             "access_rules": [
-              "$saffron_rockets"
+              "$saffron_rockets,gym_keys_off",
+              "$saffron_rockets,saffron_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2689,7 +2855,8 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "trainersanity_on,burglar_quinn,$item_locations_visible"
@@ -2700,7 +2867,8 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "trainersanity_on,super_nerd_erik,$item_locations_visible"
@@ -2711,7 +2879,8 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "trainersanity_on,super_nerd_avery,$item_locations_visible"
@@ -2722,7 +2891,8 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "trainersanity_on,burglar_ramon,$item_locations_visible"
@@ -2733,7 +2903,8 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "trainersanity_on,super_nerd_derek,$item_locations_visible"
@@ -2744,7 +2915,8 @@
             "chest_unopened_img": "images/locations/scientist_info.png",
             "chest_opened_img": "images/locations/scientist_info_bw.png",
             "access_rules": [
-              "secret_key,$fame"
+              "secret_key,$fame",
+              "cinnabar_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2755,7 +2927,8 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "trainersanity_on,burglar_dusty,$item_locations_visible"
@@ -2766,7 +2939,8 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "trainersanity_on,super_nerd_zac,$item_locations_visible"
@@ -2776,7 +2950,8 @@
             "name": "Defeat Blaine (Event)",
             "hosted_item": "defeat_blaine_hosted",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2787,7 +2962,8 @@
             "chest_unopened_img": "images/locations/blaine.png",
             "chest_opened_img": "images/locations/blaine_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_blaine,$item_locations_visible"
@@ -2798,7 +2974,8 @@
             "chest_unopened_img": "images/locations/blaine_info.png",
             "chest_opened_img": "images/locations/blaine_info_bw.png",
             "access_rules": [
-              "secret_key,$fame"
+              "secret_key,$fame",
+              "cinnabar_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2809,7 +2986,8 @@
             "chest_unopened_img": "images/locations/blaine_volcano_badge.png",
             "chest_opened_img": "images/locations/blaine_volcano_badge_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2820,7 +2998,8 @@
             "chest_unopened_img": "images/locations/blaine_fire_tm.png",
             "chest_opened_img": "images/locations/blaine_fire_tm_bw.png",
             "access_rules": [
-              "secret_key"
+              "secret_key",
+              "cinnabar_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2831,7 +3010,8 @@
             "chest_unopened_img": "images/locations/photo_info.png",
             "chest_opened_img": "images/locations/photo_info_bw.png",
             "access_rules": [
-              "secret_key,$fame"
+              "secret_key,$fame",
+              "cinnabar_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2842,7 +3022,8 @@
             "chest_unopened_img": "images/locations/photo_info.png",
             "chest_opened_img": "images/locations/photo_info_bw.png",
             "access_rules": [
-              "secret_key,$fame"
+              "secret_key,$fame",
+              "cinnabar_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"

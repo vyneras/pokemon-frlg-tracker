@@ -15,16 +15,16 @@
             "h_alignment": "center",
             "rows": [
               [
-                "hideout_key",
-                "machine_part",
-                "safari_pass",
-                "letter"
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key"
               ],
               [
-                "green_tea",
-                "red_tea",
-                "blue_tea",
-                "purple_tea"
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
               ],
               [
                 "card_key_2f",
@@ -41,6 +41,17 @@
                 "card_key_9f",
                 "card_key_10f",
                 "card_key_11f"
+              ],
+              [
+                "one_pass",
+                "two_pass",
+                "three_pass"
+              ],
+              [
+                "four_pass",
+                "five_pass",
+                "six_pass",
+                "seven_pass"
               ]
             ]
           }
@@ -56,7 +67,6 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "34,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -64,28 +74,37 @@
             "h_alignment": "center",
             "rows": [
               [
-                "hideout_key",
-                "machine_part",
-                "safari_pass",
-                "letter",
-                "green_tea",
-                "red_tea"
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key",
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
               ],
               [
-                "blue_tea",
-                "purple_tea",
                 "card_key_2f",
                 "card_key_3f",
                 "card_key_4f",
-                "card_key_5f"
+                "card_key_5f",
+                "card_key_6f",
+                "card_key_7f"
               ],
               [
-                "card_key_6f",
-                "card_key_7f",
                 "card_key_8f",
                 "card_key_9f",
                 "card_key_10f",
-                "card_key_11f"
+                "card_key_11f",
+                "one_pass",
+                "two_pass"
+              ],
+              [
+                "three_pass",
+                "four_pass",
+                "five_pass",
+                "six_pass",
+                "seven_pass"
               ]
             ]
           }

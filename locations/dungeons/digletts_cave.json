@@ -22,6 +22,22 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Diglett's Cave/B1F - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_north",
+            "x": 776,
+            "y": 616
+          }
+        ]
       }
     ]
   }

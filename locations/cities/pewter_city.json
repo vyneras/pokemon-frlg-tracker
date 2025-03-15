@@ -117,7 +117,23 @@
         ]
       },
       {
-        "name": "Pewter Museum",
+        "name": "Pewter Museum (West)",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Pewter Museum Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 280,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum (East)",
         "sections": [
           {
             "ref": "Cities/Pewter City/Scientist Gift",
@@ -177,6 +193,22 @@
   {
     "name": "Pewter Museum",
     "children": [
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Pewter Museum Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_2f",
+            "x": 296,
+            "y": 40
+          }
+        ]
+      },
       {
         "name": "Scientist",
         "sections": [

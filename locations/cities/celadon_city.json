@@ -192,6 +192,21 @@
         ]
       },
       {
+        "name": "Hotel",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Hotel Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 792,
+            "y": 472
+          }
+        ]
+      },
+      {
         "name": "Hidden Item Near Cuttable Tree",
         "sections": [
           {
@@ -1101,6 +1116,27 @@
         "map_locations": [
           {
             "map": "celadon_rocket_house",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Hotel",
+    "children": [
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Hotel Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_hotel",
             "x": 88,
             "y": 72
           }

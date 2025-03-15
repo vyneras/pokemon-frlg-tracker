@@ -907,6 +907,12 @@
         ],
         "sections": [
           {
+            "name": "B1F - Item",
+            "visibility_rules": [
+              "gym_keys_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "B1F - Land Encounters",
             "chest_unopened_img": "images/locations/digletts_cave.png",
             "chest_opened_img": "images/locations/digletts_cave_bw.png",
@@ -2048,6 +2054,12 @@
             "name": "East - Item Near Rest House",
             "visibility_rules": [
               "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "East Rest House - Item",
+            "visibility_rules": [
+              "gym_keys_on,$item_locations_visible"
             ]
           },
           {

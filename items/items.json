@@ -118,22 +118,40 @@
     "codes": "cascade_badge"
   },
   {
-    "name": "Celadon City Fly Destination",
+    "name": "Celadon City Fly Point",
     "type": "toggle",
     "img": "images/items/fly_celadon.png",
     "codes": "fly_celadon"
   },
   {
-    "name": "Cerulean City Fly Destination",
+    "name": "Celadon Key",
+    "type": "toggle",
+    "img": "images/items/celadon_key.png",
+    "codes": "celadon_key"
+  },
+  {
+    "name": "Cerulean City Fly Point",
     "type": "toggle",
     "img": "images/items/fly_cerulean.png",
     "codes": "fly_cerulean"
   },
   {
-    "name": "Cinnabar Island Fly Destination",
+    "name": "Cerulean Key",
+    "type": "toggle",
+    "img": "images/items/cerulean_key.png",
+    "codes": "cerulean_key"
+  },
+  {
+    "name": "Cinnabar Island Fly Point",
     "type": "toggle",
     "img": "images/items/fly_cinnabar.png",
     "codes": "fly_cinnabar"
+  },
+  {
+    "name": "Cinnabar Key",
+    "type": "toggle",
+    "img": "images/items/secret_key.png",
+    "codes": "cinnabar_key"
   },
   {
     "name": "Coin Case",
@@ -160,7 +178,7 @@
     "codes": "fame_checker"
   },
   {
-    "name": "Five Island Fly Destination",
+    "name": "Five Island Fly Point",
     "type": "toggle",
     "img": "images/items/fly_five_island.png",
     "codes": "fly_five_island"
@@ -173,7 +191,7 @@
     "codes": "five_pass"
   },
   {
-    "name": "Four Island Fly Destination",
+    "name": "Four Island Fly Point",
     "type": "toggle",
     "img": "images/items/fly_four_island.png",
     "codes": "fly_four_island"
@@ -186,10 +204,16 @@
     "codes": "four_pass"
   },
   {
-    "name": "Fuchsia City Fly Destination",
+    "name": "Fuchsia City Fly Point",
     "type": "toggle",
     "img": "images/items/fly_fuchsia.png",
     "codes": "fly_fuchsia"
+  },
+  {
+    "name": "Fuchsia Key",
+    "type": "toggle",
+    "img": "images/items/fuchsia_key.png",
+    "codes": "fuchsia_key"
   },
   {
     "name": "Gold Teeth",
@@ -277,13 +301,13 @@
     "codes": "itemfinder"
   },
   {
-    "name": "Indigo Plateau Fly Destination",
+    "name": "Indigo Plateau Fly Point",
     "type": "toggle",
     "img": "images/items/fly_indigo.png",
     "codes": "fly_indigo"
   },
   {
-    "name": "Lavender Town Fly Destination",
+    "name": "Lavender Town Fly Point",
     "type": "toggle",
     "img": "images/items/fly_lavender.png",
     "codes": "fly_lavender"
@@ -349,7 +373,7 @@
     "codes": "old_rod"
   },
   {
-    "name": "One Island Fly Destination",
+    "name": "One Island Fly Point",
     "type": "toggle",
     "img": "images/items/fly_one_island.png",
     "codes": "fly_one_island"
@@ -362,16 +386,22 @@
     "codes": "one_pass"
   },
   {
-    "name": "Pallet Town Fly Destination",
+    "name": "Pallet Town Fly Point",
     "type": "toggle",
     "img": "images/items/fly_pallet.png",
     "codes": "fly_pallet"
   },
   {
-    "name": "Pewter City Fly Destination",
+    "name": "Pewter City Fly Point",
     "type": "toggle",
     "img": "images/items/fly_pewter.png",
     "codes": "fly_pewter"
+  },
+  {
+    "name": "Pewter Key",
+    "type": "toggle",
+    "img": "images/items/pewter_key.png",
+    "codes": "pewter_key"
   },
   {
     "name": "Poké Flute",
@@ -413,13 +443,13 @@
     "codes": "red_tea"
   },
   {
-    "name": "Route 4 Fly Destination",
+    "name": "Route 4 Fly Point",
     "type": "toggle",
     "img": "images/items/fly_route_4.png",
     "codes": "fly_route_4"
   },
   {
-    "name": "Route 10 Fly Destination",
+    "name": "Route 10 Fly Point",
     "type": "toggle",
     "img": "images/items/fly_route_10.png",
     "codes": "fly_route_10"
@@ -443,10 +473,16 @@
     "codes": "safari_pass"
   },
   {
-    "name": "Saffron City Fly Destination",
+    "name": "Saffron City Fly Point",
     "type": "toggle",
     "img": "images/items/fly_saffron.png",
     "codes": "fly_saffron"
+  },
+  {
+    "name": "Saffron Key",
+    "type": "toggle",
+    "img": "images/items/saffron_key.png",
+    "codes": "saffron_key"
   },
   {
     "name": "Sapphire",
@@ -467,7 +503,7 @@
     "codes": "secret_key"
   },
   {
-    "name": "Seven Island Fly Destination",
+    "name": "Seven Island Fly Point",
     "type": "toggle",
     "img": "images/items/fly_seven_island.png",
     "codes": "fly_seven_island"
@@ -486,7 +522,7 @@
     "codes": "silph_scope"
   },
   {
-    "name": "Six Island Fly Destination",
+    "name": "Six Island Fly Point",
     "type": "toggle",
     "img": "images/items/fly_six_island.png",
     "codes": "fly_six_island"
@@ -529,7 +565,7 @@
     "codes": "teachy_tv"
   },
   {
-    "name": "Three Island Fly Destination",
+    "name": "Three Island Fly Point",
     "type": "toggle",
     "img": "images/items/fly_three_island.png",
     "codes": "fly_three_island"
@@ -566,7 +602,7 @@
     "codes": "tri_pass"
   },
   {
-    "name": "Two Island Fly Destination",
+    "name": "Two Island Fly Point",
     "type": "toggle",
     "img": "images/items/fly_two_island.png",
     "codes": "fly_two_island"
@@ -579,16 +615,28 @@
     "codes": "two_pass"
   },
   {
-    "name": "Vermilion City Fly Destination",
+    "name": "Vermilion City Fly Point",
     "type": "toggle",
     "img": "images/items/fly_vermilion.png",
     "codes": "fly_vermilion"
   },
   {
-    "name": "Viridian City Fly Destination",
+    "name": "Vermilion Key",
+    "type": "toggle",
+    "img": "images/items/vermilion_key.png",
+    "codes": "vermilion_key"
+  },
+  {
+    "name": "Viridian City Fly Point",
     "type": "toggle",
     "img": "images/items/fly_viridian.png",
     "codes": "fly_viridian"
+  },
+  {
+    "name": "Viridian Key",
+    "type": "toggle",
+    "img": "images/items/viridian_key.png",
+    "codes": "viridian_key"
   },
   {
     "name": "Volcano Badge",

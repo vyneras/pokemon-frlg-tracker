@@ -65,12 +65,13 @@ end
 
 function toggle_item_grid(code)
     local extra_item_settings = { "extra_key_items_on", "card_keys_split", "card_keys_prog", "island_passes_split",
-        "island_passes_split_prog", "teas_split" }
+        "island_passes_split_prog", "teas_split", "gym_keys_on" }
     local extra_grid = false
     local extra_key_items = has("extra_key_items_on")
     local split_card_keys = has("card_keys_split") or has("card_keys_prog")
     local split_passes = has("island_passes_split") or has("island_passes_split_prog")
     local split_teas = has("teas_split")
+    local gym_keys = has("gym_keys_on")
 
     for _, setting in pairs(extra_item_settings) do
         if has(setting) then
@@ -84,48 +85,96 @@ function toggle_item_grid(code)
         Tracker:AddLayouts("layouts/item_grids.json")
     end
 
-    if extra_key_items and split_card_keys and split_passes and split_teas then
-        Tracker:AddLayouts("layouts/items_no_ck_pass_tea.json")
+    if extra_key_items and split_card_keys and split_passes and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_pass_tea_gym.json")
         Tracker:AddLayouts("layouts/extra_items_all.json")
+    elseif extra_key_items and split_card_keys and split_passes and split_teas then
+        Tracker:AddLayouts("layouts/items_no_card_pass_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_pass_tea.json")
+    elseif extra_key_items and split_card_keys and split_passes and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_pass_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_pass_gym.json")
+    elseif extra_key_items and split_card_keys and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_tea_gym.json")
+    elseif extra_key_items and split_passes and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_pass_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_pass_tea_gym.json")
+    elseif split_card_keys and split_passes and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_pass_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_card_pass_tea_gym.json")
     elseif extra_key_items and split_card_keys and split_passes then
-        Tracker:AddLayouts("layouts/items_no_ck_pass.json")
-        Tracker:AddLayouts("layouts/extra_items_key_ck_pass.json")
+        Tracker:AddLayouts("layouts/items_no_card_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_pass.json")
     elseif extra_key_items and split_card_keys and split_teas then
-        Tracker:AddLayouts("layouts/items_no_ck_tea.json")
-        Tracker:AddLayouts("layouts/extra_items_key_ck_tea.json")
+        Tracker:AddLayouts("layouts/items_no_card_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_tea.json")
+    elseif extra_key_items and split_card_keys and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_gym.json")
     elseif extra_key_items and split_passes and split_teas then
         Tracker:AddLayouts("layouts/items_no_pass_tea.json")
         Tracker:AddLayouts("layouts/extra_items_key_pass_tea.json")
+    elseif extra_key_items and split_passes and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_pass_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_pass_gym.json")
+    elseif extra_key_items and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_tea_gym.json")
     elseif split_card_keys and split_passes and split_teas then
-        Tracker:AddLayouts("layouts/items_no_ck_pass_tea.json")
-        Tracker:AddLayouts("layouts/extra_items_ck_pass_tea.json")
+        Tracker:AddLayouts("layouts/items_no_card_pass_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_card_pass_tea.json")
+    elseif split_card_keys and split_passes and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_pass_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_card_pass_gym.json")
+    elseif split_card_keys and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_card_tea_gym.json")
+    elseif split_passes and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_pass_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_pass_tea_gym.json")
     elseif extra_key_items and split_card_keys then
-        Tracker:AddLayouts("layouts/items_no_ck.json")
-        Tracker:AddLayouts("layouts/extra_items_key_ck.json")
+        Tracker:AddLayouts("layouts/items_no_card.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card.json")
     elseif extra_key_items and split_passes then
         Tracker:AddLayouts("layouts/items_no_pass.json")
         Tracker:AddLayouts("layouts/extra_items_key_pass.json")
     elseif extra_key_items and split_teas then
         Tracker:AddLayouts("layouts/items_no_tea.json")
         Tracker:AddLayouts("layouts/extra_items_key_tea.json")
+    elseif extra_key_items and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_gym.json")
     elseif split_card_keys and split_passes then
-        Tracker:AddLayouts("layouts/items_no_ck_pass.json")
-        Tracker:AddLayouts("layouts/extra_items_ck_pass.json")
+        Tracker:AddLayouts("layouts/items_no_card_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_card_pass.json")
     elseif split_card_keys and split_teas then
-        Tracker:AddLayouts("layouts/items_no_ck_tea.json")
-        Tracker:AddLayouts("layouts/extra_items_ck_tea.json")
+        Tracker:AddLayouts("layouts/items_no_card_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_card_tea.json")
+    elseif split_card_keys and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_card_gym.json")
     elseif split_passes and split_teas then
         Tracker:AddLayouts("layouts/items_no_pass_tea.json")
         Tracker:AddLayouts("layouts/extra_items_pass_tea.json")
+    elseif split_passes and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_pass_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_pass_gym.json")
+    elseif split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_tea_gym.json")
     elseif split_card_keys then
-        Tracker:AddLayouts("layouts/items_no_ck.json")
-        Tracker:AddLayouts("layouts/extra_items_ck.json")
+        Tracker:AddLayouts("layouts/items_no_card.json")
+        Tracker:AddLayouts("layouts/extra_items_card.json")
     elseif split_passes then
         Tracker:AddLayouts("layouts/items_no_pass.json")
         Tracker:AddLayouts("layouts/extra_items_pass.json")
     elseif split_teas then
         Tracker:AddLayouts("layouts/items_no_tea.json")
         Tracker:AddLayouts("layouts/extra_items_tea.json")
+    elseif gym_keys then
+        Tracker:AddLayouts("layouts/items_no_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_gym.json")
     elseif extra_key_items then
         Tracker:AddLayouts("layouts/items.json")
         Tracker:AddLayouts("layouts/extra_items_key.json")

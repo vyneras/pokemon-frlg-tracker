@@ -21,6 +21,18 @@
                 "letter"
               ],
               [
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key"
+              ],
+              [
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
+              ],
+              [
                 "one_pass",
                 "two_pass",
                 "three_pass"
@@ -47,7 +59,6 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "17,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -59,6 +70,16 @@
                 "machine_part",
                 "safari_pass",
                 "letter"
+              ],
+              [
+                "pewter_key",
+                "cerulean_key",
+                "vermilion_key",
+                "celadon_key",
+                "fuchsia_key",
+                "saffron_key",
+                "cinnabar_key",
+                "viridian_key"
               ],
               [
                 "one_pass",

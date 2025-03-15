@@ -21,17 +21,20 @@
                 "letter"
               ],
               [
-                "one_pass",
-                "two_pass",
-                "three_pass"
+                "card_key_2f",
+                "card_key_3f",
+                "card_key_4f",
+                "card_key_5f"
               ],
               [
-                "four_pass",
-                "five_pass"
+                "card_key_6f",
+                "card_key_7f",
+                "card_key_8f"
               ],
               [
-                "six_pass",
-                "seven_pass"
+                "card_key_9f",
+                "card_key_10f",
+                "card_key_11f"
               ]
             ]
           }
@@ -47,7 +50,7 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "17,0,0,0",
+        "margin": "51,0,0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -61,13 +64,18 @@
                 "letter"
               ],
               [
-                "one_pass",
-                "two_pass",
-                "three_pass",
-                "four_pass",
-                "five_pass",
-                "six_pass",
-                "seven_pass"
+                "card_key_2f",
+                "card_key_3f",
+                "card_key_4f",
+                "card_key_5f",
+                "card_key_6f"
+              ],
+              [
+                "card_key_7f",
+                "card_key_8f",
+                "card_key_9f",
+                "card_key_10f",
+                "card_key_11f"
               ]
             ]
           }
