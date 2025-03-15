@@ -134,12 +134,21 @@ function toggle_item_grid(code)
     end
 end
 
-function toggle_split_map(code)
+function toggle_maps(code)
     local map_split = has("split_map_on")
-    if map_split then
+    local kanto_only = has("kanto_only_on")
+    if map_split and not kanto_only then
         Tracker:AddLayouts("layouts/map_layout_split.json")
-    else
+        Tracker:AddLayouts("layouts/maps.json")
+    elseif map_split and kanto_only then
+        Tracker:AddLayouts("layouts/map_layout_split_no_sevii.json")
+        Tracker:AddLayouts("layouts/maps_no_sevii.json")
+    elseif not map_split and not kanto_only then
         Tracker:AddLayouts("layouts/map_layout.json")
+        Tracker:AddLayouts("layouts/maps.json")
+    elseif not map_split and kanto_only then
+        Tracker:AddLayouts("layouts/map_layout_no_sevii.json")
+        Tracker:AddLayouts("layouts/maps_no_sevii.json")
     end
 end
 
