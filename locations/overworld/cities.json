@@ -755,7 +755,7 @@
             "chest_unopened_img": "images/locations/old_man_powder_jar.png",
             "chest_opened_img": "images/locations/old_man_powder_jar_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "@Cerulean City Access,berry_pouch"
             ],
             "visibility_rules": [
               "$item_locations_visible"

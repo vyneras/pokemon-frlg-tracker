@@ -1,5 +1,6 @@
 ITEM_MAPPING = {
     [371] = {"aurora_ticket", "toggle"},
+    [365] = {"berry_pouch", "toggle"},
     [360] = {"bicycle", "toggle"},
     [352] = {"bike_voucher", "toggle"},
     [114] = {"blue_tea", "toggle"},
@@ -94,10 +95,12 @@ ITEM_MAPPING = {
     [369] = {"tea", "toggle"},
     [88]  = {"three_pass", "toggle"},
     [228] = {"thunder_badge", "toggle"},
+    [364] = {"tm_case", "toggle"},
     [361] = {"town_map", "toggle"},
     [87]  = {"two_pass", "toggle"},
     [367] = {"tri_pass", "toggle"},
     [383] = {"vermilion_key", "toggle"},
     [388] = {"viridian_key", "toggle"},
-    [232] = {"volcano_badge", "toggle"}
+    [232] = {"volcano_badge", "toggle"},
+    [362] = {"vs_seeker", "toggle"}
 }

@@ -208,6 +208,18 @@ function onClear(slot_data)
     if SLOT_CODES["shuffle_running_shoes"] == 0 then
         VANILLA_RUNNING_SHOES = true
     end
+    if SLOT_CODES["shuffle_berry_pouch"] == 0 then
+        local object = Tracker:FindObjectForCode("berry_pouch")
+        if object then
+            object.Active = true
+        end
+    end
+    if SLOT_CODES["shuffle_tm_case"] == 0 then
+        local object = Tracker:FindObjectForCode("tm_case")
+        if object then
+            object.Active = true
+        end
+    end
     if has("trainersanity_on") then
         setTrainersanityVisibility()
     end

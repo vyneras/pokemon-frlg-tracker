@@ -4,11 +4,11 @@ GYMS = {"defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defe
         "defeat_blaine", "defeat_giovanni"}
 
 function cut()
-    return (has("cascade_badge") or not has("cascade_badge_required")) and has("hm01_cut")
+    return (has("cascade_badge") or not has("cascade_badge_required")) and has("hm01_cut") and has("tm_case")
 end
 
 function fly(location)
-    return (has("thunder_badge") or not has("thunder_badge_required")) and has("hm02_fly") and has_fly_location(location)
+    return (has("thunder_badge") or not has("thunder_badge_required")) and has("hm02_fly") and has_fly_location(location) and has("tm_case")
 end
 
 function has_fly_location(location)
@@ -16,23 +16,23 @@ function has_fly_location(location)
 end
 
 function surf()
-    return (has("soul_badge") or not has("soul_badge_required")) and has("hm03_surf")
+    return (has("soul_badge") or not has("soul_badge_required")) and has("hm03_surf") and has("tm_case")
 end
 
 function strength()
-    return (has("rainbow_badge") or not has("rainbow_badge_required")) and has("hm04_strength")
+    return (has("rainbow_badge") or not has("rainbow_badge_required")) and has("hm04_strength") and has("tm_case")
 end
 
 function flash()
-    return (has("boulder_badge") or not has("boulder_badge_required")) and has("hm05_flash")
+    return (has("boulder_badge") or not has("boulder_badge_required")) and has("hm05_flash") and has("tm_case")
 end
 
 function rock_smash()
-    return (has("marsh_badge") or not has("marsh_badge_required")) and has("hm06_rock_smash")
+    return (has("marsh_badge") or not has("marsh_badge_required")) and has("hm06_rock_smash") and has("tm_case")
 end
 
 function waterfall()
-    return (has("volcano_badge") or not has("volcano_badge_required")) and has("hm07_waterfall")
+    return (has("volcano_badge") or not has("volcano_badge_required")) and has("hm07_waterfall") and has("tm_case")
 end
 
 function hidden()
