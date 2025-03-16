@@ -205,16 +205,16 @@ function onClear(slot_data)
             end
         end
     end
-    if SLOT_CODES["shuffle_running_shoes"] == 0 then
+    if slot_data["shuffle_running_shoes"] == 0 then
         VANILLA_RUNNING_SHOES = true
     end
-    if SLOT_CODES["shuffle_berry_pouch"] == 0 then
+    if slot_data["shuffle_berry_pouch"] == 0 then
         local object = Tracker:FindObjectForCode("berry_pouch")
         if object then
             object.Active = true
         end
     end
-    if SLOT_CODES["shuffle_tm_case"] == 0 then
+    if slot_data["shuffle_tm_case"] == 0 then
         local object = Tracker:FindObjectForCode("tm_case")
         if object then
             object.Active = true
@@ -225,8 +225,8 @@ function onClear(slot_data)
     end
     setDexsanityLocations()
     if PLAYER_NUMBER > -1 then
-        updateEvents(0)
-        updateFlyUnlocks(0)
+        updateEvents(0, true)
+        updateFlyUnlocks(0, true)
         updatePokemon({})
         updatePokedex(0)
         EVENT_ID = "pokemon_frlg_events_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
@@ -327,9 +327,9 @@ end
 
 function onNotify(key, value, old_value)
     if key == EVENT_ID then
-        updateEvents(value)
+        updateEvents(value, false)
     elseif key == FLY_UNLOCK_ID then
-        updateFlyUnlocks(value)
+        updateFlyUnlocks(value, false)
     elseif key == POKEMON_ID then
         updatePokemon(value)
     elseif key == POKEDEX_ID then
@@ -339,9 +339,9 @@ end
 
 function onNotifyLaunch(key, value)
     if key == EVENT_ID then
-        updateEvents(value)
+        updateEvents(value, false)
     elseif key == FLY_UNLOCK_ID then
-        updateFlyUnlocks(value)
+        updateFlyUnlocks(value, false)
     elseif key == POKEMON_ID then
         updatePokemon(value)
     elseif key == POKEDEX_ID then
@@ -358,40 +358,39 @@ function onBounce(json)
     end
 end
 
-function updateEvents(value)
+function updateEvents(value, reset)
     if value ~= nil then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateEvents: Value - %s", value))
         end
-        for bit, codes in pairs(EVENT_FLAG_MAPPING) do
+        for bit, event in pairs(EVENT_FLAG_MAPPING) do
             local bitmask = 2 ^ bit
-            for _, code in pairs(codes) do
-                if code == "lemonade" then
-                    Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or value & bitmask ~= 0
-                elseif code == "running_shoes" then
+            if reset or (value & bitmask ~= event.value) then
+                event.value = value & bitmask
+                if event.code == "lemonade" then
+                    Tracker:FindObjectForCode(event.code).Active = Tracker:FindObjectForCode(event.code).Active or event.value
+                elseif event.code == "running_shoes" then
                     if VANILLA_RUNNING_SHOES then
-                        Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
+                        Tracker:FindObjectForCode(event.code).Active = event.value
                     end
                 else
-                    Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
+                    Tracker:FindObjectForCode(event.code).Active = event.value
                 end
             end
         end
     end
 end
 
-function updateFlyUnlocks(value)
-    if not has("fly_destination_unlocks_off") then
-        return
-    end
+function updateFlyUnlocks(value, reset)
     if value ~= nil then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateFlyUnlocks: Value - %s", value))
         end
-        for bit, codes in pairs(FLY_UNLOCK_FLAG_MAPPING) do
+        for bit, event in pairs(FLY_UNLOCK_FLAG_MAPPING) do
             local bitmask = 2 ^ bit
-            for _, code in pairs(codes) do
-                Tracker:FindObjectForCode(code).Active = value & bitmask ~= 0
+            if reset or (value & bitmask ~= event.value) then
+                event.value = value & bitmask
+                Tracker:FindObjectForCode(event.code).Active = event.value
             end
         end
     end
