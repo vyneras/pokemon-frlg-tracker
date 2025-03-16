@@ -15,6 +15,14 @@ SLOT_CODES = {
             [1] = 1 -- Goal E4 Rematch
         }
     },
+    skip_elite_four = {
+        code = "skip_elite_four_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Skip Elite Four Off
+            [1] = 1  -- Skip Elite Four On
+        }
+    },
     kanto_only = {
         code = "kanto_only_setting",
         type = "progressive",

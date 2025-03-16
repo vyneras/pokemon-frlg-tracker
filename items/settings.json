@@ -44,6 +44,28 @@
     ]
   },
   {
+    "name": "Skip Elite Four",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/lorelei.png",
+        "img_mods": "overlay|images/overlays/green_check.png",
+        "codes": "skip_elite_four_setting,skip_elite_four_off",
+        "inherit_codes": false,
+        "name": "Skip Elite Four - Off"
+      },
+      {
+        "img": "images/settings/lorelei.png",
+        "img_mods": "overlay|images/overlays/red_x.png",
+        "codes": "skip_elite_four_setting,skip_elite_four_on",
+        "inherit_codes": false,
+        "name": "Skip Elite Four - On"
+      }
+    ]
+  },
+  {
     "name": "Kanto Only",
     "type": "progressive",
     "allow_disabled": false,

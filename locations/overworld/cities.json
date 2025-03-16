@@ -3176,7 +3176,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3187,7 +3187,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3198,7 +3198,7 @@
               "$has_e4_req"
             ],
             "visibility_rules": [
-              "trainersanity_on,elite_four_lorelei,$item_locations_visible"
+              "skip_elite_four_off,trainersanity_on,elite_four_lorelei,$item_locations_visible"
             ]
           },
           {
@@ -3209,7 +3209,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3220,7 +3220,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3231,7 +3231,7 @@
               "$has_e4_req"
             ],
             "visibility_rules": [
-              "trainersanity_on,elite_four_bruno,$item_locations_visible"
+              "skip_elite_four_off,trainersanity_on,elite_four_bruno,$item_locations_visible"
             ]
           },
           {
@@ -3242,7 +3242,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3253,7 +3253,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3264,7 +3264,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3275,7 +3275,7 @@
               "$has_e4_req"
             ],
             "visibility_rules": [
-              "trainersanity_on,elite_four_agatha,$item_locations_visible"
+              "skip_elite_four_off,trainersanity_on,elite_four_agatha,$item_locations_visible"
             ]
           },
           {
@@ -3286,7 +3286,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3297,7 +3297,7 @@
               "$has_e4_req,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,$item_locations_visible"
+              "skip_elite_four_off,famesanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3308,7 +3308,7 @@
               "$has_e4_req"
             ],
             "visibility_rules": [
-              "trainersanity_on,elite_four_lance,$item_locations_visible"
+              "skip_elite_four_off,trainersanity_on,elite_four_lance,$item_locations_visible"
             ]
           },
           {
@@ -3362,7 +3362,7 @@
               "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "trainersanity_on,elite_four_lorelei_rematch,$item_locations_visible"
+              "skip_elite_four_off,trainersanity_on,elite_four_lorelei_rematch,$item_locations_visible"
             ]
           },
           {
@@ -3373,7 +3373,7 @@
               "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "trainersanity_on,elite_four_bruno_rematch,$item_locations_visible"
+              "skip_elite_four_off,trainersanity_on,elite_four_bruno_rematch,$item_locations_visible"
             ]
           },
           {
@@ -3384,7 +3384,7 @@
               "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "trainersanity_on,elite_four_agatha_rematch,$item_locations_visible"
+              "skip_elite_four_off,trainersanity_on,elite_four_agatha_rematch,$item_locations_visible"
             ]
           },
           {
@@ -3395,7 +3395,7 @@
               "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "trainersanity_on,elite_four_lance_rematch,$item_locations_visible"
+              "skip_elite_four_off,trainersanity_on,elite_four_lance_rematch,$item_locations_visible"
             ]
           },
           {
