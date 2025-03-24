@@ -56,6 +56,21 @@
             "y": 88
           }
         ]
+      },
+      {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 88,
+            "y": 152
+          }
+        ]
       }
     ]
   },
@@ -90,6 +105,26 @@
             "map": "seven_island_pokemon_center_1f",
             "x": 48,
             "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

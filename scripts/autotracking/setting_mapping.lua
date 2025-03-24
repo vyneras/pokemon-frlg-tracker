@@ -48,6 +48,14 @@ SLOT_CODES = {
             [1] = 1  -- Extra Key Items On
         }
     },
+    shopsanity = {
+        code = "shopsanity_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shopsanity Off
+            [1] = 1  -- Shopsanity On
+        }
+    },
     trainersanity = {
         code = "trainersanity_setting",
         type = "progressive",

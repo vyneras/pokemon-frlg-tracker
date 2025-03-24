@@ -173,6 +173,21 @@
             "y": 504
           }
         ]
+      },
+      {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 296,
+            "y": 200
+          }
+        ]
       }
     ]
   },
@@ -234,6 +249,26 @@
             "map": "three_island_sabrina_fans_house",
             "x": 120,
             "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

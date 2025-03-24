@@ -85,6 +85,21 @@
         ]
       },
       {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 648,
+            "y": 344
+          }
+        ]
+      },
+      {
         "name": "Gym Sign",
         "sections": [
           {
@@ -615,6 +630,26 @@
             "map": "pokemon_trainer_fan_club",
             "x": 48,
             "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

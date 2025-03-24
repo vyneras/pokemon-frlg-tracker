@@ -68,7 +68,12 @@
         "name": "Poké Mart",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Delivery for Oak"
+            "ref": "Cities/Viridian City/Delivery for Oak",
+            "name": "Delivery for Oak"
+          },
+          {
+            "ref": "Cities/Viridian City/Shop Items",
+            "name": "Shop Items"
           }
         ],
         "map_locations": [
@@ -456,10 +461,15 @@
     "name": "Viridian Mart",
     "children": [
       {
-        "name": "Poké Mart Employee",
+        "name": "Poké Mart Clerk",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Delivery for Oak"
+            "ref": "Cities/Viridian City/Delivery for Oak",
+            "name": "Delivery for Oak"
+          },
+          {
+            "ref": "Cities/Viridian City/Shop Items",
+            "name": "Shop Items"
           }
         ],
         "map_locations": [

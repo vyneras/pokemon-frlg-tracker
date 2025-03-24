@@ -36,7 +36,12 @@
         "name": "Poké Mart",
         "sections": [
           {
-            "ref": "Islands/Six Island Town/Old Woman Info"
+            "ref": "Islands/Six Island Town/Old Woman Info",
+            "name": "Old Woman Info"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Items",
+            "name": "Shop Items"
           }
         ],
         "map_locations": [
@@ -101,6 +106,21 @@
           {
             "map": "six_island_mart",
             "x": 136,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "x": 40,
             "y": 56
           }
         ]

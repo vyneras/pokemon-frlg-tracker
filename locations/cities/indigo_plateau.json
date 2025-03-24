@@ -25,6 +25,10 @@
             "name": "PC Item"
           },
           {
+            "ref": "Cities/Indigo Plateau/Shop Items",
+            "name": "Shop Items"
+          },
+          {
             "ref": "Cities/Indigo Plateau/Cooltrainer Info",
             "name": "Cooltrainer Info"
           },
@@ -159,6 +163,22 @@
             "map": "indigo_plateau_pokemon_center_1f",
             "x": 280,
             "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Shop Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Shop Items",
+            "name": "Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 8,
+            "y": 120
           }
         ]
       },

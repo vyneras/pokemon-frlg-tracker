@@ -125,6 +125,21 @@
         ]
       },
       {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
         "name": "Pokémon Fan Club",
         "sections": [
           {
@@ -404,6 +419,26 @@
             "map": "vermilion_gym",
             "x": 88,
             "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

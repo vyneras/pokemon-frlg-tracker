@@ -60,6 +60,21 @@
             "y": 184
           }
         ]
+      },
+      {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Lavender Town/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 328,
+            "y": 248
+          }
+        ]
       }
     ]
   },
@@ -147,6 +162,26 @@
           {
             "map": "volunteer_pokemon_house",
             "x": 56,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavender Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Lavender Town/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_mart",
+            "x": 40,
             "y": 56
           }
         ]

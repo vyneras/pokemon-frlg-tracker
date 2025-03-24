@@ -137,7 +137,12 @@
         "name": "Poké Mart",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Old Man Info"
+            "ref": "Islands/Four Island Town/Old Man Info",
+            "name": "Old Man Info"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Items",
+            "name": "Shop Items"
           }
         ],
         "map_locations": [
@@ -235,6 +240,21 @@
             "map": "four_island_mart",
             "x": 104,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

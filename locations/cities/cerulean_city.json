@@ -208,6 +208,21 @@
         ]
       },
       {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 472,
+            "y": 456
+          }
+        ]
+      },
+      {
         "name": "Team Rocket Grunt",
         "sections": [
           {
@@ -406,6 +421,26 @@
             "map": "berry_powder_mans_house",
             "x": 120,
             "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

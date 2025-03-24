@@ -204,6 +204,21 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 312,
+            "y": 184
+          }
+        ]
       }
     ]
   },
@@ -478,6 +493,26 @@
             "map": "cinnabar_pokemon_center_1f",
             "x": 48,
             "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

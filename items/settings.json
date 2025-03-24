@@ -138,6 +138,28 @@
     ]
   },
   {
+    "name": "Shopsanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/clerk.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shopsanity_setting,shopsanity_off",
+        "inherit_codes": false,
+        "name": "Shopsanity - Off"
+      },
+      {
+        "img": "images/settings/clerk.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shopsanity_setting,shopsanity_on",
+        "inherit_codes": false,
+        "name": "Shopsanity - On"
+      }
+    ]
+  },
+  {
     "name": "Trainersanity",
     "type": "progressive",
     "allow_disabled": false,

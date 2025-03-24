@@ -109,6 +109,41 @@
             "y": 472
           }
         ]
+      },
+      {
+        "name": "Trainer Tower",
+        "sections": [
+          {
+            "ref": "Islands/Trainer Tower/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 328,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trainer Tower Lobby",
+    "children": [
+      {
+        "name": "Shop Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Trainer Tower/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_lobby",
+            "x": 232,
+            "y": 152
+          }
+        ]
       }
     ]
   }

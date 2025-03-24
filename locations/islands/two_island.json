@@ -49,10 +49,27 @@
         ]
       },
       {
-        "name": "Market Stall",
+        "name": "Market Stall Clerk",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/Buy Lemonade (Event)"
+            "ref": "Islands/Two Island Town/Buy Lemonade (Event)",
+            "name": "Buy Lemonade (Event)"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Initial Items",
+            "name": "Market Stall Initial Items"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall First Expansion Items",
+            "name": "Market Stall First Expansion Items"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Second Expansion Items",
+            "name": "Market Stall Second Expansion Items"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Third Expansion Items",
+            "name": "Market Stall Third Expansion Items"
           }
         ],
         "map_locations": [

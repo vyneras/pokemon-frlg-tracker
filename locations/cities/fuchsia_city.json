@@ -167,6 +167,21 @@
         ]
       },
       {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 184,
+            "y": 248
+          }
+        ]
+      },
+      {
         "name": "Bill's Grandpa's House",
         "sections": [
           {
@@ -512,6 +527,26 @@
             "map": "fuchsia_fishing_house",
             "x": 104,
             "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }

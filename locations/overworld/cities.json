@@ -236,6 +236,16 @@
             ]
           },
           {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 4,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Bookshelf Info 1",
             "chest_unopened_img": "images/locations/bookshelf_2_info.png",
             "chest_opened_img": "images/locations/bookshelf_2_info_bw.png",
@@ -572,6 +582,16 @@
             ]
           },
           {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Northwest Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -840,6 +860,19 @@
             ]
           },
           {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            "access_rules": [
+              "@Cerulean City Access"
+            ],
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Team Rocket Grunt Reward",
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
@@ -1098,6 +1131,16 @@
             "chest_opened_img": "images/locations/fisherman_old_rod_bw.png",
             "visibility_rules": [
               "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
             ]
           },
           {
@@ -1435,6 +1478,16 @@
             "visibility_rules": [
               "$item_locations_visible"
             ]
+          },
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
           }
         ],
         "map_locations": [
@@ -1548,6 +1601,26 @@
             ]
           },
           {
+            "name": "TM Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Woman Info",
             "chest_unopened_img": "images/locations/woman_info.png",
             "chest_opened_img": "images/locations/woman_info_bw.png",
@@ -1556,6 +1629,36 @@
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Evo Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Vitamin Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Battle Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
             ]
           },
           {
@@ -2170,6 +2273,16 @@
             ]
           },
           {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Koga's Daughter Info",
             "chest_unopened_img": "images/locations/lass_info.png",
             "chest_opened_img": "images/locations/lass_info_bw.png",
@@ -2482,6 +2595,16 @@
             ]
           },
           {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Gym Sign Info",
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
@@ -2541,7 +2664,7 @@
           {
             "name": "Dojo Item (Center)",
             "visibility_rules": [
-              "$item_locations_visible"
+              "gym_keys_on,$item_locations_visible"
             ]
           },
           {
@@ -2762,6 +2885,16 @@
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
               "start_town_cinnabar,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
             ]
           },
           {
@@ -3122,6 +3255,16 @@
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "visibility_rules": [
               "start_town_indigo,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 7,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
             ]
           },
           {

@@ -651,7 +651,56 @@
               "rescue_lostelle,defeat_champion"
             ],
             "visibility_rules": [
-              "$item_locations_visible"
+              "shopsanity_off,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Market Stall Initial Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Market Stall First Expansion Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "rescue_lostelle"
+            ],
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Market Stall Second Expansion Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
+            "access_rules": [
+              "rescue_lostelle,defeat_champion"
+            ],
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Market Stall Third Expansion Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "rescue_lostelle,defeat_champion,restore_pokemon_network_machine"
+            ],
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
             ]
           },
           {
@@ -983,6 +1032,16 @@
             ]
           },
           {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 6,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
             "name": "Sabrina Fan Info",
             "chest_unopened_img": "images/locations/man_info.png",
             "chest_opened_img": "images/locations/man_info_bw.png",
@@ -1272,6 +1331,16 @@
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
             ]
           },
           {
@@ -1678,8 +1747,7 @@
             "chest_unopened_img": "images/locations/man_normal_tm.png",
             "chest_opened_img": "images/locations/man_normal_tm_bw.png",
             "access_rules": [
-              "lemonade,[@Cities/Celadon City/Buy Lemonade (Event)]",
-              "lemonade,[@Islands/Two Island/Buy Lemonade (Event)]"
+              "lemonade"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2109,6 +2177,16 @@
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 8,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
             ]
           },
           {
@@ -2798,6 +2876,16 @@
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
             ]
+          },
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/clerk.png",
+            "chest_opened_img": "images/locations/clerk_bw.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
           }
         ],
         "map_locations": [
@@ -3331,6 +3419,38 @@
             "map": "sevii_67",
             "x": 52,
             "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower",
+        "access_rules": [
+          "@Seven Island Access,$surf"
+        ],
+        "sections": [
+          {
+            "name": "Shop Items",
+            "chest_unopened_img": "images/locations/union_room_receptionist.png",
+            "chest_opened_img": "images/locations/union_room_receptionist_bw.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "shopsanity_on,$item_locations_visible"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 244,
+            "y": 212,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 52,
+            "y": 68,
             "size": 4
           }
         ]

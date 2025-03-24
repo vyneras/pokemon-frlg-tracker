@@ -128,8 +128,28 @@
         "name": "Department Store",
         "sections": [
           {
+            "ref": "Cities/Celadon City/TM Shop Items",
+            "name": "TM Shop Items"
+          },
+          {
+            "ref": "Cities/Celadon City/Shop Items",
+            "name": "Shop Items"
+          },
+          {
             "ref": "Cities/Celadon City/Woman Info",
             "name": "Woman Info"
+          },
+          {
+            "ref": "Cities/Celadon City/Evo Shop Items",
+            "name": "Evo Shop Items"
+          },
+          {
+            "ref": "Cities/Celadon City/Vitamin Shop Items",
+            "name": "Vitamin Shop Items"
+          },
+          {
+            "ref": "Cities/Celadon City/Battle Shop Items",
+            "name": "Battle Shop Items"
           },
           {
             "ref": "Cities/Celadon City/Buy Lemonade (Event)",
@@ -445,6 +465,37 @@
     "name": "Celadon Department Store 2F",
     "children": [
       {
+        "name": "TM Shop Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/TM Shop Items",
+            "name": "Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_2f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Item Shop Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_2f",
+            "x": 24,
+            "y": 136
+          }
+        ]
+      },
+      {
         "name": "Woman",
         "sections": [
           {
@@ -457,6 +508,64 @@
             "map": "celadon_department_store_2f",
             "x": 184,
             "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 4F",
+    "children": [
+      {
+        "name": "Evo Shop Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Evo Shop Items",
+            "name": "Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_4f",
+            "x": 56,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 5F",
+    "children": [
+      {
+        "name": "Vitamin Shop Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Vitamin Shop Items",
+            "name": "Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_5f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Battle Shop Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Battle Shop Items",
+            "name": "Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_5f",
+            "x": 24,
+            "y": 120
           }
         ]
       }

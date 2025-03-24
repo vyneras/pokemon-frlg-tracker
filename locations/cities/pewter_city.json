@@ -65,6 +65,21 @@
         ]
       },
       {
+        "name": "Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 456,
+            "y": 296
+          }
+        ]
+      },
+      {
         "name": "Pewter Gym",
         "sections": [
           {
@@ -291,6 +306,26 @@
             "map": "pewter_gym",
             "x": 104,
             "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Mart",
+    "children": [
+      {
+        "name": "Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Shop Items"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_mart",
+            "x": 40,
+            "y": 56
           }
         ]
       }
