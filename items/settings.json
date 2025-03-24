@@ -1222,55 +1222,6 @@
     "codes": "route_15_oaks_aide_count"
   },
   {
-    "name": "Boulder Badge Required",
-    "type": "toggle",
-    "img": "images/settings/boulder_badge.png",
-    "initial_active_state": true,
-    "codes": "boulder_badge_required"
-  },
-  {
-    "name": "Cascade Badge Required",
-    "type": "toggle",
-    "img": "images/settings/cascade_badge.png",
-    "initial_active_state": true,
-    "codes": "cascade_badge_required"
-  },
-  {
-    "name": "Thunder Badge Required",
-    "type": "toggle",
-    "img": "images/settings/thunder_badge.png",
-    "initial_active_state": true,
-    "codes": "thunder_badge_required"
-  },
-  {
-    "name": "Rainbow Badge Required",
-    "type": "toggle",
-    "img": "images/settings/rainbow_badge.png",
-    "initial_active_state": true,
-    "codes": "rainbow_badge_required"
-  },
-  {
-    "name": "Soul Badge Required",
-    "type": "toggle",
-    "img": "images/settings/soul_badge.png",
-    "initial_active_state": true,
-    "codes": "soul_badge_required"
-  },
-  {
-    "name": "Marsh Badge Required",
-    "type": "toggle",
-    "img": "images/settings/marsh_badge.png",
-    "initial_active_state": true,
-    "codes": "marsh_badge_required"
-  },
-  {
-    "name": "Volcano Badge Required",
-    "type": "toggle",
-    "img": "images/settings/volcano_badge.png",
-    "initial_active_state": true,
-    "codes": "volcano_badge_required"
-  },
-  {
     "name": "Starting Town",
     "type": "progressive",
     "allow_disabled": false,

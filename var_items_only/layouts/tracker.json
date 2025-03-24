@@ -64,11 +64,11 @@
         },
         {
           "type": "group",
-          "header": "Badges Required",
+          "header": "Starting Town",
           "dock": "top",
           "content": {
             "type": "layout",
-            "key": "badge_grid"
+            "key": "start_town_grid"
           }
         },
         {

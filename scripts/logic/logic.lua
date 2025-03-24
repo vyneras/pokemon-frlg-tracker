@@ -4,11 +4,21 @@ GYMS = {"defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defe
         "defeat_blaine", "defeat_giovanni"}
 
 function cut()
-    return (has("cascade_badge") or not has("cascade_badge_required")) and has("hm01_cut") and has("tm_case")
+	local badge_required = Tracker:FindObjectForCode("hm01_cut").CurrentStage
+	if badge_required == 1 then
+		return has("cascade_badge") and has("hm01_cut") and has("tm_case")
+	else
+		return has("hm01_cut") and has("tm_case")
+	end
 end
 
 function fly(location)
-    return (has("thunder_badge") or not has("thunder_badge_required")) and has("hm02_fly") and has_fly_location(location) and has("tm_case")
+	local badge_required = Tracker:FindObjectForCode("hm02_fly").CurrentStage
+	if badge_required == 1 then
+		return has("thunder_badge") and has("hm02_fly") and has("tm_case") and has_fly_location(location)
+	else
+		return has("hm02_fly") and has("tm_case") and has_fly_location(location)
+	end
 end
 
 function has_fly_location(location)
@@ -16,23 +26,48 @@ function has_fly_location(location)
 end
 
 function surf()
-    return (has("soul_badge") or not has("soul_badge_required")) and has("hm03_surf") and has("tm_case")
+	local badge_required = Tracker:FindObjectForCode("hm03_surf").CurrentStage
+	if badge_required == 1 then
+		return has("soul_badge") and has("hm03_surf") and has("tm_case")
+	else
+		return has("hm03_surf") and has("tm_case")
+	end
 end
 
 function strength()
-    return (has("rainbow_badge") or not has("rainbow_badge_required")) and has("hm04_strength") and has("tm_case")
+	local badge_required = Tracker:FindObjectForCode("hm04_strength").CurrentStage
+	if badge_required == 1 then
+		return has("rainbow_badge") and has("hm04_strength") and has("tm_case")
+	else
+		return has("hm04_strength") and has("tm_case")
+	end
 end
 
 function flash()
-    return (has("boulder_badge") or not has("boulder_badge_required")) and has("hm05_flash") and has("tm_case")
+	local badge_required = Tracker:FindObjectForCode("hm05_flash").CurrentStage
+	if badge_required == 1 then
+		return has("boulder_badge") and has("hm05_flash") and has("tm_case")
+	else
+		return has("hm05_flash") and has("tm_case")
+	end
 end
 
 function rock_smash()
-    return (has("marsh_badge") or not has("marsh_badge_required")) and has("hm06_rock_smash") and has("tm_case")
+	local badge_required = Tracker:FindObjectForCode("hm06_rock_smash").CurrentStage
+	if badge_required == 1 then
+		return has("marsh_badge") and has("hm06_rock_smash") and has("tm_case")
+	else
+		return has("hm06_rock_smash") and has("tm_case")
+	end
 end
 
 function waterfall()
-    return (has("volcano_badge") or not has("volcano_badge_required")) and has("hm07_waterfall") and has("tm_case")
+	local badge_required = Tracker:FindObjectForCode("hm07_waterfall").CurrentStage
+	if badge_required == 1 then
+		return has("volcano_badge") and has("hm07_waterfall") and has("tm_case")
+	else
+		return has("hm07_waterfall") and has("tm_case")
+	end
 end
 
 function hidden()

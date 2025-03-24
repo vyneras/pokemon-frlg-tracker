@@ -247,52 +247,122 @@
   },
   {
     "name": "HM01 Cut",
-    "type": "toggle",
-    "img": "images/items/normal_hm.png",
-    "img_mods": "overlay|images/overlays/1.png",
-    "codes": "hm01_cut"
+    "type": "progressive_toggle",
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/normal_hm.png",
+        "img_mods": "overlay|images/overlays/1.png",
+        "codes": "hm01_cut"
+      },
+      {
+        "img": "images/items/normal_hm.png",
+        "img_mods": "overlay|images/overlays/1.png,overlay|images/overlays/cascade_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/1.png|@disabled,overlay|images/overlays/cascade_badge_top_left.png"
+      }
+    ]
   },
   {
     "name": "HM02 Fly",
-    "type": "toggle",
-    "img": "images/items/flying_hm.png",
-    "img_mods": "overlay|images/overlays/2.png",
-    "codes": "hm02_fly"
+    "type": "progressive_toggle",
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/flying_hm.png",
+        "img_mods": "overlay|images/overlays/2.png",
+        "codes": "hm02_fly"
+      },
+      {
+        "img": "images/items/flying_hm.png",
+        "img_mods": "overlay|images/overlays/2.png,overlay|images/overlays/thunder_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/2.png|@disabled,overlay|images/overlays/thunder_badge_top_left.png"
+      }
+    ]
   },
   {
     "name": "HM03 Surf",
-    "type": "toggle",
-    "img": "images/items/water_hm.png",
-    "img_mods": "overlay|images/overlays/3.png",
-    "codes": "hm03_surf"
+    "type": "progressive_toggle",
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/water_hm.png",
+        "img_mods": "overlay|images/overlays/3.png",
+        "codes": "hm03_surf"
+      },
+      {
+        "img": "images/items/water_hm.png",
+        "img_mods": "overlay|images/overlays/3.png,overlay|images/overlays/soul_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/3.png|@disabled,overlay|images/overlays/soul_badge_top_left.png"
+      }
+    ]
   },
   {
     "name": "HM04 Strength",
-    "type": "toggle",
-    "img": "images/items/normal_hm.png",
-    "img_mods": "overlay|images/overlays/4.png",
-    "codes": "hm04_strength"
+    "type": "progressive_toggle",
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/normal_hm.png",
+        "img_mods": "overlay|images/overlays/4.png",
+        "codes": "hm04_strength"
+      },
+      {
+        "img": "images/items/normal_hm.png",
+        "img_mods": "overlay|images/overlays/4.png,overlay|images/overlays/rainbow_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/4.png|@disabled,overlay|images/overlays/rainbow_badge_top_left.png"
+      }
+    ]
   },
   {
     "name": "HM05 Flash",
-    "type": "toggle",
-    "img": "images/items/normal_hm.png",
-    "img_mods": "overlay|images/overlays/5.png",
-    "codes": "hm05_flash"
+    "type": "progressive_toggle",
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/normal_hm.png",
+        "img_mods": "overlay|images/overlays/5.png",
+        "codes": "hm05_flash"
+      },
+      {
+        "img": "images/items/normal_hm.png",
+        "img_mods": "overlay|images/overlays/5.png,overlay|images/overlays/boulder_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/5.png|@disabled,overlay|images/overlays/boulder_badge_top_left.png"
+      }
+    ]
   },
   {
     "name": "HM06 Rock Smash",
-    "type": "toggle",
-    "img": "images/items/fighting_hm.png",
-    "img_mods": "overlay|images/overlays/6.png",
-    "codes": "hm06_rock_smash"
+    "type": "progressive_toggle",
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/fighting_hm.png",
+        "img_mods": "overlay|images/overlays/6.png",
+        "codes": "hm06_rock_smash"
+      },
+      {
+        "img": "images/items/fighting_hm.png",
+        "img_mods": "overlay|images/overlays/6.png,overlay|images/overlays/marsh_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/6.png|@disabled,overlay|images/overlays/marsh_badge_top_left.png"
+      }
+    ]
   },
   {
     "name": "HM07 Waterfall",
-    "type": "toggle",
-    "img": "images/items/water_hm.png",
-    "img_mods": "overlay|images/overlays/7.png",
-    "codes": "hm07_waterfall"
+    "type": "progressive_toggle",
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/items/water_hm.png",
+        "img_mods": "overlay|images/overlays/7.png",
+        "codes": "hm07_waterfall"
+      },
+      {
+        "img": "images/items/water_hm.png",
+        "img_mods": "overlay|images/overlays/7.png,overlay|images/overlays/volcano_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/7.png|@disabled,overlay|images/overlays/volcano_badge_top_left.png"
+      }
+    ]
   },
   {
     "name": "Itemfinder",

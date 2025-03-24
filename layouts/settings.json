@@ -142,30 +142,6 @@
       }
     ]
   },
-  "badge_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "margin": "0,0",
-    "content": [
-      {
-        "type": "itemgrid",
-        "item_margin": "2,2",
-        "h_alignment": "center",
-        "item_size": "32,40",
-        "rows": [
-          [
-            "boulder_badge_required",
-            "cascade_badge_required",
-            "thunder_badge_required",
-            "rainbow_badge_required",
-            "soul_badge_required",
-            "marsh_badge_required",
-            "volcano_badge_required"
-          ]
-        ]
-      }
-    ]
-  },
   "start_town_grid": {
     "type": "array",
     "orientation": "horizontal",

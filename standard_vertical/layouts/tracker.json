@@ -71,15 +71,6 @@
         },
         {
           "type": "group",
-          "header": "Badges Required",
-          "dock": "top",
-          "content": {
-            "type": "layout",
-            "key": "badge_grid"
-          }
-        },
-        {
-          "type": "group",
           "header": "Starting Town",
           "dock": "top",
           "content": {

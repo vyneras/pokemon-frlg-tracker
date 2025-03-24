@@ -348,13 +348,13 @@ SLOT_CODES = {
 }
 
 BADGE_FOR_HM = {
-    ["Cut"] = "cascade_badge_required",
-    ["Fly"] = "thunder_badge_required",
-    ["Surf"] = "soul_badge_required",
-    ["Strength"] = "rainbow_badge_required",
-    ["Flash"] = "boulder_badge_required",
-    ["Rock Smash"] = "marsh_badge_required",
-    ["Waterfall"] = "volcano_badge_required"
+    ["Cut"] = "hm01_cut",
+    ["Fly"] = "hm02_fly",
+    ["Surf"] = "hm03_surf",
+    ["Strength"] = "hm04_strength",
+    ["Flash"] = "hm05_flash",
+    ["Rock Smash"] = "hm06_rock_smash",
+    ["Waterfall"] = "hm07_waterfall"
 }
 
 MODIFY_WORLD_STATE = {

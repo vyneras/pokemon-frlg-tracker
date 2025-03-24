@@ -75,15 +75,6 @@ function resetLocations()
     end
 end
 
-function resetBadgeRequirements()
-    for _, setting in pairs(BADGE_FOR_HM) do
-        local object = Tracker:FindObjectForCode(setting)
-        if object then
-            object.Active = true
-        end
-    end
-end
-
 function resetWorldStateSettings()
     for _, setting in pairs(MODIFY_WORLD_STATE) do
         local object = Tracker:FindObjectForCode(setting)
@@ -162,7 +153,6 @@ function onClear(slot_data)
     VANILLA_RUNNING_SHOES = false
     resetItems()
     resetLocations()
-    resetBadgeRequirements()
     resetWorldStateSettings()
     resetDarkCaves()
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -170,11 +160,15 @@ function onClear(slot_data)
     end
     for key, value in pairs(slot_data) do
         if key == "remove_badge_requirement" then
-            for _, hm in pairs(slot_data["remove_badge_requirement"]) do
-                local object = Tracker:FindObjectForCode(BADGE_FOR_HM[hm])
-                if object then
-                    object.Active = false
-                end
+            for hm, code in pairs(BADGE_FOR_HM) do
+            	local object = Tracker:FindObjectForCode(code)
+            	if object then
+            		if table_contains(slot_data["remove_badge_requirement"], hm) then
+						object.CurrentStage = 0
+					else
+						object.CurrentStage = 1
+					end
+            	end
             end
         elseif key == "modify_world_state" then
             for _, setting in pairs(slot_data["modify_world_state"]) do
@@ -267,7 +261,7 @@ function onItem(index, item_id, item_name, player_number)
     else
         local object = Tracker:FindObjectForCode(value[1])
         if object then
-            if value[2] == "toggle" then
+            if value[2] == "toggle" or value[2] == "progressive_toggle" then
                 object.Active = true
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
