@@ -3140,5 +3140,253 @@
         }
       }
     ]
+  },
+  "islands": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Navel Rock",
+        "content": {
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_exterior"
+                ]
+              }
+            },
+            {
+              "title": "1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_1f"
+                ]
+              }
+            },
+            {
+              "title": "B1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_b1f"
+                ]
+              }
+            },
+            {
+              "title": "Fork",
+              "content": {
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "North",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_fork_north"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Center",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_fork_center"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "South",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "navel_rock_fork_south"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Summit Path 2F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_summit_path_2f"
+                ]
+              }
+            },
+            {
+              "title": "Summit Path 3F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_summit_path_3f"
+                ]
+              }
+            },
+            {
+              "title": "Summit Path 4F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_summit_path_4f"
+                ]
+              }
+            },
+            {
+              "title": "Summit Path 5F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_summit_path_5f"
+                ]
+              }
+            },
+            {
+              "title": "Summit",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_summit"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B1F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b1f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B2F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b2f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B3F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b3f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B4F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b4f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B5F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b5f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B6F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b6f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B7F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b7f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B8F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b8f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B9F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b9f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B10F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b10f"
+                ]
+              }
+            },
+            {
+              "title": "Base Path B11F",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base_path_b11f"
+                ]
+              }
+            },
+            {
+              "title": "Base",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "navel_rock_base"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Birth Island",
+        "content": {
+          "type": "tabbed",
+          "dock": "top",
+          "tabs": [
+            {
+              "title": "Exterior",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "birth_island"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
   }
 }

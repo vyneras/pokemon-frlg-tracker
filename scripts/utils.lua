@@ -186,17 +186,16 @@ end
 function toggle_maps(code)
     local map_split = has("split_map_on")
     local kanto_only = has("kanto_only_on")
-    if map_split and not kanto_only then
+
+    if map_split then
         Tracker:AddLayouts("layouts/map_layout_split.json")
-        Tracker:AddLayouts("layouts/maps.json")
-    elseif map_split and kanto_only then
-        Tracker:AddLayouts("layouts/map_layout_split_no_sevii.json")
-        Tracker:AddLayouts("layouts/maps_no_sevii.json")
-    elseif not map_split and not kanto_only then
+    else
         Tracker:AddLayouts("layouts/map_layout.json")
+    end
+
+    if not kanto_only then
         Tracker:AddLayouts("layouts/maps.json")
-    elseif not map_split and kanto_only then
-        Tracker:AddLayouts("layouts/map_layout_no_sevii.json")
+    else
         Tracker:AddLayouts("layouts/maps_no_sevii.json")
     end
 end
