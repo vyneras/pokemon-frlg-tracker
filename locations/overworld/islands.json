@@ -359,7 +359,7 @@
       {
         "name": "Kindle Road",
         "access_rules": [
-          "@One Island Access,$surf"
+          "@One Island Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -369,6 +369,9 @@
             "name": "Swimmer Abigail Reward",
             "chest_unopened_img": "images/locations/swimmer_female_land.png",
             "chest_opened_img": "images/locations/swimmer_female_land_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_abigail,$item_locations_visible"
             ]
@@ -377,6 +380,9 @@
             "name": "Picnicker Claire Reward",
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,picnicker_claire,$item_locations_visible"
             ]
@@ -385,6 +391,9 @@
             "name": "Camper Bryce Reward",
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,camper_bryce,$item_locations_visible"
             ]
@@ -393,6 +402,9 @@
             "name": "Crush Girl Tanya Reward",
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,crush_girl_tanya,$item_locations_visible"
             ]
@@ -400,7 +412,7 @@
           {
             "name": "Plateau Item",
             "access_rules": [
-              "$rock_smash"
+              "$surf,$rock_smash"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -408,6 +420,9 @@
           },
           {
             "name": "Isolated Beach Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -416,6 +431,9 @@
             "name": "Swimmer Garrett Reward",
             "chest_unopened_img": "images/locations/swimmer_male_land.png",
             "chest_opened_img": "images/locations/swimmer_male_land_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_garrett,$item_locations_visible"
             ]
@@ -423,7 +441,7 @@
           {
             "name": "Item Behind Smashable Rock",
             "access_rules": [
-              "$rock_smash"
+              "$surf,$rock_smash"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -433,6 +451,9 @@
             "name": "Crush Kin Mik & Kia Reward",
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,crush_kin_mik_and_kia,$item_locations_visible"
             ]
@@ -441,6 +462,9 @@
             "name": "Black Belt Hugh Reward",
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,black_belt_hugh,$item_locations_visible"
             ]
@@ -449,6 +473,9 @@
             "name": "Black Belt Shea Reward",
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,black_belt_shea,$item_locations_visible"
             ]
@@ -457,6 +484,9 @@
             "name": "Crush Girl Sharon Reward",
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,crush_girl_sharon,$item_locations_visible"
             ]
@@ -465,6 +495,9 @@
             "name": "Swimmer Finn Reward",
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_finn,$item_locations_visible"
             ]
@@ -473,6 +506,9 @@
             "name": "Swimmer Maria Reward",
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_maria,$item_locations_visible"
             ]
@@ -481,6 +517,9 @@
             "name": "Fisherman Tommy Reward",
             "chest_unopened_img": "images/locations/fisherman.png",
             "chest_opened_img": "images/locations/fisherman_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,fisherman_tommy,$item_locations_visible"
             ]
@@ -491,6 +530,9 @@
             "chest_opened_img": "images/locations/grass_bw.png",
             "item_count": 8,
             "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
