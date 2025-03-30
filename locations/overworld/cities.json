@@ -290,7 +290,7 @@
             "chest_unopened_img": "images/locations/old_man_viridian_key.png",
             "chest_opened_img": "images/locations/old_man_viridian_key_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req"
+              "@Pewter City Access,viridian_gym_requirement"
             ],
             "visibility_rules": [
               "gym_keys_on,$item_locations_visible"
@@ -301,8 +301,8 @@
             "chest_unopened_img": "images/locations/gym_guy_info.png",
             "chest_opened_img": "images/locations/gym_guy_info_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off,defeat_giovanni,$fame",
-              "@Pewter City Access,$has_giovanni_req,viridian_key,defeat_giovanni,$fame"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off,defeat_giovanni,$fame",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key,defeat_giovanni,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -313,8 +313,8 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_cole,$item_locations_visible"
@@ -325,8 +325,8 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_kiyo,$item_locations_visible"
@@ -337,8 +337,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_samuel,$item_locations_visible"
@@ -349,8 +349,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_yuji,$item_locations_visible"
@@ -361,8 +361,8 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_atsushi,$item_locations_visible"
@@ -373,8 +373,8 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_jason,$item_locations_visible"
@@ -385,8 +385,8 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_warren,$item_locations_visible"
@@ -397,8 +397,8 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_takashi,$item_locations_visible"
@@ -408,8 +408,8 @@
             "name": "Defeat Giovanni (Event)",
             "hosted_item": "defeat_giovanni_hosted",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -420,8 +420,8 @@
             "chest_unopened_img": "images/locations/giovanni.png",
             "chest_opened_img": "images/locations/giovanni_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_giovanni,$item_locations_visible"
@@ -432,8 +432,8 @@
             "chest_unopened_img": "images/locations/giovanni_info.png",
             "chest_opened_img": "images/locations/giovanni_info_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off,$fame",
-              "@Pewter City Access,$has_giovanni_req,viridian_key,$fame"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off,$fame",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -444,8 +444,8 @@
             "chest_unopened_img": "images/locations/giovanni_earth_badge.png",
             "chest_opened_img": "images/locations/giovanni_earth_badge_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -456,8 +456,8 @@
             "chest_unopened_img": "images/locations/giovanni_ground_tm.png",
             "chest_opened_img": "images/locations/giovanni_ground_tm_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off",
-              "@Pewter City Access,$has_giovanni_req,viridian_key"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -468,8 +468,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Pewter City Access,$has_giovanni_req,gym_keys_off,itemfinder",
-              "@Pewter City Access,$has_giovanni_req,viridian_key,itemfinder"
+              "@Pewter City Access,viridian_gym_requirement,gym_keys_off,itemfinder",
+              "@Pewter City Access,viridian_gym_requirement,viridian_key,itemfinder"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3316,7 +3316,7 @@
             "chest_unopened_img": "images/locations/lorelei_info.png",
             "chest_opened_img": "images/locations/lorelei_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3327,7 +3327,7 @@
             "chest_unopened_img": "images/locations/lorelei_info.png",
             "chest_opened_img": "images/locations/lorelei_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3338,7 +3338,7 @@
             "chest_unopened_img": "images/locations/lorelei.png",
             "chest_opened_img": "images/locations/lorelei_bw.png",
             "access_rules": [
-              "$has_e4_req"
+              "elite_four_requirement"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_lorelei,$item_locations_visible"
@@ -3349,7 +3349,7 @@
             "chest_unopened_img": "images/locations/bruno_info.png",
             "chest_opened_img": "images/locations/bruno_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3360,7 +3360,7 @@
             "chest_unopened_img": "images/locations/bruno_info.png",
             "chest_opened_img": "images/locations/bruno_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3371,7 +3371,7 @@
             "chest_unopened_img": "images/locations/bruno.png",
             "chest_opened_img": "images/locations/bruno_bw.png",
             "access_rules": [
-              "$has_e4_req"
+              "elite_four_requirement"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_bruno,$item_locations_visible"
@@ -3382,7 +3382,7 @@
             "chest_unopened_img": "images/locations/agatha_info.png",
             "chest_opened_img": "images/locations/agatha_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3393,7 +3393,7 @@
             "chest_unopened_img": "images/locations/agatha_info.png",
             "chest_opened_img": "images/locations/agatha_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3404,7 +3404,7 @@
             "chest_unopened_img": "images/locations/agatha_info.png",
             "chest_opened_img": "images/locations/agatha_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3415,7 +3415,7 @@
             "chest_unopened_img": "images/locations/agatha.png",
             "chest_opened_img": "images/locations/agatha_bw.png",
             "access_rules": [
-              "$has_e4_req"
+              "elite_four_requirement"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_agatha,$item_locations_visible"
@@ -3426,7 +3426,7 @@
             "chest_unopened_img": "images/locations/lance_info.png",
             "chest_opened_img": "images/locations/lance_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3437,7 +3437,7 @@
             "chest_unopened_img": "images/locations/lance_info.png",
             "chest_opened_img": "images/locations/lance_info_bw.png",
             "access_rules": [
-              "$has_e4_req,$fame"
+              "elite_four_requirement,$fame"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,$item_locations_visible"
@@ -3448,7 +3448,7 @@
             "chest_unopened_img": "images/locations/lance.png",
             "chest_opened_img": "images/locations/lance_bw.png",
             "access_rules": [
-              "$has_e4_req"
+              "elite_four_requirement"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_lance,$item_locations_visible"
@@ -3458,7 +3458,7 @@
             "name": "Defeat Champion (Event)",
             "hosted_item": "defeat_champion_hosted",
             "access_rules": [
-              "$has_e4_req"
+              "elite_four_requirement"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3469,7 +3469,7 @@
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
             "access_rules": [
-              "$has_e4_req"
+              "elite_four_requirement"
             ],
             "visibility_rules": [
               "trainersanity_on,champion,$item_locations_visible"
@@ -3480,7 +3480,7 @@
             "chest_unopened_img": "images/locations/oak_mystic_ticket.png",
             "chest_opened_img": "images/locations/oak_mystic_ticket_bw.png",
             "access_rules": [
-              "$has_e4_req"
+              "elite_four_requirement"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3491,7 +3491,7 @@
             "chest_unopened_img": "images/locations/oak_aurora_ticket.png",
             "chest_opened_img": "images/locations/oak_aurora_ticket_bw.png",
             "access_rules": [
-              "$has_e4_req"
+              "elite_four_requirement"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3502,7 +3502,7 @@
             "chest_unopened_img": "images/locations/lorelei.png",
             "chest_opened_img": "images/locations/lorelei_bw.png",
             "access_rules": [
-              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
+              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_lorelei_rematch,$item_locations_visible"
@@ -3513,7 +3513,7 @@
             "chest_unopened_img": "images/locations/bruno.png",
             "chest_opened_img": "images/locations/bruno_bw.png",
             "access_rules": [
-              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
+              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_bruno_rematch,$item_locations_visible"
@@ -3524,7 +3524,7 @@
             "chest_unopened_img": "images/locations/agatha.png",
             "chest_opened_img": "images/locations/agatha_bw.png",
             "access_rules": [
-              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
+              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_agatha_rematch,$item_locations_visible"
@@ -3535,7 +3535,7 @@
             "chest_unopened_img": "images/locations/lance.png",
             "chest_opened_img": "images/locations/lance_bw.png",
             "access_rules": [
-              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
+              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_lance_rematch,$item_locations_visible"
@@ -3545,7 +3545,7 @@
             "name": "Defeat Champion Rematch (Event)",
             "hosted_item": "defeat_champion_rematch_hosted",
             "access_rules": [
-              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
+              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3556,7 +3556,7 @@
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
             "access_rules": [
-              "$has_e4_rematch_req,defeat_champion,restore_pokemon_network_machine"
+              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
               "trainersanity_on,champion_rematch,$item_locations_visible"

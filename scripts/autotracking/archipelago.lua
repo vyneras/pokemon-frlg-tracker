@@ -193,6 +193,12 @@ function onClear(slot_data)
                     object.CurrentStage = SLOT_CODES[key].mapping[value]
                 elseif SLOT_CODES[key].type == "consumable" then
                     object.AcquiredCount = value
+                elseif SLOT_CODES[key].type == "requirement" then
+                    local item = SLOT_CODES[key].item
+                    item:setType(SLOT_CODES[key].mapping[value])
+                elseif SLOT_CODES[key].type == "requirement_count" then
+                    local item = SLOT_CODES[key].item
+                    item:setStage(value)
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("No setting could be found for key: %s", key))
@@ -391,11 +397,13 @@ function updateFlyUnlocks(value, reset)
 end
 
 function updatePokemon(pokemon)
-    for dex_number, code in pairs(POKEMON_MAPPING) do
-        if table_contains(pokemon, dex_number) then
-            Tracker:FindObjectForCode(code).Active = true
-        else
-            Tracker:FindObjectForCode(code).Active = false
+    if pokemon ~= nil then
+        for dex_number, code in pairs(POKEMON_MAPPING) do
+            if table_contains(pokemon, dex_number) then
+                Tracker:FindObjectForCode(code).Active = true
+            else
+                Tracker:FindObjectForCode(code).Active = false
+            end
         end
     end
 end
@@ -405,7 +413,7 @@ function updatePokedex(value)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updatePokedex: Value - %s", value))
         end
-        Tracker:FindObjectForCode("pokedex").AcquiredCount = value
+        POKEDEX:setStage(value)
     end
 end
 

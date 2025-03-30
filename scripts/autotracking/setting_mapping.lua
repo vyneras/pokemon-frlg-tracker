@@ -171,99 +171,116 @@ SLOT_CODES = {
         }
     },
     elite_four_requirement = {
-        code = "elite_four_setting",
-        type = "progressive",
+        code = "elite_four_requirement",
+        type = "requirement",
+        item = E4_REQ,
         mapping = {
-            [0] = 0, -- Badges
-            [1] = 1  -- Gyms
+            [0] = "badges", -- Badges
+            [1] = "gyms"    -- Gyms
         }
     },
     elite_four_count = {
-        code = "elite_four_count",
-        type = "consumable"
+        code = "elite_four_requirement",
+        type = "requirement_count",
+        item = E4_REQ
     },
     elite_four_rematch_requirement = {
-        code = "elite_four_rematch_setting",
-        type = "progressive",
+        code = "elite_four_rematch_requirement",
+        type = "requirement",
+        item = E4_REMATCH_REQ,
         mapping = {
-            [0] = 0, -- Badges
-            [1] = 1  -- Gyms
+            [0] = "badges", -- Badges
+            [1] = "gyms"    -- Gyms
         }
     },
     elite_four_rematch_count = {
-        code = "elite_four_rematch_count",
-        type = "consumable"
+        code = "elite_four_rematch_requirement",
+        type = "requirement_count",
+        item = E4_REMATCH_REQ
     },
     route22_gate_requirement = {
-        code = "route_22_gate_setting",
-        type = "progressive",
+        code = "route_22_gate_requirement",
+        type = "requirement",
+        item = ROUTE_22_REQ,
         mapping = {
-            [0] = 0, -- Badges
-            [1] = 1  -- Gyms
+            [0] = "badges", -- Badges
+            [1] = "gyms"    -- Gyms
         }
     },
     route22_gate_count = {
-        code = "route_22_gate_count",
-        type = "consumable"
+        code = "route_22_gate_requirement",
+        type = "requirement_count",
+        item = ROUTE_22_REQ
     },
     route23_guard_requirement = {
-        code = "route_23_guard_setting",
-        type = "progressive",
+        code = "route_23_guard_requirement",
+        type = "requirement",
+        item = ROUTE_23_REQ,
         mapping = {
-            [0] = 0, -- Badges
-            [1] = 1  -- Gyms
+            [0] = "badges", -- Badges
+            [1] = "gyms"    -- Gyms
         }
     },
     route23_guard_count = {
-        code = "route_23_guard_count",
-        type = "consumable"
+        code = "route_23_guard_requirement",
+        type = "requirement_count",
+        item = ROUTE_23_REQ
     },
     viridian_gym_requirement = {
-        code = "viridian_gym_setting",
-        type = "progressive",
+        code = "viridian_gym_requirement",
+        type = "requirement",
+        item = VIRIDIAN_GYM_REQ,
         mapping = {
-            [0] = 0, -- Badges
-            [1] = 1  -- Gyms
+            [0] = "badges", -- Badges
+            [1] = "gyms"    -- Gyms
         }
     },
     viridian_gym_count = {
-        code = "viridian_gym_count",
-        type = "consumable"
+        code = "viridian_gym_requirement",
+        type = "requirement_count",
+        item = VIRIDIAN_GYM_REQ
     },
     cerulean_cave_requirement = {
-        code = "ceruelan_cave_setting",
-        type = "progressive",
+        code = "cerulean_cave_requirement",
+        type = "requirement",
+        item = CERULEAN_CAVE_REQ,
         mapping = {
-            [0] = 0, -- Vanilla
-            [1] = 1, -- Defeat Champion
-            [2] = 2, -- Restore Pokémon Network Machine
-            [3] = 3, -- Badges
-            [4] = 4  -- Gyms
+            [0] = "vanilla",         -- Vanilla
+            [1] = "champion",        -- Defeat Champion
+            [2] = "network_machine", -- Restore Pokémon Network Machine
+            [3] = "badges",          -- Badges
+            [4] = "gyms"             -- Gyms
         }
     },
     cerulean_cave_count = {
-        code = "cerulean_cave_count",
-        type = "consumable"
+        code = "cerulean_cave_requirement",
+        type = "requirement_count",
+        item = CERULEAN_CAVE_REQ
     },
     oaks_aide_route_2 = {
-        code = "route_2_oaks_aide_count",
-        type = "consumable"
+        code = "route_2_oaks_aide_requirement",
+        type = "requirement_count",
+        item = OAKS_AIDE_ROUTE_2_REQ
     },
     oaks_aide_route_10 = {
-        code = "route_10_oaks_aide_count",
-        type = "consumable"
+        code = "route_10_oaks_aide_requirement",
+        type = "requirement_count",
+        item = OAKS_AIDE_ROUTE_10_REQ
     },
     oaks_aide_route_11 = {
-        code = "route_11_oaks_aide_count",
-        type = "consumable"
+        code = "route_11_oaks_aide_requirement",
+        type = "requirement_count",
+        item = OAKS_AIDE_ROUTE_11_REQ
     },
     oaks_aide_route_16 = {
-        code = "route_16_oaks_aide_count",
-        type = "consumable"
+        code = "route_16_oaks_aide_requirement",
+        type = "requirement_count",
+        item = OAKS_AIDE_ROUTE_16_REQ
     },
     oaks_aide_route_15 = {
-        code = "route_15_oaks_aide_count",
-        type = "consumable"
+        code = "route_15_oaks_aide_requirement",
+        type = "requirement_count",
+        item = OAKS_AIDE_ROUTE_15_REQ
     },
     starting_town = {
         code = "start_town_setting",

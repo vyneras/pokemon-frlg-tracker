@@ -170,7 +170,7 @@
   {
     "name": "Route 23 South Access",
     "access_rules": [
-      "@Viridian City Access,$has_route_22_gate_req",
+      "@Viridian City Access,route_22_gate_requirement",
       "@Route 23 Center Bottom Access,$surf"
     ]
   },
@@ -191,7 +191,7 @@
   {
     "name": "Victory Road Front Access",
     "access_rules": [
-      "@Route 23 Center Top Access,$has_route_23_guard_req",
+      "@Route 23 Center Top Access,route_23_guard_requirement",
       "@Indigo Plateau Access,$strength,$victory_road"
     ]
   },

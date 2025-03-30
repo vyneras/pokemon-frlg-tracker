@@ -924,217 +924,44 @@
     ]
   },
   {
-    "name": "Elite Four Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/settings/rival.png",
-        "img_mods": "overlay|images/overlays/rainbow_badge.png",
-        "codes": "elite_four_setting,elite_four_badges",
-        "inherit_codes": false,
-        "name": "Elite Four Requirement - Badges"
-      },
-      {
-        "img": "images/settings/rival.png",
-        "img_mods": "overlay|images/overlays/gym.png",
-        "codes": "elite_four_setting,elite_four_gyms",
-        "inherit_codes": false,
-        "name": "Elite Four Requirement - Gyms"
-      }
-    ]
+    "name": "Elite Four",
+    "type": "static",
+    "img": "images/settings/rival.png",
+    "img_mods": "overlay|images/overlays/e4.png",
+    "codes": "elite_four_setting"
   },
   {
-    "name": "Elite Four Count",
-    "type": "consumable",
-    "img": "images/settings/badge_gym.png",
-    "max_quantity": 8,
-    "initial_quantity": 8,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "elite_four_count"
+    "name": "Elite Four Rematch",
+    "type": "static",
+    "img": "images/settings/rival.png",
+    "img_mods": "overlay|images/overlays/e4_rematch.png",
+    "codes": "elite_four_rematch_setting"
   },
   {
-    "name": "Elite Four Rematch Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/settings/rival.png",
-        "img_mods": "overlay|images/overlays/e4_rematch_rainbow_badge.png",
-        "codes": "elite_four_rematch_setting,elite_four_rematch_badges",
-        "inherit_codes": false,
-        "name": "Elite Four Rematch Requirement - Badges"
-      },
-      {
-        "img": "images/settings/rival.png",
-        "img_mods": "overlay|images/overlays/e4_rematch_gym.png",
-        "codes": "elite_four_rematch_setting,elite_four_rematch_gyms",
-        "inherit_codes": false,
-        "name": "Elite Four Rematch Requirement - Gyms"
-      }
-    ]
+    "name": "Route 22 Gate",
+    "type": "static",
+    "img": "images/settings/policeman.png",
+    "img_mods": "overlay|images/overlays/route_22.png",
+    "codes": "route_22_gate_setting"
   },
   {
-    "name": "Elite Four Rematch Count",
-    "type": "consumable",
-    "img": "images/settings/badge_gym.png",
-    "max_quantity": 8,
-    "initial_quantity": 8,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "elite_four_rematch_count"
+    "name": "Route 23 Guard",
+    "type": "static",
+    "img": "images/settings/policeman.png",
+    "img_mods": "overlay|images/overlays/route_23.png",
+    "codes": "route_23_guard_setting"
   },
   {
-    "name": "Route 22 Gate Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/settings/policeman.png",
-        "img_mods": "overlay|images/overlays/route_22_rainbow_badge.png",
-        "codes": "route_22_gate_setting,route_22_gate_badges",
-        "inherit_codes": false,
-        "name": "Route 22 Gate Requirement - Badges"
-      },
-      {
-        "img": "images/settings/policeman.png",
-        "img_mods": "overlay|images/overlays/route_22_gym.png",
-        "codes": "route_22_gate_setting,route_22_gate_gyms",
-        "inherit_codes": false,
-        "name": "Route 22 Gate Requirement - Gyms"
-      }
-    ]
+    "name": "Viridian Gym",
+    "type": "static",
+    "img": "images/settings/giovanni.png",
+    "codes": "viridian_gym_setting"
   },
   {
-    "name": "Route 22 Gate Count",
-    "type": "consumable",
-    "img": "images/settings/badge_gym.png",
-    "max_quantity": 8,
-    "initial_quantity": 7,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "route_22_gate_count"
-  },
-  {
-    "name": "Route 23 Guard Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/settings/policeman.png",
-        "img_mods": "overlay|images/overlays/route_23_rainbow_badge.png",
-        "codes": "route_23_guard_setting,route_23_guard_badges",
-        "inherit_codes": false,
-        "name": "Route 23 Guard Requirement - Badges"
-      },
-      {
-        "img": "images/settings/policeman.png",
-        "img_mods": "overlay|images/overlays/route_22_gym.png",
-        "codes": "route_23_guard_setting,route_23_guard_gyms",
-        "inherit_codes": false,
-        "name": "Route 23 Gate Requirement - Gyms"
-      }
-    ]
-  },
-  {
-    "name": "Route 23 Guard Count",
-    "type": "consumable",
-    "img": "images/settings/badge_gym.png",
-    "max_quantity": 8,
-    "initial_quantity": 7,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "route_23_guard_count"
-  },
-  {
-    "name": "Viridian Gym Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/settings/giovanni.png",
-        "img_mods": "overlay|images/overlays/rainbow_badge.png",
-        "codes": "viridian_gym_setting,viridian_gym_badges",
-        "inherit_codes": false,
-        "name": "Viridian Gym Requirement - Badges"
-      },
-      {
-        "img": "images/settings/giovanni.png",
-        "img_mods": "overlay|images/overlays/gym.png",
-        "codes": "viridian_gym_setting,viridian_gym_gyms",
-        "inherit_codes": false,
-        "name": "Viridian Gym Requirement - Gyms"
-      }
-    ]
-  },
-  {
-    "name": "Viridian Gym Count",
-    "type": "consumable",
-    "img": "images/settings/badge_gym.png",
-    "max_quantity": 7,
-    "initial_quantity": 7,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "viridian_gym_count"
-  },
-  {
-    "name": "Cerulean Cave Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages": [
-      {
-        "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|images/overlays/vanilla.png",
-        "codes": "ceruelan_cave_setting,ceruelan_cave_vanilla",
-        "inherit_codes": false,
-        "name": "Cerulean Cave Requirement - Vanilla"
-      },
-      {
-        "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|images/overlays/rival.png",
-        "codes": "ceruelan_cave_setting,ceruelan_cave_champion",
-        "inherit_codes": false,
-        "name": "Cerulean Cave Requirement - Champion"
-      },
-      {
-        "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|images/overlays/celio.png",
-        "codes": "ceruelan_cave_setting,ceruelan_cave_restore",
-        "inherit_codes": false,
-        "name": "Cerulean Cave Requirement - Restore Network Machine"
-      },
-      {
-        "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|images/overlays/rainbow_badge.png",
-        "codes": "ceruelan_cave_setting,ceruelan_cave_badges",
-        "inherit_codes": false,
-        "name": "Cerulean Cave Requirement - Badges"
-      },
-      {
-        "img": "images/settings/mewtwo.png",
-        "img_mods": "overlay|images/overlays/gym.png",
-        "codes": "ceruelan_cave_setting,ceruelan_cave_gyms",
-        "inherit_codes": false,
-        "name": "Cerulean Cave Requirement - Gyms"
-      }
-    ]
-  },
-  {
-    "name": "Cerulean Cave Count",
-    "type": "consumable",
-    "img": "images/settings/badge_gym.png",
-    "max_quantity": 8,
-    "initial_quantity": 8,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "cerulean_cave_count"
+    "name": "Cerulean Cave",
+    "type": "static",
+    "img": "images/settings/mewtwo.png",
+    "codes": "ceruelan_cave_setting"
   },
   {
     "name": "Route 2 Oak's Aide",
@@ -1144,31 +971,11 @@
     "codes": "route_2_oaks_aide"
   },
   {
-    "name": "Route 2 Oak's Aide Count",
-    "type": "consumable",
-    "img": "images/settings/pokedex.png",
-    "max_quantity": 50,
-    "initial_quantity": 5,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "route_2_oaks_aide_count"
-  },
-  {
     "name": "Route 10 Oak's Aide",
     "type": "static",
     "img": "images/settings/oaks_aide.png",
     "img_mods": "overlay|images/overlays/route_10.png",
     "codes": "route_10_oaks_aide"
-  },
-  {
-    "name": "Route 10 Oak's Aide Count",
-    "type": "consumable",
-    "img": "images/settings/pokedex.png",
-    "max_quantity": 50,
-    "initial_quantity": 10,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "route_10_oaks_aide_count"
   },
   {
     "name": "Route 11 Oak's Aide",
@@ -1178,16 +985,6 @@
     "codes": "route_11_oaks_aide"
   },
   {
-    "name": "Route 11 Oak's Aide Count",
-    "type": "consumable",
-    "img": "images/settings/pokedex.png",
-    "max_quantity": 50,
-    "initial_quantity": 15,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "route_11_oaks_aide_count"
-  },
-  {
     "name": "Route 16 Oak's Aide",
     "type": "static",
     "img": "images/settings/oaks_aide.png",
@@ -1195,31 +992,11 @@
     "codes": "route_16_oaks_aide"
   },
   {
-    "name": "Route 16 Oak's Aide Count",
-    "type": "consumable",
-    "img": "images/settings/pokedex.png",
-    "max_quantity": 50,
-    "initial_quantity": 20,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "route_16_oaks_aide_count"
-  },
-  {
     "name": "Route 15 Oak's Aide",
     "type": "static",
     "img": "images/settings/oaks_aide.png",
     "img_mods": "overlay|images/overlays/route_15.png",
     "codes": "route_15_oaks_aide"
-  },
-  {
-    "name": "Route 15 Oak's Aide Count",
-    "type": "consumable",
-    "img": "images/settings/pokedex.png",
-    "max_quantity": 50,
-    "initial_quantity": 25,
-    "overlay_font_size": 16,
-    "overlay_background": "#000000",
-    "codes": "route_15_oaks_aide_count"
   },
   {
     "name": "Starting Town",

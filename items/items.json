@@ -45,70 +45,70 @@
     "name": "Card Key 2F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/2.png",
+    "img_mods": "overlay|images/overlays/item_numbers/2.png",
     "codes": "card_key_2f"
   },
   {
     "name": "Card Key 3F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/3.png",
+    "img_mods": "overlay|images/overlays/item_numbers/3.png",
     "codes": "card_key_3f"
   },
   {
     "name": "Card Key 4F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/4.png",
+    "img_mods": "overlay|images/overlays/item_numbers/4.png",
     "codes": "card_key_4f"
   },
   {
     "name": "Card Key 5F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/5.png",
+    "img_mods": "overlay|images/overlays/item_numbers/5.png",
     "codes": "card_key_5f"
   },
   {
     "name": "Card Key 6F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/6.png",
+    "img_mods": "overlay|images/overlays/item_numbers/6.png",
     "codes": "card_key_6f"
   },
   {
     "name": "Card Key 7F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/7.png",
+    "img_mods": "overlay|images/overlays/item_numbers/7.png",
     "codes": "card_key_7f"
   },
   {
     "name": "Card Key 8F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/8.png",
+    "img_mods": "overlay|images/overlays/item_numbers/8.png",
     "codes": "card_key_8f"
   },
   {
     "name": "Card Key 9F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/9.png",
+    "img_mods": "overlay|images/overlays/item_numbers/9.png",
     "codes": "card_key_9f"
   },
   {
     "name": "Card Key 10F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/10.png",
+    "img_mods": "overlay|images/overlays/item_numbers/10.png",
     "codes": "card_key_10f"
   },
   {
     "name": "Card Key 11F",
     "type": "toggle",
     "img": "images/items/card_key.png",
-    "img_mods": "overlay|images/overlays/11.png",
+    "img_mods": "overlay|images/overlays/item_numbers/11.png",
     "codes": "card_key_11f"
   },
   {
@@ -187,7 +187,7 @@
     "name": "Five Pass",
     "type": "toggle",
     "img": "images/items/rainbow_pass.png",
-    "img_mods": "overlay|images/overlays/5.png",
+    "img_mods": "overlay|images/overlays/item_numbers/5.png",
     "codes": "five_pass"
   },
   {
@@ -200,7 +200,7 @@
     "name": "Four Pass",
     "type": "toggle",
     "img": "images/items/rainbow_pass.png",
-    "img_mods": "overlay|images/overlays/4.png",
+    "img_mods": "overlay|images/overlays/item_numbers/4.png",
     "codes": "four_pass"
   },
   {
@@ -252,13 +252,13 @@
     "stages": [
       {
         "img": "images/items/normal_hm.png",
-        "img_mods": "overlay|images/overlays/1.png",
+        "img_mods": "overlay|images/overlays/item_numbers/1.png",
         "codes": "hm01_cut"
       },
       {
         "img": "images/items/normal_hm.png",
-        "img_mods": "overlay|images/overlays/1.png,overlay|images/overlays/cascade_badge_top_left.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlays/1.png|@disabled,overlay|images/overlays/cascade_badge_top_left.png"
+        "img_mods": "overlay|images/overlays/item_numbers/1.png,overlay|images/overlays/cascade_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/item_numbers/1.png|@disabled,overlay|images/overlays/cascade_badge_top_left.png"
       }
     ]
   },
@@ -269,13 +269,13 @@
     "stages": [
       {
         "img": "images/items/flying_hm.png",
-        "img_mods": "overlay|images/overlays/2.png",
+        "img_mods": "overlay|images/overlays/item_numbers/2.png",
         "codes": "hm02_fly"
       },
       {
         "img": "images/items/flying_hm.png",
-        "img_mods": "overlay|images/overlays/2.png,overlay|images/overlays/thunder_badge_top_left.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlays/2.png|@disabled,overlay|images/overlays/thunder_badge_top_left.png"
+        "img_mods": "overlay|images/overlays/item_numbers/2.png,overlay|images/overlays/thunder_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/item_numbers/2.png|@disabled,overlay|images/overlays/thunder_badge_top_left.png"
       }
     ]
   },
@@ -286,13 +286,13 @@
     "stages": [
       {
         "img": "images/items/water_hm.png",
-        "img_mods": "overlay|images/overlays/3.png",
+        "img_mods": "overlay|images/overlays/item_numbers/3.png",
         "codes": "hm03_surf"
       },
       {
         "img": "images/items/water_hm.png",
-        "img_mods": "overlay|images/overlays/3.png,overlay|images/overlays/soul_badge_top_left.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlays/3.png|@disabled,overlay|images/overlays/soul_badge_top_left.png"
+        "img_mods": "overlay|images/overlays/item_numbers/3.png,overlay|images/overlays/soul_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/item_numbers/3.png|@disabled,overlay|images/overlays/soul_badge_top_left.png"
       }
     ]
   },
@@ -303,13 +303,13 @@
     "stages": [
       {
         "img": "images/items/normal_hm.png",
-        "img_mods": "overlay|images/overlays/4.png",
+        "img_mods": "overlay|images/overlays/item_numbers/4.png",
         "codes": "hm04_strength"
       },
       {
         "img": "images/items/normal_hm.png",
-        "img_mods": "overlay|images/overlays/4.png,overlay|images/overlays/rainbow_badge_top_left.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlays/4.png|@disabled,overlay|images/overlays/rainbow_badge_top_left.png"
+        "img_mods": "overlay|images/overlays/item_numbers/4.png,overlay|images/overlays/rainbow_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/item_numbers/4.png|@disabled,overlay|images/overlays/rainbow_badge_top_left.png"
       }
     ]
   },
@@ -320,13 +320,13 @@
     "stages": [
       {
         "img": "images/items/normal_hm.png",
-        "img_mods": "overlay|images/overlays/5.png",
+        "img_mods": "overlay|images/overlays/item_numbers/5.png",
         "codes": "hm05_flash"
       },
       {
         "img": "images/items/normal_hm.png",
-        "img_mods": "overlay|images/overlays/5.png,overlay|images/overlays/boulder_badge_top_left.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlays/5.png|@disabled,overlay|images/overlays/boulder_badge_top_left.png"
+        "img_mods": "overlay|images/overlays/item_numbers/5.png,overlay|images/overlays/boulder_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/item_numbers/5.png|@disabled,overlay|images/overlays/boulder_badge_top_left.png"
       }
     ]
   },
@@ -337,13 +337,13 @@
     "stages": [
       {
         "img": "images/items/fighting_hm.png",
-        "img_mods": "overlay|images/overlays/6.png",
+        "img_mods": "overlay|images/overlays/item_numbers/6.png",
         "codes": "hm06_rock_smash"
       },
       {
         "img": "images/items/fighting_hm.png",
-        "img_mods": "overlay|images/overlays/6.png,overlay|images/overlays/marsh_badge_top_left.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlays/6.png|@disabled,overlay|images/overlays/marsh_badge_top_left.png"
+        "img_mods": "overlay|images/overlays/item_numbers/6.png,overlay|images/overlays/marsh_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/item_numbers/6.png|@disabled,overlay|images/overlays/marsh_badge_top_left.png"
       }
     ]
   },
@@ -354,13 +354,13 @@
     "stages": [
       {
         "img": "images/items/water_hm.png",
-        "img_mods": "overlay|images/overlays/7.png",
+        "img_mods": "overlay|images/overlays/item_numbers/7.png",
         "codes": "hm07_waterfall"
       },
       {
         "img": "images/items/water_hm.png",
-        "img_mods": "overlay|images/overlays/7.png,overlay|images/overlays/volcano_badge_top_left.png",
-        "disabled_img_mods": "@disabled,overlay|images/overlays/7.png|@disabled,overlay|images/overlays/volcano_badge_top_left.png"
+        "img_mods": "overlay|images/overlays/item_numbers/7.png,overlay|images/overlays/volcano_badge_top_left.png",
+        "disabled_img_mods": "@disabled,overlay|images/overlays/item_numbers/7.png|@disabled,overlay|images/overlays/volcano_badge_top_left.png"
       }
     ]
   },
@@ -452,7 +452,7 @@
     "name": "One Pass",
     "type": "toggle",
     "img": "images/items/tri_pass.png",
-    "img_mods": "overlay|images/overlays/1.png",
+    "img_mods": "overlay|images/overlays/item_numbers/1.png",
     "codes": "one_pass"
   },
   {
@@ -478,15 +478,6 @@
     "type": "toggle",
     "img": "images/items/poke_flute.png",
     "codes": "poke_flute"
-  },
-  {
-    "name": "Pokédex",
-    "type": "consumable",
-    "img": "images/items/pokedex.png",
-    "max_quantity": 386,
-    "overlay_font_size": 12,
-    "overlay_background": "#000000",
-    "codes": "pokedex"
   },
   {
     "name": "Purple Tea",
@@ -582,7 +573,7 @@
     "name": "Seven Pass",
     "type": "toggle",
     "img": "images/items/rainbow_pass.png",
-    "img_mods": "overlay|images/overlays/7.png",
+    "img_mods": "overlay|images/overlays/item_numbers/7.png",
     "codes": "seven_pass"
   },
   {
@@ -601,7 +592,7 @@
     "name": "Six Pass",
     "type": "toggle",
     "img": "images/items/rainbow_pass.png",
-    "img_mods": "overlay|images/overlays/6.png",
+    "img_mods": "overlay|images/overlays/item_numbers/6.png",
     "codes": "six_pass"
   },
   {
@@ -644,7 +635,7 @@
     "name": "Three Pass",
     "type": "toggle",
     "img": "images/items/tri_pass.png",
-    "img_mods": "overlay|images/overlays/3.png",
+    "img_mods": "overlay|images/overlays/item_numbers/3.png",
     "codes": "three_pass"
   },
   {
@@ -681,7 +672,7 @@
     "name": "Two Pass",
     "type": "toggle",
     "img": "images/items/tri_pass.png",
-    "img_mods": "overlay|images/overlays/2.png",
+    "img_mods": "overlay|images/overlays/item_numbers/2.png",
     "codes": "two_pass"
   },
   {

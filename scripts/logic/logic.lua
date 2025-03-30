@@ -1,73 +1,74 @@
-BADGES = {"boulder_badge", "cascade_badge", "thunder_badge", "rainbow_badge", "soul_badge", "marsh_badge",
-          "volcano_badge", "earth_badge"}
-GYMS = {"defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defeat_koga", "defeat_sabrina",
-        "defeat_blaine", "defeat_giovanni"}
+BADGES = { "boulder_badge", "cascade_badge", "thunder_badge", "rainbow_badge", "soul_badge", "marsh_badge",
+    "volcano_badge", "earth_badge" }
+GYMS = { "defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defeat_koga", "defeat_sabrina",
+    "defeat_blaine", "defeat_giovanni" }
 
 function cut()
-	local badge_required = Tracker:FindObjectForCode("hm01_cut").CurrentStage
-	if badge_required == 1 then
-		return has("cascade_badge") and has("hm01_cut") and has("tm_case")
-	else
-		return has("hm01_cut") and has("tm_case")
-	end
+    local badge_required = Tracker:FindObjectForCode("hm01_cut").CurrentStage
+    if badge_required == 1 then
+        return has("cascade_badge") and has("hm01_cut") and has("tm_case")
+    else
+        return has("hm01_cut") and has("tm_case")
+    end
 end
 
 function fly(location)
-	local badge_required = Tracker:FindObjectForCode("hm02_fly").CurrentStage
-	if badge_required == 1 then
-		return has("thunder_badge") and has("hm02_fly") and has("tm_case") and has_fly_location(location)
-	else
-		return has("hm02_fly") and has("tm_case") and has_fly_location(location)
-	end
+    local badge_required = Tracker:FindObjectForCode("hm02_fly").CurrentStage
+    if badge_required == 1 then
+        return has("thunder_badge") and has("hm02_fly") and has("tm_case") and has_fly_location(location)
+    else
+        return has("hm02_fly") and has("tm_case") and has_fly_location(location)
+    end
 end
 
 function has_fly_location(location)
-    return has("fly_"..location) or has("free_fly_"..location) or (has("town_map_fly_"..location) and has("town_map"))
+    return has("fly_" .. location) or has("free_fly_" .. location) or
+    (has("town_map_fly_" .. location) and has("town_map"))
 end
 
 function surf()
-	local badge_required = Tracker:FindObjectForCode("hm03_surf").CurrentStage
-	if badge_required == 1 then
-		return has("soul_badge") and has("hm03_surf") and has("tm_case")
-	else
-		return has("hm03_surf") and has("tm_case")
-	end
+    local badge_required = Tracker:FindObjectForCode("hm03_surf").CurrentStage
+    if badge_required == 1 then
+        return has("soul_badge") and has("hm03_surf") and has("tm_case")
+    else
+        return has("hm03_surf") and has("tm_case")
+    end
 end
 
 function strength()
-	local badge_required = Tracker:FindObjectForCode("hm04_strength").CurrentStage
-	if badge_required == 1 then
-		return has("rainbow_badge") and has("hm04_strength") and has("tm_case")
-	else
-		return has("hm04_strength") and has("tm_case")
-	end
+    local badge_required = Tracker:FindObjectForCode("hm04_strength").CurrentStage
+    if badge_required == 1 then
+        return has("rainbow_badge") and has("hm04_strength") and has("tm_case")
+    else
+        return has("hm04_strength") and has("tm_case")
+    end
 end
 
 function flash()
-	local badge_required = Tracker:FindObjectForCode("hm05_flash").CurrentStage
-	if badge_required == 1 then
-		return has("boulder_badge") and has("hm05_flash") and has("tm_case")
-	else
-		return has("hm05_flash") and has("tm_case")
-	end
+    local badge_required = Tracker:FindObjectForCode("hm05_flash").CurrentStage
+    if badge_required == 1 then
+        return has("boulder_badge") and has("hm05_flash") and has("tm_case")
+    else
+        return has("hm05_flash") and has("tm_case")
+    end
 end
 
 function rock_smash()
-	local badge_required = Tracker:FindObjectForCode("hm06_rock_smash").CurrentStage
-	if badge_required == 1 then
-		return has("marsh_badge") and has("hm06_rock_smash") and has("tm_case")
-	else
-		return has("hm06_rock_smash") and has("tm_case")
-	end
+    local badge_required = Tracker:FindObjectForCode("hm06_rock_smash").CurrentStage
+    if badge_required == 1 then
+        return has("marsh_badge") and has("hm06_rock_smash") and has("tm_case")
+    else
+        return has("hm06_rock_smash") and has("tm_case")
+    end
 end
 
 function waterfall()
-	local badge_required = Tracker:FindObjectForCode("hm07_waterfall").CurrentStage
-	if badge_required == 1 then
-		return has("volcano_badge") and has("hm07_waterfall") and has("tm_case")
-	else
-		return has("hm07_waterfall") and has("tm_case")
-	end
+    local badge_required = Tracker:FindObjectForCode("hm07_waterfall").CurrentStage
+    if badge_required == 1 then
+        return has("volcano_badge") and has("hm07_waterfall") and has("tm_case")
+    else
+        return has("hm07_waterfall") and has("tm_case")
+    end
 end
 
 function hidden()
@@ -88,23 +89,23 @@ function post_game_fame()
 end
 
 function route_2_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_2_oaks_aide_count")
+    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_2_oaks_aide_requirement")
 end
 
 function route_10_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_10_oaks_aide_count")
+    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_10_oaks_aide_requirement")
 end
 
 function route_11_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_11_oaks_aide_count")
+    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_11_oaks_aide_requirement")
 end
 
 function route_16_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_16_oaks_aide_count")
+    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_16_oaks_aide_requirement")
 end
 
 function route_15_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_15_oaks_aide_count")
+    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement")
 end
 
 function route_2()
@@ -211,40 +212,6 @@ function vermilion_sailing()
     return has("block_sailing_off") or has("ss_ticket")
 end
 
-function has_giovanni_req()
-    local req = Tracker:ProviderCountForCode("viridian_gym_count")
-    local req_items = {}
-    local count = 0
-    if has("viridian_gym_badges") then
-        req_items = BADGES
-    elseif has("viridian_gym_gyms") then
-        req_items = GYMS
-    end
-    for _, item in pairs(req_items) do
-        if has(item) then
-            count = count + 1
-        end
-    end
-    return count >= req
-end
-
-function has_route_22_gate_req()
-    local req = Tracker:ProviderCountForCode("route_22_gate_count")
-    local req_items = {}
-    local count = 0
-    if has("route_22_gate_badges") then
-        req_items = BADGES
-    elseif has("route_22_gate_gyms") then
-        req_items = GYMS
-    end
-    for _, item in pairs(req_items) do
-        if has(item) then
-            count = count + 1
-        end
-    end
-    return count >= req
-end
-
 function route_23_waterfall()
     return has("modify_route_23_off") or waterfall()
 end
@@ -267,89 +234,6 @@ end
 
 function victory_road_rock_smash()
     return has("victory_road_rocks_off") or rock_smash()
-end
-
-function has_route_23_guard_req()
-    local req = Tracker:ProviderCountForCode("route_23_guard_count")
-    local req_items = {}
-    local count = 0
-    if has("route_23_guard_badges") then
-        req_items = BADGES
-    elseif has("route_23_guard_gyms") then
-        req_items = GYMS
-    end
-    for _, item in pairs(req_items) do
-        if has(item) then
-            count = count + 1
-        end
-    end
-    return count >= req
-end
-
-function has_e4_req()
-    local req = Tracker:ProviderCountForCode("elite_four_count")
-    local req_items = {}
-    local count = 0
-    if has("elite_four_badges") then
-        req_items = BADGES
-    elseif has("elite_four_gyms") then
-        req_items = GYMS
-    end
-    for _, item in pairs(req_items) do
-        if has(item) then
-            count = count + 1
-        end
-    end
-    return count >= req
-end
-
-function has_e4_rematch_req()
-    local req = Tracker:ProviderCountForCode("elite_four_rematch_count")
-    local req_items = {}
-    local count = 0
-    if has("elite_four_rematch_badges") then
-        req_items = BADGES
-    elseif has("elite_four_rematch_gyms") then
-        req_items = GYMS
-    end
-    for _, item in pairs(req_items) do
-        if has(item) then
-            count = count + 1
-        end
-    end
-    return count >= req
-end
-
-function has_cerulean_cave_req()
-    local req = Tracker:ProviderCountForCode("cerulean_cave_count")
-    local req_items = {}
-    local count = 0
-    if has("ceruelan_cave_vanilla") then
-        if has("defeat_champion") and has("restore_pokemon_network_machine") then
-            return true
-        end
-        return false
-    elseif has("ceruelan_cave_champion") then
-        if has("defeat_champion") then
-            return true
-        end
-        return false
-    elseif has("ceruelan_cave_restore") then
-        if has("restore_pokemon_network_machine") then
-            return true
-        end
-        return false
-    elseif has("ceruelan_cave_badges") then
-        req_items = BADGES
-    elseif has("ceruelan_cave_gyms") then
-        req_items = GYMS
-    end
-    for _, item in pairs(req_items) do
-        if has(item) then
-            count = count + 1
-        end
-    end
-    return count >= req
 end
 
 function item_locations_visible()

@@ -5561,7 +5561,7 @@
       {
         "name": "Cerulean Cave",
         "access_rules": [
-          "@Cerulean City Access,$surf,$has_cerulean_cave_req"
+          "@Cerulean City Access,$surf,cerulean_cave_requirement"
         ],
         "sections": [
           {
