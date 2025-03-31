@@ -201,7 +201,7 @@ function onClear(slot_data)
             end
             for exit, region in pairs(slot_data["randomize_fly_destinations"]) do
                 local item = FLY_DESTINATION_ITEMS[exit]
-                FLY_DESTINATION_MAPPING[item.flyUnlock] = {item, fly_mapping[region]}
+                FLY_DESTINATION_MAPPING[item.flyUnlock] = { item, fly_mapping[region] }
             end
         elseif SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
@@ -252,14 +252,8 @@ function onClear(slot_data)
         FLY_UNLOCK_ID = "pokemon_frlg_fly_unlocks_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEMON_ID = "pokemon_frlg_pokemon_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEDEX_ID = "pokemon_frlg_pokedex_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
-        Archipelago:SetNotify({ EVENT_ID })
-        Archipelago:Get({ EVENT_ID })
-        Archipelago:SetNotify({ FLY_UNLOCK_ID })
-        Archipelago:Get({ FLY_UNLOCK_ID })
-        Archipelago:SetNotify({ POKEMON_ID })
-        Archipelago:Get({ POKEMON_ID })
-        Archipelago:SetNotify({ POKEDEX_ID })
-        Archipelago:Get({ POKEDEX_ID })
+        Archipelago:SetNotify({ EVENT_ID, FLY_UNLOCK_ID, POKEMON_ID, POKEDEX_ID })
+        Archipelago:Get({ EVENT_ID, FLY_UNLOCK_ID, POKEMON_ID, POKEDEX_ID })
     end
     Tracker.BulkUpdate = false
 end
@@ -388,7 +382,7 @@ function updateEvents(value, reset)
                 event.value = value & bitmask
                 if event.code == "lemonade" then
                     Tracker:FindObjectForCode(event.code).Active = Tracker:FindObjectForCode(event.code).Active or
-                    event.value
+                        event.value
                 elseif event.code == "running_shoes" then
                     if VANILLA_RUNNING_SHOES then
                         Tracker:FindObjectForCode(event.code).Active = event.value
