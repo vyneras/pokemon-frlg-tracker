@@ -143,6 +143,13 @@ function setDexsanityLocations()
     end
 end
 
+function setRandomizeFlyDestinationsSetting(stage)
+    local object = Tracker:FindObjectForCode("randomize_fly_destinations_setting")
+    if object then
+        object.CurrentStage = stage
+    end
+end
+
 function onClear(slot_data)
     Tracker.BulkUpdate = true
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
@@ -151,24 +158,26 @@ function onClear(slot_data)
     PROG_CARD_KEY_COUNT = 0
     PROG_PASS_COUNT = 0
     VANILLA_RUNNING_SHOES = false
+    FLY_DESTINATION_MAPPING = {}
     resetItems()
     resetLocations()
     resetWorldStateSettings()
     resetDarkCaves()
+    setRandomizeFlyDestinationsSetting(0)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
     for key, value in pairs(slot_data) do
         if key == "remove_badge_requirement" then
             for hm, code in pairs(BADGE_FOR_HM) do
-            	local object = Tracker:FindObjectForCode(code)
-            	if object then
-            		if table_contains(slot_data["remove_badge_requirement"], hm) then
-						object.CurrentStage = 0
-					else
-						object.CurrentStage = 1
-					end
-            	end
+                local object = Tracker:FindObjectForCode(code)
+                if object then
+                    if table_contains(slot_data["remove_badge_requirement"], hm) then
+                        object.CurrentStage = 0
+                    else
+                        object.CurrentStage = 1
+                    end
+                end
             end
         elseif key == "modify_world_state" then
             for _, setting in pairs(slot_data["modify_world_state"]) do
@@ -183,6 +192,16 @@ function onClear(slot_data)
                 if object then
                     object.CurrentStage = 1
                 end
+            end
+        elseif key == "randomize_fly_destinations" then
+            setRandomizeFlyDestinationsSetting(1)
+            local fly_mapping = {}
+            for key, value in pairs(FLY_DESTINATION_DATA) do
+                fly_mapping[value[1]] = key
+            end
+            for exit, region in pairs(slot_data["randomize_fly_destinations"]) do
+                local item = FLY_DESTINATION_ITEMS[exit]
+                FLY_DESTINATION_MAPPING[item.flyUnlock] = {item, fly_mapping[region]}
             end
         elseif SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
@@ -368,7 +387,8 @@ function updateEvents(value, reset)
             if reset or (value & bitmask ~= event.value) then
                 event.value = value & bitmask
                 if event.code == "lemonade" then
-                    Tracker:FindObjectForCode(event.code).Active = Tracker:FindObjectForCode(event.code).Active or event.value
+                    Tracker:FindObjectForCode(event.code).Active = Tracker:FindObjectForCode(event.code).Active or
+                    event.value
                 elseif event.code == "running_shoes" then
                     if VANILLA_RUNNING_SHOES then
                         Tracker:FindObjectForCode(event.code).Active = event.value

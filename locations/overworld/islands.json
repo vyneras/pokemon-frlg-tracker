@@ -7,7 +7,7 @@
       {
         "name": "One Island Town",
         "access_rules": [
-          "@One Island Access"
+          "@One Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -178,7 +178,7 @@
       {
         "name": "Treasure Beach",
         "access_rules": [
-          "@One Island Access,$surf"
+          "@One Island Town Access,$surf"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -358,9 +358,6 @@
       },
       {
         "name": "Kindle Road",
-        "access_rules": [
-          "@One Island Access"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
@@ -370,7 +367,8 @@
             "chest_unopened_img": "images/locations/swimmer_female_land.png",
             "chest_opened_img": "images/locations/swimmer_female_land_bw.png",
             "access_rules": [
-              "$surf"
+              "@One Island Town Access,$surf",
+              "@Kindle Road Center Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_abigail,$item_locations_visible"
@@ -381,7 +379,7 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_claire,$item_locations_visible"
@@ -392,7 +390,7 @@
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "trainersanity_on,camper_bryce,$item_locations_visible"
@@ -403,7 +401,7 @@
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "trainersanity_on,crush_girl_tanya,$item_locations_visible"
@@ -412,7 +410,7 @@
           {
             "name": "Plateau Item",
             "access_rules": [
-              "$surf,$rock_smash"
+              "@Kindle Road Center Access,$rock_smash"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -421,7 +419,8 @@
           {
             "name": "Isolated Beach Item",
             "access_rules": [
-              "$surf"
+              "@One Island Town Access,$surf",
+              "@Kindle Road Center Access,$surf"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -432,7 +431,7 @@
             "chest_unopened_img": "images/locations/swimmer_male_land.png",
             "chest_opened_img": "images/locations/swimmer_male_land_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_garrett,$item_locations_visible"
@@ -441,7 +440,7 @@
           {
             "name": "Item Behind Smashable Rock",
             "access_rules": [
-              "$surf,$rock_smash"
+              "@Kindle Road Center Access,$rock_smash"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -452,7 +451,7 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "trainersanity_on,crush_kin_mik_and_kia,$item_locations_visible"
@@ -463,7 +462,7 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_hugh,$item_locations_visible"
@@ -474,7 +473,7 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_shea,$item_locations_visible"
@@ -485,7 +484,7 @@
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "trainersanity_on,crush_girl_sharon,$item_locations_visible"
@@ -496,7 +495,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access,$surf",
+              "@Kindle Road North Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_finn,$item_locations_visible"
@@ -507,7 +507,8 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access,$surf",
+              "@Kindle Road North Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_maria,$item_locations_visible"
@@ -518,7 +519,8 @@
             "chest_unopened_img": "images/locations/fisherman.png",
             "chest_opened_img": "images/locations/fisherman_bw.png",
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access,$surf",
+              "@Kindle Road North Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,fisherman_tommy,$item_locations_visible"
@@ -531,7 +533,7 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
-              "$surf"
+              "@Kindle Road Center Access"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -544,7 +546,9 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$surf"
+              "@One Island Town Access,$surf",
+              "@Kindle Road Center Access,$surf",
+              "@Kindle Road North Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -555,8 +559,12 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "@One Island Town Access,old_rod",
+              "@One Island Town Access,good_rod",
+              "@Kindle Road Center Access,old_rod",
+              "@Kindle Road Center Access,good_rod",
+              "@Kindle Road North Access,old_rod",
+              "@Kindle Road North Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -567,8 +575,12 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "@One Island Town Access,good_rod",
+              "@One Island Town Access,super_rod",
+              "@Kindle Road Center Access,good_rod",
+              "@Kindle Road Center Access,super_rod",
+              "@Kindle Road North Access,good_rod",
+              "@Kindle Road North Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -581,7 +593,9 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "@One Island Town Access,super_rod",
+              "@Kindle Road Center Access,super_rod",
+              "@Kindle Road North Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -606,7 +620,7 @@
       {
         "name": "Ember Spa",
         "access_rules": [
-          "@One Island Access,$surf"
+          "@Kindle Road Center Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -655,7 +669,7 @@
       {
         "name": "Two Island Town",
         "access_rules": [
-          "@Two Island Access"
+          "@Two Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -794,7 +808,7 @@
       {
         "name": "Cape Brink",
         "access_rules": [
-          "@Two Island Access"
+          "@Two Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -912,7 +926,7 @@
       {
         "name": "Three Isle Port",
         "access_rules": [
-          "@Three Island Access"
+          "@Three Island Town South Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -945,7 +959,7 @@
       {
         "name": "Three Isle Path",
         "access_rules": [
-          "@Three Island Access"
+          "@Three Island Town South Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -998,9 +1012,6 @@
       },
       {
         "name": "Three Island Town",
-        "access_rules": [
-          "@Three Island Access"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
@@ -1009,6 +1020,10 @@
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "@Three Island Town South Access",
+              "@Three Island Town North Access"
+            ],
             "visibility_rules": [
               "fly_destination_unlocks_on,$item_locations_visible"
             ]
@@ -1017,6 +1032,9 @@
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "access_rules": [
+              "@Three Island Town South Access"
+            ],
             "visibility_rules": [
               "start_town_three_island,$item_locations_visible"
             ]
@@ -1026,7 +1044,7 @@
             "chest_unopened_img": "images/locations/lostelle_tri_pass.png",
             "chest_opened_img": "images/locations/lostelle_tri_pass_bw.png",
             "access_rules": [
-              "deliver_meteorite"
+              "@Three Island Town South Access,deliver_meteorite"
             ],
             "visibility_rules": [
               "island_passes_split,$item_locations_visible",
@@ -1037,6 +1055,9 @@
             "name": "Biker Goon 1 Reward",
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Three Island Town South Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,biker_goon_1,$item_locations_visible"
             ]
@@ -1045,6 +1066,9 @@
             "name": "Biker Goon 2 Reward",
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Three Island Town South Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,biker_goon_2,$item_locations_visible"
             ]
@@ -1053,6 +1077,9 @@
             "name": "Biker Goon 3 Reward",
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Three Island Town South Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,biker_goon_3,$item_locations_visible"
             ]
@@ -1061,6 +1088,9 @@
             "name": "Cue Ball Paxton Reward",
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
+            "access_rules": [
+              "@Three Island Town South Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,cue_ball_paxton,$item_locations_visible"
             ]
@@ -1069,6 +1099,9 @@
             "name": "Anti-Biker Gift",
             "chest_unopened_img": "images/locations/man_full_restore.png",
             "chest_opened_img": "images/locations/man_full_restore_bw.png",
+            "access_rules": [
+              "@Three Island Town South Access"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -1079,6 +1112,9 @@
             "chest_opened_img": "images/locations/clerk_bw.png",
             "item_count": 6,
             "clear_as_group": false,
+            "access_rules": [
+              "@Three Island Town North Access"
+            ],
             "visibility_rules": [
               "shopsanity_on,$item_locations_visible"
             ]
@@ -1088,7 +1124,7 @@
             "chest_unopened_img": "images/locations/man_info.png",
             "chest_opened_img": "images/locations/man_info_bw.png",
             "access_rules": [
-              "$fame"
+              "@Three Island Town North Access,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1097,7 +1133,7 @@
           {
             "name": "Item Behind East Fence",
             "access_rules": [
-              "$cut"
+              "@Three Island Town North Access,$cut"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1108,7 +1144,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$cut,^$hidden"
+              "@Three Island Town North Access,$cut,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -1131,7 +1167,7 @@
       {
         "name": "Bond Bridge",
         "access_rules": [
-          "@Three Island Access"
+          "@Three Island Town North Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -1299,9 +1335,6 @@
       },
       {
         "name": "Four Island Town",
-        "access_rules": [
-          "@Four Island Access"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
@@ -1310,6 +1343,10 @@
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "@Four Island Town Access",
+              "@Four Island Town Near Cave Access"
+            ],
             "visibility_rules": [
               "fly_destination_unlocks_on,$item_locations_visible"
             ]
@@ -1318,6 +1355,9 @@
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "access_rules": [
+              "@Four Island Town Access"
+            ],
             "visibility_rules": [
               "start_town_four_island,$item_locations_visible"
             ]
@@ -1327,7 +1367,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Four Island Town Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -1338,7 +1378,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Four Island Town Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -1347,7 +1387,7 @@
           {
             "name": "Beach Item",
             "access_rules": [
-              "$rock_smash"
+              "@Four Island Town Access,$rock_smash"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1358,7 +1398,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "$fame"
+              "@Four Island Town Access,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1369,7 +1409,7 @@
             "chest_unopened_img": "images/locations/old_man_info.png",
             "chest_opened_img": "images/locations/old_man_info_bw.png",
             "access_rules": [
-              "$fame"
+              "@Four Island Town Access,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1381,6 +1421,9 @@
             "chest_opened_img": "images/locations/clerk_bw.png",
             "item_count": 8,
             "clear_as_group": false,
+            "access_rules": [
+              "@Four Island Town Access"
+            ],
             "visibility_rules": [
               "shopsanity_on,$item_locations_visible"
             ]
@@ -1390,7 +1433,7 @@
             "chest_unopened_img": "images/locations/old_woman_info.png",
             "chest_opened_img": "images/locations/old_woman_info_bw.png",
             "access_rules": [
-              "restore_pokemon_network_machine,$fame"
+              "@Four Island Town Access,restore_pokemon_network_machine,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1401,7 +1444,7 @@
             "chest_unopened_img": "images/locations/little_girl_info.png",
             "chest_opened_img": "images/locations/little_girl_info_bw.png",
             "access_rules": [
-              "$fame"
+              "@Four Island Town Access,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -1410,7 +1453,8 @@
           {
             "name": "Northeast Island Item",
             "access_rules": [
-              "$surf"
+              "@Four Island Town Access,$surf",
+              "@Four Island Town Near Cave Access,$surf"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -1423,7 +1467,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$surf"
+              "@Four Island Town Access,$surf",
+              "@Four Island Town Near Cave Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -1434,8 +1479,10 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "@Four Island Town Access,old_rod",
+              "@Four Island Town Access,good_rod",
+              "@Four Island Town Near Cave Access,old_rod",
+              "@Four Island Town Near Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -1446,7 +1493,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod"
+              "@Four Island Town Access,good_rod",
+              "@Four Island Town Near Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -1457,8 +1505,10 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "@Four Island Town Access,good_rod",
+              "@Four Island Town Access,super_rod",
+              "@Four Island Town Near Cave Access,good_rod",
+              "@Four Island Town Near Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -1471,7 +1521,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "@Four Island Town Access,super_rod",
+              "@Four Island Town Near Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -1494,7 +1545,7 @@
       {
         "name": "Five Island Town",
         "access_rules": [
-          "@Five Island Access"
+          "@Five Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -1594,7 +1645,7 @@
       {
         "name": "Five Isle Meadow",
         "access_rules": [
-          "@Five Island Access"
+          "@Five Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -1721,7 +1772,7 @@
       {
         "name": "Memorial Pillar",
         "access_rules": [
-          "@Five Island Access,$surf"
+          "@Five Island Town Access,$surf"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -1889,7 +1940,9 @@
       {
         "name": "Water Labyrinth",
         "access_rules": [
-          "@Five Island Access,$surf"
+          "@Five Island Town Access,$surf",
+          "@Resort Gorgeous Near Resort Access,$surf",
+          "@Resort Gorgeous Near Cave Access,$surf"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -1908,7 +1961,8 @@
             "chest_unopened_img": "images/locations/gentleman_info.png",
             "chest_opened_img": "images/locations/gentleman_info_bw.png",
             "access_rules": [
-              "$fame"
+              "togepi,$fame",
+              "togetic,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,pokemon_request_on,$item_locations_visible"
@@ -1990,9 +2044,6 @@
       },
       {
         "name": "Resort Gorgeous",
-        "access_rules": [
-          "@Five Island Access,$surf"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
@@ -2001,6 +2052,10 @@
             "name": "Painter Rayna Reward",
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access,$surf",
+              "@Resort Gorgeous Near Cave Access,$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,painter_rayna,$item_locations_visible"
             ]
@@ -2010,7 +2065,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Resort Gorgeous Near Resort Access,$surf,^$hidden",
+              "@Resort Gorgeous Near Cave Access,$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -2020,6 +2076,9 @@
             "name": "Lady Jacki Reward",
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,lady_jacki,$item_locations_visible"
             ]
@@ -2029,7 +2088,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Resort Gorgeous Near Resort Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -2039,6 +2098,9 @@
             "name": "Youngster Destin Reward",
             "chest_unopened_img": "images/locations/youngster.png",
             "chest_opened_img": "images/locations/youngster_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,youngster_destin,$item_locations_visible"
             ]
@@ -2048,7 +2110,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Resort Gorgeous Near Resort Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -2058,6 +2120,9 @@
             "name": "Lady Gillian Reward",
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,lady_gillian,$item_locations_visible"
             ]
@@ -2066,6 +2131,9 @@
             "name": "Painter Celina Reward",
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,painter_celina,$item_locations_visible"
             ]
@@ -2075,7 +2143,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Resort Gorgeous Near Resort Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -2086,7 +2154,7 @@
             "chest_unopened_img": "images/locations/woman_2_luxury_ball.png",
             "chest_opened_img": "images/locations/woman_2_luxury_ball_bw.png",
             "access_rules": [
-              "rescue_selphy"
+              "@Resort Gorgeous Near Resort Access,rescue_selphy"
             ],
             "visibility_rules": [
               "pokemon_request_on,$item_locations_visible"
@@ -2097,7 +2165,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "$fame"
+              "@Resort Gorgeous Near Resort Access,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -2107,6 +2175,9 @@
             "name": "Painter Daisy Reward",
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,painter_daisy,$item_locations_visible"
             ]
@@ -2115,6 +2186,10 @@
             "name": "Swimmer Toby Reward",
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access,$surf",
+              "@Resort Gorgeous Near Cave Access,$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_toby,$item_locations_visible"
             ]
@@ -2126,7 +2201,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$surf"
+              "@Resort Gorgeous Near Resort Access,$surf",
+              "@Resort Gorgeous Near Cave Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2137,8 +2213,10 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "@Resort Gorgeous Near Resort Access,old_rod",
+              "@Resort Gorgeous Near Resort Access,good_rod",
+              "@Resort Gorgeous Near Cave Access,old_rod",
+              "@Resort Gorgeous Near Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2149,8 +2227,10 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "@Resort Gorgeous Near Resort Access,good_rod",
+              "@Resort Gorgeous Near Resort Access,super_rod",
+              "@Resort Gorgeous Near Cave Access,good_rod",
+              "@Resort Gorgeous Near Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2163,7 +2243,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "@Resort Gorgeous Near Resort Access,super_rod",
+              "@Resort Gorgeous Near Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2188,7 +2269,7 @@
       {
         "name": "Six Island Town",
         "access_rules": [
-          "@Six Island Access"
+          "@Six Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -2258,9 +2339,6 @@
       },
       {
         "name": "Water Path",
-        "access_rules": [
-          "@Six Island Access"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
@@ -2269,6 +2347,9 @@
             "name": "Juggler Edward Reward",
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "@Six Island Town Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,juggler_edward,$item_locations_visible"
             ]
@@ -2278,7 +2359,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Six Island Town Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -2289,7 +2370,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Six Island Town Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -2299,6 +2380,9 @@
             "name": "Hiker Earl Reward",
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
+            "access_rules": [
+              "@Six Island Town Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,hiker_earl,$item_locations_visible"
             ]
@@ -2306,7 +2390,8 @@
           {
             "name": "South Island Item",
             "access_rules": [
-              "$surf"
+              "@Six Island Town Access,$surf",
+              "@Green Path Access,$surf"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2317,7 +2402,8 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Six Island Town Access,$surf",
+              "@Green Path Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_denise,$item_locations_visible"
@@ -2328,7 +2414,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Six Island Town Access,$surf",
+              "@Green Path Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_samir,$item_locations_visible"
@@ -2339,7 +2426,7 @@
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
             "access_rules": [
-              "$surf"
+              "@Green Path Access"
             ],
             "visibility_rules": [
               "trainersanity_on,twins_miu_and_mia,$item_locations_visible"
@@ -2350,7 +2437,7 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "access_rules": [
-              "$surf"
+              "@Green Path Access"
             ],
             "visibility_rules": [
               "trainersanity_on,aroma_lady_rose,$item_locations_visible"
@@ -2361,7 +2448,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Green Path Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -2370,7 +2457,7 @@
           {
             "name": "North Island Item",
             "access_rules": [
-              "$surf"
+              "@Green Path Access,$surf"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2381,7 +2468,7 @@
             "chest_unopened_img": "images/locations/beauty_nest_ball.png",
             "chest_opened_img": "images/locations/beauty_nest_ball_bw.png",
             "access_rules": [
-              "$surf"
+              "@Green Path Access,heracross"
             ],
             "visibility_rules": [
               "pokemon_request_on,$item_locations_visible"
@@ -2393,6 +2480,9 @@
             "chest_opened_img": "images/locations/grass_bw.png",
             "item_count": 8,
             "clear_as_group": false,
+            "access_rules": [
+              "@Six Island Town Access"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -2404,7 +2494,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$surf"
+              "@Six Island Town Access,$surf",
+              "@Green Path Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2415,8 +2506,10 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "@Six Island Town Access,old_rod",
+              "@Six Island Town Access,good_rod",
+              "@Green Path Access,old_rod",
+              "@Green Path Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2427,8 +2520,10 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "@Six Island Town Access,good_rod",
+              "@Six Island Town Access,super_rod",
+              "@Green Path Access,good_rod",
+              "@Green Path Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2441,7 +2536,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "@Six Island Town Access,super_rod",
+              "@Green Path Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2466,7 +2562,7 @@
       {
         "name": "Ruin Valley",
         "access_rules": [
-          "@Six Island Access"
+          "@Six Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -2627,7 +2723,7 @@
       {
         "name": "Green Path",
         "access_rules": [
-          "@Six Island Access,$surf"
+          "@Green Path Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -2637,6 +2733,9 @@
             "name": "Psychic Jaclyn Reward",
             "chest_unopened_img": "images/locations/woman.png",
             "chest_opened_img": "images/locations/woman_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,psychic_jaclyn,$item_locations_visible"
             ]
@@ -2646,7 +2745,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -2721,7 +2820,7 @@
       {
         "name": "Outcast Island",
         "access_rules": [
-          "@Six Island Access,$surf"
+          "@Outcast Island Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -2731,6 +2830,9 @@
             "name": "Swimmer Nicole Reward",
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_nicole,$item_locations_visible"
             ]
@@ -2739,6 +2841,9 @@
             "name": "Sis and Bro Ava & Geb Reward",
             "chest_unopened_img": "images/locations/sis_and_bro.png",
             "chest_opened_img": "images/locations/sis_and_bro_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,sis_and_bro_ava_and_geb,$item_locations_visible"
             ]
@@ -2747,6 +2852,9 @@
             "name": "Swimmer Mymo Reward",
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_mymo,$item_locations_visible"
             ]
@@ -2775,7 +2883,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -2785,12 +2893,18 @@
             "name": "Fisherman Tylor Reward",
             "chest_unopened_img": "images/locations/fisherman.png",
             "chest_opened_img": "images/locations/fisherman_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "trainersanity_on,fisherman_tylor,$item_locations_visible"
             ]
           },
           {
             "name": "North Beach Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -2864,7 +2978,7 @@
       {
         "name": "Seven Island Town",
         "access_rules": [
-          "@Seven Island Access"
+          "@Seven Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -2946,7 +3060,7 @@
       {
         "name": "Canyon Entrance",
         "access_rules": [
-          "@Seven Island Access"
+          "@Seven Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -3032,7 +3146,7 @@
       {
         "name": "Sevault Canyon",
         "access_rules": [
-          "@Seven Island Access"
+          "@Seven Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -3171,9 +3285,6 @@
       },
       {
         "name": "Tanoby Ruins",
-        "access_rules": [
-          "@Seven Island Access"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
@@ -3181,7 +3292,14 @@
           {
             "name": "Island Item",
             "access_rules": [
-              "$surf,unlock_ruins"
+              "@Seven Island Town Access,$surf,unlock_ruins",
+              "@Tanoby Ruins Monean Island Access,$surf,unlock_ruins",
+              "@Tanoby Ruins Liptoo Island Access,$surf,unlock_ruins",
+              "@Tanoby Ruins Weepth Island Access,$surf,unlock_ruins",
+              "@Tanoby Ruins Dilford Island Access,$surf,unlock_ruins",
+              "@Tanoby Ruins Scufib Island Access,$surf,unlock_ruins",
+              "@Tanoby Ruins Rixy Island Access,$surf,unlock_ruins",
+              "@Tanoby Ruins Viapois Island Access,$surf,unlock_ruins"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3192,7 +3310,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Tanoby Ruins Viapois Island Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -3203,7 +3321,7 @@
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
             "access_rules": [
-              "$surf"
+              "@Tanoby Ruins Scufib Island Access"
             ],
             "visibility_rules": [
               "trainersanity_on,ruin_maniac_brandon,$item_locations_visible"
@@ -3214,7 +3332,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Tanoby Ruins Scufib Island Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -3225,7 +3343,7 @@
             "chest_unopened_img": "images/locations/gentleman.png",
             "chest_opened_img": "images/locations/gentleman_bw.png",
             "access_rules": [
-              "$surf"
+              "@Tanoby Ruins Weepth Island Access"
             ],
             "visibility_rules": [
               "trainersanity_on,gentleman_clifford,$item_locations_visible"
@@ -3236,7 +3354,7 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "access_rules": [
-              "$surf"
+              "@Tanoby Ruins Weepth Island Access"
             ],
             "visibility_rules": [
               "trainersanity_on,painter_edna,$item_locations_visible"
@@ -3247,7 +3365,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Tanoby Ruins Weepth Island Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -3258,7 +3376,7 @@
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
             "access_rules": [
-              "$surf"
+              "@Tanoby Ruins Monean Island Access"
             ],
             "visibility_rules": [
               "trainersanity_on,ruin_maniac_benjamin,$item_locations_visible"
@@ -3269,7 +3387,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Tanoby Ruins Monean Island Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -3282,7 +3400,14 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$surf"
+              "@Seven Island Town Access,$surf",
+              "@Tanoby Ruins Monean Island Access,$surf",
+              "@Tanoby Ruins Liptoo Island Access,$surf",
+              "@Tanoby Ruins Weepth Island Access,$surf",
+              "@Tanoby Ruins Dilford Island Access,$surf",
+              "@Tanoby Ruins Scufib Island Access,$surf",
+              "@Tanoby Ruins Rixy Island Access,$surf",
+              "@Tanoby Ruins Viapois Island Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3293,8 +3418,22 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "@Seven Island Town Access,old_rod",
+              "@Seven Island Town Access,good_rod",
+              "@Tanoby Ruins Monean Island Access,old_rod",
+              "@Tanoby Ruins Monean Island Access,good_rod",
+              "@Tanoby Ruins Liptoo Island Access,old_rod",
+              "@Tanoby Ruins Liptoo Island Access,good_rod",
+              "@Tanoby Ruins Weepth Island Access,old_rod",
+              "@Tanoby Ruins Weepth Island Access,good_rod",
+              "@Tanoby Ruins Dilford Island Access,old_rod",
+              "@Tanoby Ruins Dilford Island Access,good_rod",
+              "@Tanoby Ruins Scufib Island Access,old_rod",
+              "@Tanoby Ruins Scufib Island Access,good_rod",
+              "@Tanoby Ruins Rixy Island Access,old_rod",
+              "@Tanoby Ruins Rixy Island Access,good_rod",
+              "@Tanoby Ruins Viapois Island Access,old_rod",
+              "@Tanoby Ruins Viapois Island Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3305,8 +3444,22 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "@Seven Island Town Access,good_rod",
+              "@Seven Island Town Access,super_rod",
+              "@Tanoby Ruins Monean Island Access,good_rod",
+              "@Tanoby Ruins Monean Island Access,super_rod",
+              "@Tanoby Ruins Liptoo Island Access,good_rod",
+              "@Tanoby Ruins Liptoo Island Access,super_rod",
+              "@Tanoby Ruins Weepth Island Access,good_rod",
+              "@Tanoby Ruins Weepth Island Access,super_rod",
+              "@Tanoby Ruins Dilford Island Access,good_rod",
+              "@Tanoby Ruins Dilford Island Access,super_rod",
+              "@Tanoby Ruins Scufib Island Access,good_rod",
+              "@Tanoby Ruins Scufib Island Access,super_rod",
+              "@Tanoby Ruins Rixy Island Access,good_rod",
+              "@Tanoby Ruins Rixy Island Access,super_rod",
+              "@Tanoby Ruins Viapois Island Access,good_rod",
+              "@Tanoby Ruins Viapois Island Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3319,7 +3472,14 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "@Seven Island Town Access,super_rod",
+              "@Tanoby Ruins Monean Island Access,super_rod",
+              "@Tanoby Ruins Liptoo Island Access,super_rod",
+              "@Tanoby Ruins Weepth Island Access,super_rod",
+              "@Tanoby Ruins Dilford Island Access,super_rod",
+              "@Tanoby Ruins Scufib Island Access,super_rod",
+              "@Tanoby Ruins Rixy Island Access,super_rod",
+              "@Tanoby Ruins Viapois Island Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3343,9 +3503,6 @@
       },
       {
         "name": "Trainer Tower Exterior",
-        "access_rules": [
-          "@Seven Island Access"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
@@ -3354,6 +3511,9 @@
             "name": "Psychic Rodette Reward",
             "chest_unopened_img": "images/locations/woman.png",
             "chest_opened_img": "images/locations/woman_bw.png",
+            "access_rules": [
+              "@Seven Island Town Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,psychic_rodette,$item_locations_visible"
             ]
@@ -3363,7 +3523,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Seven Island Town Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3374,7 +3534,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Seven Island Town Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -3385,7 +3545,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "@Seven Island Town Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -3395,6 +3555,9 @@
             "name": "Psychic Dario Reward",
             "chest_unopened_img": "images/locations/boy.png",
             "chest_opened_img": "images/locations/boy_bw.png",
+            "access_rules": [
+              "@Seven Island Town Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,psychic_dario,$item_locations_visible"
             ]
@@ -3406,7 +3569,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$surf"
+              "@Seven Island Town Access,$surf",
+              "@Trainer Tower Exterior Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3417,8 +3581,10 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "@Seven Island Town Access,old_rod",
+              "@Seven Island Town Access,good_rod",
+              "@Trainer Tower Exterior Access,old_rod",
+              "@Trainer Tower Exterior Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3429,8 +3595,10 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "@Seven Island Town Access,good_rod",
+              "@Seven Island Town Access,super_rod",
+              "@Trainer Tower Exterior Access,good_rod",
+              "@Trainer Tower Exterior Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3443,7 +3611,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "@Seven Island Town Access,super_rod",
+              "@Trainer Tower Exterior Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3468,7 +3637,7 @@
       {
         "name": "Trainer Tower",
         "access_rules": [
-          "@Seven Island Access,$surf"
+          "@Trainer Tower Exterior Access"
         ],
         "sections": [
           {
@@ -3500,7 +3669,7 @@
       {
         "name": "Navel Rock",
         "access_rules": [
-          "@Navel Rock Access"
+          "@Navel Rock Exterior Access"
         ],
         "sections": [
           {
@@ -3549,7 +3718,7 @@
       {
         "name": "Birth Island",
         "access_rules": [
-          "@Birth Island Access"
+          "@Birth Island Exterior Access"
         ],
         "sections": [
           {

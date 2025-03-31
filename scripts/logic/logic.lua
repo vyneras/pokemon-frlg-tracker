@@ -22,8 +22,7 @@ function fly(location)
 end
 
 function has_fly_location(location)
-    return has("fly_" .. location) or has("free_fly_" .. location) or
-    (has("town_map_fly_" .. location) and has("town_map"))
+    return has("fly_"..location)
 end
 
 function surf()
@@ -108,9 +107,9 @@ function route_15_oaks_aide()
     return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement")
 end
 
-function route_2()
+function route_2_modified()
     if has("modify_route_2_on") then
-        return cut() or rock_smash()
+        return rock_smash()
     end
     return cut()
 end
@@ -152,7 +151,7 @@ function leave_cerulean()
     return has("save_bill") or has("cerulean_roadblock_off")
 end
 
-function tunnels()
+function tunnels_blocked()
     return has("block_tunnels_off") or rock_smash()
 end
 
@@ -168,14 +167,14 @@ function digletts_cave()
     return AccessibilityLevel.Normal
 end
 
-function route_9()
+function route_9_modified()
     if has("modify_route_9_on") then
         return rock_smash()
     end
     return cut()
 end
 
-function route_10()
+function route_10_modified()
     return has("modify_route_10_on") and surf() and waterfall()
 end
 
@@ -188,16 +187,16 @@ function rock_tunnel()
     return AccessibilityLevel.None
 end
 
-function tower()
+function tower_blocked()
     return has("block_tower_off") or has("silph_scope")
 end
 
-function route_12()
+function route_12_boulders()
     return has("route_12_boulders_off") or strength()
 end
 
-function route_16()
-    return has("poke_flute") or (cut() and rock_smash() and has("modify_route_16_on"))
+function route_16_modified()
+    return has("modify_route_16_on") and rock_smash()
 end
 
 function open_silph()
@@ -216,7 +215,7 @@ function route_23_waterfall()
     return has("modify_route_23_off") or waterfall()
 end
 
-function route_23_cut()
+function route_23_trees()
     return has("route_23_trees_off") or cut()
 end
 

@@ -858,6 +858,28 @@
     ]
   },
   {
+    "name": "Randomize Fly Destinations",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/fly_destinations.png",
+        "img_mods": "overlay|images/overlays/random.png,@disabled",
+        "codes": "randomize_fly_destinations_setting,randomize_fly_destinations_off",
+        "inherit_codes": false,
+        "name": "Randomize Fly Destinations - Off"
+      },
+      {
+        "img": "images/settings/fly_destinations.png",
+        "img_mods": "overlay|images/overlays/random.png",
+        "codes": "randomize_fly_destinations_setting,randomize_fly_destinations_on",
+        "inherit_codes": false,
+        "name": "Randomize Fly Destinations - On"
+      }
+    ]
+  },
+  {
     "name": "Mt. Moon",
     "type": "progressive",
     "allow_disabled": false,

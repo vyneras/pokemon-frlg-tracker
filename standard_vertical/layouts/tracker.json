@@ -29,62 +29,82 @@
   "settings_popup": {
     "type": "dock",
     "content": {
-      "type": "array",
-      "orientation": "vertical",
-      "h_alignment": "left",
-      "content": [
+      "type": "tabbed",
+      "tabs": [
         {
-          "type": "group",
-          "header": "Goal/Shuffles",
-          "dock": "top",
+          "title": "Settings",
           "content": {
-            "type": "layout",
-            "key": "shuffle_grid"
+            "type": "array",
+            "orientation": "vertical",
+            "h_alignment": "left",
+            "content": [
+              {
+                "type": "group",
+                "header": "Goal/Shuffles",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "shuffle_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Logic",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "logic_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Additional Dark Caves",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "dark_cave_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Requirements",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "requirement_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Starting Town",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "start_town_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "Free Fly Locations",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "free_fly_grid"
+                }
+              }
+            ]
           }
         },
         {
-          "type": "group",
-          "header": "Logic",
-          "dock": "top",
+          "title": "Fly Destinations",
           "content": {
-            "type": "layout",
-            "key": "logic_grid"
-          }
-        },
-        {
-          "type": "group",
-          "header": "Additional Dark Caves",
-          "dock": "top",
-          "content": {
-            "type": "layout",
-            "key": "dark_cave_grid"
-          }
-        },
-        {
-          "type": "group",
-          "header": "Requirements",
-          "dock": "top",
-          "content": {
-            "type": "layout",
-            "key": "requirement_grid"
-          }
-        },
-        {
-          "type": "group",
-          "header": "Starting Town",
-          "dock": "top",
-          "content": {
-            "type": "layout",
-            "key": "start_town_grid"
-          }
-        },
-        {
-          "type": "group",
-          "header": "Free Fly Locations",
-          "dock": "top",
-          "content": {
-            "type": "layout",
-            "key": "free_fly_grid"
+            "type": "group",
+            "header": "Fly Destinations",
+            "dock": "top",
+            "content": {
+              "type": "layout",
+              "key": "fly_destination_grid"
+            }
           }
         }
       ]

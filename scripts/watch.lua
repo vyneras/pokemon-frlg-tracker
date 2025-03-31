@@ -10,6 +10,9 @@ function initialize_watch_items()
         ScriptHost:AddWatchForCode(code, code, toggle_item)
         ScriptHost:AddWatchForCode(code .. "_hosted", code .. "_hosted", toggle_hosted_item)
     end
+    for _, data in pairs(FLY_UNLOCK_FLAG_MAPPING) do
+        ScriptHost:AddWatchForCode(data.code, data.code, toggle_fly_unlock)
+    end
     ScriptHost:AddWatchForCode("extra_key_items", "extra_key_items_setting", toggle_item_grid)
     ScriptHost:AddWatchForCode("split_card_keys", "card_keys_setting", toggle_item_grid)
     ScriptHost:AddWatchForCode("split_passes", "island_passes_setting", toggle_item_grid)
@@ -18,4 +21,5 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("split_map", "split_map_setting", toggle_maps)
     ScriptHost:AddWatchForCode("pokemon_tabs", "pokemon_tabs_setting", toggle_item_tabs)
     ScriptHost:AddWatchForCode("kanto_only", "kanto_only_setting", toggle_maps)
+    ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
 end

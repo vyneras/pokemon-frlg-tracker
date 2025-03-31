@@ -1,0 +1,99 @@
+{
+  "fly_unlock_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "pallet_fly_unlock",
+                "viridian_fly_unlock",
+                "pewter_fly_unlock",
+                "route_4_fly_unlock"
+              ],
+              [
+                "cerulean_fly_unlock",
+                "vermilion_fly_unlock",
+                "route_10_fly_unlock",
+                "lavender_fly_unlock"
+              ],
+              [
+                "celadon_fly_unlock",
+                "fuchsia_fly_unlock",
+                "saffron_fly_unlock",
+                "cinnabar_fly_unlock"
+              ],
+              [
+                "indigo_fly_unlock",
+                "one_island_fly_unlock",
+                "two_island_fly_unlock",
+                "three_island_fly_unlock"
+              ],
+              [
+                "four_island_fly_unlock",
+                "five_island_fly_unlock",
+                "six_island_fly_unlock",
+                "seven_island_fly_unlock"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "fly_unlock_grid_vertical": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "pallet_fly_unlock",
+                "viridian_fly_unlock",
+                "pewter_fly_unlock",
+                "route_4_fly_unlock",
+                "cerulean_fly_unlock",
+                "vermilion_fly_unlock",
+                "route_10_fly_unlock",
+                "lavender_fly_unlock"
+              ],
+              [
+                "celadon_fly_unlock",
+                "fuchsia_fly_unlock",
+                "saffron_fly_unlock",
+                "cinnabar_fly_unlock",
+                "indigo_fly_unlock",
+                "one_island_fly_unlock",
+                "two_island_fly_unlock",
+                "three_island_fly_unlock"
+              ],
+              [
+                "four_island_fly_unlock",
+                "five_island_fly_unlock",
+                "six_island_fly_unlock",
+                "seven_island_fly_unlock"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

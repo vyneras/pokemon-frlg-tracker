@@ -1,3 +1,5 @@
+FLY_DESTINATION_MAPPING = {}
+
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
     amount = tonumber(amount)
@@ -206,5 +208,65 @@ function toggle_item_tabs(code)
         Tracker:AddLayouts("layouts/item_layout_pokemon.json")
     else
         Tracker:AddLayouts("layouts/item_layout.json")
+    end
+end
+
+function set_default_fly_destinations(code)
+    if Tracker:FindObjectForCode(code).CurrentStage == 1 then
+        PALLET_FLY_DESTINATION:setStage(0)
+        VIRIDIAN_FLY_DESTINATION:setStage(0)
+        PEWTER_FLY_DESTINATION:setStage(0)
+        ROUTE_4_FLY_DESTINATION:setStage(0)
+        CERULEAN_FLY_DESTINATION:setStage(0)
+        VERMILION_FLY_DESTINATION:setStage(0)
+        ROUTE_10_FLY_DESTINATION:setStage(0)
+        LAVENDER_FLY_DESTINATION:setStage(0)
+        CELADON_FLY_DESTINATION:setStage(0)
+        FUCHSIA_FLY_DESTINATION:setStage(0)
+        SAFFRON_FLY_DESTINATION:setStage(0)
+        CINNABAR_FLY_DESTINATION:setStage(0)
+        INDIGO_FLY_DESTINATION:setStage(0)
+        ONE_ISLAND_FLY_DESTINATION:setStage(0)
+        TWO_ISLAND_FLY_DESTINATION:setStage(0)
+        THREE_ISLAND_FLY_DESTINATION:setStage(0)
+        FOUR_ISLAND_FLY_DESTINATION:setStage(0)
+        FIVE_ISLAND_FLY_DESTINATION:setStage(0)
+        SIX_ISLAND_FLY_DESTINATION:setStage(0)
+        SEVEN_ISLAND_FLY_DESTINATION:setStage(0)
+    else
+        PALLET_FLY_DESTINATION:setStage(1)
+        VIRIDIAN_FLY_DESTINATION:setStage(2)
+        PEWTER_FLY_DESTINATION:setStage(10)
+        ROUTE_4_FLY_DESTINATION:setStage(12)
+        CERULEAN_FLY_DESTINATION:setStage(14)
+        VERMILION_FLY_DESTINATION:setStage(23)
+        ROUTE_10_FLY_DESTINATION:setStage(28)
+        LAVENDER_FLY_DESTINATION:setStage(32)
+        CELADON_FLY_DESTINATION:setStage(37)
+        FUCHSIA_FLY_DESTINATION:setStage(48)
+        SAFFRON_FLY_DESTINATION:setStage(50)
+        CINNABAR_FLY_DESTINATION:setStage(53)
+        INDIGO_FLY_DESTINATION:setStage(57)
+        ONE_ISLAND_FLY_DESTINATION:setStage(58)
+        TWO_ISLAND_FLY_DESTINATION:setStage(61)
+        THREE_ISLAND_FLY_DESTINATION:setStage(65)
+        FOUR_ISLAND_FLY_DESTINATION:setStage(68)
+        FIVE_ISLAND_FLY_DESTINATION:setStage(70)
+        SIX_ISLAND_FLY_DESTINATION:setStage(74)
+        SEVEN_ISLAND_FLY_DESTINATION:setStage(80)
+    end
+end
+
+function toggle_fly_unlock(code)
+    if has("randomize_fly_destinations_on") then
+        local data = FLY_DESTINATION_MAPPING[code]
+        if data ~= nil then
+            local item = data[1]
+            if Tracker:FindObjectForCode(code).Active then
+                item:setStage(data[2])
+            else
+                item:setStage(0)
+            end
+        end
     end
 end

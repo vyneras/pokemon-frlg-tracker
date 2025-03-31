@@ -15,11 +15,11 @@
       },
       {
         "type": "group",
-        "header": "Fly Destinations",
+        "header": "Fly Unlocks",
         "dock": "left",
         "content": {
           "type": "layout",
-          "key": "fly_destination_grid"
+          "key": "fly_unlock_grid"
         }
       },
       {
@@ -58,11 +58,11 @@
       },
       {
         "type": "group",
-        "header": "Fly Destinations",
+        "header": "Fly Unlocks",
         "dock": "top",
         "content": {
           "type": "layout",
-          "key": "fly_destination_grid_vertical"
+          "key": "fly_unlock_grid_vertical"
         }
       },
       {
@@ -101,11 +101,11 @@
       },
       {
         "type": "group",
-        "header": "Fly Destinations",
+        "header": "Fly Unlocks",
         "dock": "top",
         "content": {
           "type": "layout",
-          "key": "fly_destination_grid_vertical"
+          "key": "fly_unlock_grid_vertical"
         }
       },
       {

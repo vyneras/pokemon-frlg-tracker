@@ -1,6 +1,6 @@
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/events.json")
-Tracker:AddLayouts("layouts/fly_destinations.json")
+Tracker:AddLayouts("layouts/fly_unlocks.json")
 Tracker:AddLayouts("layouts/pack_settings.json")
 Tracker:AddLayouts("layouts/item_grids.json")
 Tracker:AddLayouts("layouts/pokemon_grids.json")

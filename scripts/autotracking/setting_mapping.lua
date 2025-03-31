@@ -399,3 +399,26 @@ ADDITIONAL_DARK_CAVES = {
     ["Diglett's Cave"] = "digletts_cave_dark_setting",
     ["Victory Road"] = "victory_road_dark_setting"
 }
+
+FLY_DESTINATION_ITEMS = {
+    ["Pallet Town Fly Destination"] = PALLET_FLY_DESTINATION,
+    ["Viridian City Fly Destination"] = VIRIDIAN_FLY_DESTINATION,
+    ["Pewter City Fly Destination"] = PEWTER_FLY_DESTINATION,
+    ["Route 4 Fly Destination"] = ROUTE_4_FLY_DESTINATION,
+    ["Cerulean City Fly Destination"] = CERULEAN_FLY_DESTINATION,
+    ["Vermilion City Fly Destination"] = VERMILION_FLY_DESTINATION,
+    ["Route 10 Fly Destination"] = ROUTE_10_FLY_DESTINATION,
+    ["Lavender Town Fly Destination"] = LAVENDER_FLY_DESTINATION,
+    ["Celadon City Fly Destination"] = CELADON_FLY_DESTINATION,
+    ["Fuchsia City Fly Destination"] = FUCHSIA_FLY_DESTINATION,
+    ["Saffron City Fly Destination"] = SAFFRON_FLY_DESTINATION,
+    ["Cinnabar Island Fly Destination"] = CINNABAR_FLY_DESTINATION,
+    ["Indigo Plateau Fly Destination"] = INDIGO_FLY_DESTINATION,
+    ["One Island Fly Destination"] = ONE_ISLAND_FLY_DESTINATION,
+    ["Two Island Fly Destination"] = TWO_ISLAND_FLY_DESTINATION,
+    ["Three Island Fly Destination"] = THREE_ISLAND_FLY_DESTINATION,
+    ["Four Island Fly Destination"] = FOUR_ISLAND_FLY_DESTINATION,
+    ["Five Island Fly Destination"] = FIVE_ISLAND_FLY_DESTINATION,
+    ["Six Island Fly Destination"] = SIX_ISLAND_FLY_DESTINATION,
+    ["Seven Island Fly Destination"] = SEVEN_ISLAND_FLY_DESTINATION,
+}

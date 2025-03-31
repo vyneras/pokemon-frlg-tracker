@@ -7,7 +7,8 @@
       {
         "name": "Route 1",
         "access_rules": [
-          "@Pallet Town Access"
+          "@Pallet Town Access",
+          "@Viridian City South Access"
         ],
         "sections": [
           {
@@ -46,14 +47,11 @@
       },
       {
         "name": "Route 2",
-        "access_rules": [
-          "@Pewter City Access"
-        ],
         "sections": [
           {
             "name": "North Item",
             "access_rules": [
-              "$cut"
+              "@Route 2 Southeast Access"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -62,7 +60,7 @@
           {
             "name": "South Item",
             "access_rules": [
-              "$cut"
+              "@Route 2 Southeast Access"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -73,8 +71,8 @@
             "chest_unopened_img": "images/locations/scientist_normal_tm.png",
             "chest_opened_img": "images/locations/scientist_normal_tm_bw.png",
             "access_rules": [
-              "$cut,$route_2_oaks_aide",
-              "$cut,{}"
+              "@Route 2 Southeast Access,$route_2_oaks_aide",
+              "@Route 2 Southeast Access,{}"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -86,6 +84,10 @@
             "chest_opened_img": "images/locations/grass_bw.png",
             "item_count": 4,
             "clear_as_group": false,
+            "access_rules": [
+              "@Viridian City North Access",
+              "@Pewter City Access"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -109,7 +111,7 @@
       {
         "name": "Route 3",
         "access_rules": [
-          "@Route 3 Access"
+          "@Route 4 West Access"
         ],
         "sections": [
           {
@@ -216,7 +218,7 @@
       {
         "name": "Route 4 West",
         "access_rules": [
-          "@Route 3 Access"
+          "@Route 4 West Access"
         ],
         "sections": [
           {
@@ -320,7 +322,7 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$surf"
+              "@Cerulean City Near Cave Access"
             ],
             "visibility_rules": [
               "trainersanity_on,lass_crissy,$item_locations_visible"
@@ -344,7 +346,8 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$surf"
+              "@Cerulean City Access,$surf",
+              "@Cerulean City Near Cave Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -356,7 +359,9 @@
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
               "@Cerulean City Access,$surf,old_rod",
-              "@Cerulean City Access,$surf,good_rod"
+              "@Cerulean City Access,$surf,good_rod",
+              "@Cerulean City Near Cave Access,$surf,old_rod",
+              "@Cerulean City Near Cave Access,$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -367,7 +372,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$surf,good_rod"
+              "@Cerulean City Access,$surf,good_rod",
+              "@Cerulean City Near Cave Access,$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -379,7 +385,9 @@
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
               "@Cerulean City Access,$surf,good_rod",
-              "@Cerulean City Access,$surf,super_rod"
+              "@Cerulean City Access,$surf,super_rod",
+              "@Cerulean City Near Cave Access,$surf,good_rod",
+              "@Cerulean City Near Cave Access,$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -392,7 +400,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "@Cerulean City Access,$surf,super_rod"
+              "@Cerulean City Access,$surf,super_rod",
+              "@Cerulean City Near Cave Access,$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -1049,7 +1058,7 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "@Route 10 North Access,$surf"
+              "@Route 10 Near Power Plant Access"
             ],
             "visibility_rules": [
               "trainersanity_on,pokemaniac_mark,$item_locations_visible"
@@ -1060,7 +1069,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 10 North Access,$surf,^$hidden"
+              "@Route 10 Near Power Plant Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -1085,6 +1094,7 @@
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
               "@Route 10 North Access,$surf",
+              "@Route 10 Near Power Plant Access,$surf",
               "@Lavender Town Access,$surf,modify_route_10_on"
             ],
             "visibility_rules": [
@@ -1098,6 +1108,8 @@
             "access_rules": [
               "@Route 10 North Access,old_rod",
               "@Route 10 North Access,good_rod",
+              "@Route 10 Near Power Plant Access,old_rod",
+              "@Route 10 Near Power Plant Access,good_rod",
               "@Lavender Town Access,old_rod,modify_route_10_on",
               "@Lavender Town Access,good_rod,modify_route_10_on"
             ],
@@ -1111,6 +1123,7 @@
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
               "@Route 10 North Access,good_rod",
+              "@Route 10 Near Power Plant Access,good_rod",
               "@Lavender Town Access,good_rod,modify_route_10_on"
             ],
             "visibility_rules": [
@@ -1124,6 +1137,8 @@
             "access_rules": [
               "@Route 10 North Access,good_rod",
               "@Route 10 North Access,super_rod",
+              "@Route 10 Near Power Plant Access,good_rod",
+              "@Route 10 Near Power Plant Access,super_rod",
               "@Lavender Town Access,good_rod,modify_route_10_on",
               "@Lavender Town Access,super_rod,modify_route_10_on"
             ],
@@ -1139,6 +1154,7 @@
             "clear_as_group": false,
             "access_rules": [
               "@Route 10 North Access,super_rod",
+              "@Route 10 Near Power Plant Access,super_rod",
               "@Lavender Town Access,super_rod,modify_route_10_on"
             ],
             "visibility_rules": [
@@ -1561,7 +1577,9 @@
             "chest_unopened_img": "images/locations/snorlax.png",
             "chest_opened_img": "images/locations/snorlax_bw.png",
             "access_rules": [
-              "@Route 12 North Access,poke_flute"
+              "@Route 12 North Access,poke_flute",
+              "@Route 12 West Access,poke_flute",
+              "@Route 12 South Access,poke_flute"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -1572,7 +1590,9 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 12 North Access,poke_flute,itemfinder"
+              "@Route 12 North Access,poke_flute,itemfinder",
+              "@Route 12 West Access,poke_flute,itemfinder",
+              "@Route 12 South Access,poke_flute,itemfinder"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -1683,7 +1703,7 @@
             "chest_unopened_img": "images/locations/fisherman_net_ball.png",
             "chest_opened_img": "images/locations/fisherman_net_ball_bw.png",
             "access_rules": [
-              "@Route 12 South Access"
+              "@Route 12 South Access,magikarp"
             ],
             "visibility_rules": [
               "pokemon_request_on,$item_locations_visible"
@@ -2279,9 +2299,7 @@
             "chest_unopened_img": "images/locations/young_couple.png",
             "chest_opened_img": "images/locations/young_couple_bw.png",
             "access_rules": [
-              "@Celadon City Access,$cut",
-              "@Celadon City Access,poke_flute,$rock_smash,modify_route_16_on",
-              "@Fuchsia City Access,bicycle,$rock_smash,modify_route_16_on"
+              "@Route 16 North Access"
             ],
             "visibility_rules": [
               "trainersanity_on,young_couple_lea_and_jed,$item_locations_visible"
@@ -2292,9 +2310,7 @@
             "chest_unopened_img": "images/locations/woman_flying_tm.png",
             "chest_opened_img": "images/locations/woman_flying_tm_bw.png",
             "access_rules": [
-              "@Celadon City Access,$cut",
-              "@Celadon City Access,poke_flute,$rock_smash,modify_route_16_on",
-              "@Fuchsia City Access,bicycle,$rock_smash,modify_route_16_on"
+              "@Route 16 North Access"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2305,7 +2321,8 @@
             "chest_unopened_img": "images/locations/snorlax.png",
             "chest_opened_img": "images/locations/snorlax_bw.png",
             "access_rules": [
-              "@Celadon City Access,poke_flute"
+              "@Celadon City Access,poke_flute",
+              "@Route 16 Center Access,poke_flute"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2316,7 +2333,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,poke_flute,itemfinder"
+              "@Celadon City Access,poke_flute,itemfinder",
+              "@Route 16 Center Access,poke_flute,itemfinder"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -2327,10 +2345,8 @@
             "chest_unopened_img": "images/locations/scientist_amulet_coin.png",
             "chest_opened_img": "images/locations/scientist_amulet_coin_bw.png",
             "access_rules": [
-              "@Celadon City Access,$route_16,$route_16_oaks_aide",
-              "@Celadon City Access,$route_16,{}",
-              "@Fuchsia City Access,bicycle,$route_16_oaks_aide",
-              "@Fuchsia City Access,bicycle,{}"
+              "@Route 16 Center Access,$route_16_oaks_aide",
+              "@Route 16 Center Access,{}"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2341,6 +2357,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "access_rules": [
+              "@Route 16 Center Access,bicycle",
               "@Fuchsia City Access,bicycle"
             ],
             "visibility_rules": [
@@ -2352,6 +2369,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "access_rules": [
+              "@Route 16 Center Access,bicycle",
               "@Fuchsia City Access,bicycle"
             ],
             "visibility_rules": [
@@ -2363,6 +2381,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "access_rules": [
+              "@Route 16 Center Access,bicycle",
               "@Fuchsia City Access,bicycle"
             ],
             "visibility_rules": [
@@ -2374,6 +2393,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "access_rules": [
+              "@Route 16 Center Access,bicycle",
               "@Fuchsia City Access,bicycle"
             ],
             "visibility_rules": [
@@ -2385,6 +2405,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "access_rules": [
+              "@Route 16 Center Access,bicycle",
               "@Fuchsia City Access,bicycle"
             ],
             "visibility_rules": [
@@ -2396,6 +2417,7 @@
             "chest_unopened_img": "images/locations/biker.png",
             "chest_opened_img": "images/locations/biker_bw.png",
             "access_rules": [
+              "@Route 16 Center Access,bicycle",
               "@Fuchsia City Access,bicycle"
             ],
             "visibility_rules": [
@@ -2409,9 +2431,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access,$cut",
-              "@Celadon City Access,poke_flute,$rock_smash,modify_route_16_on",
-              "@Fuchsia City Access,bicycle,$rock_smash,modify_route_16_on"
+              "@Route 16 North Access"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2436,6 +2456,7 @@
       {
         "name": "Route 17",
         "access_rules": [
+          "@Route 16 Center Access,bicycle",
           "@Fuchsia City Access,bicycle"
         ],
         "sections": [
@@ -2658,14 +2679,14 @@
       },
       {
         "name": "Route 19",
-        "access_rules": [
-          "@Fuchsia City Access"
-        ],
         "sections": [
           {
             "name": "Swimmer Richard Reward",
             "chest_unopened_img": "images/locations/swimmer_male_land.png",
             "chest_opened_img": "images/locations/swimmer_male_land_bw.png",
+            "access_rules": [
+              "@Fuchsia City Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_richard,$item_locations_visible"
             ]
@@ -2674,6 +2695,9 @@
             "name": "Swimmer Reece Reward",
             "chest_unopened_img": "images/locations/swimmer_male_land.png",
             "chest_opened_img": "images/locations/swimmer_male_land_bw.png",
+            "access_rules": [
+              "@Fuchsia City Access"
+            ],
             "visibility_rules": [
               "trainersanity_on,swimmer_reece,$item_locations_visible"
             ]
@@ -2683,7 +2707,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_tony,$item_locations_visible"
@@ -2694,7 +2719,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_david,$item_locations_visible"
@@ -2705,7 +2731,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_douglas,$item_locations_visible"
@@ -2716,7 +2743,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_matthew,$item_locations_visible"
@@ -2727,7 +2755,8 @@
             "chest_unopened_img": "images/locations/sis_and_bro.png",
             "chest_opened_img": "images/locations/sis_and_bro_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,sis_and_bro_lia_and_luc,$item_locations_visible"
@@ -2738,7 +2767,8 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_alice,$item_locations_visible"
@@ -2749,7 +2779,8 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_connie,$item_locations_visible"
@@ -2760,7 +2791,8 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_axle,$item_locations_visible"
@@ -2771,7 +2803,8 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_anya,$item_locations_visible"
@@ -2782,7 +2815,8 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "$surf"
+              "@Fuchsia City Access,$surf",
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2793,8 +2827,10 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "@Fuchsia City Access,old_rod",
+              "@Fuchsia City Access,good_rod",
+              "@Route 20 Near North Cave Access,$surf,old_rod",
+              "@Route 20 Near North Cave Access,$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2805,7 +2841,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod"
+              "@Fuchsia City Access,good_rod",
+              "@Route 20 Near North Cave Access,$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2816,8 +2853,10 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "@Fuchsia City Access,good_rod",
+              "@Fuchsia City Access,super_rod",
+              "@Route 20 Near North Cave Access,$surf,good_rod",
+              "@Route 20 Near North Cave Access,$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2830,7 +2869,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "@Fuchsia City Access,super_rod",
+              "@Route 20 Near North Cave Access,$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2860,7 +2900,7 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_melissa,$item_locations_visible"
@@ -2871,7 +2911,7 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_missy,$item_locations_visible"
@@ -2882,7 +2922,7 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_dean,$item_locations_visible"
@@ -2893,7 +2933,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,^$hidden"
+              "@Route 20 Near South Cave Access,$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
@@ -2904,7 +2944,7 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_nora,$item_locations_visible"
@@ -2915,7 +2955,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,bird_keeper_roger,$item_locations_visible"
@@ -2926,7 +2966,7 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_irene,$item_locations_visible"
@@ -2937,8 +2977,8 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf",
-              "@Fuchsia City Access,$surf"
+              "@Route 20 Near North Cave Access,$surf",
+              "@Route 20 Near South Cave Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2949,10 +2989,10 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,old_rod",
-              "@Cinnabar Island Access,$surf,good_rod",
-              "@Fuchsia City Access,$surf,old_rod",
-              "@Fuchsia City Access,$surf,good_rod"
+              "@Route 20 Near North Cave Access,old_rod",
+              "@Route 20 Near North Cave Access,good_rod",
+              "@Route 20 Near South Cave Access,old_rod",
+              "@Route 20 Near South Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2963,8 +3003,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,good_rod",
-              "@Fuchsia City Access,$surf,good_rod"
+              "@Route 20 Near North Cave Access,good_rod",
+              "@Route 20 Near South Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2975,10 +3015,10 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,good_rod",
-              "@Cinnabar Island Access,$surf,super_rod",
-              "@Fuchsia City Access,$surf,good_rod",
-              "@Fuchsia City Access,$surf,super_rod"
+              "@Route 20 Near North Cave Access,good_rod",
+              "@Route 20 Near North Cave Access,super_rod",
+              "@Route 20 Near South Cave Access,good_rod",
+              "@Route 20 Near South Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2991,8 +3031,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Cinnabar Island Access,$surf,super_rod",
-              "@Fuchsia City Access,$surf,super_rod"
+              "@Route 20 Near North Cave Access,super_rod",
+              "@Route 20 Near South Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3022,7 +3062,7 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf"
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_barry,$item_locations_visible"
@@ -3033,7 +3073,7 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf"
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_darrin,$item_locations_visible"
@@ -3044,7 +3084,7 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf"
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_shirley,$item_locations_visible"
@@ -3055,7 +3095,7 @@
             "chest_unopened_img": "images/locations/swimmer_female_water.png",
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf"
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_tiffany,$item_locations_visible"
@@ -3066,7 +3106,7 @@
             "chest_unopened_img": "images/locations/camper_info.png",
             "chest_opened_img": "images/locations/camper_info_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf,$fame"
+              "@Route 20 Near North Cave Access,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
@@ -3111,6 +3151,7 @@
       {
         "name": "Route 21",
         "access_rules": [
+          "@Pallet Town Access,$surf",
           "@Cinnabar Island Access,$surf"
         ],
         "sections": [
@@ -3283,7 +3324,7 @@
       {
         "name": "Route 22",
         "access_rules": [
-          "@Viridian City Access"
+          "@Viridian City South Access"
         ],
         "sections": [
           {

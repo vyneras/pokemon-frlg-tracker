@@ -7,6 +7,7 @@
       {
         "name": "Viridian Forest",
         "access_rules": [
+          "@Viridian City North Access",
           "@Pewter City Access"
         ],
         "sections": [
@@ -135,7 +136,8 @@
       {
         "name": "Mt. Moon",
         "access_rules": [
-          "@Route 3 Access,^$mt_moon"
+          "@Route 4 West Access,^$mt_moon",
+          "@Route 4 East Access,^$mt_moon"
         ],
         "sections": [
           {
@@ -466,7 +468,7 @@
       {
         "name": "Underground Path North-South Tunnel",
         "access_rules": [
-          "@Cerulean City Outskirts Access,$tunnels"
+          "@North-South Tunnels Access"
         ],
         "sections": [
           {
@@ -575,7 +577,7 @@
       {
         "name": "S.S. Anne",
         "access_rules": [
-          "@Vermilion City Access,ss_ticket"
+          "@Vermilion City Near Harbor Access"
         ],
         "sections": [
           {
@@ -902,7 +904,7 @@
       {
         "name": "Diglett's Cave",
         "access_rules": [
-          "@Pewter City Access,$route_2,^$digletts_cave",
+          "@Route 2 Northeast Access,^$digletts_cave",
           "@Vermilion City Access,^$digletts_cave"
         ],
         "sections": [
@@ -963,7 +965,8 @@
       {
         "name": "Rock Tunnel",
         "access_rules": [
-          "@Route 10 North Access,^$rock_tunnel"
+          "@Route 10 North Access,^$rock_tunnel",
+          "@Lavender Town Access,^$rock_tunnel"
         ],
         "sections": [
           {
@@ -1165,8 +1168,9 @@
       {
         "name": "Power Plant",
         "access_rules": [
-          "@Route 10 North Access,$surf,extra_key_items_off",
-          "@Route 10 North Access,$surf,machine_part"
+          "@Route 10 Near Power Plant Access,extra_key_items_off",
+          "@Route 10 Near Power Plant Access,$surf,machine_part",
+          "@Route 10 Near Power Plant Back Access"
         ],
         "sections": [
           {
@@ -1285,7 +1289,7 @@
       {
         "name": "Pokémon Tower",
         "access_rules": [
-          "@Lavender Town Access,$tower"
+          "@Lavender Town Access,$tower_blocked"
         ],
         "sections": [
           {
@@ -1613,7 +1617,7 @@
       {
         "name": "Underground Path East-West Tunnel",
         "access_rules": [
-          "@Lavender Town Access,$tunnels"
+          "@East-West Tunnels Access"
         ],
         "sections": [
           {
@@ -3160,7 +3164,7 @@
           {
             "name": "1F - Plateau Item",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3169,7 +3173,7 @@
           {
             "name": "B1F - Center Plateau Item",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3178,7 +3182,7 @@
           {
             "name": "B2F - Item Below Center Plateau",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3187,7 +3191,7 @@
           {
             "name": "B1F - South Item",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3198,7 +3202,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,^$hidden"
+              "@Route 20 Near South Cave Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3209,7 +3213,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,^$hidden"
+              "@Route 20 Near South Cave Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3218,7 +3222,7 @@
           {
             "name": "B4F - South Peninsula Item",
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3229,7 +3233,7 @@
             "chest_unopened_img": "images/locations/articuno.png",
             "chest_opened_img": "images/locations/articuno_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,$strength"
+              "@Route 20 Near South Cave Access,$strength,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3242,8 +3246,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Fuchsia City Access,$surf",
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near North Cave Access",
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3256,8 +3260,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Fuchsia City Access,$surf",
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near North Cave Access",
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3270,8 +3274,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Fuchsia City Access,$surf",
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near North Cave Access",
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3284,8 +3288,8 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": [
-              "@Fuchsia City Access,$surf",
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near North Cave Access",
+              "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3298,7 +3302,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Fuchsia City Access,$surf"
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3309,8 +3313,8 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf,old_rod",
-              "@Fuchsia City Access,$surf,good_rod"
+              "@Route 20 Near North Cave Access,old_rod",
+              "@Route 20 Near North Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3321,7 +3325,7 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf,good_rod"
+              "@Route 20 Near North Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3332,8 +3336,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf,good_rod",
-              "@Fuchsia City Access,$surf,super_rod"
+              "@Route 20 Near North Cave Access,good_rod",
+              "@Route 20 Near North Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3346,7 +3350,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "@Fuchsia City Access,$surf,super_rod"
+              "@Route 20 Near North Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3359,7 +3363,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near North Cave Access"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3372,7 +3376,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Cinnabar Island Access,$surf"
+              "@Route 20 Near North Cave Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3383,8 +3387,8 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,old_rod",
-              "@Cinnabar Island Access,$surf,good_rod"
+              "@Route 20 Near North Cave Access,old_rod",
+              "@Route 20 Near North Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3395,7 +3399,7 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,good_rod"
+              "@Route 20 Near North Cave Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3406,8 +3410,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Cinnabar Island Access,$surf,good_rod",
-              "@Cinnabar Island Access,$surf,super_rod"
+              "@Route 20 Near North Cave Access,good_rod",
+              "@Route 20 Near North Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3420,7 +3424,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "@Cinnabar Island Access,$surf,super_rod"
+              "@Route 20 Near North Cave Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -4002,7 +4006,7 @@
       {
         "name": "Mt. Ember",
         "access_rules": [
-          "@One Island Access,$surf"
+          "@Kindle Road North Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -4309,7 +4313,7 @@
       {
         "name": "Berry Forest",
         "access_rules": [
-          "@Three Island Access"
+          "@Three Island Town North Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -4597,7 +4601,7 @@
       {
         "name": "Icefall Cave",
         "access_rules": [
-          "@Four Island Access,$surf"
+          "@Four Island Town Near Cave Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -4838,7 +4842,7 @@
       {
         "name": "Rocket Warehouse",
         "access_rules": [
-          "@Five Island Access,learn_goldeen_need_log,learn_yes_nah_chansey"
+          "@Five Island Town Access,learn_goldeen_need_log,learn_yes_nah_chansey"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -4988,7 +4992,7 @@
       {
         "name": "Lost Cave",
         "access_rules": [
-          "@Five Island Access,$surf"
+          "@Resort Gorgeous Near Cave Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -5217,9 +5221,56 @@
         ]
       },
       {
+        "name": "Dotted Hole",
+        "access_rules": [
+          "@Six Island Town Access,help_lorelei,$cut"
+        ],
+        "visibility_rules": [
+          "kanto_only_off"
+        ],
+        "sections": [
+          {
+            "name": "Sapphire Room - Learn Yes Nah Chansey (Event)",
+            "hosted_item": "learn_yes_nah_chansey_hosted",
+            "visibility_rules": [
+              "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "1F - Dropped Item",
+            "access_rules": [
+              "learn_yes_nah_chansey"
+            ],
+            "visibility_rules": [
+              "island_passes_split,$item_locations_visible",
+              "island_passes_split_prog,$item_locations_visible"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 332,
+            "y": 228,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 140,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "ruin_valley",
+            "x": 392,
+            "y": 392
+          }
+        ]
+      },
+      {
         "name": "Pattern Bush",
         "access_rules": [
-          "@Six Island Access,$surf"
+          "@Green Path Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -5360,7 +5411,7 @@
       {
         "name": "Altering Cave",
         "access_rules": [
-          "@Six Island Access,$surf"
+          "@Outcast Island Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -5391,56 +5442,9 @@
         ]
       },
       {
-        "name": "Dotted Hole",
-        "access_rules": [
-          "@Six Island Access,help_lorelei,$cut"
-        ],
-        "visibility_rules": [
-          "kanto_only_off"
-        ],
-        "sections": [
-          {
-            "name": "Sapphire Room - Learn Yes Nah Chansey (Event)",
-            "hosted_item": "learn_yes_nah_chansey_hosted",
-            "visibility_rules": [
-              "$item_locations_visible"
-            ]
-          },
-          {
-            "name": "1F - Dropped Item",
-            "access_rules": [
-              "learn_yes_nah_chansey"
-            ],
-            "visibility_rules": [
-              "island_passes_split,$item_locations_visible",
-              "island_passes_split_prog,$item_locations_visible"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "kanto_sevii",
-            "x": 332,
-            "y": 228,
-            "size": 4
-          },
-          {
-            "map": "sevii_67",
-            "x": 140,
-            "y": 84,
-            "size": 4
-          },
-          {
-            "map": "ruin_valley",
-            "x": 392,
-            "y": 392
-          }
-        ]
-      },
-      {
         "name": "Tanoby Key",
         "access_rules": [
-          "@Seven Island Access"
+          "@Seven Island Town Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -5479,49 +5483,17 @@
       },
       {
         "name": "Tanoby Chambers",
-        "access_rules": [
-          "@Seven Island Access,$surf,unlock_ruins"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
         "sections": [
           {
-            "name": "Viapois Chamber - Land Encounter",
+            "name": "Monean Chamber - Land Encounter",
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
-            "visibility_rules": [
-              "$pokemon_locations_visible"
-            ]
-          },
-          {
-            "name": "Rixy Chamber - Land Encounter",
-            "chest_unopened_img": "images/locations/tanoby_chamber.png",
-            "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
-            "visibility_rules": [
-              "$pokemon_locations_visible"
-            ]
-          },
-          {
-            "name": "Scufib Chamber - Land Encounter",
-            "chest_unopened_img": "images/locations/tanoby_chamber.png",
-            "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
-            "visibility_rules": [
-              "$pokemon_locations_visible"
-            ]
-          },
-          {
-            "name": "Dilford Chamber - Land Encounter",
-            "chest_unopened_img": "images/locations/tanoby_chamber.png",
-            "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
-            "visibility_rules": [
-              "$pokemon_locations_visible"
-            ]
-          },
-          {
-            "name": "Weepth Chamber - Land Encounter",
-            "chest_unopened_img": "images/locations/tanoby_chamber.png",
-            "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Monean Island Access,unlock_ruins"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -5530,14 +5502,64 @@
             "name": "Liptoo Chamber - Land Encounter",
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Liptoo Island Access,unlock_ruins"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
           },
           {
-            "name": "Monean Chamber - Land Encounter",
+            "name": "Weepth Chamber - Land Encounter",
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Weepth Island Access,unlock_ruins"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Dilford Chamber - Land Encounter",
+            "chest_unopened_img": "images/locations/tanoby_chamber.png",
+            "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Dilford Island Access,unlock_ruins"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Scufib Chamber - Land Encounter",
+            "chest_unopened_img": "images/locations/tanoby_chamber.png",
+            "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Scufib Island Access,unlock_ruins"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Rixy Chamber - Land Encounter",
+            "chest_unopened_img": "images/locations/tanoby_chamber.png",
+            "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Rixy Island Access,unlock_ruins"
+            ],
+            "visibility_rules": [
+              "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Viapois Chamber - Land Encounter",
+            "chest_unopened_img": "images/locations/tanoby_chamber.png",
+            "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Viapois Island Access,unlock_ruins"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -5561,7 +5583,7 @@
       {
         "name": "Cerulean Cave",
         "access_rules": [
-          "@Cerulean City Access,$surf,cerulean_cave_requirement"
+          "@Cerulean City Near Cave Access,cerulean_cave_requirement"
         ],
         "sections": [
           {
