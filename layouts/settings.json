@@ -76,6 +76,19 @@
             "early_gossipers_setting",
             "block_sailing_setting",
             "randomize_fly_destinations_setting"
+          ],
+          [
+            "dungeon_entrance_shuffle_setting",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
           ]
         ]
       }
@@ -249,6 +262,150 @@
           ],
           [
             "seven_island_fly_destination"
+          ]
+        ]
+      }
+    ]
+  },
+  "kanto_dungeon_entrance_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "item_size": "392,32",
+        "rows": [
+          [
+            "viridian_forest_south_entrance"
+          ],
+          [
+            "viridian_forest_north_entrance"
+          ],
+          [
+            "mt_moon_west_entrance"
+          ],
+          [
+            "mt_moon_east_entrance"
+          ],
+          [
+            "ss_anne_entrance"
+          ],
+          [
+            "digletts_cave_north_entrance"
+          ],
+          [
+            "digletts_cave_south_entrance"
+          ],
+          [
+            "rock_tunnel_north_entrance"
+          ],
+          [
+            "rock_tunnel_south_entrance"
+          ],
+          [
+            "power_plant_front_entrance"
+          ],
+          [
+            "power_plant_back_entrance"
+          ],
+          [
+            "pokemon_tower_entrance"
+          ],
+          [
+            "rocket_hideout_entrance"
+          ],
+          [
+            "safari_zone_entrance"
+          ],
+          [
+            "silph_co_entrance"
+          ],
+          [
+            "seafoam_islands_north_entrance"
+          ],
+          [
+            "seafoam_islands_south_entrance"
+          ],
+          [
+            "pokemon_mansion_entrance"
+          ],
+          [
+            "victory_road_west_entrance"
+          ],
+          [
+            "victory_road_east_entrance"
+          ],
+          [
+            "cerulean_cave_entrance"
+          ],
+          [
+            "navel_rock_entrance"
+          ]
+        ]
+      }
+    ]
+  },
+  "sevii_dungeon_entrance_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "item_size": "392,32",
+        "rows": [
+          [
+            "mt_ember_entrance"
+          ],
+          [
+            "berry_forest_entrance"
+          ],
+          [
+            "icefall_cave_entrance"
+          ],
+          [
+            "rocket_warehouse_entrance"
+          ],
+          [
+            "lost_cave_entrance"
+          ],
+          [
+            "dotted_hole_entrance"
+          ],
+          [
+            "pattern_bush_east_entrance"
+          ],
+          [
+            "pattern_bush_west_entrance"
+          ],
+          [
+            "altering_cave_entrance"
+          ],
+          [
+            "monean_chamber_entrance"
+          ],
+          [
+            "liptoo_chamber_entrance"
+          ],
+          [
+            "weepth_chamber_entrance"
+          ],
+          [
+            "dilford_chamber_entrance"
+          ],
+          [
+            "scufib_chamber_entrance"
+          ],
+          [
+            "rixy_chamber_entrance"
+          ],
+          [
+            "viapois_chamber_entrance"
           ]
         ]
       }

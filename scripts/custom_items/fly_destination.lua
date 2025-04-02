@@ -1,28 +1,5 @@
 FlyDestination = CustomItem:extend()
 
-FLY_DESTINATION_BASE_IMAGE = {
-    ["pallet_fly_destination"]       = "images/settings/fly_destinations/pallet_fly_destination.png",
-    ["viridian_fly_destination"]     = "images/settings/fly_destinations/viridian_fly_destination.png",
-    ["pewter_fly_destination"]       = "images/settings/fly_destinations/pewter_fly_destination.png",
-    ["route_4_fly_destination"]      = "images/settings/fly_destinations/route_4_fly_destination.png",
-    ["cerulean_fly_destination"]     = "images/settings/fly_destinations/cerulean_fly_destination.png",
-    ["vermilion_fly_destination"]    = "images/settings/fly_destinations/vermilion_fly_destination.png",
-    ["route_10_fly_destination"]     = "images/settings/fly_destinations/route_10_fly_destination.png",
-    ["lavender_fly_destination"]     = "images/settings/fly_destinations/lavender_fly_destination.png",
-    ["celadon_fly_destination"]      = "images/settings/fly_destinations/celadon_fly_destination.png",
-    ["fuchsia_fly_destination"]      = "images/settings/fly_destinations/fuchsia_fly_destination.png",
-    ["saffron_fly_destination"]      = "images/settings/fly_destinations/saffron_fly_destination.png",
-    ["cinnabar_fly_destination"]     = "images/settings/fly_destinations/cinnabar_fly_destination.png",
-    ["indigo_fly_destination"]       = "images/settings/fly_destinations/indigo_fly_destination.png",
-    ["one_island_fly_destination"]   = "images/settings/fly_destinations/one_island_fly_destination.png",
-    ["two_island_fly_destination"]   = "images/settings/fly_destinations/two_island_fly_destination.png",
-    ["three_island_fly_destination"] = "images/settings/fly_destinations/three_island_fly_destination.png",
-    ["four_island_fly_destination"]  = "images/settings/fly_destinations/four_island_fly_destination.png",
-    ["five_island_fly_destination"]  = "images/settings/fly_destinations/five_island_fly_destination.png",
-    ["six_island_fly_destination"]   = "images/settings/fly_destinations/six_island_fly_destination.png",
-    ["seven_island_fly_destination"] = "images/settings/fly_destinations/seven_island_fly_destination.png"
-}
-
 FLY_DESTINATION_DATA = {
     [0]  = { "????", "question" },
     [1]  = { "Pallet Town", "pallet_town" },
@@ -126,7 +103,8 @@ function FlyDestination:init(name, code, stage)
     self.freeFly = "free_fly_" .. code
     self.TownMapFly = "town_map_fly_" .. code
     self:setStage(stage)
-    self.stageCount = 91
+    self.defaultStage = stage
+    self.stageCount = 92
     self:updateIcon()
 end
 
@@ -136,6 +114,10 @@ end
 
 function FlyDestination:getStage()
     return self:getProperty("stage")
+end
+
+function FlyDestination:setToDefaultStage()
+    self:setStage(self.defaultStage)
 end
 
 function FlyDestination:updateIcon()
@@ -150,7 +132,7 @@ end
 
 function FlyDestination:onLeftClick()
     local stage = self:getStage() + 1
-    if stage > self.stageCount then
+    if stage >= self.stageCount then
         stage = 0
     end
     self:setStage(stage)
@@ -159,7 +141,7 @@ end
 function FlyDestination:onRightClick()
     local stage = self:getStage() - 1
     if stage < 0 then
-        stage = self.stageCount
+        stage = self.stageCount - 1
     end
     self:setStage(stage)
 end

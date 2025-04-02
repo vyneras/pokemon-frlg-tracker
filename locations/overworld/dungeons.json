@@ -7,8 +7,10 @@
       {
         "name": "Viridian Forest",
         "access_rules": [
-          "@Viridian City North Access",
-          "@Pewter City Access"
+          "@Viridian City North Access,dungeon_entrance_shuffle_off",
+          "@Pewter City Access,dungeon_entrance_shuffle_off",
+          "viridian_forest_south_exit,dungeon_entrance_shuffle_on",
+          "viridian_forest_north_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -136,8 +138,10 @@
       {
         "name": "Mt. Moon",
         "access_rules": [
-          "@Route 4 West Access,^$mt_moon",
-          "@Route 4 East Access,^$mt_moon"
+          "@Route 4 West Access,^$mt_moon,dungeon_entrance_shuffle_off",
+          "@Route 4 East Access,^$mt_moon,dungeon_entrance_shuffle_off",
+          "mt_moon_west_exit,^$mt_moon,dungeon_entrance_shuffle_on",
+          "mt_moon_east_exit,^$mt_moon,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -577,7 +581,8 @@
       {
         "name": "S.S. Anne",
         "access_rules": [
-          "@Vermilion City Near Harbor Access"
+          "@Vermilion City Near Harbor Access,dungeon_entrance_shuffle_off",
+          "ss_anne_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -904,8 +909,10 @@
       {
         "name": "Diglett's Cave",
         "access_rules": [
-          "@Route 2 Northeast Access,^$digletts_cave",
-          "@Vermilion City Access,^$digletts_cave"
+          "@Route 2 Northeast Access,^$digletts_cave,dungeon_entrance_shuffle_off",
+          "@Vermilion City Access,^$digletts_cave,dungeon_entrance_shuffle_off",
+          "digletts_cave_north_exit,^$digletts_cave,dungeon_entrance_shuffle_on",
+          "digletts_cave_south_exit,^$digletts_cave,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -965,8 +972,10 @@
       {
         "name": "Rock Tunnel",
         "access_rules": [
-          "@Route 10 North Access,^$rock_tunnel",
-          "@Lavender Town Access,^$rock_tunnel"
+          "@Route 10 North Access,^$rock_tunnel,dungeon_entrance_shuffle_off",
+          "@Lavender Town Access,^$rock_tunnel,dungeon_entrance_shuffle_off",
+          "rock_tunnel_north_exit,^$rock_tunnel,dungeon_entrance_shuffle_on",
+          "rock_tunnel_south_exit,^$rock_tunnel,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -1168,9 +1177,11 @@
       {
         "name": "Power Plant",
         "access_rules": [
-          "@Route 10 Near Power Plant Access,extra_key_items_off",
-          "@Route 10 Near Power Plant Access,$surf,machine_part",
-          "@Route 10 Near Power Plant Back Access"
+          "@Route 10 Near Power Plant Access,extra_key_items_off,dungeon_entrance_shuffle_off",
+          "@Route 10 Near Power Plant Access,$surf,machine_part,dungeon_entrance_shuffle_off",
+          "@Route 10 Near Power Plant Back Access,dungeon_entrance_shuffle_off",
+          "power_plant_front_exit,dungeon_entrance_shuffle_on",
+          "power_plant_back_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -1289,7 +1300,8 @@
       {
         "name": "Pokémon Tower",
         "access_rules": [
-          "@Lavender Town Access,$tower_blocked"
+          "@Lavender Town Access,$tower_blocked,dungeon_entrance_shuffle_off",
+          "pokemon_tower_exit,$tower_blocked,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -1726,8 +1738,9 @@
       {
         "name": "Rocket Hideout",
         "access_rules": [
-          "@Celadon City Access,extra_key_items_off",
-          "@Celadon City Access,hideout_key"
+          "@Celadon City Access,extra_key_items_off,dungeon_entrance_shuffle_off",
+          "@Celadon City Access,hideout_key,dungeon_entrance_shuffle_off",
+          "rocket_hideout_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -2012,8 +2025,9 @@
       {
         "name": "Safari Zone",
         "access_rules": [
-          "@Fuchsia City Access,extra_key_items_off",
-          "@Fuchsia City Access,safari_pass"
+          "@Fuchsia City Access,extra_key_items_off,dungeon_entrance_shuffle_off",
+          "@Fuchsia City Access,safari_pass,dungeon_entrance_shuffle_off",
+          "safari_zone_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -2438,7 +2452,8 @@
       {
         "name": "Silph Co.",
         "access_rules": [
-          "@Saffron City Access,$open_silph"
+          "@Saffron City Access,$open_silph,dungeon_entrance_shuffle_off",
+          "silph_co_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -3164,7 +3179,8 @@
           {
             "name": "1F - Plateau Item",
             "access_rules": [
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3173,7 +3189,8 @@
           {
             "name": "B1F - Center Plateau Item",
             "access_rules": [
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3182,7 +3199,8 @@
           {
             "name": "B2F - Item Below Center Plateau",
             "access_rules": [
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3191,7 +3209,8 @@
           {
             "name": "B1F - South Item",
             "access_rules": [
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3202,7 +3221,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 20 Near South Cave Access,^$hidden"
+              "@Route 20 Near South Cave Access,^$hidden,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,^$hidden,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3213,7 +3233,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Route 20 Near South Cave Access,^$hidden"
+              "@Route 20 Near South Cave Access,^$hidden,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,^$hidden,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3222,7 +3243,8 @@
           {
             "name": "B4F - South Peninsula Item",
             "access_rules": [
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3233,7 +3255,8 @@
             "chest_unopened_img": "images/locations/articuno.png",
             "chest_opened_img": "images/locations/articuno_bw.png",
             "access_rules": [
-              "@Route 20 Near South Cave Access,$strength,$surf"
+              "@Route 20 Near South Cave Access,$strength,$surf,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,$strength,$surf,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3246,8 +3269,10 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access",
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near North Cave Access,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3260,8 +3285,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access",
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near North Cave Access,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3274,8 +3301,10 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access",
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near North Cave Access,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3288,8 +3317,10 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access",
-              "@Route 20 Near South Cave Access"
+              "@Route 20 Near North Cave Access,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3302,7 +3333,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access,$surf"
+              "@Route 20 Near North Cave Access,$surf,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3313,8 +3345,10 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Route 20 Near North Cave Access,old_rod",
-              "@Route 20 Near North Cave Access,good_rod"
+              "@Route 20 Near North Cave Access,old_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near North Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,old_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_north_exit,good_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3325,7 +3359,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Route 20 Near North Cave Access,good_rod"
+              "@Route 20 Near North Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,good_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3336,8 +3371,10 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Route 20 Near North Cave Access,good_rod",
-              "@Route 20 Near North Cave Access,super_rod"
+              "@Route 20 Near North Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near North Cave Access,super_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,good_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_north_exit,super_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3350,7 +3387,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access,super_rod"
+              "@Route 20 Near North Cave Access,super_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,super_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3363,7 +3401,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access"
+              "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3376,7 +3415,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access,$surf"
+              "@Route 20 Near South Cave Access,$surf,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,$surf,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3387,8 +3427,10 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Route 20 Near North Cave Access,old_rod",
-              "@Route 20 Near North Cave Access,good_rod"
+              "@Route 20 Near South Cave Access,old_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,old_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,good_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3399,7 +3441,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Route 20 Near North Cave Access,good_rod"
+              "@Route 20 Near South Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,good_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3410,8 +3453,10 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "@Route 20 Near North Cave Access,good_rod",
-              "@Route 20 Near North Cave Access,super_rod"
+              "@Route 20 Near South Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,super_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,good_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,super_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3424,7 +3469,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access,super_rod"
+              "@Route 20 Near South Cave Access,super_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_south_exit,super_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3459,8 +3505,9 @@
       {
         "name": "Pokémon Mansion",
         "access_rules": [
-          "@Cinnabar Island Access,extra_key_items_off",
-          "@Cinnabar Island Access,letter"
+          "@Cinnabar Island Access,extra_key_items_off,dungeon_entrance_shuffle_off",
+          "@Cinnabar Island Access,letter,dungeon_entrance_shuffle_off",
+          "pokemon_mansion_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {
@@ -3696,8 +3743,10 @@
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_naomi,$item_locations_visible"
@@ -3708,8 +3757,10 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash,^$hidden",
-              "@Indigo Plateau Access,$strength,^$hidden"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,^$hidden,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,^$hidden,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,^$hidden,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,^$hidden,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3718,8 +3769,10 @@
           {
             "name": "1F - North Item (Right)",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3728,8 +3781,10 @@
           {
             "name": "1F - North Item (Left)",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3740,8 +3795,10 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash,^$hidden",
-              "@Indigo Plateau Access,$strength,^$hidden"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,^$hidden,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,^$hidden,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,^$hidden,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,^$hidden,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3752,8 +3809,10 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_rolando,$item_locations_visible"
@@ -3764,8 +3823,10 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_daisuke,$item_locations_visible"
@@ -3774,8 +3835,10 @@
           {
             "name": "2F - Item Below Plateau",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3786,8 +3849,10 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,juggler_nelson,$item_locations_visible"
@@ -3796,8 +3861,10 @@
           {
             "name": "2F - Item Above Plateau",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3808,8 +3875,10 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_vincent,$item_locations_visible"
@@ -3820,8 +3889,10 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,juggler_gregory,$item_locations_visible"
@@ -3830,8 +3901,10 @@
           {
             "name": "2F - Northeast Item",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3842,8 +3915,10 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_george,$item_locations_visible"
@@ -3852,8 +3927,10 @@
           {
             "name": "3F - Northeast Item",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3862,8 +3939,10 @@
           {
             "name": "3F - Northwest Item",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3874,8 +3953,10 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,pokemaniac_dawson,$item_locations_visible"
@@ -3884,8 +3965,10 @@
           {
             "name": "2F - Northwest Item",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -3896,8 +3979,10 @@
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_alexa,$item_locations_visible"
@@ -3908,8 +3993,10 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_colby,$item_locations_visible"
@@ -3920,8 +4007,10 @@
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash",
-              "@Indigo Plateau Access,$strength"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_caroline,$item_locations_visible"
@@ -3932,7 +4021,8 @@
             "chest_unopened_img": "images/locations/cool_couple.png",
             "chest_opened_img": "images/locations/cool_couple_bw.png",
             "access_rules": [
-              "@Indigo Plateau Access"
+              "@Indigo Plateau Access,dungeon_entrance_shuffle_off",
+              "victory_road_east_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "trainersanity_on,cool_couple_ray_and_tyra,$item_locations_visible"
@@ -3945,7 +4035,8 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
-              "@Victory Road Front Access"
+              "@Victory Road Front Access,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3958,7 +4049,8 @@
             "item_count": 9,
             "clear_as_group": false,
             "access_rules": [
-              "@Indigo Plateau Access"
+              "@Indigo Plateau Access,dungeon_entrance_shuffle_off",
+              "victory_road_east_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3971,7 +4063,8 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
-              "@Indigo Plateau Access"
+              "@Indigo Plateau Access,dungeon_entrance_shuffle_off",
+              "victory_road_east_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -4006,7 +4099,8 @@
       {
         "name": "Mt. Ember",
         "access_rules": [
-          "@Kindle Road North Access"
+          "@Kindle Road North Access,dungeon_entrance_shuffle_off",
+          "mt_ember_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -4313,7 +4407,8 @@
       {
         "name": "Berry Forest",
         "access_rules": [
-          "@Three Island Town North Access"
+          "@Three Island Town North Access,dungeon_entrance_shuffle_off",
+          "berry_forest_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -4601,7 +4696,8 @@
       {
         "name": "Icefall Cave",
         "access_rules": [
-          "@Four Island Town Near Cave Access"
+          "@Four Island Town Near Cave Access,dungeon_entrance_shuffle_off",
+          "icefall_cave_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -4842,7 +4938,8 @@
       {
         "name": "Rocket Warehouse",
         "access_rules": [
-          "@Five Island Town Access,learn_goldeen_need_log,learn_yes_nah_chansey"
+          "@Five Island Town Access,learn_goldeen_need_log,learn_yes_nah_chansey,dungeon_entrance_shuffle_off",
+          "rocket_warehouse_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -4992,7 +5089,8 @@
       {
         "name": "Lost Cave",
         "access_rules": [
-          "@Resort Gorgeous Near Cave Access"
+          "@Resort Gorgeous Near Cave Access,dungeon_entrance_shuffle_off",
+          "lost_cave_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -5223,7 +5321,8 @@
       {
         "name": "Dotted Hole",
         "access_rules": [
-          "@Six Island Town Access,help_lorelei,$cut"
+          "@Six Island Town Access,help_lorelei,$cut,dungeon_entrance_shuffle_off",
+          "dotted_hole_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -5270,7 +5369,10 @@
       {
         "name": "Pattern Bush",
         "access_rules": [
-          "@Green Path Access"
+          "@Green Path East Access,dungeon_entrance_shuffle_off",
+          "@Green Path West Access,dungeon_entrance_shuffle_off",
+          "pattern_bush_east_exit,dungeon_entrance_shuffle_on",
+          "pattern_bush_west_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -5411,7 +5513,8 @@
       {
         "name": "Altering Cave",
         "access_rules": [
-          "@Outcast Island Access"
+          "@Outcast Island Access,dungeon_entrance_shuffle_off",
+          "altering_cave_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -5492,7 +5595,8 @@
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
             "access_rules": [
-              "@Tanoby Ruins Monean Island Access,unlock_ruins"
+              "@Tanoby Ruins Monean Island Access,unlock_ruins,dungeon_entrance_shuffle_off",
+              "monean_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5503,7 +5607,8 @@
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
             "access_rules": [
-              "@Tanoby Ruins Liptoo Island Access,unlock_ruins"
+              "@Tanoby Ruins Liptoo Island Access,unlock_ruins,dungeon_entrance_shuffle_off",
+              "liptoo_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5514,7 +5619,8 @@
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
             "access_rules": [
-              "@Tanoby Ruins Weepth Island Access,unlock_ruins"
+              "@Tanoby Ruins Weepth Island Access,unlock_ruins,dungeon_entrance_shuffle_off",
+              "weepth_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5525,7 +5631,8 @@
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
             "access_rules": [
-              "@Tanoby Ruins Dilford Island Access,unlock_ruins"
+              "@Tanoby Ruins Dilford Island Access,unlock_ruins,dungeon_entrance_shuffle_off",
+              "dilford_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5536,7 +5643,8 @@
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
             "access_rules": [
-              "@Tanoby Ruins Scufib Island Access,unlock_ruins"
+              "@Tanoby Ruins Scufib Island Access,unlock_ruins,dungeon_entrance_shuffle_off",
+              "scufib_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5547,7 +5655,8 @@
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
             "access_rules": [
-              "@Tanoby Ruins Rixy Island Access,unlock_ruins"
+              "@Tanoby Ruins Rixy Island Access,unlock_ruins,dungeon_entrance_shuffle_off",
+              "rixy_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5558,7 +5667,8 @@
             "chest_unopened_img": "images/locations/tanoby_chamber.png",
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
             "access_rules": [
-              "@Tanoby Ruins Viapois Island Access,unlock_ruins"
+              "@Tanoby Ruins Viapois Island Access,unlock_ruins,dungeon_entrance_shuffle_off",
+              "viapois_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_off"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5583,7 +5693,8 @@
       {
         "name": "Cerulean Cave",
         "access_rules": [
-          "@Cerulean City Near Cave Access,cerulean_cave_requirement"
+          "@Cerulean City Near Cave Access,cerulean_cave_requirement,dungeon_entrance_shuffle_off",
+          "cerulean_cave_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {

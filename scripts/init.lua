@@ -1,4 +1,4 @@
--- ENABLE_DEBUG_LOG = true
+--ENABLE_DEBUG_LOG = true
 TRACKER_READY = false
 Tracker.AllowDeferredLogicUpdate = true
 

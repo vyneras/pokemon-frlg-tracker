@@ -880,6 +880,28 @@
     ]
   },
   {
+    "name": "Dungeon Entrance Shuffle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/dungeon_entrance.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "dungeon_entrance_shuffle_setting,dungeon_entrance_shuffle_off",
+        "inherit_codes": false,
+        "name": "Dungeon Entrance Shuffle - Off"
+      },
+      {
+        "img": "images/settings/dungeon_entrance.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "dungeon_entrance_shuffle_setting,dungeon_entrance_shuffle_on",
+        "inherit_codes": false,
+        "name": "Dungeon Entrance Shuffle - On"
+      }
+    ]
+  },
+  {
     "name": "Mt. Moon",
     "type": "progressive",
     "allow_disabled": false,

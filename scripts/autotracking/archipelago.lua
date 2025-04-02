@@ -150,6 +150,13 @@ function setRandomizeFlyDestinationsSetting(stage)
     end
 end
 
+function setDungeonEntranceShuffleSetting(stage)
+    local object = Tracker:FindObjectForCode("dungeon_entrance_shuffle_setting")
+    if object then
+        object.CurrentStage = stage
+    end
+end
+
 function onClear(slot_data)
     Tracker.BulkUpdate = true
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
@@ -164,6 +171,7 @@ function onClear(slot_data)
     resetWorldStateSettings()
     resetDarkCaves()
     setRandomizeFlyDestinationsSetting(0)
+    setDungeonEntranceShuffleSetting(0)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
@@ -202,6 +210,18 @@ function onClear(slot_data)
             for exit, region in pairs(slot_data["randomize_fly_destinations"]) do
                 local item = FLY_DESTINATION_ITEMS[exit]
                 FLY_DESTINATION_MAPPING[item.flyUnlock] = { item, fly_mapping[region] }
+            end
+        elseif key == "dungeon_entrance_shuffle" then
+            setDungeonEntranceShuffleSetting(1)
+            local dungeon_entrance_mapping = {}
+            for key, value in pairs(DUNGEON_ENTRANCE_DATA) do
+                dungeon_entrance_mapping[value[1]] = key
+            end
+            for entrance, exit in pairs(slot_data["dungeon_entrance_shuffle"]) do
+                local item = DUNGEON_ENTRANCE_ITEMS[entrance]
+                if item ~= nil then
+                    item:setTrackedStage(dungeon_entrance_mapping[exit])
+                end
             end
         elseif SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)

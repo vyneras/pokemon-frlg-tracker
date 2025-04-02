@@ -22,4 +22,5 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("pokemon_tabs", "pokemon_tabs_setting", toggle_item_tabs)
     ScriptHost:AddWatchForCode("kanto_only", "kanto_only_setting", toggle_maps)
     ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
+    ScriptHost:AddWatchForCode("dungeon_entrance_shuffle", "dungeon_entrance_shuffle_setting", set_default_dungeon_entrances)
 end

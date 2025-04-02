@@ -10,6 +10,9 @@ function CustomItem:createItem(name)
     local function invokeRightClick(item)
         item.ItemState:onRightClick()
     end
+    local function invokeMiddleClick(item)
+        item.ItemState:onMiddleClick()
+    end
     local function invokeCanProvideCode(item, code)
         return item.ItemState:canProvideCode(code)
     end
@@ -34,6 +37,7 @@ function CustomItem:createItem(name)
     self.ItemInstance.ItemState = self
     self.ItemInstance.OnLeftClickFunc = invokeLeftClick
     self.ItemInstance.OnRightClickFunc = invokeRightClick
+    self.ItemInstance.OnMiddleClickFunc = invokeMiddleClick
     self.ItemInstance.CanProvideCodeFunc = invokeCanProvideCode
     self.ItemInstance.ProvidesCodeFunc = invokeProvidesCode
     self.ItemInstance.AdvanceToCodeFunc = invokeAdvanceToCode
@@ -48,6 +52,10 @@ end
 
 --	Called when your item is right-clicked
 function CustomItem:onRightClick()
+end
+
+--	Called when your item is middle-clicked
+function CustomItem:onMiddleClick()
 end
 
 --	Called to determine if your item can ever provide a given code

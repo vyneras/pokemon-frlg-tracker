@@ -2391,7 +2391,7 @@
             "name": "South Island Item",
             "access_rules": [
               "@Six Island Town Access,$surf",
-              "@Green Path Access,$surf"
+              "@Green Path East Access,$surf"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2403,7 +2403,7 @@
             "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
             "access_rules": [
               "@Six Island Town Access,$surf",
-              "@Green Path Access,$surf"
+              "@Green Path East Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_denise,$item_locations_visible"
@@ -2415,7 +2415,7 @@
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
               "@Six Island Town Access,$surf",
-              "@Green Path Access,$surf"
+              "@Green Path East Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_samir,$item_locations_visible"
@@ -2426,7 +2426,7 @@
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
             "access_rules": [
-              "@Green Path Access"
+              "@Green Path East Access"
             ],
             "visibility_rules": [
               "trainersanity_on,twins_miu_and_mia,$item_locations_visible"
@@ -2437,7 +2437,7 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "access_rules": [
-              "@Green Path Access"
+              "@Green Path East Access"
             ],
             "visibility_rules": [
               "trainersanity_on,aroma_lady_rose,$item_locations_visible"
@@ -2448,7 +2448,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Green Path Access,^$hidden"
+              "@Green Path East Access,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -2457,7 +2457,7 @@
           {
             "name": "North Island Item",
             "access_rules": [
-              "@Green Path Access,$surf"
+              "@Green Path East Access,$surf"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -2468,7 +2468,7 @@
             "chest_unopened_img": "images/locations/beauty_nest_ball.png",
             "chest_opened_img": "images/locations/beauty_nest_ball_bw.png",
             "access_rules": [
-              "@Green Path Access,heracross"
+              "@Green Path East Access,heracross"
             ],
             "visibility_rules": [
               "pokemon_request_on,$item_locations_visible"
@@ -2495,7 +2495,7 @@
             "clear_as_group": false,
             "access_rules": [
               "@Six Island Town Access,$surf",
-              "@Green Path Access,$surf"
+              "@Green Path East Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2508,8 +2508,8 @@
             "access_rules": [
               "@Six Island Town Access,old_rod",
               "@Six Island Town Access,good_rod",
-              "@Green Path Access,old_rod",
-              "@Green Path Access,good_rod"
+              "@Green Path East Access,old_rod",
+              "@Green Path East Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2522,8 +2522,8 @@
             "access_rules": [
               "@Six Island Town Access,good_rod",
               "@Six Island Town Access,super_rod",
-              "@Green Path Access,good_rod",
-              "@Green Path Access,super_rod"
+              "@Green Path East Access,good_rod",
+              "@Green Path East Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2537,7 +2537,7 @@
             "clear_as_group": false,
             "access_rules": [
               "@Six Island Town Access,super_rod",
-              "@Green Path Access,super_rod"
+              "@Green Path East Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2723,7 +2723,7 @@
       {
         "name": "Green Path",
         "access_rules": [
-          "@Green Path Access"
+          "@Green Path West Access"
         ],
         "visibility_rules": [
           "kanto_only_off"
@@ -3669,7 +3669,8 @@
       {
         "name": "Navel Rock",
         "access_rules": [
-          "@Navel Rock Exterior Access"
+          "@Navel Rock Exterior Access,dungeon_entrance_shuffle_off",
+          "navel_rock_exit,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {

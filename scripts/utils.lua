@@ -212,48 +212,13 @@ function toggle_item_tabs(code)
 end
 
 function set_default_fly_destinations(code)
-    if Tracker:FindObjectForCode(code).CurrentStage == 1 then
-        PALLET_FLY_DESTINATION:setStage(0)
-        VIRIDIAN_FLY_DESTINATION:setStage(0)
-        PEWTER_FLY_DESTINATION:setStage(0)
-        ROUTE_4_FLY_DESTINATION:setStage(0)
-        CERULEAN_FLY_DESTINATION:setStage(0)
-        VERMILION_FLY_DESTINATION:setStage(0)
-        ROUTE_10_FLY_DESTINATION:setStage(0)
-        LAVENDER_FLY_DESTINATION:setStage(0)
-        CELADON_FLY_DESTINATION:setStage(0)
-        FUCHSIA_FLY_DESTINATION:setStage(0)
-        SAFFRON_FLY_DESTINATION:setStage(0)
-        CINNABAR_FLY_DESTINATION:setStage(0)
-        INDIGO_FLY_DESTINATION:setStage(0)
-        ONE_ISLAND_FLY_DESTINATION:setStage(0)
-        TWO_ISLAND_FLY_DESTINATION:setStage(0)
-        THREE_ISLAND_FLY_DESTINATION:setStage(0)
-        FOUR_ISLAND_FLY_DESTINATION:setStage(0)
-        FIVE_ISLAND_FLY_DESTINATION:setStage(0)
-        SIX_ISLAND_FLY_DESTINATION:setStage(0)
-        SEVEN_ISLAND_FLY_DESTINATION:setStage(0)
-    else
-        PALLET_FLY_DESTINATION:setStage(1)
-        VIRIDIAN_FLY_DESTINATION:setStage(2)
-        PEWTER_FLY_DESTINATION:setStage(10)
-        ROUTE_4_FLY_DESTINATION:setStage(12)
-        CERULEAN_FLY_DESTINATION:setStage(14)
-        VERMILION_FLY_DESTINATION:setStage(23)
-        ROUTE_10_FLY_DESTINATION:setStage(28)
-        LAVENDER_FLY_DESTINATION:setStage(32)
-        CELADON_FLY_DESTINATION:setStage(37)
-        FUCHSIA_FLY_DESTINATION:setStage(48)
-        SAFFRON_FLY_DESTINATION:setStage(50)
-        CINNABAR_FLY_DESTINATION:setStage(53)
-        INDIGO_FLY_DESTINATION:setStage(57)
-        ONE_ISLAND_FLY_DESTINATION:setStage(58)
-        TWO_ISLAND_FLY_DESTINATION:setStage(61)
-        THREE_ISLAND_FLY_DESTINATION:setStage(65)
-        FOUR_ISLAND_FLY_DESTINATION:setStage(68)
-        FIVE_ISLAND_FLY_DESTINATION:setStage(70)
-        SIX_ISLAND_FLY_DESTINATION:setStage(74)
-        SEVEN_ISLAND_FLY_DESTINATION:setStage(80)
+    local fly_destinations_randomized = Tracker:FindObjectForCode(code).CurrentStage == 1
+    for _, item in pairs(FLY_DESTINATION_ITEMS) do
+        if fly_destinations_randomized then
+            item:setStage(0)
+        else
+            item:setToDefaultStage()
+        end
     end
 end
 
@@ -267,6 +232,17 @@ function toggle_fly_unlock(code)
             else
                 item:setStage(0)
             end
+        end
+    end
+end
+
+function set_default_dungeon_entrances(code)
+    local dungeon_entrances_shuffled = Tracker:FindObjectForCode(code).CurrentStage == 1
+    for _, item in pairs(DUNGEON_ENTRANCE_ITEMS) do
+        if dungeon_entrances_shuffled then
+            item:setStage(0)
+        else
+            item:setToDefaultStage()
         end
     end
 end

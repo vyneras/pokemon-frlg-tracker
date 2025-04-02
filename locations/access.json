@@ -28,7 +28,8 @@
       "@Viridian City South Access,viridian_city_open",
       "@Viridian City South Access,$cut",
       "@Route 2 Southeast Access,$cut",
-      "@Pewter City Access"
+      "@Pewter City Access,dungeon_entrance_shuffle_off",
+      "viridian_forest_south_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -46,7 +47,8 @@
       "$fly|route_2_northeast",
       "@Route 2 Southeast Access,$cut",
       "@Pewter City Access,$route_2_modified",
-      "@Vermilion City Access,^$digletts_cave"
+      "@Vermilion City Access,^$digletts_cave,dungeon_entrance_shuffle_off",
+      "digletts_cave_north_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -56,9 +58,10 @@
       "$fly|pewter_city",
       "$fly|route_2_northwest",
       "@Pewter City Near Museum Access",
-      "@Viridian City North Access",
+      "@Viridian City North Access,dungeon_entrance_shuffle_off",
       "@Route 2 Northeast Access,$route_2_modified",
-      "@Route 4 West Access"
+      "@Route 4 West Access",
+      "viridian_forest_north_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -74,15 +77,17 @@
       "start_town_route_4",
       "$fly|route_4_west",
       "@Pewter City Access,$leave_pewter_city",
-      "@Route 4 East Access,^$mt_moon"
+      "@Route 4 East Access,^$mt_moon,dungeon_entrance_shuffle_off",
+      "mt_moon_west_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
     "name": "Route 4 East Access",
     "access_rules": [
       "$fly|route_4_east",
-      "@Route 4 West Access,^$mt_moon",
-      "@Cerulean City Near Cave Access"
+      "@Route 4 West Access,^$mt_moon,dungeon_entrance_shuffle_off",
+      "@Cerulean City Near Cave Access",
+      "mt_moon_east_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -113,7 +118,8 @@
     "name": "Cerulean City Near Cave Access",
     "access_rules": [
       "$fly|cerulean_city_near_cave",
-      "@Cerulean City Access,$surf"
+      "@Cerulean City Access,$surf",
+      "cerulean_cave_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -136,7 +142,7 @@
       "@Vermilion City Near Gym Access,$cut",
       "@Vermilion City Near Gym Access,surf",
       "@Vermilion City Near Harbor Access",
-      "@Route 2 Northeast Access,^$digletts_cave",
+      "@Route 2 Northeast Access,^$digletts_cave,dungeon_entrance_shuffle_off",
       "@North-South Tunnels Access,$tunnels_blocked",
       "@Route 12 West Access,$route_12_boulders",
       "@Saffron City Access,tea",
@@ -144,7 +150,8 @@
       "@Cinnabar Island Access,defeat_blaine,kanto_only_on",
       "@Navel Rock Exterior Access,$vermilion_sailing",
       "@Birth Island Exterior Access,$vermilion_sailing",
-      "@Seagallop Access,$vermilion_sailing"
+      "@Seagallop Access,$vermilion_sailing",
+      "digletts_cave_south_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -159,7 +166,8 @@
     "name": "Vermilion City Near Harbor Access",
     "access_rules": [
       "$fly|vermilion_city_near_harbor",
-      "@Vermilion City Access,ss_ticket"
+      "@Vermilion City Access,ss_ticket",
+      "ss_anne_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -169,8 +177,9 @@
       "$fly|route_10_north",
       "@Cerulean City Outskirts Access,$route_9_modified",
       "@Route 10 Near Power Plant Access,$surf",
-      "@Lavender Town Access,^$rock_tunnel",
-      "@Lavender Town Access,$route_10_modified"
+      "@Lavender Town Access,^$rock_tunnel,dungeon_entrance_shuffle_off",
+      "@Lavender Town Access,$route_10_modified",
+      "rock_tunnel_north_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -179,13 +188,15 @@
       "$fly|route_10_near_power_plant",
       "@Route 10 North Access,$surf",
       "@Route 10 Near Power Plant Back Access",
-      "@Lavender Town Access,$route_10_modified"
+      "@Lavender Town Access,$route_10_modified",
+      "power_plant_front_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
     "name": "Route 10 Near Power Plant Back Access",
     "access_rules": [
-      "$fly|route_10_near_power_plant_back"
+      "$fly|route_10_near_power_plant_back",
+      "power_plant_back_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -195,13 +206,15 @@
       "$fly|lavender_town",
       "$fly|route_10_south",
       "$fly|route_8",
-      "@Route 10 North Access,^$rock_tunnel",
+      "@Route 10 North Access,^$rock_tunnel,dungeon_entrance_shuffle_off",
       "@Route 10 North Access,$route_10_modified",
       "@Route 10 Near Power Plant Access,$route_10_modified",
       "@East-West Tunnels Access,$tunnels_blocked",
       "@Route 12 North Access,$route_12_boulders",
       "@Saffron City Access,tea",
-      "@Saffron City Access,purple_tea"
+      "@Saffron City Access,purple_tea",
+      "rock_tunnel_south_entrance,dungeon_entrance_shuffle_on",
+      "pokemon_tower_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -224,7 +237,8 @@
       "@Route 16 North Access,$cut",
       "@Route 16 Center Access,poke_flute",
       "@Saffron City Access,tea",
-      "@Saffron City Access,green_tea"
+      "@Saffron City Access,green_tea",
+      "rocket_hideout_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -294,7 +308,8 @@
       "@Route 12 South Access,$surf",
       "@Route 12 South Access,$route_12_boulders",
       "@Route 16 Center Access,bicycle",
-      "@Route 20 Near North Cave Access,$surf"
+      "@Route 20 Near North Cave Access,$surf",
+      "safari_zone_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -309,23 +324,26 @@
       "@Lavender Town Access,tea",
       "@Lavender Town Access,purple_tea",
       "@Celadon City Access,tea",
-      "@Celadon City Access,green_tea"
+      "@Celadon City Access,green_tea",
+      "silph_co_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
     "name": "Route 20 Near North Cave Access",
     "access_rules": [
       "$fly|route_20_near_north_cave",
-      "@Route 20 Near South Cave Access,$strength,$surf",
-      "@Fuchsia City Access,$surf"
+      "@Route 20 Near South Cave Access,$strength,$surf,dungeon_entrance_shuffle_off",
+      "@Fuchsia City Access,$surf",
+      "seafoam_islands_north_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
     "name": "Route 20 Near South Cave Access",
     "access_rules": [
       "$fly|route_20_near_south_cave",
-      "@Route 20 Near North Cave Access,$surf,$waterfall",
-      "@Cinnabar Island Access,$surf"
+      "@Route 20 Near North Cave Access,$surf,$waterfall,dungeon_entrance_shuffle_off",
+      "@Cinnabar Island Access,$surf",
+      "seafoam_islands_south_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -334,7 +352,8 @@
       "start_town_cinnabar",
       "$fly|cinnabar_island",
       "@Pallet Town Access,$surf",
-      "@Route 20 Near South Cave Access,$surf"
+      "@Route 20 Near South Cave Access,$surf",
+      "pokemon_mansion_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -364,7 +383,8 @@
     "access_rules": [
       "$fly|route_23_near_cave",
       "@Route 23 Center Top Access,route_23_guard_requirement",
-      "@Indigo Plateau Access,$strength,^$victory_road"
+      "@Indigo Plateau Access,$strength,^$victory_road,dungeon_entrance_shuffle_off",
+      "victory_road_west_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -373,7 +393,8 @@
       "start_town_indigo",
       "$fly|indigo_plateau",
       "$fly|route_23_north",
-      "@Victory Road Front Access,$strength,^$victory_road,$victory_road_rock_smash"
+      "@Victory Road Front Access,$strength,^$victory_road,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
+      "victory_road_east_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -399,7 +420,8 @@
     "name": "Kindle Road North Access",
     "access_rules": [
       "$fly|kindle_road_north",
-      "@Kindle Road Center Access,$surf"
+      "@Kindle Road Center Access,$surf",
+      "mt_ember_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -429,7 +451,8 @@
     "access_rules": [
       "$fly|three_island_town_north",
       "$fly|bond_bridge",
-      "@Three Island Town South Access"
+      "@Three Island Town South Access",
+      "berry_forest_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -446,7 +469,8 @@
     "name": "Four Island Town Near Cave Access",
     "access_rules": [
       "$fly|four_island_town_near_cave",
-      "@Four Island Town Access,$surf"
+      "@Four Island Town Access,$surf",
+      "icefall_cave_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -458,7 +482,8 @@
       "@Resort Gorgeous Near Resort Access,$surf",
       "@Resort Gorgeous Near Cave Access,$surf",
       "@Seagallop Access,rainbow_pass",
-      "@Seagallop Access,five_pass"
+      "@Seagallop Access,five_pass",
+      "rocket_warehouse_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -474,7 +499,8 @@
     "access_rules": [
       "$fly|resort_gorgeous_near_cave",
       "@Five Island Town Access,$surf",
-      "@Resort Gorgeous Near Resort Access,$surf"
+      "@Resort Gorgeous Near Resort Access,$surf",
+      "lost_cave_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -483,26 +509,37 @@
       "start_town_six_island",
       "$fly|six_island_town",
       "$fly|ruin_valley",
-      "@Green Path Access,$surf",
+      "@Green Path East Access,$surf",
       "@Seagallop Access,rainbow_pass",
-      "@Seagallop Access,six_pass"
+      "@Seagallop Access,six_pass",
+      "dotted_hole_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
-    "name": "Green Path Access",
+    "name": "Green Path East Access",
     "access_rules": [
       "$fly|water_path_north",
       "$fly|green_path_east",
-      "$fly|green_path_west",
       "@Six Island Town Access,$surf",
-      "@Outcast Island Access,$surf"
+      "@Green Path West Access,dungeon_entrance_shuffle_off",
+      "pattern_bush_east_entrance,dungeon_entrance_shuffle_on"
+    ]
+  },
+  {
+    "name": "Green Path West Access",
+    "access_rules": [
+      "$fly|green_path_west",
+      "@Green Path East Access,dungeon_entrance_shuffle_off",
+      "@Outcast Island Access,$surf",
+      "pattern_bush_west_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
     "name": "Outcast Island Access",
     "access_rules": [
       "$fly|outcast_island",
-      "@Green Path Access,$surf"
+      "@Green Path West Access,$surf",
+      "altering_cave_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -533,7 +570,8 @@
       "@Tanoby Ruins Dilford Island Access,$surf",
       "@Tanoby Ruins Scufib Island Access,$surf",
       "@Tanoby Ruins Rixy Island Access,$surf",
-      "@Tanoby Ruins Viapois Island Access,$surf"
+      "@Tanoby Ruins Viapois Island Access,$surf",
+      "monean_chamber_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -546,7 +584,8 @@
       "@Tanoby Ruins Dilford Island Access,$surf",
       "@Tanoby Ruins Scufib Island Access,$surf",
       "@Tanoby Ruins Rixy Island Access,$surf",
-      "@Tanoby Ruins Viapois Island Access,$surf"
+      "@Tanoby Ruins Viapois Island Access,$surf",
+      "liptoo_chamber_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -559,7 +598,8 @@
       "@Tanoby Ruins Dilford Island Access,$surf",
       "@Tanoby Ruins Scufib Island Access,$surf",
       "@Tanoby Ruins Rixy Island Access,$surf",
-      "@Tanoby Ruins Viapois Island Access,$surf"
+      "@Tanoby Ruins Viapois Island Access,$surf",
+      "weepth_chamber_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -572,7 +612,8 @@
       "@Tanoby Ruins Weepth Island Access,$surf",
       "@Tanoby Ruins Scufib Island Access,$surf",
       "@Tanoby Ruins Rixy Island Access,$surf",
-      "@Tanoby Ruins Viapois Island Access,$surf"
+      "@Tanoby Ruins Viapois Island Access,$surf",
+      "dilford_chamber_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -585,7 +626,8 @@
       "@Tanoby Ruins Weepth Island Access,$surf",
       "@Tanoby Ruins Dilford Island Access,$surf",
       "@Tanoby Ruins Rixy Island Access,$surf",
-      "@Tanoby Ruins Viapois Island Access,$surf"
+      "@Tanoby Ruins Viapois Island Access,$surf",
+      "scufib_chamber_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -598,7 +640,8 @@
       "@Tanoby Ruins Weepth Island Access,$surf",
       "@Tanoby Ruins Dilford Island Access,$surf",
       "@Tanoby Ruins Scufib Island Access,$surf",
-      "@Tanoby Ruins Viapois Island Access,$surf"
+      "@Tanoby Ruins Viapois Island Access,$surf",
+      "rixy_chamber_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -611,7 +654,8 @@
       "@Tanoby Ruins Weepth Island Access,$surf",
       "@Tanoby Ruins Dilford Island Access,$surf",
       "@Tanoby Ruins Scufib Island Access,$surf",
-      "@Tanoby Ruins Rixy Island Access,$surf"
+      "@Tanoby Ruins Rixy Island Access,$surf",
+      "viapois_chamber_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
@@ -625,7 +669,8 @@
     "name": "Navel Rock Exterior Access",
     "access_rules": [
       "$fly|navel_rock_exterior",
-      "@Vermilion City Access,mystic_ticket"
+      "@Vermilion City Access,mystic_ticket",
+      "navel_rock_entrance,dungeon_entrance_shuffle_on"
     ]
   },
   {
