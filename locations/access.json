@@ -206,6 +206,7 @@
       "$fly|lavender_town",
       "$fly|route_10_south",
       "$fly|route_8",
+      "rescue_mr_fuji",
       "@Route 10 North Access,^$rock_tunnel,dungeon_entrance_shuffle_off",
       "@Route 10 North Access,$route_10_modified",
       "@Route 10 Near Power Plant Access,$route_10_modified",
@@ -490,6 +491,7 @@
     "name": "Resort Gorgeous Near Resort Access",
     "access_rules": [
       "$fly|resort_gorgeous_near_resort",
+      "rescue_selphy",
       "@Five Island Town Access,$surf",
       "@Resort Gorgeous Near Cave Access,$surf"
     ]
