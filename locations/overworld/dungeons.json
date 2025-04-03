@@ -4705,24 +4705,36 @@
         "sections": [
           {
             "name": "1F - Center Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
           },
           {
             "name": "B1F - East Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
           },
           {
             "name": "B1F - Southwest Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
           },
           {
             "name": "1F - Southeast Ledge Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -4731,7 +4743,7 @@
             "name": "Back - Help Lorelei (Event)",
             "hosted_item": "help_lorelei_hosted",
             "access_rules": [
-              "$waterfall"
+              "$surf,$waterfall"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -4742,7 +4754,7 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "access_rules": [
-              "$waterfall"
+              "$surf,$waterfall"
             ],
             "visibility_rules": [
               "trainersanity_on,team_rocket_grunt_45,$item_locations_visible"
@@ -4753,7 +4765,7 @@
             "chest_unopened_img": "images/locations/lorelei_rainbow_pass.png",
             "chest_opened_img": "images/locations/lorelei_rainbow_pass_bw.png",
             "access_rules": [
-              "$waterfall"
+              "$surf,$waterfall"
             ],
             "visibility_rules": [
               "island_passes_split,$item_locations_visible",
@@ -4837,6 +4849,9 @@
             "chest_opened_img": "images/locations/ice_cave_bw.png",
             "item_count": 5,
             "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -4847,6 +4862,9 @@
             "chest_opened_img": "images/locations/ice_cave_bw.png",
             "item_count": 5,
             "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -4858,7 +4876,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "$waterfall"
+              "$surf,$waterfall"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -4871,7 +4889,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$waterfall,$surf"
+              "$surf,$waterfall"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -4882,8 +4900,8 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "$waterfall,old_rod",
-              "$waterfall,good_rod"
+              "$surf,$waterfall,old_rod",
+              "$surf,$waterfall,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -4894,8 +4912,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "$waterfall,good_rod",
-              "$waterfall,super_rod"
+              "$surf,$waterfall,good_rod",
+              "$surf,$waterfall,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -4908,7 +4926,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "$waterfall,super_rod"
+              "$surf,$waterfall,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5700,7 +5718,7 @@
           {
             "name": "2F - East Item",
             "access_rules": [
-              "$rock_smash"
+              "$surf,$rock_smash"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -5711,7 +5729,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -5719,6 +5737,9 @@
           },
           {
             "name": "1F - West Plateau Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -5726,7 +5747,7 @@
           {
             "name": "2F - West Item",
             "access_rules": [
-              "$rock_smash"
+              "$surf,$rock_smash"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -5734,6 +5755,9 @@
           },
           {
             "name": "1F - Southwest Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -5741,7 +5765,7 @@
           {
             "name": "2F - Center Item",
             "access_rules": [
-              "$rock_smash"
+              "$surf,$rock_smash"
             ],
             "visibility_rules": [
               "$item_locations_visible"
@@ -5749,18 +5773,27 @@
           },
           {
             "name": "1F - East Plateau Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
           },
           {
             "name": "B1F - Northeast Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
           },
           {
             "name": "B1F - East Plateau Item",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$item_locations_visible"
             ]
@@ -5769,6 +5802,9 @@
             "name": "B1F - Legendary Pokémon",
             "chest_unopened_img": "images/locations/mewtwo.png",
             "chest_opened_img": "images/locations/mewtwo_bw.png",
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -5850,6 +5886,9 @@
             "chest_opened_img": "images/locations/cerulean_cave_bw.png",
             "item_count": 8,
             "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -5860,6 +5899,9 @@
             "chest_opened_img": "images/locations/cerulean_cave_bw.png",
             "item_count": 8,
             "clear_as_group": false,
+            "access_rules": [
+              "$surf"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -5882,8 +5924,8 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "$surf,old_rod",
+              "$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5894,7 +5936,7 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod"
+              "$surf,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5905,8 +5947,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "$surf,good_rod",
+              "$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -5919,7 +5961,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "$surf,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"

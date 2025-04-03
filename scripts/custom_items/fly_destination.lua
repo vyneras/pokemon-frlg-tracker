@@ -131,19 +131,23 @@ function FlyDestination:updateIcon()
 end
 
 function FlyDestination:onLeftClick()
-    local stage = self:getStage() + 1
-    if stage >= self.stageCount then
-        stage = 0
+    if has("randomize_fly_destinations_on") then
+        local stage = self:getStage() + 1
+        if stage >= self.stageCount then
+            stage = 0
+        end
+        self:setStage(stage)
     end
-    self:setStage(stage)
 end
 
 function FlyDestination:onRightClick()
-    local stage = self:getStage() - 1
-    if stage < 0 then
-        stage = self.stageCount - 1
+    if has("randomize_fly_destinations_on") then
+        local stage = self:getStage() - 1
+        if stage < 0 then
+            stage = self.stageCount - 1
+        end
+        self:setStage(stage)
     end
-    self:setStage(stage)
 end
 
 function FlyDestination:canProvideCode(code)

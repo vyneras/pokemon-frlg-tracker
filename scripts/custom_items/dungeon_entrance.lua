@@ -47,6 +47,7 @@ function DungeonEntrance:init(name, code, stage)
     self:createItem(name .. " - ????")
     self.code = code
     self:setStage(stage)
+    self:setTrackedStage(0)
     self.stageCount = 39
     self.defaultStage = stage
     self:updateIcon()
@@ -83,27 +84,33 @@ function DungeonEntrance:updateIcon()
 end
 
 function DungeonEntrance:onLeftClick()
-    local stage = self:getStage() + 1
-    if stage >= self.stageCount then
-        stage = 0
+    if has("dungeon_entrance_shuffle_on") then
+        local stage = self:getStage() + 1
+        if stage >= self.stageCount then
+            stage = 0
+        end
+        self:setStage(stage)
     end
-    self:setStage(stage)
 end
 
 function DungeonEntrance:onRightClick()
-    local stage = self:getStage() - 1
-    if stage < 0 then
-        stage = self.stageCount - 1
+    if has("dungeon_entrance_shuffle_on") then
+        local stage = self:getStage() - 1
+        if stage < 0 then
+            stage = self.stageCount - 1
+        end
+        self:setStage(stage)
     end
-    self:setStage(stage)
 end
 
 function DungeonEntrance:onMiddleClick()
-    if self:getTrackedStage() ~= 0 then
-        if self:getStage() == 0 then
-            self:setStage(self:getTrackedStage())
-        else
-            self:setStage(0)
+    if has("dungeon_entrance_shuffle_on") then
+        if self:getTrackedStage() ~= 0 then
+            if self:getStage() == 0 then
+                self:setStage(self:getTrackedStage())
+            else
+                self:setStage(0)
+            end
         end
     end
 end
