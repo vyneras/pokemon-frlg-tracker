@@ -240,7 +240,11 @@ function set_default_dungeon_entrances(code)
     local dungeon_entrances_shuffled = Tracker:FindObjectForCode(code).CurrentStage == 1
     for _, item in pairs(DUNGEON_ENTRANCE_ITEMS) do
         if dungeon_entrances_shuffled then
-            item:setStage(0)
+            if item:getEntranceKnown() then
+                item:setStage(item:getTrackedStage())
+            else
+                item:setStage(0)
+            end
         else
             item:setToDefaultStage()
         end

@@ -2027,7 +2027,8 @@
         "access_rules": [
           "@Fuchsia City Access,extra_key_items_off,dungeon_entrance_shuffle_off",
           "@Fuchsia City Access,safari_pass,dungeon_entrance_shuffle_off",
-          "safari_zone_exit,dungeon_entrance_shuffle_on"
+          "safari_zone_exit,extra_key_items_off,dungeon_entrance_shuffle_on",
+          "safari_zone_exit,safari_pass,dungeon_entrance_shuffle_on"
         ],
         "sections": [
           {

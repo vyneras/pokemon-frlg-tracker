@@ -48,6 +48,7 @@ function DungeonEntrance:init(name, code, stage)
     self.code = code
     self:setStage(stage)
     self:setTrackedStage(0)
+    self:setEntranceKnown(false)
     self.stageCount = 39
     self.defaultStage = stage
     self:updateIcon()
@@ -61,12 +62,20 @@ function DungeonEntrance:getStage()
     return self:getProperty("stage")
 end
 
-function DungeonEntrance:setTrackedStage(stage)
-    self:setProperty("trackedStage", stage)
+function DungeonEntrance:setTrackedStage(trackedStage)
+    self:setProperty("trackedStage", trackedStage)
 end
 
 function DungeonEntrance:getTrackedStage()
     return self:getProperty("trackedStage")
+end
+
+function DungeonEntrance:setEntranceKnown(entranceKnown)
+    self:setProperty("entranceKnown", entranceKnown)
+end
+
+function DungeonEntrance:getEntranceKnown()
+    return self:getProperty("entranceKnown")
 end
 
 function DungeonEntrance:setToDefaultStage()
@@ -107,8 +116,10 @@ function DungeonEntrance:onMiddleClick()
     if has("dungeon_entrance_shuffle_on") then
         if self:getTrackedStage() ~= 0 then
             if self:getStage() == 0 then
+                self:setEntranceKnown(true)
                 self:setStage(self:getTrackedStage())
             else
+                self:setEntranceKnown(false)
                 self:setStage(0)
             end
         end
@@ -138,6 +149,7 @@ function DungeonEntrance:save()
     local save_data = {}
     save_data["stage"] = self:getStage()
     save_data["trackedStage"] = self:getTrackedStage()
+    save_data["entranceKnwon"] = self:getEntranceKnown()
     return save_data
 end
 
@@ -147,6 +159,9 @@ function DungeonEntrance:load(data)
     end
     if data["trackedStage"] ~= nil then
         self:setTrackedStage(data["trackedStage"])
+    end
+    if data["entranceKnwon"] ~= nil then
+        self:setEntranceKnown(data["entranceKnwon"])
     end
     self:updateIcon()
     return true
