@@ -113,6 +113,22 @@
             "y": 440
           }
         ]
+      },
+      {
+        "name": "Rocket Warehouse Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/Rocket Warehouse Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 200,
+            "y": 344
+          }
+        ]
       }
     ]
   }

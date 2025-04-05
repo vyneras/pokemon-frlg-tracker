@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Birth Island Exterior",
+    "children": [
+      {
+        "name": "Legendary Pokémon",
+        "sections": [
+          {
+            "ref": "Islands/Birth Island/Legendary Pokémon",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "birth_island",
+            "x": 248,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  }
+]

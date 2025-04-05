@@ -75,6 +75,22 @@
             "y": 248
           }
         ]
+      },
+      {
+        "name": "Pokémon Tower Entrance",
+        "sections": [
+          {
+            "ref": "Cities/Lavender Town/Pokémon Tower Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 296,
+            "y": 104
+          }
+        ]
       }
     ]
   },

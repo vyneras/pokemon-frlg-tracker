@@ -74,6 +74,22 @@
             "y": 24
           }
         ]
+      },
+      {
+        "name": "Diglett's Cave North Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/Diglett's Cave North Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 280,
+            "y": 184
+          }
+        ]
       }
     ]
   },
@@ -93,6 +109,58 @@
             "map": "route_2_gate",
             "x": 72,
             "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Forest South Entrance",
+    "children": [
+      {
+        "name": "Viridian Forest South Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/Viridian Forest South Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 96,
+            "y": 184
+          },
+          {
+            "map": "viridian_forest_south_entrance",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Forest North Entrance",
+    "children": [
+      {
+        "name": "Viridian Forest North Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/Viridian Forest North Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 96,
+            "y": 216
+          },
+          {
+            "map": "viridian_forest_north_entrance",
+            "x": 120,
+            "y": 168
           }
         ]
       }

@@ -230,6 +230,22 @@
             "y": 136
           }
         ]
+      },
+      {
+        "name": "Lost Cave Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Lost Cave Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 440,
+            "y": 216
+          }
+        ]
       }
     ]
   },

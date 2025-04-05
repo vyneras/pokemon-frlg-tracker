@@ -240,6 +240,22 @@
             "y": 104
           }
         ]
+      },
+      {
+        "name": "Cerulean Cave Entrance",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Cerulean Cave Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 24,
+            "y": 200
+          }
+        ]
       }
     ]
   },

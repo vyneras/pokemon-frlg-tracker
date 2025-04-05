@@ -162,6 +162,38 @@
             "y": 56
           }
         ]
+      },
+      {
+        "name": "Mt. Moon West Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/Mt. Moon West Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 312,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon East Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 East/Mt. Moon East Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 520,
+            "y": 88
+          }
+        ]
       }
     ]
   },
