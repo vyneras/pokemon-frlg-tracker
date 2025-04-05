@@ -4,7 +4,7 @@
     "access_rules": [
       "start_town_pallet",
       "$fly|pallet_town",
-      "@Viridian City Access",
+      "@Viridian City South Access",
       "@Cinnabar Island Access,$surf"
     ]
   },
@@ -15,7 +15,7 @@
       "$fly|viridian_city_south",
       "$fly|route_22",
       "@Pallet Town Access",
-      "@Pewter City Access",
+      "@Viridian City North Access",
       "@Route 23 South Access"
     ]
   },
