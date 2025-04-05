@@ -235,6 +235,38 @@
             "y": 168
           }
         ]
+      },
+      {
+        "name": "Seafoam Islands South Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 West/Seafoam Islands South Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_center",
+            "x": 328,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands North Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 20 East/Seafoam Islands North Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_center",
+            "x": 520,
+            "y": 232
+          }
+        ]
       }
     ]
   }

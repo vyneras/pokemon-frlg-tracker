@@ -126,12 +126,34 @@
           {
             "map": "route_2_south",
             "x": 96,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           },
           {
             "map": "route_2_north",
             "x": 96,
-            "y": 216
+            "y": 216,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "map": "viridian_forest_south_entrance",
+            "x": 120,
+            "y": 24,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "map": "viridian_forest_north_entrance",
+            "x": 120,
+            "y": 168,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -460,12 +482,18 @@
           {
             "map": "route_4_west",
             "x": 312,
-            "y": 88
+            "y": 88,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           },
           {
             "map": "route_4_west",
             "x": 520,
-            "y": 88
+            "y": 88,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -902,7 +930,10 @@
           {
             "map": "vermilion_city",
             "x": 376,
-            "y": 552
+            "y": 552,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -960,12 +991,18 @@
           {
             "map": "route_2_north",
             "x": 280,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           },
           {
             "map": "route_11_west",
             "x": 104,
-            "y": 120
+            "y": 120,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -1165,12 +1202,18 @@
           {
             "map": "route_10_north",
             "x": 136,
-            "y": 312
+            "y": 312,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           },
           {
             "map": "route_10_south",
             "x": 136,
-            "y": 408
+            "y": 408,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -1293,7 +1336,18 @@
           {
             "map": "route_10_south",
             "x": 120,
-            "y": 136
+            "y": 136,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "map": "route_10_south",
+            "x": 40,
+            "y": 88,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -1622,7 +1676,10 @@
           {
             "map": "lavender_town",
             "x": 296,
-            "y": 104
+            "y": 104,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -2013,12 +2070,18 @@
           {
             "map": "celadon_city",
             "x": 560,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           },
           {
             "map": "celadon_game_corner",
             "x": 264,
-            "y": 40
+            "y": 40,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -2446,7 +2509,10 @@
           {
             "map": "fuchsia_city",
             "x": 392,
-            "y": 88
+            "y": 88,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -3170,7 +3236,10 @@
           {
             "map": "saffron_city",
             "x": 536,
-            "y": 488
+            "y": 488,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -3494,12 +3563,18 @@
           {
             "map": "route_20_center",
             "x": 328,
-            "y": 136
+            "y": 136,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           },
           {
             "map": "route_20_center",
             "x": 520,
-            "y": 232
+            "y": 232,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -3729,7 +3804,10 @@
           {
             "map": "cinnabar_island",
             "x": 136,
-            "y": 56
+            "y": 56,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -4088,12 +4166,18 @@
           {
             "map": "route_23_north",
             "x": 88,
-            "y": 456
+            "y": 456,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           },
           {
             "map": "route_23_north",
             "x": 296,
-            "y": 456
+            "y": 456,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -4401,7 +4485,10 @@
           {
             "map": "kindle_road_north",
             "x": 192,
-            "y": 104
+            "y": 104,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -4690,7 +4777,10 @@
           {
             "map": "bond_bridge_west",
             "x": 208,
-            "y": 104
+            "y": 104,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -4950,7 +5040,10 @@
           {
             "map": "four_island",
             "x": 616,
-            "y": 200
+            "y": 200,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -5101,7 +5194,10 @@
           {
             "map": "five_isle_meadow",
             "x": 200,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -5333,7 +5429,10 @@
           {
             "map": "resort_gorgeous_east",
             "x": 440,
-            "y": 216
+            "y": 216,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -5381,7 +5480,10 @@
           {
             "map": "ruin_valley",
             "x": 392,
-            "y": 392
+            "y": 392,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -5520,12 +5622,18 @@
           {
             "map": "green_path_east",
             "x": 160,
-            "y": 168
+            "y": 168,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           },
           {
             "map": "green_path_east",
             "x": 448,
-            "y": 168
+            "y": 168,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -5560,6 +5668,14 @@
             "x": 132,
             "y": 20,
             "size": 4
+          },
+          {
+            "map": "outcast_island_north",
+            "x": 120,
+            "y": 344,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       },
@@ -5985,7 +6101,10 @@
           {
             "map": "cerulean_city",
             "x": 24,
-            "y": 200
+            "y": 200,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ]
       }

@@ -32,12 +32,12 @@
             "x": 368,
             "y": 12
           },
-        {
+          {
             "map": "kindle_road_center_top",
             "x": 368,
             "y": 12
           },
-        {
+          {
             "map": "kindle_road_center_bottom",
             "x": 368,
             "y": 12
@@ -286,6 +286,22 @@
             "map": "kindle_road_center_top",
             "x": 120,
             "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Mt. Ember Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_north",
+            "x": 192,
+            "y": 104
           }
         ]
       }

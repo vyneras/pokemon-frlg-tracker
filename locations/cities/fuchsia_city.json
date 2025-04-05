@@ -255,6 +255,22 @@
             "y": 520
           }
         ]
+      },
+      {
+        "name": "Safari Zone Entrance",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Safari Zone Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 392,
+            "y": 88
+          }
+        ]
       }
     ]
   },

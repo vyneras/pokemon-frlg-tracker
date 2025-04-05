@@ -1,5 +1,53 @@
 [
   {
+    "name": "Navel Rock Exterior",
+    "children": [
+      {
+        "name": "Navel Rock Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Navel Rock/Navel Rock Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_exterior",
+            "x": 152,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock",
+        "sections": [
+          {
+            "ref": "Islands/Navel Rock/Hidden Item Near Ho-Oh",
+            "name": "Hidden Item"
+          },
+          {
+            "ref": "Islands/Navel Rock/Summit - Legendary Pokémon",
+            "name": "Pokémon"
+          },
+          {
+            "ref": "Islands/Navel Rock/Base - Legendary Pokémon",
+            "name": "Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_exterior",
+            "x": 152,
+            "y": 136,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Navel Rock Summit",
     "children": [
       {

@@ -115,9 +115,11 @@ end
 
 function DungeonEntrance:onMiddleClick()
     if has("dungeon_entrance_shuffle_on") then
-        local object = Tracker:FindObjectForCode(self.code .. "_hosted")
-        if object then
-            object.Active = not object.Active
+        if self:getTrackedStage() ~= 0 then
+            local object = Tracker:FindObjectForCode(self.code .. "_hosted")
+            if object then
+                object.Active = not object.Active
+            end
         end
     end
 end

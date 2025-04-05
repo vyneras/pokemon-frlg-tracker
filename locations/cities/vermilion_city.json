@@ -214,6 +214,22 @@
             "y": 408
           }
         ]
+      },
+      {
+        "name": "S.S. Anne Entrance",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/S.S. Anne Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 376,
+            "y": 552
+          }
+        ]
       }
     ]
   },

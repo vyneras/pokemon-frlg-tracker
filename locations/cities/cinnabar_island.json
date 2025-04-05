@@ -219,6 +219,22 @@
             "y": 184
           }
         ]
+      },
+      {
+        "name": "Pokémon Mansion Entrance",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Pokémon Mansion Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 136,
+            "y": 56
+          }
+        ]
       }
     ]
   },

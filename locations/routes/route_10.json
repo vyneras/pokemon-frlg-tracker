@@ -242,6 +242,70 @@
             "y": 200
           }
         ]
+      },
+      {
+        "name": "Rock Tunnel North Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Rock Tunnel North Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 136,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel South Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 South/Rock Tunnel South Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 136,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Front Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Power Plant Front Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Back Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Power Plant Back Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 40,
+            "y": 88
+          }
+        ]
       }
     ]
   },

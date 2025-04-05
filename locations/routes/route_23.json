@@ -180,6 +180,38 @@
             "y": 136
           }
         ]
+      },
+      {
+        "name": "Victory Road West Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Victory Road West Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 88,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Victory Road East Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Victory Road East Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 296,
+            "y": 456
+          }
+        ]
       }
     ]
   }

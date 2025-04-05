@@ -162,6 +162,22 @@
             "y": 392
           }
         ]
+      },
+      {
+        "name": "Altering Cave Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Outcast Island/Altering Cave Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 120,
+            "y": 344
+          }
+        ]
       }
     ]
   }

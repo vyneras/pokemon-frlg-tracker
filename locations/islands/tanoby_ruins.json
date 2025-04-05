@@ -188,6 +188,251 @@
             "y": 184
           }
         ]
+      },
+      {
+        "name": "Monean Chamber Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Monean Chamber Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 376,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Monean Chamber",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Monean Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 376,
+            "y": 168,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Liptoo Chamber Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Liptoo Chamber Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 104,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Liptoo Chamber",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Liptoo Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 104,
+            "y": 168,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Weepth Chamber Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Weepth Chamber Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 312,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Weepth Chamber",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Weepth Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 312,
+            "y": 136,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dilford Chamber Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Dilford Chamber Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_left",
+            "x": 104,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Dilford Chamber",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Dilford Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_left",
+            "x": 104,
+            "y": 184,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Scufib Chamber Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Scufib Chamber Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 520,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Scufib Chamber",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Scufib Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 520,
+            "y": 152,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Rixy Chamber Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Rixy Chamber Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 200,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Rixy Chamber",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Rixy Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 200,
+            "y": 248,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Viapois Chamber Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Viapois Chamber Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Viapois Chamber",
+        "sections": [
+          {
+            "ref": "Dungeons/Tanoby Chambers/Viapois Chamber - Land Encounter",
+            "name": "Land Encounter"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 184,
+            "y": 104,
+            "force_invisibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          }
+        ]
       }
     ]
   }

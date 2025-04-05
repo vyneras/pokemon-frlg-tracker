@@ -286,6 +286,22 @@
             "y": 232
           }
         ]
+      },
+      {
+        "name": "Diglett's Cave South Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Diglett's Cave South Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 104,
+            "y": 120
+          }
+        ]
       }
     ]
   },

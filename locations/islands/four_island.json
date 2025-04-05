@@ -184,6 +184,22 @@
             "y": 312
           }
         ]
+      },
+      {
+        "name": "Icefall Cave Entrance",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Icefall Cave Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 616,
+            "y": 200
+          }
+        ]
       }
     ]
   },

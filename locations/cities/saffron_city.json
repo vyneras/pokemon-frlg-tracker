@@ -242,6 +242,22 @@
             "y": 200
           }
         ]
+      },
+      {
+        "name": "Silph Co. Entrance",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Silph Co. Entrance",
+            "name": "Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 536,
+            "y": 488
+          }
+        ]
       }
     ]
   },
