@@ -79,6 +79,39 @@
             ]
           },
           {
+            "name": "Viridian Forest South Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Viridian City North Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Viridian Forest North Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Pewter City Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Diglett's Cave North Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Route 2 Northeast Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
@@ -266,6 +299,14 @@
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
+          },
+          {
+            "name": "Mt. Moon West Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ],
         "map_locations": [
@@ -326,6 +367,17 @@
             ],
             "visibility_rules": [
               "trainersanity_on,lass_crissy,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Mt. Moon East Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Route 4 East Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -1076,6 +1128,40 @@
             ]
           },
           {
+            "name": "Rock Tunnel North Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Route 10 North Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Power Plant Front Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Route 10 Near Power Plant Access,extra_key_items_off",
+              "@Route 10 Near Power Plant Access,machine_part"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Power Plant Back Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Route 10 Near Power Plant Back Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
@@ -1233,6 +1319,17 @@
             ],
             "visibility_rules": [
               "trainersanity_on,hiker_trent,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Rock Tunnel South Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Lavender Town Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -1396,6 +1493,14 @@
             ],
             "visibility_rules": [
               "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Diglett's Cave South Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -2973,6 +3078,17 @@
             ]
           },
           {
+            "name": "Seafoam Islands South Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Route 20 Near South Cave Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -3110,6 +3226,17 @@
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Seafoam Islands North Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Route 20 Near North Cave Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -3533,6 +3660,28 @@
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Victory Road West Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Victory Road Front Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Victory Road East Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Indigo Plateau Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {

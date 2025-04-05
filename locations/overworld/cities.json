@@ -1030,6 +1030,17 @@
             ]
           },
           {
+            "name": "Cerulean Cave Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Cerulean City Near Cave Access,cerulean_cave_requirement"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -1359,6 +1370,17 @@
             ]
           },
           {
+            "name": "S.S. Anne Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Vermilion City Near Harbor Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -1528,6 +1550,14 @@
             "clear_as_group": false,
             "visibility_rules": [
               "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Pokémon Tower Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           }
         ],
@@ -2235,6 +2265,18 @@
             ]
           },
           {
+            "name": "Rocket Hideout Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Celadon City Access,extra_key_items_off",
+              "@Celadon City Access,hideout_key"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -2549,6 +2591,14 @@
             ],
             "visibility_rules": [
               "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Safari Zone Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -2943,6 +2993,17 @@
             "visibility_rules": [
               "$item_locations_visible"
             ]
+          },
+          {
+            "name": "Silph Co. Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "$open_silph"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ],
         "map_locations": [
@@ -3253,6 +3314,18 @@
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Pokémon Mansion Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "extra_key_items_off",
+              "letter"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {

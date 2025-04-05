@@ -527,6 +527,17 @@
             ]
           },
           {
+            "name": "Mt. Ember Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Kindle Road North Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
@@ -1258,6 +1269,14 @@
             ]
           },
           {
+            "name": "Berry Forest Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
@@ -1458,6 +1477,17 @@
             ],
             "visibility_rules": [
               "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Icefall Cave Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Four Island Town Near Cave Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -1691,6 +1721,17 @@
             ],
             "visibility_rules": [
               "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Rocket Warehouse Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "learn_goldeen_need_log,learn_yes_nah_chansey"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -2195,6 +2236,17 @@
             ]
           },
           {
+            "name": "Lost Cave Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Cave Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -2636,6 +2688,17 @@
             ]
           },
           {
+            "name": "Dotted Hole Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "help_lorelei,$cut"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
@@ -2722,9 +2785,6 @@
       },
       {
         "name": "Green Path",
-        "access_rules": [
-          "@Green Path West Access"
-        ],
         "visibility_rules": [
           "kanto_only_off"
         ],
@@ -2734,7 +2794,7 @@
             "chest_unopened_img": "images/locations/woman.png",
             "chest_opened_img": "images/locations/woman_bw.png",
             "access_rules": [
-              "$surf"
+              "@Green Path West Access,$surf"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_jaclyn,$item_locations_visible"
@@ -2745,10 +2805,32 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$surf,^$hidden"
+              "@Green Path West Access,$surf,^$hidden"
             ],
             "visibility_rules": [
               "hidden_all,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Pattern Bush East Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Green Path East Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Pattern Bush West Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Green Path West Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -2758,7 +2840,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$surf"
+              "@Green Path West Access,$surf"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2769,8 +2851,8 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "@Green Path West Access,old_rod",
+              "@Green Path West Access,good_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2781,8 +2863,8 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "@Green Path West Access,good_rod",
+              "@Green Path West Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2795,7 +2877,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "@Green Path West Access,super_rod"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -2907,6 +2989,14 @@
             ],
             "visibility_rules": [
               "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Altering Cave Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -3394,6 +3484,83 @@
             ]
           },
           {
+            "name": "Viapois Chamber Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Viapois Island Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Rixy Chamber Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Rixy Island Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Scufib Chamber Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Scufib Island Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Dilford Chamber Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Dilford Island Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Weepth Chamber Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Weepth Island Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Liptoo Chamber Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Liptoo Island Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
+            "name": "Monean Chamber Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Tanoby Ruins Monean Island Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -3678,7 +3845,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "itemfinder"
+              "@Navel Rock Exterior Access,dungeon_entrance_shuffle_off,itemfinder",
+              "navel_rock_exit,dungeon_entrance_shuffle_on,itemfinder"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,$item_locations_visible"
@@ -3688,6 +3856,10 @@
             "name": "Summit - Legendary Pokémon",
             "chest_unopened_img": "images/locations/ho_oh.png",
             "chest_opened_img": "images/locations/ho_oh_bw.png",
+            "access_rules": [
+              "@Navel Rock Exterior Access,dungeon_entrance_shuffle_off",
+              "navel_rock_exit,dungeon_entrance_shuffle_on"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
             ]
@@ -3696,8 +3868,23 @@
             "name": "Base - Legendary Pokémon",
             "chest_unopened_img": "images/locations/lugia.png",
             "chest_opened_img": "images/locations/lugia_bw.png",
+            "access_rules": [
+              "@Navel Rock Exterior Access,dungeon_entrance_shuffle_off",
+              "navel_rock_exit,dungeon_entrance_shuffle_on"
+            ],
             "visibility_rules": [
               "$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Navel Rock Entrance",
+            "chest_unopened_img": "images/locations/dungeon_entrance.png",
+            "chest_opened_img": "images/locations/dungeon_entrance_bw.png",
+            "access_rules": [
+              "@Navel Rock Exterior Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           }
         ],
