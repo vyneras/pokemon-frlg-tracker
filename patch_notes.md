@@ -13,7 +13,7 @@
 + Added manual tracking support for Dungeon Entrance Shuffle
   + The dungeon entrances are in the settings popup, when dungeon entrance shuffle is on they will all default to unknown (????)
   + You can cycle through the available entrances to set a dungeon to by left-clicking or right-clicking
-  + If you are connected to AP for auto tracking, you can middle-click to immediately set the dungeon entrance to the dungeon it connects to
+  + If you are connected to AP for auto tracking, clicking a dungeon entrance on the map or middle-clicking the dungeon entrance in the settings popup will set the entrance to the dungeon it connects to
   + Leave dungeon entrances as unknown if you have not found them yet. The tracker logic will assume that you can reach any dungeon entrance that is not set to unknown (e.g. If you toggle the Rocket Hideout entrance to any dungeon, the tracker will assume that you can reach Celadon City)
 
 ## Bug Fixes

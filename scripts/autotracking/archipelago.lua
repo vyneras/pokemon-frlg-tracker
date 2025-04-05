@@ -221,6 +221,7 @@ function onClear(slot_data)
                 local item = DUNGEON_ENTRANCE_ITEMS[entrance]
                 if item ~= nil then
                     item:setTrackedStage(dungeon_entrance_mapping[exit])
+                    DUNGEON_ENTRANCE_MAPPING[item.code .. "_hosted"] = item
                 end
             end
         elseif SLOT_CODES[key] then

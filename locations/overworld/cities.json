@@ -1030,6 +1030,16 @@
             ]
           },
           {
+            "name": "Cerulean Cave Entrance",
+            "hosted_item": "cerulean_cave_hosted",
+            "access_rules": [
+              "@Cerulean City Near Cave Access,cerulean_cave_requirement"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -1359,6 +1369,16 @@
             ]
           },
           {
+            "name": "S.S. Anne Entrance",
+            "hosted_item": "ss_anne_hosted",
+            "access_rules": [
+              "@Vermilion City Near Harbor Access"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounter",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -1528,6 +1548,13 @@
             "clear_as_group": false,
             "visibility_rules": [
               "shopsanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Pokémon Tower Entrance",
+            "hosted_item": "pokemon_tower_hosted",
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           }
         ],
@@ -2235,6 +2262,17 @@
             ]
           },
           {
+            "name": "Rocket Hideout Entrance",
+            "hosted_item": "rocket_hideout_hosted",
+            "access_rules": [
+              "@Celadon City Access,extra_key_items_off",
+              "@Celadon City Access,hideout_key"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
+          },
+          {
             "name": "Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -2549,6 +2587,13 @@
             ],
             "visibility_rules": [
               "$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Safari Zone Entrance",
+            "hosted_item": "safari_zone_hosted",
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {
@@ -2943,6 +2988,16 @@
             "visibility_rules": [
               "$item_locations_visible"
             ]
+          },
+          {
+            "name": "Silph Co. Entrance",
+            "hosted_item": "silph_co_hosted",
+            "access_rules": [
+              "$open_silph"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
+            ]
           }
         ],
         "map_locations": [
@@ -3253,6 +3308,17 @@
             ],
             "visibility_rules": [
               "famesanity_on,$item_locations_visible"
+            ]
+          },
+          {
+            "name": "Pokémon Mansion Entrance",
+            "hosted_item": "pokemon_mansion_hosted",
+            "access_rules": [
+              "extra_key_items_off",
+              "letter"
+            ],
+            "visibility_rules": [
+              "dungeon_entrance_shuffle_on"
             ]
           },
           {

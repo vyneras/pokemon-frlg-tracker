@@ -1,4 +1,5 @@
 FLY_DESTINATION_MAPPING = {}
+DUNGEON_ENTRANCE_MAPPING = {}
 
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
@@ -247,6 +248,20 @@ function set_default_dungeon_entrances(code)
             end
         else
             item:setToDefaultStage()
+        end
+    end
+end
+
+function toggle_dungeon_entrance(code)
+    local active = Tracker:FindObjectForCode(code).Active
+    local item = DUNGEON_ENTRANCE_MAPPING[code]
+    if item ~= nil then
+        if active then
+            item:setEntranceKnown(true)
+            item:setStage(item:getTrackedStage())
+        else
+            item:setEntranceKnown(false)
+            item:setStage(0)
         end
     end
 end

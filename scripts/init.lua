@@ -2,9 +2,9 @@
 TRACKER_READY = false
 Tracker.AllowDeferredLogicUpdate = true
 
+ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/custom_items.lua")
 ScriptHost:LoadScript("scripts/autotracking.lua")
-ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/watch.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 

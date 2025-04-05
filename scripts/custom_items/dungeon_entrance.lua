@@ -52,6 +52,7 @@ function DungeonEntrance:init(name, code, stage)
     self.stageCount = 39
     self.defaultStage = stage
     self:updateIcon()
+    ScriptHost:AddWatchForCode(code .. "_hosted", code .. "_hosted", toggle_dungeon_entrance)
 end
 
 function DungeonEntrance:setStage(stage)
@@ -87,9 +88,9 @@ function DungeonEntrance:updateIcon()
     local data = DUNGEON_ENTRANCE_DATA[stage]
     self.ItemInstance.Name = self.name .. " - " .. data[2]
     self.ItemInstance.Icon = ImageReference:FromPackRelativePath("images/settings/dungeon_entrances/" ..
-    self.code .. ".png")
+        self.code .. ".png")
     self.ItemInstance.IconMods = ImageReference:FromPackRelativePath("overlay|images/overlays/dungeon_labels/" ..
-    data[3] .. ".png")
+        data[3] .. ".png")
 end
 
 function DungeonEntrance:onLeftClick()
@@ -114,20 +115,15 @@ end
 
 function DungeonEntrance:onMiddleClick()
     if has("dungeon_entrance_shuffle_on") then
-        if self:getTrackedStage() ~= 0 then
-            if self:getStage() == 0 then
-                self:setEntranceKnown(true)
-                self:setStage(self:getTrackedStage())
-            else
-                self:setEntranceKnown(false)
-                self:setStage(0)
-            end
+        local object = Tracker:FindObjectForCode(self.code .. "_hosted")
+        if object then
+            object.Active = not object.Active
         end
     end
 end
 
 function DungeonEntrance:canProvideCode(code)
-    if self.code .. "_entrance" == code  then
+    if self.code .. "_entrance" == code then
         return true
     end
     return false
