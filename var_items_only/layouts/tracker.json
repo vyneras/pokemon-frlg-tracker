@@ -99,6 +99,38 @@
               "key": "fly_destination_grid"
             }
           }
+        },
+        {
+          "title": "Dungeon Entrance",
+          "content": {
+            "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Kanto",
+                "content": {
+                  "type": "group",
+                  "header": "Kanto Dungeon Entrances",
+                  "dock": "top",
+                  "content": {
+                    "type": "layout",
+                    "key": "kanto_dungeon_entrance_grid"
+                  }
+                }
+              },
+              {
+                "title": "Sevii",
+                "content": {
+                  "type": "group",
+                  "header": "Sevii Dungeon Entrances",
+                  "dock": "top",
+                  "content": {
+                    "type": "layout",
+                    "key": "sevii_dungeon_entrance_grid"
+                  }
+                }
+              }
+            ]
+          }
         }
       ]
     }
