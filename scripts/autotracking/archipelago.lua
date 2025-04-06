@@ -51,7 +51,7 @@ function resetItems()
         if value[1] then
             local object = Tracker:FindObjectForCode(value[1])
             if object then
-                if value[2] == "toggle" then
+                if value[2] == "toggle" or value[2] == "progressive_toggle" then
                     object.Active = false
                 end
             end
