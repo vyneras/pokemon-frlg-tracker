@@ -90,7 +90,7 @@ FLY_DESTINATION_DATA = {
     [86] = { "Tanoby Ruins Scufib Island", "tanoby_ruins_scufib_island" },
     [87] = { "Tanoby Ruins Rixy Island", "tanoby_ruins_rixy_island" },
     [88] = { "Tanoby Ruins Viapois Island", "tanoby_ruins_viapois_island" },
-    [89] = { "Trainer Tower Exterior", "trainer_tower_exterior" },
+    [89] = { "Trainer Tower Exterior North", "trainer_tower_exterior" },
     [90] = { "Navel Rock Exterior", "navel_rock_exterior" },
     [91] = { "Birth Island Exterior", "birth_island_exterior" }
 }
