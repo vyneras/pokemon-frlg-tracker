@@ -3249,7 +3249,9 @@
           {
             "name": "1F - Plateau Item",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3259,7 +3261,9 @@
           {
             "name": "B1F - Center Plateau Item",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3269,7 +3273,9 @@
           {
             "name": "B2F - Item Below Center Plateau",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3279,7 +3285,9 @@
           {
             "name": "B1F - South Item",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3291,7 +3299,9 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,^$hidden,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,^$hidden,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,^$hidden,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,^$hidden,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3303,7 +3313,9 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,^$hidden,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,^$hidden,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,^$hidden,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,^$hidden,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3313,7 +3325,9 @@
           {
             "name": "B4F - South Peninsula Item",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3325,7 +3339,9 @@
             "chest_unopened_img": "images/locations/articuno.png",
             "chest_opened_img": "images/locations/articuno_bw.png",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,$strength,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,$strength,$surf,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,$strength,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,$strength,$surf,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3404,7 +3420,9 @@
             "clear_as_group": false,
             "access_rules": [
               "@Route 20 Near North Cave Access,$surf,dungeon_entrance_shuffle_off",
-              "seafoam_islands_north_exit,$surf,dungeon_entrance_shuffle_on"
+              "@Route 20 Near South Cave Access,$strength,$surf,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,$strength,$surf,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3417,8 +3435,12 @@
             "access_rules": [
               "@Route 20 Near North Cave Access,old_rod,dungeon_entrance_shuffle_off",
               "@Route 20 Near North Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,$strength,old_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,$strength,good_rod,dungeon_entrance_shuffle_off",
               "seafoam_islands_north_exit,old_rod,dungeon_entrance_shuffle_on",
-              "seafoam_islands_north_exit,good_rod,dungeon_entrance_shuffle_on"
+              "seafoam_islands_north_exit,good_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,$strength,old_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,$strength,good_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3430,7 +3452,9 @@
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
               "@Route 20 Near North Cave Access,good_rod,dungeon_entrance_shuffle_off",
-              "seafoam_islands_north_exit,good_rod,dungeon_entrance_shuffle_on"
+              "@Route 20 Near South Cave Access,$strength,good_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,good_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,$strength,good_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3443,8 +3467,12 @@
             "access_rules": [
               "@Route 20 Near North Cave Access,good_rod,dungeon_entrance_shuffle_off",
               "@Route 20 Near North Cave Access,super_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,$strength,good_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,$strength,super_rod,dungeon_entrance_shuffle_off",
               "seafoam_islands_north_exit,good_rod,dungeon_entrance_shuffle_on",
-              "seafoam_islands_north_exit,super_rod,dungeon_entrance_shuffle_on"
+              "seafoam_islands_north_exit,super_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,$strength,good_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,$strength,super_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3458,7 +3486,9 @@
             "clear_as_group": false,
             "access_rules": [
               "@Route 20 Near North Cave Access,super_rod,dungeon_entrance_shuffle_off",
-              "seafoam_islands_north_exit,super_rod,dungeon_entrance_shuffle_on"
+              "@Route 20 Near South Cave Access,$strength,super_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,super_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_south_exit,$strength,super_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -3471,7 +3501,9 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3485,7 +3517,9 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,$surf,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,$surf,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3497,8 +3531,12 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,old_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near North Cave Access,$surf,$waterfall,good_rod,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,old_rod,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,old_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_north_exit,$surf,$waterfall,good_rod,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,old_rod,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,good_rod,dungeon_entrance_shuffle_on"
             ],
@@ -3511,7 +3549,9 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,good_rod,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,good_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,good_rod,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,good_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -3523,8 +3563,12 @@
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,good_rod,dungeon_entrance_shuffle_off",
+              "@Route 20 Near North Cave Access,$surf,$waterfall,super_rod,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,good_rod,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,super_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,good_rod,dungeon_entrance_shuffle_on",
+              "seafoam_islands_north_exit,$surf,$waterfall,super_rod,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,good_rod,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,super_rod,dungeon_entrance_shuffle_on"
             ],
@@ -3539,7 +3583,9 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
+              "@Route 20 Near North Cave Access,$surf,$waterfall,super_rod,dungeon_entrance_shuffle_off",
               "@Route 20 Near South Cave Access,super_rod,dungeon_entrance_shuffle_off",
+              "seafoam_islands_north_exit,$surf,$waterfall,super_rod,dungeon_entrance_shuffle_on",
               "seafoam_islands_south_exit,super_rod,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
