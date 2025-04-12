@@ -200,7 +200,7 @@ function route_16_modified()
 end
 
 function open_silph()
-    return has("open_silph_on") or has("saffron_rockets_on") or has("rescue_mr_fuji")
+    return has("open_silph_on") or has("rescue_mr_fuji") or saffron_rockets()
 end
 
 function saffron_rockets()

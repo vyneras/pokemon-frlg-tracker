@@ -75,9 +75,9 @@ function BadgesGymsRequirement:providesCode(code)
         for _, item in pairs(req_items) do
             if has(item) then
                 count = count + 1
-                if count >= self:getStage() then
-                    return 1
-                end
+            end
+            if count >= self:getStage() then
+                return 1
             end
         end
     end
