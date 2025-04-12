@@ -125,8 +125,8 @@
   {
     "name": "North-South Tunnels Access",
     "access_rules": [
-      "$fly|route_5_near_tunnels",
-      "$fly|route_6_near_tunnels",
+      "$fly|route_5_near_tunnel",
+      "$fly|route_6_near_tunnel",
       "@Cerulean City Outskirts Access,$tunnels_blocked",
       "@Vermilion City Access,$tunnels_blocked"
     ]
