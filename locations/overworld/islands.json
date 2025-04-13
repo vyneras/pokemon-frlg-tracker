@@ -3819,10 +3819,6 @@
       },
       {
         "name": "Navel Rock",
-        "access_rules": [
-          "@Navel Rock Exterior Access,dungeon_entrance_shuffle_off",
-          "navel_rock_exit,dungeon_entrance_shuffle_on"
-        ],
         "sections": [
           {
             "name": "Hidden Item Near Ho-Oh",
