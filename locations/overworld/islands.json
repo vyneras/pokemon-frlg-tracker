@@ -18,7 +18,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -690,7 +690,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -1035,7 +1035,7 @@
               "@Three Island Town North Access"
             ],
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -1365,7 +1365,7 @@
               "@Four Island Town Near Cave Access"
             ],
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -1583,7 +1583,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -2327,7 +2327,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -3070,7 +3070,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {

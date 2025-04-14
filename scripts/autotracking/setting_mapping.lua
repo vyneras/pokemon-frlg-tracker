@@ -73,12 +73,12 @@ SLOT_CODES = {
         }
     },
     shuffle_fly_unlocks = {
-        code = "fly_destination_unlocks_setting",
+        code = "fly_unlocks_setting",
         type = "progressive",
         mapping = {
             [0] = 0, -- Fly Destination Unlocks Off
             [1] = 1, -- Fly Destination Unlocks Exclude Indigo
-            [2] = 1  -- Fly Destination Unlocks All
+            [2] = 2  -- Fly Destination Unlocks All
         }
     },
     pokemon_request_locations = {

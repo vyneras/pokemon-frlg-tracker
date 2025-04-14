@@ -204,7 +204,7 @@
     ]
   },
   {
-    "name": "Shuffle Fly Destination Unlocks",
+    "name": "Shuffle Fly Unlocks",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -212,16 +212,22 @@
       {
         "img": "images/settings/fly_destinations.png",
         "img_mods": "overlay|images/overlays/off.png,@disabled",
-        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_off",
+        "codes": "fly_unlocks_setting,fly_unlocks_off",
         "inherit_codes": false,
-        "name": "Shuffle Fly Destination Unlocks - Off"
+        "name": "Shuffle Fly Unlocks - Off"
       },
       {
         "img": "images/settings/fly_destinations.png",
-        "img_mods": "overlay|images/overlays/on.png",
-        "codes": "fly_destination_unlocks_setting,fly_destination_unlocks_on",
+        "img_mods": "overlay|images/overlays/some.png",
+        "codes": "fly_unlocks_setting,fly_unlocks_some",
         "inherit_codes": false,
-        "name": "Shuffle Fly Destination Unlocks - On"
+        "name": "Shuffle Fly Unlocks - On"
+      },
+      {
+        "img": "images/settings/fly_destinations.png",
+        "img_mods": "overlay|images/overlays/all.png",
+        "codes": "fly_unlocks_setting,fly_unlocks_all",
+        "name": "Shuffle Fly Unlocks - On"
       }
     ]
   },

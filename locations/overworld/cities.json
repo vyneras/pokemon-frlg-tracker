@@ -15,7 +15,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -217,7 +217,7 @@
               "@Viridian City North Access"
             ],
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -573,7 +573,7 @@
               "@Pewter City Near Museum Access"
             ],
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -773,7 +773,7 @@
               "@Cerulean City Near Cave Access"
             ],
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -1132,7 +1132,7 @@
               "@Vermilion City Near Harbor Access"
             ],
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -1485,7 +1485,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -1583,7 +1583,7 @@
               "@Celadon City Near Gym Access"
             ],
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -2334,7 +2334,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -2680,7 +2680,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -3024,7 +3024,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_some,$item_locations_visible"
             ]
           },
           {
@@ -3405,7 +3405,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "visibility_rules": [
-              "fly_destination_unlocks_on,$item_locations_visible"
+              "fly_unlocks_all,$item_locations_visible"
             ]
           },
           {
