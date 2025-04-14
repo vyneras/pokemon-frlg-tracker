@@ -4146,7 +4146,9 @@
             "chest_unopened_img": "images/locations/cool_couple.png",
             "chest_opened_img": "images/locations/cool_couple_bw.png",
             "access_rules": [
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
               "@Indigo Plateau Access,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
               "victory_road_east_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -4161,7 +4163,9 @@
             "clear_as_group": false,
             "access_rules": [
               "@Victory Road Front Access,dungeon_entrance_shuffle_off",
-              "victory_road_west_exit,dungeon_entrance_shuffle_on"
+              "@Indigo Plateau Access,$strength,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,dungeon_entrance_shuffle_on",
+              "victory_road_east_exit,$strength,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
@@ -4174,7 +4178,9 @@
             "item_count": 9,
             "clear_as_group": false,
             "access_rules": [
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
               "@Indigo Plateau Access,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
               "victory_road_east_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
@@ -4188,7 +4194,9 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_off",
               "@Indigo Plateau Access,dungeon_entrance_shuffle_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,dungeon_entrance_shuffle_on",
               "victory_road_east_exit,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
