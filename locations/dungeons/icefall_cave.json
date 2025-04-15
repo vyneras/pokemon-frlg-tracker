@@ -1,38 +1,38 @@
 [
   {
-    "name": "Icefall Cave Entrance",
+    "name": "Icefall Cave Front",
     "children": [
       {
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Dungeons/Icefall Cave/Entrance - Land Encounters",
+            "ref": "Dungeons/Icefall Cave/Front - Land Encounters",
             "name": "Land Encounters"
           },
           {
-            "ref": "Dungeons/Icefall Cave/Entrance - Surf Encounters",
+            "ref": "Dungeons/Icefall Cave/Front - Surf Encounters",
             "name": "Surf Encounters"
           },
           {
-            "ref": "Dungeons/Icefall Cave/Entrance - Old-Good Rod Encounter",
+            "ref": "Dungeons/Icefall Cave/Front - Old-Good Rod Encounter",
             "name": "Old-Good Rod Encounter"
           },
           {
-            "ref": "Dungeons/Icefall Cave/Entrance - Good Rod Encounter",
+            "ref": "Dungeons/Icefall Cave/Front - Good Rod Encounter",
             "name": "Good Rod Encounter"
           },
           {
-            "ref": "Dungeons/Icefall Cave/Entrance - Good-Super Rod Encounter",
+            "ref": "Dungeons/Icefall Cave/Front - Good-Super Rod Encounter",
             "name": "Good-Super Rod Encounter"
           },
           {
-            "ref": "Dungeons/Icefall Cave/Entrance - Super Rod Encounters",
+            "ref": "Dungeons/Icefall Cave/Front - Super Rod Encounters",
             "name": "Super Rod Encounters"
           }
         ],
         "map_locations": [
           {
-            "map": "icefall_cave_entrance",
+            "map": "icefall_cave_front",
             "x": 464,
             "y": 12
           }

@@ -763,8 +763,8 @@ TAB_MAPPING = {
     [8967] = { -- Four Island Poké Mart
         [0] = {"Islands", "Four Island", "Town", "Mart"}
     },
-    [366] = { -- Icefall Cave Entrance
-        [0] = {"Islands", "Four Island", "Icefall Cave", "Entrance"}
+    [366] = { -- Icefall Cave Front
+        [0] = {"Islands", "Four Island", "Icefall Cave", "Front"}
     },
     [367] = { -- Icefall Cave 1F
         [0] = {"Islands", "Four Island", "Icefall Cave", "1F"}
