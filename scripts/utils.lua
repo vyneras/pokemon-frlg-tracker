@@ -203,128 +203,132 @@ function toggle_maps(code)
     end
 end
 
-function toggle_tea_maps(code)
-    local tea = has("teas_split")
+function toggle_split_tea_maps(code)
+    local teas_split = has("teas_split")
 
-    if tea then
-        Tracker:AddMaps("maps/maps_split_teas_true.json")
+    if teas_split then
+        Tracker:AddMaps("maps/maps_split_teas.json")
     else
-        Tracker:AddMaps("maps/maps_split_teas_false.json")
+        Tracker:AddMaps("maps/maps_vanilla_teas.json")
     end
 end
 
-function toggle_cardkey_maps(code)
-    local keycard = has("card_keys_vanilla")
+function toggle_split_card_key_maps(code)
+    local card_keys_vanilla = has("card_keys_vanilla")
 
-    if keycard then
-        Tracker:AddMaps("maps/maps_cardkey_vanilla.json")
+    if card_keys_vanilla then
+        Tracker:AddMaps("maps/maps_vanilla_card_key.json")
     else
-        Tracker:AddMaps("maps/maps_cardkey_split.json")
+        Tracker:AddMaps("maps/maps_split_card_key.json")
     end
 end
 
-function toggle_gymkey_maps(code)
-    local gymkey = has("gym_keys_on")
+function toggle_gym_key_maps(code)
+    local gym_keys = has("gym_keys_on")
 
-    if gymkey then
-        Tracker:AddMaps("maps/maps_gymkey_true.json")
+    if gym_keys then
+        Tracker:AddMaps("maps/maps_gym_keys.json")
     else
-        Tracker:AddMaps("maps/maps_gymkey_false.json")
+        Tracker:AddMaps("maps/maps_no_gym_keys.json")
     end
 end
 
-function toggle_underground_maps(code)
-    local underground = has("block_tunnels_on")
+function toggle_tunnel_maps(code)
+    local tunnels_blocked = has("block_tunnels_on")
 
-    if underground then
-        Tracker:AddMaps("maps/maps_underground_rocksmash.json")
+    if tunnels_blocked then
+        Tracker:AddMaps("maps/maps_tunnels_blocked.json")
     else
-        Tracker:AddMaps("maps/maps_underground_vanilla.json")
+        Tracker:AddMaps("maps/maps_tunnels_vanilla.json")
     end
 end
 
-function toggle_route2_maps(code)
-    local route2 = has("modify_route_2_on")
+function toggle_route_2_maps(code)
+    local route_2_modified = has("modify_route_2_on")
 
-    if route2 then
-        Tracker:AddMaps("maps/maps_route2_modified.json")
+    if route_2_modified then
+        Tracker:AddMaps("maps/maps_route_2_modified.json")
     else
-        Tracker:AddMaps("maps/maps_route2_vanilla.json")
+        Tracker:AddMaps("maps/maps_route_2_vanilla.json")
     end
 end
 
-function toggle_route16_maps(code)
-    local route16 = has("modify_route_16_on")
+function toggle_route_9_maps(code)
+    local route_9_modified = has("modify_route_9_on")
 
-    if route16 then
-        Tracker:AddMaps("maps/maps_route16_modified.json")
+    if route_9_modified then
+        Tracker:AddMaps("maps/maps_route_9_modified.json")
     else
-        Tracker:AddMaps("maps/maps_route16_vanilla.json")
+        Tracker:AddMaps("maps/maps_route_9_vanilla.json")
     end
 end
 
-function toggle_route12_maps(code)
-    local boulder = has("route_12_boulders_on")
-    local stones = has("modify_route_12_on")
+function toggle_route_10_and_extra_item_maps(code)
+    local route_10_modified = has("modify_route_10_on")
+    local extra_key_items = has("extra_key_items_on")
 
-    if not boulder and not stones then
-        Tracker:AddMaps("maps/maps_route12_vanilla.json")
-    elseif not boulder and stones then
-        Tracker:AddMaps("maps/maps_route12_stones.json")
-    elseif boulder and not stones then
-        Tracker:AddMaps("maps/maps_route12_boulders.json")
-    elseif boulder and stones then
-        Tracker:AddMaps("maps/maps_route12_fully.json")
+    if not route_10_modified and not extra_key_items then
+        Tracker:AddMaps("maps/maps_cinnabar_vanilla.json")
+        Tracker:AddMaps("maps/maps_route_10_vanilla.json")
+    elseif not route_10_modified and extra_key_items then
+        Tracker:AddMaps("maps/maps_cinnabar_extra_items.json")
+        Tracker:AddMaps("maps/maps_route_10_extra_items.json")
+    elseif route_10_modified and not extra_key_items then
+        Tracker:AddMaps("maps/maps_cinnabar_vanilla.json")
+        Tracker:AddMaps("maps/maps_route_10_modified.json")
+    elseif route_10_modified and extra_key_items then
+        Tracker:AddMaps("maps/maps_cinnabar_extra_items.json")
+        Tracker:AddMaps("maps/maps_route_10_all.json")
     end
 end
 
-function toggle_route9_maps(code)
-    local route9 = has("modify_route_9_on")
+function toggle_route_12_maps(code)
+    local route_12_boulders = has("route_12_boulders_on")
+    local route_12_modified = has("modify_route_12_on")
 
-    if route9 then
-        Tracker:AddMaps("maps/maps_route9_modified.json")
+    if not route_12_boulders and not route_12_modified then
+        Tracker:AddMaps("maps/maps_route_12_vanilla.json")
+    elseif not route_12_boulders and route_12_modified then
+        Tracker:AddMaps("maps/maps_route_12_modified.json")
+    elseif route_12_boulders and not route_12_modified then
+        Tracker:AddMaps("maps/maps_route_12_boulders.json")
+    elseif route_12_boulders and route_12_modified then
+        Tracker:AddMaps("maps/maps_route_12_all.json")
+    end
+end
+
+function toggle_route_16_maps(code)
+    local route_16_modified = has("modify_route_16_on")
+
+    if route_16_modified then
+        Tracker:AddMaps("maps/maps_route_16_modified.json")
     else
-        Tracker:AddMaps("maps/maps_route9_vanilla.json")
+        Tracker:AddMaps("maps/maps_route_16_vanilla.json")
     end
 end
 
-function toggle_extra10_maps(code)
-    local route10 = has("modify_route_10_on")
-    local extra = has("extra_key_items_on")
+function toggle_route_23_maps(code)
+    local route_23_trees = has("route_23_trees_on")
+    local route_23_modified = has("modify_route_23_on")
 
-    if not route10 and not extra then
-        Tracker:AddMaps("maps/maps_route10extra_vanilla.json")
-    elseif not route10 and extra then
-        Tracker:AddMaps("maps/maps_route10extra_extra.json")
-    elseif route10 and not extra then
-        Tracker:AddMaps("maps/maps_route10extra_modified.json")
-    elseif route10 and extra then
-        Tracker:AddMaps("maps/maps_route10extra_fully.json")
+    if not route_23_trees and not route_23_modified then
+        Tracker:AddMaps("maps/maps_route_23_vanilla.json")
+    elseif not route_23_trees and route_23_modified then
+        Tracker:AddMaps("maps/maps_route_23_modified.json")
+    elseif route_23_trees and not route_23_modified then
+        Tracker:AddMaps("maps/maps_route_23_trees.json")
+    elseif route_23_trees and route_23_modified then
+        Tracker:AddMaps("maps/maps_route_23_all.json")
     end
 end
 
-function toggle_route23_maps(code)
-    local trees = has("route_23_trees_on")
-    local waterfall = has("modify_route_23_on")
+function toggle_victory_road_maps(code)
+    local victory_road_rocks = has("victory_road_rocks_on")
 
-    if not trees and not waterfall then
-        Tracker:AddMaps("maps/maps_route23_vanilla.json")
-    elseif not trees and waterfall then
-        Tracker:AddMaps("maps/maps_route23_waterfall.json")
-    elseif trees and not waterfall then
-        Tracker:AddMaps("maps/maps_route23_trees.json")
-    elseif trees and waterfall then
-        Tracker:AddMaps("maps/maps_route23_fully.json")
-    end
-end
-
-function toggle_victoryroad_maps(code)
-    local victoryroad = has("victory_road_rocks_on")
-
-    if victoryroad then
-        Tracker:AddMaps("maps/maps_victoryroad_rocksmash.json")
+    if victory_road_rocks then
+        Tracker:AddMaps("maps/maps_victory_road_rocks.json")
     else
-        Tracker:AddMaps("maps/maps_victoryroad_vanilla.json")
+        Tracker:AddMaps("maps/maps_victory_road_vanilla.json")
     end
 end
 
