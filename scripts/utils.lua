@@ -203,6 +203,131 @@ function toggle_maps(code)
     end
 end
 
+function toggle_tea_maps(code)
+    local tea = has("teas_split")
+
+    if tea then
+        Tracker:AddMaps("maps/maps_split_teas_true.json")
+    else
+        Tracker:AddMaps("maps/maps_split_teas_false.json")
+    end
+end
+
+function toggle_cardkey_maps(code)
+    local keycard = has("card_keys_vanilla")
+
+    if keycard then
+        Tracker:AddMaps("maps/maps_cardkey_vanilla.json")
+    else
+        Tracker:AddMaps("maps/maps_cardkey_split.json")
+    end
+end
+
+function toggle_gymkey_maps(code)
+    local gymkey = has("gym_keys_on")
+
+    if gymkey then
+        Tracker:AddMaps("maps/maps_gymkey_true.json")
+    else
+        Tracker:AddMaps("maps/maps_gymkey_false.json")
+    end
+end
+
+function toggle_underground_maps(code)
+    local underground = has("block_tunnels_on")
+
+    if underground then
+        Tracker:AddMaps("maps/maps_underground_rocksmash.json")
+    else
+        Tracker:AddMaps("maps/maps_underground_vanilla.json")
+    end
+end
+
+function toggle_route2_maps(code)
+    local route2 = has("modify_route_2_on")
+
+    if route2 then
+        Tracker:AddMaps("maps/maps_route2_modified.json")
+    else
+        Tracker:AddMaps("maps/maps_route2_vanilla.json")
+    end
+end
+
+function toggle_route16_maps(code)
+    local route16 = has("modify_route_16_on")
+
+    if route16 then
+        Tracker:AddMaps("maps/maps_route16_modified.json")
+    else
+        Tracker:AddMaps("maps/maps_route16_vanilla.json")
+    end
+end
+
+function toggle_route12_maps(code)
+    local boulder = has("route_12_boulders_on")
+    local stones = has("modify_route_12_on")
+
+    if not boulder and not stones then
+        Tracker:AddMaps("maps/maps_route12_vanilla.json")
+    elseif not boulder and stones then
+        Tracker:AddMaps("maps/maps_route12_stones.json")
+    elseif boulder and not stones then
+        Tracker:AddMaps("maps/maps_route12_boulders.json")
+    elseif boulder and stones then
+        Tracker:AddMaps("maps/maps_route12_fully.json")
+    end
+end
+
+function toggle_route9_maps(code)
+    local route9 = has("modify_route_9_on")
+
+    if route9 then
+        Tracker:AddMaps("maps/maps_route9_modified.json")
+    else
+        Tracker:AddMaps("maps/maps_route9_vanilla.json")
+    end
+end
+
+function toggle_extra10_maps(code)
+    local route10 = has("modify_route_10_on")
+    local extra = has("extra_key_items_on")
+
+    if not route10 and not extra then
+        Tracker:AddMaps("maps/maps_route10extra_vanilla.json")
+    elseif not route10 and extra then
+        Tracker:AddMaps("maps/maps_route10extra_extra.json")
+    elseif route10 and not extra then
+        Tracker:AddMaps("maps/maps_route10extra_modified.json")
+    elseif route10 and extra then
+        Tracker:AddMaps("maps/maps_route10extra_fully.json")
+    end
+end
+
+function toggle_route23_maps(code)
+    local trees = has("route_23_trees_on")
+    local waterfall = has("modify_route_23_on")
+
+    if not trees and not waterfall then
+        Tracker:AddMaps("maps/maps_route23_vanilla.json")
+    elseif not trees and waterfall then
+        Tracker:AddMaps("maps/maps_route23_waterfall.json")
+    elseif trees and not waterfall then
+        Tracker:AddMaps("maps/maps_route23_trees.json")
+    elseif trees and waterfall then
+        Tracker:AddMaps("maps/maps_route23_fully.json")
+    end
+end
+
+function toggle_victoryroad_maps(code)
+    local victoryroad = has("victory_road_rocks_on")
+
+    if victoryroad then
+        Tracker:AddMaps("maps/maps_victoryroad_rocksmash.json")
+    else
+        Tracker:AddMaps("maps/maps_victoryroad_vanilla.json")
+    end
+end
+
 function toggle_item_tabs(code)
     local pokemon_tabs_on = has("pokemon_tabs_on")
     if pokemon_tabs_on then
