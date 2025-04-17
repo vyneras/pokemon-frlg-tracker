@@ -3339,13 +3339,23 @@
             ]
           },
           {
-            "name": "Land Encounters",
+            "name": "Land Encounters (FireRed)",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
             "item_count": 10,
             "clear_as_group": false,
             "visibility_rules": [
-              "$pokemon_locations_visible"
+              "game_version_fire,$pokemon_locations_visible"
+            ]
+          },
+          {
+            "name": "Land Encounters (LeafGreen)",
+            "chest_unopened_img": "images/locations/grass.png",
+            "chest_opened_img": "images/locations/grass_bw.png",
+            "item_count": 9,
+            "clear_as_group": false,
+            "visibility_rules": [
+              "game_version_leaf,$pokemon_locations_visible"
             ]
           }
         ],
