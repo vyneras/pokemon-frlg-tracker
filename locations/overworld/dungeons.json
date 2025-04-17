@@ -5857,7 +5857,7 @@
             "chest_opened_img": "images/locations/tanoby_chamber_bw.png",
             "access_rules": [
               "@Tanoby Ruins Viapois Island Access,unlock_ruins,dungeon_entrance_shuffle_off",
-              "viapois_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_off"
+              "viapois_chamber_exit,unlock_ruins,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "$pokemon_locations_visible"
