@@ -1,6 +1,33 @@
 {
   "versions": [
     {
+      "package_version": "2.0.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/2.0.0.zip",
+      "sha256": "c8bb02d5c4ac14ad1b1fca934a4acbded0959c41e585f7e0826cfd860177d976",
+      "changelog": [
+        "When connecting to AP, if the apworld version of the slot you are trying to connect with is not compatible with the tracker version an error message will be displayed",
+        "The Sevii Island Maps are now hidden in Kanto Only mode",
+        "Maps that are modified due to settings now display the correct map layout as in game",
+        "Added Gym Keys setting, items, and locations",
+        "Added Berry Pouch and TM Case items",
+        "Added Skip Elite Four setting",
+        "Removed fragmentation around HM items",
+        "Added Shopsanity setting and locations",
+        "Updated the HMs to show what Badge is needed to use them",
+        "Updated the Auto Tab settings text overlay",
+        "Updated how most items/settings that have a counter are displayed",
+        "Added full auto tracking support for Wild Encounter Locations",
+        "Added full auto tracking support for Randomized Fly Destinations",
+        "Added manual tracking support for Dungeon Entrance Shuffle",
+        "Fixed the naming on several encounter squares",
+        "Added Silph Co. Employee who gives you the Lapras to the Silph Co. 7F map",
+        "Fixed the fishing encounter access rules for Cerulean City",
+        "Fixed the surfing encounter access rules for the Safari Zone",
+        "Fixed the fishing encounter access rules for Kindle Road",
+        "Fixed a few issues with version exclusive encounter counts"
+      ]
+    },
+    {
       "package_version": "1.7.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/1.7.0.zip",
       "sha256": "e5750d06238c8f6f4f247de614ce6c1cb0779d22e5bf7d2f624ba63965422442",
