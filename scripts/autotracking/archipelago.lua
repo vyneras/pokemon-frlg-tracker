@@ -7,7 +7,7 @@ ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/trainer_mapping.lua")
 
-COMPATIBLE_APWORLD_VERSIONS = {"0.9.0"}
+TRACKER_CHECKSUM = 0xF6935E73
 
 CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
@@ -171,7 +171,7 @@ end
 function onClear(slot_data)
 	Tracker.BulkUpdate = true
 	local version_mismatch = Tracker:FindObjectForCode("version_mismatch")
-    if slot_data["apworld_version"] ~= nil and table_contains(COMPATIBLE_APWORLD_VERSIONS, slot_data["apworld_version"]) then
+    if slot_data["poptracker_checksum"] ~= nil and slot_data["poptracker_checksum"] == TRACKER_CHECKSUM then
         version_mismatch.Active = false
     else
         version_mismatch.Active = true
