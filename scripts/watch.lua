@@ -7,13 +7,17 @@ HOSTED_ITEMS = {
 }
 
 function initialize_watch_items()
+    -- Hosted Items
     for _, code in pairs(HOSTED_ITEMS) do
         ScriptHost:AddWatchForCode(code, code, toggle_item)
         ScriptHost:AddWatchForCode(code .. "_hosted", code .. "_hosted", toggle_hosted_item)
     end
+
+    -- Fly Unlocks
     for _, data in pairs(FLY_UNLOCK_FLAG_MAPPING) do
         ScriptHost:AddWatchForCode(data.code, data.code, toggle_fly_unlock)
     end
+
     -- Layouts
     ScriptHost:AddWatchForCode("extra_key_items", "extra_key_items_setting", toggle_item_grid)
     ScriptHost:AddWatchForCode("split_card_keys", "card_keys_setting", toggle_item_grid)
@@ -25,7 +29,7 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("kanto_only", "kanto_only_setting", toggle_maps)
     ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
     ScriptHost:AddWatchForCode("dungeon_entrance_shuffle", "dungeon_entrance_shuffle_setting", set_default_dungeon_entrances)
-    
+
     -- Maps
     ScriptHost:AddWatchForCode("split_teas_map", "teas_setting", toggle_split_tea_maps)
     ScriptHost:AddWatchForCode("card_keys_map", "card_keys_setting", toggle_split_card_key_maps)
@@ -41,4 +45,7 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("extra_map", "extra_key_items_setting", toggle_route_10_and_extra_item_maps)
     ScriptHost:AddWatchForCode("route23_trees", "route_23_trees_setting", toggle_route_23_maps)
     ScriptHost:AddWatchForCode("route23_modified", "modify_route_23_setting", toggle_route_23_maps)
+
+    -- Apworld Version Mismtach
+    ScriptHost:AddWatchForCode("version_mismatch", "version_mismatch", toggle_version_mismtach)
 end

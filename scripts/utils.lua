@@ -394,3 +394,12 @@ function toggle_dungeon_entrance(code)
         end
     end
 end
+
+function toggle_version_mismtach(code)
+    local active = Tracker:FindObjectForCode(code).Active
+    if active then
+        Tracker:AddLayouts("layouts/version_mismatch.json")
+    else
+        Tracker:AddLayouts("layouts/tracker.json")
+    end
+end

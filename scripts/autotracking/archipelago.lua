@@ -7,6 +7,8 @@ ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/trainer_mapping.lua")
 
+COMPATIBLE_APWORLD_VERSIONS = {"0.9.0"}
+
 CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
 PROG_PASS_COUNT = 0
@@ -168,6 +170,14 @@ end
 
 function onClear(slot_data)
 	Tracker.BulkUpdate = true
+	local version_mismatch = Tracker:FindObjectForCode("version_mismatch")
+    if slot_data["apworld_version"] ~= nil and table_contains(COMPATIBLE_APWORLD_VERSIONS, slot_data["apworld_version"]) then
+        version_mismatch.Active = false
+    else
+        version_mismatch.Active = true
+        Tracker.BulkUpdate = false
+        return
+    end
 	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	CUR_INDEX = -1

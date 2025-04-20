@@ -1,6 +1,8 @@
 # 2.0.0
 ## Updates
++ When connecting to AP, if the apworld version of the slot you are trying to connect with is not comptaible with the tracker version an error message will be displayed
 + The Sevii Island Maps are now hidden in Kanto Only mode (credit to palex00)
++ Maps that are modified due to settings now display the correct map layout as in game (credit to palex00)
 + Added Gym Keys setting, items, and locations
 + Added Berry Pouch and TM Case items
 + Added Skip Elite Four setting
@@ -9,6 +11,9 @@
 + Updated the HMs to show what Badge is needed to use them
 + Updated the Auto Tab settings text overlay
 + Updated how most items/settings that have a counter are displayed
++ Added full auto tracking support for Wild Encounter Locations
+  + If you have caught a Pokémon, all locations where that Pokémon can be found will be marked off
+  + If you have seen a Pokémon and they are not a Dexsanity location, all locations where that Pokémon can be found will be marked off
 + Added full auto tracking support for Randomized Fly Destinations
 + Added manual tracking support for Dungeon Entrance Shuffle
   + The dungeon entrances are in the settings popup, when dungeon entrance shuffle is on they will all default to unknown (????)
@@ -22,3 +27,4 @@
 + Fixed the fishing encounter access rules for Cerulean City
 + Fixed the surfing encounter access rules for the Safari Zone
 + Fixed the fishing encounter access rules for Kindle Road
++ Fixed a few issues with version exclusive encounter counts
