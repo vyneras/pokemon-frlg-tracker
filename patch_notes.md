@@ -1,13 +1,13 @@
 # 2.0.0
 ## Updates
-+ When connecting to AP, if the apworld version of the slot you are trying to connect with is not comptaible with the tracker version an error message will be displayed
-+ The Sevii Island Maps are now hidden in Kanto Only mode (credit to palex00)
-+ Maps that are modified due to settings now display the correct map layout as in game (credit to palex00)
++ When connecting to AP, if the apworld version of the slot you are trying to connect with is not compatible with the tracker version an error message will be displayed
++ The Sevii Island Maps are now hidden in Kanto Only mode (credit to [palex00](https://github.com/palex00))
++ Maps that are modified due to settings now display the correct map layout as in game (credit to [palex00](https://github.com/palex00))
 + Added Gym Keys setting, items, and locations
 + Added Berry Pouch and TM Case items
 + Added Skip Elite Four setting
-+ Removed fragmentation around HM items (credit to palex00)
-+ Added Shopsanity setting and loctions
++ Removed fragmentation around HM items (credit to [palex00](https://github.com/palex00))
++ Added Shopsanity setting and locations
 + Updated the HMs to show what Badge is needed to use them
 + Updated the Auto Tab settings text overlay
 + Updated how most items/settings that have a counter are displayed
