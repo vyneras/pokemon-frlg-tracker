@@ -28,15 +28,22 @@ end
 function CeruleanCaveRequirement:updateIcon()
     local stage = self:getStage()
     local type = self:getType()
-    local img = "images/settings/rival_celio.png"
+    local img = ""
     local img_mod = ""
-    if type == "champion" then
+    if type == "vanilla" then
+        self.ItemInstance.Name = "Cerulean Cave Requirement - Vanilla"
+        img = "images/settings/rival_celio.png"
+    elseif type == "champion" then
+        self.ItemInstance.Name = "Cerulean Cave Requirement - Champion"
         img = "images/settings/rival.png"
     elseif type == "network_machine" then
+        self.ItemInstance.Name = "Cerulean Cave Requirement - Restore Network Machine"
         img = "images/settings/celio.png"
     elseif type == "badges" then
+        self.ItemInstance.Name = "Cerulean Cave Requirement - Badges"
         img = "images/settings/badge.png"
     elseif type == "gyms" then
+        self.ItemInstance.Name = "Cerulean Cave Requirement - Gyms"
         img = "images/settings/gym.png"
     end
     if self:getType() == "badges" or self:getType() == "gyms" then
@@ -58,19 +65,14 @@ end
 
 function CeruleanCaveRequirement:onRightClick()
     if self:getType() == "vanilla" then
-        self.ItemInstance.Name = "Cerulean Cave Requirement - Champion"
         self:setType("champion")
     elseif self:getType() == "champion" then
-        self.ItemInstance.Name = "Cerulean Cave Requirement - Restore Network Machine"
         self:setType("network_machine")
     elseif self:getType() == "network_machine" then
-        self.ItemInstance.Name = "Cerulean Cave Requirement - Badges"
         self:setType("badges")
     elseif self:getType() == "badges" then
-        self.ItemInstance.Name = "Cerulean Cave Requirement - Gyms"
         self:setType("gyms")
     elseif self:getType() == "gyms" then
-        self.ItemInstance.Name = "Cerulean Cave Requirement - Vanilla"
         self:setType("vanilla")
     end
 end

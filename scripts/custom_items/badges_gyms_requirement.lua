@@ -29,8 +29,12 @@ end
 function BadgesGymsRequirement:updateIcon()
     local stage = self:getStage()
     local type = self:getType()
-    local img = "images/settings/badge.png"
-    if type == "gyms" then
+    local img = ""
+    if type == "badges" then
+        self.ItemInstance.Name = self.name.." - Badges"
+        img = "images/settings/badge.png"
+    elseif type == "gyms" then
+        self.ItemInstance.Name = self.name.." - Gyms"
         img = "images/settings/gym.png"
     end
     local img_mod = "overlay|images/overlays/long_count_numbers/" .. math.floor(stage) .. ".png"
@@ -48,10 +52,8 @@ end
 
 function BadgesGymsRequirement:onRightClick()
     if self:getType() == "badges" then
-        self.ItemInstance.Name = self.name.." - Gyms"
         self:setType("gyms")
     elseif self:getType() == "gyms" then
-        self.ItemInstance.Name = self.name.." - Badges"
         self:setType("badges")
     end
 end
