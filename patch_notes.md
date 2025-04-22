@@ -1,3 +1,8 @@
+# 2.0.1
+## Bug Fixes
++ Fixed issue where a Vermilion City fishing encounter did not auto track
++ Fixed an issue where the names on badge/gym requirements didn't update properly
+
 # 2.0.0
 ## Updates
 + When connecting to AP, if the apworld version of the slot you are trying to connect with is not compatible with the tracker version an error message will be displayed
