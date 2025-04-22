@@ -477,7 +477,7 @@ function updatePokemon(pokemon)
 		end
 		for dex_number, encounters in pairs(ENCOUNTER_LIST) do
 			local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
-			if table_contains(pokemon["caught"], dex_number) or (table_contains(pokemon["seen"], dex_number) and code.CurrentStage == 0) then
+			if table_contains(pokemon["caught"], dex_number) or (table_contains(pokemon["seen"], dex_number) and code.CurrentStage == 0) or code.CurrentStage == 2 then
 			    for _, encounter in pairs(encounters) do
 					local object_name = encounter_mapping[encounter]
 					if object_name ~= nil then
