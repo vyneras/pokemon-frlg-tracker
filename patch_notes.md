@@ -1,6 +1,8 @@
 # 2.0.1
 ## Bug Fixes
-+ Fixed issue where a Vermilion City fishing encounter did not auto track
++ Fixed an issue where a Vermilion City fishing encounter did not auto track
++ Fixed an issue where the Viapois Chamber land encounter did not auto track
++ Fixed and issue where the Mt. Ember land encounters did not auto track
 + Fixed an issue where the names on badge/gym requirements didn't update properly
 
 # 2.0.0
