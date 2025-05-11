@@ -185,6 +185,8 @@ function onClear(slot_data)
 	PROG_PASS_COUNT = 0
 	VANILLA_RUNNING_SHOES = false
 	FLY_DESTINATION_MAPPING = {}
+	DEXSANITY_LOCATIONS = {}
+	ENCOUNTER_LIST = {}
 	resetItems()
 	resetLocations()
 	resetWorldStateSettings()
