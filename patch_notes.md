@@ -1,3 +1,8 @@
+# 2.0.2
+## Bug Fixes
++ Fixed an issue where the list used for encounter auto tracking was not reset upon connecting to a different slot
++ Fixed an issue regarding the Route 23 waterfall
+
 # 2.0.1
 ## Bug Fixes
 + Fixed an issue where a Vermilion City fishing encounter did not auto track
