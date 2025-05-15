@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "2.1.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/2.1.0.zip",
+      "sha256": "9af0244f742d61bc189697727938aa000c304fcbbfd0c1adc2182de314980d4d",
+      "changelog": [
+        "Auto Encounter Tracking can now be toggled on/off through a setting (defaults to on)",
+        "The icons used for toggling the Pokémon tabs and Pokémon locations have been updated",
+        "Fixed an issue where the list used for encounter auto tracking was not reset upon connecting to a different slot",
+        "Fixed an issue regarding the Route 23 waterfall"
+      ]
+    },
+    {
       "package_version": "2.0.1",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/2.0.1.zip",
       "sha256": "1c27c10d609f17830e704f625febfd40fd4adcd457b6c73c69d1a187f77f7c95",
