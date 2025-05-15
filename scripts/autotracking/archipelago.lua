@@ -465,27 +465,29 @@ function updatePokemon(pokemon)
 				Tracker:FindObjectForCode(code).Active = false
 			end
 		end
-		local encounter_mapping = {}
-		if has("game_version_fire") then
-			encounter_mapping = ENCOUNTER_MAPPING_FIRERED
-		elseif has("game_version_leaf") then
-			encounter_mapping = ENCOUNTER_MAPPING_LEAFGREEN
-		end
-		for _, location in pairs(encounter_mapping) do
-			local object = Tracker:FindObjectForCode(location)
-			if object then
-				object.AvailableChestCount = object.ChestCount
+		if has("encounter_tracking_on") then
+			local encounter_mapping = {}
+			if has("game_version_fire") then
+				encounter_mapping = ENCOUNTER_MAPPING_FIRERED
+			elseif has("game_version_leaf") then
+				encounter_mapping = ENCOUNTER_MAPPING_LEAFGREEN
 			end
-		end
-		for dex_number, encounters in pairs(ENCOUNTER_LIST) do
-			local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
-			if table_contains(pokemon["caught"], dex_number) or (table_contains(pokemon["seen"], dex_number) and code.CurrentStage == 0) or code.CurrentStage == 2 then
-			    for _, encounter in pairs(encounters) do
-					local object_name = encounter_mapping[encounter]
-					if object_name ~= nil then
-						local object = Tracker:FindObjectForCode(object_name)
-						if object then
-							object.AvailableChestCount = object.AvailableChestCount - 1
+			for _, location in pairs(encounter_mapping) do
+				local object = Tracker:FindObjectForCode(location)
+				if object then
+					object.AvailableChestCount = object.ChestCount
+				end
+			end
+			for dex_number, encounters in pairs(ENCOUNTER_LIST) do
+				local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
+				if table_contains(pokemon["caught"], dex_number) or (table_contains(pokemon["seen"], dex_number) and code.CurrentStage == 0) or code.CurrentStage == 2 then
+					for _, encounter in pairs(encounters) do
+						local object_name = encounter_mapping[encounter]
+						if object_name ~= nil then
+							local object = Tracker:FindObjectForCode(object_name)
+							if object then
+								object.AvailableChestCount = object.AvailableChestCount - 1
+							end
 						end
 					end
 				end
