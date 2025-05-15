@@ -1,4 +1,8 @@
-# 2.0.2
+# 2.1.0
+## Updates
++ Auto Encounter Tracking can now be toggled on/off through a setting (defaults to on)
++ The icons used for toggling the Pokémon tabs and Pokémon locations have been updated
+
 ## Bug Fixes
 + Fixed an issue where the list used for encounter auto tracking was not reset upon connecting to a different slot
 + Fixed an issue regarding the Route 23 waterfall
