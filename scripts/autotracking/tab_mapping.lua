@@ -431,14 +431,14 @@ TAB_MAPPING = {
         [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
     },
     [292] = { -- Diglett's Cave North Entrance
-    	[0] = {"Dungeons", "Diglett's Cave", "North Entrance"}
+      [0] = {"Dungeons", "Diglett's Cave", "North Entrance"}
     },
     [293] = { -- Diglett's Cave B1F
-    	[0] = {"Dungeons", "Diglett's Cave", "B1F", "North"},
-    	[1] = {"Dungeons", "Diglett's Cave", "B1F", "South"}
+      [0] = {"Dungeons", "Diglett's Cave", "B1F", "North"},
+      [1] = {"Dungeons", "Diglett's Cave", "B1F", "South"}
     },
     [294] = { -- Diglett's Cave South Entrance
-    	[0] = {"Dungeons", "Diglett's Cave", "South Entrance"}
+      [0] = {"Dungeons", "Diglett's Cave", "South Entrance"}
     },
     [337] = { -- Rock Tunnel 1F
         [0] = {"Dungeons", "Rock Tunnel", "1F"}

@@ -46,65 +46,65 @@ function CustomItem:createItem(name)
     self.ItemInstance.PropertyChangedFunc = invokePropertyChanged
 end
 
---	Called when your item is left-clicked
+--  Called when your item is left-clicked
 function CustomItem:onLeftClick()
 end
 
---	Called when your item is right-clicked
+--  Called when your item is right-clicked
 function CustomItem:onRightClick()
 end
 
---	Called when your item is middle-clicked
+--  Called when your item is middle-clicked
 function CustomItem:onMiddleClick()
 end
 
---	Called to determine if your item can ever provide a given code
---	This is used (for example) when placing items on item grids.
+--  Called to determine if your item can ever provide a given code
+--  This is used (for example) when placing items on item grids.
 --
---	Returns true or false
+--  Returns true or false
 function CustomItem:canProvideCode(code)
     return false
 end
 
---	Called to determine if your item currently provides a given code,
---	and if so, the count provided.
+--  Called to determine if your item currently provides a given code,
+--  and if so, the count provided.
 --
---	Returns an integer count >= 0
+--  Returns an integer count >= 0
 function CustomItem:providesCode(code)
     return 0
 end
 
---	Called to request that your item advance to the given code.
+--  Called to request that your item advance to the given code.
 function CustomItem:advanceToCode(code)
 end
 
---	Called when the user is saving progress.
+--  Called when the user is saving progress.
 --
---	Return a table of key-value pairs, for simple value types (bool, integer, string, etc.)
+--  Return a table of key-value pairs, for simple value types (bool, integer, string, etc.)
 function CustomItem:save()
     return {}
 end
 
---	Called when the user is loading progress. Data is a table containing your saved data.
+--  Called when the user is loading progress. Data is a table containing your saved data.
 --
---	Return true for success, false for failure (will fail the load)
+--  Return true for success, false for failure (will fail the load)
 function CustomItem:load(data)
     return true
 end
 
---	Call to set a transaction-backed property. Properties set this way will support undo.
+--  Call to set a transaction-backed property. Properties set this way will support undo.
 --
---	Returns true if the value was actually modified. DO NOT OVERRIDE
+--  Returns true if the value was actually modified. DO NOT OVERRIDE
 function CustomItem:setProperty(key, value)
     return self.ItemInstance:Set(key, value)
 end
 
---	Call to read a transaction-backed property. DO NOT OVERRIDE
+--  Call to read a transaction-backed property. DO NOT OVERRIDE
 function CustomItem:getProperty(key)
     return self.ItemInstance:Get(key)
 end
 
---	Called when a transaction-backed property's value has changed. This will also happen
---	as part of setting a transaction-backed property.
+--  Called when a transaction-backed property's value has changed. This will also happen
+--  as part of setting a transaction-backed property.
 function CustomItem:propertyChanged(key, value)
 end
