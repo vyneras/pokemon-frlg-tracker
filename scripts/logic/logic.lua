@@ -234,11 +234,3 @@ end
 function victory_road_rock_smash()
     return has("victory_road_rocks_off") or rock_smash()
 end
-
-function item_locations_visible()
-    return has("pokemon_locations_off") or has("pokemon_locations_on")
-end
-
-function pokemon_locations_visible()
-    return has("pokemon_locations_on") or has("pokemon_locations_only")
-end

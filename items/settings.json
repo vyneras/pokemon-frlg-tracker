@@ -1523,21 +1523,21 @@
       {
         "img": "images/settings/mew.png",
         "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
-        "codes": "pokemon_locations_setting,pokemon_locations_off",
+        "codes": "pokemon_locations_setting,item_locations_on",
         "inherit_codes": false,
         "name": "Pokemon Locations - Off"
       },
       {
         "img": "images/settings/mew.png",
         "img_mods": "overlay|images/overlays/on_alt.png",
-        "codes": "pokemon_locations_setting,pokemon_locations_on",
+        "codes": "pokemon_locations_setting,item_locations_on,pokemon_locations_on",
         "inherit_codes": false,
         "name": "Pokemon Locations - On"
       },
       {
         "img": "images/settings/mew.png",
         "img_mods": "overlay|images/overlays/only_alt.png",
-        "codes": "pokemon_locations_setting,pokemon_locations_only",
+        "codes": "pokemon_locations_setting,pokemon_locations_on",
         "inherit_codes": false,
         "name": "Pokemon Locations - Only"
       }
