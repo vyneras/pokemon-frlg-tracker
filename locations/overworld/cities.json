@@ -880,8 +880,7 @@
             "chest_unopened_img": "images/locations/clerk_bicycle.png",
             "chest_opened_img": "images/locations/clerk_bicycle_bw.png",
             "access_rules": [
-              "@Cerulean City Access,bike_voucher",
-              "@Cerulean City Access,{}"
+              "@Cerulean City Access,^$purchase_bicycle"
             ],
             "visibility_rules": [
               "item_locations_on"

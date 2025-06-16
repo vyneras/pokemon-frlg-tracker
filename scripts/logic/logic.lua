@@ -87,24 +87,46 @@ function post_game_fame()
     return has("defeat_champion") or has("early_gossipers_on")
 end
 
+function purchase_bicycle()
+    if has("bike_voucher") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
 function route_2_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_2_oaks_aide_requirement")
+    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_2_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
 end
 
 function route_10_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_10_oaks_aide_requirement")
+    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_10_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
 end
 
 function route_11_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_11_oaks_aide_requirement")
+    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_11_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
 end
 
 function route_16_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_16_oaks_aide_requirement")
+    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_16_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
 end
 
 function route_15_oaks_aide()
-    return Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement")
+    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
 end
 
 function route_2_modified()

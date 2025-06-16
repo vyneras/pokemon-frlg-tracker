@@ -71,8 +71,7 @@
             "chest_unopened_img": "images/locations/scientist_normal_tm.png",
             "chest_opened_img": "images/locations/scientist_normal_tm_bw.png",
             "access_rules": [
-              "@Route 2 Southeast Access,$route_2_oaks_aide",
-              "@Route 2 Southeast Access,{}"
+              "@Route 2 Southeast Access,^$route_2_oaks_aide"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1049,8 +1048,7 @@
             "chest_unopened_img": "images/locations/scientist_everstone.png",
             "chest_opened_img": "images/locations/scientist_everstone_bw.png",
             "access_rules": [
-              "@Route 10 North Access,$route_10_oaks_aide",
-              "@Route 10 North Access,{}"
+              "@Route 10 North Access,^$route_10_oaks_aide"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1479,8 +1477,7 @@
             "chest_unopened_img": "images/locations/scientist_itemfinder.png",
             "chest_opened_img": "images/locations/scientist_itemfinder_bw.png",
             "access_rules": [
-              "$route_11_oaks_aide",
-              "{}"
+              "^$route_11_oaks_aide"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2353,8 +2350,7 @@
             "chest_unopened_img": "images/locations/scientist_exp_share.png",
             "chest_opened_img": "images/locations/scientist_exp_share_bw.png",
             "access_rules": [
-              "$route_15_oaks_aide",
-              "{}"
+              "^$route_15_oaks_aide"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2440,8 +2436,7 @@
             "chest_unopened_img": "images/locations/scientist_amulet_coin.png",
             "chest_opened_img": "images/locations/scientist_amulet_coin_bw.png",
             "access_rules": [
-              "@Route 16 Center Access,$route_16_oaks_aide",
-              "@Route 16 Center Access,{}"
+              "@Route 16 Center Access,^$route_16_oaks_aide"
             ],
             "visibility_rules": [
               "item_locations_on"
