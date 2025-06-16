@@ -1,3 +1,11 @@
+# 2.2.0
+## Updates
++ Improved performance of Auto Encounter Tracking
+
+## Bug Fixes
++ Fixed Seafoam Islands B3F fishing access
++ Added Navel Rock and Birth Island to Kanto map when Kanto Only is on
+
 # 2.1.0
 ## Updates
 + Auto Encounter Tracking can now be toggled on/off through a setting (defaults to on)
