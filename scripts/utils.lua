@@ -203,6 +203,16 @@ function toggle_maps(code)
     end
 end
 
+function toggle_kanto_only_maps(code)
+    local kanto_only = has("kanto_only_on")
+
+    if kanto_only then
+        Tracker:AddMaps("maps/maps_kanto_only_on.json")
+    else
+        Tracker:AddMaps("maps/maps_kanto_only_off.json")
+    end
+end
+
 function toggle_split_tea_maps(code)
     local teas_split = has("teas_split")
 

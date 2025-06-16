@@ -31,6 +31,7 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("dungeon_entrance_shuffle", "dungeon_entrance_shuffle_setting", set_default_dungeon_entrances)
 
     -- Maps
+    ScriptHost:AddWatchForCode("kanto_only_map", "kanto_only_setting", toggle_kanto_only_maps)
     ScriptHost:AddWatchForCode("split_teas_map", "teas_setting", toggle_split_tea_maps)
     ScriptHost:AddWatchForCode("card_keys_map", "card_keys_setting", toggle_split_card_key_maps)
     ScriptHost:AddWatchForCode("route2_map", "modify_route_2_setting", toggle_route_2_maps)
