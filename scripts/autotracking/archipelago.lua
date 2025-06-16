@@ -458,8 +458,16 @@ function updatePokemon(pokemon)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
       print(string.format("updatePokemon: Pokemon - %s", dump_table(pokemon)))
     end
+    local seen_pokemon = {}
+    local caught_pokemon = {}
+    for _, dex_number in pairs(pokemon["seen"]) do
+      seen_pokemon[dex_number] = true
+    end
+    for _, dex_number in pairs(pokemon["caught"]) do
+      caught_pokemon[dex_number] = true
+    end
     for dex_number, code in pairs(POKEMON_MAPPING) do
-      if table_contains(pokemon["caught"], dex_number) then
+      if caught_pokemon[dex_number] ~= nil then
         Tracker:FindObjectForCode(code).Active = true
       else
         Tracker:FindObjectForCode(code).Active = false
@@ -480,7 +488,7 @@ function updatePokemon(pokemon)
       end
       for dex_number, encounters in pairs(ENCOUNTER_LIST) do
         local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
-        if table_contains(pokemon["caught"], dex_number) or (table_contains(pokemon["seen"], dex_number) and code.CurrentStage == 0) or code.CurrentStage == 2 then
+        if caught_pokemon[dex_number] ~= nil or (seen_pokemon[dex_number] ~= nil and code.CurrentStage == 0) then
           for _, encounter in pairs(encounters) do
             local object_name = encounter_mapping[encounter]
             if object_name ~= nil then
