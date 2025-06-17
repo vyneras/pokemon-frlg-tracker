@@ -66,7 +66,7 @@ function Pokedex:save()
 end
 
 function Pokedex:load(data)
-    if data["stage"] ~= nil then
+    if data["stage"] then
         self:setStage(data["stage"])
     end
     self:updateIcon()

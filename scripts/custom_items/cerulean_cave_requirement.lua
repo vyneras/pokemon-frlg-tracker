@@ -127,10 +127,10 @@ function CeruleanCaveRequirement:save()
 end
 
 function CeruleanCaveRequirement:load(data)
-    if data["type"] ~= nil then
+    if data["type"] then
         self:setType(data["type"])
     end
-    if data["stage"] ~= nil then
+    if data["stage"] then
         self:setStage(data["stage"])
     end
     self:updateIcon()

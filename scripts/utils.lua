@@ -1,5 +1,4 @@
 FLY_DESTINATION_MAPPING = {}
-DUNGEON_ENTRANCE_MAPPING = {}
 
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
@@ -365,7 +364,7 @@ end
 function toggle_fly_unlock(code)
     if has("randomize_fly_destinations_on") then
         local data = FLY_DESTINATION_MAPPING[code]
-        if data ~= nil then
+        if data then
             local item = data[1]
             if Tracker:FindObjectForCode(code).Active then
                 item:setStage(data[2])
@@ -378,29 +377,11 @@ end
 
 function set_default_dungeon_entrances(code)
     local dungeon_entrances_shuffled = Tracker:FindObjectForCode(code).CurrentStage == 1
-    for _, item in pairs(DUNGEON_ENTRANCE_ITEMS) do
+    for _, item in pairs(ENTRANCE_ITEMS) do
         if dungeon_entrances_shuffled then
-            if item:getEntranceKnown() then
-                item:setStage(item:getTrackedStage())
-            else
-                item:setStage(0)
-            end
+            item:setStage(item:getSavedStage())
         else
-            item:setToDefaultStage()
-        end
-    end
-end
-
-function toggle_dungeon_entrance(code)
-    local active = Tracker:FindObjectForCode(code).Active
-    local item = DUNGEON_ENTRANCE_MAPPING[code]
-    if item ~= nil then
-        if active then
-            item:setEntranceKnown(true)
-            item:setStage(item:getTrackedStage())
-        else
-            item:setEntranceKnown(false)
-            item:setStage(0)
+            item:setStage(item:getDefaultStage())
         end
     end
 end

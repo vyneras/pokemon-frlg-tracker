@@ -174,7 +174,7 @@ function FlyDestination:save()
 end
 
 function FlyDestination:load(data)
-    if data["stage"] ~= nil then
+    if data["stage"] then
         self:setStage(data["stage"])
     end
     self:updateIcon()

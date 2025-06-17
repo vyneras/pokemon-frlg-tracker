@@ -1,4 +1,5 @@
 ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/entrance_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
@@ -43,13 +44,13 @@ PROG_PASS_SPLIT = {
 }
 
 DEXSANITY_LOCATIONS = {}
-
 ENCOUNTER_LIST = {}
 
 EVENT_ID = ""
 FLY_UNLOCK_ID = ""
 POKEMON_ID = ""
 POKEDEX_ID = ""
+ENTRANCES_ID = ""
 
 function resetItems()
     for _, value in pairs(ITEM_MAPPING) do
@@ -98,6 +99,17 @@ function resetDarkCaves()
     end
 end
 
+function resetEntrances()
+    for _, item in pairs(ENTRANCE_ITEMS) do
+        item:setStage(item:getDefaultStage())
+        item:setSavedStage(0)
+        local object = Tracker:FindObjectForCode(item.code .. "_hosted")
+        if object then
+            object.Active = false
+        end
+    end
+end
+
 function setTrainersanityVisibility()
     local checked_locations = Archipelago.CheckedLocations
     local missing_locations = Archipelago.MissingLocations
@@ -106,12 +118,12 @@ function setTrainersanityVisibility()
         remove_trainer_checks[value] = true
     end
     for _, value in pairs(checked_locations) do
-        if remove_trainer_checks[value] ~= nil then
+        if remove_trainer_checks[value] then
             remove_trainer_checks[value] = false
         end
     end
     for _, value in pairs(missing_locations) do
-        if remove_trainer_checks[value] ~= nil then
+        if remove_trainer_checks[value] then
             remove_trainer_checks[value] = false
         end
     end
@@ -131,7 +143,7 @@ function setDexsanityLocations()
     local checked_locations = Archipelago.CheckedLocations
     local missing_locations = Archipelago.MissingLocations
     for _, value in pairs(checked_locations) do
-        if DEXSANITY_LOCATIONS[value] ~= nil then
+        if DEXSANITY_LOCATIONS[value] then
             local object = Tracker:FindObjectForCode(DEXSANITY_LOCATIONS[value])
             if object then
                 object.CurrentStage = 1
@@ -139,7 +151,7 @@ function setDexsanityLocations()
         end
     end
     for _, value in pairs(missing_locations) do
-        if DEXSANITY_LOCATIONS[value] ~= nil then
+        if DEXSANITY_LOCATIONS[value] then
             local object = Tracker:FindObjectForCode(DEXSANITY_LOCATIONS[value])
             if object then
                 object.CurrentStage = 1
@@ -171,7 +183,7 @@ end
 function onClear(slot_data)
     Tracker.BulkUpdate = true
     local version_mismatch = Tracker:FindObjectForCode("version_mismatch")
-    if slot_data["poptracker_checksum"] ~= nil and slot_data["poptracker_checksum"] == TRACKER_CHECKSUM then
+    if slot_data["poptracker_checksum"] and slot_data["poptracker_checksum"] == TRACKER_CHECKSUM then
         version_mismatch.Active = false
     else
         version_mismatch.Active = true
@@ -191,6 +203,7 @@ function onClear(slot_data)
     resetLocations()
     resetWorldStateSettings()
     resetDarkCaves()
+    resetEntrances()
     setRandomizeFlyDestinationsSetting(0)
     setDungeonEntranceShuffleSetting(0)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -236,14 +249,13 @@ function onClear(slot_data)
         elseif key == "dungeon_entrance_shuffle" then
             setDungeonEntranceShuffleSetting(1)
             local dungeon_entrance_mapping = {}
-            for key, value in pairs(DUNGEON_ENTRANCE_DATA) do
+            for key, value in pairs(ENTRANCE_DATA) do
                 dungeon_entrance_mapping[value[1]] = key
             end
             for entrance, exit in pairs(slot_data["dungeon_entrance_shuffle"]) do
-                local item = DUNGEON_ENTRANCE_ITEMS[entrance]
-                if item ~= nil then
+                local item = ENTRANCE_ITEMS[entrance]
+                if item then
                     item:setTrackedStage(dungeon_entrance_mapping[exit])
-                    DUNGEON_ENTRANCE_MAPPING[item.code .. "_hosted"] = item
                 end
             end
         elseif SLOT_CODES[key] then
@@ -298,8 +310,9 @@ function onClear(slot_data)
         FLY_UNLOCK_ID = "pokemon_frlg_fly_unlocks_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEMON_ID = "pokemon_frlg_pokemon_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEDEX_ID = "pokemon_frlg_pokedex_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
-        Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, POKEMON_ID, POKEDEX_ID})
-        Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, POKEMON_ID, POKEDEX_ID})
+        ENTRANCES_ID = "pokemon_frlg_entrances_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+        Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
+        Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
     end
     Tracker.BulkUpdate = false
 end
@@ -393,6 +406,8 @@ function onNotify(key, value, old_value)
         updatePokemon(value)
     elseif key == POKEDEX_ID then
         updatePokedex(value)
+    elseif key == ENTRANCES_ID then
+        updateEntrances(value)
     end
 end
 
@@ -405,6 +420,8 @@ function onNotifyLaunch(key, value)
         updatePokemon(value)
     elseif key == POKEDEX_ID then
         updatePokedex(value)
+    elseif key == ENTRANCES_ID then
+        updateEntrances(value)
     end
 end
 
@@ -418,7 +435,7 @@ function onBounce(json)
 end
 
 function updateEvents(value, reset)
-    if value ~= nil then
+    if value then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateEvents: Value - %s", value))
         end
@@ -442,7 +459,7 @@ function updateEvents(value, reset)
 end
 
 function updateFlyUnlocks(value, reset)
-    if value ~= nil then
+    if value then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateFlyUnlocks: Value - %s", value))
         end
@@ -457,7 +474,7 @@ function updateFlyUnlocks(value, reset)
 end
 
 function updatePokemon(pokemon)
-    if pokemon ~= nil then
+    if pokemon then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updatePokemon: Pokemon - %s", dump_table(pokemon)))
         end
@@ -470,7 +487,7 @@ function updatePokemon(pokemon)
             caught_pokemon[dex_number] = true
         end
         for dex_number, code in pairs(POKEMON_MAPPING) do
-            if caught_pokemon[dex_number] ~= nil then
+            if caught_pokemon[dex_number] then
                 Tracker:FindObjectForCode(code).Active = true
             else
                 Tracker:FindObjectForCode(code).Active = false
@@ -491,10 +508,10 @@ function updatePokemon(pokemon)
             end
             for dex_number, encounters in pairs(ENCOUNTER_LIST) do
                 local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
-                if caught_pokemon[dex_number] ~= nil or (seen_pokemon[dex_number] ~= nil and code.CurrentStage == 0) then
+                if caught_pokemon[dex_number] or (seen_pokemon[dex_number] and code.CurrentStage == 0) then
                     for _, encounter in pairs(encounters) do
                         local object_name = encounter_mapping[encounter]
-                        if object_name ~= nil then
+                        if object_name then
                             local object = Tracker:FindObjectForCode(object_name)
                             if object then
                                 object.AvailableChestCount = object.AvailableChestCount - 1
@@ -508,11 +525,37 @@ function updatePokemon(pokemon)
 end
 
 function updatePokedex(value)
-    if value ~= nil then
+    if value then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updatePokedex: Value - %s", value))
         end
         POKEDEX:setStage(value)
+    end
+end
+
+function updateEntrances(entrances)
+    if entrances then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("updateEntrances: Entrances - %s", dump_table(entrances)))
+        end
+        for _, entrance in pairs(entrances) do
+            local map_data = ENTRANCE_MAPPING[entrance[1]]
+            if map_data then
+                local entrance_name = map_data[entrance[2]]
+                print(entrance_name)
+                if entrance_name then
+                    local item = ENTRANCE_ITEMS[entrance_name]
+                    if item then
+                        item:setStage(item:getTrackedStage())
+                        item:setSavedStage(item:getTrackedStage())
+                        local object = Tracker:FindObjectForCode(item.code .. "_hosted")
+                        if object then
+                            object.Active = true
+                        end
+                    end
+                end
+            end
+        end
     end
 end
 
