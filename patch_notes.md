@@ -1,4 +1,4 @@
-# 2.2.0
+# 3.0.0
 ## Updates
 + Improved performance of Auto Encounter Tracking
 + Entrances are now tracked automatically when connected to AP (the manual shortcuts to auto set entrances have been removed)
