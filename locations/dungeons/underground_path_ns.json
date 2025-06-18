@@ -3,6 +3,22 @@
     "name": "Underground Path North-South Tunnel",
     "children": [
       {
+        "name": "Little Girl",
+        "sections": [
+          {
+            "ref": "Dungeons/Underground Path North-South Tunnel/Little Girl Trade Pokémon",
+            "name": "Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_entrance",
+            "x": 88,
+            "y": 104
+          }
+        ]
+      },
+      {
         "name": "Farthest North Hidden Item",
         "sections": [
           {

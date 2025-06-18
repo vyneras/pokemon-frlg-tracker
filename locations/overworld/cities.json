@@ -800,8 +800,8 @@
           },
           {
             "name": "Berry Powder Man Gift",
-            "chest_unopened_img": "images/locations/old_man_powder_jar.png",
-            "chest_opened_img": "images/locations/old_man_powder_jar_bw.png",
+            "chest_unopened_img": "images/locations/old_man_2_powder_jar.png",
+            "chest_opened_img": "images/locations/old_man_2_powder_jar_bw.png",
             "access_rules": [
               "@Cerulean City Access,berry_pouch"
             ],
@@ -840,6 +840,17 @@
             ],
             "visibility_rules": [
               "item_locations_on"
+            ]
+          },
+          {
+            "name": "Old Man Trade Pokémon",
+            "chest_unopened_img": "images/locations/old_man.png",
+            "chest_opened_img": "images/locations/old_man_bw.png",
+            "access_rules": [
+              "@Cerulean City Access"
+            ],
+            "visibility_rules": [
+              "pokemon_locations_on"
             ]
           },
           {
@@ -1200,6 +1211,17 @@
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
+            ]
+          },
+          {
+            "name": "Little Girl Trade Pokémon",
+            "chest_unopened_img": "images/locations/little_girl.png",
+            "chest_opened_img": "images/locations/little_girl_bw.png",
+            "access_rules": [
+              "@Vermilion City Access"
+            ],
+            "visibility_rules": [
+              "pokemon_locations_on"
             ]
           },
           {
@@ -2365,8 +2387,8 @@
           },
           {
             "name": "Safari Zone Warden Gift (Return Teeth)",
-            "chest_unopened_img": "images/locations/old_man_normal_tm.png",
-            "chest_opened_img": "images/locations/old_man_normal_tm_bw.png",
+            "chest_unopened_img": "images/locations/old_man_2_normal_tm.png",
+            "chest_opened_img": "images/locations/old_man_2_normal_tm_bw.png",
             "access_rules": [
               "gold_teeth"
             ],
@@ -3078,11 +3100,35 @@
             ]
           },
           {
+            "name": "Old Man Trade Pokémon",
+            "chest_unopened_img": "images/locations/old_man_2.png",
+            "chest_opened_img": "images/locations/old_man_2_bw.png",
+            "visibility_rules": [
+              "pokemon_locations_on"
+            ]
+          },
+          {
+            "name": "Woman Trade Pokémon",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "visibility_rules": [
+              "pokemon_locations_on"
+            ]
+          },
+          {
             "name": "Scientist Gift",
             "chest_unopened_img": "images/locations/scientist_letter.png",
             "chest_opened_img": "images/locations/scientist_letter_bw.png",
             "visibility_rules": [
               "extra_key_items_on,item_locations_on"
+            ]
+          },
+          {
+            "name": "Boy Trade Pokémon",
+            "chest_unopened_img": "images/locations/boy.png",
+            "chest_opened_img": "images/locations/boy_bw.png",
+            "visibility_rules": [
+              "pokemon_locations_on"
             ]
           },
           {

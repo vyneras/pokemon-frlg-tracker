@@ -59,7 +59,7 @@
         "name": "Gate",
         "sections": [
           {
-            "ref": "Routes/Route 2/Oak's Aide Gift (Pokedex Progress)"
+            "ref": "Routes/Route 2/Oak's Aide Gift (Pokédex Progress)"
           }
         ],
         "map_locations": [
@@ -72,6 +72,21 @@
             "map": "route_2_south",
             "x": 304,
             "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Trade House",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/GBA Kid Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 280,
+            "y": 360
           }
         ]
       },
@@ -100,8 +115,8 @@
         "name": "Oak's Aide",
         "sections": [
           {
-            "ref": "Routes/Route 2/Oak's Aide Gift (Pokedex Progress)",
-            "name": "Gift (Pokedex Progress)"
+            "ref": "Routes/Route 2/Oak's Aide Gift (Pokédex Progress)",
+            "name": "Gift (Pokédex Progress)"
           }
         ],
         "map_locations": [
@@ -161,6 +176,27 @@
             "map": "viridian_forest_north_entrance",
             "x": 120,
             "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 2 Trade House",
+    "children": [
+      {
+        "name": "GBA Kid",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/GBA Kid Trade Pokémon",
+            "name": "Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_trade_house",
+            "x": 120,
+            "y": 40
           }
         ]
       }

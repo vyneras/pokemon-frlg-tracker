@@ -216,6 +216,21 @@
         ]
       },
       {
+        "name": "Trade House",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Little Girl Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 312,
+            "y": 280
+          }
+        ]
+      },
+      {
         "name": "S.S. Anne Entrance",
         "sections": [
           {
@@ -455,6 +470,27 @@
             "map": "vermilion_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Trade House",
+    "children": [
+      {
+        "name": "Little Girl",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Little Girl Trade Pokémon",
+            "name": "Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_trade_house",
+            "x": 72,
+            "y": 72
           }
         ]
       }

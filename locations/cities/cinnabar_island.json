@@ -109,8 +109,20 @@
         "name": "Pokémon Lab",
         "sections": [
           {
+            "ref": "Cities/Cinnabar Island/Old Man Trade Pokémon",
+            "name": "Old Man Trade Pokémon"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Woman Trade Pokémon",
+            "name": "Woman Trade Pokémon"
+          },
+          {
             "ref": "Cities/Cinnabar Island/Scientist Gift",
             "name": "Scientist Gift"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Boy Trade Pokémon",
+            "name": "Boy Trade Pokémon"
           },
           {
             "ref": "Cities/Cinnabar Island/Revive Dome Fossil",
@@ -412,6 +424,43 @@
     ]
   },
   {
+    "name": "Pokémon Lab Lounge",
+    "children": [
+      {
+        "name": "Old Man",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Old Man Trade Pokémon",
+            "name": "Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_lounge",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Woman",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Woman Trade Pokémon",
+            "name": "Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_lounge",
+            "x": 168,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Pokémon Lab Research Room",
     "children": [
       {
@@ -435,6 +484,22 @@
   {
     "name": "Pokémon Lab Experiment Room",
     "children": [
+      {
+        "name": "Boy",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Boy Trade Pokémon",
+            "name": "Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_experiment_room",
+            "x": 184,
+            "y": 136
+          }
+        ]
+      },
       {
         "name": "Scientist",
         "sections": [

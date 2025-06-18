@@ -1,6 +1,8 @@
 # 2.2.0
 ## Updates
 + Improved performance of Auto Encounter Tracking
++ Entrances are now tracked automatically when connected to AP (the manual shortcuts to auto set entrances have been removed)
++ Added Trade Pokémon locations
 
 ## Bug Fixes
 + Fixed Seafoam Islands B3F fishing access

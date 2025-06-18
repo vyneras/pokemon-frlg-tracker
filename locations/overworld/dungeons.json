@@ -504,6 +504,14 @@
         ],
         "sections": [
           {
+            "name": "Little Girl Trade Pokémon",
+            "chest_unopened_img": "images/locations/little_girl.png",
+            "chest_opened_img": "images/locations/little_girl_bw.png",
+            "visibility_rules": [
+              "pokemon_locations_on"
+            ]
+          },
+          {
             "name": "Farthest North Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -3209,8 +3217,8 @@
           },
           {
             "name": "11F - President Gift",
-            "chest_unopened_img": "images/locations/old_man_master_ball.png",
-            "chest_opened_img": "images/locations/old_man_master_ball_bw.png",
+            "chest_unopened_img": "images/locations/old_man_2_master_ball.png",
+            "chest_opened_img": "images/locations/old_man_2_master_ball_bw.png",
             "access_rules": [
               "card_key",
               "card_key_3f,card_key_11f"

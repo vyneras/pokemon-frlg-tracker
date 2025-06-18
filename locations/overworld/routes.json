@@ -67,7 +67,7 @@
             ]
           },
           {
-            "name": "Oak's Aide Gift (Pokedex Progress)",
+            "name": "Oak's Aide Gift (Pokédex Progress)",
             "chest_unopened_img": "images/locations/scientist_normal_tm.png",
             "chest_opened_img": "images/locations/scientist_normal_tm_bw.png",
             "access_rules": [
@@ -75,6 +75,17 @@
             ],
             "visibility_rules": [
               "item_locations_on"
+            ]
+          },
+          {
+            "name": "GBA Kid Trade Pokémon",
+            "chest_unopened_img": "images/locations/gba_kid.png",
+            "chest_opened_img": "images/locations/gba_kid_bw.png",
+            "access_rules": [
+              "@Route 2 Northeast Access"
+            ],
+            "visibility_rules": [
+              "pokemon_locations_on"
             ]
           },
           {
@@ -1044,7 +1055,7 @@
             ]
           },
           {
-            "name": "Oak's Aide Gift (Pokedex Progress)",
+            "name": "Oak's Aide Gift (Pokédex Progress)",
             "chest_unopened_img": "images/locations/scientist_everstone.png",
             "chest_opened_img": "images/locations/scientist_everstone_bw.png",
             "access_rules": [
@@ -1473,7 +1484,7 @@
             ]
           },
           {
-            "name": "Oak's Aide Gift (Pokedex Progress)",
+            "name": "Oak's Aide Gift (Pokédex Progress)",
             "chest_unopened_img": "images/locations/scientist_itemfinder.png",
             "chest_opened_img": "images/locations/scientist_itemfinder_bw.png",
             "access_rules": [
@@ -1481,6 +1492,14 @@
             ],
             "visibility_rules": [
               "item_locations_on"
+            ]
+          },
+          {
+            "name": "Youngster Trade Pokémon",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "pokemon_locations_on"
             ]
           },
           {
@@ -2346,7 +2365,7 @@
             ]
           },
           {
-            "name": "Oak's Aide Gift (Pokedex Progress)",
+            "name": "Oak's Aide Gift (Pokédex Progress)",
             "chest_unopened_img": "images/locations/scientist_exp_share.png",
             "chest_opened_img": "images/locations/scientist_exp_share_bw.png",
             "access_rules": [
@@ -2432,7 +2451,7 @@
             ]
           },
           {
-            "name": "Oak's Aide Gift (Pokedex Progress)",
+            "name": "Oak's Aide Gift (Pokédex Progress)",
             "chest_unopened_img": "images/locations/scientist_amulet_coin.png",
             "chest_opened_img": "images/locations/scientist_amulet_coin_bw.png",
             "access_rules": [
@@ -2739,6 +2758,14 @@
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
               "trainersanity_on,bird_keeper_ramiro,item_locations_on"
+            ]
+          },
+          {
+            "name": "Boy Trade Pokémon",
+            "chest_unopened_img": "images/locations/boy.png",
+            "chest_opened_img": "images/locations/boy_bw.png",
+            "visibility_rules": [
+              "pokemon_locations_on"
             ]
           },
           {

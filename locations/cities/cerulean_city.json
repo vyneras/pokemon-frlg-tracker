@@ -242,6 +242,21 @@
         ]
       },
       {
+        "name": "Trade House",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Old Man Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 248,
+            "y": 280
+          }
+        ]
+      },
+      {
         "name": "Cerulean Cave Entrance",
         "sections": [
           {
@@ -457,6 +472,27 @@
             "map": "cerulean_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Trade House",
+    "children": [
+      {
+        "name": "Old Man",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Old Man Trade Pokémon",
+            "name": "Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_trade_house",
+            "x": 40,
+            "y": 40
           }
         ]
       }

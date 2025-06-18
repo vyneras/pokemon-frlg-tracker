@@ -70,6 +70,47 @@
             "y": 200
           }
         ]
+      },
+      {
+        "name": "Gate",
+        "sections": [
+          {
+            "ref": "Routes/Route 18/Boy Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 184,
+            "y": 152
+          },
+          {
+            "map": "route_18_east",
+            "x": 296,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 18 Gate",
+    "children": [
+      {
+        "name": "Boy",
+        "sections": [
+          {
+            "ref": "Routes/Route 18/Boy Trade Pokémon",
+            "name": "Trade Pokémon"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_gate_2f",
+            "x": 88,
+            "y": 56
+          }
+        ]
       }
     ]
   }
