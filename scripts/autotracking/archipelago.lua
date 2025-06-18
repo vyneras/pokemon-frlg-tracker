@@ -45,9 +45,14 @@ PROG_PASS_SPLIT = {
 
 DEXSANITY_LOCATIONS = {}
 ENCOUNTER_LIST = {}
+STATIC_ENCOUNTER_LIST = {}
+
+SEEN_POKEMON = {}
+CAUGHT_POKEMON = {}
 
 EVENT_ID = ""
 FLY_UNLOCK_ID = ""
+STATIC_ID = ""
 POKEMON_ID = ""
 POKEDEX_ID = ""
 ENTRANCES_ID = ""
@@ -199,6 +204,8 @@ function onClear(slot_data)
     FLY_DESTINATION_MAPPING = {}
     DEXSANITY_LOCATIONS = {}
     ENCOUNTER_LIST = {}
+    SEEN_POKEMON = {}
+    CAUGHT_POKEMON = {}
     resetItems()
     resetLocations()
     resetWorldStateSettings()
@@ -210,6 +217,7 @@ function onClear(slot_data)
         print(dump_table(slot_data))
     end
     setEncounterList(slot_data["wild_encounters"])
+    STATIC_ENCOUNTER_LIST = slot_data["static_encounters"]
     for key, value in pairs(slot_data) do
         if key == "remove_badge_requirement" then
             for hm, code in pairs(BADGE_FOR_HM) do
@@ -301,6 +309,7 @@ function onClear(slot_data)
     if PLAYER_NUMBER > -1 then
         updateEvents(0, true)
         updateFlyUnlocks(0, true)
+        updateStatics(0, true)
         updatePokemon({
             ["seen"] = {},
             ["caught"] = {}
@@ -308,11 +317,12 @@ function onClear(slot_data)
         updatePokedex(0)
         EVENT_ID = "pokemon_frlg_events_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         FLY_UNLOCK_ID = "pokemon_frlg_fly_unlocks_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+        STATIC_ID = "pokemon_frlg_statics_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEMON_ID = "pokemon_frlg_pokemon_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEDEX_ID = "pokemon_frlg_pokedex_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         ENTRANCES_ID = "pokemon_frlg_entrances_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
-        Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
-        Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
+        Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
+        Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
     end
     Tracker.BulkUpdate = false
 end
@@ -402,6 +412,8 @@ function onNotify(key, value, old_value)
         updateEvents(value, false)
     elseif key == FLY_UNLOCK_ID then
         updateFlyUnlocks(value, false)
+    elseif key == STATIC_ID then
+        updateStatics(value, false)
     elseif key == POKEMON_ID then
         updatePokemon(value)
     elseif key == POKEDEX_ID then
@@ -416,6 +428,8 @@ function onNotifyLaunch(key, value)
         updateEvents(value, false)
     elseif key == FLY_UNLOCK_ID then
         updateFlyUnlocks(value, false)
+    elseif key == STATIC_ID then
+        updateStatics(value, false)
     elseif key == POKEMON_ID then
         updatePokemon(value)
     elseif key == POKEDEX_ID then
@@ -463,11 +477,41 @@ function updateFlyUnlocks(value, reset)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateFlyUnlocks: Value - %s", value))
         end
-        for bit, event in pairs(FLY_UNLOCK_FLAG_MAPPING) do
+        for bit, fly_unlock in pairs(FLY_UNLOCK_FLAG_MAPPING) do
             local bitmask = 2 ^ bit
-            if reset or (value & bitmask ~= event.value) then
-                event.value = value & bitmask
-                Tracker:FindObjectForCode(event.code).Active = event.value
+            if reset or (value & bitmask ~= fly_unlock.value) then
+                fly_unlock.value = value & bitmask
+                Tracker:FindObjectForCode(fly_unlock.code).Active = fly_unlock.value
+            end
+        end
+    end
+end
+
+function updateStatics(value, reset)
+    if value then
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("updateStatics: Value - %s", value))
+        end
+        for bit, static in pairs(STATIC_FLAG_MAPPING) do
+            local bitmask = 2 ^ bit
+            if reset or (value & bitmask ~= static.value) then
+                static.value = value & bitmask
+                for _, name in pairs(static.names) do
+                    if STATIC_ENCOUNTER_LIST[name] then
+                        local dex_number = STATIC_ENCOUNTER_LIST[name]
+                        local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
+                        if CAUGHT_POKEMON[dex_number] or (SEEN_POKEMON[dex_number] and code.CurrentStage == 0) then
+                            local object = Tracker:FindObjectForCode(ENCOUNTER_MAPPING_STATICS[name])
+                            if object then
+                                if static.value ~= 0 then
+                                    object.AvailableChestCount = 0
+                                else
+                                    object.AvailableChestCount = object.ChestCount
+                                end
+                            end
+                        end
+                    end
+                end
             end
         end
     end
@@ -521,6 +565,26 @@ function updatePokemon(pokemon)
                 end
             end
         end
+        for _, static in pairs(STATIC_FLAG_MAPPING) do
+            for _, name in pairs(static.names) do
+                if STATIC_ENCOUNTER_LIST[name] then
+                    local dex_number = STATIC_ENCOUNTER_LIST[name]
+                    local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
+                    if caught_pokemon[dex_number] or (seen_pokemon[dex_number] and code.CurrentStage == 0) then
+                        local object = Tracker:FindObjectForCode(ENCOUNTER_MAPPING_STATICS[name])
+                        if object then
+                            if static.value ~= 0 then
+                                object.AvailableChestCount = 0
+                            else
+                                object.AvailableChestCount = object.ChestCount
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        SEEN_POKEMON = seen_pokemon
+        CAUGHT_POKEMON = caught_pokemon
     end
 end
 
@@ -538,19 +602,20 @@ function updateEntrances(entrances)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateEntrances: Entrances - %s", dump_table(entrances)))
         end
-        for _, entrance in pairs(entrances) do
-            local map_data = ENTRANCE_MAPPING[entrance[1]]
+        for map_id, warp_ids in pairs(entrances) do
+            local map_data = ENTRANCE_MAPPING[tonumber(map_id)]
             if map_data then
-                local entrance_name = map_data[entrance[2]]
-                print(entrance_name)
-                if entrance_name then
-                    local item = ENTRANCE_ITEMS[entrance_name]
-                    if item then
-                        item:setStage(item:getTrackedStage())
-                        item:setSavedStage(item:getTrackedStage())
-                        local object = Tracker:FindObjectForCode(item.code .. "_hosted")
-                        if object then
-                            object.Active = true
+                for _, warp_id in pairs(warp_ids) do
+                    local entrance_name = map_data[warp_id]
+                    if entrance_name then
+                        local item = ENTRANCE_ITEMS[entrance_name]
+                        if item then
+                            item:setStage(item:getTrackedStage())
+                            item:setSavedStage(item:getTrackedStage())
+                            local object = Tracker:FindObjectForCode(item.code .. "_hosted")
+                            if object then
+                                object.Active = true
+                            end
                         end
                     end
                 end
