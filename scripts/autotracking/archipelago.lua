@@ -256,16 +256,6 @@ function onClear(slot_data)
             end
         elseif key == "dungeon_entrance_shuffle" then
             setDungeonEntranceShuffleSetting(1)
-            local dungeon_entrance_mapping = {}
-            for key, value in pairs(ENTRANCE_DATA) do
-                dungeon_entrance_mapping[value[1]] = key
-            end
-            for entrance, exit in pairs(slot_data["dungeon_entrance_shuffle"]) do
-                local item = ENTRANCE_ITEMS[entrance]
-                if item then
-                    item:setTrackedStage(dungeon_entrance_mapping[exit])
-                end
-            end
         elseif SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
             if object then
@@ -602,21 +592,16 @@ function updateEntrances(entrances)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateEntrances: Entrances - %s", dump_table(entrances)))
         end
-        for map_id, warp_ids in pairs(entrances) do
-            local map_data = ENTRANCE_MAPPING[tonumber(map_id)]
-            if map_data then
-                for _, warp_id in pairs(warp_ids) do
-                    local entrance_name = map_data[warp_id]
-                    if entrance_name then
-                        local item = ENTRANCE_ITEMS[entrance_name]
-                        if item then
-                            item:setStage(item:getTrackedStage())
-                            item:setSavedStage(item:getTrackedStage())
-                            local object = Tracker:FindObjectForCode(item.code .. "_hosted")
-                            if object then
-                                object.Active = true
-                            end
-                        end
+        for entrance, exit in pairs(entrances) do
+            local item = ENTRANCE_ITEMS[entrance]
+            if item then
+                local stage = ENTRANCE_MAPPING[exit]
+                if stage then
+                    item:setStage(stage)
+                    item:setSavedStage(stage)
+                    local object = Tracker:FindObjectForCode(item.code .. "_hosted")
+                    if object then
+                        object.Active = true
                     end
                 end
             end

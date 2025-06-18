@@ -1,94 +1,46 @@
-ENTRANCE_MAPPING = {
-    [3840] = { -- Route 2 Viridian Forest South Entrance
-        [1] = "Viridian Forest South Gate Exit (North)"
-    },
-    [3843] = { -- Route 2 Viridian Forest North Entrance
-        [0] = "Viridian Forest North Gate Exit (South)"
-    },
-    [790] = { -- Route 4
-        [0] = "Mt. Moon (West)",
-        [1] = "Mt. Moon (East)"
-    },
-    [773] = { -- Vermilion City
-        [0] = "Vermilion Harbor"
-    },
-    [788] = { -- Route 2
-        [4] = "Diglett's Cave North Entrance"
-    },
-    [797] = { -- Route 11
-        [0] = "Diglett's Cave South Entrance"
-    },
-    [796] = { -- Route 10
-        [0] = "Rock Tunnel (North)",
-        [1] = "Rock Tunnel (South)",
-        [2] = "Power Plant (Front)",
-        [4] = "Power Plant (Back)"
-    },
-    [772] = { -- Lavender Town
-        [0] = "Pokemon Tower"
-    },
-    [2574] = { -- Celadon Game Corner
-        [1] = "Rocket Hideout"
-    },
-    [775] = { -- Fuchsia City
-        [0] = "Safari Zone Entrance"
-    },
-    [778] = { -- Saffron City
-        [0] = "Silph Co."
-    },
-    [806] = { -- Route 20
-        [0] = "Seafoam Islands (North)",
-        [1] = "Seafoam Islands (South)"
-    },
-    [776] = { -- Cinnabar Island
-        [0] = "Pokemon Mansion"
-    },
-    [810] = { -- Route 23
-        [0] = "Victory Road (West)",
-        [1] = "Victory Road (East)"
-    },
-    [813] = { -- Kindle Road
-        [0] = "Mt. Ember",
-        [1] = "Mt. Ember"
-    },
-    [816] = { -- Bond Bridge
-        [0] = "Berry Forest",
-        [1] = "Berry Forest"
-    },
-    [783] = { -- Four Island
-        [3] = "Icefall Cave"
-    },
-    [824] = { -- Five Isle Meadow
-        [0] = "Rocket Warehouse"
-    },
-    [822] = { -- Resort Gorgeous
-        [0] = "Lost Cave"
-    },
-    [829] = { -- Ruin Valley
-        [0] = "Dotted Hole"
-    },
-    [827] = { -- Green Path
-        [0] = "Pattern Bush (East)",
-        [1] = "Pattern Bush (East)",
-        [2] = "Pattern Bush (West)",
-        [3] = "Pattern Bush (West)"
-    },
-    [826] = { -- Outcast Island
-        [0] = "Altering Cave"
-    },
-    [833] = { -- Tanoby Ruins
-        [0] = "Monean Chamber",
-        [1] = "Liptoo Chamber",
-        [2] = "Weepth Chamber",
-        [3] = "Dilford Chamber",
-        [4] = "Scufib Chamber",
-        [5] = "Rixy Chamber",
-        [6] = "Viapois Chamber"
-    },
-    [771] = { -- Cerulean City
-        [8] = "Cerulean Cave"
-    },
-    [512] = { -- Navel Rock Exterior
-        [0] = "Navel Rock"
-    },
+ENTRANCE_MAPPING = {}
+
+ENTRANCE_ITEMS = {
+    ["Viridian Forest South Gate Exit (North)"] = Entrance("Viridian Forest South", "viridian_forest_south", 1),
+    ["Viridian Forest North Gate Exit (South)"] = Entrance("Viridian Forest North", "viridian_forest_north", 2),
+    ["Mt. Moon (West)"] = Entrance("Mt. Moon West", "mt_moon_west", 3),
+    ["Mt. Moon (East)"] = Entrance("Mt. Moon East", "mt_moon_east", 4),
+    ["Vermilion Harbor"] = Entrance("S.S. Anne", "ss_anne", 5),
+    ["Diglett's Cave North Entrance"] = Entrance("Diglett's Cave North", "digletts_cave_north", 6),
+    ["Diglett's Cave South Entrance"] = Entrance("Diglett's Cave South", "digletts_cave_south", 7),
+    ["Rock Tunnel (North)"] = Entrance("Rock Tunnel North", "rock_tunnel_north", 8),
+    ["Rock Tunnel (South)"] = Entrance("Rock Tunnel South", "rock_tunnel_south", 9),
+    ["Power Plant (Front)"] = Entrance("Power Plant Front", "power_plant_front", 10),
+    ["Power Plant (Back)"] = Entrance("Power Plant Back", "power_plant_back", 11),
+    ["Pokemon Tower"] = Entrance("Pokémon Tower", "pokemon_tower", 12),
+    ["Rocket Hideout"] = Entrance("Rocket Hideout", "rocket_hideout", 13),
+    ["Safari Zone Entrance"] = Entrance("Safari Zone", "safari_zone", 14),
+    ["Silph Co."] = Entrance("Silph Co.", "silph_co", 15),
+    ["Seafoam Islands (South)"] = Entrance("Seafoam Islands South", "seafoam_islands_south", 16),
+    ["Seafoam Islands (North)"] = Entrance("Seafoam Islands North", "seafoam_islands_north", 17),
+    ["Pokemon Mansion"] = Entrance("Pokémon Mansion", "pokemon_mansion", 18),
+    ["Victory Road (West)"] = Entrance("Victory Road West", "victory_road_west", 19),
+    ["Victory Road (East)"] = Entrance("Victory Road East", "victory_road_east", 20),
+    ["Mt. Ember"] = Entrance("Mt. Ember", "mt_ember", 21),
+    ["Berry Forest"] = Entrance("Berry Forest", "berry_forest", 22),
+    ["Icefall Cave"] = Entrance("Icefall Cave", "icefall_cave", 23),
+    ["Rocket Warehouse"] = Entrance("Rocket Warehouse", "rocket_warehouse", 24),
+    ["Lost Cave"] = Entrance("Lost Cave", "lost_cave", 25),
+    ["Dotted Hole"] = Entrance("Dotted Hole", "dotted_hole", 26),
+    ["Pattern Bush (West)"] = Entrance("Pattern Bush West", "pattern_bush_west", 27),
+    ["Pattern Bush (East)"] = Entrance("Pattern Bush East", "pattern_bush_east", 28),
+    ["Altering Cave"] = Entrance("Altering Cave", "altering_cave", 29),
+    ["Monean Chamber"] = Entrance("Monean Chamber", "monean_chamber", 30),
+    ["Liptoo Chamber"] = Entrance("Liptoo Chamber", "liptoo_chamber", 31),
+    ["Weepth Chamber"] = Entrance("Weepth Chamber", "weepth_chamber", 32),
+    ["Dilford Chamber"] = Entrance("Dilford Chamber", "dilford_chamber", 33),
+    ["Scufib Chamber"] = Entrance("Scufib Chamber", "scufib_chamber", 34),
+    ["Rixy Chamber"] = Entrance("Rixy Chamber", "rixy_chamber", 35),
+    ["Viapois Chamber"] = Entrance("Viapois Chamber", "viapois_chamber", 36),
+    ["Cerulean Cave"] = Entrance("Cerulean Cave", "cerulean_cave", 37),
+    ["Navel Rock"] = Entrance("Navel Rock", "navel_rock", 38)
 }
+
+for index, data in pairs(ENTRANCE_DATA) do
+    ENTRANCE_MAPPING[data[1]] = index
+end

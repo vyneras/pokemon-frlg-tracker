@@ -48,7 +48,6 @@ function Entrance:init(name, code, stage)
     self.code = code
     self:setStage(stage)
     self:setSavedStage(0)
-    self.trackedStage = 0
     self.stageCount = 39
     self.defaultStage = stage
     self:updateIcon()
