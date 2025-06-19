@@ -69,14 +69,6 @@ function Entrance:getSavedStage()
     return self:getProperty("savedStage")
 end
 
-function Entrance:setTrackedStage(trackedStage)
-    self.trackedStage = trackedStage
-end
-
-function Entrance:getTrackedStage()
-    return self.trackedStage
-end
-
 function Entrance:getDefaultStage()
     return self.defaultStage
 end
