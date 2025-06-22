@@ -13,6 +13,7 @@ TRACKER_CHECKSUM = 0x4A497E8F
 CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
 PROG_PASS_COUNT = 0
+PROG_ROD_COUNT = 0
 VANILLA_RUNNING_SHOES = false
 
 PROG_CARD_KEY = {
@@ -41,6 +42,12 @@ PROG_PASS_SPLIT = {
     [4] = "five_pass",
     [5] = "six_pass",
     [6] = "seven_pass"
+}
+
+PROG_ROD = {
+    [0] = "old_rod",
+    [1] = "good_rod",
+    [2] = "super_rod"
 }
 
 DEXSANITY_LOCATIONS = {}
@@ -200,6 +207,7 @@ function onClear(slot_data)
     CUR_INDEX = -1
     PROG_CARD_KEY_COUNT = 0
     PROG_PASS_COUNT = 0
+    PROG_ROD_COUNT = 0
     VANILLA_RUNNING_SHOES = false
     FLY_DESTINATION_MAPPING = {}
     DEXSANITY_LOCATIONS = {}
@@ -336,6 +344,8 @@ function onItem(index, item_id, item_name, player_number)
         addProgressiveCardKey()
     elseif value[1] == "prog_pass" then
         addProgressivePass()
+    elseif value[1] == "prog_rod" then
+        addProgressiveRod()
     else
         local object = Tracker:FindObjectForCode(value[1])
         if object then
@@ -374,6 +384,16 @@ function addProgressivePass()
                 object.Active = true
                 PROG_PASS_COUNT = PROG_PASS_COUNT + 1
             end
+        end
+    end
+end
+
+function addProgressiveRod()
+    if PROG_ROD_COUNT <= 2 then
+        local object = Tracker:FindObjectForCode(PROG_ROD[PROG_ROD_COUNT])
+        if object then
+            object.Active = true
+            PROG_ROD_COUNT = PROG_ROD_COUNT + 1
         end
     end
 end
