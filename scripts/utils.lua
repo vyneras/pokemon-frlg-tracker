@@ -222,26 +222,6 @@ function toggle_split_tea_maps(code)
     end
 end
 
-function toggle_split_card_key_maps(code)
-    local card_keys_vanilla = has("card_keys_vanilla")
-
-    if card_keys_vanilla then
-        Tracker:AddMaps("maps/maps_vanilla_card_key.json")
-    else
-        Tracker:AddMaps("maps/maps_split_card_key.json")
-    end
-end
-
-function toggle_gym_key_maps(code)
-    local gym_keys = has("gym_keys_on")
-
-    if gym_keys then
-        Tracker:AddMaps("maps/maps_gym_keys.json")
-    else
-        Tracker:AddMaps("maps/maps_no_gym_keys.json")
-    end
-end
-
 function toggle_tunnel_maps(code)
     local tunnels_blocked = has("block_tunnels_on")
 
