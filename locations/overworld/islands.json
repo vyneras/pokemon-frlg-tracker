@@ -652,7 +652,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           }
         ],
@@ -753,7 +753,7 @@
               "rescue_lostelle,defeat_champion"
             ],
             "visibility_rules": [
-              "shopsanity_on,item_locations_on"
+              "shopsanity_on,$post_goal_visible,item_locations_on"
             ]
           },
           {
@@ -766,7 +766,7 @@
               "rescue_lostelle,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "shopsanity_on,item_locations_on"
+              "shopsanity_on,$post_goal_visible,item_locations_on"
             ]
           },
           {
@@ -777,7 +777,7 @@
               "rescue_lostelle,defeat_champion,$fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_visible,item_locations_on"
             ]
           },
           {
@@ -1602,7 +1602,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -3111,7 +3111,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {

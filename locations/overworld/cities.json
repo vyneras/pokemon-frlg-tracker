@@ -107,7 +107,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -118,7 +118,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -872,7 +872,7 @@
               "@Cerulean City Access,$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -1046,7 +1046,7 @@
               "@Cerulean City Near Cave Access,cerulean_cave_requirement"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "dungeon_entrance_shuffle_on,$post_goal_visible"
             ]
           },
           {
@@ -1243,7 +1243,7 @@
               "@Vermilion City Access,$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -1525,7 +1525,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -1646,7 +1646,7 @@
               "@Celadon City Access,$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -1736,7 +1736,7 @@
               "@Celadon City Access,$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -2442,7 +2442,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -2739,7 +2739,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -2750,7 +2750,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -3096,7 +3096,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -3479,7 +3479,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -3490,7 +3490,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -3501,7 +3501,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -3512,7 +3512,7 @@
               "$fame,$post_game_fame"
             ],
             "visibility_rules": [
-              "famesanity_on,item_locations_on"
+              "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
             ]
           },
           {
@@ -3709,7 +3709,7 @@
               "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "skip_elite_four_off,trainersanity_on,elite_four_lorelei_rematch,item_locations_on"
+              "skip_elite_four_off,trainersanity_on,elite_four_lorelei_rematch,$post_goal_visible,item_locations_on"
             ]
           },
           {
@@ -3720,7 +3720,7 @@
               "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "skip_elite_four_off,trainersanity_on,elite_four_bruno_rematch,item_locations_on"
+              "skip_elite_four_off,trainersanity_on,elite_four_bruno_rematch,$post_goal_visible,item_locations_on"
             ]
           },
           {
@@ -3731,7 +3731,7 @@
               "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "skip_elite_four_off,trainersanity_on,elite_four_agatha_rematch,item_locations_on"
+              "skip_elite_four_off,trainersanity_on,elite_four_agatha_rematch,$post_goal_visible,item_locations_on"
             ]
           },
           {
@@ -3742,7 +3742,7 @@
               "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "skip_elite_four_off,trainersanity_on,elite_four_lance_rematch,item_locations_on"
+              "skip_elite_four_off,trainersanity_on,elite_four_lance_rematch,$post_goal_visible,item_locations_on"
             ]
           },
           {
@@ -3752,7 +3752,7 @@
               "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "item_locations_on"
+              "goal_e4_rematch,item_locations_on"
             ]
           },
           {
@@ -3763,7 +3763,7 @@
               "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
             ],
             "visibility_rules": [
-              "trainersanity_on,champion_rematch,item_locations_on"
+              "trainersanity_on,champion_rematch,$post_goal_visible,item_locations_on"
             ]
           }
         ],

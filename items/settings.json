@@ -363,6 +363,28 @@
     ]
   },
   {
+    "name": "Post Goal Locations",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/rival.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "post_goal_setting,post_goal_off",
+        "inherit_codes": false,
+        "name": "Post Goal Locations - Off"
+      },
+      {
+        "img": "images/settings/rival.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "post_goal_setting,post_goal_on",
+        "inherit_codes": false,
+        "name": "Post Goal Locations - On"
+      }
+    ]
+  },
+  {
     "name": "Itemfinder Required",
     "type": "progressive",
     "allow_disabled": false,

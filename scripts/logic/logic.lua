@@ -256,3 +256,11 @@ end
 function victory_road_rock_smash()
     return has("victory_road_rocks_off") or rock_smash()
 end
+
+function post_goal_visible()
+    return has("goal_e4_rematch") or has("post_goal_on")
+end
+
+function post_goal_gossipers_visible()
+    return post_goal_visible() or has("early_gossipers_on")
+end

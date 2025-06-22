@@ -124,6 +124,14 @@ SLOT_CODES = {
             [1] = 1  -- Gym Keys On
         }
     },
+    post_goal_locations = {
+        code = "post_goal_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Post Goal Locations Off
+            [1] = 1  -- Post Goal Locations On
+        }
+    },
     itemfinder_required = {
         code = "itemfinder_setting",
         type = "progressive",

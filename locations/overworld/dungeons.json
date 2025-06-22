@@ -5893,6 +5893,9 @@
           "@Cerulean City Near Cave Access,cerulean_cave_requirement,dungeon_entrance_shuffle_off",
           "cerulean_cave_exit,dungeon_entrance_shuffle_on"
         ],
+        "visibility_rules": [
+          "$post_goal_visible"
+        ],
         "sections": [
           {
             "name": "2F - East Item",
