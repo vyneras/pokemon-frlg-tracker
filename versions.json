@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "package_version": "3.0.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/3.0.0.zip",
+      "sha256": "c71f52dc295f817fee38c6efbf97a24b14a34bfdb21dacb394ff1ff2e42e9860",
+      "changelog": [
+        "Improved performance of Auto Encounter Tracking",
+        "Entrances are now tracked automatically when connected to AP (the manual shortcuts to auto set entrances have been removed)",
+        "Added Trade Pokémon locations",
+        "Fixed Seafoam Islands B3F fishing access",
+        "Added Navel Rock and Birth Island to Kanto map when Kanto Only is on"
+      ]
+    },
+    {
       "package_version": "2.1.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/2.1.0.zip",
       "sha256": "9af0244f742d61bc189697727938aa000c304fcbbfd0c1adc2182de314980d4d",
