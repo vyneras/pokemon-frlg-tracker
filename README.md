@@ -7,7 +7,7 @@ Pokémon FireRed/LeafGreen tracker pack for [PopTracker](https://github.com/blac
 # Compatibility Chart
 | Apworld Version | Pack Version  |
 |:---------------:|:-------------:|
-|  0.9.4 - 0.9.5  |     3.0.0     |
+|  0.9.4 - 0.9.6  |     3.0.0     |
 |  0.9.1 - 0.9.3  | 2.0.0 - 2.1.0 |
 |      0.8.7      |     1.7.0     |
 |  0.8.5 - 0.8.6  |     1.6.4     |
