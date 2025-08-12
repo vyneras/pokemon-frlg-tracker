@@ -98,10 +98,6 @@ EVENT_FLAG_MAPPING = {
     [24] = {
         value = 0,
         code = "lemonade"
-    },
-    [25] = {
-        value = 0,
-        code = "running_shoes"
     }
 }
 

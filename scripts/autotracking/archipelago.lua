@@ -14,7 +14,6 @@ CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
 PROG_PASS_COUNT = 0
 PROG_ROD_COUNT = 0
-VANILLA_RUNNING_SHOES = false
 
 PROG_CARD_KEY = {
     [0] = "card_key_2f",
@@ -208,7 +207,6 @@ function onClear(slot_data)
     PROG_CARD_KEY_COUNT = 0
     PROG_PASS_COUNT = 0
     PROG_ROD_COUNT = 0
-    VANILLA_RUNNING_SHOES = false
     FLY_DESTINATION_MAPPING = {}
     DEXSANITY_LOCATIONS = {}
     ENCOUNTER_LIST = {}
@@ -283,21 +281,6 @@ function onClear(slot_data)
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("No setting could be found for key: %s", key))
             end
-        end
-    end
-    if slot_data["shuffle_running_shoes"] == 0 then
-        VANILLA_RUNNING_SHOES = true
-    end
-    if slot_data["shuffle_berry_pouch"] == 0 then
-        local object = Tracker:FindObjectForCode("berry_pouch")
-        if object then
-            object.Active = true
-        end
-    end
-    if slot_data["shuffle_tm_case"] == 0 then
-        local object = Tracker:FindObjectForCode("tm_case")
-        if object then
-            object.Active = true
         end
     end
     if has("trainersanity_on") then
@@ -470,10 +453,6 @@ function updateEvents(value, reset)
                 if event.code == "lemonade" then
                     Tracker:FindObjectForCode(event.code).Active =
                         Tracker:FindObjectForCode(event.code).Active or event.value
-                elseif event.code == "running_shoes" then
-                    if VANILLA_RUNNING_SHOES then
-                        Tracker:FindObjectForCode(event.code).Active = event.value
-                    end
                 else
                     Tracker:FindObjectForCode(event.code).Active = event.value
                 end

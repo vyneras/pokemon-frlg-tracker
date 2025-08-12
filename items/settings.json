@@ -218,15 +218,9 @@
       },
       {
         "img": "images/settings/fly_destinations.png",
-        "img_mods": "overlay|images/overlays/some.png",
-        "codes": "fly_unlocks_setting,fly_unlocks_some",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "fly_unlocks_setting,fly_unlocks_on",
         "inherit_codes": false,
-        "name": "Shuffle Fly Unlocks - On"
-      },
-      {
-        "img": "images/settings/fly_destinations.png",
-        "img_mods": "overlay|images/overlays/all.png",
-        "codes": "fly_unlocks_setting,fly_unlocks_all",
         "name": "Shuffle Fly Unlocks - On"
       }
     ]

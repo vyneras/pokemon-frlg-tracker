@@ -48,6 +48,7 @@ ITEM_MAPPING = {
     [382] = {"indigo_fly_unlock", "toggle"},
     [233] = {"itemfinder", "toggle"},
     [377] = {"lavender_fly_unlock", "toggle"},
+    [428] = {"ledge_jump", "toggle"},
     [28]  = {"lemonade", "toggle"},
     [246] = {"letter", "toggle"},
     [346] = {"lift_key", "toggle"},

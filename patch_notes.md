@@ -1,3 +1,9 @@
+# 4.0.0
+## Updates
++ Added Ledge Jump item and logic
++ Added auto tracking for Progressive Rods
++ Added Post Goal Locations setting
+
 # 3.0.0
 ## Updates
 + Improved performance of Auto Encounter Tracking

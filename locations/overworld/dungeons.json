@@ -1229,7 +1229,7 @@
         "name": "Power Plant",
         "access_rules": [
           "@Route 10 Near Power Plant Access,extra_key_items_off,dungeon_entrance_shuffle_off",
-          "@Route 10 Near Power Plant Access,$surf,machine_part,dungeon_entrance_shuffle_off",
+          "@Route 10 Near Power Plant Access,machine_part,dungeon_entrance_shuffle_off",
           "@Route 10 Near Power Plant Back Access,dungeon_entrance_shuffle_off",
           "power_plant_front_exit,dungeon_entrance_shuffle_on",
           "power_plant_back_exit,dungeon_entrance_shuffle_on"
@@ -3428,9 +3428,9 @@
             "clear_as_group": false,
             "access_rules": [
               "@Route 20 Near North Cave Access,$surf,dungeon_entrance_shuffle_off",
-              "@Route 20 Near South Cave Access,$strength,$surf,dungeon_entrance_shuffle_off",
+              "@Route 20 Near South Cave Access,$surf,dungeon_entrance_shuffle_off",
               "seafoam_islands_north_exit,$surf,dungeon_entrance_shuffle_on",
-              "seafoam_islands_south_exit,$strength,$surf,dungeon_entrance_shuffle_on"
+              "seafoam_islands_south_exit,$surf,dungeon_entrance_shuffle_on"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4621,6 +4621,9 @@
           },
           {
             "name": "Item Near North Pond",
+            "access_rules": [
+              "ledge_jump"
+            ],
             "visibility_rules": [
               "item_locations_on"
             ]
