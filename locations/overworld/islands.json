@@ -1998,8 +1998,8 @@
             "chest_unopened_img": "images/locations/gentleman_info.png",
             "chest_opened_img": "images/locations/gentleman_info_bw.png",
             "access_rules": [
-              "togepi,$fame",
-              "togetic,$fame"
+              "[pokedex],togepi,$fame",
+              "[pokedex],togetic,$fame"
             ],
             "visibility_rules": [
               "famesanity_on,pokemon_request_on,item_locations_on"
@@ -2191,7 +2191,7 @@
             "chest_unopened_img": "images/locations/woman_2_luxury_ball.png",
             "chest_opened_img": "images/locations/woman_2_luxury_ball_bw.png",
             "access_rules": [
-              "@Resort Gorgeous Near Resort Access,rescue_selphy"
+              "@Resort Gorgeous Near Resort Access,rescue_selphy,[pokedex]"
             ],
             "visibility_rules": [
               "pokemon_request_on,item_locations_on"
@@ -2515,7 +2515,7 @@
             "chest_unopened_img": "images/locations/beauty_nest_ball.png",
             "chest_opened_img": "images/locations/beauty_nest_ball_bw.png",
             "access_rules": [
-              "@Green Path East Access,heracross"
+              "@Green Path East Access,[pokedex],heracross"
             ],
             "visibility_rules": [
               "pokemon_request_on,item_locations_on"

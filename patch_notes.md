@@ -1,5 +1,6 @@
 # 4.0.0
 ## Updates
++ Added Pokédex item and logic
 + Added Ledge Jump item and logic
 + Added auto tracking for Progressive Rods
 + Added Post Goal Locations setting

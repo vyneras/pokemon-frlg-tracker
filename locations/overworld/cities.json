@@ -847,7 +847,7 @@
             "chest_unopened_img": "images/locations/old_man.png",
             "chest_opened_img": "images/locations/old_man_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "@Cerulean City Access,[pokedex]"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1218,7 +1218,7 @@
             "chest_unopened_img": "images/locations/little_girl.png",
             "chest_opened_img": "images/locations/little_girl_bw.png",
             "access_rules": [
-              "@Vermilion City Access"
+              "@Vermilion City Access,[pokedex]"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3103,6 +3103,9 @@
             "name": "Old Man Trade Pokémon",
             "chest_unopened_img": "images/locations/old_man_2.png",
             "chest_opened_img": "images/locations/old_man_2_bw.png",
+            "access_rules": [
+              "[pokedex]"
+            ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
@@ -3111,6 +3114,9 @@
             "name": "Woman Trade Pokémon",
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
+            "access_rules": [
+              "[pokedex]"
+            ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
@@ -3127,6 +3133,9 @@
             "name": "Boy Trade Pokémon",
             "chest_unopened_img": "images/locations/boy.png",
             "chest_opened_img": "images/locations/boy_bw.png",
+            "access_rules": [
+              "[pokedex]"
+            ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]

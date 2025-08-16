@@ -65,6 +65,7 @@ ITEM_MAPPING = {
     [375] = {"pewter_fly_unlock", "toggle"},
     [417] = {"pewter_key", "toggle"},
     [340] = {"poke_flute", "toggle"},
+    [429] = {"pokedex", ""},
     [426] = {"prog_card_key", ""},
     [425] = {"prog_pass", ""},
     [427] = {"prog_rod", ""},

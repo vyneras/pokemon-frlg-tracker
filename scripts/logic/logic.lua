@@ -95,35 +95,35 @@ function purchase_bicycle()
 end
 
 function route_2_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_2_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_2_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_10_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_10_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_10_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_11_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_11_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_11_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_16_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_16_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_16_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_15_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect

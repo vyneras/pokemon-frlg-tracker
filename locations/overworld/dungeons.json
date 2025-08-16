@@ -507,6 +507,9 @@
             "name": "Little Girl Trade Pokémon",
             "chest_unopened_img": "images/locations/little_girl.png",
             "chest_opened_img": "images/locations/little_girl_bw.png",
+            "access_rules": [
+              "[pokedex]"
+            ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
