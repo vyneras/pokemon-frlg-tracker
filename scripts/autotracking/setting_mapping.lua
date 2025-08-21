@@ -158,6 +158,22 @@ SLOT_CODES = {
             [1] = 1  -- Fame Checker Required
         }
     },
+    bicycle_requires_ledge_jump = {
+        code = "bicycle_ledge_jump_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Ledge Jump not Required for Bicycle
+            [1] = 1  -- Ledge Jump Required for Bicycle
+        }
+    },
+    acrobatic_bicycle = {
+        code = "acrobatic_bicycle_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Acrobatic Bicycle Off
+            [1] = 1  -- Acrobatic Bicycle On
+        }
+    },
     viridian_city_roadblock = {
         code = "viridian_city_setting",
         type = "progressive",

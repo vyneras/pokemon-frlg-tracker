@@ -25,7 +25,9 @@
       "$fly|route_2_southwest",
       "@Viridian City South Access,deliver_oaks_parcel",
       "@Viridian City South Access,viridian_city_open",
+      "@Viridian City South Access,$jump_up_ledge",
       "@Viridian City South Access,$cut",
+      "@Route 22 West Access,$jump_down_ledge",
       "@Route 2 Southeast Access,$cut",
       "@Pewter City Access,dungeon_entrance_shuffle_off",
       "viridian_forest_south_entrance,dungeon_entrance_shuffle_on"
@@ -35,7 +37,7 @@
     "name": "Route 22 West Access",
     "access_rules": [
       "$fly|route_22_west",
-      "@Viridian City South Access,ledge_jump",
+      "@Viridian City South Access,$jump_down_ledge",
       "@Viridian City South Access,$surf",
       "@Route 23 South Access"
     ]
@@ -65,7 +67,7 @@
       "start_town_pewter",
       "$fly|pewter_city",
       "$fly|route_2_northwest",
-      "@Pewter City Near Museum Access,ledge_jump",
+      "@Pewter City Near Museum Access,$jump_down_ledge",
       "@Pewter City Near Museum Access,$cut",
       "@Viridian City North Access,dungeon_entrance_shuffle_off",
       "@Route 2 Northeast Access,$route_2_modified",
@@ -77,6 +79,7 @@
     "name": "Pewter City Near Museum Access",
     "access_rules": [
       "$fly|pewter_city_near_museum",
+      "@Pewter City Access,$jump_up_ledge",
       "@Pewter City Access,$cut"
     ]
   },
@@ -95,7 +98,8 @@
     "access_rules": [
       "$fly|route_4_east",
       "@Route 4 West Access,^$mt_moon,dungeon_entrance_shuffle_off",
-      "@Cerulean City Near Cave Access,ledge_jump",
+      "@Cerulean City Access,$jump_up_ledge",
+      "@Cerulean City Near Cave Access,$jump_down_ledge",
       "mt_moon_east_entrance,dungeon_entrance_shuffle_on"
     ]
   },
@@ -106,7 +110,7 @@
       "$fly|cerulean_city",
       "$fly|cerulean_city_backyard",
       "$fly|route_25",
-      "@Route 4 East Access,ledge_jump",
+      "@Route 4 East Access,$jump_down_ledge",
       "@Cerulean City Outskirts Access",
       "@Cerulean City Near Cave Access,$surf"
     ]
@@ -118,7 +122,7 @@
       "$fly|route_5",
       "@Cerulean City Access,$leave_cerulean",
       "@North-South Tunnels Access,$tunnels_blocked",
-      "@Route 9 Access,ledge_jump,$route_9_modified",
+      "@Route 9 Access,$jump_down_ledge,$route_9_modified",
       "@Saffron City Access,tea",
       "@Saffron City Access,blue_tea"
     ]
@@ -127,6 +131,7 @@
     "name": "Cerulean City Near Cave Access",
     "access_rules": [
       "$fly|cerulean_city_near_cave",
+      "@Route 4 East Access,$jump_up_ledge",
       "@Cerulean City Access,$surf",
       "cerulean_cave_entrance,dungeon_entrance_shuffle_on"
     ]
@@ -182,8 +187,8 @@
   {
     "name": "Route 9 Access",
     "access_rules": [
-      "@Cerulean City Outskirts Access,$route_9_modified,ledge_jump",
-      "@Route 10 North Access,ledge_jump"
+      "@Cerulean City Outskirts Access,$route_9_modified,$jump_down_ledge",
+      "@Route 10 North Access,$jump_down_ledge"
     ]
   },
   {
@@ -191,7 +196,7 @@
     "access_rules": [
       "start_town_route_10",
       "$fly|route_10_north",
-      "@Route 9 Access,ledge_jump",
+      "@Route 9 Access,$jump_down_ledge",
       "@Route 10 Near Power Plant Access,$surf",
       "@Lavender Town Access,^$rock_tunnel,dungeon_entrance_shuffle_off",
       "@Lavender Town Access,$route_10_modified",
@@ -203,7 +208,7 @@
     "access_rules": [
       "$fly|route_10_near_power_plant",
       "@Route 10 North Access,$surf",
-      "@Route 10 Near Power Plant Back Access,ledge_jump",
+      "@Route 10 Near Power Plant Back Access,$jump_down_ledge",
       "@Lavender Town Access,$route_10_modified",
       "power_plant_front_entrance,dungeon_entrance_shuffle_on"
     ]
@@ -212,6 +217,7 @@
     "name": "Route 10 Near Power Plant Back Access",
     "access_rules": [
       "$fly|route_10_near_power_plant_back",
+      "@Rotue 10 Near Power Plant Access,$jump_up_ledge",
       "power_plant_back_entrance,dungeon_entrance_shuffle_on"
     ]
   },

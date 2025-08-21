@@ -87,6 +87,14 @@ function post_game_fame()
     return has("defeat_champion") or has("early_gossipers_on")
 end
 
+function jump_down_ledge()
+    return has("ledge_jump") or (has("bicycle") and has("bicycle_ledge_jump_off"))
+end
+
+function jump_up_ledge()
+    return has("acrobatic_bicycle_on") and has("bicycle") and (has("ledge_jump") or has("bicycle_ledge_jump_off"))
+end
+
 function purchase_bicycle()
     if has("bike_voucher") then
         return AccessibilityLevel.Normal
@@ -170,7 +178,7 @@ function mt_moon()
 end
 
 function leave_cerulean()
-    return has("save_bill") or has("cerulean_roadblock_off")
+    return has("save_bill") or has("cerulean_roadblock_off") or jump_up_ledge()
 end
 
 function tunnels_blocked()

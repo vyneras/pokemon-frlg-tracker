@@ -4312,7 +4312,8 @@
           {
             "name": "Exterior - Item Near Summit",
             "access_rules": [
-              "$strength,$rock_smash"
+              "$strength,$rock_smash",
+              "$strength,$jump_up_ledge"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -4625,7 +4626,7 @@
           {
             "name": "Item Near North Pond",
             "access_rules": [
-              "ledge_jump"
+              "$jump_down_ledge"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -4902,7 +4903,8 @@
             "name": "Back - Help Lorelei (Event)",
             "hosted_item": "help_lorelei_hosted",
             "access_rules": [
-              "$surf,$waterfall"
+              "$surf,$waterfall",
+              "$surf,$jump_up_ledge"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -4913,7 +4915,8 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "access_rules": [
-              "$surf,$waterfall"
+              "$surf,$waterfall",
+              "$surf,$jump_up_ledge"
             ],
             "visibility_rules": [
               "trainersanity_on,team_rocket_grunt_45,item_locations_on"
@@ -4924,7 +4927,8 @@
             "chest_unopened_img": "images/locations/lorelei_rainbow_pass.png",
             "chest_opened_img": "images/locations/lorelei_rainbow_pass_bw.png",
             "access_rules": [
-              "$surf,$waterfall"
+              "$surf,$waterfall",
+              "$surf,$jump_up_ledge"
             ],
             "visibility_rules": [
               "island_passes_split,item_locations_on",
@@ -5035,7 +5039,8 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "$surf,$waterfall"
+              "$surf,$waterfall",
+              "$surf,$jump_up_ledge"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -5048,7 +5053,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$surf,$waterfall"
+              "$surf,$waterfall",
+              "$surf,$jump_up_ledge"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -5060,7 +5066,9 @@
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
               "$surf,$waterfall,old_rod",
-              "$surf,$waterfall,good_rod"
+              "$surf,$jump_up_ledge,old_rod",
+              "$surf,$waterfall,good_rod",
+              "$surf,$jump_up_ledge,good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -5072,7 +5080,9 @@
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "access_rules": [
               "$surf,$waterfall,good_rod",
-              "$surf,$waterfall,super_rod"
+              "$surf,$jump_up_ledge,good_rod",
+              "$surf,$waterfall,super_rod",
+              "$surf,$jump_up_ledge,super_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -5085,7 +5095,8 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "$surf,$waterfall,super_rod"
+              "$surf,$waterfall,super_rod",
+              "$surf,$jump_up_ledge,super_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"

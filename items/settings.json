@@ -457,7 +457,52 @@
         "img_mods": "overlay|images/overlays/required.png",
         "codes": "fame_checker_setting,fame_checker_req",
         "inherit_codes": false,
-        "name": "Fame Checker Required - Required"
+        "name": "Fame Checker Required - On"
+      }
+    ]
+  },
+  {
+    "name": "Bicycle Requires Ledge Jump",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/bicycle.png",
+        "img_mods": "overlay|images/overlays/jump.png,@disabled",
+        "codes": "bicycle_ledge_jump_setting,bicycle_ledge_jump_off",
+        "inherit_codes": false,
+        "name": "Bicycle Requires Ledge Jump - Off"
+      },
+      {
+        "img": "images/settings/bicycle.png",
+        "img_mods": "overlay|images/overlays/jump.png",
+        "codes": "bicycle_ledge_jump_setting,bicycle_ledge_jump_on",
+        "inherit_codes": false,
+        "name": "Bicycle Requires Ledge Jump - On"
+      }
+    ]
+  },
+    {
+    "name": "Acrobatic Bicycle",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/bicycle.png",
+        "img_mods": "overlay|images/overlays/acro.png,@disabled",
+        "codes": "acrobatic_bicycle_setting,acrobatic_bicycle_off",
+        "inherit_codes": false,
+        "name": "Acrobatic Bicycle - Off"
+      },
+      {
+        "img": "images/settings/bicycle.png",
+        "img_mods": "overlay|images/overlays/acro.png",
+        "codes": "acrobatic_bicycle_setting,acrobatic_bicycle_on",
+        "inherit_codes": false,
+        "name": "Acrobatic Bicycle - On"
       }
     ]
   },
