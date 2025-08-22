@@ -14,7 +14,10 @@
       "start_town_viridian",
       "$fly|viridian_city_south",
       "@Pallet Town Access",
-      "@Viridian City North Access",
+      "@Viridian City North Access,deliver_oaks_parcel",
+      "@Viridian City North Access,viridian_city_open",
+      "@Viridian City North Access,$jump_down_ledge",
+      "@Viridian City North Access,$cut",
       "@Route 23 South Access"
     ]
   },
@@ -71,7 +74,7 @@
       "@Pewter City Near Museum Access,$cut",
       "@Viridian City North Access,dungeon_entrance_shuffle_off",
       "@Route 2 Northeast Access,$route_2_modified",
-      "@Route 4 West Access",
+      "@Route 4 West Access,$leave_pewter_city",
       "viridian_forest_north_entrance,dungeon_entrance_shuffle_on"
     ]
   },
@@ -398,7 +401,7 @@
     "name": "Route 23 Center Top Access",
     "access_rules": [
       "@Route 23 Center Bottom Access,$route_23_trees",
-      "@Victory Road Front Access"
+      "@Victory Road Front Access,route_23_guard_requirement"
     ]
   },
   {
