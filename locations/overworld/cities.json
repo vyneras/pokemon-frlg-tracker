@@ -56,7 +56,18 @@
             ]
           },
           {
-            "name": "Oak Gift (Deliver Parcel)",
+            "name": "Oak Gift 1 (Deliver Parcel)",
+            "chest_unopened_img": "images/locations/oak_pokedex.png",
+            "chest_opened_img": "images/locations/oak_pokedex_bw.png",
+            "access_rules": [
+              "oaks_parcel"
+            ],
+            "visibility_rules": [
+              "item_locations_on"
+            ]
+          },
+          {
+            "name": "Oak Gift 2 (Deliver Parcel)",
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
