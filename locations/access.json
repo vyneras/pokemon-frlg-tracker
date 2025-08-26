@@ -158,7 +158,7 @@
       "$fly|route_11_east",
       "@Vermilion City Near Gym Access,$cut",
       "@Vermilion City Near Gym Access,surf",
-      "@Vermilion City Near Harbor Access",
+      "@Vermilion City Near Harbor Access,ss_ticket",
       "@Route 2 Northeast Access,^$digletts_cave,dungeon_entrance_shuffle_off",
       "@North-South Tunnels Access,$tunnels_blocked",
       "@Route 12 West Access,$route_12_boulders",
@@ -711,6 +711,7 @@
     "name": "Seagallop Access",
     "access_rules": [
       "@Vermilion City Access",
+      "@Vermilion City Near Harbor Access",
       "@One Island Town Access",
       "@Two Island Town Access",
       "@Three Island Town South Access",
