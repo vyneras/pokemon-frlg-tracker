@@ -121,6 +121,10 @@
             "name": "Scientist Gift"
           },
           {
+            "ref": "Cities/Cinnabar Island/Fossil",
+            "name": "Fossil"
+          },
+          {
             "ref": "Cities/Cinnabar Island/Boy Trade Pokémon",
             "name": "Boy Trade Pokémon"
           },
@@ -497,6 +501,21 @@
             "map": "pokemon_lab_experiment_room",
             "x": 184,
             "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Fossil",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Fossil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_experiment_room",
+            "x": 184,
+            "y": 88
           }
         ]
       },

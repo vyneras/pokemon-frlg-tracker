@@ -4,6 +4,7 @@ ScriptHost:LoadScript("scripts/custom_items/badges_gyms_requirement.lua")
 ScriptHost:LoadScript("scripts/custom_items/cerulean_cave_requirement.lua")
 ScriptHost:LoadScript("scripts/custom_items/entrance.lua")
 ScriptHost:LoadScript("scripts/custom_items/fly_destination.lua")
+ScriptHost:LoadScript("scripts/custom_items/fossil_requirement.lua")
 ScriptHost:LoadScript("scripts/custom_items/pokedex.lua")
 ScriptHost:LoadScript("scripts/custom_items/pokedex_requirement.lua")
 
@@ -38,4 +39,5 @@ OAKS_AIDE_ROUTE_10_REQ = PokedexRequirement("Route 10 Oak's Aide Requirement", "
 OAKS_AIDE_ROUTE_11_REQ = PokedexRequirement("Route 11 Oak's Aide Requirement", "route_11_oaks_aide_requirement", 15)
 OAKS_AIDE_ROUTE_16_REQ = PokedexRequirement("Route 16 Oak's Aide Requirement", "route_16_oaks_aide_requirement", 20)
 OAKS_AIDE_ROUTE_15_REQ = PokedexRequirement("Route 15 Oak's Aide Requirement", "route_15_oaks_aide_requirement", 25)
+FOSSIL_REQ = FossilRequirement("Pokemon Lab Fossil Requirement", "fossil_requirement", 3)
 POKEDEX = Pokedex()

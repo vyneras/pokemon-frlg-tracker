@@ -1110,6 +1110,13 @@
     "codes": "route_15_oaks_aide"
   },
   {
+    "name": "Pokemon Lab Fossil Scientist",
+    "type": "static",
+    "img": "images/settings/oaks_aide.png",
+    "img_mods": "overlay|images/overlays/lab.png",
+    "codes": "fossil_scientist"
+  },
+  {
     "name": "Starting Town",
     "type": "progressive",
     "allow_disabled": false,

@@ -405,17 +405,9 @@
             ]
           },
           {
-            "name": "B2F - Dome Fossil",
-            "chest_unopened_img": "images/locations/dome_fossil.png",
-            "chest_opened_img": "images/locations/dome_fossil_bw.png",
-            "visibility_rules": [
-              "item_locations_on"
-            ]
-          },
-          {
-            "name": "B2F - Helix Fossil",
-            "chest_unopened_img": "images/locations/helix_fossil.png",
-            "chest_opened_img": "images/locations/helix_fossil_bw.png",
+            "name": "B2F - Fossil",
+            "chest_unopened_img": "images/locations/fossil.png",
+            "chest_opened_img": "images/locations/fossil_bw.png",
             "visibility_rules": [
               "item_locations_on"
             ]

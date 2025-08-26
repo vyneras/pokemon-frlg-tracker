@@ -220,7 +220,7 @@
     "name": "Route 10 Near Power Plant Back Access",
     "access_rules": [
       "$fly|route_10_near_power_plant_back",
-      "@Rotue 10 Near Power Plant Access,$jump_up_ledge",
+      "@Route 10 Near Power Plant Access,$jump_up_ledge",
       "power_plant_back_entrance,dungeon_entrance_shuffle_on"
     ]
   },

@@ -2,6 +2,7 @@ BADGES = { "boulder_badge", "cascade_badge", "thunder_badge", "rainbow_badge", "
     "volcano_badge", "earth_badge" }
 GYMS = { "defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defeat_koga", "defeat_sabrina",
     "defeat_blaine", "defeat_giovanni" }
+FOSSILS = {"dome_fossil", "helix_fossil", "old_amber"}
 
 function cut()
     local badge_required = Tracker:FindObjectForCode("hm01_cut").CurrentStage
@@ -135,6 +136,19 @@ function route_15_oaks_aide()
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
+end
+
+function fossils()
+    local count = 0
+    for _, fossil in pairs(FOSSILS) do
+        if has(fossil) then
+            count = count + 1
+        end
+    end
+    if count >= Tracker:ProviderCountForCode("fossil_requirement") then
+        return true
+    end
+    return false
 end
 
 function route_2_modified()

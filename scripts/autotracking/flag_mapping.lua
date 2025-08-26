@@ -41,61 +41,65 @@ EVENT_FLAG_MAPPING = {
     },
     [10] = {
         value = 0,
-        code = "save_bill"
+        code = "miguel_takes_fossil"
     },
     [11] = {
         value = 0,
-        code = "rescue_mr_fuji"
+        code = "save_bill"
     },
     [12] = {
         value = 0,
-        code = "liberate_silph_co"
+        code = "rescue_mr_fuji"
     },
     [13] = {
         value = 0,
-        code = "defeat_champion"
+        code = "liberate_silph_co"
     },
     [14] = {
         value = 0,
-        code = "rescue_lostelle"
+        code = "defeat_champion"
     },
     [15] = {
         value = 0,
-        code = "deliver_meteorite"
+        code = "rescue_lostelle"
     },
     [16] = {
         value = 0,
-        code = "learn_goldeen_need_log"
+        code = "deliver_meteorite"
     },
     [17] = {
         value = 0,
-        code = "help_lorelei"
+        code = "learn_goldeen_need_log"
     },
     [18] = {
         value = 0,
-        code = "rescue_selphy"
+        code = "help_lorelei"
     },
     [19] = {
         value = 0,
-        code = "learn_yes_nah_chansey"
+        code = "rescue_selphy"
     },
     [20] = {
         value = 0,
-        code = "free_captured_pokemon"
+        code = "learn_yes_nah_chansey"
     },
     [21] = {
         value = 0,
-        code = "unlock_ruins"
+        code = "free_captured_pokemon"
     },
     [22] = {
         value = 0,
-        code = "restore_pokemon_network_machine"
+        code = "unlock_ruins"
     },
     [23] = {
         value = 0,
-        code = "defeat_champion_rematch"
+        code = "restore_pokemon_network_machine"
     },
     [24] = {
+        value = 0,
+        code = "defeat_champion_rematch"
+    },
+    [25] = {
         value = 0,
         code = "lemonade"
     }

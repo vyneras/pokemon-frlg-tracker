@@ -3141,6 +3141,17 @@
             ]
           },
           {
+            "name": "Fossil",
+            "chest_unopened_img": "images/locations/fossil.png",
+            "chest_opened_img": "images/locations/fossil_bw.png",
+            "access_rules": [
+              "miguel_takes_fossil,$fossils"
+            ],
+            "visibility_rules": [
+              "item_locations_on"
+            ]
+          },
+          {
             "name": "Boy Trade Pokémon",
             "chest_unopened_img": "images/locations/boy.png",
             "chest_opened_img": "images/locations/boy_bw.png",

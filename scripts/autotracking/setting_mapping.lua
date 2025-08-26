@@ -306,6 +306,11 @@ SLOT_CODES = {
         type = "requirement_count",
         item = OAKS_AIDE_ROUTE_15_REQ
     },
+    fossil_count = {
+        code = "fossil_requirement",
+        type = "requirement_count",
+        item = FOSSIL_REQ
+    },
     starting_town = {
         code = "start_town_setting",
         type = "progressive",
