@@ -18,6 +18,8 @@
       "@Viridian City North Access,viridian_city_open",
       "@Viridian City North Access,$jump_down_ledge",
       "@Viridian City North Access,$cut",
+      "@Route 22 West Access,$jump_down_ledge",
+      "@Route 22 West Access,$surf",
       "@Route 23 South Access"
     ]
   },
@@ -30,7 +32,6 @@
       "@Viridian City South Access,viridian_city_open",
       "@Viridian City South Access,$jump_up_ledge",
       "@Viridian City South Access,$cut",
-      "@Route 22 West Access,$jump_down_ledge",
       "@Route 2 Southeast Access,$cut",
       "@Pewter City Access,dungeon_entrance_shuffle_off",
       "viridian_forest_south_entrance,dungeon_entrance_shuffle_on"
