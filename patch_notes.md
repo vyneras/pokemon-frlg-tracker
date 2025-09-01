@@ -5,6 +5,10 @@
 + Added auto tracking for Progressive Rods
 + Added Bicycle Requires Ledge Jump and Acrobatic Bicycle settings and logic
 + Added Post Goal Locations setting
++ Updated locations for Fossil rework
+
+## Bug Fixes
++ Fixed a logic issues with access to Route 21 fishing encounters from Cinnabar Island
 
 # 3.0.0
 ## Updates
