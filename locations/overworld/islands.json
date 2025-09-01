@@ -737,7 +737,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "rescue_lostelle"
+              "^$two_island_stall|1"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -750,7 +750,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "rescue_lostelle,defeat_champion"
+              "^$two_island_stall|2"
             ],
             "visibility_rules": [
               "shopsanity_on,$post_goal_visible,item_locations_on"
@@ -763,7 +763,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "rescue_lostelle,defeat_champion,restore_pokemon_network_machine"
+              "^$two_island_stall|3"
             ],
             "visibility_rules": [
               "shopsanity_on,$post_goal_visible,item_locations_on"

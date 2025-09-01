@@ -138,6 +138,17 @@ function route_15_oaks_aide()
     return AccessibilityLevel.Inspect
 end
 
+function two_island_stall(level)
+    if level == 1 and has("rescue_lostelle") then
+        return AccessibilityLevel.Normal
+    elseif level == 2 and has("rescue_lostelle") and has("defeat_champion") then
+        return AccessibilityLevel.Normal
+    elseif level == 3 and has("rescue_lostelle") and has("defeat_champion") and has("restore_pokemon_network_machine") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
 function fossils()
     local count = 0
     for _, fossil in pairs(FOSSILS) do
