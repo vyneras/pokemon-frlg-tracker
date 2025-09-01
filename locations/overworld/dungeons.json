@@ -5903,7 +5903,7 @@
           "cerulean_cave_exit,dungeon_entrance_shuffle_on"
         ],
         "visibility_rules": [
-          "$post_goal_visible"
+          "$cerulean_cave_visisble"
         ],
         "sections": [
           {

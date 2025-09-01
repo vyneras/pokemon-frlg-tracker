@@ -1057,7 +1057,7 @@
               "@Cerulean City Near Cave Access,cerulean_cave_requirement"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on,$post_goal_visible"
+              "dungeon_entrance_shuffle_on,$cerulean_cave_visisble"
             ]
           },
           {

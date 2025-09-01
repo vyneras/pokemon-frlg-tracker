@@ -297,3 +297,7 @@ end
 function post_goal_gossipers_visible()
     return post_goal_visible() or has("early_gossipers_on")
 end
+
+function cerulean_cave_visisble()
+    return post_goal_visible() or CERULEAN_CAVE_REQ:getType() == "network_machine" or CERULEAN_CAVE_REQ:getType() == "badges" or CERULEAN_CAVE_REQ:getType() == "gyms"
+end
