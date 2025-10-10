@@ -2259,7 +2259,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$cut,^$hidden"
+              "$cut,^$hidden",
+              "$jump_up_ledge,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -2272,7 +2273,8 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": [
-              "$cut"
+              "$cut",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2369,7 +2371,8 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_becky,item_locations_on"
@@ -2380,7 +2383,8 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "trainersanity_on,crush_kin_ron_and_mya,item_locations_on"
@@ -2391,7 +2395,8 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "$cut"
+              "$cut",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_celia,item_locations_on"
@@ -2400,7 +2405,8 @@
           {
             "name": "Northwest Item",
             "access_rules": [
-              "$cut"
+              "$cut",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "item_locations_on"
