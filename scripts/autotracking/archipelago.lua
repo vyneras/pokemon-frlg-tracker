@@ -334,6 +334,8 @@ function onItem(index, item_id, item_name, player_number)
         if object then
             if value[2] == "toggle" or value[2] == "progressive_toggle" then
                 object.Active = true
+            elseif value[1] == "pokedex" then
+                POKEDEX:setActive(true)
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: could not find object for code %s", v[1]))
