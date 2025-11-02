@@ -5,6 +5,7 @@
 + Added auto tracking for Progressive Rods
 + Added Bicycle Requires Ledge Jump and Acrobatic Bicycle settings and logic
 + Added Post Goal Locations setting
++ Added Rematchsanity setting and locations
 + Updated locations for Fossil rework
 
 ## Bug Fixes

@@ -166,18 +166,40 @@
     "loop": true,
     "stages": [
       {
-        "img": "images/settings/trainer.png",
+        "img": "images/settings/red.png",
         "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "trainersanity_setting,trainersanity_off",
         "inherit_codes": false,
         "name": "Trainersanity - Off"
       },
       {
-        "img": "images/settings/trainer.png",
+        "img": "images/settings/red.png",
         "img_mods": "overlay|images/overlays/on.png",
         "codes": "trainersanity_setting,trainersanity_on",
         "inherit_codes": false,
         "name": "Trainersanity - On"
+      }
+    ]
+  },
+  {
+    "name": "Rematchsanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/green.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "rematchsanity_setting,rematchsanity_off",
+        "inherit_codes": false,
+        "name": "Rematchsanity - Off"
+      },
+      {
+        "img": "images/settings/green.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "rematchsanity_setting,rematchsanity_on",
+        "inherit_codes": false,
+        "name": "Rematchsanity - On"
       }
     ]
   },

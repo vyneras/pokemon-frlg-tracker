@@ -96,6 +96,39 @@ function jump_up_ledge()
     return has("acrobatic_bicycle_on") and has("bicycle") and (has("ledge_jump") or has("bicycle_ledge_jump_off"))
 end
 
+function has_n_gyms(n)
+    local count = 0
+    for _, item in pairs(GYMS) do
+        if has(item) then
+            count = count + 1
+        end
+        if count >= n then
+            return true
+        end
+    end
+    return false
+end
+
+function trainer_rematch_1()
+    return has("vs_seeker")
+end
+
+function trainer_rematch_2()
+    return has("vs_seeker") and has_n_gyms(2)
+end
+
+function trainer_rematch_3()
+    return has("vs_seeker") and has_n_gyms(4)
+end
+
+function trainer_rematch_4()
+    return has("vs_seeker") and has_n_gyms(6)
+end
+
+function trainer_rematch_5()
+    return has("vs_seeker") and has_n_gyms(8)
+end
+
 function purchase_bicycle()
     if has("bike_voucher") then
         return AccessibilityLevel.Normal

@@ -408,6 +408,28 @@
             ]
           },
           {
+            "name": "Crush Girl Tanya Rematch Reward 1",
+            "chest_unopened_img": "images/locations/battle_girl.png",
+            "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_4"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,crush_girl_tanya,item_locations_on"
+            ]
+          },
+          {
+            "name": "Crush Girl Tanya Rematch Reward 2",
+            "chest_unopened_img": "images/locations/battle_girl.png",
+            "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,crush_girl_tanya,item_locations_on"
+            ]
+          },
+          {
             "name": "Plateau Item",
             "access_rules": [
               "@Kindle Road Center Access,$rock_smash"
@@ -458,6 +480,28 @@
             ]
           },
           {
+            "name": "Crush Kin Mik & Kia Rematch Reward 1",
+            "chest_unopened_img": "images/locations/crush_kin.png",
+            "chest_opened_img": "images/locations/crush_kin_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_4"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,crush_kin_mik_and_kia,item_locations_on"
+            ]
+          },
+          {
+            "name": "Crush Kin Mik & Kia Rematch Reward 2",
+            "chest_unopened_img": "images/locations/crush_kin.png",
+            "chest_opened_img": "images/locations/crush_kin_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,crush_kin_mik_and_kia,item_locations_on"
+            ]
+          },
+          {
             "name": "Black Belt Hugh Reward",
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
@@ -466,6 +510,28 @@
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_hugh,item_locations_on"
+            ]
+          },
+          {
+            "name": "Black Belt Hugh Rematch Reward 1",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_4"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,black_belt_hugh,item_locations_on"
+            ]
+          },
+          {
+            "name": "Black Belt Hugh Rematch Reward 2",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,black_belt_hugh,item_locations_on"
             ]
           },
           {
@@ -480,6 +546,28 @@
             ]
           },
           {
+            "name": "Black Belt Shea Rematch Reward 1",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_4"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,black_belt_shea,item_locations_on"
+            ]
+          },
+          {
+            "name": "Black Belt Shea Rematch Reward 2",
+            "chest_unopened_img": "images/locations/black_belt.png",
+            "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,black_belt_shea,item_locations_on"
+            ]
+          },
+          {
             "name": "Crush Girl Sharon Reward",
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
@@ -488,6 +576,28 @@
             ],
             "visibility_rules": [
               "trainersanity_on,crush_girl_sharon,item_locations_on"
+            ]
+          },
+          {
+            "name": "Crush Girl Sharon Rematch Reward 1",
+            "chest_unopened_img": "images/locations/battle_girl.png",
+            "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_4"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,crush_girl_sharon,item_locations_on"
+            ]
+          },
+          {
+            "name": "Crush Girl Sharon Rematch Reward 2",
+            "chest_unopened_img": "images/locations/battle_girl.png",
+            "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,crush_girl_sharon,item_locations_on"
             ]
           },
           {
@@ -500,6 +610,18 @@
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_finn,item_locations_on"
+            ]
+          },
+          {
+            "name": "Swimmer Finn Rematch Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "@Kindle Road Center Access,$surf,$trainer_rematch_4",
+              "@Kindle Road North Access,$surf,$trainer_rematch_4"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,swimmer_finn,item_locations_on"
             ]
           },
           {
@@ -1192,6 +1314,17 @@
             ]
           },
           {
+            "name": "Twins Joy & Meg Rematch Reward",
+            "chest_unopened_img": "images/locations/twins.png",
+            "chest_opened_img": "images/locations/twins_bw.png",
+            "access_rules": [
+              "$trainer_rematch_4"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,twins_joy_and_meg,item_locations_on"
+            ]
+          },
+          {
             "name": "Rock Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1257,6 +1390,17 @@
             "chest_opened_img": "images/locations/tuber_female_bw.png",
             "visibility_rules": [
               "trainersanity_on,tuber_amira,item_locations_on"
+            ]
+          },
+          {
+            "name": "Tuber Amira Rematch Reward",
+            "chest_unopened_img": "images/locations/tuber_female.png",
+            "chest_opened_img": "images/locations/tuber_female_bw.png",
+            "access_rules": [
+              "$trainer_rematch_4"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,tuber_amira,item_locations_on"
             ]
           },
           {
@@ -1824,6 +1968,17 @@
             ]
           },
           {
+            "name": "Bird Keeper Milo Rematch Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,bird_keeper_milo,item_locations_on"
+            ]
+          },
+          {
             "name": "Tall Grass North Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -1840,6 +1995,17 @@
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
               "trainersanity_on,bird_keeper_chaz,item_locations_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Chaz Rematch Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,bird_keeper_chaz,item_locations_on"
             ]
           },
           {
@@ -1870,6 +2036,17 @@
             "chest_opened_img": "images/locations/rocker_bw.png",
             "visibility_rules": [
               "trainersanity_on,bird_keeper_harold,item_locations_on"
+            ]
+          },
+          {
+            "name": "Bird Keeper Harold Rematch Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,bird_keeper_harold,item_locations_on"
             ]
           },
           {
@@ -2014,6 +2191,17 @@
             ]
           },
           {
+            "name": "Pokémon Breeder Alize Rematch Reward",
+            "chest_unopened_img": "images/locations/woman_2.png",
+            "chest_opened_img": "images/locations/woman_2_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,pokemon_breeder_alize,item_locations_on"
+            ]
+          },
+          {
             "name": "Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
@@ -2098,6 +2286,18 @@
             ]
           },
           {
+            "name": "Painter Rayna Rematch Reward",
+            "chest_unopened_img": "images/locations/lass.png",
+            "chest_opened_img": "images/locations/lass_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access,$surf,$trainer_rematch_5",
+              "@Resort Gorgeous Near Cave Access,$surf,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,painter_rayna,item_locations_on"
+            ]
+          },
+          {
             "name": "West Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -2140,6 +2340,17 @@
             ],
             "visibility_rules": [
               "trainersanity_on,youngster_destin,item_locations_on"
+            ]
+          },
+          {
+            "name": "Youngster Destin Rematch Reward",
+            "chest_unopened_img": "images/locations/youngster.png",
+            "chest_opened_img": "images/locations/youngster_bw.png",
+            "access_rules": [
+              "@Resort Gorgeous Near Resort Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,youngster_destin,item_locations_on"
             ]
           },
           {
@@ -2435,6 +2646,17 @@
             ]
           },
           {
+            "name": "Hiker Earl Rematch Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "access_rules": [
+              "@Six Island Town Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,hiker_earl,item_locations_on"
+            ]
+          },
+          {
             "name": "South Island Item",
             "access_rules": [
               "@Six Island Town Access,$surf",
@@ -2466,6 +2688,18 @@
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_samir,item_locations_on"
+            ]
+          },
+          {
+            "name": "Swimmer Samir Rematch Reward",
+            "chest_unopened_img": "images/locations/swimmer_male_water.png",
+            "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
+            "access_rules": [
+              "@Six Island Town Access,$surf,$trainer_rematch_5",
+              "@Green Path East Access,$surf,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,swimmer_samir,item_locations_on"
             ]
           },
           {
@@ -2659,6 +2893,17 @@
             ]
           },
           {
+            "name": "PokéManiac Hector Rematch Reward",
+            "chest_unopened_img": "images/locations/super_nerd.png",
+            "chest_opened_img": "images/locations/super_nerd_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,pokemaniac_hector,item_locations_on"
+            ]
+          },
+          {
             "name": "Ruin Maniac Stanly Reward",
             "chest_unopened_img": "images/locations/hiker.png",
             "chest_opened_img": "images/locations/hiker_bw.png",
@@ -2680,6 +2925,17 @@
             "chest_opened_img": "images/locations/hiker_bw.png",
             "visibility_rules": [
               "trainersanity_on,ruin_maniac_larry,item_locations_on"
+            ]
+          },
+          {
+            "name": "Ruin Maniac Larry Rematch Reward",
+            "chest_unopened_img": "images/locations/hiker.png",
+            "chest_opened_img": "images/locations/hiker_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,ruin_maniac_larry,item_locations_on"
             ]
           },
           {
@@ -2792,6 +3048,17 @@
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_jaclyn,item_locations_on"
+            ]
+          },
+          {
+            "name": "Psychic Jaclyn Rematch Reward",
+            "chest_unopened_img": "images/locations/woman.png",
+            "chest_opened_img": "images/locations/woman_bw.png",
+            "access_rules": [
+              "@Green Path West Access,$surf,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,psychic_jaclyn,item_locations_on"
             ]
           },
           {
@@ -2909,6 +3176,17 @@
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_nicole,item_locations_on"
+            ]
+          },
+          {
+            "name": "Swimmer Nicole Rematch Reward",
+            "chest_unopened_img": "images/locations/swimmer_female_water.png",
+            "chest_opened_img": "images/locations/swimmer_female_water_bw.png",
+            "access_rules": [
+              "$surf,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,swimmer_nicole,item_locations_on"
             ]
           },
           {
@@ -3164,6 +3442,17 @@
             ]
           },
           {
+            "name": "Juggler Mason Rematch Reward",
+            "chest_unopened_img": "images/locations/rocker.png",
+            "chest_opened_img": "images/locations/rocker_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,juggler_mason,item_locations_on"
+            ]
+          },
+          {
             "name": "Pokémon Ranger Nicolas Reward",
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
@@ -3172,11 +3461,33 @@
             ]
           },
           {
+            "name": "Pokémon Ranger Nicolas Rematch Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,pokemon_ranger_nicolas,item_locations_on"
+            ]
+          },
+          {
             "name": "Pokémon Ranger Madeline Reward",
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "visibility_rules": [
               "trainersanity_on,pokemon_ranger_madeline,item_locations_on"
+            ]
+          },
+          {
+            "name": "Pokémon Ranger Madeline Rematch Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,pokemon_ranger_madeline,item_locations_on"
             ]
           },
           {
@@ -3242,6 +3553,17 @@
             ]
           },
           {
+            "name": "Cool Couple Lex & Nya Rematch Reward",
+            "chest_unopened_img": "images/locations/cool_couple.png",
+            "chest_opened_img": "images/locations/cool_couple_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,cool_couple_lex_and_nya,item_locations_on"
+            ]
+          },
+          {
             "name": "North Item",
             "visibility_rules": [
               "item_locations_on"
@@ -3253,6 +3575,17 @@
             "chest_opened_img": "images/locations/man_bw.png",
             "visibility_rules": [
               "trainersanity_on,tamer_evan,item_locations_on"
+            ]
+          },
+          {
+            "name": "Tamer Evan Rematch Reward",
+            "chest_unopened_img": "images/locations/man.png",
+            "chest_opened_img": "images/locations/man_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,tamer_evan,item_locations_on"
             ]
           },
           {
@@ -3281,6 +3614,17 @@
             ]
           },
           {
+            "name": "Pokémon Ranger Jackson Rematch Reward",
+            "chest_unopened_img": "images/locations/camper.png",
+            "chest_opened_img": "images/locations/camper_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,pokemon_ranger_jackson,item_locations_on"
+            ]
+          },
+          {
             "name": "Pokémon Ranger Katelyn Reward",
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
@@ -3289,11 +3633,33 @@
             ]
           },
           {
+            "name": "Pokémon Ranger Katelyn Rematch Reward",
+            "chest_unopened_img": "images/locations/picnicker.png",
+            "chest_opened_img": "images/locations/picnicker_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,pokemon_ranger_katelyn,item_locations_on"
+            ]
+          },
+          {
             "name": "Crush Girl Cyndy Reward",
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
             "visibility_rules": [
               "trainersanity_on,crush_girl_cyndy,item_locations_on"
+            ]
+          },
+          {
+            "name": "Crush Girl Cyndy Rematch Reward",
+            "chest_unopened_img": "images/locations/battle_girl.png",
+            "chest_opened_img": "images/locations/battle_girl_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,crush_girl_cyndy,item_locations_on"
             ]
           },
           {
@@ -3314,11 +3680,33 @@
             ]
           },
           {
+            "name": "Cooltrainer Leroy Rematch Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_male.png",
+            "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,cooltrainer_leroy,item_locations_on"
+            ]
+          },
+          {
             "name": "Cooltrainer Michelle Reward",
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "visibility_rules": [
               "trainersanity_on,cooltrainer_michelle,item_locations_on"
+            ]
+          },
+          {
+            "name": "Cooltrainer Michelle Rematch Reward",
+            "chest_unopened_img": "images/locations/cooltrainer_female.png",
+            "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
+            "access_rules": [
+              "$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,cooltrainer_michelle,item_locations_on"
             ]
           },
           {
@@ -3700,6 +4088,17 @@
             ]
           },
           {
+            "name": "Psychic Rodette Rematch Reward",
+            "chest_unopened_img": "images/locations/woman.png",
+            "chest_opened_img": "images/locations/woman_bw.png",
+            "access_rules": [
+              "@Seven Island Town Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,psychic_rodette,item_locations_on"
+            ]
+          },
+          {
             "name": "Hidden Item Near Fence",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
@@ -3741,6 +4140,17 @@
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_dario,item_locations_on"
+            ]
+          },
+          {
+            "name": "Psychic Dario Rematch Reward",
+            "chest_unopened_img": "images/locations/boy.png",
+            "chest_opened_img": "images/locations/boy_bw.png",
+            "access_rules": [
+              "@Seven Island Town Access,$trainer_rematch_5"
+            ],
+            "visibility_rules": [
+              "trainersanity_on,rematchsanity_on,psychic_dario,item_locations_on"
             ]
           },
           {
