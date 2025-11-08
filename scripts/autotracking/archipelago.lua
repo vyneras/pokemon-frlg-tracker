@@ -452,7 +452,7 @@ function updateEvents(value, reset)
             local bitmask = 2 ^ bit
             if reset or (value & bitmask ~= event.value) then
                 event.value = value & bitmask
-                if event.code == "lemonade" then
+                if event.code == "fresh_water" or event.code == "soda_pop" or event.code == "lemonade" then
                     Tracker:FindObjectForCode(event.code).Active =
                         Tracker:FindObjectForCode(event.code).Active or event.value
                 else

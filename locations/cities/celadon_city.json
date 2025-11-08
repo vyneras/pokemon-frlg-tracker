@@ -152,8 +152,20 @@
             "name": "Battle Shop Items"
           },
           {
+            "ref": "Cities/Celadon City/Buy Fresh Water (Event)",
+            "name": "Buy Fresh Water (Event)"
+          },
+          {
+            "ref": "Cities/Celadon City/Buy Soda Pop (Event)",
+            "name": "Buy Soda Pop (Event)"
+          },
+          {
             "ref": "Cities/Celadon City/Buy Lemonade (Event)",
             "name": "Buy Lemonade (Event)"
+          },
+          {
+            "ref": "Cities/Celadon City/Vending Machine Items",
+            "name": "Vending Machine Items"
           },
           {
             "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Fresh Water)",
@@ -599,8 +611,20 @@
         "name": "Vending Machines",
         "sections": [
           {
+            "ref": "Cities/Celadon City/Buy Fresh Water (Event)",
+            "name": "Buy Fresh Water (Event)"
+          },
+          {
+            "ref": "Cities/Celadon City/Buy Soda Pop (Event)",
+            "name": "Buy Soda Pop (Event)"
+          },
+          {
             "ref": "Cities/Celadon City/Buy Lemonade (Event)",
             "name": "Buy Lemonade (Event)"
+          },
+          {
+            "ref": "Cities/Celadon City/Vending Machine Items",
+            "name": "Vending Machine Items"
           }
         ],
         "map_locations": [

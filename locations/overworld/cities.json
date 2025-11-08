@@ -1790,13 +1790,46 @@
             ]
           },
           {
+            "name": "Buy Fresh Water (Event)",
+            "hosted_item": "fresh_water_hosted",
+            "access_rules": [
+              "@Celadon City Access"
+            ],
+            "visibility_rules": [
+              "vending_machines_off,item_locations_on"
+            ]
+          },
+          {
+            "name": "Buy Soda Pop (Event)",
+            "hosted_item": "soda_pop_hosted",
+            "access_rules": [
+              "@Celadon City Access"
+            ],
+            "visibility_rules": [
+              "vending_machines_off,item_locations_on"
+            ]
+          },
+          {
             "name": "Buy Lemonade (Event)",
             "hosted_item": "lemonade_hosted",
             "access_rules": [
               "@Celadon City Access"
             ],
             "visibility_rules": [
-              "item_locations_on"
+              "vending_machines_off,item_locations_on"
+            ]
+          },
+          {
+            "name": "Vending Machine Items",
+            "chest_unopened_img": "images/locations/vending_machines.png",
+            "chest_opened_img": "images/locations/vending_machines_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
+            "access_rules": [
+              "@Celadon City Access"
+            ],
+            "visibility_rules": [
+              "vending_machines_on,item_locations_on"
             ]
           },
           {
@@ -1804,7 +1837,7 @@
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
             "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png",
             "access_rules": [
-              "@Celadon City Access"
+              "@Celadon City Access,fresh_water"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1815,7 +1848,7 @@
             "chest_unopened_img": "images/locations/little_girl_normal_tm.png",
             "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png",
             "access_rules": [
-              "@Celadon City Access"
+              "@Celadon City Access,soda_pop"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1826,7 +1859,7 @@
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
             "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png",
             "access_rules": [
-              "@Celadon City Access"
+              "@Celadon City Access,lemonade"
             ],
             "visibility_rules": [
               "item_locations_on"

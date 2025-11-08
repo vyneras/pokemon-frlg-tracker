@@ -1,10 +1,26 @@
 [
   {
+    "name": "Fresh Water",
+    "type": "toggle",
+    "img": "images/items/fresh_water.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "fresh_water_hosted"
+  },
+  {
     "name": "Lemonade",
     "type": "toggle",
     "img": "images/items/lemonade.png",
     "img_mods": "@disabled",
     "disabled_img_mods": "none",
     "codes": "lemonade_hosted"
+  },
+  {
+    "name": "Soda Pop",
+    "type": "toggle",
+    "img": "images/items/soda_pop.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "soda_pop_hosted"
   }
 ]

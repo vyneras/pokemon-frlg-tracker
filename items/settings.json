@@ -160,6 +160,28 @@
     ]
   },
   {
+    "name": "Vending Machines",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/vending_machines.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "vending_machines_setting,vending_machines_off",
+        "inherit_codes": false,
+        "name": "Vending Machines - Off"
+      },
+      {
+        "img": "images/settings/vending_machines.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "vending_machines_setting,vending_machines_on",
+        "inherit_codes": false,
+        "name": "Vending Machines - On"
+      }
+    ]
+  },
+  {
     "name": "Trainersanity",
     "type": "progressive",
     "allow_disabled": false,

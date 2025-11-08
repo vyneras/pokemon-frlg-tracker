@@ -101,6 +101,14 @@ EVENT_FLAG_MAPPING = {
     },
     [25] = {
         value = 0,
+        code = "fresh_water"
+    },
+    [26] = {
+        value = 0,
+        code = "soda_pop"
+    },
+    [27] = {
+        value = 0,
         code = "lemonade"
     }
 }

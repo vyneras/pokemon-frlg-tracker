@@ -833,6 +833,23 @@
             ]
           },
           {
+            "name": "Buy Fresh Water (Event)",
+            "hosted_item": "fresh_water_hosted",
+            "visibility_rules": [
+              "shopsanity_off,item_locations_on"
+            ]
+          },
+          {
+            "name": "Buy Soda Pop (Event)",
+            "hosted_item": "soda_pop_hosted",
+            "access_rules": [
+              "rescue_lostelle"
+            ],
+            "visibility_rules": [
+              "shopsanity_off,item_locations_on"
+            ]
+          },
+          {
             "name": "Buy Lemonade (Event)",
             "hosted_item": "lemonade_hosted",
             "access_rules": [
