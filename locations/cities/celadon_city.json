@@ -334,6 +334,14 @@
         "name": "Celadon Game Corner Prize Room",
         "sections": [
           {
+            "ref": "Cities/Celadon City/Game Corner Prize Items",
+            "name": "Prize Items"
+          },
+          {
+            "ref": "Cities/Celadon City/Game Corner Prize TMs",
+            "name": "Prize TMs"
+          },
+          {
             "ref": "Cities/Celadon City/Game Corner Prize Pokémon 1",
             "name": "Prize Pokémon 1"
           },
@@ -1040,6 +1048,38 @@
   {
     "name": "Celadon Game Corner Prize Room",
     "children": [
+      {
+        "name": "Worker (Left)",
+        "sections": [
+            {
+              "ref": "Cities/Celadon City/Game Corner Prize Items",
+              "name": "Prize Items"
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner_prize_room",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Worker (Right)",
+        "sections": [
+            {
+              "ref": "Cities/Celadon City/Game Corner Prize TMs",
+              "name": "Prize TMs"
+            }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner_prize_room",
+            "x": 104,
+            "y": 40
+          }
+        ]
+      },
       {
         "name": "Worker (Middle)",
         "sections": [

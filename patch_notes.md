@@ -7,6 +7,7 @@
 + Added Post Goal Locations setting
 + Added Rematchsanity setting and locations
 + Added Vending Machines setting and locations
++ Added Prizesanity setting and locations
 + Updated locations for Fossil rework
 
 ## Bug Fixes

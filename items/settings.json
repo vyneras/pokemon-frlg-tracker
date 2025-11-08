@@ -182,6 +182,28 @@
     ]
   },
   {
+    "name": "Prizesanity",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/worker_male.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "prizesanity_setting,prizesanity_off",
+        "inherit_codes": false,
+        "name": "Prizesanity - Off"
+      },
+      {
+        "img": "images/settings/worker_male.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "prizesanity_setting,prizesanity_on",
+        "inherit_codes": false,
+        "name": "Prizesanity - On"
+      }
+    ]
+  },
+  {
     "name": "Trainersanity",
     "type": "progressive",
     "allow_disabled": false,

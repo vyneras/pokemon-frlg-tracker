@@ -2082,6 +2082,32 @@
             ]
           },
           {
+            "name": "Game Corner Prize Items",
+            "chest_unopened_img": "images/locations/worker_male.png",
+            "chest_opened_img": "images/locations/worker_male_bw.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "@Celadon City Access,coin_case"
+            ],
+            "visibility_rules": [
+              "prizesanity_on,item_locations_on"
+            ]
+          },
+          {
+            "name": "Game Corner Prize TMs",
+            "chest_unopened_img": "images/locations/worker_male.png",
+            "chest_opened_img": "images/locations/worker_male_bw.png",
+            "item_count": 5,
+            "clear_as_group": false,
+            "access_rules": [
+              "@Celadon City Access,coin_case"
+            ],
+            "visibility_rules": [
+              "prizesanity_on,item_locations_on"
+            ]
+          },
+          {
             "name": "Game Corner Prize Pokémon 1",
             "chest_unopened_img": "images/locations/worker_male.png",
             "chest_opened_img": "images/locations/worker_male_bw.png",
