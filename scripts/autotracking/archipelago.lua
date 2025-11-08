@@ -66,6 +66,7 @@ STATIC_ID = ""
 POKEMON_ID = ""
 POKEDEX_ID = ""
 ENTRANCES_ID = ""
+HINT_ID = ""
 
 function resetItems()
     for _, value in pairs(ITEM_MAPPING) do
@@ -322,8 +323,8 @@ function onClear(slot_data)
         POKEDEX_ID = "pokemon_frlg_pokedex_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         ENTRANCES_ID = "pokemon_frlg_entrances_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         HINT_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
-        Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
-        Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
+        Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID, HINT_ID})
+        Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID, HINT_ID})
     end
     Tracker.BulkUpdate = false
 end
@@ -421,7 +422,7 @@ function onNotify(key, value, old_value)
         updatePokedex(value)
     elseif key == ENTRANCES_ID then
         updateEntrances(value)
-    elseif key = HINT_ID then
+    elseif key == HINT_ID then
         updateHints(value)
     end
 end
@@ -439,7 +440,7 @@ function onNotifyLaunch(key, value)
         updatePokedex(value)
     elseif key == ENTRANCES_ID then
         updateEntrances(value)
-    elseif key = HINT_ID then
+    elseif key == HINT_ID then
         updateHints(value)
     end
 end
