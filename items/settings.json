@@ -537,14 +537,14 @@
       {
         "img": "images/settings/bicycle.png",
         "img_mods": "overlay|images/overlays/jump.png,@disabled",
-        "codes": "bicycle_ledge_jump_setting,bicycle_ledge_jump_off",
+        "codes": "bicycle_jumping_shoes_setting,bicycle_jumping_shoes_off",
         "inherit_codes": false,
         "name": "Bicycle Requires Ledge Jump - Off"
       },
       {
         "img": "images/settings/bicycle.png",
         "img_mods": "overlay|images/overlays/jump.png",
-        "codes": "bicycle_ledge_jump_setting,bicycle_ledge_jump_on",
+        "codes": "bicycle_jumping_shoes_setting,bicycle_jumping_shoes_on",
         "inherit_codes": false,
         "name": "Bicycle Requires Ledge Jump - On"
       }

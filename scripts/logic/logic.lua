@@ -89,11 +89,11 @@ function post_game_fame()
 end
 
 function jump_down_ledge()
-    return has("ledge_jump") or (has("bicycle") and has("bicycle_ledge_jump_off"))
+    return has("jumping_shoes") or (has("bicycle") and has("bicycle_jumping_shoes_off"))
 end
 
 function jump_up_ledge()
-    return has("acrobatic_bicycle_on") and has("bicycle") and (has("ledge_jump") or has("bicycle_ledge_jump_off"))
+    return has("acrobatic_bicycle_on") and has("bicycle") and (has("jumping_shoes") or has("bicycle_jumping_shoes_off"))
 end
 
 function has_n_gyms(n)

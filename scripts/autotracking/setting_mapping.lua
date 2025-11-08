@@ -166,8 +166,8 @@ SLOT_CODES = {
             [1] = 1  -- Fame Checker Required
         }
     },
-    bicycle_requires_ledge_jump = {
-        code = "bicycle_ledge_jump_setting",
+    bicycle_requires_jumping_shoes = {
+        code = "bicycle_jumping_shoes_setting",
         type = "progressive",
         mapping = {
             [0] = 0, -- Ledge Jump not Required for Bicycle
