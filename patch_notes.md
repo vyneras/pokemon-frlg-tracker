@@ -1,3 +1,10 @@
+# 3.1.0
+## Updates
++ Added highlighting for hinted locations (credit to [Stripes007](https://github.com/StripesOO7))
+
+## Bug Fixes
++ Actually fixed Seafoam Islands B3F fishing access
+
 # 3.0.0
 ## Updates
 + Improved performance of Auto Encounter Tracking
