@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "3.1.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/3.1.0.zip",
+      "sha256": "82e55ad8b495b6bf25ebebbbbcc2c83daa988a9beccb48a79d5375c977cfa3e0",
+      "changelog": [
+        "Added highlighting for hinted locations",
+        "Actually fixed Seafoam Islands B3F fishing access",
+        "Fixed Route 21 fishing access"
+      ]
+    },
+    {
       "package_version": "3.0.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/3.0.0.zip",
       "sha256": "c71f52dc295f817fee38c6efbf97a24b14a34bfdb21dacb394ff1ff2e42e9860",
