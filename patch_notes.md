@@ -1,9 +1,10 @@
 # 3.1.0
 ## Updates
-+ Added highlighting for hinted locations (credit to [Stripes007](https://github.com/StripesOO7))
++ Added highlighting for hinted locations (credit to [StripesOO7](https://github.com/StripesOO7))
 
 ## Bug Fixes
 + Actually fixed Seafoam Islands B3F fishing access
++ Fixed Route 21 fishing access
 
 # 3.0.0
 ## Updates
