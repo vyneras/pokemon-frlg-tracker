@@ -43,6 +43,16 @@ PROG_PASS_SPLIT = {
     [6] = "seven_pass"
 }
 
+if Highlight then
+    HIGHTLIGHT_LEVEL= {
+        [0] = Highlight.Unspecified,
+        [10] = Highlight.NoPriority,
+        [20] = Highlight.Avoid,
+        [30] = Highlight.Priority,
+        [40] = Highlight.None,
+    }
+end
+
 DEXSANITY_LOCATIONS = {}
 ENCOUNTER_LIST = {}
 STATIC_ENCOUNTER_LIST = {}
@@ -56,6 +66,7 @@ STATIC_ID = ""
 POKEMON_ID = ""
 POKEDEX_ID = ""
 ENTRANCES_ID = ""
+HINT_ID = ""
 
 function resetItems()
     for _, value in pairs(ITEM_MAPPING) do
@@ -311,8 +322,9 @@ function onClear(slot_data)
         POKEMON_ID = "pokemon_frlg_pokemon_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         POKEDEX_ID = "pokemon_frlg_pokedex_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
         ENTRANCES_ID = "pokemon_frlg_entrances_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
-        Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
-        Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID})
+        HINT_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_NUMBER
+        Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID, HINT_ID})
+        Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID, HINT_ID})
     end
     Tracker.BulkUpdate = false
 end
@@ -410,6 +422,8 @@ function onNotify(key, value, old_value)
         updatePokedex(value)
     elseif key == ENTRANCES_ID then
         updateEntrances(value)
+    elseif key == HINT_ID then
+        updateHints(value)
     end
 end
 
@@ -426,6 +440,8 @@ function onNotifyLaunch(key, value)
         updatePokedex(value)
     elseif key == ENTRANCES_ID then
         updateEntrances(value)
+    elseif key == HINT_ID then
+        updateHints(value)
     end
 end
 
@@ -615,6 +631,24 @@ function updateMap(mapId, sectionId)
         if tabs then
             for _, tab in ipairs(tabs) do
                 Tracker:UiHint("ActivateTab", tab)
+            end
+        end
+    end
+end
+
+function updateHints(value)
+    if Highlight then
+        for _, hint in ipairs(value) do --loop over all hints provided
+            local location_table = LOCATION_MAPPING[hint.location] 
+            for _, location in ipairs(location_table) do --loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
+                if location:sub(1, 1) == "@" then --this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
+                    local obj = Tracker:FindObjectForCode(location)
+                    if obj then
+                        obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]
+                    else
+                        print(string.format("No object found for code: %s", location))
+                    end
+                end
             end
         end
     end
