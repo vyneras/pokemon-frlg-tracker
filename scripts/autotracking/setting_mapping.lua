@@ -31,6 +31,17 @@ SLOT_CODES = {
             [1] = 1  -- Kanto Only On
         }
     },
+    shuffle_dungeons = {
+        code = "shuffle_dungeons",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Dungeons Off
+            [1] = 1, -- Shuffle Dungeons Seafoam
+            [2] = 2, -- Shuffle Dungeons Simple
+            [3] = 3, -- Shuffle Dungeons Restricted
+            [4] = 4  -- Shuffle Dungeons Full
+        }
+    },
     shuffle_hidden = {
         code = "hidden_setting",
         type = "progressive",

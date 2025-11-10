@@ -17,8 +17,8 @@ ENTRANCE_DATA = {
     [13] = {"Rocket Hideout B1F Northwest Stairs", "Rocket Hideout", "rocket_hideout"},
     [14] = {"Safari Zone Entrance Exit", "Safari Zone", "safari_zone"},
     [15] = {"Silph Co. 1F Exit", "Silph Co.", "silph_co"},
-    [16] = {"Seafoam Islands 1F Exit (West)", "Seafoam Islands South", "seafoam_islands_south"},
-    [17] = {"Seafoam Islands 1F Exit (East)", "Seafoam Islands North", "seafoam_islands_north"},
+    [16] = {"Seafoam Islands 1F Exit (East)", "Seafoam Islands South", "seafoam_islands_south"},
+    [17] = {"Seafoam Islands 1F Exit (West)", "Seafoam Islands North", "seafoam_islands_north"},
     [18] = {"Pokemon Mansion 1F Exit (West)", "Pokémon Mansion", "pokemon_mansion"},
     [19] = {"Victory Road 1F Exit", "Victory Road West", "victory_road_west"},
     [20] = {"Victory Road 2F Exit", "Victory Road East", "victory_road_east"},
@@ -84,7 +84,7 @@ function Entrance:updateIcon()
 end
 
 function Entrance:onLeftClick()
-    if has("dungeon_entrance_shuffle_on") then
+    if has("shuffle_dungeons_simple") or has("shuffle_dungeons_restricted") or has("shuffle_dungeons_full") then
         local stage = self:getStage() + 1
         if stage >= self.stageCount then
             stage = 0
@@ -95,7 +95,7 @@ function Entrance:onLeftClick()
 end
 
 function Entrance:onRightClick()
-    if has("dungeon_entrance_shuffle_on") then
+    if has("shuffle_dungeons_simple") or has("shuffle_dungeons_restricted") or has("shuffle_dungeons_full") then
         local stage = self:getStage() - 1
         if stage < 0 then
             stage = self.stageCount - 1

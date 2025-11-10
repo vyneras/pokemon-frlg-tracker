@@ -334,3 +334,11 @@ end
 function cerulean_cave_visisble()
     return post_goal_visible() or CERULEAN_CAVE_REQ:getType() == "network_machine" or CERULEAN_CAVE_REQ:getType() == "badges" or CERULEAN_CAVE_REQ:getType() == "gyms"
 end
+
+function shuffle_dungeons_off()
+    return has("shuffle_dungeons_off") or has("shuffle_dungeons_seafoam")
+end
+
+function shuffle_dungeons_on()
+    return has("shuffle_dungeons_simple") or has("shuffle_dungeons_restricted") or has("shuffle_dungeons_full")
+end

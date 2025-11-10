@@ -655,7 +655,7 @@
               "@Kindle Road North Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -1432,7 +1432,7 @@
             "name": "Berry Forest Entrance",
             "hosted_item": "berry_forest_hosted",
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -1645,7 +1645,7 @@
               "@Four Island Town Near Cave Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -1888,7 +1888,7 @@
               "learn_goldeen_need_log,learn_yes_nah_chansey"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -2466,7 +2466,7 @@
               "@Resort Gorgeous Near Cave Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -2962,7 +2962,7 @@
               "help_lorelei,$cut"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3096,7 +3096,7 @@
               "@Green Path East Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3106,7 +3106,7 @@
               "@Green Path West Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3282,7 +3282,7 @@
             "name": "Altering Cave Entrance",
             "hosted_item": "altering_cave_hosted",
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3896,7 +3896,7 @@
               "@Tanoby Ruins Viapois Island Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3906,7 +3906,7 @@
               "@Tanoby Ruins Rixy Island Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3916,7 +3916,7 @@
               "@Tanoby Ruins Scufib Island Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3926,7 +3926,7 @@
               "@Tanoby Ruins Dilford Island Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3936,7 +3936,7 @@
               "@Tanoby Ruins Weepth Island Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3946,7 +3946,7 @@
               "@Tanoby Ruins Liptoo Island Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -3956,7 +3956,7 @@
               "@Tanoby Ruins Monean Island Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           },
           {
@@ -4296,8 +4296,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Navel Rock Exterior Access,dungeon_entrance_shuffle_off,itemfinder",
-              "navel_rock_exit,dungeon_entrance_shuffle_on,itemfinder"
+              "@Navel Rock Exterior Access,$shuffle_dungeons_off,itemfinder",
+              "navel_rock_exit,$shuffle_dungeons_on,itemfinder"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -4308,8 +4308,8 @@
             "chest_unopened_img": "images/locations/ho_oh.png",
             "chest_opened_img": "images/locations/ho_oh_bw.png",
             "access_rules": [
-              "@Navel Rock Exterior Access,dungeon_entrance_shuffle_off",
-              "navel_rock_exit,dungeon_entrance_shuffle_on"
+              "@Navel Rock Exterior Access,$shuffle_dungeons_off",
+              "navel_rock_exit,$shuffle_dungeons_on"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4320,8 +4320,8 @@
             "chest_unopened_img": "images/locations/lugia.png",
             "chest_opened_img": "images/locations/lugia_bw.png",
             "access_rules": [
-              "@Navel Rock Exterior Access,dungeon_entrance_shuffle_off",
-              "navel_rock_exit,dungeon_entrance_shuffle_on"
+              "@Navel Rock Exterior Access,$shuffle_dungeons_off",
+              "navel_rock_exit,$shuffle_dungeons_on"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4334,7 +4334,7 @@
               "@Navel Rock Exterior Access"
             ],
             "visibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           }
         ],

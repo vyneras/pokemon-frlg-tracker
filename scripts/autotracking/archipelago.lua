@@ -189,13 +189,6 @@ function setRandomizeFlyDestinationsSetting(stage)
     end
 end
 
-function setDungeonEntranceShuffleSetting(stage)
-    local object = Tracker:FindObjectForCode("dungeon_entrance_shuffle_setting")
-    if object then
-        object.CurrentStage = stage
-    end
-end
-
 function setEncounterList(wild_encounters)
     for dex_number, encounters in pairs(wild_encounters) do
         ENCOUNTER_LIST[tonumber(dex_number)] = encounters
@@ -229,7 +222,6 @@ function onClear(slot_data)
     resetDarkCaves()
     resetEntrances()
     setRandomizeFlyDestinationsSetting(0)
-    setDungeonEntranceShuffleSetting(0)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
@@ -271,8 +263,6 @@ function onClear(slot_data)
                 local item = FLY_DESTINATION_ITEMS[exit]
                 FLY_DESTINATION_MAPPING[item.flyUnlock] = {item, fly_mapping[region]}
             end
-        elseif key == "dungeon_entrance_shuffle" then
-            setDungeonEntranceShuffleSetting(1)
         elseif SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
             if object then

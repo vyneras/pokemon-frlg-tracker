@@ -1013,7 +1013,7 @@
     ]
   },
   {
-    "name": "Dungeon Entrance Shuffle",
+    "name": "Shuffle Dungeons",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -1021,16 +1021,37 @@
       {
         "img": "images/settings/dungeon_entrance.png",
         "img_mods": "overlay|images/overlays/off.png,@disabled",
-        "codes": "dungeon_entrance_shuffle_setting,dungeon_entrance_shuffle_off",
+        "codes": "shuffle_dungeons_setting,shuffle_dungeons_off",
         "inherit_codes": false,
-        "name": "Dungeon Entrance Shuffle - Off"
+        "name": "Shuffle Dungeons - Off"
       },
       {
         "img": "images/settings/dungeon_entrance.png",
-        "img_mods": "overlay|images/overlays/on.png",
-        "codes": "dungeon_entrance_shuffle_setting,dungeon_entrance_shuffle_on",
+        "img_mods": "overlay|images/overlays/sea.png",
+        "codes": "shuffle_dungeons_setting,shuffle_dungeons_seafoam",
         "inherit_codes": false,
-        "name": "Dungeon Entrance Shuffle - On"
+        "name": "Shuffle Dungeons - Seafoam"
+      },
+      {
+        "img": "images/settings/dungeon_entrance.png",
+        "img_mods": "overlay|images/overlays/simple.png",
+        "codes": "shuffle_dungeons_setting,shuffle_dungeons_simple",
+        "inherit_codes": false,
+        "name": "Shuffle Dungeons - Simple"
+      },
+      {
+        "img": "images/settings/dungeon_entrance.png",
+        "img_mods": "overlay|images/overlays/restricted.png",
+        "codes": "shuffle_dungeons_setting,shuffle_dungeons_restricted",
+        "inherit_codes": false,
+        "name": "Shuffle Dungeons - Restricted"
+      },
+      {
+        "img": "images/settings/dungeon_entrance.png",
+        "img_mods": "overlay|images/overlays/full.png",
+        "codes": "shuffle_dungeons_setting,shuffle_dungeons_full",
+        "inherit_codes": false,
+        "name": "Shuffle Dungeons - Full"
       }
     ]
   },

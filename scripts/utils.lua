@@ -356,12 +356,17 @@ function toggle_fly_unlock(code)
 end
 
 function set_default_dungeon_entrances(code)
-    local dungeon_entrances_shuffled = Tracker:FindObjectForCode(code).CurrentStage == 1
-    for _, item in pairs(ENTRANCE_ITEMS) do
-        if dungeon_entrances_shuffled then
+    for name, item in pairs(ENTRANCE_ITEMS) do
+        if shuffle_dungeons_on() then
             item:setStage(item:getSavedStage())
         else
-            item:setStage(item:getDefaultStage())
+            if has("shuffle_dungeons_seafoam") and name == "Seafoam Islands (South)" then
+                item:setStage(17)
+            elseif has("shuffle_dungeons_seafoam") and name == "Seafoam Islands (North)" then
+                item:setStage(16)
+            else
+                item:setStage(item:getDefaultStage())
+            end
         end
     end
 end
