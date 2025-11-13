@@ -26,8 +26,6 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("split_map", "split_map_setting", toggle_maps)
     ScriptHost:AddWatchForCode("pokemon_tabs", "pokemon_tabs_setting", toggle_item_tabs)
     ScriptHost:AddWatchForCode("kanto_only", "kanto_only_setting", toggle_maps)
-    ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
-    ScriptHost:AddWatchForCode("shuffle_dungeons_setting", "shuffle_dungeons_setting", set_default_dungeon_entrances)
 
     -- Maps
     ScriptHost:AddWatchForCode("kanto_only_map", "kanto_only_setting", toggle_kanto_only_maps)
@@ -43,6 +41,13 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("extra_map", "extra_key_items_setting", toggle_route_10_and_extra_item_maps)
     ScriptHost:AddWatchForCode("route23_trees", "route_23_trees_setting", toggle_route_23_maps)
     ScriptHost:AddWatchForCode("route23_modified", "modify_route_23_setting", toggle_route_23_maps)
+
+    -- Entrances
+    ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
+    ScriptHost:AddWatchForCode("shuffle_dungeons", "shuffle_dungeons_setting", set_default_dungeon_entrances)
+
+    -- Encounters
+    ScriptHost:AddWatchForCode("game_version", "game_version_setting", set_encounter_counts)
 
     -- Apworld Version Mismtach
     ScriptHost:AddWatchForCode("version_mismatch", "version_mismatch", toggle_version_mismtach)

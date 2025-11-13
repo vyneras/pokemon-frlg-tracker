@@ -125,24 +125,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -152,7 +152,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -304,24 +304,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -331,7 +331,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 3,
+            "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -687,32 +687,28 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
               "@One Island Town Access,old_rod",
-              "@One Island Town Access,good_rod",
               "@Kindle Road Center Access,old_rod",
-              "@Kindle Road Center Access,good_rod",
-              "@Kindle Road North Access,old_rod",
-              "@Kindle Road North Access,good_rod"
+              "@Kindle Road North Access,old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
               "@One Island Town Access,good_rod",
-              "@One Island Town Access,super_rod",
               "@Kindle Road Center Access,good_rod",
-              "@Kindle Road Center Access,super_rod",
-              "@Kindle Road North Access,good_rod",
-              "@Kindle Road North Access,super_rod"
+              "@Kindle Road North Access,good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -722,7 +718,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 3,
+            "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
               "@One Island Town Access,super_rod",
@@ -1009,35 +1005,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
             "access_rules": [
               "good_rod"
-            ],
-            "visibility_rules": [
-              "pokemon_locations_on"
-            ]
-          },
-          {
-            "name": "Good-Super Rod Encounter",
-            "chest_unopened_img": "images/locations/good_rod.png",
-            "chest_opened_img": "images/locations/good_rod_bw.png",
-            "access_rules": [
-              "good_rod",
-              "super_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1047,7 +1032,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 3,
+            "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -1082,7 +1067,7 @@
         ],
         "sections": [
           {
-            "name": "Land Encounter",
+            "name": "Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
             "visibility_rules": [
@@ -1459,24 +1444,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1486,7 +1471,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 3,
+            "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -1663,40 +1648,26 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
               "@Four Island Town Access,old_rod",
-              "@Four Island Town Access,good_rod",
-              "@Four Island Town Near Cave Access,old_rod",
-              "@Four Island Town Near Cave Access,good_rod"
+              "@Four Island Town Near Cave Access,old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
             "access_rules": [
               "@Four Island Town Access,good_rod",
               "@Four Island Town Near Cave Access,good_rod"
-            ],
-            "visibility_rules": [
-              "pokemon_locations_on"
-            ]
-          },
-          {
-            "name": "Good-Super Rod Encounter",
-            "chest_unopened_img": "images/locations/good_rod.png",
-            "chest_opened_img": "images/locations/good_rod_bw.png",
-            "access_rules": [
-              "@Four Island Town Access,good_rod",
-              "@Four Island Town Access,super_rod",
-              "@Four Island Town Near Cave Access,good_rod",
-              "@Four Island Town Near Cave Access,super_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1706,7 +1677,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 3,
+            "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
               "@Four Island Town Access,super_rod",
@@ -1780,24 +1751,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1807,7 +1778,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -1915,24 +1886,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1942,7 +1913,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -2095,7 +2066,7 @@
             ]
           },
           {
-            "name": "Land Encounter",
+            "name": "Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
             "visibility_rules": [
@@ -2116,24 +2087,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2143,7 +2114,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -2232,24 +2203,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2259,7 +2230,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -2484,28 +2455,26 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
               "@Resort Gorgeous Near Resort Access,old_rod",
-              "@Resort Gorgeous Near Resort Access,good_rod",
-              "@Resort Gorgeous Near Cave Access,old_rod",
-              "@Resort Gorgeous Near Cave Access,good_rod"
+              "@Resort Gorgeous Near Cave Access,old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
               "@Resort Gorgeous Near Resort Access,good_rod",
-              "@Resort Gorgeous Near Resort Access,super_rod",
-              "@Resort Gorgeous Near Cave Access,good_rod",
-              "@Resort Gorgeous Near Cave Access,super_rod"
+              "@Resort Gorgeous Near Cave Access,good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2515,7 +2484,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "@Resort Gorgeous Near Resort Access,super_rod",
@@ -2800,28 +2769,26 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
               "@Six Island Town Access,old_rod",
-              "@Six Island Town Access,good_rod",
-              "@Green Path East Access,old_rod",
-              "@Green Path East Access,good_rod"
+              "@Green Path East Access,old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
               "@Six Island Town Access,good_rod",
-              "@Six Island Town Access,super_rod",
-              "@Green Path East Access,good_rod",
-              "@Green Path East Access,super_rod"
+              "@Green Path East Access,good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2831,7 +2798,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "@Six Island Town Access,super_rod",
@@ -2976,7 +2943,7 @@
             ]
           },
           {
-            "name": "Surf Encounter",
+            "name": "Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
@@ -2987,35 +2954,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 3,
+            "clear_as_group": false,
             "access_rules": [
               "good_rod"
-            ],
-            "visibility_rules": [
-              "pokemon_locations_on"
-            ]
-          },
-          {
-            "name": "Good-Super Rod Encounter",
-            "chest_unopened_img": "images/locations/good_rod.png",
-            "chest_opened_img": "images/locations/good_rod_bw.png",
-            "access_rules": [
-              "good_rod",
-              "super_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3025,7 +2981,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 3,
+            "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -3123,24 +3079,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Green Path West Access,old_rod",
-              "@Green Path West Access,good_rod"
+              "@Green Path West Access,old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "@Green Path West Access,good_rod",
-              "@Green Path West Access,super_rod"
+              "@Green Path West Access,good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3150,7 +3106,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "@Green Path West Access,super_rod"
@@ -3299,24 +3255,24 @@
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod",
-              "good_rod"
+              "old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
-              "good_rod",
-              "super_rod"
+              "good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3326,7 +3282,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "super_rod"
@@ -3750,17 +3706,7 @@
             "item_count": 10,
             "clear_as_group": false,
             "visibility_rules": [
-              "game_version_fire,pokemon_locations_on"
-            ]
-          },
-          {
-            "name": "​Land Encounters",
-            "chest_unopened_img": "images/locations/grass.png",
-            "chest_opened_img": "images/locations/grass_bw.png",
-            "item_count": 9,
-            "clear_as_group": false,
-            "visibility_rules": [
-              "game_version_leaf,pokemon_locations_on"
+              "pokemon_locations_on"
             ]
           }
         ],
@@ -3963,26 +3909,6 @@
             "name": "Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
-            "item_count": 2,
-            "clear_as_group": false,
-            "access_rules": [
-              "@Seven Island Town Access,$surf",
-              "@Tanoby Ruins Monean Island Access,$surf",
-              "@Tanoby Ruins Liptoo Island Access,$surf",
-              "@Tanoby Ruins Weepth Island Access,$surf",
-              "@Tanoby Ruins Dilford Island Access,$surf",
-              "@Tanoby Ruins Scufib Island Access,$surf",
-              "@Tanoby Ruins Rixy Island Access,$surf",
-              "@Tanoby Ruins Viapois Island Access,$surf"
-            ],
-            "visibility_rules": [
-              "game_version_fire,pokemon_locations_on"
-            ]
-          },
-          {
-            "name": "​Surf Encounters",
-            "chest_unopened_img": "images/locations/surfing.png",
-            "chest_opened_img": "images/locations/surfing_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
@@ -3996,56 +3922,42 @@
               "@Tanoby Ruins Viapois Island Access,$surf"
             ],
             "visibility_rules": [
-              "game_version_leaf,pokemon_locations_on"
+              "pokemon_locations_on"
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
               "@Seven Island Town Access,old_rod",
-              "@Seven Island Town Access,good_rod",
               "@Tanoby Ruins Monean Island Access,old_rod",
-              "@Tanoby Ruins Monean Island Access,good_rod",
               "@Tanoby Ruins Liptoo Island Access,old_rod",
-              "@Tanoby Ruins Liptoo Island Access,good_rod",
               "@Tanoby Ruins Weepth Island Access,old_rod",
-              "@Tanoby Ruins Weepth Island Access,good_rod",
               "@Tanoby Ruins Dilford Island Access,old_rod",
-              "@Tanoby Ruins Dilford Island Access,good_rod",
               "@Tanoby Ruins Scufib Island Access,old_rod",
-              "@Tanoby Ruins Scufib Island Access,good_rod",
               "@Tanoby Ruins Rixy Island Access,old_rod",
-              "@Tanoby Ruins Rixy Island Access,good_rod",
-              "@Tanoby Ruins Viapois Island Access,old_rod",
-              "@Tanoby Ruins Viapois Island Access,good_rod"
+              "@Tanoby Ruins Viapois Island Access,old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
               "@Seven Island Town Access,good_rod",
-              "@Seven Island Town Access,super_rod",
               "@Tanoby Ruins Monean Island Access,good_rod",
-              "@Tanoby Ruins Monean Island Access,super_rod",
               "@Tanoby Ruins Liptoo Island Access,good_rod",
-              "@Tanoby Ruins Liptoo Island Access,super_rod",
               "@Tanoby Ruins Weepth Island Access,good_rod",
-              "@Tanoby Ruins Weepth Island Access,super_rod",
               "@Tanoby Ruins Dilford Island Access,good_rod",
-              "@Tanoby Ruins Dilford Island Access,super_rod",
               "@Tanoby Ruins Scufib Island Access,good_rod",
-              "@Tanoby Ruins Scufib Island Access,super_rod",
               "@Tanoby Ruins Rixy Island Access,good_rod",
-              "@Tanoby Ruins Rixy Island Access,super_rod",
-              "@Tanoby Ruins Viapois Island Access,good_rod",
-              "@Tanoby Ruins Viapois Island Access,super_rod"
+              "@Tanoby Ruins Viapois Island Access,good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4055,7 +3967,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "@Seven Island Town Access,super_rod",
@@ -4174,20 +4086,6 @@
             "name": "Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
-            "item_count": 2,
-            "clear_as_group": false,
-            "access_rules": [
-              "@Seven Island Town Access,$surf",
-              "@Trainer Tower Exterior Access,$surf"
-            ],
-            "visibility_rules": [
-              "game_version_fire,pokemon_locations_on"
-            ]
-          },
-          {
-            "name": "​Surf Encounters",
-            "chest_unopened_img": "images/locations/surfing.png",
-            "chest_opened_img": "images/locations/surfing_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
@@ -4195,32 +4093,30 @@
               "@Trainer Tower Exterior Access,$surf"
             ],
             "visibility_rules": [
-              "game_version_leaf,pokemon_locations_on"
+              "pokemon_locations_on"
             ]
           },
           {
-            "name": "Old-Good Rod Encounter",
+            "name": "Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
               "@Seven Island Town Access,old_rod",
-              "@Seven Island Town Access,good_rod",
-              "@Trainer Tower Exterior Access,old_rod",
-              "@Trainer Tower Exterior Access,good_rod"
+              "@Trainer Tower Exterior Access,old_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
-            "name": "Good-Super Rod Encounter",
+            "name": "Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
+            "item_count": 2,
+            "clear_as_group": false,
             "access_rules": [
               "@Seven Island Town Access,good_rod",
-              "@Seven Island Town Access,super_rod",
-              "@Trainer Tower Exterior Access,good_rod",
-              "@Trainer Tower Exterior Access,super_rod"
+              "@Trainer Tower Exterior Access,good_rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4230,7 +4126,7 @@
             "name": "Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
-            "item_count": 4,
+            "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
               "@Seven Island Town Access,super_rod",

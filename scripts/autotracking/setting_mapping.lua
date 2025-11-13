@@ -32,7 +32,7 @@ SLOT_CODES = {
         }
     },
     shuffle_dungeons = {
-        code = "shuffle_dungeons",
+        code = "shuffle_dungeons_setting",
         type = "progressive",
         mapping = {
             [0] = 0, -- Shuffle Dungeons Off
@@ -40,6 +40,17 @@ SLOT_CODES = {
             [2] = 2, -- Shuffle Dungeons Simple
             [3] = 3, -- Shuffle Dungeons Restricted
             [4] = 4  -- Shuffle Dungeons Full
+        }
+    },
+    randomize_fly_destinations = {
+        code = "randomize_fly_destinations_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Randomize Fly Destinations Off
+            [1] = 1, -- Randomize Fly Destinations Area
+            [2] = 1, -- Randomize Fly Destinations Map
+            [3] = 1, -- Randomize Fly Destinations Region
+            [4] = 1  -- Randomize Fly Destinations Completely Random
         }
     },
     shuffle_hidden = {

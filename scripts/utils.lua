@@ -371,6 +371,24 @@ function set_default_dungeon_entrances(code)
     end
 end
 
+function set_encounter_counts(code)
+    if has("game_version_fire") then
+        Tracker:FindObjectForCode("@Cities/Vermilion City/Super Rod Encounters").AvailableChestCount = 4
+        Tracker:FindObjectForCode("@Dungeons/Power Plant/Land Encounters").AvailableChestCount = 5
+        Tracker:FindObjectForCode("@Dungeons/Mt. Ember/Exterior - Land Encounters").AvailableChestCount = 6
+        Tracker:FindObjectForCode("@Islands/Sevault Canyon/Land Encounters").AvailableChestCount = 10
+        Tracker:FindObjectForCode("@Islands/Tanoby Ruins/Surf Encounters").AvailableChestCount = 2
+        Tracker:FindObjectForCode("@Islands/Trainer Tower Exterior/Surf Encounters").AvailableChestCount = 2
+    else
+        Tracker:FindObjectForCode("@Cities/Vermilion City/Super Rod Encounters").AvailableChestCount = 5
+        Tracker:FindObjectForCode("@Dungeons/Power Plant/Land Encounters").AvailableChestCount = 4
+        Tracker:FindObjectForCode("@Dungeons/Mt. Ember/Exterior - Land Encounters").AvailableChestCount = 7
+        Tracker:FindObjectForCode("@Islands/Sevault Canyon/Land Encounters").AvailableChestCount = 9
+        Tracker:FindObjectForCode("@Islands/Tanoby Ruins/Surf Encounters").AvailableChestCount = 3
+        Tracker:FindObjectForCode("@Islands/Trainer Tower Exterior/Surf Encounters").AvailableChestCount = 3
+    end
+end
+
 function toggle_version_mismtach(code)
     local active = Tracker:FindObjectForCode(code).Active
     if active then

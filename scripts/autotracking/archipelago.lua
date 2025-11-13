@@ -60,8 +60,9 @@ if Highlight then
 end
 
 DEXSANITY_LOCATIONS = {}
-ENCOUNTER_LIST = {}
+WILD_ENCOUNTER_LIST = {}
 STATIC_ENCOUNTER_LIST = {}
+POKEMON_TO_LOCATION = {}
 
 SEEN_POKEMON = {}
 CAUGHT_POKEMON = {}
@@ -182,19 +183,6 @@ function setDexsanityLocations()
     end
 end
 
-function setRandomizeFlyDestinationsSetting(stage)
-    local object = Tracker:FindObjectForCode("randomize_fly_destinations_setting")
-    if object then
-        object.CurrentStage = stage
-    end
-end
-
-function setEncounterList(wild_encounters)
-    for dex_number, encounters in pairs(wild_encounters) do
-        ENCOUNTER_LIST[tonumber(dex_number)] = encounters
-    end
-end
-
 function onClear(slot_data)
     Tracker.BulkUpdate = true
     local version_mismatch = Tracker:FindObjectForCode("version_mismatch")
@@ -213,7 +201,7 @@ function onClear(slot_data)
     PROG_ROD_COUNT = 0
     FLY_DESTINATION_MAPPING = {}
     DEXSANITY_LOCATIONS = {}
-    ENCOUNTER_LIST = {}
+    POKEMON_TO_LOCATION = {}
     SEEN_POKEMON = {}
     CAUGHT_POKEMON = {}
     resetItems()
@@ -221,12 +209,20 @@ function onClear(slot_data)
     resetWorldStateSettings()
     resetDarkCaves()
     resetEntrances()
-    setRandomizeFlyDestinationsSetting(0)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
-    setEncounterList(slot_data["wild_encounters"])
+    WILD_ENCOUNTER_LIST = slot_data["wild_encounters"]
     STATIC_ENCOUNTER_LIST = slot_data["static_encounters"]
+    for location, dex_numbers in pairs(WILD_ENCOUNTER_LIST) do
+        for _, dex_number in pairs(dex_numbers) do
+            if POKEMON_TO_LOCATION[dex_number] == nil then
+                POKEMON_TO_LOCATION[dex_number] = {}
+            end
+            table.insert(POKEMON_TO_LOCATION[dex_number], location)
+        end
+    end
+    print(dump_table(POKEMON_TO_LOCATION))
     for key, value in pairs(slot_data) do
         if key == "remove_badge_requirement" then
             for hm, code in pairs(BADGE_FOR_HM) do
@@ -253,13 +249,12 @@ function onClear(slot_data)
                     object.CurrentStage = 1
                 end
             end
-        elseif key == "randomize_fly_destinations" then
-            setRandomizeFlyDestinationsSetting(1)
+        elseif key == "fly_destinations" then
             local fly_mapping = {}
             for key, value in pairs(FLY_DESTINATION_DATA) do
                 fly_mapping[value[1]] = key
             end
-            for exit, region in pairs(slot_data["randomize_fly_destinations"]) do
+            for exit, region in pairs(slot_data["fly_destinations"]) do
                 local item = FLY_DESTINATION_ITEMS[exit]
                 FLY_DESTINATION_MAPPING[item.flyUnlock] = {item, fly_mapping[region]}
             end
@@ -535,23 +530,17 @@ function updatePokemon(pokemon)
             end
         end
         if has("encounter_tracking_on") then
-            local encounter_mapping = {}
-            if has("game_version_fire") then
-                encounter_mapping = ENCOUNTER_MAPPING_FIRERED
-            elseif has("game_version_leaf") then
-                encounter_mapping = ENCOUNTER_MAPPING_LEAFGREEN
-            end
-            for _, location in pairs(encounter_mapping) do
+            for key, location in pairs(ENCOUNTER_MAPPING_WILDS) do
                 local object = Tracker:FindObjectForCode(location)
-                if object then
-                    object.AvailableChestCount = object.ChestCount
+                if object and WILD_ENCOUNTER_LIST[key] ~= nil then
+                    object.AvailableChestCount = #WILD_ENCOUNTER_LIST[key]
                 end
             end
-            for dex_number, encounters in pairs(ENCOUNTER_LIST) do
+            for dex_number, encounters in pairs(POKEMON_TO_LOCATION) do
                 local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
                 if caught_pokemon[dex_number] or (seen_pokemon[dex_number] and code.CurrentStage == 0) then
                     for _, encounter in pairs(encounters) do
-                        local object_name = encounter_mapping[encounter]
+                        local object_name = ENCOUNTER_MAPPING_WILDS[encounter]
                         if object_name then
                             local object = Tracker:FindObjectForCode(object_name)
                             if object then
