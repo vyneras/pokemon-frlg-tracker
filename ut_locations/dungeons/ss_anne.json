@@ -528,6 +528,22 @@
     "name": "S.S. Anne B1F Corridor",
     "children": [
       {
+        "name": "S.S. Anne B1F Corridor Trash Can Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/S.S. Anne/B1F Corridor - Trash Can Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 344,
+            "y": 88
+          }
+        ]
+      },
+      {
         "name": "S.S. Anne B1F Corridor Stairs",
         "sections": [
           {
