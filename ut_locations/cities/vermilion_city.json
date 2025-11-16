@@ -1,0 +1,539 @@
+[
+  {
+    "name": "Vermilion City",
+    "children": [
+      {
+        "name": "Vermilion City Visit",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Hidden Item Near Pokémon Center",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Hidden Item Near Pokémon Center",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Gym Sign",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Gym Sign Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 168,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Fishing House",
+        "sections": [
+          {
+            "name": "Vermilion Fishing House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Pokemon Center",
+        "sections": [
+          {
+            "name": "Vermilion Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 248,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Fan Club",
+        "sections": [
+          {
+            "name": "Pokemon Fan Club"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 200,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Trade House",
+        "sections": [
+          {
+            "name": "Vermilion Trade House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 312,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Poke Mart",
+        "sections": [
+          {
+            "name": "Vermilion Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Pidgey House",
+        "sections": [
+          {
+            "name": "Vermilion Pidgey House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 456,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Gym",
+        "sections": [
+          {
+            "name": "Vermilion Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Harbor",
+        "sections": [
+          {
+            "name": "Vermilion Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 376,
+            "y": 552
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Fishing House",
+    "children": [
+      {
+        "name": "Vermilion Fishing Guru",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Fishing Guru Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_fishing_house",
+            "x": 72,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Fishing House Exit",
+        "sections": [
+          {
+            "name": "Vermilion Fishing House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_fishing_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Vermilion Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Vs. Seeker Woman",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Vs. Seeker Woman Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Pokémon Center Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Vermilion Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Pokémon Fan Club",
+    "children": [
+      {
+        "name": "Pokémon Fan Club Chairman",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Pokémon Fan Club Chairman Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_fan_club",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Fan Club Worker",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Pokémon Fan Club Worker Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_fan_club",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Fan Club Exit",
+        "sections": [
+          {
+            "name": "Pokemon Fan Club Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_fan_club",
+            "x": 88,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Gym",
+    "children": [
+      {
+        "name": "Sailor Dwayne",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Sailor Dwayne Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Sailor Dwayne Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 136,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Engineer Baily",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Engineer Baily Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 40,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Gentleman Tucker",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Gentleman Tucker Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Gentleman Tucker Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Vermilion City/Gentleman Tucker Info 2",
+            "name": "Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Lt. Surge",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Lt. Surge Info",
+            "name": "Info"
+          },
+          {
+            "ref": "Cities/Vermilion City/Leader Lt. Surge Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Vermilion Gym Prize",
+            "name": "Gym Prize"
+          },
+          {
+            "ref": "Cities/Vermilion City/Lt. Surge TM",
+            "name": "TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 88,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Gym Exit",
+        "sections": [
+          {
+            "name": "Vermilion Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 88,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Mart",
+    "children": [
+      {
+        "name": "Vermilion Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 7",
+            "name": "Shop Item 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Vermilion Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Trade House",
+    "children": [
+      {
+        "name": "Vermilion Trade House Exit",
+        "sections": [
+          {
+            "name": "Vermilion Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_trade_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Pidgey House",
+    "children": [
+      {
+        "name": "Vermilion Pidgey House Exit",
+        "sections": [
+          {
+            "name": "Vermilion Pidgey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pidgey_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

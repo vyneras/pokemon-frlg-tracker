@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Route 2",
+    "children": [
+      {
+        "name": "Route 2 North Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/North Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 280,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Route 2 South Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/South Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 280,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest South Gate",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 96,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest North Gate",
+        "sections": [
+          {
+            "name": "Viridian Forest North Gate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 96,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave North Entrance",
+        "sections": [
+          {
+            "name": "Diglett's Cave North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Trade House",
+        "sections": [
+          {
+            "name": "Route 2 Trade House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 280,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 2 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 304,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 2 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 304,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 2 Gate",
+    "children": [
+      {
+        "name": "Route 2 Gate Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 2/Oak's Aide Gift (Pokédex Progress)",
+            "name": "Gift (Pokédex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Route 2 Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Route 2 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Forest South Gate",
+    "children": [
+      {
+        "name": "Viridian Forest South Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south_entrance",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest South Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south_entrance",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Forest North Gate",
+    "children": [
+      {
+        "name": "Viridian Forest North Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Viridian Forest North Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north_entrance",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest North Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Viridian Forest North Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north_entrance",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 2 Trade House",
+    "children": [
+      {
+        "name": "Route 2 Trade House Exit",
+        "sections": [
+          {
+            "name": "Route 2 Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_trade_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

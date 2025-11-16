@@ -1,0 +1,511 @@
+[
+  {
+    "name": "Mart Overview",
+    "children": [
+      {
+        "name": "Viridian Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Delivery for Oak",
+            "name": "Delivery for Oak"
+          },
+          {
+            "ref": "Cities/Viridian City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Viridian City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Viridian City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Viridian City/Shop Item 4",
+            "name": "Shop Item 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 584,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Pewter Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Pewter City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Pewter City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Pewter City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Pewter City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Pewter City/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Cities/Pewter City/Shop Item 7",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Cities/Pewter City/Shop Item 8",
+            "name": "Shop Item 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 456,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 7",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 8",
+            "name": "Shop Item 8"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 9",
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 472,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Cities/Vermilion City/Shop Item 7",
+            "name": "Shop Item 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Lavender Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Lavender Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Lavender Town/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Lavender Town/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Lavender Town/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Lavender Town/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Lavender Town/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Cities/Lavender Town/Shop Item 7",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Cities/Lavender Town/Shop Item 8",
+            "name": "Shop Item 8"
+          },
+          {
+            "ref": "Cities/Lavender Town/Shop Item 9",
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 328,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 6",
+            "name": "Shop Item 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 184,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 6",
+            "name": "Shop Item 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 648,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Cinnabar Poké Mart",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Shop Item 7",
+            "name": "Shop Item 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 312,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Three Island Poké Mart",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 6",
+            "name": "Shop Item 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Four Island Poké Mart",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Old Man Info",
+            "name": "Old Man Info"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 7",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 8",
+            "name": "Shop Item 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 360,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Six Island Poké Mart",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Old Woman Info",
+            "name": "Old Woman Info"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 7",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 8",
+            "name": "Shop Item 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 328,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Poké Mart",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 8"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

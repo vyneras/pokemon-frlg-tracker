@@ -1,0 +1,195 @@
+[
+  {
+    "name": "Five Island Town",
+    "children": [
+      {
+        "name": "Five Island Visit",
+        "sections": [
+          {
+            "ref": "Islands/Five Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Five Island Harbor",
+        "sections": [
+          {
+            "name": "Five Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 200,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Five Island Pokemon Center",
+        "sections": [
+          {
+            "name": "Five Island Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 296,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Five Island Couple's House",
+        "sections": [
+          {
+            "name": "Five Island Couple's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Five Island Old Man's House",
+        "sections": [
+          {
+            "name": "Five Island Old Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 360,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Five Island Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Islands/Five Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Five Island Pokémon Center Bookshelf",
+        "sections": [
+          {
+            "ref": "Islands/Five Island Town/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Five Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Five Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Harbor",
+    "children": [
+      {
+        "name": "Five Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Five Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Couple's House",
+    "children": [
+      {
+        "name": "Five Island Couple's House Exit",
+        "sections": [
+          {
+            "name": "Five Island Couple's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_couples_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Old Man's House",
+    "children": [
+      {
+        "name": "Five Island Old Man's House Exit",
+        "sections": [
+          {
+            "name": "Five Island Old Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_old_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

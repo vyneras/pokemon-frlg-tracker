@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Route 21",
+    "children": [
+      {
+        "name": "Route 21 East Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/East Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 280,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Ronald",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Fisherman Ronald Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 120,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Wade",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Fisherman Wade Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 21/Fisherman Wade Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 264,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Sis and Bro Lil & Ian",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Sis and Bro Lil & Ian Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 21/Sis and Bro Lil & Ian Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 21/Sis and Bro Lil & Ian Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 240,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Spencer",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Swimmer Spencer Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 200,
+            "y": 712
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Claude",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Fisherman Claude Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 184,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Nolan",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Fisherman Nolan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 232,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Jack",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Swimmer Jack Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 21/Swimmer Jack Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 248,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Jerome",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Swimmer Jerome Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 248,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Roland",
+        "sections": [
+          {
+            "ref": "Routes/Route 21/Swimmer Roland Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 168,
+            "y": 472
+          }
+        ]
+      }
+    ]
+  }
+]

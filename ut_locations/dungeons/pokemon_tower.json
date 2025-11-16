@@ -1,0 +1,668 @@
+[
+  {
+    "name": "Pokémon Tower 1F",
+    "children": [
+      {
+        "name": "Pokemon Tower 1F Exit",
+        "sections": [
+          {
+            "name": "Pokemon Tower 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_1f",
+            "x": 184,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 1F Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_1f",
+            "x": 304,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 2F",
+    "children": [
+      {
+        "name": "Pokémon Tower Rival",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/2F - Rival Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_2f",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 2F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 2F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_2f",
+            "x": 64,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 2F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 2F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_2f",
+            "x": 304,
+            "y": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 3F",
+    "children": [
+      {
+        "name": "Pokémon Tower 3F North Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - North Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 216,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Channeler Carly",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - Channeler Carly Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Channeler Hope",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - Channeler Hope Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 200,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Channeler Patricia",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/3F - Channeler Patricia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 3F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 3F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 64,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 3F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 3F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 304,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 4F",
+    "children": [
+      {
+        "name": "Pokémon Tower 4F Center Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Center Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 200,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower 4F Center Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Center Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower 4F South Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - South Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Channeler Jody",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Channeler Jody Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 248,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Channeler Laurel",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Channeler Laurel Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 280,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Channeler Paula",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/4F - Channeler Paula Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 72,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 4F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 4F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 64,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 4F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 4F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 304,
+            "y": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 5F",
+    "children": [
+      {
+        "name": "Pokémon Tower 5F Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 120,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower 5F Healing Area Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Healing Area Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 184,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower 5F Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 104,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Channeler Janae",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Channeler Janae Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Channeler Karina",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Channeler Karina Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 120,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Channeler Ruth",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Channeler Ruth Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 184,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Channeler Tammy",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/5F - Channeler Tammy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 312,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 5F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 5F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 64,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 5F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 5F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 304,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 6F",
+    "children": [
+      {
+        "name": "Pokémon Tower 6F Southeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Southeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 248,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower 6F Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 88,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Channeler Angelica",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Channeler Angelica Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 216,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Channeler Emilia",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Channeler Emilia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Channeler Jennifer",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/6F - Channeler Jennifer Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 296,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 6F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 6F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 304,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 6F South Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 6F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 176,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 7F",
+    "children": [
+      {
+        "name": "Pokémon Tower Mr. Fuji",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - Hidden Item Under Mr. Fuji",
+            "name": "Hidden Item Under Mr. Fuji"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 184,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower 7F South Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - South Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 152,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower 7F Center Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - Center Team Rocket Grunt Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - Team Rocket Grunt Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 216,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower 7F North Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Tower/7F - North Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 7F Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 7F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 176,
+            "y": 268
+          }
+        ]
+      }
+    ]
+  }
+]

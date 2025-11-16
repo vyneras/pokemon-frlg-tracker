@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Green Path",
+    "children": [
+      {
+        "name": "Green Path West Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Green Path/West Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_west",
+            "x": 200,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Psychic Jaclyn",
+        "sections": [
+          {
+            "ref": "Islands/Green Path/Psychic Jaclyn Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Green Path/Psychic Jaclyn Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_west",
+            "x": 184,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush (East)",
+        "sections": [
+          {
+            "name": "Pattern Bush (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_east",
+            "x": 448,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush (West)",
+        "sections": [
+          {
+            "name": "Pattern Bush (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_east",
+            "x": 160,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  }
+]

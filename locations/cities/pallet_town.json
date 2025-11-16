@@ -139,26 +139,6 @@
             "y": 120
           }
         ]
-      },
-      {
-        "name": "Oak",
-        "sections": [
-          {
-            "ref": "Cities/Pallet Town/Oak Gift 1",
-            "name": "First Gift"
-          },
-          {
-            "ref": "Cities/Pallet Town/Oak Gift 2",
-            "name": "Second Gift"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pallet_town",
-            "x": 104,
-            "y": 136
-          }
-        ]
       }
     ]
   },
@@ -260,7 +240,7 @@
         "sections": [
           {
             "ref": "Cities/Pallet Town/Oak's Aide M Info (Right)",
-            "name": "Info "
+            "name": "Info"
           }
         ],
         "map_locations": [

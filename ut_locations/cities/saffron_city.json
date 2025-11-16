@@ -1,0 +1,1255 @@
+[
+  {
+    "name": "Saffron City",
+    "children": [
+      {
+        "name": "Saffron City Visit",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Saffron Battle Girl",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Battle Girl Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 760,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Sign",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Gym Sign Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 808,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co.",
+        "sections": [
+          {
+            "name": "Silph Co."
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 536,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Copycat's House",
+        "sections": [
+          {
+            "name": "Copycat's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 360,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Saffron Dojo",
+        "sections": [
+          {
+            "name": "Saffron Dojo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 648,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym",
+        "sections": [
+          {
+            "name": "Saffron Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 744,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Pidgey House",
+        "sections": [
+          {
+            "name": "Saffron Pidgey House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 440,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Saffron Poke Mart",
+        "sections": [
+          {
+            "name": "Saffron Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 648,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Saffron Pokemon Center",
+        "sections": [
+          {
+            "name": "Saffron Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 392,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Mr. Psychic's House",
+        "sections": [
+          {
+            "name": "Mr. Psychic's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 696,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Route 7 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 7 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 136,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 5 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 560,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 8 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 936,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Route 6 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 6 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 560,
+            "y": 744
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Trainer Fan Club",
+        "sections": [
+          {
+            "name": "Pokemon Trainer Fan Club"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 760,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Copycat's House 1F",
+    "children": [
+      {
+        "name": "Copycat's House 1F Exit",
+        "sections": [
+          {
+            "name": "Copycat's House 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_1f",
+            "x": 72,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Copycat's House 1F Stairs",
+        "sections": [
+          {
+            "name": "Copycat's House 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_1f",
+            "x": 176,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Copycat's House 2F",
+    "children": [
+      {
+        "name": "Copycat's House Desk Hidden Item",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Copycat's House Desk Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_2f",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Copycat's House 2F Stairs",
+        "sections": [
+          {
+            "name": "Copycat's House 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_2f",
+            "x": 160,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Dojo",
+    "children": [
+      {
+        "name": "Black Belt Hideki",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Black Belt Hideki Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 24,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Hitoshi",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Black Belt Hitoshi Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 184,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Mike",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Black Belt Mike Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 24,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Aaron",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Black Belt Aaron Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 184,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Koichi",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Black Belt Koichi Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Saffron Dojo Item",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Dojo Item (Center)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 104,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Saffron Dojo Exit",
+        "sections": [
+          {
+            "name": "Saffron Dojo Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 104,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Gym",
+    "children": [
+      {
+        "name": "Psychic Cameron",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Psychic Cameron Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 392,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Channeler Tasha",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Channeler Tasha Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 72,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Psychic Tyron",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Psychic Tyron Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Psychic Tyron Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 392,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Channeler Stacy",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Channeler Stacy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 72,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Psychic Johan",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Psychic Johan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 392,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Channeler Amanda",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Channeler Amanda Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 232,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Psychic Preston",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Psychic Preston Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Sabrina",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Leader Sabrina Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Sabrina Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Saffron City/Sabrina Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Saffron City/Saffron Gym Prize",
+            "name": "Gym Prize"
+          },
+          {
+            "ref": "Cities/Saffron City/Sabrina TM",
+            "name": "TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Exit",
+        "sections": [
+          {
+            "name": "Saffron Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 232,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym South Warp Tile",
+        "sections": [
+          {
+            "name": "Saffron Gym South Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 296,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southeast Warp Tile (Top Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 328,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southeast Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 328,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southeast Warp Tile (Top Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 456,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southeast Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 456,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southwest Warp Tile (Top Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 8,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southwest Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 8,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southwest Warp Tile (Top Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 136,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southwest Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 136,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym East Warp Tile (Top Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym East Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 328,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym East Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym East Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 328,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym East Warp Tile (Top Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym East Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 456,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym East Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym East Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 456,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym West Warp Tile (Top Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym West Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 8,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym West Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym West Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 8,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym West Warp Tile (Top Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym West Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 136,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym West Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym West Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 136,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northeast Warp Tile (Top Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 328,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northeast Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 328,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northeast Warp Tile (Top Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 456,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northeast Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 456,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym North Warp Tile (Top Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym North Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 200,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym North Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym North Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 200,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym North Warp Tile (Top Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym North Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 264,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym North Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym North Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 264,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northwest Warp Tile (Top Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 8,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northwest Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 8,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northwest Warp Tile (Top Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 136,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northwest Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 136,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Center Warp Tile",
+        "sections": [
+          {
+            "name": "Saffron Gym Center Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 296,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Saffron Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Saffron Pokémon Center Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Pokémon Center Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Saffron Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Saffron Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mr. Psychic's House",
+    "children": [
+      {
+        "name": "Mr. Psychic",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Mr. Psychic Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mr_psychics_house",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mr. Psychic's House Exit",
+        "sections": [
+          {
+            "name": "Mr. Psychic's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mr_psychics_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Trainer Fan Club",
+    "children": [
+      {
+        "name": "Pokémon Trainer Fan Club Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Pokémon Trainer Fan Club Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_trainer_fan_club",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Trainer Fan Club Exit",
+        "sections": [
+          {
+            "name": "Pokemon Trainer Fan Club Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_trainer_fan_club",
+            "x": 88,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Mart",
+    "children": [
+      {
+        "name": "Saffron Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Saffron City/Shop Item 6",
+            "name": "Shop Item 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Saffron Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Saffron Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Pidgey House",
+    "children": [
+      {
+        "name": "Saffron Pidgey House Exit",
+        "sections": [
+          {
+            "name": "Saffron Pidgey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_pidgey_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

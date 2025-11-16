@@ -1,0 +1,1537 @@
+[
+  {
+    "name": "Routes",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "Route 1",
+        "sections": [
+          {
+            "name": "Free Sample"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 44,
+            "y": 96,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 44,
+            "y": 96,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 2",
+        "sections": [
+          {
+            "name": "North Item"
+          },
+          {
+            "name": "South Item"
+          },
+          {
+            "name": "Oak's Aide Gift (Pokédex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 44,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 44,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 3",
+        "sections": [
+          {
+            "name": "Lass Janice Reward"
+          },
+          {
+            "name": "Lass Janice Rematch Reward 1"
+          },
+          {
+            "name": "Lass Janice Rematch Reward 2"
+          },
+          {
+            "name": "Bug Catcher Colton Reward"
+          },
+          {
+            "name": "Bug Catcher Colton Rematch Reward 1"
+          },
+          {
+            "name": "Bug Catcher Colton Rematch Reward 2"
+          },
+          {
+            "name": "Bug Catcher Colton Rematch Reward 3"
+          },
+          {
+            "name": "Youngster Ben Reward"
+          },
+          {
+            "name": "Youngster Ben Rematch Reward 1"
+          },
+          {
+            "name": "Youngster Ben Rematch Reward 2"
+          },
+          {
+            "name": "Youngster Ben Rematch Reward 3"
+          },
+          {
+            "name": "Bug Catcher Greg Reward"
+          },
+          {
+            "name": "Lass Sally Reward"
+          },
+          {
+            "name": "Hidden Item Between Ledges"
+          },
+          {
+            "name": "Youngster Calvin Reward"
+          },
+          {
+            "name": "Bug Catcher James Reward"
+          },
+          {
+            "name": "Lass Robin Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 64,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 64,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 4 West",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Boy Info"
+          },
+          {
+            "name": "Hidden Item Near Pokémon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 76,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 76,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 4 East",
+        "sections": [
+          {
+            "name": "Hidden Item Near Move Tutors"
+          },
+          {
+            "name": "Hidden Item Below South Ledge"
+          },
+          {
+            "name": "East Ledges Item"
+          },
+          {
+            "name": "Lass Crissy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 104,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 104,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 6",
+        "sections": [
+          {
+            "name": "Northwest Hidden Item"
+          },
+          {
+            "name": "Northeast Hidden Item"
+          },
+          {
+            "name": "Bug Catcher Keigo Reward"
+          },
+          {
+            "name": "Camper Ricky Reward"
+          },
+          {
+            "name": "Camper Ricky Rematch Reward 1"
+          },
+          {
+            "name": "Camper Ricky Rematch Reward 2"
+          },
+          {
+            "name": "Camper Ricky Rematch Reward 3"
+          },
+          {
+            "name": "Picnicker Nancy Reward"
+          },
+          {
+            "name": "Bug Catcher Elijah Reward"
+          },
+          {
+            "name": "Picnicker Isabelle Reward"
+          },
+          {
+            "name": "Picnicker Isabelle Rematch Reward 1"
+          },
+          {
+            "name": "Picnicker Isabelle Rematch Reward 2"
+          },
+          {
+            "name": "Picnicker Isabelle Rematch Reward 3"
+          },
+          {
+            "name": "Camper Jeff Reward"
+          },
+          {
+            "name": "Camper Jeff Rematch Reward 1"
+          },
+          {
+            "name": "Camper Jeff Rematch Reward 2"
+          },
+          {
+            "name": "Camper Jeff Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 124,
+            "y": 80,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 124,
+            "y": 80,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 7",
+        "sections": [
+          {
+            "name": "Southeast Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 112,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 112,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 8",
+        "sections": [
+          {
+            "name": "Lass Julia Reward"
+          },
+          {
+            "name": "Gamer Rich Reward"
+          },
+          {
+            "name": "Gamer Rich Rematch Reward"
+          },
+          {
+            "name": "Super Nerd Glenn Reward"
+          },
+          {
+            "name": "Super Nerd Glenn Rematch Reward"
+          },
+          {
+            "name": "Tall Grass Northwest Hidden Item"
+          },
+          {
+            "name": "Tall Grass Northeast Hidden Item"
+          },
+          {
+            "name": "Tall Grass Southeast Hidden Item"
+          },
+          {
+            "name": "Twins Eli & Anne Reward"
+          },
+          {
+            "name": "Twins Eli & Anne Rematch Reward"
+          },
+          {
+            "name": "Lass Paige Reward"
+          },
+          {
+            "name": "Super Nerd Leslie Reward"
+          },
+          {
+            "name": "Lass Andrea Reward"
+          },
+          {
+            "name": "Lass Megan Reward"
+          },
+          {
+            "name": "Lass Megan Rematch Reward 1"
+          },
+          {
+            "name": "Lass Megan Rematch Reward 2"
+          },
+          {
+            "name": "Biker Jaren Reward"
+          },
+          {
+            "name": "Biker Jaren Rematch Reward"
+          },
+          {
+            "name": "Biker Ricardo Reward"
+          },
+          {
+            "name": "Super Nerd Aiden Reward"
+          },
+          {
+            "name": "Gamer Stan Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 140,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 140,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 9",
+        "sections": [
+          {
+            "name": "Picnicker Alicia Reward"
+          },
+          {
+            "name": "Picnicker Alicia Rematch Reward 1"
+          },
+          {
+            "name": "Picnicker Alicia Rematch Reward 2"
+          },
+          {
+            "name": "Picnicker Alicia Rematch Reward 3"
+          },
+          {
+            "name": "Southwest Item"
+          },
+          {
+            "name": "Hiker Jeremy Reward"
+          },
+          {
+            "name": "Hiker Jeremy Rematch Reward"
+          },
+          {
+            "name": "Camper Chris Reward"
+          },
+          {
+            "name": "Camper Chris Rematch Reward 1"
+          },
+          {
+            "name": "Camper Chris Rematch Reward 2"
+          },
+          {
+            "name": "Camper Chris Rematch Reward 3"
+          },
+          {
+            "name": "Bug Catcher Brent Reward"
+          },
+          {
+            "name": "Northwest Ledge Rock Hidden Item"
+          },
+          {
+            "name": "Hiker Alan Reward"
+          },
+          {
+            "name": "Southeast Item"
+          },
+          {
+            "name": "Bug Catcher Conner Reward"
+          },
+          {
+            "name": "Camper Drew Reward"
+          },
+          {
+            "name": "Northeast Ledge Hidden Item (Left)"
+          },
+          {
+            "name": "Hiker Brice Reward"
+          },
+          {
+            "name": "Northeast Ledge Hidden Item (Right)"
+          },
+          {
+            "name": "Picnicker Caitlin Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 140,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 140,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 10 North",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Oak's Aide Gift (Pokédex Progress)"
+          },
+          {
+            "name": "Southeast Hidden Item Near Pokémon Center"
+          },
+          {
+            "name": "Picnicker Heidi Reward"
+          },
+          {
+            "name": "West Hidden Item Near Pokémon Center"
+          },
+          {
+            "name": "Hidden Item Behind Cuttable Tree"
+          },
+          {
+            "name": "PokéManiac Mark Reward"
+          },
+          {
+            "name": "PokéManiac Mark Rematch Reward 1"
+          },
+          {
+            "name": "PokéManiac Mark Rematch Reward 2"
+          },
+          {
+            "name": "Hidden Item Near Power Plant Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 156,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 10 South",
+        "sections": [
+          {
+            "name": "Picnicker Carol Reward"
+          },
+          {
+            "name": "Hiker Clark Reward"
+          },
+          {
+            "name": "Hidden Item Near Rock Tunnel South Entrance"
+          },
+          {
+            "name": "PokéManiac Herman Reward"
+          },
+          {
+            "name": "PokéManiac Herman Rematch Reward 1"
+          },
+          {
+            "name": "PokéManiac Herman Rematch Reward 2"
+          },
+          {
+            "name": "Hiker Trent Reward"
+          },
+          {
+            "name": "Hiker Trent Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 11",
+        "sections": [
+          {
+            "name": "Northwest Item"
+          },
+          {
+            "name": "Youngster Eddie Reward"
+          },
+          {
+            "name": "Gamer Hugo Reward"
+          },
+          {
+            "name": "Engineer Bernie Reward"
+          },
+          {
+            "name": "Engineer Bernie Rematch Reward"
+          },
+          {
+            "name": "Youngster Dave Reward"
+          },
+          {
+            "name": "Youngster Dillon Reward"
+          },
+          {
+            "name": "Engineer Braxton Reward"
+          },
+          {
+            "name": "Tall Grass Item"
+          },
+          {
+            "name": "Gamer Jasper Reward"
+          },
+          {
+            "name": "Youngster Yasu Reward"
+          },
+          {
+            "name": "Youngster Yasu Rematch Reward 1"
+          },
+          {
+            "name": "Youngster Yasu Rematch Reward 2"
+          },
+          {
+            "name": "Gamer Darian Reward"
+          },
+          {
+            "name": "Gamer Darian Rematch Reward"
+          },
+          {
+            "name": "Northeast Rock Hidden Item"
+          },
+          {
+            "name": "Gamer Dirk Reward"
+          },
+          {
+            "name": "Item Behind Trees"
+          },
+          {
+            "name": "Oak's Aide Gift (Pokédex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 140,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 140,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 12 North",
+        "sections": [
+          {
+            "name": "Mourning Lass Gift"
+          },
+          {
+            "name": "Fisherman Ned Reward"
+          },
+          {
+            "name": "North Island Item"
+          },
+          {
+            "name": "Fisherman Chip Reward"
+          },
+          {
+            "name": "Fisherman Hank Reward"
+          },
+          {
+            "name": "Grass Hidden Item"
+          },
+          {
+            "name": "Fisherman Elliot Reward"
+          },
+          {
+            "name": "Fisherman Elliot Rematch Reward"
+          },
+          {
+            "name": "Young Couple Gia & Jes Reward"
+          },
+          {
+            "name": "Young Couple Gia & Jes Rematch Reward 1"
+          },
+          {
+            "name": "Young Couple Gia & Jes Rematch Reward 2"
+          },
+          {
+            "name": "Hidden Item Under Snorlax"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 156,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 12 South",
+        "sections": [
+          {
+            "name": "Fishing Guru Gift"
+          },
+          {
+            "name": "Fishing Guru Gift (Show Magikarp)"
+          },
+          {
+            "name": "Rocker Luca Reward"
+          },
+          {
+            "name": "Rocker Luca Rematch Reward"
+          },
+          {
+            "name": "Camper Justin Reward"
+          },
+          {
+            "name": "Item Behind Cuttable Tree"
+          },
+          {
+            "name": "Fisherman Andrew Reward"
+          },
+          {
+            "name": "Tall Grass Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 100,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 156,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 13",
+        "sections": [
+          {
+            "name": "Picnicker Alma Reward"
+          },
+          {
+            "name": "Bird Keeper Sebastian Reward"
+          },
+          {
+            "name": "Picnicker Susie Reward"
+          },
+          {
+            "name": "Picnicker Susie Rematch Reward 1"
+          },
+          {
+            "name": "Picnicker Susie Rematch Reward 2"
+          },
+          {
+            "name": "Picnicker Susie Rematch Reward 3"
+          },
+          {
+            "name": "Beauty Lola Reward"
+          },
+          {
+            "name": "Beauty Sheila Reward"
+          },
+          {
+            "name": "Beauty Sheila Rematch Reward"
+          },
+          {
+            "name": "Picnicker Valerie Reward"
+          },
+          {
+            "name": "Picnicker Gwen Reward"
+          },
+          {
+            "name": "Maze South Hidden Item"
+          },
+          {
+            "name": "Bird Keeper Robert Reward"
+          },
+          {
+            "name": "Bird Keeper Robert Rematch Reward 1"
+          },
+          {
+            "name": "Bird Keeper Robert Rematch Reward 2"
+          },
+          {
+            "name": "Bird Keeper Perry Reward"
+          },
+          {
+            "name": "Biker Jared Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 144,
+            "y": 108,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 144,
+            "y": 108,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 14",
+        "sections": [
+          {
+            "name": "Bird Keeper Carter Reward"
+          },
+          {
+            "name": "Bird Keeper Mitch Reward"
+          },
+          {
+            "name": "Bird Keeper Marlon Reward"
+          },
+          {
+            "name": "Bird Keeper Marlon Rematch Reward 1"
+          },
+          {
+            "name": "Bird Keeper Marlon Rematch Reward 2"
+          },
+          {
+            "name": "Bird Keeper Beck Reward"
+          },
+          {
+            "name": "Bird Keeper Donald Reward"
+          },
+          {
+            "name": "Bird Keeper Benny Reward"
+          },
+          {
+            "name": "Bird Keeper Benny Rematch Reward 1"
+          },
+          {
+            "name": "Bird Keeper Benny Rematch Reward 2"
+          },
+          {
+            "name": "Southeast Hidden Item"
+          },
+          {
+            "name": "Twins Kiri & Jan Reward"
+          },
+          {
+            "name": "Biker Lukas Reward"
+          },
+          {
+            "name": "Biker Lukas Rematch Reward"
+          },
+          {
+            "name": "Biker Gerald Reward"
+          },
+          {
+            "name": "Biker Malik Reward"
+          },
+          {
+            "name": "Biker Isaac Reward"
+          },
+          {
+            "name": "Hidden Item Behind Cuttable Tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 132,
+            "y": 112,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 132,
+            "y": 112,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 15",
+        "sections": [
+          {
+            "name": "Biker Ernest Reward"
+          },
+          {
+            "name": "Biker Alex Reward"
+          },
+          {
+            "name": "Beauty Grace Reward"
+          },
+          {
+            "name": "Beauty Grace Rematch Reward"
+          },
+          {
+            "name": "Beauty Olivia Reward"
+          },
+          {
+            "name": "Picnicker Kindra Reward"
+          },
+          {
+            "name": "Bird Keeper Chester Reward"
+          },
+          {
+            "name": "Bird Keeper Chester Rematch Reward 1"
+          },
+          {
+            "name": "Bird Keeper Chester Rematch Reward 2"
+          },
+          {
+            "name": "Bird Keeper Edwin Reward"
+          },
+          {
+            "name": "Picnicker Yazmin Reward"
+          },
+          {
+            "name": "Picnicker Becky Reward"
+          },
+          {
+            "name": "Picnicker Becky Rematch Reward 1"
+          },
+          {
+            "name": "Picnicker Becky Rematch Reward 2"
+          },
+          {
+            "name": "Picnicker Becky Rematch Reward 3"
+          },
+          {
+            "name": "Crush Kin Ron & Mya Reward"
+          },
+          {
+            "name": "Crush Kin Ron & Mya Rematch Reward 1"
+          },
+          {
+            "name": "Crush Kin Ron & Mya Rematch Reward 2"
+          },
+          {
+            "name": "Crush Kin Ron & Mya Rematch Reward 3"
+          },
+          {
+            "name": "Picnicker Celia Reward"
+          },
+          {
+            "name": "Northwest Item"
+          },
+          {
+            "name": "Oak's Aide Gift (Pokédex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 120,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 120,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 16",
+        "sections": [
+          {
+            "name": "Young Couple Lea & Jed Reward"
+          },
+          {
+            "name": "Woman Gift"
+          },
+          {
+            "name": "Hidden Item Under Snorlax"
+          },
+          {
+            "name": "Oak's Aide Gift (Pokédex Progress)"
+          },
+          {
+            "name": "Biker Lao Reward"
+          },
+          {
+            "name": "Cue Ball Koji Reward"
+          },
+          {
+            "name": "Cue Ball Luke Reward"
+          },
+          {
+            "name": "Biker Hideo Reward"
+          },
+          {
+            "name": "Biker Ruben Reward"
+          },
+          {
+            "name": "Biker Ruben Rematch Reward"
+          },
+          {
+            "name": "Cue Ball Camron Reward"
+          },
+          {
+            "name": "Cue Ball Camron Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 80,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 80,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 17",
+        "sections": [
+          {
+            "name": "Cue Ball Isaiah Reward"
+          },
+          {
+            "name": "Cue Ball Isaiah Rematch Reward"
+          },
+          {
+            "name": "Biker Virgil Reward"
+          },
+          {
+            "name": "Cue Ball Raul Reward"
+          },
+          {
+            "name": "Biker Billy Reward"
+          },
+          {
+            "name": "Biker Nikolas Reward"
+          },
+          {
+            "name": "Dirt Path Hidden Item"
+          },
+          {
+            "name": "Cue Ball Jamal Reward"
+          },
+          {
+            "name": "Cue Ball Zeek Reward"
+          },
+          {
+            "name": "West Stone Path Hidden Item (Top)"
+          },
+          {
+            "name": "East Stone Path Hidden Item"
+          },
+          {
+            "name": "Cue Ball Corey Reward"
+          },
+          {
+            "name": "Cue Ball Corey Rematch Reward"
+          },
+          {
+            "name": "Biker Jaxon Reward"
+          },
+          {
+            "name": "Biker Jaxon Rematch Reward"
+          },
+          {
+            "name": "West Stone Path Hidden Item (Bottom)"
+          },
+          {
+            "name": "Biker William Reward"
+          },
+          {
+            "name": "Southeast Stone Path Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 68,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 68,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 18",
+        "sections": [
+          {
+            "name": "Bird Keeper Wilton Reward"
+          },
+          {
+            "name": "Bird Keeper Jacob Reward"
+          },
+          {
+            "name": "Bird Keeper Jacob Rematch Reward 1"
+          },
+          {
+            "name": "Bird Keeper Jacob Rematch Reward 2"
+          },
+          {
+            "name": "Bird Keeper Ramiro Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 19",
+        "sections": [
+          {
+            "name": "Swimmer Richard Reward"
+          },
+          {
+            "name": "Swimmer Reece Reward"
+          },
+          {
+            "name": "Swimmer Tony Reward"
+          },
+          {
+            "name": "Swimmer Tony Rematch Reward"
+          },
+          {
+            "name": "Swimmer David Reward"
+          },
+          {
+            "name": "Swimmer Douglas Reward"
+          },
+          {
+            "name": "Swimmer Matthew Reward"
+          },
+          {
+            "name": "Swimmer Matthew Rematch Reward"
+          },
+          {
+            "name": "Sis and Bro Lia & Luc Reward"
+          },
+          {
+            "name": "Swimmer Alice Reward"
+          },
+          {
+            "name": "Swimmer Alice Rematch Reward"
+          },
+          {
+            "name": "Swimmer Connie Reward"
+          },
+          {
+            "name": "Swimmer Axle Reward"
+          },
+          {
+            "name": "Swimmer Anya Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 108,
+            "y": 128,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 108,
+            "y": 128,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 20 West",
+        "sections": [
+          {
+            "name": "Swimmer Melissa Reward"
+          },
+          {
+            "name": "Swimmer Melissa Rematch Reward"
+          },
+          {
+            "name": "Picnicker Missy Reward"
+          },
+          {
+            "name": "Picnicker Missy Rematch Reward 1"
+          },
+          {
+            "name": "Picnicker Missy Rematch Reward 2"
+          },
+          {
+            "name": "Swimmer Dean Reward"
+          },
+          {
+            "name": "Northwest Island Hidden Item"
+          },
+          {
+            "name": "Swimmer Nora Reward"
+          },
+          {
+            "name": "Bird Keeper Roger Reward"
+          },
+          {
+            "name": "Picnicker Irene Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 60,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 60,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 20 East",
+        "sections": [
+          {
+            "name": "Swimmer Barry Reward"
+          },
+          {
+            "name": "Swimmer Darrin Reward"
+          },
+          {
+            "name": "Swimmer Darrin Rematch Reward"
+          },
+          {
+            "name": "Swimmer Shirley Reward"
+          },
+          {
+            "name": "Swimmer Tiffany Reward"
+          },
+          {
+            "name": "Camper Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 92,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 92,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 21",
+        "sections": [
+          {
+            "name": "Fisherman Ronald Reward"
+          },
+          {
+            "name": "Fisherman Wade Reward"
+          },
+          {
+            "name": "Fisherman Wade Rematch Reward"
+          },
+          {
+            "name": "Sis and Bro Lil & Ian Reward"
+          },
+          {
+            "name": "Sis and Bro Lil & Ian Rematch Reward 1"
+          },
+          {
+            "name": "Sis and Bro Lil & Ian Rematch Reward 2"
+          },
+          {
+            "name": "Swimmer Spencer Reward"
+          },
+          {
+            "name": "East Island Hidden Item"
+          },
+          {
+            "name": "Fisherman Claude Reward"
+          },
+          {
+            "name": "Fisherman Nolan Reward"
+          },
+          {
+            "name": "Swimmer Jack Reward"
+          },
+          {
+            "name": "Swimmer Jack Rematch Reward"
+          },
+          {
+            "name": "Swimmer Roland Reward"
+          },
+          {
+            "name": "Swimmer Jerome Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 44,
+            "y": 120,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 44,
+            "y": 120,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 22",
+        "sections": [
+          {
+            "name": "Early Rival Reward"
+          },
+          {
+            "name": "Late Rival Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 32,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 32,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 23",
+        "sections": [
+          {
+            "name": "Hidden Item After Second Checkpoint"
+          },
+          {
+            "name": "Island Hidden Item"
+          },
+          {
+            "name": "Hidden Item Between Statues"
+          },
+          {
+            "name": "Hidden Item Before Sixth Checkpoint"
+          },
+          {
+            "name": "Northeast Rock Hidden Item"
+          },
+          {
+            "name": "Hidden Item Near Victory Road Entrance"
+          },
+          {
+            "name": "Hidden Item After Victory Road"
+          },
+          {
+            "name": "Stone Maze Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 28,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 28,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 24",
+        "sections": [
+          {
+            "name": "Bug Catcher Cale Reward"
+          },
+          {
+            "name": "Lass Ali Reward"
+          },
+          {
+            "name": "Youngster Timmy Reward"
+          },
+          {
+            "name": "Youngster Timmy Rematch Reward 1"
+          },
+          {
+            "name": "Youngster Timmy Rematch Reward 2"
+          },
+          {
+            "name": "Youngster Timmy Rematch Reward 3"
+          },
+          {
+            "name": "Lass Reli Reward"
+          },
+          {
+            "name": "Lass Reli Rematch Reward 1"
+          },
+          {
+            "name": "Lass Reli Rematch Reward 2"
+          },
+          {
+            "name": "Camper Ethan Reward"
+          },
+          {
+            "name": "Team Rocket Grunt Reward"
+          },
+          {
+            "name": "Clear Nugget Bridge"
+          },
+          {
+            "name": "Camper Shane Reward"
+          },
+          {
+            "name": "Northwest Ledge Item"
+          },
+          {
+            "name": "Northeast Ledge Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 124,
+            "y": 32,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 124,
+            "y": 32,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 25",
+        "sections": [
+          {
+            "name": "Hiker Franklin Reward"
+          },
+          {
+            "name": "Hiker Franklin Rematch Reward"
+          },
+          {
+            "name": "Northwest Hidden Item Near Bush"
+          },
+          {
+            "name": "Youngster Joey Reward"
+          },
+          {
+            "name": "Hiker Wayne Reward"
+          },
+          {
+            "name": "Youngster Dan Reward"
+          },
+          {
+            "name": "Picnicker Kelsey Reward"
+          },
+          {
+            "name": "Picnicker Kelsey Rematch Reward 1"
+          },
+          {
+            "name": "Picnicker Kelsey Rematch Reward 2"
+          },
+          {
+            "name": "Picnicker Kelsey Rematch Reward 3"
+          },
+          {
+            "name": "Hiker Nob Reward"
+          },
+          {
+            "name": "Camper Flint Reward"
+          },
+          {
+            "name": "Item Near Bush"
+          },
+          {
+            "name": "Hidden Item Near South Flowers"
+          },
+          {
+            "name": "Youngster Chad Reward"
+          },
+          {
+            "name": "Youngster Chad Rematch Reward 1"
+          },
+          {
+            "name": "Youngster Chad Rematch Reward 2"
+          },
+          {
+            "name": "Youngster Chad Rematch Reward 3"
+          },
+          {
+            "name": "Hidden Item Near North Flowers"
+          },
+          {
+            "name": "Lass Haley Reward"
+          },
+          {
+            "name": "Beauty Info"
+          },
+          {
+            "name": "Man Gift"
+          },
+          {
+            "name": "Hidden Item Past Sea Cottage"
+          },
+          {
+            "name": "Bill Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 136,
+            "y": 28,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 136,
+            "y": 28,
+            "size": 4
+          }
+        ]
+      }
+    ]
+  }
+]

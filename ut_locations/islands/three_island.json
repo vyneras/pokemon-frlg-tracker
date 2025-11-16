@@ -1,0 +1,464 @@
+[
+  {
+    "name": "Three Island Town",
+    "children": [
+      {
+        "name": "Three Island Visit",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Anti-Biker",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Anti-Biker Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 120,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Three Island Item Behind East Fence",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Item Behind East Fence",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 296,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Three Island Hidden Item Behind West Fence",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Hidden Item Behind West Fence",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 88,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Biker Goon 1",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Biker Goon 1 Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 152,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Biker Goon 2",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Biker Goon 2 Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 168,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Biker Goon 3",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Biker Goon 3 Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 152,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Paxton",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Cue Ball Paxton Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 136,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Lostelle's House",
+        "sections": [
+          {
+            "name": "Lostelle's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 56,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Three Island Pokemon Center",
+        "sections": [
+          {
+            "name": "Three Island Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 232,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Three Island Poke Mart",
+        "sections": [
+          {
+            "name": "Three Island Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Sabrina Fan's House",
+        "sections": [
+          {
+            "name": "Sabrina Fan's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Three Island Beauty's House",
+        "sections": [
+          {
+            "name": "Three Island Beauty's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Three Island Worried Father's House",
+        "sections": [
+          {
+            "name": "Three Island Worried Father's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Lostelle's Friend's House",
+        "sections": [
+          {
+            "name": "Lostelle's Friend's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 216,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Three Island Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Three Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Three Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lostelle's House",
+    "children": [
+      {
+        "name": "Lostelle's House Lostelle",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Lostelle Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_house",
+            "x": 56,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Lostelle's House Exit",
+        "sections": [
+          {
+            "name": "Lostelle's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sabrina Fan's House",
+    "children": [
+      {
+        "name": "Sabrina Fan",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Sabrina Fan Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_sabrina_fans_house",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Sabrina Fan's House Exit",
+        "sections": [
+          {
+            "name": "Sabrina Fan's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_sabrina_fans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Mart",
+    "children": [
+      {
+        "name": "Three Island Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Three Island Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Islands/Three Island Town/Shop Item 6",
+            "name": "Shop Item 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Three Island Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Three Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Beauty's House",
+    "children": [
+      {
+        "name": "Three Island Beauty's House Exit",
+        "sections": [
+          {
+            "name": "Three Island Beauty's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_beautys_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Worried Father's House",
+    "children": [
+      {
+        "name": "Three Island Worried Father's House Exit",
+        "sections": [
+          {
+            "name": "Three Island Worried Father's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_worried_fathers_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lostelle's Friend's House",
+    "children": [
+      {
+        "name": "Lostelle's Friend's House Exit",
+        "sections": [
+          {
+            "name": "Lostelle's Friend's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_friends_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

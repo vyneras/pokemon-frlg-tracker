@@ -1,0 +1,697 @@
+[
+  {
+    "name": "Cerulean City",
+    "children": [
+      {
+        "name": "Cerulean City Visit",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Gym Sign",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Gym Sign Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 440,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Hidden Item Behind Badge Guy's House",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Hidden Item Behind Badge Guy's House",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 296,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Rival",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Rival Info",
+            "name": "Info"
+          },
+          {
+            "ref": "Cities/Cerulean City/Rival Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Rival Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 376,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Team Rocket Grunt Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Recover Stolen TM",
+            "name": "Recover Stolen TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 536,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Badge Guy's House (Front)",
+        "sections": [
+          {
+            "name": "Badge Guy's House (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 168,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Robbed House (Front)",
+        "sections": [
+          {
+            "name": "Robbed House (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Trade House",
+        "sections": [
+          {
+            "name": "Cerulean Trade House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 248,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Pokemon Center",
+        "sections": [
+          {
+            "name": "Cerulean Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Gym",
+        "sections": [
+          {
+            "name": "Cerulean Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 504,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Bike Shop",
+        "sections": [
+          {
+            "name": "Bike Shop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 224,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Poke Mart",
+        "sections": [
+          {
+            "name": "Cerulean Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 472,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Wonder News House",
+        "sections": [
+          {
+            "name": "Wonder News House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 376,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Berry Powder Man's House",
+        "sections": [
+          {
+            "name": "Berry Powder Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Badge Guy's House (Back)",
+        "sections": [
+          {
+            "name": "Badge Guy's House (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 168,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Robbed House (Back)",
+        "sections": [
+          {
+            "name": "Robbed House (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 504,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave",
+        "sections": [
+          {
+            "name": "Cerulean Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 24,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Cerulean Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Pokémon Center Youngster",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Youngster Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "x": 72,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Pokémon Center Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Cerulean Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Gym",
+    "children": [
+      {
+        "name": "Cerulean Gym Hidden Item in Water",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Hidden Item in Water",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 104,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Luis",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Swimmer Luis Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Swimmer Luis Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 168,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Diana",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Picnicker Diana Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Gym Misty",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Leader Misty Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Misty Info",
+            "name": "Info"
+          },
+          {
+            "ref": "Cities/Cerulean City/Cerulean Gym Prize",
+            "name": "Gym Prize"
+          },
+          {
+            "ref": "Cities/Cerulean City/Misty TM",
+            "name": "TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 136,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Gym Exit",
+        "sections": [
+          {
+            "name": "Cerulean Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 136,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bike Shop",
+    "children": [
+      {
+        "name": "Bike Shop Owner",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Bicycle Purchase",
+            "name": "Bicycle Purchase"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bike_shop",
+            "x": 152,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Bike Shop Exit",
+        "sections": [
+          {
+            "name": "Bike Shop Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bike_shop",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Berry Powder Man's House",
+    "children": [
+      {
+        "name": "Berry Powder Man",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Berry Powder Man Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "berry_powder_mans_house",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Berry Powder Man's House Exit",
+        "sections": [
+          {
+            "name": "Berry Powder Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "berry_powder_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Mart",
+    "children": [
+      {
+        "name": "Cerulean Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 7",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 8",
+            "name": "Shop Item 8"
+          },
+          {
+            "ref": "Cities/Cerulean City/Shop Item 9",
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Cerulean Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Badge Guy's House",
+    "children": [
+      {
+        "name": "Badge Guy's House Exit (Front)",
+        "sections": [
+          {
+            "name": "Badge Guy's House Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "badge_guys_house",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Badge Guy's House Exit (Back)",
+        "sections": [
+          {
+            "name": "Badge Guy's House Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "badge_guys_house",
+            "x": 56,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Robbed House",
+    "children": [
+      {
+        "name": "Robbed House Exit (Front)",
+        "sections": [
+          {
+            "name": "Robbed House Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "robbed_house",
+            "x": 56,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Robbed House Exit (Back)",
+        "sections": [
+          {
+            "name": "Robbed House Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "robbed_house",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Trade House",
+    "children": [
+      {
+        "name": "Cerulean Trade House Exit",
+        "sections": [
+          {
+            "name": "Cerulean Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_trade_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wonder News House",
+    "children": [
+      {
+        "name": "Wonder News House Exit",
+        "sections": [
+          {
+            "name": "Wonder News House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wonder_news_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Five Isle Meadow",
+    "children": [
+      {
+        "name": "Five Isle Meadow Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/Item Behind Cuttable Tree",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 200,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Five Isle Meadow Southwest Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/Southwest Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 56,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Five Isle Meadow North Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/North Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Five Isle Meadow Center Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/Center Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 296,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Five Isle Meadow South Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Islands/Five Isle Meadow/South Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 184,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse",
+        "sections": [
+          {
+            "name": "Rocket Warehouse"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 200,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  }
+]

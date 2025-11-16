@@ -1,0 +1,564 @@
+[
+  {
+    "name": "Victory Road 1F",
+    "children": [
+      {
+        "name": "Victory Road 1F North Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - North Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 264,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 1F North Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - North Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 232,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 1F North Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - North Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 1F Center Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - Center Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Naomi",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - Cooltrainer Naomi Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 232,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Rolando",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/1F - Cooltrainer Rolando Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 88,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 1F Exit",
+        "sections": [
+          {
+            "name": "Victory Road 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 184,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 1F Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 56,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Victory Road 2F",
+    "children": [
+      {
+        "name": "Victory Road 2F Item Below Plateau",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Item Below Plateau",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 232,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Item Above Plateau",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Item Above Plateau",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 408,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 648,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 280,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Daisuke",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Black Belt Daisuke Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 328,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Juggler Gregory",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Juggler Gregory Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 584,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Juggler Nelson",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Juggler Nelson Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 504,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Tamer Vincent",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - Tamer Vincent Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 424,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "PokéManiac Dawson",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/2F - PokéManiac Dawson Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F West Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 24,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Center Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 552,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 584,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F East Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 616,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Exit",
+        "sections": [
+          {
+            "name": "Victory Road 2F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 776,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Victory Road 3F",
+    "children": [
+      {
+        "name": "Victory Road 3F Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 616,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 200,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Alexa",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Cooltrainer Alexa Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 344,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer George",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Cooltrainer George Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 648,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Caroline",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Cooltrainer Caroline Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Colby",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Cooltrainer Colby Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 168,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Cool Couple Ray & Tyra",
+        "sections": [
+          {
+            "ref": "Dungeons/Victory Road/3F - Cool Couple Ray & Tyra Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 624,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 88,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 3F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 552,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Drop",
+        "sections": [
+          {
+            "name": "Victory Road 3F Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 552,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Southeast Ladder (Top)",
+        "sections": [
+          {
+            "name": "Victory Road 3F Southeast Ladder (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 600,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Southeast Ladder (Bottom)",
+        "sections": [
+          {
+            "name": "Victory Road 3F Southeast Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 632,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  }
+]

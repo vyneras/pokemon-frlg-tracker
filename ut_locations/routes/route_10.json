@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Route 10",
+    "children": [
+      {
+        "name": "Route 10 Southeast Hidden Item Near Pokémon Center",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Southeast Hidden Item Near Pokémon Center",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 280,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Route 10 West Hidden Item Near Pokémon Center",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/West Hidden Item Near Pokémon Center",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 104,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Hidden Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Hidden Item Behind Cuttable Tree",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 168,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Hidden Item Near Power Plant Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Hidden Item Near Power Plant Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 200,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Hidden Item Near Rock Tunnel South Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 South/Hidden Item Near Rock Tunnel South Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 328,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Heidi",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Picnicker Heidi Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 152,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Hiker Clark",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 South/Hiker Clark Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 72,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Hiker Trent",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 South/Hiker Trent Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 10 South/Hiker Trent Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 72,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Carol",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 South/Picnicker Carol Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 120,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "PokéManiac Herman",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 South/PokéManiac Herman Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 10 South/PokéManiac Herman Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 10 South/PokéManiac Herman Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 248,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "PokéManiac Mark",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/PokéManiac Mark Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 10 North/PokéManiac Mark Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 10 North/PokéManiac Mark Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 216,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel (North)",
+        "sections": [
+          {
+            "name": "Rock Tunnel (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 136,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Pokemon Center",
+        "sections": [
+          {
+            "name": "Route 10 Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 216,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Power Plant (Front)",
+        "sections": [
+          {
+            "name": "Power Plant (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 120,
+            "y": 144
+          }
+        ]
+      },
+      {
+        "name": "Power Plant (Back)",
+        "sections": [
+          {
+            "name": "Power Plant (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 40,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel (South)",
+        "sections": [
+          {
+            "name": "Rock Tunnel (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 136,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 10 Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Route 10 Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Pokémon Center Visit",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Pokémon Center Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 10 North/Oak's Aide Gift (Pokédex Progress)",
+            "name": "Gift (Pokédex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 200,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Route 10 Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  }
+]

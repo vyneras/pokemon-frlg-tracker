@@ -77,7 +77,7 @@
         ]
       },
       {
-        "name": "Condominiums (Front)",
+        "name": "Celadon Condominiums (Front)",
         "sections": [
           {
             "ref": "Cities/Celadon City/Tea Woman Gift",
@@ -113,7 +113,7 @@
         ]
       },
       {
-        "name": "Condominiums (Back)",
+        "name": "Celadon Condominiums (Back)",
         "sections": [
           {
             "ref": "Cities/Celadon City/Roof Room Pokémon",
@@ -129,7 +129,7 @@
         ]
       },
       {
-        "name": "Department Store",
+        "name": "Celadon Department Store",
         "sections": [
           {
             "ref": "Cities/Celadon City/TM Shop Items",
@@ -198,7 +198,7 @@
         ]
       },
       {
-        "name": "Restaurant",
+        "name": "Celadon Restaurant",
         "sections": [
           {
             "ref": "Cities/Celadon City/Coin Case Man Gift"
@@ -213,10 +213,11 @@
         ]
       },
       {
-        "name": "Rocket House",
+        "name": "Celadon Rocket House",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Rocket House Item"
+            "ref": "Cities/Celadon City/Rocket House Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
@@ -228,10 +229,11 @@
         ]
       },
       {
-        "name": "Hotel",
+        "name": "Celadon Hotel",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Hotel Item"
+            "ref": "Cities/Celadon City/Hotel Item",
+            "name": "Item"
           }
         ],
         "map_locations": [

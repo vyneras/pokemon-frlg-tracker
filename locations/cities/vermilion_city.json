@@ -102,7 +102,7 @@
         ]
       },
       {
-        "name": "Fishing Guru's House",
+        "name": "Vermilion Fishing House",
         "sections": [
           {
             "ref": "Cities/Vermilion City/Fishing Guru Gift"
@@ -247,7 +247,8 @@
         "name": "Fishing Guru",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/Fishing Guru Gift"
+            "ref": "Cities/Vermilion City/Fishing Guru Gift",
+            "name": "Gift"
           }
         ],
         "map_locations": [

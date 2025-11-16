@@ -1,0 +1,235 @@
+[
+  {
+    "name": "Route 14",
+    "children": [
+      {
+        "name": "Route 14 Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 312,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Route 14 Hidden Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Hidden Item Behind Cuttable Tree",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_north",
+            "x": 152,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Biker Gerald",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Biker Gerald Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Biker Isaac",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Biker Isaac Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Biker Lukas",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Biker Lukas Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 14/Biker Lukas Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Biker Malik",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Biker Malik Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Beck",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Bird Keeper Beck Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_north",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Benny",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Bird Keeper Benny Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 14/Bird Keeper Benny Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 14/Bird Keeper Benny Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 296,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Carter",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Bird Keeper Carter Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_north",
+            "x": 120,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Donald",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Bird Keeper Donald Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 296,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Marlon",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Bird Keeper Marlon Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 14/Bird Keeper Marlon Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 14/Bird Keeper Marlon Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_north",
+            "x": 264,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Mitch",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Bird Keeper Mitch Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_north",
+            "x": 136,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Twins Kiri & Jan",
+        "sections": [
+          {
+            "ref": "Routes/Route 14/Twins Kiri & Jan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_14_south",
+            "x": 208,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  }
+]

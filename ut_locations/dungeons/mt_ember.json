@@ -1,0 +1,678 @@
+[
+  {
+    "name": "Mt. Ember Exterior",
+    "children": [
+      {
+        "name": "Mt. Ember Exterior Hidden Item Near West Cave Entrance",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Hidden Item Near West Cave Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 136,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Exterior East Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - East Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 776,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Exterior Item Near Summit",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Item Near Summit",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 616,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Exterior Northwest Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Northwest Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 296,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Exterior Northwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 216,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Exterior Team Rocket Grunt (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Team Rocket Grunt Reward (Left)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 664,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Exterior Team Rocket Grunt (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Team Rocket Grunt Reward (Right)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 680,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Jocelyn",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Crush Girl Jocelyn Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 360,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Beth",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Pokémon Ranger Beth Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 232,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Logan",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Exterior - Pokémon Ranger Logan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 248,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Exterior Exit",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 464,
+            "y": 792
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 680,
+            "y": 632
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path (Bottom)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 232,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path (Top)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 632,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 472,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Summit Path 1F",
+    "children": [
+      {
+        "name": "Mt. Ember Summit Path 1F Exit (South)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 1F Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_1f",
+            "x": 40,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 1F Exit (North)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 1F Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Summit Path 2F",
+    "children": [
+      {
+        "name": "Mt. Ember Summit Path 2F Exit (South)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 2F Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_2f",
+            "x": 136,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 2F Exit (North)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 2F Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_2f",
+            "x": 632,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Summit Path 3F",
+    "children": [
+      {
+        "name": "Mt. Ember Summit Path 3F Exit (West)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 3F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_3f",
+            "x": 40,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 3F Exit (East)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 3F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_3f",
+            "x": 184,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Summit",
+    "children": [
+      {
+        "name": "Mt. Ember Summit Exit",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit",
+            "x": 152,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path 1F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path 1F Exit",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "x": 360,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path 1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "x": 24,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path 1F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "x": 392,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B1F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B1F South Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B1F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f",
+            "x": 152,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B1F North Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f",
+            "x": 104,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B1F Return",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B1F Return Northeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B1F Return Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f_return",
+            "x": 104,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B1F Return Southwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B1F Return Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f_return",
+            "x": 24,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B2F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B2F West Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B2F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f",
+            "x": 24,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B2F East Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B2F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f",
+            "x": 216,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B2F Return",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B2F Return Northeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B2F Return Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f_return",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B2F Return Southwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B2F Return Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f_return",
+            "x": 24,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B3F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B3F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "x": 24,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B3F Southwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B3F Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "x": 88,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B3F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "x": 312,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B4F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B4F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B4F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b4f",
+            "x": 232,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B4F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B4F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b4f",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B5F",
+    "children": [
+      {
+        "name": "Ruby",
+        "sections": [
+          {
+            "ref": "Dungeons/Mt. Ember/Ruby Path B5F - Ruby",
+            "name": "Gem"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b5f",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B5F Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B5F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b5f",
+            "x": 184,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Route 15",
+    "children": [
+      {
+        "name": "Route 15 Northwest Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 328,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Beauty Grace",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Beauty Grace Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 15/Beauty Grace Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Beauty Olivia",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Beauty Olivia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 232,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Biker Alex",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Biker Alex Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 376,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Biker Ernest",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Biker Ernest Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Chester",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Bird Keeper Chester Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 15/Bird Keeper Chester Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 15/Bird Keeper Chester Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 24,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Edwin",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Bird Keeper Edwin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 504,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Kindra",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Picnicker Kindra Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 136,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Yazmin",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Picnicker Yazmin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 360,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Crush Kin Ron & Mya",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Crush Kin Ron & Mya Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 15/Crush Kin Ron & Mya Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 15/Crush Kin Ron & Mya Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 15/Crush Kin Ron & Mya Rematch Reward 3",
+            "name": "Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 64,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Becky",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Picnicker Becky Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 15/Picnicker Becky Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 15/Picnicker Becky Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 15/Picnicker Becky Rematch Reward 3",
+            "name": "Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 264,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Celia",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Picnicker Celia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 456,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 15 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 264,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 15 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 152,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 15 Gate 1F",
+    "children": [
+      {
+        "name": "Route 15 Gate 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Route 15 Gate 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Route 15 Gate 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 15 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "x": 160,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 15 Gate 2F",
+    "children": [
+      {
+        "name": "Route 15 Gate 2F Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 15/Oak's Aide Gift (Pokédex Progress)",
+            "name": "Gift (Pokédex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_2f",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 15 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  }
+]

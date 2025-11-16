@@ -1,0 +1,2054 @@
+[
+  {
+    "name": "Silph Co. 1F",
+    "children": [
+      {
+        "name": "Silph Co. 1F Exit",
+        "sections": [
+          {
+            "name": "Silph Co. 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_1f",
+            "x": 136,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 1F Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_1f",
+            "x": 512,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 2F",
+    "children": [
+      {
+        "name": "Silph Co. 2F Southwest Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./2F - Southwest Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 184,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Scientist Jerry",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./2F - Scientist Jerry Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 456,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Center Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./2F - Center Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 328,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F East Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./2F - East Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 472,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Scientist Connor",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./2F - Scientist Connor Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 88,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Southeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./2F - Southeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 488,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 2F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F North Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 2F North Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 248,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 2F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 496,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Southeast Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 2F Southeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 536,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Northwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 2F Northwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 40,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Southwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 2F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 120,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 3F",
+    "children": [
+      {
+        "name": "Silph Co. 3F Southeast Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./3F - Southeast Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 552,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./3F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 136,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./3F - Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 408,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Scientist Jose",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./3F - Scientist Jose Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 72,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F East Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./3F - East Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 536,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 448,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Northwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 496,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Southwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 56,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F East Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 3F East Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 472,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Southeast Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Southeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 520,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northeast Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Northeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 536,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Center Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Center Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 216,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F West Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 3F West Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 40,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 4F",
+    "children": [
+      {
+        "name": "Silph Co. 4F Southeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - Southeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 488,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Southeast Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - Southeast Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 568,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F West Room Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - West Room Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 40,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F West Room Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - West Room Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 72,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F West Room Item (Middle)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - West Room Item (Middle)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 56,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Southwest Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - Southwest Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 168,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Southeast Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - Southeast Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 536,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Scientist Rodney",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - Scientist Rodney Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 232,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F North Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./4F - North Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 216,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 4F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 4F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 496,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Southwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 4F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 40,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Center Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 4F Center Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 296,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F North Warp Tile (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 4F North Warp Tile (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 296,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F North Warp Tile (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 4F North Warp Tile (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 200,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 5F",
+    "children": [
+      {
+        "name": "Silph Co. 5F Center Room Northeast Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Center Room Northeast Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 520,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Center Room Southwest Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Center Room Southwest Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 216,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F South Hallway Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - South Hallway Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 360,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Scientist",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Scientist Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 40,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 24,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Juggler Dalton",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Juggler Dalton Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 376,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Scientist Beau",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Scientist Beau Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Southwest Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Southwest Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 152,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Northeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./5F - Northeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 568,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 5F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 448,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F North Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 5F North Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 5F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 496,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F South Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 5F South Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 168,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Northeast Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 5F Northeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 536,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Southwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 5F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 40,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 6F",
+    "children": [
+      {
+        "name": "Silph Co. 6F Northwest Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - Northwest Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 24,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Southwest Room Item (Top)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - Southwest Room Item (Top)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 40,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Southwest Room Item (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - Southwest Room Item (Bottom)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 24,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Scientist Taylor",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - Scientist Taylor Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 152,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F North Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - North Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 344,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F South Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - South Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 296,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Center Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./6F - Center Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 328,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F North Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 6F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 224,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Northeast Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 6F Northeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 472,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 6F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 432,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Northwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 6F Northwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 40,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 7F",
+    "children": [
+      {
+        "name": "Silph Co. 7F Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 8,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F East Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - East Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F East Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - East Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 360,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Scientist Joshua",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - Scientist Joshua Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 56,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - Northeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 392,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F North Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - North Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. Rival",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - Rival Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Dungeons/Silph Co./7F - Rival Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 40,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Southeast Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - Southeast Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 392,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./7F - Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F North Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 7F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 304,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 7F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Southeast Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 7F Southeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 408,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northwest Warp Tile (Bottom)",
+        "sections": [
+          {
+            "name": "Silph Co. 7F Northwest Warp Tile (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northwest Warp Tile (Top)",
+        "sections": [
+          {
+            "name": "Silph Co. 7F Northwest Warp Tile (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 8F",
+    "children": [
+      {
+        "name": "Silph Co. 8F East Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - East Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 392,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F East Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - East Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 472,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Scientist",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - Scientist Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 472,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Scientist Parker",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - Scientist Parker Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 152,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Northeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - Northeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 456,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Southwest Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - Southwest Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 168,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./8F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 40,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F North Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 8F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 256,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Center Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 8F Center Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 184,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F North Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 8F North Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 168,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 8F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 464,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Southwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 8F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 40,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F West Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 8F West Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 40,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 9F",
+    "children": [
+      {
+        "name": "Silph Co. 9F West Room Hidden Item Near Boxes",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./9F - West Room Hidden Item Near Boxes",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 184,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F West Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./9F - West Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Scientist Ed",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./9F - Scientist Ed Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 424,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F South Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./9F - South Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 248,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F Northwest Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./9F - Northwest Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./9F - Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 24,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F North Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 9F North Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 256,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F Southeast Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 9F Southeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 360,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F North Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 9F North Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 304,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F Northwest Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 9F Northwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 152,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 10F",
+    "children": [
+      {
+        "name": "Silph Co. 10F Southwest Room Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Southwest Room Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 40,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F Southwest Room Item (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Southwest Room Item (Bottom)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 56,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F Southwest Room Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Southwest Room Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 88,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F East Room Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - East Room Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Scientist Travis",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Scientist Travis Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 40,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 8,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F Southeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./10F - Southeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F North Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 10F North Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 96,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F East Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 10F East Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 232,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F North Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 10F North Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 144,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F Southeast Warp Tile (Top Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 10F Southeast Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F Southeast Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 10F Southeast Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 232,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 11F",
+    "children": [
+      {
+        "name": "Silph Co. 11F East Hallway Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - East Hallway Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 264,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 11F South Hallway Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - South Hallway Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 168,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. President",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - President Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 11F East Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - East Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 264,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 11F Southwest Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - Southwest Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 40,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. Giovanni",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - Boss Giovanni Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 104,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 11F West Hallway Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Silph Co./11F - West Hallway Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 200,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 11F Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 11F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 112,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 11F Warp Tile",
+        "sections": [
+          {
+            "name": "Silph Co. 11F Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 40,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

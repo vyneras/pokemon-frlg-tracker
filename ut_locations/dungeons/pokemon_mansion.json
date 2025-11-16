@@ -1,0 +1,584 @@
+[
+  {
+    "name": "Pokémon Mansion 1F",
+    "children": [
+      {
+        "name": "Pokémon Mansion 1F West Rubble Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - West Rubble Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 40,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion 1F Item Between North Pillars",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Item Between North Pillars",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 360,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion 1F Item Behind Gate",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Item Behind Gate",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 440,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion 1F Item Near B1F Stairs",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Item Near B1F Stairs",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 472,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Youngster Johnson",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Youngster Johnson Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 136,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Scientist Ted",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/1F - Scientist Ted Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 360,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 136,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 176,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F South Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 400,
+            "y": 444
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 552,
+            "y": 536
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mansion 2F",
+    "children": [
+      {
+        "name": "Pokémon Mansion 2F Item Near East Balcony",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/2F - Item Near East Balcony",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 568,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion 2F West Balcony Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/2F - West Balcony Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 296,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion 2F Northeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/2F - Northeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 584,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Burglar Arnie",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/2F - Burglar Arnie Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 88,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F Northwest Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 2F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 160,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F West Stairs (Left)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 2F West Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 96,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F West Stairs (Right)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 2F West Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 160,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 2F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 560,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mansion 3F",
+    "children": [
+      {
+        "name": "Pokémon Mansion 3F Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 152,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion 3F Northeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - Northeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 520,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion 3F East Hallway Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - East Hallway Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 584,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Burglar Simon",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - Burglar Simon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 120,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Scientist Braydon",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/3F - Scientist Braydon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 360,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Southwest Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 3F Southwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 176,
+            "y": 188
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Northwest Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 3F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 128,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Southeast Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 3F Southeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 544,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Drop (Left)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 3F Drop (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 312,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Drop (Right)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 3F Drop (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 384,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mansion B1F",
+    "children": [
+      {
+        "name": "Pokémon Mansion B1F Southwest Hallway Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Southwest Hallway Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 40,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion B1F Northeast Room Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Northeast Room Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 568,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion B1F North Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - North Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 376,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion B1F Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 88,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion B1F West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 104,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Burglar Lewis",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Burglar Lewis Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 328,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Scientist Ivan",
+        "sections": [
+          {
+            "ref": "Dungeons/Pokémon Mansion/B1F - Scientist Ivan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 552,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion B1F Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion B1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 560,
+            "y": 472
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Birth Island Exterior",
+    "children": [
+      {
+        "name": "Birth Island Harbor",
+        "sections": [
+          {
+            "name": "Birth Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "birth_island",
+            "x": 248,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Birth Island Harbor",
+    "children": [
+      {
+        "name": "Birth Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Birth Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "birth_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "name": "Tanoby Ruins",
+    "children": [
+      {
+        "name": "Tanoby Ruins Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Viapois Chamber Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Viapois Chamber Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Scufib Chamber Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Scufib Chamber Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 536,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Weepth Chamber Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Weepth Chamber Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Monean Chamber Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Monean Chamber Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 456,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Brandon",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Ruin Maniac Brandon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 568,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Gentleman Clifford",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Gentleman Clifford Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Painter Edna",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Painter Edna Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 264,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Benjamin",
+        "sections": [
+          {
+            "ref": "Islands/Tanoby Ruins/Ruin Maniac Benjamin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 392,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Monean Chamber",
+        "sections": [
+          {
+            "name": "Monean Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 376,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Liptoo Chamber",
+        "sections": [
+          {
+            "name": "Liptoo Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 104,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Weepth Chamber",
+        "sections": [
+          {
+            "name": "Weepth Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 312,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Dilford Chamber",
+        "sections": [
+          {
+            "name": "Dilford Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_left",
+            "x": 104,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Scufib Chamber",
+        "sections": [
+          {
+            "name": "Scufib Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 520,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Rixy Chamber",
+        "sections": [
+          {
+            "name": "Rixy Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 200,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Viapois Chamber",
+        "sections": [
+          {
+            "name": "Viapois Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

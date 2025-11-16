@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Three Isle Path",
+    "children": [
+      {
+        "name": "Three Isle Path Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Three Isle Path/Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "x": 344,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Prospector",
+        "sections": [
+          {
+            "ref": "Islands/Three Isle Path/Prospector Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "x": 376,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path Exit (West)",
+        "sections": [
+          {
+            "name": "Three Isle Path Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "x": 56,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path Exit (East)",
+        "sections": [
+          {
+            "name": "Three Isle Path Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "x": 408,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

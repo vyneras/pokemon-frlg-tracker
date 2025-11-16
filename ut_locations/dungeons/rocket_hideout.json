@@ -1,0 +1,641 @@
+[
+  {
+    "name": "Rocket Hideout B1F",
+    "children": [
+      {
+        "name": "Rocket Hideout B1F West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 88,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Southeast Plant Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southeast Plant Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 264,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 24,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Northeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Northeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 392,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Northwest Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Northwest Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Southeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 344,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Southwest Room Team Rocket Grunt (Top)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Team Rocket Grunt Reward (Top)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 168,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Southwest Room Team Rocket Grunt (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B1F - Southwest Room Team Rocket Grunt Reward (Bottom)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 104,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Northwest Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B1F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 192,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B1F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 288,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F South Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B1F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 256,
+            "y": 492
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B2F",
+    "children": [
+      {
+        "name": "Rocket Hideout B2F Maze Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 248,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Maze Northwest Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northwest Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 40,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Maze Northwest Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Northwest Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 88,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Maze Southwest Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Maze Southwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 8,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B2F - Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 328,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Rocket Hideout B2F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 352,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Rocket Hideout B2F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 464,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Southeast Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B2F Southeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 384,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B3F",
+    "children": [
+      {
+        "name": "Rocket Hideout B3F East Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - East Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 312,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B3F Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 24,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B3F Maze Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Maze Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B3F Item Near B4F Stairs",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Item Near B4F Stairs",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 232,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B3F Maze Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Maze Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 40,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B3F Northeast Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B3F - Northeast Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 312,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B3F North Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B3F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 304,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B3F South Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B3F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 240,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B4F",
+    "children": [
+      {
+        "name": "Rocket Hideout B4F West Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - West Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 72,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B4F Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B4F Rocket Grunt's Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Team Rocket Grunt Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 56,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B4F Southwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Southwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 104,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Giovanni Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 328,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Giovanni's Room Hidden Item Between West Plants",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni's Room Hidden Item Between West Plants",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 264,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Giovanni's Room Hidden Item Between East Plants",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni's Room Hidden Item Between East Plants",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 360,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B4F Northwest Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Northwest Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout Giovanni",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Giovanni Info",
+            "name": "Info"
+          },
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Boss Giovanni Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 312,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B4F Door Guard Team Rocket Grunt (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Door Guard Team Rocket Grunt Reward (Left)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 264,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B4F Door Guard Team Rocket Grunt (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Hideout/B4F - Door Guard Team Rocket Grunt Reward (Right)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 312,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B4F Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B4F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 192,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  }
+]

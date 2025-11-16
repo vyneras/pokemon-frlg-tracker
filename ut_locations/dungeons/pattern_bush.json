@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Pattern Bush",
+    "children": [
+      {
+        "name": "Bug Catcher Garret",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Bug Catcher Garret Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 824,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Jonah",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Bug Catcher Jonah Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 200,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Vance",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Bug Catcher Vance Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 600,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Camper Riley",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Camper Riley Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 56,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Lass Dalia",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Lass Dalia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 136,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Lass Joana",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Lass Joana Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 632,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Marcy",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Picnicker Marcy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 312,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Breeder Allison",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Pokémon Breeder Allison Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 168,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Breeder Bethany",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Pokémon Breeder Bethany Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 776,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Layton",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Ruin Maniac Layton Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 488,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Youngster Cordell",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Youngster Cordell Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 840,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Youngster Nash",
+        "sections": [
+          {
+            "ref": "Dungeons/Pattern Bush/Youngster Nash Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 520,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush Exit (East)",
+        "sections": [
+          {
+            "name": "Pattern Bush Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 888,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush Exit (West)",
+        "sections": [
+          {
+            "name": "Pattern Bush Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 72,
+            "y": 424
+          }
+        ]
+      }
+    ]
+  }
+]

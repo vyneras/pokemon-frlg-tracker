@@ -1,0 +1,231 @@
+[
+  {
+    "name": "One Island Town",
+    "children": [
+      {
+        "name": "One Island Visit",
+        "sections": [
+          {
+            "ref": "Islands/One Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "One Island Pokemon Center",
+        "sections": [
+          {
+            "name": "One Island Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 232,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "One Island Old Couple's House",
+        "sections": [
+          {
+            "name": "One Island Old Couple's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 312,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "One Island Lass' House",
+        "sections": [
+          {
+            "name": "One Island Lass' House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "One Island Harbor",
+        "sections": [
+          {
+            "name": "One Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 200,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "One Island Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Islands/One Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "x": 152,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "One Island Pokémon Center Bill",
+        "sections": [
+          {
+            "ref": "Islands/One Island Town/Delivery for Lostelle's Dad",
+            "name": "Delivery for Lostelle's Dad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "x": 232,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Celio",
+        "sections": [
+          {
+            "ref": "Islands/One Island Town/Meet Celio",
+            "name": "Meet"
+          },
+          {
+            "ref": "Islands/One Island Town/Celio Gift (Deliver Ruby)",
+            "name": "Gift (Deliver Ruby)"
+          },
+          {
+            "ref": "Islands/One Island Town/Celio Gift (Deliver Sapphire)",
+            "name": "Gift (Deliver Sapphire)"
+          },
+          {
+            "ref": "Islands/One Island Town/Celio Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Islands/One Island Town/Celio Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Islands/One Island Town/Celio Info 3",
+            "name": "Info 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "x": 248,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "One Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "One Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Old Couple's House",
+    "children": [
+      {
+        "name": "One Island Old Couple's House Exit",
+        "sections": [
+          {
+            "name": "One Island Old Couple's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_old_couples_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Lass' House",
+    "children": [
+      {
+        "name": "One Island Lass' House Exit",
+        "sections": [
+          {
+            "name": "One Island Lass' House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_lass_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Harbor",
+    "children": [
+      {
+        "name": "One Island Harbor Exit",
+        "sections": [
+          {
+            "name": "One Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

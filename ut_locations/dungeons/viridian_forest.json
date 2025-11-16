@@ -1,0 +1,214 @@
+[
+  {
+    "name": "Viridian Forest",
+    "children": [
+      {
+        "name": "Viridian Forest Hidden Item Near South Entrance",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Hidden Item Near South Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 456,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest West Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/West Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest Southeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Southeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 792,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Rick",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Rick Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 760,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Doug",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Doug Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 760,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest Northeast Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Northeast Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 648,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Charlie",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Charlie Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 264,
+            "y": 88
+          }
+
+        ]
+      },
+      {
+        "name": "Bug Catcher Anthony",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Anthony Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 696,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest Center Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Center Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 344,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Sammy",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Bug Catcher Sammy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 120,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest Hidden Item Near North Entrance",
+        "sections": [
+          {
+            "ref": "Dungeons/Viridian Forest/Hidden Item Near North Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 56,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest Exit (South)",
+        "sections": [
+          {
+            "name": "Viridian Forest Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 472,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest Exit (North)",
+        "sections": [
+          {
+            "name": "Viridian Forest Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "name": "Route 23",
+    "children": [
+      {
+        "name": "Route 23 Hidden Item After Second Checkpoint",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item After Second Checkpoint",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_south",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Route 23 Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_bottom",
+            "x": 184,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Route 23 Hidden Item Between Statues",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item Between Statues",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 328,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Route 23 Hidden Item Before Sixth Checkpoint",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item Before Sixth Checkpoint",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 168,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Route 23 Northeast Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Northeast Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 312,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Route 23 Hidden Item Near Victory Road Entrance",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item Near Victory Road Entrance",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 40,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Route 23 Hidden Item After Victory Road",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Hidden Item After Victory Road",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 56,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Route 23 Stone Maze Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 23/Stone Maze Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 152,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Route 22 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 22 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_south",
+            "x": 136,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Victory Road (West)",
+        "sections": [
+          {
+            "name": "Victory Road (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 88,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Victory Road (East)",
+        "sections": [
+          {
+            "name": "Victory Road (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 296,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  }
+]

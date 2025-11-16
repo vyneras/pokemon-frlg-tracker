@@ -1,0 +1,321 @@
+[
+  {
+    "name": "Kindle Road",
+    "children": [
+      {
+        "name": "Kindle Road Plateau Item",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Plateau Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Kindle Road Isolated Beach Item",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Isolated Beach Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 280,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Kindle Road Item Behind Smashable Rock",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Item Behind Smashable Rock",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 248,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Abigail",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Swimmer Abigail Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 280,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Hugh",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Black Belt Hugh Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Kindle Road/Black Belt Hugh Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Islands/Kindle Road/Black Belt Hugh Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 184,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Shea",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Black Belt Shea Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Kindle Road/Black Belt Shea Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Islands/Kindle Road/Black Belt Shea Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 264,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Camper Bryce",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Camper Bryce Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Sharon",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Crush Girl Sharon Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Kindle Road/Crush Girl Sharon Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Islands/Kindle Road/Crush Girl Sharon Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 152,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Tanya",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Crush Girl Tanya Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Kindle Road/Crush Girl Tanya Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Islands/Kindle Road/Crush Girl Tanya Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 296,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Crush Kin Mik & Kia",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Crush Kin Mik & Kia Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Kindle Road/Crush Kin Mik & Kia Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Islands/Kindle Road/Crush Kin Mik & Kia Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 144,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Claire",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Picnicker Claire Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Garrett",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Swimmer Garrett Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 312,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Tommy",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Fisherman Tommy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_north",
+            "x": 248,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Maria",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Swimmer Maria Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 184,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Finn",
+        "sections": [
+          {
+            "ref": "Islands/Kindle Road/Swimmer Finn Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Kindle Road/Swimmer Finn Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 120,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Ember Spa",
+        "sections": [
+          {
+            "name": "Ember Spa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 248,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember",
+        "sections": [
+          {
+            "name": "Mt. Ember"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_north",
+            "x": 192,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

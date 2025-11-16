@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Memorial Pillar",
+    "children": [
+      {
+        "name": "Memorial Pillar Tall Grass North Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Tall Grass North Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Memorial Pillar Tall Grass South Hidden Item (Left)",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Tall Grass South Hidden Item (Left)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Memorial Pillar Tall Grass South Hidden Item (Right)",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Tall Grass South Hidden Item (Right)",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 280,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Memorial Man",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Memorial Man Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 136,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Memorial Pillar South Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/South Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 72,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Memorial Pillar South Beach Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/South Beach Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 136,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Chaz",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Chaz Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Chaz Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 232,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Harold",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Harold Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Harold Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 280,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Milo",
+        "sections": [
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Milo Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Memorial Pillar/Bird Keeper Milo Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

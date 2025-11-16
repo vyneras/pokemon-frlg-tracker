@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Indigo Plateau",
+    "children": [
+      {
+        "name": "Indigo Plateau Visit",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokemon Center",
+        "sections": [
+          {
+            "name": "Indigo Plateau Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Indigo Plateau Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Indigo Plateau Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokémon Center Shop Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Shop Item 7",
+            "name": "Shop Item 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 8,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokémon Center Cooltrainer",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Cooltrainer Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 264,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokémon Center Black Belt",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Black Belt Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Black Belt Info 2",
+            "name": "Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 376,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokémon Center Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 368,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Indigo Plateau Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lorelei's Room",
+    "children": [
+      {
+        "name": "Pokémon League Lorelei",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Lorelei Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Lorelei Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "loreleis_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bruno's Room",
+    "children": [
+      {
+        "name": "Bruno",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Bruno Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Bruno Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Bruno Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Bruno Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "brunos_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Agatha's Room",
+    "children": [
+      {
+        "name": "Agatha",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Agatha Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Agatha Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Agatha Info 3",
+            "name": "Info 3"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Agatha Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Agatha Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "agathas_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lance's Room",
+    "children": [
+      {
+        "name": "Lance",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Lance Info 1",
+            "name": "Info 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Lance Info 2",
+            "name": "Info 2"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lance Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Elite Four Lance Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lances_room",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Champion's Room",
+    "children": [
+      {
+        "name": "Champion",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Champion Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Champion Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "champions_room",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hall of Fame",
+    "children": [
+      {
+        "name": "Hall of Fame Oak",
+        "sections": [
+          {
+            "ref": "Cities/Indigo Plateau/Oak Gift 1",
+            "name": "Gift 1"
+          },
+          {
+            "ref": "Cities/Indigo Plateau/Oak Gift 2",
+            "name": "Gift 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hall_of_fame",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "name": "Route 11",
+    "children": [
+      {
+        "name": "Route 11 Northwest Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Northwest Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 216,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Tall Grass Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Tall Grass Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 88,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Item Behind Trees",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Item Behind Trees",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 424,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Northeast Rock Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Northeast Rock Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 344,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Engineer Bernie",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Engineer Bernie Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 11/Engineer Bernie Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 520,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Engineer Braxton",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Engineer Braxton Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Gamer Darian",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Gamer Darian Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 11/Gamer Darian Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Gamer Dirk",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Gamer Dirk Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 328,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Gamer Hugo",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Gamer Hugo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 264,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Gamer Jasper",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Gamer Jasper Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 24,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Youngster Dave",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Youngster Dave Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 456,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Youngster Dillon",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Youngster Dillon Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 504,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Youngster Eddie",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Youngster Eddie Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 312,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Youngster Yasu",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Youngster Yasu Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 11/Youngster Yasu Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 11/Youngster Yasu Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 216,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave South Entrance",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 104,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 11 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 344,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 11 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 456,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 11 Gate 1F",
+    "children": [
+      {
+        "name": "Route 11 Gate 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Route 11 Gate 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_1f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Gate 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Route 11 Gate 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_1f",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 11 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_1f",
+            "x": 160,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 11 Gate 2F",
+    "children": [
+      {
+        "name": "Route 11 Gate 2F Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 11/Oak's Aide Gift (Pokédex Progress)",
+            "name": "Gift (Pokédex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_2f",
+            "x": 40,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 11 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Diglett's Cave South Entrance",
+    "children": [
+      {
+        "name": "Diglett's Cave South Entrance Exit",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_south_entrance",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave South Entrance Ladder",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_south_entrance",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diglett's Cave North Entrance",
+    "children": [
+      {
+        "name": "Diglett's Cave North Entrance Exit",
+        "sections": [
+          {
+            "name": "Diglett's Cave North Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_north_entrance",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave North Entrance Ladder",
+        "sections": [
+          {
+            "name": "Diglett's Cave North Entrance Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_north_entrance",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diglett's Cave B1F",
+    "children": [
+      {
+        "name": "Diglett's Cave B1F Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Diglett's Cave/B1F - Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_north",
+            "x": 776,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave B1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Diglett's Cave B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_north",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave B1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Diglett's Cave B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_south",
+            "x": 760,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  }
+]

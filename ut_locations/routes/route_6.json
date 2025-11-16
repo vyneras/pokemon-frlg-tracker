@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Route 6",
+    "children": [
+      {
+        "name": "Route 6 Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 6 Northeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Northeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 312,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Elijah",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Bug Catcher Elijah Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 328,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Keigo",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Bug Catcher Keigo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 56,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Camper Jeff",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Camper Jeff Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 6/Camper Jeff Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 6/Camper Jeff Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 6/Camper Jeff Rematch Reward 3",
+            "name": "Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Camper Ricky",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Camper Ricky Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 6/Camper Ricky Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 6/Camper Ricky Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 6/Camper Ricky Rematch Reward 3",
+            "name": "Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 200,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Isabelle",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Picnicker Isabelle Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 6/Picnicker Isabelle Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 6/Picnicker Isabelle Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 6/Picnicker Isabelle Rematch Reward 3",
+            "name": "Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Nancy",
+        "sections": [
+          {
+            "ref": "Routes/Route 6/Picnicker Nancy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Route 6 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 6 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 208,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Underground Path South Entrance",
+        "sections": [
+          {
+            "name": "Underground Path South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 312,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 6 Gate",
+    "children": [
+      {
+        "name": "Route 6 Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Route 6 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6_gate",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Route 6 Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Route 6 Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6_gate",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  }
+]

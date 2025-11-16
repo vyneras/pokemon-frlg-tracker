@@ -1,0 +1,3937 @@
+[
+  {
+    "name": "Entrances",
+    "children": [
+      {
+        "name": "Pallet Town",
+        "sections": [
+          {
+            "name": "Rival's House"
+          },
+          {
+            "name": "Professor Oak's Lab"
+          },
+          {
+            "name": "Rival's House Exit"
+          },
+          {
+            "name": "Professor Oak's Lab Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 108
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Viridian City",
+        "sections": [
+          {
+            "name": "Viridian Pokemon Center"
+          },
+          {
+            "name": "Viridian Nickname House"
+          },
+          {
+            "name": "Viridian School"
+          },
+          {
+            "name": "Viridian Poke Mart"
+          },
+          {
+            "name": "Viridian Gym"
+          },
+          {
+            "name": "Viridian Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Viridian Nickname House Exit"
+          },
+          {
+            "name": "Viridian School Exit"
+          },
+          {
+            "name": "Viridian Poke Mart Exit"
+          },
+          {
+            "name": "Viridian Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 84
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Pewter City",
+        "sections": [
+          {
+            "name": "Pewter Museum (West)"
+          },
+          {
+            "name": "Pewter Gym"
+          },
+          {
+            "name": "Pewter Poke Mart"
+          },
+          {
+            "name": "Pewter Nidoran House"
+          },
+          {
+            "name": "Pewter Pokemon Center"
+          },
+          {
+            "name": "Pewter Info House"
+          },
+          {
+            "name": "Pewter Museum (East)"
+          },
+          {
+            "name": "Pewter Museum 1F Exit (West)"
+          },
+          {
+            "name": "Pewter Museum 1F Stairs"
+          },
+          {
+            "name": "Pewter Museum 1F Exit (East)"
+          },
+          {
+            "name": "Pewter Museum 2F Stairs"
+          },
+          {
+            "name": "Pewter Gym Exit"
+          },
+          {
+            "name": "Pewter Poke Mart Exit"
+          },
+          {
+            "name": "Pewter Nidoran House Exit"
+          },
+          {
+            "name": "Pewter Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Pewter Info House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 52
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Cerulean City",
+        "sections": [
+          {
+            "name": "Badge Guy's House (Front)"
+          },
+          {
+            "name": "Robbed House (Front)"
+          },
+          {
+            "name": "Cerulean Trade House"
+          },
+          {
+            "name": "Cerulean Pokemon Center"
+          },
+          {
+            "name": "Cerulean Gym"
+          },
+          {
+            "name": "Bike Shop"
+          },
+          {
+            "name": "Cerulean Poke Mart"
+          },
+          {
+            "name": "Wonder News House"
+          },
+          {
+            "name": "Berry Powder Man's House"
+          },
+          {
+            "name": "Badge Guy's House (Back)"
+          },
+          {
+            "name": "Robbed House (Back)"
+          },
+          {
+            "name": "Cerulean Cave"
+          },
+          {
+            "name": "Badge Guy's House Exit (Front)"
+          },
+          {
+            "name": "Badge Guy's House Exit (Back)"
+          },
+          {
+            "name": "Robbed House Exit (Front)"
+          },
+          {
+            "name": "Cerulean Trade House Exit"
+          },
+          {
+            "name": "Cerulean Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Cerulean Gym Exit"
+          },
+          {
+            "name": "Bike Shop Exit"
+          },
+          {
+            "name": "Cerulean Poke Mart Exit"
+          },
+          {
+            "name": "Wonder News House Exit"
+          },
+          {
+            "name": "Berry Powder Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 44
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Vermilion City",
+        "sections": [
+          {
+            "name": "Vermilion Fishing House"
+          },
+          {
+            "name": "Vermilion Pokemon Center"
+          },
+          {
+            "name": "Pokemon Fan Club"
+          },
+          {
+            "name": "Vermilion Trade House"
+          },
+          {
+            "name": "Vermilion Poke Mart"
+          },
+          {
+            "name": "Vermilion Pidgey House"
+          },
+          {
+            "name": "Vermilion Gym"
+          },
+          {
+            "name": "Vermilion Harbor"
+          },
+          {
+            "name": "Vermilion Fishing House Exit"
+          },
+          {
+            "name": "Vermilion Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Pokemon Fan Club Exit"
+          },
+          {
+            "name": "Vermilion Trade House Exit"
+          },
+          {
+            "name": "Vermilion Poke Mart Exit"
+          },
+          {
+            "name": "Vermilion Pidgey House Exit"
+          },
+          {
+            "name": "Vermilion Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 92
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 92
+          }
+        ]
+      },
+      {
+        "name": "Lavender Town",
+        "sections": [
+          {
+            "name": "Pokemon Tower"
+          },
+          {
+            "name": "Lavender Pokemon Center"
+          },
+          {
+            "name": "Volunteer Pokemon House"
+          },
+          {
+            "name": "Lavender Cubone House"
+          },
+          {
+            "name": "Name Rater's House"
+          },
+          {
+            "name": "Lavender Poke Mart"
+          },
+          {
+            "name": "Lavender Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Volunteer Pokemon House Exit"
+          },
+          {
+            "name": "Lavender Cubone House Exit"
+          },
+          {
+            "name": "Name Rater's House Exit"
+          },
+          {
+            "name": "Lavender Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 68
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Celadon City",
+        "sections": [
+          {
+            "name": "Celadon Game Corner"
+          },
+          {
+            "name": "Celadon Department Store (West)"
+          },
+          {
+            "name": "Celadon Department Store (East)"
+          },
+          {
+            "name": "Celadon Condominiums (Front)"
+          },
+          {
+            "name": "Celadon Pokemon Center"
+          },
+          {
+            "name": "Celadon Game Corner Prize Room"
+          },
+          {
+            "name": "Celadon Restaurant"
+          },
+          {
+            "name": "Celadon Rocket House"
+          },
+          {
+            "name": "Celadon Hotel"
+          },
+          {
+            "name": "Celadon Condominiums (Back)"
+          },
+          {
+            "name": "Celadon Gym"
+          },
+          {
+            "name": "Celadon Game Corner Exit"
+          },
+          {
+            "name": "Rocket Hideout"
+          },
+          {
+            "name": "Celadon Department Store 1F Exit (West)"
+          },
+          {
+            "name": "Celadon Department Store 1F Exit (East)"
+          },
+          {
+            "name": "Celadon Department Store 1F Stairs"
+          },
+          {
+            "name": "Celadon Department Store 2F West Stairs"
+          },
+          {
+            "name": "Celadon Department Store 2F East Stairs"
+          },
+          {
+            "name": "Celadon Department Store 3F East Stairs"
+          },
+          {
+            "name": "Celadon Department Store 3F West Stairs"
+          },
+          {
+            "name": "Celadon Department Store 4F West Stairs"
+          },
+          {
+            "name": "Celadon Department Store 4F East Stairs"
+          },
+          {
+            "name": "Celadon Department Store 5F East Stairs"
+          },
+          {
+            "name": "Celadon Department Store 5F West Stairs"
+          },
+          {
+            "name": "Celadon Department Store Roof Exit"
+          },
+          {
+            "name": "Celadon Condominiums 1F Exit (Front)"
+          },
+          {
+            "name": "Celadon Condominiums 1F Northeast Stairs"
+          },
+          {
+            "name": "Celadon Condominiums 1F Northwest Stairs"
+          },
+          {
+            "name": "Celadon Condominiums 1F Exit (Back)"
+          },
+          {
+            "name": "Celadon Condominiums 2F Northeast Stairs (Left)"
+          },
+          {
+            "name": "Celadon Condominiums 2F Northeast Stairs (Right)"
+          },
+          {
+            "name": "Celadon Condominiums 2F Northwest Stairs (Right)"
+          },
+          {
+            "name": "Celadon Condominiums 2F Northwest Stairs (Left)"
+          },
+          {
+            "name": "Celadon Condominiums 3F Northeast Stairs (Right)"
+          },
+          {
+            "name": "Celadon Condominiums 3F Northeast Stairs (Left)"
+          },
+          {
+            "name": "Celadon Condominiums 3F Northwest Stairs (Left)"
+          },
+          {
+            "name": "Celadon Condominiums 3F Northwest Stairs (Right)"
+          },
+          {
+            "name": "Celadon Condominiums Roof Northeast Stairs"
+          },
+          {
+            "name": "Celadon Condominiums Roof Northwest Stairs"
+          },
+          {
+            "name": "Celadon Condominiums Roof Room"
+          },
+          {
+            "name": "Celadon Condominiums Roof Room Exit"
+          },
+          {
+            "name": "Celadon Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Celadon Game Corner Prize Room Exit"
+          },
+          {
+            "name": "Celadon Gym Exit"
+          },
+          {
+            "name": "Celadon Restaurant Exit"
+          },
+          {
+            "name": "Celadon Rocket House Exit"
+          },
+          {
+            "name": "Celadon Hotel Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 100,
+            "y": 68
+          },
+          {
+            "map": "kanto_er",
+            "x": 100,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia City",
+        "sections": [
+          {
+            "name": "Safari Zone Entrance"
+          },
+          {
+            "name": "Safari Zone Warden's House"
+          },
+          {
+            "name": "Fuchsia Poke Mart"
+          },
+          {
+            "name": "Safari Zone Office"
+          },
+          {
+            "name": "Fuchsia Gym"
+          },
+          {
+            "name": "Bill's Grandpa's House"
+          },
+          {
+            "name": "Fuchsia Pokemon Center"
+          },
+          {
+            "name": "Fuchsia Fishing House (Front)"
+          },
+          {
+            "name": "Move Deleter's House"
+          },
+          {
+            "name": "Fuchsia Fishing House (Back)"
+          },
+          {
+            "name": "Safari Zone Warden's House Exit"
+          },
+          {
+            "name": "Fuchsia Poke Mart Exit"
+          },
+          {
+            "name": "Safari Zone Office Exit"
+          },
+          {
+            "name": "Fuchsia Gym Exit"
+          },
+          {
+            "name": "Bill's Grandpa's House Exit"
+          },
+          {
+            "name": "Fuchsia Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Fuchsia Fishing House Exit (Front)"
+          },
+          {
+            "name": "Fuchsia Fishing House Exit (Back)"
+          },
+          {
+            "name": "Move Deleter's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 108,
+            "y": 116
+          },
+          {
+            "map": "kanto_er",
+            "x": 108,
+            "y": 116
+          }
+        ]
+      },
+      {
+        "name": "Saffron City",
+        "sections": [
+          {
+            "name": "Silph Co."
+          },
+          {
+            "name": "Copycat's House"
+          },
+          {
+            "name": "Saffron Dojo"
+          },
+          {
+            "name": "Saffron Gym"
+          },
+          {
+            "name": "Saffron Pidgey House"
+          },
+          {
+            "name": "Saffron Poke Mart"
+          },
+          {
+            "name": "Saffron Pokemon Center"
+          },
+          {
+            "name": "Mr. Psychic's House"
+          },
+          {
+            "name": "Route 7 Gate (East)"
+          },
+          {
+            "name": "Route 5 Gate (South)"
+          },
+          {
+            "name": "Route 8 Gate (West)"
+          },
+          {
+            "name": "Route 6 Gate (North)"
+          },
+          {
+            "name": "Pokemon Trainer Fan Club"
+          },
+          {
+            "name": "Copycat's House 1F Exit"
+          },
+          {
+            "name": "Copycat's House 1F Stairs"
+          },
+          {
+            "name": "Copycat's House 2F Stairs"
+          },
+          {
+            "name": "Saffron Dojo Exit"
+          },
+          {
+            "name": "Saffron Gym Exit"
+          },
+          {
+            "name": "Saffron Gym South Warp Tile"
+          },
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Top Left)"
+          },
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Bottom Left)"
+          },
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Top Right)"
+          },
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Bottom Right)"
+          },
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Top Left)"
+          },
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Bottom Left)"
+          },
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Top Right)"
+          },
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Bottom Right)"
+          },
+          {
+            "name": "Saffron Gym East Warp Tile (Top Left)"
+          },
+          {
+            "name": "Saffron Gym East Warp Tile (Bottom Left)"
+          },
+          {
+            "name": "Saffron Gym East Warp Tile (Top Right)"
+          },
+          {
+            "name": "Saffron Gym East Warp Tile (Bottom Right)"
+          },
+          {
+            "name": "Saffron Gym West Warp Tile (Top Left)"
+          },
+          {
+            "name": "Saffron Gym West Warp Tile (Bottom Left)"
+          },
+          {
+            "name": "Saffron Gym West Warp Tile (Top Right)"
+          },
+          {
+            "name": "Saffron Gym West Warp Tile (Bottom Right)"
+          },
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Top Left)"
+          },
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Bottom Left)"
+          },
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Top Right)"
+          },
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Bottom Right)"
+          },
+          {
+            "name": "Saffron Gym North Warp Tile (Top Left)"
+          },
+          {
+            "name": "Saffron Gym North Warp Tile (Bottom Left)"
+          },
+          {
+            "name": "Saffron Gym North Warp Tile (Top Right)"
+          },
+          {
+            "name": "Saffron Gym North Warp Tile (Bottom Right)"
+          },
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Top Left)"
+          },
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Bottom Left)"
+          },
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Top Right)"
+          },
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Bottom Right)"
+          },
+          {
+            "name": "Saffron Gym Center Warp Tile"
+          },
+          {
+            "name": "Saffron Pidgey House Exit"
+          },
+          {
+            "name": "Saffron Poke Mart Exit"
+          },
+          {
+            "name": "Saffron Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Mr. Psychic's House Exit"
+          },
+          {
+            "name": "Pokemon Trainer Fan Club Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 68
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Cinnabar Island",
+        "sections": [
+          {
+            "name": "Pokemon Mansion"
+          },
+          {
+            "name": "Cinnabar Gym"
+          },
+          {
+            "name": "Pokemon Lab"
+          },
+          {
+            "name": "Cinnabar Pokemon Center"
+          },
+          {
+            "name": "Cinnabar Poke Mart"
+          },
+          {
+            "name": "Cinnabar Gym Exit"
+          },
+          {
+            "name": "Pokemon Lab Exit"
+          },
+          {
+            "name": "Pokemon Lab Lounge"
+          },
+          {
+            "name": "Pokemon Lab Research Room"
+          },
+          {
+            "name": "Pokemon Lab Experiment Room"
+          },
+          {
+            "name": "Pokemon Lab Lounge Exit"
+          },
+          {
+            "name": "Pokemon Lab Research Room Exit"
+          },
+          {
+            "name": "Pokemon Lab Experiment Room Exit"
+          },
+          {
+            "name": "Cinnabar Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Cinnabar Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 132
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau",
+        "sections": [
+          {
+            "name": "Indigo Plateau Pokemon Center"
+          },
+          {
+            "name": "Indigo Plateau Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 44
+          },
+          {
+            "map": "kanto_er",
+            "x": 28,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest",
+        "sections": [
+          {
+            "name": "Viridian Forest Exit (South)"
+          },
+          {
+            "name": "Viridian Forest Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon",
+        "sections": [
+          {
+            "name": "Mt. Moon 1F Northwest Ladder"
+          },
+          {
+            "name": "Mt. Moon 1F Center Ladder (Left)"
+          },
+          {
+            "name": "Mt. Moon 1F Center Ladder (Right)"
+          },
+          {
+            "name": "Mt. Moon 1F Exit"
+          },
+          {
+            "name": "Mt. Moon B1F (First Tunnel) Northeast Ladder"
+          },
+          {
+            "name": "Mt. Moon B1F (First Tunnel) Southwest Ladder"
+          },
+          {
+            "name": "Mt. Moon B1F (Second Tunnel) East Ladder"
+          },
+          {
+            "name": "Mt. Moon B1F (Second Tunnel) West Ladder"
+          },
+          {
+            "name": "Mt. Moon B1F (Third Tunnel) Northwest Ladder"
+          },
+          {
+            "name": "Mt. Moon B1F (Third Tunnel) Southeast Ladder"
+          },
+          {
+            "name": "Mt. Moon B1F (Fourth Tunnel) West Ladder"
+          },
+          {
+            "name": "Mt. Moon B1F (Fourth Tunnel) East Ladder"
+          },
+          {
+            "name": "Mt. Moon B2F South Ladder"
+          },
+          {
+            "name": "Mt. Moon B2F Northeast Ladder"
+          },
+          {
+            "name": "Mt. Moon B2F Center Ladder"
+          },
+          {
+            "name": "Mt. Moon B2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 84,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 84,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Underground Path North-South Tunnel",
+        "sections": [
+          {
+            "name": "Underground Path North Entrance Exit"
+          },
+          {
+            "name": "Underground Path North Entrance Stairs"
+          },
+          {
+            "name": "Underground Path North-South Tunnel North Stairs"
+          },
+          {
+            "name": "Underground Path North-South Tunnel South Stairs"
+          },
+          {
+            "name": "Underground Path South Entrance Exit"
+          },
+          {
+            "name": "Underground Path South Entrance Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 132,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 132,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne",
+        "sections": [
+          {
+            "name": "S.S. Anne Exterior Exit"
+          },
+          {
+            "name": "S.S. Anne"
+          },
+          {
+            "name": "S.S. Anne 1F Corridor Northwest Stairs"
+          },
+          {
+            "name": "S.S. Anne Kitchen"
+          },
+          {
+            "name": "S.S. Anne Exit"
+          },
+          {
+            "name": "S.S. Anne 1F Corridor Southeast Stairs"
+          },
+          {
+            "name": "S.S. Anne 1F Room 1"
+          },
+          {
+            "name": "S.S. Anne 1F Room 2"
+          },
+          {
+            "name": "S.S. Anne 1F Room 3"
+          },
+          {
+            "name": "S.S. Anne 1F Room 4"
+          },
+          {
+            "name": "S.S. Anne 1F Room 5"
+          },
+          {
+            "name": "S.S. Anne 1F Room 6"
+          },
+          {
+            "name": "S.S. Anne 1F Room 7"
+          },
+          {
+            "name": "S.S. Anne Kitchen Exit"
+          },
+          {
+            "name": "S.S. Anne 1F Room 1 Exit"
+          },
+          {
+            "name": "S.S. Anne 1F Room 2 Exit"
+          },
+          {
+            "name": "S.S. Anne 1F Room 3 Exit"
+          },
+          {
+            "name": "S.S. Anne 1F Room 4 Exit"
+          },
+          {
+            "name": "S.S. Anne 1F Room 5 Exit"
+          },
+          {
+            "name": "S.S. Anne 1F Room 6 Exit"
+          },
+          {
+            "name": "S.S. Anne 1F Room 7 Exit"
+          },
+          {
+            "name": "S.S. Anne B1F Corridor Stairs"
+          },
+          {
+            "name": "S.S. Anne B1F Room 1"
+          },
+          {
+            "name": "S.S. Anne B1F Room 2"
+          },
+          {
+            "name": "S.S. Anne B1F Room 3"
+          },
+          {
+            "name": "S.S. Anne B1F Room 4"
+          },
+          {
+            "name": "S.S. Anne B1F Room 5"
+          },
+          {
+            "name": "S.S. Anne B1F Room 1 Exit"
+          },
+          {
+            "name": "S.S. Anne B1F Room 2 Exit"
+          },
+          {
+            "name": "S.S. Anne B1F Room 3 Exit"
+          },
+          {
+            "name": "S.S. Anne B1F Room 4 Exit"
+          },
+          {
+            "name": "S.S. Anne B1F Room 5 Exit"
+          },
+          {
+            "name": "S.S. Anne 2F Corridor Northwest Stairs"
+          },
+          {
+            "name": "S.S. Anne 2F Corridor Southwest Stairs"
+          },
+          {
+            "name": "S.S. Anne 2F Corridor Northeast Stairs"
+          },
+          {
+            "name": "S.S. Anne 2F Room 1"
+          },
+          {
+            "name": "S.S. Anne 2F Room 2"
+          },
+          {
+            "name": "S.S. Anne 2F Room 3"
+          },
+          {
+            "name": "S.S. Anne 2F Room 4"
+          },
+          {
+            "name": "S.S. Anne 2F Room 5"
+          },
+          {
+            "name": "S.S. Anne 2F Room 6"
+          },
+          {
+            "name": "S.S. Anne 2F Room 1 Exit"
+          },
+          {
+            "name": "S.S. Anne 2F Room 2 Exit"
+          },
+          {
+            "name": "S.S. Anne 2F Room 3 Exit"
+          },
+          {
+            "name": "S.S. Anne 2F Room 4 Exit"
+          },
+          {
+            "name": "S.S. Anne 2F Room 5 Exit"
+          },
+          {
+            "name": "S.S. Anne 2F Room 6 Exit"
+          },
+          {
+            "name": "S.S. Anne 3F Corridor Exit"
+          },
+          {
+            "name": "S.S. Anne 3F Corridor Stairs"
+          },
+          {
+            "name": "S.S. Anne Deck Exit"
+          },
+          {
+            "name": "S.S. Anne Captain's Office Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 116,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 116,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance Exit"
+          },
+          {
+            "name": "Diglett's Cave South Entrance Ladder"
+          },
+          {
+            "name": "Diglett's Cave B1F Northwest Ladder"
+          },
+          {
+            "name": "Diglett's Cave B1F Southeast Ladder"
+          },
+          {
+            "name": "Diglett's Cave North Entrance Ladder"
+          },
+          {
+            "name": "Diglett's Cave North Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 132,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 132,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel",
+        "sections": [
+          {
+            "name": "Rock Tunnel 1F North Ladder"
+          },
+          {
+            "name": "Rock Tunnel 1F Northeast Ladder"
+          },
+          {
+            "name": "Rock Tunnel 1F Northwest Ladder"
+          },
+          {
+            "name": "Rock Tunnel 1F Center Ladder"
+          },
+          {
+            "name": "Rock Tunnel 1F East Ladder"
+          },
+          {
+            "name": "Rock Tunnel 1F Exit"
+          },
+          {
+            "name": "Rock Tunnel B1F Southeast Ladder"
+          },
+          {
+            "name": "Rock Tunnel B1F Northeast Ladder"
+          },
+          {
+            "name": "Rock Tunnel B1F Center Ladder"
+          },
+          {
+            "name": "Rock Tunnel B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Power Plant",
+        "sections": [
+          {
+            "name": "Power Plant Exit (Front)"
+          },
+          {
+            "name": "Power Plant Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 164,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 164,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower",
+        "sections": [
+          {
+            "name": "Pokemon Tower 1F Exit"
+          },
+          {
+            "name": "Pokemon Tower 1F Stairs"
+          },
+          {
+            "name": "Pokemon Tower 2F West Stairs"
+          },
+          {
+            "name": "Pokemon Tower 2F East Stairs"
+          },
+          {
+            "name": "Pokemon Tower 3F West Stairs"
+          },
+          {
+            "name": "Pokemon Tower 3F East Stairs"
+          },
+          {
+            "name": "Pokemon Tower 4F West Stairs"
+          },
+          {
+            "name": "Pokemon Tower 4F East Stairs"
+          },
+          {
+            "name": "Pokemon Tower 5F West Stairs"
+          },
+          {
+            "name": "Pokemon Tower 5F East Stairs"
+          },
+          {
+            "name": "Pokemon Tower 6F East Stairs"
+          },
+          {
+            "name": "Pokemon Tower 6F South Stairs"
+          },
+          {
+            "name": "Pokemon Tower 7F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 164,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 164,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Underground Path East-West Tunnel",
+        "sections": [
+          {
+            "name": "Underground Path East Entrance Exit"
+          },
+          {
+            "name": "Underground Path East Entrance Stairs"
+          },
+          {
+            "name": "Underground Path East-West Tunnel East Stairs"
+          },
+          {
+            "name": "Underground Path East-West Tunnel West Stairs"
+          },
+          {
+            "name": "Underground Path West Entrance Exit"
+          },
+          {
+            "name": "Underground Path West Entrance Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 132,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 132,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout",
+        "sections": [
+          {
+            "name": "Rocket Hideout B1F Northwest Stairs"
+          },
+          {
+            "name": "Rocket Hideout B1F Northeast Stairs"
+          },
+          {
+            "name": "Rocket Hideout B1F South Stairs"
+          },
+          {
+            "name": "Rocket Hideout B2F Northeast Stairs (Left)"
+          },
+          {
+            "name": "Rocket Hideout B2F Northeast Stairs (Right)"
+          },
+          {
+            "name": "Rocket Hideout B2F Southeast Stairs"
+          },
+          {
+            "name": "Rocket Hideout B3F North Stairs"
+          },
+          {
+            "name": "Rocket Hideout B3F South Stairs"
+          },
+          {
+            "name": "Rocket Hideout B4F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 100,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 100,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone",
+        "sections": [
+          {
+            "name": "Safari Zone Entrance Exit"
+          },
+          {
+            "name": "Safari Zone Center Area Rest House"
+          },
+          {
+            "name": "Safari Zone Center Area Exit (East)"
+          },
+          {
+            "name": "Safari Zone Center Area Exit (North)"
+          },
+          {
+            "name": "Safari Zone Center Area Exit (West)"
+          },
+          {
+            "name": "Safari Zone East Area Exit (Northwest)"
+          },
+          {
+            "name": "Safari Zone East Area Exit (Southwest)"
+          },
+          {
+            "name": "Safari Zone East Area Rest House"
+          },
+          {
+            "name": "Safari Zone North Area Exit (Southwest)"
+          },
+          {
+            "name": "Safari Zone North Area Exit (South)"
+          },
+          {
+            "name": "Safari Zone North Area Exit (East)"
+          },
+          {
+            "name": "Safari Zone North Area Exit (Southeast)"
+          },
+          {
+            "name": "Safari Zone North Area Rest House"
+          },
+          {
+            "name": "Safari Zone West Area Exit (Northeast)"
+          },
+          {
+            "name": "Safari Zone West Area Exit (East)"
+          },
+          {
+            "name": "Safari Zone West Area Rest House"
+          },
+          {
+            "name": "Safari Zone West Area Exit (North)"
+          },
+          {
+            "name": "Safari Zone Secret House"
+          },
+          {
+            "name": "Safari Zone Center Area Rest House Exit"
+          },
+          {
+            "name": "Safari Zone East Area Rest House Exit"
+          },
+          {
+            "name": "Safari Zone North Area Rest House Exit"
+          },
+          {
+            "name": "Safari Zone West Area Rest House Exit"
+          },
+          {
+            "name": "Safari Zone Secret House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 108,
+            "y": 108,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 108,
+            "y": 108,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Silph Co.",
+        "sections": [
+          {
+            "name": "Silph Co. 1F Exit"
+          },
+          {
+            "name": "Silph Co. 1F Stairs"
+          },
+          {
+            "name": "Silph Co. 2F Northeast Stairs (Left)"
+          },
+          {
+            "name": "Silph Co. 2F North Warp Tile"
+          },
+          {
+            "name": "Silph Co. 2F Northeast Stairs (Right)"
+          },
+          {
+            "name": "Silph Co. 2F Southeast Warp Tile"
+          },
+          {
+            "name": "Silph Co. 2F Northwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 2F Southwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 3F Northeast Stairs (Left)"
+          },
+          {
+            "name": "Silph Co. 3F Northwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 3F Northeast Stairs (Right)"
+          },
+          {
+            "name": "Silph Co. 3F Southwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 3F East Warp Tile"
+          },
+          {
+            "name": "Silph Co. 3F Southeast Warp Tile"
+          },
+          {
+            "name": "Silph Co. 3F Northeast Warp Tile"
+          },
+          {
+            "name": "Silph Co. 3F Center Warp Tile"
+          },
+          {
+            "name": "Silph Co. 3F West Warp Tile"
+          },
+          {
+            "name": "Silph Co. 4F Northeast Stairs (Left)"
+          },
+          {
+            "name": "Silph Co. 4F Northeast Stairs (Right)"
+          },
+          {
+            "name": "Silph Co. 4F Southwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 4F Center Warp Tile"
+          },
+          {
+            "name": "Silph Co. 4F North Warp Tile (Right)"
+          },
+          {
+            "name": "Silph Co. 4F North Warp Tile (Left)"
+          },
+          {
+            "name": "Silph Co. 5F Northeast Stairs (Left)"
+          },
+          {
+            "name": "Silph Co. 5F North Warp Tile"
+          },
+          {
+            "name": "Silph Co. 5F Northeast Stairs (Right)"
+          },
+          {
+            "name": "Silph Co. 5F South Warp Tile"
+          },
+          {
+            "name": "Silph Co. 5F Northeast Warp Tile"
+          },
+          {
+            "name": "Silph Co. 5F Southwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 6F North Stairs"
+          },
+          {
+            "name": "Silph Co. 6F Northeast Warp Tile"
+          },
+          {
+            "name": "Silph Co. 6F Northeast Stairs"
+          },
+          {
+            "name": "Silph Co. 6F Northwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 7F North Stairs"
+          },
+          {
+            "name": "Silph Co. 7F Northeast Stairs"
+          },
+          {
+            "name": "Silph Co. 7F Southeast Warp Tile"
+          },
+          {
+            "name": "Silph Co. 7F Northwest Warp Tile (Bottom)"
+          },
+          {
+            "name": "Silph Co. 7F Northwest Warp Tile (Top)"
+          },
+          {
+            "name": "Silph Co. 8F North Stairs"
+          },
+          {
+            "name": "Silph Co. 8F Center Warp Tile"
+          },
+          {
+            "name": "Silph Co. 8F North Warp Tile"
+          },
+          {
+            "name": "Silph Co. 8F Northeast Stairs"
+          },
+          {
+            "name": "Silph Co. 8F Southwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 8F West Warp Tile"
+          },
+          {
+            "name": "Silph Co. 9F North Stairs (Left)"
+          },
+          {
+            "name": "Silph Co. 9F Southeast Warp Tile"
+          },
+          {
+            "name": "Silph Co. 9F North Stairs (Right)"
+          },
+          {
+            "name": "Silph Co. 9F Northwest Warp Tile"
+          },
+          {
+            "name": "Silph Co. 10F North Stairs (Left)"
+          },
+          {
+            "name": "Silph Co. 10F East Warp Tile"
+          },
+          {
+            "name": "Silph Co. 10F North Stairs (Right)"
+          },
+          {
+            "name": "Silph Co. 10F Southeast Warp Tile (Top Left)"
+          },
+          {
+            "name": "Silph Co. 10F Southeast Warp Tile (Bottom Right)"
+          },
+          {
+            "name": "Silph Co. 11F Stairs"
+          },
+          {
+            "name": "Silph Co. 11F Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 116,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 116,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands",
+        "sections": [
+          {
+            "name": "Seafoam Islands 1F Northwest Ladder"
+          },
+          {
+            "name": "Seafoam Islands 1F Northeast Ladder"
+          },
+          {
+            "name": "Seafoam Islands 1F Exit (West)"
+          },
+          {
+            "name": "Seafoam Islands 1F Drop (Left)"
+          },
+          {
+            "name": "Seafoam Islands 1F Drop (Right)"
+          },
+          {
+            "name": "Seafoam Islands 1F Southeast Ladder"
+          },
+          {
+            "name": "Seafoam Islands 1F Exit (East)"
+          },
+          {
+            "name": "Seafoam Islands B1F Northwest Ladder (Bottom)"
+          },
+          {
+            "name": "Seafoam Islands B1F Northwest Ladder (Top)"
+          },
+          {
+            "name": "Seafoam Islands B1F Center Ladder"
+          },
+          {
+            "name": "Seafoam Islands B1F Drop (Left)"
+          },
+          {
+            "name": "Seafoam Islands B1F South Ladder"
+          },
+          {
+            "name": "Seafoam Islands B1F Northeast Ladder"
+          },
+          {
+            "name": "Seafoam Islands B1F Drop (Right)"
+          },
+          {
+            "name": "Seafoam Islands B1F Southeast Ladder (Bottom Left)"
+          },
+          {
+            "name": "Seafoam Islands B1F Southeast Ladder (Top Right)"
+          },
+          {
+            "name": "Seafoam Islands B2F Northwest Ladder"
+          },
+          {
+            "name": "Seafoam Islands B2F Drop (Left)"
+          },
+          {
+            "name": "Seafoam Islands B2F Southwest Ladder"
+          },
+          {
+            "name": "Seafoam Islands B2F Center Ladder"
+          },
+          {
+            "name": "Seafoam Islands B2F South Ladder"
+          },
+          {
+            "name": "Seafoam Islands B2F Northeast Ladder"
+          },
+          {
+            "name": "Seafoam Islands B2F Drop (Right)"
+          },
+          {
+            "name": "Seafoam Islands B2F Southeast Ladder (Bottom)"
+          },
+          {
+            "name": "Seafoam Islands B2F Southeast Ladder (Top)"
+          },
+          {
+            "name": "Seafoam Islands B3F Southwest Ladder"
+          },
+          {
+            "name": "Seafoam Islands B3F West Ladder"
+          },
+          {
+            "name": "Seafoam Islands B3F Drop (Left)"
+          },
+          {
+            "name": "Seafoam Islands B3F Drop (Right)"
+          },
+          {
+            "name": "Seafoam Islands B3F Northeast Ladder (Right)"
+          },
+          {
+            "name": "Seafoam Islands B3F Northeast Ladder (Left)"
+          },
+          {
+            "name": "Seafoam Islands B3F Southeast Ladder"
+          },
+          {
+            "name": "Seafoam Islands B4F Center Ladder"
+          },
+          {
+            "name": "Seafoam Islands B4F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 76,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 76,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F Exit (West)"
+          },
+          {
+            "name": "Pokemon Mansion 1F West Stairs"
+          },
+          {
+            "name": "Pokemon Mansion 1F South Stairs"
+          },
+          {
+            "name": "Pokemon Mansion 1F Exit (East)"
+          },
+          {
+            "name": "Pokemon Mansion 2F Northwest Stairs"
+          },
+          {
+            "name": "Pokemon Mansion 2F West Stairs (Left)"
+          },
+          {
+            "name": "Pokemon Mansion 2F West Stairs (Right)"
+          },
+          {
+            "name": "Pokemon Mansion 2F East Stairs"
+          },
+          {
+            "name": "Pokemon Mansion 3F Southwest Stairs"
+          },
+          {
+            "name": "Pokemon Mansion 3F Northwest Stairs"
+          },
+          {
+            "name": "Pokemon Mansion 3F Southeast Stairs"
+          },
+          {
+            "name": "Pokemon Mansion 3F Drop (Left)"
+          },
+          {
+            "name": "Pokemon Mansion 3F Drop (Right)"
+          },
+          {
+            "name": "Pokemon Mansion B1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 36,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 36,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Victory Road",
+        "sections": [
+          {
+            "name": "Victory Road 1F Exit"
+          },
+          {
+            "name": "Victory Road 1F Ladder"
+          },
+          {
+            "name": "Victory Road 2F West Ladder"
+          },
+          {
+            "name": "Victory Road 2F Center Ladder"
+          },
+          {
+            "name": "Victory Road 2F Northwest Ladder"
+          },
+          {
+            "name": "Victory Road 2F Southeast Ladder"
+          },
+          {
+            "name": "Victory Road 2F East Ladder"
+          },
+          {
+            "name": "Victory Road 2F Exit"
+          },
+          {
+            "name": "Victory Road 3F Northwest Ladder"
+          },
+          {
+            "name": "Victory Road 3F Northeast Ladder"
+          },
+          {
+            "name": "Victory Road 3F Drop"
+          },
+          {
+            "name": "Victory Road 3F Southeast Ladder (Top)"
+          },
+          {
+            "name": "Victory Road 3F Southeast Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 28,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior Exit"
+          },
+          {
+            "name": "Mt. Ember Ruby Path"
+          },
+          {
+            "name": "Mt. Ember Summit Path (Bottom)"
+          },
+          {
+            "name": "Mt. Ember Summit Path (Top)"
+          },
+          {
+            "name": "Mt. Ember Summit"
+          },
+          {
+            "name": "Mt. Ember Summit Path 1F Exit (South)"
+          },
+          {
+            "name": "Mt. Ember Summit Path 1F Exit (North)"
+          },
+          {
+            "name": "Mt. Ember Summit Path 2F Exit (South)"
+          },
+          {
+            "name": "Mt. Ember Summit Path 2F Exit (North)"
+          },
+          {
+            "name": "Mt. Ember Summit Path 3F Exit (West)"
+          },
+          {
+            "name": "Mt. Ember Summit Path 3F Exit (East)"
+          },
+          {
+            "name": "Mt. Ember Summit Exit"
+          },
+          {
+            "name": "Mt. Ember Ruby Path 1F Exit"
+          },
+          {
+            "name": "Mt. Ember Ruby Path 1F Northwest Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path 1F Northeast Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B1F South Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B1F North Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B1F Return Northeast Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B1F Return Southwest Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B2F West Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B2F East Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B2F Return Northeast Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B2F Return Southwest Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B3F Northwest Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B3F Southwest Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B3F Southeast Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B4F Southeast Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B4F Northwest Ladder"
+          },
+          {
+            "name": "Mt. Ember Ruby Path B5F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 28,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Berry Forest",
+        "sections": [
+          {
+            "name": "Berry Forest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 124,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave",
+        "sections": [
+          {
+            "name": "Icefall Cave Front Exit (South)"
+          },
+          {
+            "name": "Icefall Cave Front Exit (North)"
+          },
+          {
+            "name": "Icefall Cave Front Ladder"
+          },
+          {
+            "name": "Icefall Cave 1F Exit (South)"
+          },
+          {
+            "name": "Icefall Cave 1F East Ladder"
+          },
+          {
+            "name": "Icefall Cave 1F Northeast Ladder"
+          },
+          {
+            "name": "Icefall Cave 1F Southeast Ladder"
+          },
+          {
+            "name": "Icefall Cave 1F Northwest Ladder"
+          },
+          {
+            "name": "Icefall Cave 1F Exit (North)"
+          },
+          {
+            "name": "Icefall Cave B1F West Ladder"
+          },
+          {
+            "name": "Icefall Cave B1F North Ladder"
+          },
+          {
+            "name": "Icefall Cave B1F South Ladder"
+          },
+          {
+            "name": "Icefall Cave Back Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 236,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 44,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse",
+        "sections": [
+          {
+            "name": "Rocket Warehouse Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 148,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Lost Cave",
+        "sections": [
+          {
+            "name": "Lost Cave 1F Exit"
+          },
+          {
+            "name": "Lost Cave 1F Ladder"
+          },
+          {
+            "name": "Lost Cave B1F Room 1 Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 348,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 156,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Dotted Hole",
+        "sections": [
+          {
+            "name": "Dotted Hole 1F Exit"
+          },
+          {
+            "name": "Dotted Hole 1F Drop"
+          },
+          {
+            "name": "Dotted Hole 1F Ladder"
+          },
+          {
+            "name": "Dotted Hole B1F Drop (Top)"
+          },
+          {
+            "name": "Dotted Hole B2F Drop (Left)"
+          },
+          {
+            "name": "Dotted Hole B3F Drop (Right)"
+          },
+          {
+            "name": "Dotted Hole B4F Drop (Bottom)"
+          },
+          {
+            "name": "Dotted Hole Sapphire Room Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 332,
+            "y": 228,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 140,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush",
+        "sections": [
+          {
+            "name": "Pattern Bush Exit (East)"
+          },
+          {
+            "name": "Pattern Bush Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 148,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Altering Cave",
+        "sections": [
+          {
+            "name": "Altering Cave Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 324,
+            "y": 164,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 132,
+            "y": 20,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Key",
+        "sections": [
+          {
+            "name": "Tanoby Key Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 252,
+            "y": 236,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 60,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Chambers",
+        "sections": [
+          {
+            "name": "Monean Chamber Exit"
+          },
+          {
+            "name": "Liptoo Chamber Exit"
+          },
+          {
+            "name": "Weepth Chamber Exit"
+          },
+          {
+            "name": "Dilford Chamber Exit"
+          },
+          {
+            "name": "Scufib Chamber Exit"
+          },
+          {
+            "name": "Rixy Chamber Exit"
+          },
+          {
+            "name": "Viapois Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 276,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F Exit"
+          },
+          {
+            "name": "Cerulean Cave 1F Northeast Ladder"
+          },
+          {
+            "name": "Cerulean Cave 1F North Ladder"
+          },
+          {
+            "name": "Cerulean Cave 1F Southwest Ladder"
+          },
+          {
+            "name": "Cerulean Cave 1F East Ladder"
+          },
+          {
+            "name": "Cerulean Cave 1F Center Ladder"
+          },
+          {
+            "name": "Cerulean Cave 1F Northwest Ladder (Bottom)"
+          },
+          {
+            "name": "Cerulean Cave 1F Northwest Ladder (Top)"
+          },
+          {
+            "name": "Cerulean Cave 2F Northeast Ladder"
+          },
+          {
+            "name": "Cerulean Cave 2F North Ladder"
+          },
+          {
+            "name": "Cerulean Cave 2F West Ladder"
+          },
+          {
+            "name": "Cerulean Cave 2F East Ladder"
+          },
+          {
+            "name": "Cerulean Cave 2F Center Ladder"
+          },
+          {
+            "name": "Cerulean Cave 2F Northwest Ladder"
+          },
+          {
+            "name": "Cerulean Cave B1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 116,
+            "y": 36,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 116,
+            "y": 36,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "One Island Town",
+        "sections": [
+          {
+            "name": "One Island Pokemon Center"
+          },
+          {
+            "name": "One Island Old Couple's House"
+          },
+          {
+            "name": "One Island Lass' House"
+          },
+          {
+            "name": "One Island Harbor"
+          },
+          {
+            "name": "One Island Pokemon Center 1F Exit"
+          },
+          {
+            "name": "One Island Old Couple's House Exit"
+          },
+          {
+            "name": "One Island Lass' House Exit"
+          },
+          {
+            "name": "One Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 20,
+            "y": 228
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 20,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Kindle Road",
+        "sections": [
+          {
+            "name": "Ember Spa"
+          },
+          {
+            "name": "Mt. Ember"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 216,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 28,
+            "y": 72,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Ember Spa",
+        "sections": [
+          {
+            "name": "Ember Spa Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 208,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 28,
+            "y": 64,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Two Island Town",
+        "sections": [
+          {
+            "name": "Two Island Game Corner"
+          },
+          {
+            "name": "Move Maniac's House"
+          },
+          {
+            "name": "Two Island Pokemon Center"
+          },
+          {
+            "name": "Two Island Harbor"
+          },
+          {
+            "name": "Two Island Game Corner Exit"
+          },
+          {
+            "name": "Move Maniac's House Exit"
+          },
+          {
+            "name": "Two Island Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Two Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 84,
+            "y": 236
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 84,
+            "y": 92
+          }
+        ]
+      },
+      {
+        "name": "Cape Brink",
+        "sections": [
+          {
+            "name": "Starter Tutor's House"
+          },
+          {
+            "name": "Starter Tutor's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 84,
+            "y": 224,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 84,
+            "y": 80,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Port",
+        "sections": [
+          {
+            "name": "Three Island Harbor"
+          },
+          {
+            "name": "Three Isle Path (West)"
+          },
+          {
+            "name": "Three Isle Path (East)"
+          },
+          {
+            "name": "Three Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 156,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path",
+        "sections": [
+          {
+            "name": "Three Isle Path Exit (West)"
+          },
+          {
+            "name": "Three Isle Path Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 164,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 164,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Island Town",
+        "sections": [
+          {
+            "name": "Lostelle's House"
+          },
+          {
+            "name": "Three Island Pokemon Center"
+          },
+          {
+            "name": "Three Island Poke Mart"
+          },
+          {
+            "name": "Sabrina Fan's House"
+          },
+          {
+            "name": "Three Island Beauty's House"
+          },
+          {
+            "name": "Three Island Worried Father's House"
+          },
+          {
+            "name": "Lostelle's Friend's House"
+          },
+          {
+            "name": "Lostelle's House Exit"
+          },
+          {
+            "name": "Three Island Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Three Island Poke Mart Exit"
+          },
+          {
+            "name": "Sabrina Fan's House Exit"
+          },
+          {
+            "name": "Three Island Beauty's House Exit"
+          },
+          {
+            "name": "Three Island Worried Father's House Exit"
+          },
+          {
+            "name": "Lostelle's Friend's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 260
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 156,
+            "y": 116
+          }
+        ]
+      },
+      {
+        "name": "Bond Bridge",
+        "sections": [
+          {
+            "name": "Berry Forest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 140,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 140,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Four Island Town",
+        "sections": [
+          {
+            "name": "Four Island Pokemon Center"
+          },
+          {
+            "name": "Four Island Pokemon Day Care"
+          },
+          {
+            "name": "Four Island Move Tutor's House"
+          },
+          {
+            "name": "Lorelei's House"
+          },
+          {
+            "name": "Sticker Man's House"
+          },
+          {
+            "name": "Four Island Harbor"
+          },
+          {
+            "name": "Four Island Poke Mart"
+          },
+          {
+            "name": "Icefall Cave"
+          },
+          {
+            "name": "Four Island Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Four Island Pokemon Day Care Exit"
+          },
+          {
+            "name": "Four Island Move Tutor's House Exit"
+          },
+          {
+            "name": "Lorelei's House Exit"
+          },
+          {
+            "name": "Sticker Man's House Exit"
+          },
+          {
+            "name": "Four Island Harbor Exit"
+          },
+          {
+            "name": "Four Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 228,
+            "y": 52
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 36,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Five Island Town",
+        "sections": [
+          {
+            "name": "Five Island Harbor"
+          },
+          {
+            "name": "Five Island Pokemon Center"
+          },
+          {
+            "name": "Five Island Couple's House"
+          },
+          {
+            "name": "Five Island Old Man's House"
+          },
+          {
+            "name": "Five Island Harbor Exit"
+          },
+          {
+            "name": "Five Island Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Five Island Couple's House Exit"
+          },
+          {
+            "name": "Five Island Old Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 332,
+            "y": 108
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 140,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Five Isle Meadow",
+        "sections": [
+          {
+            "name": "Rocket Warehouse"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 108,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 148,
+            "y": 108,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Resort Gorgeous",
+        "sections": [
+          {
+            "name": "Selphy's House"
+          },
+          {
+            "name": "Lost Cave"
+          },
+          {
+            "name": "Selphy's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 148,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Six Island Town",
+        "sections": [
+          {
+            "name": "Six Island Harbor"
+          },
+          {
+            "name": "Six Island Pokemon Center"
+          },
+          {
+            "name": "Six Island Old Man's House"
+          },
+          {
+            "name": "Six Island Poke Mart"
+          },
+          {
+            "name": "Six Island Harbor Exit"
+          },
+          {
+            "name": "Six Island Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Six Island Old Man's House Exit"
+          },
+          {
+            "name": "Six Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 204
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 148,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Water Path",
+        "sections": [
+          {
+            "name": "Water Path Heracross Woman's House"
+          },
+          {
+            "name": "Water Path Man's House"
+          },
+          {
+            "name": "Water Path Heracross Woman's House Exit"
+          },
+          {
+            "name": "Water Path Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 348,
+            "y": 204,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Ruin Valley",
+        "sections": [
+          {
+            "name": "Dotted Hole"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 220,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 148,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Green Path",
+        "sections": [
+          {
+            "name": "Pattern Bush (East)"
+          },
+          {
+            "name": "Pattern Bush (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 332,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 140,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Outcast Island",
+        "sections": [
+          {
+            "name": "Altering Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 324,
+            "y": 172,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 132,
+            "y": 28,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Town",
+        "sections": [
+          {
+            "name": "Seven Island Trainer Battle House"
+          },
+          {
+            "name": "Seven Island Poke Mart"
+          },
+          {
+            "name": "Seven Island Pokemon Center"
+          },
+          {
+            "name": "Seven Island Harbor"
+          },
+          {
+            "name": "Seven Island Trainer Battle House Exit"
+          },
+          {
+            "name": "Seven Island Poke Mart Exit"
+          },
+          {
+            "name": "Seven Island Pokemon Center 1F Exit"
+          },
+          {
+            "name": "Seven Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 244,
+            "y": 228
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 52,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon",
+        "sections": [
+          {
+            "name": "Tanoby Key"
+          },
+          {
+            "name": "Sevault Canyon Chansey House"
+          },
+          {
+            "name": "Sevault Canyon Chansey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 252,
+            "y": 244,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 60,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Ruins",
+        "sections": [
+          {
+            "name": "Monean Chamber"
+          },
+          {
+            "name": "Liptoo Chamber"
+          },
+          {
+            "name": "Weepth Chamber"
+          },
+          {
+            "name": "Dilford Chamber"
+          },
+          {
+            "name": "Scufib Chamber"
+          },
+          {
+            "name": "Rixy Chamber"
+          },
+          {
+            "name": "Viapois Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 252,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 60,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower Exterior",
+        "sections": [
+          {
+            "name": "Trainer Tower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 244,
+            "y": 220,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 52,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower",
+        "sections": [
+          {
+            "name": "Trainer Tower Lobby Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 244,
+            "y": 212,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 52,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock",
+        "sections": [
+          {
+            "name": "Navel Rock"
+          },
+          {
+            "name": "Navel Rock Harbor"
+          },
+          {
+            "name": "Navel Rock Harbor Exit"
+          },
+          {
+            "name": "Navel Rock 1F Ladder"
+          },
+          {
+            "name": "Navel Rock 1F Exit"
+          },
+          {
+            "name": "Navel Rock B1F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock B1F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Fork South Ladder"
+          },
+          {
+            "name": "Navel Rock Fork Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Fork Northeast Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Path 2F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Path 2F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Path 3F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Path 3F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Path 4F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Path 4F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Path 5F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Path 5F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Summit Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B1F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B1F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B2F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B2F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B3F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B3F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B4F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B4F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B5F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B5F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B6F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B6F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B7F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B7F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B8F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B8F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B9F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B9F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B10F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B10F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B11F Northwest Ladder"
+          },
+          {
+            "name": "Navel Rock Base Path B11F Southeast Ladder"
+          },
+          {
+            "name": "Navel Rock Base Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 284,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 134,
+            "size": 4,
+            "force_invisibility_rules": ["kanto_only_off"]
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 92,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Birth Island",
+        "sections": [
+          {
+            "name": "Birth Island Harbor"
+          },
+          {
+            "name": "Birth Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 348,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 180,
+            "y": 134,
+            "size": 4,
+            "force_invisibility_rules": ["kanto_only_off"]
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 156,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 2",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate"
+          },
+          {
+            "name": "Viridian Forest North Gate"
+          },
+          {
+            "name": "Diglett's Cave North Entrance"
+          },
+          {
+            "name": "Route 2 Trade House"
+          },
+          {
+            "name": "Route 2 Gate (North)"
+          },
+          {
+            "name": "Route 2 Gate (South)"
+          },
+          {
+            "name": "Viridian Forest South Gate Exit (South)"
+          },
+          {
+            "name": "Viridian Forest South Gate Exit (North)"
+          },
+          {
+            "name": "Viridian Forest North Gate Exit (South)"
+          },
+          {
+            "name": "Viridian Forest North Gate Exit (North)"
+          },
+          {
+            "name": "Route 2 Gate Exit (North)"
+          },
+          {
+            "name": "Route 2 Gate Exit (South)"
+          },
+          {
+            "name": "Route 2 Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 4 West",
+        "sections": [
+          {
+            "name": "Mt. Moon (West)"
+          },
+          {
+            "name": "Route 4 Pokemon Center"
+          },
+          {
+            "name": "Route 4 Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 76,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 76,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 4 East",
+        "sections": [
+          {
+            "name": "Mt. Moon (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 104,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 104,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 5",
+        "sections": [
+          {
+            "name": "Route 5 Gate (North)"
+          },
+          {
+            "name": "Route 5 Pokemon Day Care"
+          },
+          {
+            "name": "Underground Path North Entrance"
+          },
+          {
+            "name": "Route 5 Pokemon Day Care Exit"
+          },
+          {
+            "name": "Route 5 Gate Exit (North)"
+          },
+          {
+            "name": "Route 5 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 56,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 56,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 6",
+        "sections": [
+          {
+            "name": "Route 6 Gate (South)"
+          },
+          {
+            "name": "Underground Path South Entrance"
+          },
+          {
+            "name": "Route 6 Gate Exit (South)"
+          },
+          {
+            "name": "Route 6 Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 80,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 80,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 7",
+        "sections": [
+          {
+            "name": "Route 7 Gate (West)"
+          },
+          {
+            "name": "Underground Path West Entrance"
+          },
+          {
+            "name": "Route 7 Gate Exit (West)"
+          },
+          {
+            "name": "Route 7 Gate Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 112,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 112,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 8",
+        "sections": [
+          {
+            "name": "Route 8 Gate (East)"
+          },
+          {
+            "name": "Underground Path East Entrance"
+          },
+          {
+            "name": "Route 8 Gate Exit (East)"
+          },
+          {
+            "name": "Route 8 Gate Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 140,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 140,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 10 North",
+        "sections": [
+          {
+            "name": "Rock Tunnel (North)"
+          },
+          {
+            "name": "Route 10 Pokemon Center"
+          },
+          {
+            "name": "Power Plant (Front)"
+          },
+          {
+            "name": "Power Plant (Back)"
+          },
+          {
+            "name": "Route 10 Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 10 South",
+        "sections": [
+          {
+            "name": "Rock Tunnel (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 11",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance"
+          },
+          {
+            "name": "Route 11 Gate (West)"
+          },
+          {
+            "name": "Route 11 Gate (East)"
+          },
+          {
+            "name": "Route 11 Gate 1F Exit (West)"
+          },
+          {
+            "name": "Route 11 Gate 1F Exit (East)"
+          },
+          {
+            "name": "Route 11 Gate 1F Stairs"
+          },
+          {
+            "name": "Route 11 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 140,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 140,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 12 North",
+        "sections": [
+          {
+            "name": "Route 12 Gate (North)"
+          },
+          {
+            "name": "Route 12 Gate (South)"
+          },
+          {
+            "name": "Route 12 Gate 1F Exit (North)"
+          },
+          {
+            "name": "Route 12 Gate 1F Exit (South)"
+          },
+          {
+            "name": "Route 12 Gate 1F Stairs"
+          },
+          {
+            "name": "Route 12 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 12 South",
+        "sections": [
+          {
+            "name": "Route 12 Fishing House"
+          },
+          {
+            "name": "Route 12 Fishing House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 100,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 15",
+        "sections": [
+          {
+            "name": "Route 15 Gate (East)"
+          },
+          {
+            "name": "Route 15 Gate (West)"
+          },
+          {
+            "name": "Route 15 Gate 1F Exit (East)"
+          },
+          {
+            "name": "Route 15 Gate 1F Exit (West)"
+          },
+          {
+            "name": "Route 15 Gate 1F Stairs"
+          },
+          {
+            "name": "Route 15 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 120,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 120,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 16",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Northeast)"
+          },
+          {
+            "name": "Route 16 Gate (Northwest)"
+          },
+          {
+            "name": "Route 16 Gate (Southeast)"
+          },
+          {
+            "name": "Route 16 Gate (Southwest)"
+          },
+          {
+            "name": "Route 16 Fly House"
+          },
+          {
+            "name": "Route 16 Fly House Exit"
+          },
+          {
+            "name": "Route 16 Gate 1F Exit (Northeast)"
+          },
+          {
+            "name": "Route 16 Gate 1F Exit (Northwest)"
+          },
+          {
+            "name": "Route 16 Gate 1F Exit (Southeast)"
+          },
+          {
+            "name": "Route 16 Gate 1F Exit (Southwest)"
+          },
+          {
+            "name": "Route 16 Gate 1F Stairs"
+          },
+          {
+            "name": "Route 16 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 80,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 80,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 18",
+        "sections": [
+          {
+            "name": "Route 18 Gate (West)"
+          },
+          {
+            "name": "Route 18 Gate (East)"
+          },
+          {
+            "name": "Route 18 Gate 1F Exit (West)"
+          },
+          {
+            "name": "Route 18 Gate 1F Exit (East)"
+          },
+          {
+            "name": "Route 18 Gate 1F Stairs"
+          },
+          {
+            "name": "Route 18 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 20 West",
+        "sections": [
+          {
+            "name": "Seafoam Islands (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 60,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 60,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 20 East",
+        "sections": [
+          {
+            "name": "Seafoam Islands (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 92,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 92,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 22",
+        "sections": [
+          {
+            "name": "Route 22 Gate (South)"
+          },
+          {
+            "name": "Route 22 Gate Exit (North)"
+          },
+          {
+            "name": "Route 22 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 32,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 32,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 23",
+        "sections": [
+          {
+            "name": "Route 22 Gate (North)"
+          },
+          {
+            "name": "Victory Road (West)"
+          },
+          {
+            "name": "Victory Road (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 28,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 25",
+        "sections": [
+          {
+            "name": "Sea Cottage"
+          },
+          {
+            "name": "Sea Cottage Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 136,
+            "y": 28,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 136,
+            "y": 28,
+            "size": 4
+          }
+        ]
+      }
+    ]
+  }
+]

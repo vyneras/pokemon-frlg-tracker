@@ -1,0 +1,758 @@
+[
+  {
+    "name": "Navel Rock Exterior",
+    "children": [
+      {
+        "name": "Navel Rock",
+        "sections": [
+          {
+            "name": "Navel Rock"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_exterior",
+            "x": 152,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Harbor",
+        "sections": [
+          {
+            "name": "Navel Rock Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_exterior",
+            "x": 152,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Harbor",
+    "children": [
+      {
+        "name": "Navel Rock Harbor Exit",
+        "sections": [
+          {
+            "name": "Navel Rock Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock 1F",
+    "children": [
+      {
+        "name": "Navel Rock 1F Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_1f",
+            "x": 136,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock 1F Exit",
+        "sections": [
+          {
+            "name": "Navel Rock 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_1f",
+            "x": 136,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock B1F",
+    "children": [
+      {
+        "name": "Navel Rock B1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_b1f",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock B1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_b1f",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Fork",
+    "children": [
+      {
+        "name": "Navel Rock Fork South Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Fork South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_fork_south",
+            "x": 216,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Fork Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Fork Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_fork_north",
+            "x": 56,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Fork Northeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Fork Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_fork_north",
+            "x": 424,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit Path 2F",
+    "children": [
+      {
+        "name": "Navel Rock Summit Path 2F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 2F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_2f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Path 2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_2f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit Path 3F",
+    "children": [
+      {
+        "name": "Navel Rock Summit Path 3F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_3f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Path 3F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_3f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit Path 4F",
+    "children": [
+      {
+        "name": "Navel Rock Summit Path 4F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 4F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_4f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Path 4F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 4F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_4f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit Path 5F",
+    "children": [
+      {
+        "name": "Navel Rock Summit Path 5F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 5F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_5f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Path 5F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 5F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_5f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit",
+    "children": [
+      {
+        "name": "Navel Rock Summit Hidden Item Near Ho-Oh",
+        "sections": [
+          {
+            "ref": "Islands/Navel Rock/Hidden Item Near Ho-Oh",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit",
+            "x": 152,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit",
+            "x": 168,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B1F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b1f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b1f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B2F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B2F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B2F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b2f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b2f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B3F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B3F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b3f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B3F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b3f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B4F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B4F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B4F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b4f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B4F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B4F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b4f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B5F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B5F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B5F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b5f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B5F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B5F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b5f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B6F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B6F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B6F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b6f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B6F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B6F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b6f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B7F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B7F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B7F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b7f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B7F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B7F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b7f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B8F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B8F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B8F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b8f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B8F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B8F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b8f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B9F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B9F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B9F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b9f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B9F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B9F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b9f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B10F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B10F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B10F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b10f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B10F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B10F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b10f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B11F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B11F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B11F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b11f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B11F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B11F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b11f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base",
+    "children": [
+      {
+        "name": "Navel Rock Base Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base",
+            "x": 216,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  }
+]

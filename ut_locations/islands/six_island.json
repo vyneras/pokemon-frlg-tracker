@@ -1,0 +1,255 @@
+[
+  {
+    "name": "Six Island Town",
+    "children": [
+      {
+        "name": "Six Island Visit",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Six Island Hidden Item Behind Pokémon Center",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Hidden Item Behind Pokémon Center",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 152,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Six Island Harbor",
+        "sections": [
+          {
+            "name": "Six Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Six Island Pokemon Center",
+        "sections": [
+          {
+            "name": "Six Island Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Six Island Old Man's House",
+        "sections": [
+          {
+            "name": "Six Island Old Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 264,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Six Island Poke Mart",
+        "sections": [
+          {
+            "name": "Six Island Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 328,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Six Island Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Six Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Six Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Mart",
+    "children": [
+      {
+        "name": "Six Island Mart Old Woman",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Old Woman Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "x": 136,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Six Island Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Six Island Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 7",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Islands/Six Island Town/Shop Item 8",
+            "name": "Shop Item 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Six Island Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Six Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Harbor",
+    "children": [
+      {
+        "name": "Six Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Six Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Old Man's House",
+    "children": [
+      {
+        "name": "Six Island Old Man's House Exit",
+        "sections": [
+          {
+            "name": "Six Island Old Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_old_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

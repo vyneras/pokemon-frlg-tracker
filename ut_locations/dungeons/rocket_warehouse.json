@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Rocket Warehouse",
+    "children": [
+      {
+        "name": "Rocket Warehouse Maze South Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze South Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 136,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Maze Center Box Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze Center Box Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 120,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Maze West Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze West Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 24,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Northwest Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Northwest Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 72,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse North Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/North Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 280,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Scientist Gideon",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Scientist Gideon Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Recover Stolen Gem",
+            "name": "Recover Stolen Gem"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/Scientist Gideon Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 440,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Northeast Room Box Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Northeast Room Box Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 440,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse East Room Team Rocket Admin",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Free Captured Pokémon (Event)",
+            "name": "Free Captured Pokémon (Event)"
+          },
+          {
+            "ref": "Dungeons/Rocket Warehouse/East Room Team Rocket Admin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 408,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Southeast Room Team Rocket Admin",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Southeast Room Team Rocket Admin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 440,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Northwest Room Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Northwest Room Team Rocket Grunt Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 104,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Maze Team Rocket Grunt (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze Team Rocket Grunt Reward (Left)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 248,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Maze Team Rocket Grunt (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Rocket Warehouse/Maze Team Rocket Grunt Reward (Right)",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 280,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse Exit",
+        "sections": [
+          {
+            "name": "Rocket Warehouse Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 392,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  }
+]

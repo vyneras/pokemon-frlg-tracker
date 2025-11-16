@@ -1,0 +1,336 @@
+[
+  {
+    "name": "Route 8",
+    "children": [
+      {
+        "name": "Route 8 Tall Grass Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Tall Grass Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 104,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Tall Grass Northeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Tall Grass Northeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 168,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Tall Grass Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Tall Grass Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 168,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Biker Jaren",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Biker Jaren Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 8/Biker Jaren Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 392,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Biker Ricardo",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Biker Ricardo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 232,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Gamer Rich",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Gamer Rich Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 8/Gamer Rich Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 376,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Gamer Stan",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Gamer Stan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 344,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Lass Andrea",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Lass Andrea Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 472,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Lass Julia",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Lass Julia Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 488,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Lass Megan",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Lass Megan Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 8/Lass Megan Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 8/Lass Megan Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 472,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Lass Paige",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Lass Paige Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 472,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Aiden",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Super Nerd Aiden Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Glenn",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Super Nerd Glenn Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 8/Super Nerd Glenn Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 312,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Leslie",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Super Nerd Leslie Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 472,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Twins Eli & Anne",
+        "sections": [
+          {
+            "ref": "Routes/Route 8/Twins Eli & Anne Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 8/Twins Eli & Anne Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_east",
+            "x": 144,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 8 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Underground Path East Entrance",
+        "sections": [
+          {
+            "name": "Underground Path East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 8 Gate",
+    "children": [
+      {
+        "name": "Route 8 Gate Exit (East)",
+        "sections": [
+          {
+            "name": "Route 8 Gate Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_gate",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Gate Exit (West)",
+        "sections": [
+          {
+            "name": "Route 8 Gate Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_gate",
+            "x": 24,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

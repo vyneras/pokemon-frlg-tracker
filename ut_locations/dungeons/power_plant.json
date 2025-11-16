@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Power Plant",
+    "children": [
+      {
+        "name": "Power Plant Item Near Entrance",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Item Near Entrance",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 120,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Long Center Room Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Long Center Room Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 648,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Long Center Room Item (Left)",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Long Center Room Item (Left)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 424,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Southeast Room Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Southeast Room Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 744,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Northeast Room Item (Right)",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Northeast Room Item (Right)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 728,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Center Machine Room Hidden Item",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Center Machine Room Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 472,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Hidden Item Near Zapdos",
+        "sections": [
+          {
+            "ref": "Dungeons/Power Plant/Hidden Item Near Zapdos",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 136,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Exit (Front)",
+        "sections": [
+          {
+            "name": "Power Plant Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 88,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Exit (Back)",
+        "sections": [
+          {
+            "name": "Power Plant Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 24,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  }
+]

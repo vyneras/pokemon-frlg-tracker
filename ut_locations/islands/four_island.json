@@ -1,0 +1,471 @@
+[
+  {
+    "name": "Four Island Town",
+    "children": [
+      {
+        "name": "Four Island Visit",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Four Island Beach Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Beach Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 360,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Four Island Beach Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Beach Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 104,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Four Island Beach Item",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Beach Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 88,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Four Island Northeast Island Item",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Northeast Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 520,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Four Island Little Girl",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Little Girl Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 504,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Four Island Old Woman",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Old Woman Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 424,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Four Island Pokemon Center",
+        "sections": [
+          {
+            "name": "Four Island Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 296,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Four Island Pokemon Day Care",
+        "sections": [
+          {
+            "name": "Four Island Pokemon Day Care"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 200,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Four Island Move Tutor's House",
+        "sections": [
+          {
+            "name": "Four Island Move Tutor's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 408,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Lorelei's House",
+        "sections": [
+          {
+            "name": "Lorelei's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 536,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Sticker Man's House",
+        "sections": [
+          {
+            "name": "Sticker Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 408,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Four Island Harbor",
+        "sections": [
+          {
+            "name": "Four Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 168,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Four Island Poke Mart",
+        "sections": [
+          {
+            "name": "Four Island Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 360,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave",
+        "sections": [
+          {
+            "name": "Icefall Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 616,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Four Island Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Four Island Pokémon Center Bookshelf",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Four Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Four Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Mart",
+    "children": [
+      {
+        "name": "Four Island Mart Old Man",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Old Man Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_mart",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Four Island Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Four Island Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 6",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 7",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Islands/Four Island Town/Shop Item 8",
+            "name": "Shop Item 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Four Island Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Four Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Pokemon Day Care",
+    "children": [
+      {
+        "name": "Four Island Pokemon Day Care Exit",
+        "sections": [
+          {
+            "name": "Four Island Pokemon Day Care Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_day_care",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Move Tutor's House",
+    "children": [
+      {
+        "name": "Four Island Move Tutor's House Exit",
+        "sections": [
+          {
+            "name": "Four Island Move Tutor's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_move_tutors_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lorelei's House",
+    "children": [
+      {
+        "name": "Lorelei's House Exit",
+        "sections": [
+          {
+            "name": "Lorelei's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "loreleis_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sticker Man's House",
+    "children": [
+      {
+        "name": "Sticker Man's House Exit",
+        "sections": [
+          {
+            "name": "Sticker Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sticker_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Harbor",
+    "children": [
+      {
+        "name": "Four Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Four Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Route 12",
+    "children": [
+      {
+        "name": "Route 12 North Island Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/North Island Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 296,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Grass Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Grass Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 296,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Snorlax",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Hidden Item Under Snorlax",
+            "name": "Hidden Item Under Snorlax"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 232,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Item Behind Cuttable Tree",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 152,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Tall Grass Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Tall Grass Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 152,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Chip",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Fisherman Chip Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 152,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Elliot",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Fisherman Elliot Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 12 North/Fisherman Elliot Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 216,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Hank",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Fisherman Hank Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Ned",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Fisherman Ned Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 280,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Young Couple Gia & Jes",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 312,
+            "y": 352
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Andrew",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Fisherman Andrew Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 296,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Rocker Luca",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Rocker Luca Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 12 South/Rocker Luca Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 216,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Camper Justin",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Camper Justin Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 168,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 12 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 232,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 12 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Fishing House",
+        "sections": [
+          {
+            "name": "Route 12 Fishing House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 200,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Gate 1F",
+    "children": [
+      {
+        "name": "Route 12 Gate 1F Exit (North)",
+        "sections": [
+          {
+            "name": "Route 12 Gate 1F Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "x": 88,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate 1F Exit (South)",
+        "sections": [
+          {
+            "name": "Route 12 Gate 1F Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "x": 88,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 12 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "x": 144,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Gate 2F",
+    "children": [
+      {
+        "name": "Mourning Lass",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 North/Mourning Lass Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_2f",
+            "x": 120,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 12 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Fishing House",
+    "children": [
+      {
+        "name": "Route 12 Fishing Guru",
+        "sections": [
+          {
+            "ref": "Routes/Route 12 South/Fishing Guru Gift",
+            "name": "Gift"
+          },
+          {
+            "ref": "Routes/Route 12 South/Fishing Guru Gift (Show Magikarp)",
+            "name": "Gift (Show Magikarp)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_fishing_house",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Fishing House Exit",
+        "sections": [
+          {
+            "name": "Route 12 Fishing House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_fishing_house",
+            "x": 56,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Route 7",
+    "children": [
+      {
+        "name": "Route 7 Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 7/Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7",
+            "x": 264,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Route 7 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 7 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7",
+            "x": 248,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Underground Path West Entrance",
+        "sections": [
+          {
+            "name": "Underground Path West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7",
+            "x": 120,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 7 Gate",
+    "children": [
+      {
+        "name": "Route 7 Gate Exit (West)",
+        "sections": [
+          {
+            "name": "Route 7 Gate Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7_gate",
+            "x": 24,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 7 Gate Exit (East)",
+        "sections": [
+          {
+            "name": "Route 7 Gate Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7_gate",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

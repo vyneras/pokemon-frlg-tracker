@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Route 5",
+    "children": [
+      {
+        "name": "Route 5 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 5 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "x": 400,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Pokemon Day Care",
+        "sections": [
+          {
+            "name": "Route 5 Pokemon Day Care"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "x": 376,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Underground Path North Entrance",
+        "sections": [
+          {
+            "name": "Underground Path North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "x": 504,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 5 Pokemon Day Care",
+    "children": [
+      {
+        "name": "Route 5 Pokemon Day Care Exit",
+        "sections": [
+          {
+            "name": "Route 5 Pokemon Day Care Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_pokemon_day_care",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 5 Gate",
+    "children": [
+      {
+        "name": "Route 5 Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Route 5 Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_gate",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Route 5 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_gate",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

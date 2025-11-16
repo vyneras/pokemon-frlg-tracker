@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Route 4",
+    "children": [
+      {
+        "name": "Route 4 Boy",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/Boy Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 248,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Hidden Item Near Pokémon Center",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/Hidden Item Near Pokémon Center",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Hidden Item Near Move Tutors",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 East/Hidden Item Near Move Tutors",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 696,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Hidden Item Below South Ledge",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 East/Hidden Item Below South Ledge",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_east",
+            "x": 184,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Route 4 East Ledges Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 East/East Ledges Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_east",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Lass Crissy",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 East/Lass Crissy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_east",
+            "x": 312,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon (West)",
+        "sections": [
+          {
+            "name": "Mt. Moon (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 312,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon (East)",
+        "sections": [
+          {
+            "name": "Mt. Moon (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 520,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Pokemon Center",
+        "sections": [
+          {
+            "name": "Route 4 Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 200,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 4 Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Route 4 Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Pokémon Center Visit",
+        "sections": [
+          {
+            "ref": "Routes/Route 4 West/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Route 4 Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  }
+]

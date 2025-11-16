@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Route 25",
+    "children": [
+      {
+        "name": "Route 25 Northwest Hidden Item Near Bush",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Northwest Hidden Item Near Bush",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 232,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Route 25 Item Near Bush",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Item Near Bush",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 424,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Route 25 Hidden Item Near South Flowers",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hidden Item Near South Flowers",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 536,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Route 25 Hidden Item Near North Flowers",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hidden Item Near North Flowers",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 72,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 25 Hidden Item Past Sea Cottage",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hidden Item Past Sea Cottage",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 360,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Camper Flint",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Camper Flint Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 456,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Hiker Franklin",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hiker Franklin Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 25/Hiker Franklin Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 184,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Hiker Nob",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hiker Nob Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 440,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Hiker Wayne",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Hiker Wayne Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 280,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Lass Haley",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Lass Haley Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Kelsey",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Picnicker Kelsey Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 25/Picnicker Kelsey Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 25/Picnicker Kelsey Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 25/Picnicker Kelsey Rematch Reward 3",
+            "name": "Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 360,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Youngster Chad",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Youngster Chad Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 25/Youngster Chad Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 25/Youngster Chad Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 25/Youngster Chad Rematch Reward 3",
+            "name": "Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 8,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Youngster Dan",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Youngster Dan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 360,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Youngster Joey",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Youngster Joey Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_west",
+            "x": 296,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Route 25 Beauty",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Beauty Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 216,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Route 25 Man",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Man Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 216,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Sea Cottage",
+        "sections": [
+          {
+            "name": "Sea Cottage"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 248,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sea Cottage",
+    "children": [
+      {
+        "name": "Sea Cottage Bill",
+        "sections": [
+          {
+            "ref": "Routes/Route 25/Bill Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sea_cottage",
+            "x": 120,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Sea Cottage Exit",
+        "sections": [
+          {
+            "name": "Sea Cottage Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sea_cottage",
+            "x": 120,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

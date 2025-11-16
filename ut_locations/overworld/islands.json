@@ -1,0 +1,1312 @@
+[
+  {
+    "name": "Islands",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "One Island Town",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Delivery for Lostelle's Dad"
+          },
+          {
+            "name": "Meet Celio"
+          },
+          {
+            "name": "Celio Gift (Deliver Ruby)"
+          },
+          {
+            "name": "Celio Gift (Deliver Sapphire)"
+          },
+          {
+            "name": "Celio Info 1"
+          },
+          {
+            "name": "Celio Info 2"
+          },
+          {
+            "name": "Celio Info 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 20,
+            "y": 228
+          },
+          {
+            "map": "sevii_123",
+            "x": 20,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Treasure Beach",
+        "sections": [
+          {
+            "name": "Swimmer Amara Reward"
+          },
+          {
+            "name": "Beach West Hidden Item"
+          },
+          {
+            "name": "Beach East Hidden Item"
+          },
+          {
+            "name": "Tall Grass Northwest Hidden Item"
+          },
+          {
+            "name": "Tall Grass Northeast Hidden Item"
+          },
+          {
+            "name": "Tall Grass Center Hidden Item"
+          },
+          {
+            "name": "Tall Grass East Hidden Item"
+          },
+          {
+            "name": "Tall Grass Southwest Hidden Item"
+          },
+          {
+            "name": "Tall Grass Southeast Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 20,
+            "y": 244,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 20,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Kindle Road",
+        "sections": [
+          {
+            "name": "Swimmer Abigail Reward"
+          },
+          {
+            "name": "Picnicker Claire Reward"
+          },
+          {
+            "name": "Camper Bryce Reward"
+          },
+          {
+            "name": "Crush Girl Tanya Reward"
+          },
+          {
+            "name": "Crush Girl Tanya Rematch Reward 1"
+          },
+          {
+            "name": "Crush Girl Tanya Rematch Reward 2"
+          },
+          {
+            "name": "Plateau Item"
+          },
+          {
+            "name": "Isolated Beach Item"
+          },
+          {
+            "name": "Swimmer Garrett Reward"
+          },
+          {
+            "name": "Item Behind Smashable Rock"
+          },
+          {
+            "name": "Crush Kin Mik & Kia Reward"
+          },
+          {
+            "name": "Crush Kin Mik & Kia Rematch Reward 1"
+          },
+          {
+            "name": "Crush Kin Mik & Kia Rematch Reward 2"
+          },
+          {
+            "name": "Black Belt Hugh Reward"
+          },
+          {
+            "name": "Black Belt Hugh Rematch Reward 1"
+          },
+          {
+            "name": "Black Belt Hugh Rematch Reward 2"
+          },
+          {
+            "name": "Black Belt Shea Reward"
+          },
+          {
+            "name": "Black Belt Shea Rematch Reward 1"
+          },
+          {
+            "name": "Black Belt Shea Rematch Reward 2"
+          },
+          {
+            "name": "Crush Girl Sharon Reward"
+          },
+          {
+            "name": "Crush Girl Sharon Rematch Reward 1"
+          },
+          {
+            "name": "Crush Girl Sharon Rematch Reward 2"
+          },
+          {
+            "name": "Swimmer Finn Reward"
+          },
+          {
+            "name": "Swimmer Finn Rematch Reward"
+          },
+          {
+            "name": "Swimmer Maria Reward"
+          },
+          {
+            "name": "Fisherman Tommy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 28,
+            "y": 216,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 28,
+            "y": 72,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Ember Spa",
+        "sections": [
+          {
+            "name": "Rock Smash Man Gift"
+          },
+          {
+            "name": "Black Belt Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 28,
+            "y": 208,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 28,
+            "y": 64,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Two Island Town",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Item Behind Cuttable Tree"
+          },
+          {
+            "name": "Market Stall Item 1"
+          },
+          {
+            "name": "Market Stall Item 2"
+          },
+          {
+            "name": "Market Stall Item 3"
+          },
+          {
+            "name": "Market Stall Item 4"
+          },
+          {
+            "name": "Market Stall Item 5"
+          },
+          {
+            "name": "Market Stall Item 6"
+          },
+          {
+            "name": "Market Stall Item 7"
+          },
+          {
+            "name": "Market Stall Item 8"
+          },
+          {
+            "name": "Market Stall Item 9"
+          },
+          {
+            "name": "Beauty Info"
+          },
+          {
+            "name": "Lostelle's Dad Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 84,
+            "y": 236
+          },
+          {
+            "map": "sevii_123",
+            "x": 84,
+            "y": 92
+          }
+        ]
+      },
+      {
+        "name": "Cape Brink",
+        "sections": [
+          {
+            "name": "Hidden Item Across Pond"
+          },
+          {
+            "name": "Hidden Item Behind House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 84,
+            "y": 224,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 84,
+            "y": 80,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path",
+        "sections": [
+          {
+            "name": "Rock Hidden Item"
+          },
+          {
+            "name": "Prospector Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 164,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 164,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Island Town",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Lostelle Gift"
+          },
+          {
+            "name": "Biker Goon 1 Reward"
+          },
+          {
+            "name": "Biker Goon 2 Reward"
+          },
+          {
+            "name": "Biker Goon 3 Reward"
+          },
+          {
+            "name": "Cue Ball Paxton Reward"
+          },
+          {
+            "name": "Anti-Biker Gift"
+          },
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Sabrina Fan Info"
+          },
+          {
+            "name": "Item Behind East Fence"
+          },
+          {
+            "name": "Hidden Item Behind West Fence"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 156,
+            "y": 260
+          },
+          {
+            "map": "sevii_123",
+            "x": 156,
+            "y": 116
+          }
+        ]
+      },
+      {
+        "name": "Bond Bridge",
+        "sections": [
+          {
+            "name": "Twins Joy & Meg Reward"
+          },
+          {
+            "name": "Twins Joy & Meg Rematch Reward"
+          },
+          {
+            "name": "Rock Hidden Item"
+          },
+          {
+            "name": "Aroma Lady Violet Reward"
+          },
+          {
+            "name": "Tuber Alexis Reward"
+          },
+          {
+            "name": "East Beach Hidden Item"
+          },
+          {
+            "name": "Swimmer Tisha Reward"
+          },
+          {
+            "name": "West Beach Hidden Item"
+          },
+          {
+            "name": "Tuber Amira Reward"
+          },
+          {
+            "name": "Tuber Amira Rematch Reward"
+          },
+          {
+            "name": "Aroma Lady Nikki Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 140,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_123",
+            "x": 140,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Four Island Town",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Beach Southeast Hidden Item"
+          },
+          {
+            "name": "Beach Northwest Hidden Item"
+          },
+          {
+            "name": "Beach Item"
+          },
+          {
+            "name": "Bookshelf Info"
+          },
+          {
+            "name": "Old Man Info"
+          },
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Old Woman Info"
+          },
+          {
+            "name": "Little Girl Info"
+          },
+          {
+            "name": "Northeast Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 228,
+            "y": 52
+          },
+          {
+            "map": "sevii_45",
+            "x": 36,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Five Island Town",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 332,
+            "y": 108
+          },
+          {
+            "map": "sevii_45",
+            "x": 140,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Five Isle Meadow",
+        "sections": [
+          {
+            "name": "Item Behind Cuttable Tree"
+          },
+          {
+            "name": "North Team Rocket Grunt Reward"
+          },
+          {
+            "name": "Center Team Rocket Grunt Reward"
+          },
+          {
+            "name": "South Team Rocket Grunt Reward"
+          },
+          {
+            "name": "Southwest Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 108,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 148,
+            "y": 108,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Memorial Pillar",
+        "sections": [
+          {
+            "name": "Bird Keeper Milo Reward"
+          },
+          {
+            "name": "Bird Keeper Milo Rematch Reward"
+          },
+          {
+            "name": "Tall Grass North Hidden Item"
+          },
+          {
+            "name": "Bird Keeper Chaz Reward"
+          },
+          {
+            "name": "Bird Keeper Chaz Rematch Reward"
+          },
+          {
+            "name": "Tall Grass South Hidden Item (Left)"
+          },
+          {
+            "name": "Tall Grass South Hidden Item (Right)"
+          },
+          {
+            "name": "Bird Keeper Harold Reward"
+          },
+          {
+            "name": "Bird Keeper Harold Rematch Reward"
+          },
+          {
+            "name": "Memorial Man Gift"
+          },
+          {
+            "name": "South Island Item"
+          },
+          {
+            "name": "South Beach Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 348,
+            "y": 124,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 156,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Water Labyrinth",
+        "sections": [
+          {
+            "name": "Gentleman Info"
+          },
+          {
+            "name": "Pokémon Breeder Alize Reward"
+          },
+          {
+            "name": "Pokémon Breeder Alize Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 324,
+            "y": 100,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 132,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Resort Gorgeous",
+        "sections": [
+          {
+            "name": "Painter Rayna Reward"
+          },
+          {
+            "name": "Painter Rayna Rematch Reward"
+          },
+          {
+            "name": "West Island Hidden Item"
+          },
+          {
+            "name": "Lady Jacki Reward"
+          },
+          {
+            "name": "Main Island Northwest Hidden Item"
+          },
+          {
+            "name": "Youngster Destin Reward"
+          },
+          {
+            "name": "Youngster Destin Rematch Reward"
+          },
+          {
+            "name": "Main Island Southwest Hidden Item"
+          },
+          {
+            "name": "Lady Gillian Reward"
+          },
+          {
+            "name": "Painter Celina Reward"
+          },
+          {
+            "name": "Main Island Southeast Hidden Item"
+          },
+          {
+            "name": "Selphy Gift (Show Pokemon)"
+          },
+          {
+            "name": "Bookshelf Info"
+          },
+          {
+            "name": "Painter Daisy Reward"
+          },
+          {
+            "name": "Swimmer Toby Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "sevii_45",
+            "x": 148,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Six Island Town",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Old Woman Info"
+          },
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Hidden Item Behind Pokémon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 204
+          },
+          {
+            "map": "sevii_67",
+            "x": 148,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Water Path",
+        "sections": [
+          {
+            "name": "Juggler Edward Reward"
+          },
+          {
+            "name": "Tall Grass North Hidden Item"
+          },
+          {
+            "name": "Tall Grass South Hidden Item"
+          },
+          {
+            "name": "Hiker Earl Reward"
+          },
+          {
+            "name": "Hiker Earl Rematch Reward"
+          },
+          {
+            "name": "South Island Item"
+          },
+          {
+            "name": "Swimmer Denise Reward"
+          },
+          {
+            "name": "Swimmer Samir Reward"
+          },
+          {
+            "name": "Swimmer Samir Rematch Reward"
+          },
+          {
+            "name": "Twins Miu & Mia Reward"
+          },
+          {
+            "name": "Aroma Lady Rose Reward"
+          },
+          {
+            "name": "North Island Hidden Item"
+          },
+          {
+            "name": "North Island Item"
+          },
+          {
+            "name": "Woman Gift (Show Heracross)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 348,
+            "y": 204,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Ruin Valley",
+        "sections": [
+          {
+            "name": "Southeast Item"
+          },
+          {
+            "name": "Southwest Item"
+          },
+          {
+            "name": "Hiker Daryl Reward"
+          },
+          {
+            "name": "Plateau Item"
+          },
+          {
+            "name": "PokéManiac Hector Reward"
+          },
+          {
+            "name": "PokéManiac Hector Rematch Reward"
+          },
+          {
+            "name": "Ruin Maniac Stanly Reward"
+          },
+          {
+            "name": "Ruin Maniac Foster Reward"
+          },
+          {
+            "name": "Ruin Maniac Larry Reward"
+          },
+          {
+            "name": "Ruin Maniac Larry Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 340,
+            "y": 220,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 148,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Green Path",
+        "sections": [
+          {
+            "name": "Psychic Jaclyn Reward"
+          },
+          {
+            "name": "Psychic Jaclyn Rematch Reward"
+          },
+          {
+            "name": "West Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 332,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 140,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Outcast Island",
+        "sections": [
+          {
+            "name": "Swimmer Nicole Reward"
+          },
+          {
+            "name": "Swimmer Nicole Rematch Reward"
+          },
+          {
+            "name": "Sis and Bro Ava & Geb Reward"
+          },
+          {
+            "name": "Swimmer Mymo Reward"
+          },
+          {
+            "name": "West Beach Hidden Item"
+          },
+          {
+            "name": "Team Rocket Grunt Reward"
+          },
+          {
+            "name": "East Beach Hidden Item"
+          },
+          {
+            "name": "Fisherman Tylor Reward"
+          },
+          {
+            "name": "North Beach Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 324,
+            "y": 172,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 132,
+            "y": 28,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Town",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Scientist Gift 1 (Trade Scanner)"
+          },
+          {
+            "name": "Scientist Gift 2 (Trade Scanner)"
+          },
+          {
+            "name": "Bookshelf Info"
+          },
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 244,
+            "y": 228
+          },
+          {
+            "map": "sevii_67",
+            "x": 52,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Canyon Entrance",
+        "sections": [
+          {
+            "name": "Aroma Lady Miah Reward"
+          },
+          {
+            "name": "Juggler Mason Reward"
+          },
+          {
+            "name": "Juggler Mason Rematch Reward"
+          },
+          {
+            "name": "Pokémon Ranger Nicolas Reward"
+          },
+          {
+            "name": "Pokémon Ranger Nicolas Rematch Reward"
+          },
+          {
+            "name": "Pokémon Ranger Madeline Reward"
+          },
+          {
+            "name": "Pokémon Ranger Madeline Rematch Reward"
+          },
+          {
+            "name": "Southwest Hidden Item"
+          },
+          {
+            "name": "Young Couple Eve & Jon Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 244,
+            "y": 236,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 52,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon",
+        "sections": [
+          {
+            "name": "Cool Couple Lex & Nya Reward"
+          },
+          {
+            "name": "Cool Couple Lex & Nya Rematch Reward"
+          },
+          {
+            "name": "North Item"
+          },
+          {
+            "name": "Tamer Evan Reward"
+          },
+          {
+            "name": "Tamer Evan Rematch Reward"
+          },
+          {
+            "name": "Tall Grass Item"
+          },
+          {
+            "name": "Black Belt Info"
+          },
+          {
+            "name": "Pokémon Ranger Jackson Reward"
+          },
+          {
+            "name": "Pokémon Ranger Jackson Rematch Reward"
+          },
+          {
+            "name": "Pokémon Ranger Katelyn Reward"
+          },
+          {
+            "name": "Pokémon Ranger Katelyn Rematch Reward"
+          },
+          {
+            "name": "Crush Girl Cyndy Reward"
+          },
+          {
+            "name": "Crush Girl Cyndy Rematch Reward"
+          },
+          {
+            "name": "Item Behind Smashable Rocks"
+          },
+          {
+            "name": "Cooltrainer Leroy Reward"
+          },
+          {
+            "name": "Cooltrainer Leroy Rematch Reward"
+          },
+          {
+            "name": "Cooltrainer Michelle Reward"
+          },
+          {
+            "name": "Cooltrainer Michelle Rematch Reward"
+          },
+          {
+            "name": "Chansey House Item"
+          },
+          {
+            "name": "Hidden Item Near Chansey House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 252,
+            "y": 244,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 60,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Ruins",
+        "sections": [
+          {
+            "name": "Island Item"
+          },
+          {
+            "name": "Viapois Chamber Island Hidden Item"
+          },
+          {
+            "name": "Ruin Maniac Brandon Reward"
+          },
+          {
+            "name": "Scufib Chamber Island Hidden Item"
+          },
+          {
+            "name": "Gentleman Clifford Reward"
+          },
+          {
+            "name": "Painter Edna Reward"
+          },
+          {
+            "name": "Weepth Chamber Island Hidden Item"
+          },
+          {
+            "name": "Ruin Maniac Benjamin Reward"
+          },
+          {
+            "name": "Monean Chamber Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 252,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 60,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower Exterior",
+        "sections": [
+          {
+            "name": "Psychic Rodette Reward"
+          },
+          {
+            "name": "Psychic Rodette Rematch Reward"
+          },
+          {
+            "name": "Hidden Item Near Fence"
+          },
+          {
+            "name": "Beach West Hidden Item"
+          },
+          {
+            "name": "Beach North Hidden Item"
+          },
+          {
+            "name": "Psychic Dario Reward"
+          },
+          {
+            "name": "Psychic Dario Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 244,
+            "y": 220,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 52,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 244,
+            "y": 212,
+            "size": 4
+          },
+          {
+            "map": "sevii_67",
+            "x": 52,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock",
+        "sections": [
+          {
+            "name": "Hidden Item Near Ho-Oh"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 284,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 156,
+            "y": 134,
+            "size": 4,
+            "force_invisibility_rules": [
+              "kanto_only_off"
+            ]
+          },
+          {
+            "map": "sevii_45",
+            "x": 92,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      }
+    ]
+  }
+]

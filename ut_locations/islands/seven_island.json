@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Seven Island Town",
+    "children": [
+      {
+        "name": "Seven Island Visit",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Scientist",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Scientist Gift 1 (Trade Scanner)",
+            "name": "Gift 1 (Trade Scanner)"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Scientist Gift 2 (Trade Scanner)",
+            "name": "Gift 2 (Trade Scanner)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 248,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Trainer Battle House",
+        "sections": [
+          {
+            "name": "Seven Island Trainer Battle House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 184,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Poke Mart",
+        "sections": [
+          {
+            "name": "Seven Island Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Pokemon Center",
+        "sections": [
+          {
+            "name": "Seven Island Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Harbor",
+        "sections": [
+          {
+            "name": "Seven Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 264,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Seven Island Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Pokémon Center Bookshelf",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Seven Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Mart",
+    "children": [
+      {
+        "name": "Seven Island Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 6"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 7"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 8"
+          },
+          {
+            "ref": "Islands/Seven Island Town/Shop Item 1",
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Seven Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Trainer Battle House",
+    "children": [
+      {
+        "name": "Seven Island Trainer Battle House Exit",
+        "sections": [
+          {
+            "name": "Seven Island Trainer Battle House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_battle_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Harbor",
+    "children": [
+      {
+        "name": "Seven Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Seven Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

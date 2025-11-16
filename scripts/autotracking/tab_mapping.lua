@@ -356,79 +356,79 @@ TAB_MAPPING = {
         [0] = {"Dungeons", "S.S. Anne", "Exterior"}
     },
     [261] = { -- S.S. Anne 1F Corridor
-        [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Corridor"}
     },
     [262] = { -- S.S. Anne 2F Corridor
-        [0] = {"Dungeons", "S.S. Anne", "2F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "2F", "Corridor"}
     },
     [263] = { -- S.S. Anne 3F Corridor
         [0] = {"Dungeons", "S.S. Anne", "3F Corridor"}
     },
     [264] = { -- S.S. Anne B1F Corridor
-        [0] = {"Dungeons", "S.S. Anne", "B1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "B1F", "Corridor"}
     },
     [265] = { -- S.S. Anne Deck
         [0] = {"Dungeons", "S.S. Anne", "Deck"}
     },
     [266] = { -- S.S. Anne Kitchen
-        [0] = {"Dungeons", "S.S. Anne", "Kitchen"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Kitchen"}
     },
     [267] = { -- S.S. Anne Captain's Office
         [0] = {"Dungeons", "S.S. Anne", "Captain's Office"}
     },
     [268] = { -- S.S. Anne 1F Room 1
-        [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Room 1"}
     },
     [269] = { -- S.S. Anne 1F Room 2
-        [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Room 2"}
     },
     [270] = { -- S.S. Anne 1F Room 3
-        [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Room 3"}
     },
     [271] = { -- S.S. Anne 1F Room 4
-        [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Room 4"}
     },
     [272] = { -- S.S. Anne 1F Room 5
-        [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Room 5"}
     },
     [273] = { -- S.S. Anne 1F Room 7
-        [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Room 7"}
     },
     [274] = { -- S.S. Anne 2F Room 1
-        [0] = {"Dungeons", "S.S. Anne", "2F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "2F", "Room 1"}
     },
     [275] = { -- S.S. Anne 2F Room 2
-        [0] = {"Dungeons", "S.S. Anne", "2F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "2F", "Room 2"}
     },
     [276] = { -- S.S. Anne 2F Room 3
-        [0] = {"Dungeons", "S.S. Anne", "2F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "2F", "Room 3"}
     },
     [277] = { -- S.S. Anne 2F Room 4
-        [0] = {"Dungeons", "S.S. Anne", "2F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "2F", "Room 4"}
     },
     [278] = { -- S.S. Anne 2F Room 5
-        [0] = {"Dungeons", "S.S. Anne", "2F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "2F", "Room 5"}
     },
     [279] = { -- S.S. Anne 2F Room 6
-        [0] = {"Dungeons", "S.S. Anne", "2F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "2F", "Room 6"}
     },
     [280] = { -- S.S. Anne B1F Room 1
-        [0] = {"Dungeons", "S.S. Anne", "B1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "B1F", "Room 1"}
     },
     [281] = { -- S.S. Anne B1F Room 2
-        [0] = {"Dungeons", "S.S. Anne", "B1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "B1F", "Room 2"}
     },
     [282] = { -- S.S. Anne B1F Room 3
-        [0] = {"Dungeons", "S.S. Anne", "B1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "B1F", "Room 3"}
     },
     [283] = { -- S.S. Anne B1F Room 4
-        [0] = {"Dungeons", "S.S. Anne", "B1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "B1F", "Room 4"}
     },
     [284] = { -- S.S. Anne B1F Room 5
-        [0] = {"Dungeons", "S.S. Anne", "B1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "B1F", "Room 5"}
     },
     [285] = { -- S.S. Anne 1F Room 6
-        [0] = {"Dungeons", "S.S. Anne", "1F Corridor"}
+        [0] = {"Dungeons", "S.S. Anne", "1F", "Room 6"}
     },
     [292] = { -- Diglett's Cave North Entrance
       [0] = {"Dungeons", "Diglett's Cave", "North Entrance"}
@@ -811,7 +811,7 @@ TAB_MAPPING = {
         [0] = {"Islands", "Five Island", "Resort Gorgeous", "Resort", "West"},
         [1] = {"Islands", "Five Island", "Resort Gorgeous", "Resort", "East"}
     },
-    [9984] = { -- Resort Gorgeous House
+    [9984] = { -- Selphy's House
         [0] = {"Islands", "Five Island", "Resort Gorgeous", "Selphy's House"}
     },
     [524] = { -- Lost Cave Entrance
@@ -1056,13 +1056,13 @@ TAB_MAPPING = {
         [2] = {"Islands", "Navel Rock", "Fork", "South"}
     },
     [571] = { -- Navel Rock Harbor
-        [0] = {"Islands", "Navel Rock", "Exterior"}
+        [0] = {"Islands", "Navel Rock", "Harbor"}
     },
     [568] = { -- Birth Island Exterior
         [0] = {"Islands", "Birth Island", "Exterior"}
     },
     [570] = { -- Birth Island Harbor
-        [0] = {"Islands", "Birth Island", "Exterior"}
+        [0] = {"Islands", "Birth Island", "Harbor"}
     },
     [787] = { -- Route 1
         [0] = {"Routes", "Route 1"}
@@ -1178,7 +1178,7 @@ TAB_MAPPING = {
     [802] = { -- Route 16
         [0] = {"Routes", "Route 16", "Route"}
     },
-    [6400] = { -- Route 16 House
+    [6400] = { -- Route 16 Fly House
         [0] = {"Routes", "Route 16", "Fly House"}
     },
     [6401] = { -- Route 16 North Entrance 1F

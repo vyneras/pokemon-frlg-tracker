@@ -1,0 +1,293 @@
+[
+  {
+    "name": "Sevault Canyon",
+    "children": [
+      {
+        "name": "Sevault Canyon North Item",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/North Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 280,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Tall Grass Item",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Tall Grass Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 120,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Black Belt",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Black Belt Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 136,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Item Behind Smashable Rocks",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Item Behind Smashable Rocks",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 296,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Hidden Item Near Chansey House",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Hidden Item Near Chansey House",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 248,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Leroy",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Cooltrainer Leroy Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Sevault Canyon/Cooltrainer Leroy Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 120,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Michelle",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Cooltrainer Michelle Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Sevault Canyon/Cooltrainer Michelle Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Cool Couple Lex & Nya",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Cool Couple Lex & Nya Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Sevault Canyon/Cool Couple Lex & Nya Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 232,
+            "y": 224
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Cyndy",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Crush Girl Cyndy Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Sevault Canyon/Crush Girl Cyndy Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 216,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Jackson",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Pokémon Ranger Jackson Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Sevault Canyon/Pokémon Ranger Jackson Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 56,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Ranger Katelyn",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Pokémon Ranger Katelyn Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Sevault Canyon/Pokémon Ranger Katelyn Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 56,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Tamer Evan",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Tamer Evan Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Sevault Canyon/Tamer Evan Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 216,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Key",
+        "sections": [
+          {
+            "name": "Tanoby Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 120,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Chansey House",
+        "sections": [
+          {
+            "name": "Sevault Canyon Chansey House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sevault Canyon Chansey House",
+    "children": [
+      {
+        "name": "Sevault Canyon Chansey House Item",
+        "sections": [
+          {
+            "ref": "Islands/Sevault Canyon/Chansey House Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_chansey_house",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Chansey House Exit",
+        "sections": [
+          {
+            "name": "Sevault Canyon Chansey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_chansey_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,672 @@
+[
+  {
+    "name": "Fuchsia City",
+    "children": [
+      {
+        "name": "Fuchsia City Visit",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Gym Sign",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Gym Sign Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 88,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Hidden Item Behind Fishing Guru's House",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Hidden Item Behind Fishing Guru's House",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 536,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Koga's Daughter",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Koga's Daughter Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 648,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Entrance",
+        "sections": [
+          {
+            "name": "Safari Zone Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 392,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Warden's House",
+        "sections": [
+          {
+            "name": "Safari Zone Warden's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 536,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Poke Mart",
+        "sections": [
+          {
+            "name": "Fuchsia Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 184,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Office",
+        "sections": [
+          {
+            "name": "Safari Zone Office"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 456,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Gym",
+        "sections": [
+          {
+            "name": "Fuchsia Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 152,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Bill's Grandpa's House",
+        "sections": [
+          {
+            "name": "Bill's Grandpa's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 232,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Pokemon Center",
+        "sections": [
+          {
+            "name": "Fuchsia Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 408,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Fishing House (Front)",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 616,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Move Deleter's House",
+        "sections": [
+          {
+            "name": "Move Deleter's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 312,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Fishing House (Back)",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 632,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Office",
+    "children": [
+      {
+        "name": "Safari Zone Office Worker",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Safari Zone Worker Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_office",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Office Exit",
+        "sections": [
+          {
+            "name": "Safari Zone Office Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_office",
+            "x": 104,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Fuchsia Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Fuchsia Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Gym",
+    "children": [
+      {
+        "name": "Juggler Nate",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Nate Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 40,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Juggler Kayden",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kayden Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Juggler Kirk",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kirk Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kirk Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Tamer Edgar",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Tamer Edgar Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Tamer Phil",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Tamer Phil Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Juggler Shawn",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Shawn Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 40,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Koga",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Leader Koga Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Koga Info",
+            "name": "Info"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Fuchsia Gym Prize",
+            "name": "Gym Prize"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Koga TM",
+            "name": "TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 120,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Gym Exit",
+        "sections": [
+          {
+            "name": "Fuchsia Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 120,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bill's Grandpa's House",
+    "children": [
+      {
+        "name": "Bill's Grandpa",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Bill's Grandpa Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bills_grandpas_house",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Bill's Grandpa's House Exit",
+        "sections": [
+          {
+            "name": "Bill's Grandpa's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bills_grandpas_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Warden's House",
+    "children": [
+      {
+        "name": "Safari Zone Warden",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Safari Zone Warden Gift (Return Teeth)",
+            "name": "Gift (Return Teeth)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 56,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Warden's House Item",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Safari Zone Warden's House Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Warden's House Bookshelf",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 72,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Warden's House Exit",
+        "sections": [
+          {
+            "name": "Safari Zone Warden's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 104,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Fishing House",
+    "children": [
+      {
+        "name": "Fuchsia Fishing Guru",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Fishing Guru Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_fishing_house",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Fishing House Exit (Front)",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_fishing_house",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Fishing House Exit (Back)",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_fishing_house",
+            "x": 56,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Mart",
+    "children": [
+      {
+        "name": "Fuchsia Poké Mart Clerk",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 1",
+            "name": "Shop Item 1"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 2",
+            "name": "Shop Item 2"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 3",
+            "name": "Shop Item 3"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 4",
+            "name": "Shop Item 4"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 5",
+            "name": "Shop Item 5"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Shop Item 6",
+            "name": "Shop Item 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Fuchsia Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Move Deleter's House",
+    "children": [
+      {
+        "name": "Move Deleter's House Exit",
+        "sections": [
+          {
+            "name": "Move Deleter's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "move_deleters_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

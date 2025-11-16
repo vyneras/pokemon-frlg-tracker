@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Two Island Town",
+    "children": [
+      {
+        "name": "Two Island Visit",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Unlock Fly Destination",
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Two Island Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Item Behind Cuttable Tree",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 632,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Market Stall Clerk",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 1",
+            "name": "Market Stall Item 1"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 2",
+            "name": "Market Stall Item 2"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 3",
+            "name": "Market Stall Item 3"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 4",
+            "name": "Market Stall Item 4"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 5",
+            "name": "Market Stall Item 5"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 6",
+            "name": "Market Stall Item 6"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 7",
+            "name": "Market Stall Item 7"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 8",
+            "name": "Market Stall Item 8"
+          },
+          {
+            "ref": "Islands/Two Island Town/Market Stall Item 9",
+            "name": "Market Stall Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 456,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Two Island Beauty",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Beauty Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Two Island Game Corner",
+        "sections": [
+          {
+            "name": "Two Island Game Corner"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 632,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Move Maniac's House",
+        "sections": [
+          {
+            "name": "Move Maniac's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 536,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Two Island Pokemon Center",
+        "sections": [
+          {
+            "name": "Two Island Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 344,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Two Island Harbor",
+        "sections": [
+          {
+            "name": "Two Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 168,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Pokémon Center 1F",
+    "children": [
+      {
+        "name": "Two Island Pokémon Center PC",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/PC Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Two Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "name": "Two Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_pokemon_center_1f",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Game Corner",
+    "children": [
+      {
+        "name": "Lostelle's Dad",
+        "sections": [
+          {
+            "ref": "Islands/Two Island Town/Lostelle's Dad Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_game_corner",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Two Island Game Corner Exit",
+        "sections": [
+          {
+            "name": "Two Island Game Corner Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_game_corner",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Move Maniac's House",
+    "children": [
+      {
+        "name": "Move Maniac's House Exit",
+        "sections": [
+          {
+            "name": "Move Maniac's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_move_maniacs_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Harbor",
+    "children": [
+      {
+        "name": "Two Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Two Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

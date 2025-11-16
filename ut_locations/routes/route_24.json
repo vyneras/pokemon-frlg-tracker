@@ -1,0 +1,175 @@
+[
+  {
+    "name": "Route 24",
+    "children": [
+      {
+        "name": "Route 24 Team Rocket Grunt",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Team Rocket Grunt Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 24/Clear Nugget Bridge",
+            "name": "Clear Nugget Bridge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 200,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Route 24 Northwest Ledge Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Northwest Ledge Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 184,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Route 24 Northeast Ledge Hidden Item",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Northeast Ledge Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 312,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Cale",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Bug Catcher Cale Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 200,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Camper Ethan",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Camper Ethan Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 200,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Camper Shane",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Camper Shane Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 88,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Lass Ali",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Lass Ali Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 168,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Lass Reli",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Lass Reli Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 24/Lass Reli Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 24/Lass Reli Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 168,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Youngster Timmy",
+        "sections": [
+          {
+            "ref": "Routes/Route 24/Youngster Timmy Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 24/Youngster Timmy Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 24/Youngster Timmy Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 24/Youngster Timmy Rematch Reward 3",
+            "name": "Rematch Reward 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_24",
+            "x": 200,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  }
+]

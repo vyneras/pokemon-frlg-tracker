@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Route 16",
+    "children": [
+      {
+        "name": "Route 16 Snorlax",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Hidden Item Under Snorlax",
+            "name": "Hidden Item Under Snorlax"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 504,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Young Couple Lea & Jed",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Young Couple Lea & Jed Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 496,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Biker Hideo",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Biker Hideo Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Biker Lao",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Biker Lao Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 264,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Biker Ruben",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Biker Ruben Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 16/Biker Ruben Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 136,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Camron",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Cue Ball Camron Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 16/Cue Ball Camron Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 104,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Koji",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Cue Ball Koji Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 232,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Luke",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Cue Ball Luke Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate (Northeast)",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Northeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 440,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate (Northwest)",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Northwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 328,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate (Southeast)",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Southeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate (Southwest)",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Southwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 328,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Fly House",
+        "sections": [
+          {
+            "name": "Route 16 Fly House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 168,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Fly House",
+    "children": [
+      {
+        "name": "Route 16 Fly House Woman",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Woman Gift",
+            "name": "Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_house",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Fly House Exit",
+        "sections": [
+          {
+            "name": "Route 16 Fly House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Gate 1F",
+    "children": [
+      {
+        "name": "Route 16 Gate 1F Exit (Northeast)",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Exit (Northeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 184,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Exit (Northwest)",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Exit (Northwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 24,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Exit (Southeast)",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Exit (Southeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 184,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Exit (Southwest)",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Exit (Southwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 24,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 160,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Gate 2F",
+    "children": [
+      {
+        "name": "Route 16 Gate 2F Oak's Aide",
+        "sections": [
+          {
+            "ref": "Routes/Route 16/Oak's Aide Gift (Pokédex Progress)",
+            "name": "Gift (Pokédex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_2f",
+            "x": 168,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 16 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  }
+]

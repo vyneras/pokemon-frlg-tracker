@@ -1,0 +1,273 @@
+[
+  {
+    "name": "Resort Gorgeous",
+    "children": [
+      {
+        "name": "Resort Gorgeous West Island Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/West Island Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Resort Gorgeous Main Island Northwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Main Island Northwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 440,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Resort Gorgeous Main Island Southwest Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Main Island Southwest Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 440,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Resort Gorgeous Main Island Southeast Hidden Item",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Main Island Southeast Hidden Item",
+            "name": "Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 56,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Painter Rayna",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Painter Rayna Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Resort Gorgeous/Painter Rayna Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 200,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Toby",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Swimmer Toby Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 312,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Lady Gillian",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Lady Gillian Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Lady Jacki",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Lady Jacki Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 376,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Painter Celina",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Painter Celina Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Painter Daisy",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Painter Daisy Reward",
+            "name": "Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Youngster Destin",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Youngster Destin Reward",
+            "name": "Reward"
+          },
+          {
+            "ref": "Islands/Resort Gorgeous/Youngster Destin Rematch Reward",
+            "name": "Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Selphy's House",
+        "sections": [
+          {
+            "name": "Selphy's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 40,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Lost Cave",
+        "sections": [
+          {
+            "name": "Lost Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Selphy's House",
+    "children": [
+      {
+        "name": "Selphy",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Selphy Gift (Show Pokemon)",
+            "name": "Gift (Show Pokemon)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Selphy's House Bookshelf",
+        "sections": [
+          {
+            "ref": "Islands/Resort Gorgeous/Bookshelf Info",
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "x": 144,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Selphy's House Exit",
+        "sections": [
+          {
+            "name": "Selphy's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

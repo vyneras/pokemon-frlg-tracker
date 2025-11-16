@@ -1,0 +1,483 @@
+[
+  {
+    "name": "Gym Overview",
+    "children": [
+      {
+        "name": "Viridian Gym",
+        "sections": [
+          {
+            "ref": "Cities/Viridian City/Gym Guy Info",
+            "name": "Gym Guy Info"
+          },
+          {
+            "ref": "Cities/Viridian City/Tamer Cole Reward",
+            "name": "Tamer Cole Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Black Belt Kiyo Reward",
+            "name": "Black Belt Kiyo Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Cooltrainer Samuel Reward",
+            "name": "Cooltrainer Samuel Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Cooltrainer Yuji Reward",
+            "name": "Cooltrainer Yuji Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Black Belt Atsushi Reward",
+            "name": "Black Belt Atsushi Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Tamer Jason Reward",
+            "name": "Tamer Jason Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Cooltrainer Warren Reward",
+            "name": "Cooltrainer Warren Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Black Belt Takashi Reward",
+            "name": "Black Belt Takashi Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Leader Giovanni Reward",
+            "name": "Leader Giovanni Reward"
+          },
+          {
+            "ref": "Cities/Viridian City/Giovanni Info",
+            "name": "Giovanni Info"
+          },
+          {
+            "ref": "Cities/Viridian City/Viridian Gym Prize",
+            "name": "Viridian Gym Prize"
+          },
+          {
+            "ref": "Cities/Viridian City/Giovanni TM",
+            "name": "Giovanni TM"
+          },
+          {
+            "ref": "Cities/Viridian City/Hidden Item Under Giovanni",
+            "name": "Hidden Item Under Giovanni"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 584,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pewter Gym",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Camper Liam Reward",
+            "name": "Camper Liam Reward"
+          },
+          {
+            "ref": "Cities/Pewter City/Defeat Brock (Event)",
+            "name": "Defeat Brock (Event)"
+          },
+          {
+            "ref": "Cities/Pewter City/Leader Brock Reward",
+            "name": "Leader Brock Reward"
+          },
+          {
+            "ref": "Cities/Pewter City/Brock Info",
+            "name": "Brock Info"
+          },
+          {
+            "ref": "Cities/Pewter City/Pewter Gym Prize",
+            "name": "Pewter Gym Prize"
+          },
+          {
+            "ref": "Cities/Pewter City/Brock TM",
+            "name": "Brock TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 248,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Gym",
+        "sections": [
+          {
+            "ref": "Cities/Cerulean City/Hidden Item in Water",
+            "name": "Hidden Item in Water"
+          },
+          {
+            "ref": "Cities/Cerulean City/Swimmer Luis Reward",
+            "name": "Swimmer Luis Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Swimmer Luis Info",
+            "name": "Swimmer Luis Info"
+          },
+          {
+            "ref": "Cities/Cerulean City/Picnicker Diana Reward",
+            "name": "Picnicker Diana Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Leader Misty Reward",
+            "name": "Leader Misty Reward"
+          },
+          {
+            "ref": "Cities/Cerulean City/Misty Info",
+            "name": "Misty Info"
+          },
+          {
+            "ref": "Cities/Cerulean City/Cerulean Gym Prize",
+            "name": "Cerulean Gym Prize"
+          },
+          {
+            "ref": "Cities/Cerulean City/Misty TM",
+            "name": "Misty TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 504,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Gym",
+        "sections": [
+          {
+            "ref": "Cities/Vermilion City/Sailor Dwayne Reward",
+            "name": "Sailor Dwayne Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Sailor Dwayne Info",
+            "name": "Sailor Dwayne Info"
+          },
+          {
+            "ref": "Cities/Vermilion City/Engineer Baily Reward",
+            "name": "Engineer Baily Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Gentleman Tucker Reward",
+            "name": "Gentleman Tucker Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Gentleman Tucker Info 1",
+            "name": "Gentleman Tucker Info 1"
+          },
+          {
+            "ref": "Cities/Vermilion City/Gentleman Tucker Info 2",
+            "name": "Gentleman Tucker Info 2"
+          },
+          {
+            "ref": "Cities/Vermilion City/Defeat Lt. Surge (Event)",
+            "name": "Defeat Lt. Surge (Event)"
+          },
+          {
+            "ref": "Cities/Vermilion City/Lt. Surge Info",
+            "name": "Lt. Surge Info"
+          },
+          {
+            "ref": "Cities/Vermilion City/Leader Lt. Surge Reward",
+            "name": "Leader Lt. Surge Reward"
+          },
+          {
+            "ref": "Cities/Vermilion City/Vermilion Gym Prize",
+            "name": "Vermilion Gym Prize"
+          },
+          {
+            "ref": "Cities/Vermilion City/Lt. Surge TM",
+            "name": "Lt. Surge TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Celadon Gym",
+        "sections": [
+          {
+            "ref": "Cities/Celadon City/Lass Kay Reward",
+            "name": "Lass Kay Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Beauty Bridget Reward",
+            "name": "Beauty Bridget Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Beauty Tamia Reward",
+            "name": "Beauty Tamia Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Beauty Tamia Info",
+            "name": "Beauty Tamia Info"
+          },
+          {
+            "ref": "Cities/Celadon City/Picnicker Tina Reward",
+            "name": "Picnicker Tina Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Cooltrainer Mary Reward",
+            "name": "Cooltrainer Mary Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Beauty Lori Reward",
+            "name": "Beauty Lori Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Lass Lisa Reward",
+            "name": "Lass Lisa Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Lass Lisa Info",
+            "name": "Lass Lisa Info"
+          },
+          {
+            "ref": "Cities/Celadon City/Defeat Erika (Event)",
+            "name": "Defeat Erika (Event)"
+          },
+          {
+            "ref": "Cities/Celadon City/Leader Erika Reward",
+            "name": "Leader Erika Reward"
+          },
+          {
+            "ref": "Cities/Celadon City/Erika Info 1",
+            "name": "Erika Info 1"
+          },
+          {
+            "ref": "Cities/Celadon City/Celadon Gym Prize",
+            "name": "Celadon Gym Prize"
+          },
+          {
+            "ref": "Cities/Celadon City/Erika TM",
+            "name": "Erika TM"
+          },
+          {
+            "ref": "Cities/Celadon City/Erika Info 2",
+            "name": "Erika Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 184,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Gym",
+        "sections": [
+          {
+            "ref": "Cities/Fuchsia City/Juggler Nate Reward",
+            "name": "Juggler Nate Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kayden Reward",
+            "name": "Juggler Kayden Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kirk Reward",
+            "name": "Juggler Kirk Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Kirk Info",
+            "name": "Juggler Kirk Info"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Tamer Edgar Reward",
+            "name": "Tamer Edgar Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Tamer Phil Reward",
+            "name": "Tamer Phil Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Juggler Shawn Reward",
+            "name": "Juggler Shawn Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Defeat Koga (Event)",
+            "name": "Defeat Koga (Event)"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Leader Koga Reward",
+            "name": "Leader Koga Reward"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Koga Info",
+            "name": "Koga Info"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Fuchsia Gym Prize",
+            "name": "Fuchsia Gym Prize"
+          },
+          {
+            "ref": "Cities/Fuchsia City/Koga TM",
+            "name": "Koga TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 152,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym",
+        "sections": [
+          {
+            "ref": "Cities/Saffron City/Psychic Cameron Reward",
+            "name": "Psychic Cameron Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Channeler Tasha Reward",
+            "name": "Channeler Tasha Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Psychic Tyron Reward",
+            "name": "Psychic Tyron Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Psychic Tyron Info",
+            "name": "Psychic Tyron Info"
+          },
+          {
+            "ref": "Cities/Saffron City/Channeler Stacy Reward",
+            "name": "Channeler Stacy Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Psychic Johan Reward",
+            "name": "Psychic Johan Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Channeler Amanda Reward",
+            "name": "Channeler Amanda Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Psychic Preston Reward",
+            "name": "Psychic Preston Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Defeat Sabrina (Event)",
+            "name": "Defeat Sabrina (Event)"
+          },
+          {
+            "ref": "Cities/Saffron City/Leader Sabrina Reward",
+            "name": "Leader Sabrina Reward"
+          },
+          {
+            "ref": "Cities/Saffron City/Sabrina Info 1",
+            "name": "Sabrina Info 1"
+          },
+          {
+            "ref": "Cities/Saffron City/Sabrina Info 2",
+            "name": "Sabrina Info 2"
+          },
+          {
+            "ref": "Cities/Saffron City/Saffron Gym Prize",
+            "name": "Saffron Gym Prize"
+          },
+          {
+            "ref": "Cities/Saffron City/Sabrina TM",
+            "name": "Sabrina TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 744,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Cinnabar Gym",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Burglar Quinn Reward",
+            "name": "Burglar Quinn Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Erik Reward",
+            "name": "Super Nerd Erik Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Avery Reward",
+            "name": "Super Nerd Avery Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Burglar Ramon Reward",
+            "name": "Burglar Ramon Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Derek Reward",
+            "name": "Super Nerd Derek Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Derek Info",
+            "name": "Super Nerd Derek Info"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Burglar Dusty Reward",
+            "name": "Burglar Dusty Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Super Nerd Zac Reward",
+            "name": "Super Nerd Zac Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Defeat Blaine (Event)",
+            "name": "Defeat Blaine (Event)"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Leader Blaine Reward",
+            "name": "Leader Blaine Reward"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Blaine Info",
+            "name": "Blaine Info"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Cinnabar Gym Prize",
+            "name": "Cinnabar Gym Prize"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Blaine TM",
+            "name": "Blaine TM"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Photo Info 1",
+            "name": "Photo Info 1"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Photo Info 2",
+            "name": "Photo Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 328,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -405,6 +405,13 @@
             ]
           },
           {
+            "name": "Miguel Takes Fossil (Event)",
+            "hosted_item": "miguel_takes_fossil_hosted",
+            "visibility_rules": [
+              "item_locations_on"
+            ]
+          },
+          {
             "name": "B2F - Fossil",
             "chest_unopened_img": "images/locations/fossil.png",
             "chest_opened_img": "images/locations/fossil_bw.png",
@@ -1319,7 +1326,7 @@
           {
             "map": "route_10_south",
             "x": 120,
-            "y": 136,
+            "y": 144,
             "force_invisibility_rules": [
               "$shuffle_dungeons_on"
             ]
@@ -1936,7 +1943,7 @@
             ]
           },
           {
-            "name": "B4F - Rocket Grunt Item",
+            "name": "B4F - Team Rocket Grunt Item",
             "visibility_rules": [
               "item_locations_on"
             ]
@@ -2060,8 +2067,8 @@
           },
           {
             "map": "celadon_game_corner",
-            "x": 264,
-            "y": 40,
+            "x": 256,
+            "y": 44,
             "force_invisibility_rules": [
               "$shuffle_dungeons_on"
             ]
@@ -2078,7 +2085,7 @@
         ],
         "sections": [
           {
-            "name": "Center - Island Item",
+            "name": "Center Area - Island Item",
             "access_rules": [
               "$surf"
             ],
@@ -2087,7 +2094,7 @@
             ]
           },
           {
-            "name": "Center - Island Hidden Item",
+            "name": "Center Area - Island Hidden Item",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
@@ -2098,55 +2105,55 @@
             ]
           },
           {
-            "name": "East - Southeast Plateau Item",
+            "name": "East Area - Southeast Plateau Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "East - Tall Grass Item",
+            "name": "East Area - Tall Grass Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "East - Item Near Bush",
+            "name": "East Area - Item Near Bush",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "East - Item Near Rest House",
+            "name": "East Area - Item Near Rest House",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "East Rest House - Item",
+            "name": "East Area Rest House - Item",
             "visibility_rules": [
               "gym_keys_on,item_locations_on"
             ]
           },
           {
-            "name": "North - South Item",
+            "name": "North Area - South Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "North - Center Item",
+            "name": "North Area - Center Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "North - North Item",
+            "name": "North Area - North Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "North Rest House - Balding Man Info",
+            "name": "North Area Rest House - Balding Man Info",
             "chest_unopened_img": "images/locations/balding_man_info.png",
             "chest_opened_img": "images/locations/balding_man_info_bw.png",
             "access_rules": [
@@ -2157,31 +2164,31 @@
             ]
           },
           {
-            "name": "West - Southeast Item",
+            "name": "West Area - Southeast Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "West - Southwest Item",
+            "name": "West Area - Southwest Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "West - Northeast Item",
+            "name": "West Area - Northeast Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "West - Northwest Item",
+            "name": "West Area - Northwest Item",
             "visibility_rules": [
               "item_locations_on"
             ]
           },
           {
-            "name": "West - Hidden Item Near Secret House",
+            "name": "West Area - Hidden Item Near Secret House",
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
@@ -2200,7 +2207,7 @@
             ]
           },
           {
-            "name": "Center - Land Encounters",
+            "name": "Center Area - Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
             "item_count": 9,
@@ -2210,7 +2217,7 @@
             ]
           },
           {
-            "name": "Center - Surf Encounters",
+            "name": "Center Area - Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
@@ -2221,7 +2228,7 @@
             ]
           },
           {
-            "name": "Center - Old Rod Encounters",
+            "name": "Center Area - Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
@@ -2232,7 +2239,7 @@
             ]
           },
           {
-            "name": "Center - Good Rod Encounters",
+            "name": "Center Area - Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "item_count": 3,
@@ -2245,7 +2252,7 @@
             ]
           },
           {
-            "name": "Center - Super Rod Encounters",
+            "name": "Center Area - Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
             "item_count": 5,
@@ -2258,7 +2265,7 @@
             ]
           },
           {
-            "name": "East - Land Encounters",
+            "name": "East Area - Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
             "item_count": 9,
@@ -2268,7 +2275,7 @@
             ]
           },
           {
-            "name": "East - Surf Encounters",
+            "name": "East Area - Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
@@ -2279,7 +2286,7 @@
             ]
           },
           {
-            "name": "East - Old Rod Encounters",
+            "name": "East Area - Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
@@ -2290,7 +2297,7 @@
             ]
           },
           {
-            "name": "East - Good Rod Encounters",
+            "name": "East Area - Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "item_count": 3,
@@ -2303,7 +2310,7 @@
             ]
           },
           {
-            "name": "East - Super Rod Encounters",
+            "name": "East Area - Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
             "item_count": 5,
@@ -2316,7 +2323,7 @@
             ]
           },
           {
-            "name": "North - Land Encounters",
+            "name": "North Area - Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
             "item_count": 9,
@@ -2326,7 +2333,7 @@
             ]
           },
           {
-            "name": "North - Surf Encounters",
+            "name": "North Area - Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
@@ -2337,7 +2344,7 @@
             ]
           },
           {
-            "name": "North - Old Rod Encounters",
+            "name": "North Area - Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
@@ -2348,7 +2355,7 @@
             ]
           },
           {
-            "name": "North - Good Rod Encounters",
+            "name": "North Area - Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "item_count": 3,
@@ -2361,7 +2368,7 @@
             ]
           },
           {
-            "name": "North - Super Rod Encounters",
+            "name": "North Area - Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
             "item_count": 5,
@@ -2374,7 +2381,7 @@
             ]
           },
           {
-            "name": "West - Land Encounters",
+            "name": "West Area - Land Encounters",
             "chest_unopened_img": "images/locations/grass.png",
             "chest_opened_img": "images/locations/grass_bw.png",
             "item_count": 9,
@@ -2384,7 +2391,7 @@
             ]
           },
           {
-            "name": "West - Surf Encounters",
+            "name": "West Area - Surf Encounters",
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
@@ -2395,7 +2402,7 @@
             ]
           },
           {
-            "name": "West - Old Rod Encounters",
+            "name": "West Area - Old Rod Encounters",
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
@@ -2406,7 +2413,7 @@
             ]
           },
           {
-            "name": "West - Good Rod Encounters",
+            "name": "West Area - Good Rod Encounters",
             "chest_unopened_img": "images/locations/good_rod.png",
             "chest_opened_img": "images/locations/good_rod_bw.png",
             "item_count": 3,
@@ -2419,7 +2426,7 @@
             ]
           },
           {
-            "name": "West - Super Rod Encounters",
+            "name": "West Area - Super Rod Encounters",
             "chest_unopened_img": "images/locations/super_rod.png",
             "chest_opened_img": "images/locations/super_rod_bw.png",
             "item_count": 5,
@@ -4452,7 +4459,7 @@
           {
             "map": "kindle_road_north",
             "x": 192,
-            "y": 104,
+            "y": 88,
             "force_invisibility_rules": [
               "$shuffle_dungeons_on"
             ]
