@@ -450,7 +450,8 @@ MODIFY_WORLD_STATE = {
     ["Victory Road Rocks"] = "victory_road_rocks_setting",
     ["Early Gossipers"] = "early_gossipers_setting",
     ["Total Darkness"] = "",
-    ["Block Vermilion Sailing"] = "block_sailing_setting"
+    ["Block Vermilion Sailing"] = "block_sailing_setting",
+    ["All Elevators Locked"] = "elevators_locked_setting"
 }
 
 ADDITIONAL_DARK_CAVES = {

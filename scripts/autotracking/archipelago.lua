@@ -50,12 +50,12 @@ PROG_ROD = {
 }
 
 if Highlight then
-    HIGHTLIGHT_LEVEL= {
+    HIGHTLIGHT_LEVEL = {
         [0] = Highlight.Unspecified,
         [10] = Highlight.NoPriority,
         [20] = Highlight.Avoid,
         [30] = Highlight.Priority,
-        [40] = Highlight.None,
+        [40] = Highlight.None
     }
 end
 
@@ -222,7 +222,6 @@ function onClear(slot_data)
             table.insert(POKEMON_TO_LOCATION[dex_number], location)
         end
     end
-    print(dump_table(POKEMON_TO_LOCATION))
     for key, value in pairs(slot_data) do
         if key == "remove_badge_requirement" then
             for hm, code in pairs(BADGE_FOR_HM) do
@@ -618,10 +617,10 @@ end
 
 function updateHints(value)
     if Highlight then
-        for _, hint in ipairs(value) do --loop over all hints provided
-            local location_table = LOCATION_MAPPING[hint.location] 
-            for _, location in ipairs(location_table) do --loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
-                if location:sub(1, 1) == "@" then --this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
+        for _, hint in ipairs(value) do -- loop over all hints provided
+            local location_table = LOCATION_MAPPING[hint.location]
+            for _, location in ipairs(location_table) do -- loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
+                if location:sub(1, 1) == "@" then -- this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
                     local obj = Tracker:FindObjectForCode(location)
                     if obj then
                         obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]
