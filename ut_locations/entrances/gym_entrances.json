@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Viridian City",
+    "children": [
+      {
+        "name": "Viridian Gym",
+        "sections": [
+          {
+            "name": "Viridian Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 584,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Gym",
+    "children": [
+      {
+        "name": "Viridian Gym Exit",
+        "sections": [
+          {
+            "name": "Viridian Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 280,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter City",
+    "children": [
+      {
+        "name": "Pewter Gym",
+        "sections": [
+          {
+            "name": "Pewter Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 248,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Gym",
+    "children": [
+      {
+        "name": "Pewter Gym Exit",
+        "sections": [
+          {
+            "name": "Pewter Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_gym",
+            "x": 104,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean City",
+    "children": [
+      {
+        "name": "Cerulean Gym",
+        "sections": [
+          {
+            "name": "Cerulean Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 504,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Gym",
+    "children": [
+      {
+        "name": "Cerulean Gym Exit",
+        "sections": [
+          {
+            "name": "Cerulean Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 136,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion City",
+    "children": [
+      {
+        "name": "Vermilion Gym",
+        "sections": [
+          {
+            "name": "Vermilion Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Gym",
+    "children": [
+      {
+        "name": "Vermilion Gym Exit",
+        "sections": [
+          {
+            "name": "Vermilion Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 88,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon City",
+    "children": [
+      {
+        "name": "Celadon Gym",
+        "sections": [
+          {
+            "name": "Celadon Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 184,
+            "y": 488
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Gym",
+    "children": [
+      {
+        "name": "Celadon Gym Exit",
+        "sections": [
+          {
+            "name": "Celadon Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "x": 104,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia City",
+    "children": [
+      {
+        "name": "Fuchsia Gym",
+        "sections": [
+          {
+            "name": "Fuchsia Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 152,
+            "y": 520
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Gym",
+    "children": [
+      {
+        "name": "Fuchsia Gym Exit",
+        "sections": [
+          {
+            "name": "Fuchsia Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 120,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron City",
+    "children": [
+      {
+        "name": "Saffron Gym",
+        "sections": [
+          {
+            "name": "Saffron Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 744,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Gym",
+    "children": [
+      {
+        "name": "Saffron Gym Exit",
+        "sections": [
+          {
+            "name": "Saffron Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "x": 232,
+            "y": 376
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Island",
+    "children": [
+      {
+        "name": "Cinnabar Gym",
+        "sections": [
+          {
+            "name": "Cinnabar Gym"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 328,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Gym",
+    "children": [
+      {
+        "name": "Cinnabar Gym Exit",
+        "sections": [
+          {
+            "name": "Cinnabar Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 408,
+            "y": 376
+          }
+        ]
+      }
+    ]
+  }
+]

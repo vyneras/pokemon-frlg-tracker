@@ -17,206 +17,6 @@
             "y": 456
           }
         ]
-      },
-      {
-        "name": "S.S. Anne Exterior Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne Exterior Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_exterior",
-            "x": 120,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne",
-        "sections": [
-          {
-            "name": "S.S. Anne"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_exterior",
-            "x": 120,
-            "y": 232
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 1F Corridor",
-    "children": [
-      {
-        "name": "S.S. Anne 1F Corridor Northwest Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Corridor Northwest Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 48,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne Kitchen",
-        "sections": [
-          {
-            "name": "S.S. Anne Kitchen"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 40,
-            "y": 312
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 312,
-            "y": 24
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Corridor Southeast Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Corridor Southeast Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 448,
-            "y": 284
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 1",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 1"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 88,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 2",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 2"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 136,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 3",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 3"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 184,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 4",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 4"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 232,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 5",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 5"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 280,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 6",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 6"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 328,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 7",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 7"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_corridor",
-            "x": 376,
-            "y": 184
-          }
-        ]
       }
     ]
   },
@@ -286,41 +86,6 @@
             "y": 136
           }
         ]
-      },
-      {
-        "name": "S.S. Anne Kitchen Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne Kitchen Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_kitchen",
-            "x": 120,
-            "y": 24
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 1F Room 1",
-    "children": [
-      {
-        "name": "S.S. Anne 1F Room 1 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 1 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_room_1",
-            "x": 40,
-            "y": 24
-          }
-        ]
       }
     ]
   },
@@ -374,61 +139,6 @@
             "y": 120
           }
         ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 2 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 2 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_room_2",
-            "x": 40,
-            "y": 24
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 1F Room 3",
-    "children": [
-      {
-        "name": "S.S. Anne 1F Room 3 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 3 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_room_3",
-            "x": 40,
-            "y": 24
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 1F Room 4",
-    "children": [
-      {
-        "name": "S.S. Anne 1F Room 4 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 4 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_room_4",
-            "x": 40,
-            "y": 24
-          }
-        ]
       }
     ]
   },
@@ -448,41 +158,6 @@
             "map": "ss_anne_1f_room_5",
             "x": 40,
             "y": 104
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 5 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 5 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_room_5",
-            "x": 40,
-            "y": 24
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 1F Room 6",
-    "children": [
-      {
-        "name": "S.S. Anne 1F Room 6 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 6 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_room_4",
-            "x": 40,
-            "y": 24
           }
         ]
       }
@@ -506,21 +181,6 @@
             "y": 56
           }
         ]
-      },
-      {
-        "name": "S.S. Anne 1F Room 7 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 1F Room 7 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_1f_room_7",
-            "x": 40,
-            "y": 24
-          }
-        ]
       }
     ]
   },
@@ -540,96 +200,6 @@
             "map": "ss_anne_b1f_corridor",
             "x": 344,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne B1F Corridor Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Corridor Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_corridor",
-            "x": 320,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 1",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 1"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_corridor",
-            "x": 40,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 2",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 2"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_corridor",
-            "x": 104,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 3",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 3"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_corridor",
-            "x": 168,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 4",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 4"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_corridor",
-            "x": 232,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 5",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 5"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_corridor",
-            "x": 296,
-            "y": 40
           }
         ]
       }
@@ -669,21 +239,6 @@
             "y": 40
           }
         ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 1 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 1 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_room_1",
-            "x": 72,
-            "y": 120
-          }
-        ]
       }
     ]
   },
@@ -719,21 +274,6 @@
             "map": "ss_anne_b1f_room_2",
             "x": 56,
             "y": 40
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 2 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 2 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_room_2",
-            "x": 72,
-            "y": 120
           }
         ]
       }
@@ -773,21 +313,6 @@
             "y": 88
           }
         ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 3 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 3 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_room_3",
-            "x": 72,
-            "y": 120
-          }
-        ]
       }
     ]
   },
@@ -825,21 +350,6 @@
             "y": 56
           }
         ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 4 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 4 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_room_4",
-            "x": 72,
-            "y": 120
-          }
-        ]
       }
     ]
   },
@@ -861,21 +371,6 @@
             "y": 40
           }
         ]
-      },
-      {
-        "name": "S.S. Anne B1F Room 5 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne B1F Room 5 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_b1f_room_5",
-            "x": 72,
-            "y": 120
-          }
-        ]
       }
     ]
   },
@@ -895,176 +390,6 @@
             "map": "ss_anne_2f_corridor",
             "x": 488,
             "y": 40
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Corridor Northwest Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Corridor Northwest Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 48,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Corridor Southwest Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Corridor Southwest Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 48,
-            "y": 200
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Corridor Northeast Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Corridor Northeast Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 496,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Corridor Northeast Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Corridor Northeast Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 496,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Room 1",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 1"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 104,
-            "y": 168
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Room 2",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 2"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 168,
-            "y": 168
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Room 3",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 3"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 232,
-            "y": 168
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Room 4",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 4"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 296,
-            "y": 168
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Room 5",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 5"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 360,
-            "y": 168
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 2F Room 6",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 6"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_corridor",
-            "x": 424,
-            "y": 168
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 2F Room 1",
-    "children": [
-      {
-        "name": "S.S. Anne 2F Room 1 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 1 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_room_1",
-            "x": 72,
-            "y": 120
           }
         ]
       }
@@ -1120,41 +445,6 @@
             "y": 56
           }
         ]
-      },
-      {
-        "name": "S.S. Anne 2F Room 2 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 2 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_room_2",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 2F Room 3",
-    "children": [
-      {
-        "name": "S.S. Anne 2F Room 3 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 3 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_room_3",
-            "x": 72,
-            "y": 120
-          }
-        ]
       }
     ]
   },
@@ -1208,96 +498,6 @@
             "y": 72
           }
         ]
-      },
-      {
-        "name": "S.S. Anne 2F Room 4 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 4 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_room_4",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 2F Room 5",
-    "children": [
-      {
-        "name": "S.S. Anne 2F Room 5 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 5 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_room_5",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 2F Room 6",
-    "children": [
-      {
-        "name": "S.S. Anne 2F Room 6 Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 2F Room 6 Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_2f_room_6",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "S.S. Anne 3F Corridor",
-    "children": [
-      {
-        "name": "S.S. Anne 3F Corridor Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne 3F Corridor Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_3f_corridor",
-            "x": 24,
-            "y": 72
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne 3F Corridor Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne 3F Corridor Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_3f_corridor",
-            "x": 304,
-            "y": 44
-          }
-        ]
       }
     ]
   },
@@ -1335,21 +535,6 @@
             "y": 152
           }
         ]
-      },
-      {
-        "name": "S.S. Anne Deck Exit",
-        "sections": [
-          {
-            "name": "S.S. Anne Deck Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_deck",
-            "x": 264,
-            "y": 144
-          }
-        ]
       }
     ]
   },
@@ -1369,21 +554,6 @@
             "map": "ss_anne_captains_office",
             "x": 88,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "S.S. Anne Captain's Office Stairs",
-        "sections": [
-          {
-            "name": "S.S. Anne Captain's Office Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_anne_captains_office",
-            "x": 48,
-            "y": 124
           }
         ]
       }

@@ -137,81 +137,6 @@
             "y": 200
           }
         ]
-      },
-      {
-        "name": "Route 16 Gate (Northeast)",
-        "sections": [
-          {
-            "name": "Route 16 Gate (Northeast)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16",
-            "x": 440,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Gate (Northwest)",
-        "sections": [
-          {
-            "name": "Route 16 Gate (Northwest)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16",
-            "x": 328,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Gate (Southeast)",
-        "sections": [
-          {
-            "name": "Route 16 Gate (Southeast)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16",
-            "x": 440,
-            "y": 216
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Gate (Southwest)",
-        "sections": [
-          {
-            "name": "Route 16 Gate (Southwest)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16",
-            "x": 328,
-            "y": 216
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Fly House",
-        "sections": [
-          {
-            "name": "Route 16 Fly House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16",
-            "x": 168,
-            "y": 88
-          }
-        ]
       }
     ]
   },
@@ -233,101 +158,6 @@
             "y": 40
           }
         ]
-      },
-      {
-        "name": "Route 16 Fly House Exit",
-        "sections": [
-          {
-            "name": "Route 16 Fly House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16_house",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Route 16 Gate 1F",
-    "children": [
-      {
-        "name": "Route 16 Gate 1F Exit (Northeast)",
-        "sections": [
-          {
-            "name": "Route 16 Gate 1F Exit (Northeast)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16_gate_1f",
-            "x": 184,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Gate 1F Exit (Northwest)",
-        "sections": [
-          {
-            "name": "Route 16 Gate 1F Exit (Northwest)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16_gate_1f",
-            "x": 24,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Gate 1F Exit (Southeast)",
-        "sections": [
-          {
-            "name": "Route 16 Gate 1F Exit (Southeast)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16_gate_1f",
-            "x": 184,
-            "y": 200
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Gate 1F Exit (Southwest)",
-        "sections": [
-          {
-            "name": "Route 16 Gate 1F Exit (Southwest)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16_gate_1f",
-            "x": 24,
-            "y": 200
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Gate 1F Stairs",
-        "sections": [
-          {
-            "name": "Route 16 Gate 1F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16_gate_1f",
-            "x": 160,
-            "y": 264
-          }
-        ]
       }
     ]
   },
@@ -347,21 +177,6 @@
             "map": "route_16_gate_2f",
             "x": 168,
             "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Route 16 Gate 2F Stairs",
-        "sections": [
-          {
-            "name": "Route 16 Gate 2F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_16_gate_2f",
-            "x": 160,
-            "y": 156
           }
         ]
       }

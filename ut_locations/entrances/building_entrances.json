@@ -1,0 +1,3827 @@
+[
+  {
+    "name": "Pallet Town",
+    "children": [
+      {
+        "name": "Rival's House",
+        "sections": [
+          {
+            "name": "Rival's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Professor Oak's Lab",
+        "sections": [
+          {
+            "name": "Professor Oak's Lab"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 264,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rival's House",
+    "children": [
+      {
+        "name": "Rival's House Exit",
+        "sections": [
+          {
+            "name": "Rival's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rivals_house",
+            "x": 72,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oak's Lab",
+    "children": [
+      {
+        "name": "Professor Oak's Lab Exit",
+        "sections": [
+          {
+            "name": "Professor Oak's Lab Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oaks_lab",
+            "x": 104,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian City",
+    "children": [
+      {
+        "name": "Viridian Nickname House",
+        "sections": [
+          {
+            "name": "Viridian Nickname House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 408,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Viridian School",
+        "sections": [
+          {
+            "name": "Viridian School"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 408,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Nickname House",
+    "children": [
+      {
+        "name": "Viridian Nickname House Exit",
+        "sections": [
+          {
+            "name": "Viridian Nickname House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian School",
+    "children": [
+      {
+        "name": "Viridian School Exit",
+        "sections": [
+          {
+            "name": "Viridian School Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_school",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter City",
+    "children": [
+      {
+        "name": "Pewter Museum (West)",
+        "sections": [
+          {
+            "name": "Pewter Museum (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 280,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "name": "Pewter Nidoran House",
+        "sections": [
+          {
+            "name": "Pewter Nidoran House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 536,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Pewter Info House",
+        "sections": [
+          {
+            "name": "Pewter Info House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 152,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum (East)",
+        "sections": [
+          {
+            "name": "Pewter Museum (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 408,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Museum 1F",
+    "children": [
+      {
+        "name": "Pewter Museum 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Pewter Museum 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "x": 232,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Pewter Museum 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "x": 344,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Nidoran House",
+    "children": [
+      {
+        "name": "Pewter Nidoran House Exit",
+        "sections": [
+          {
+            "name": "Pewter Nidoran House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_nidoran_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Info House",
+    "children": [
+      {
+        "name": "Pewter Info House Exit",
+        "sections": [
+          {
+            "name": "Pewter Info House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_info_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean City",
+    "children": [
+      {
+        "name": "Badge Guy's House (Front)",
+        "sections": [
+          {
+            "name": "Badge Guy's House (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 168,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Robbed House (Front)",
+        "sections": [
+          {
+            "name": "Robbed House (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Trade House",
+        "sections": [
+          {
+            "name": "Cerulean Trade House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 248,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Bike Shop",
+        "sections": [
+          {
+            "name": "Bike Shop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 224,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Wonder News House",
+        "sections": [
+          {
+            "name": "Wonder News House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 376,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Berry Powder Man's House",
+        "sections": [
+          {
+            "name": "Berry Powder Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Badge Guy's House (Back)",
+        "sections": [
+          {
+            "name": "Badge Guy's House (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 168,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Robbed House (Back)",
+        "sections": [
+          {
+            "name": "Robbed House (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 504,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bike Shop",
+    "children": [
+      {
+        "name": "Bike Shop Exit",
+        "sections": [
+          {
+            "name": "Bike Shop Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bike_shop",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Berry Powder Man's House",
+    "children": [
+      {
+        "name": "Berry Powder Man's House Exit",
+        "sections": [
+          {
+            "name": "Berry Powder Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "berry_powder_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Badge Guy's House",
+    "children": [
+      {
+        "name": "Badge Guy's House Exit (Front)",
+        "sections": [
+          {
+            "name": "Badge Guy's House Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "badge_guys_house",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Badge Guy's House Exit (Back)",
+        "sections": [
+          {
+            "name": "Badge Guy's House Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "badge_guys_house",
+            "x": 56,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Robbed House",
+    "children": [
+      {
+        "name": "Robbed House Exit (Front)",
+        "sections": [
+          {
+            "name": "Robbed House Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "robbed_house",
+            "x": 56,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Robbed House Exit (Back)",
+        "sections": [
+          {
+            "name": "Robbed House Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "robbed_house",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Trade House",
+    "children": [
+      {
+        "name": "Cerulean Trade House Exit",
+        "sections": [
+          {
+            "name": "Cerulean Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_trade_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wonder News House",
+    "children": [
+      {
+        "name": "Wonder News House Exit",
+        "sections": [
+          {
+            "name": "Wonder News House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wonder_news_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion City",
+    "children": [
+      {
+        "name": "Vermilion Fishing House",
+        "sections": [
+          {
+            "name": "Vermilion Fishing House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Fan Club",
+        "sections": [
+          {
+            "name": "Pokemon Fan Club"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 200,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Trade House",
+        "sections": [
+          {
+            "name": "Vermilion Trade House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 312,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Pidgey House",
+        "sections": [
+          {
+            "name": "Vermilion Pidgey House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 456,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Fishing House",
+    "children": [
+      {
+        "name": "Vermilion Fishing House Exit",
+        "sections": [
+          {
+            "name": "Vermilion Fishing House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_fishing_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Fan Club",
+    "children": [
+      {
+        "name": "Pokemon Fan Club Exit",
+        "sections": [
+          {
+            "name": "Pokemon Fan Club Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_fan_club",
+            "x": 88,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Trade House",
+    "children": [
+      {
+        "name": "Vermilion Trade House Exit",
+        "sections": [
+          {
+            "name": "Vermilion Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_trade_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Pidgey House",
+    "children": [
+      {
+        "name": "Vermilion Pidgey House Exit",
+        "sections": [
+          {
+            "name": "Vermilion Pidgey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pidgey_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavender Town",
+    "children": [
+      {
+        "name": "Volunteer Pokemon House",
+        "sections": [
+          {
+            "name": "Volunteer Pokemon House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 168,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Lavender Cubone House",
+        "sections": [
+          {
+            "name": "Lavender Cubone House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 88,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Name Rater's House",
+        "sections": [
+          {
+            "name": "Name Rater's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 168,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Volunteer Pokémon House",
+    "children": [
+      {
+        "name": "Volunteer Pokemon House Exit",
+        "sections": [
+          {
+            "name": "Volunteer Pokemon House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volunteer_pokemon_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavender Cubone House",
+    "children": [
+      {
+        "name": "Lavender Cubone House Exit",
+        "sections": [
+          {
+            "name": "Lavender Cubone House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_cubone_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Name Rater's House",
+    "children": [
+      {
+        "name": "Name Rater's House Exit",
+        "sections": [
+          {
+            "name": "Name Rater's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "name_raters_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon City",
+    "children": [
+      {
+        "name": "Celadon Game Corner",
+        "sections": [
+          {
+            "name": "Celadon Game Corner"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 552,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store (West)",
+        "sections": [
+          {
+            "name": "Celadon Department Store (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 184,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store (East)",
+        "sections": [
+          {
+            "name": "Celadon Department Store (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 248,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums (Front)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Celadon Game Corner Prize Room",
+        "sections": [
+          {
+            "name": "Celadon Game Corner Prize Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 632,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Celadon Restaurant",
+        "sections": [
+          {
+            "name": "Celadon Restaurant"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 600,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Celadon Rocket House",
+        "sections": [
+          {
+            "name": "Celadon Rocket House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 664,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Celadon Hotel",
+        "sections": [
+          {
+            "name": "Celadon Hotel"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 792,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums (Back)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 488,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 1F",
+    "children": [
+      {
+        "name": "Celadon Department Store 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Celadon Department Store 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_1f",
+            "x": 40,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Celadon Department Store 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_1f",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums 1F",
+    "children": [
+      {
+        "name": "Celadon Condominiums 1F Exit (Front)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 1F Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "x": 200,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 1F Exit (Back)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 1F Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Game Corner",
+    "children": [
+      {
+        "name": "Celadon Game Corner Exit",
+        "sections": [
+          {
+            "name": "Celadon Game Corner Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 152,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Game Corner Prize Room",
+    "children": [
+      {
+        "name": "Celadon Game Corner Prize Room Exit",
+        "sections": [
+          {
+            "name": "Celadon Game Corner Prize Room Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner_prize_room",
+            "x": 72,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Restaurant",
+    "children": [
+      {
+        "name": "Celadon Restaurant Exit",
+        "sections": [
+          {
+            "name": "Celadon Restaurant Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_restaurant",
+            "x": 104,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Rocket House",
+    "children": [
+      {
+        "name": "Celadon Rocket House Exit",
+        "sections": [
+          {
+            "name": "Celadon Rocket House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_rocket_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Hotel",
+    "children": [
+      {
+        "name": "Celadon Hotel Exit",
+        "sections": [
+          {
+            "name": "Celadon Hotel Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_hotel",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia City",
+    "children": [
+      {
+        "name": "Safari Zone Warden's House",
+        "sections": [
+          {
+            "name": "Safari Zone Warden's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 536,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Office",
+        "sections": [
+          {
+            "name": "Safari Zone Office"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 456,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Bill's Grandpa's House",
+        "sections": [
+          {
+            "name": "Bill's Grandpa's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 232,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Fishing House (Front)",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 616,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Move Deleter's House",
+        "sections": [
+          {
+            "name": "Move Deleter's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 312,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Fishing House (Back)",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 632,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Office",
+    "children": [
+      {
+        "name": "Safari Zone Office Exit",
+        "sections": [
+          {
+            "name": "Safari Zone Office Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_office",
+            "x": 104,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bill's Grandpa's House",
+    "children": [
+      {
+        "name": "Bill's Grandpa's House Exit",
+        "sections": [
+          {
+            "name": "Bill's Grandpa's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bills_grandpas_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Warden's House",
+    "children": [
+      {
+        "name": "Safari Zone Warden's House Exit",
+        "sections": [
+          {
+            "name": "Safari Zone Warden's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 104,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Fishing House",
+    "children": [
+      {
+        "name": "Fuchsia Fishing House Exit (Front)",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_fishing_house",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Fishing House Exit (Back)",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_fishing_house",
+            "x": 56,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Move Deleter's House",
+    "children": [
+      {
+        "name": "Move Deleter's House Exit",
+        "sections": [
+          {
+            "name": "Move Deleter's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "move_deleters_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron City",
+    "children": [
+      {
+        "name": "Copycat's House",
+        "sections": [
+          {
+            "name": "Copycat's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 360,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Saffron Dojo",
+        "sections": [
+          {
+            "name": "Saffron Dojo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 648,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Pidgey House",
+        "sections": [
+          {
+            "name": "Saffron Pidgey House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 440,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mr. Psychic's House",
+        "sections": [
+          {
+            "name": "Mr. Psychic's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 696,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Route 7 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 7 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 136,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 5 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 560,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 8 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 936,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Route 6 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 6 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 560,
+            "y": 744
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Trainer Fan Club",
+        "sections": [
+          {
+            "name": "Pokemon Trainer Fan Club"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 760,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Copycat's House 1F",
+    "children": [
+      {
+        "name": "Copycat's House 1F Exit",
+        "sections": [
+          {
+            "name": "Copycat's House 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_1f",
+            "x": 72,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Dojo",
+    "children": [
+      {
+        "name": "Saffron Dojo Exit",
+        "sections": [
+          {
+            "name": "Saffron Dojo Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "x": 104,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mr. Psychic's House",
+    "children": [
+      {
+        "name": "Mr. Psychic's House Exit",
+        "sections": [
+          {
+            "name": "Mr. Psychic's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mr_psychics_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Trainer Fan Club",
+    "children": [
+      {
+        "name": "Pokemon Trainer Fan Club Exit",
+        "sections": [
+          {
+            "name": "Pokemon Trainer Fan Club Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_trainer_fan_club",
+            "x": 88,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Pidgey House",
+    "children": [
+      {
+        "name": "Saffron Pidgey House Exit",
+        "sections": [
+          {
+            "name": "Saffron Pidgey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_pidgey_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Island",
+    "children": [
+      {
+        "name": "Pokemon Lab",
+        "sections": [
+          {
+            "name": "Pokemon Lab"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 136,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Lab",
+    "children": [
+      {
+        "name": "Pokemon Lab Exit",
+        "sections": [
+          {
+            "name": "Pokemon Lab Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_entrance",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path North Entrance",
+    "children": [
+      {
+        "name": "Underground Path North Entrance Exit",
+        "sections": [
+          {
+            "name": "Underground Path North Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_entrance",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path South Entrance",
+    "children": [
+      {
+        "name": "Underground Path South Entrance Exit",
+        "sections": [
+          {
+            "name": "Underground Path South Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_south_entrance",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path East Entrance",
+    "children": [
+      {
+        "name": "Underground Path East Entrance Exit",
+        "sections": [
+          {
+            "name": "Underground Path East Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_entrance",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path West Entrance",
+    "children": [
+      {
+        "name": "Underground Path West Entrance Exit",
+        "sections": [
+          {
+            "name": "Underground Path West Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_west_entrance",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tanoby Key",
+    "children": [
+      {
+        "name": "Tanoby Key Exit",
+        "sections": [
+          {
+            "name": "Tanoby Key Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_key",
+            "x": 120,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Town",
+    "children": [
+      {
+        "name": "One Island Old Couple's House",
+        "sections": [
+          {
+            "name": "One Island Old Couple's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 312,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "One Island Lass' House",
+        "sections": [
+          {
+            "name": "One Island Lass' House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Old Couple's House",
+    "children": [
+      {
+        "name": "One Island Old Couple's House Exit",
+        "sections": [
+          {
+            "name": "One Island Old Couple's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_old_couples_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Lass' House",
+    "children": [
+      {
+        "name": "One Island Lass' House Exit",
+        "sections": [
+          {
+            "name": "One Island Lass' House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_lass_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kindle Road",
+    "children": [
+      {
+        "name": "Ember Spa",
+        "sections": [
+          {
+            "name": "Ember Spa"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 248,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ember Spa",
+    "children": [
+      {
+        "name": "Ember Spa Exit",
+        "sections": [
+          {
+            "name": "Ember Spa Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ember_spa",
+            "x": 216,
+            "y": 600
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Town",
+    "children": [
+      {
+        "name": "Two Island Game Corner",
+        "sections": [
+          {
+            "name": "Two Island Game Corner"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 632,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Move Maniac's House",
+        "sections": [
+          {
+            "name": "Move Maniac's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 536,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Game Corner",
+    "children": [
+      {
+        "name": "Two Island Game Corner Exit",
+        "sections": [
+          {
+            "name": "Two Island Game Corner Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_game_corner",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Move Maniac's House",
+    "children": [
+      {
+        "name": "Move Maniac's House Exit",
+        "sections": [
+          {
+            "name": "Move Maniac's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_move_maniacs_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cape Brink",
+    "children": [
+      {
+        "name": "Starter Tutor's House",
+        "sections": [
+          {
+            "name": "Starter Tutor's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cape_brink",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Starter Tutor's House",
+    "children": [
+      {
+        "name": "Starter Tutor's House Exit",
+        "sections": [
+          {
+            "name": "Starter Tutor's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "starter_tutors_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Isle Port",
+    "children": [
+      {
+        "name": "Three Isle Path (West)",
+        "sections": [
+          {
+            "name": "Three Isle Path (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port",
+            "x": 264,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path (East)",
+        "sections": [
+          {
+            "name": "Three Isle Path (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port",
+            "x": 616,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Isle Path",
+    "children": [
+      {
+        "name": "Three Isle Path Exit (West)",
+        "sections": [
+          {
+            "name": "Three Isle Path Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "x": 56,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path Exit (East)",
+        "sections": [
+          {
+            "name": "Three Isle Path Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "x": 408,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Town",
+    "children": [
+      {
+        "name": "Lostelle's House",
+        "sections": [
+          {
+            "name": "Lostelle's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 56,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Sabrina Fan's House",
+        "sections": [
+          {
+            "name": "Sabrina Fan's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Three Island Beauty's House",
+        "sections": [
+          {
+            "name": "Three Island Beauty's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Three Island Worried Father's House",
+        "sections": [
+          {
+            "name": "Three Island Worried Father's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Lostelle's Friend's House",
+        "sections": [
+          {
+            "name": "Lostelle's Friend's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 216,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lostelle's House",
+    "children": [
+      {
+        "name": "Lostelle's House Exit",
+        "sections": [
+          {
+            "name": "Lostelle's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sabrina Fan's House",
+    "children": [
+      {
+        "name": "Sabrina Fan's House Exit",
+        "sections": [
+          {
+            "name": "Sabrina Fan's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_sabrina_fans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Beauty's House",
+    "children": [
+      {
+        "name": "Three Island Beauty's House Exit",
+        "sections": [
+          {
+            "name": "Three Island Beauty's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_beautys_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Worried Father's House",
+    "children": [
+      {
+        "name": "Three Island Worried Father's House Exit",
+        "sections": [
+          {
+            "name": "Three Island Worried Father's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_worried_fathers_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lostelle's Friend's House",
+    "children": [
+      {
+        "name": "Lostelle's Friend's House Exit",
+        "sections": [
+          {
+            "name": "Lostelle's Friend's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_friends_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Town",
+    "children": [
+      {
+        "name": "Four Island Pokemon Day Care",
+        "sections": [
+          {
+            "name": "Four Island Pokemon Day Care"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 200,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Four Island Move Tutor's House",
+        "sections": [
+          {
+            "name": "Four Island Move Tutor's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 408,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Lorelei's House",
+        "sections": [
+          {
+            "name": "Lorelei's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 536,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Sticker Man's House",
+        "sections": [
+          {
+            "name": "Sticker Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 408,
+            "y": 424
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Pokemon Day Care",
+    "children": [
+      {
+        "name": "Four Island Pokemon Day Care Exit",
+        "sections": [
+          {
+            "name": "Four Island Pokemon Day Care Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_day_care",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Move Tutor's House",
+    "children": [
+      {
+        "name": "Four Island Move Tutor's House Exit",
+        "sections": [
+          {
+            "name": "Four Island Move Tutor's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_move_tutors_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lorelei's House",
+    "children": [
+      {
+        "name": "Lorelei's House Exit",
+        "sections": [
+          {
+            "name": "Lorelei's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "loreleis_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sticker Man's House",
+    "children": [
+      {
+        "name": "Sticker Man's House Exit",
+        "sections": [
+          {
+            "name": "Sticker Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sticker_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Town",
+    "children": [
+      {
+        "name": "Five Island Couple's House",
+        "sections": [
+          {
+            "name": "Five Island Couple's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Five Island Old Man's House",
+        "sections": [
+          {
+            "name": "Five Island Old Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 360,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Couple's House",
+    "children": [
+      {
+        "name": "Five Island Couple's House Exit",
+        "sections": [
+          {
+            "name": "Five Island Couple's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_couples_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Old Man's House",
+    "children": [
+      {
+        "name": "Five Island Old Man's House Exit",
+        "sections": [
+          {
+            "name": "Five Island Old Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_old_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Resort Gorgeous",
+    "children": [
+      {
+        "name": "Selphy's House",
+        "sections": [
+          {
+            "name": "Selphy's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 40,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Selphy's House",
+    "children": [
+      {
+        "name": "Selphy's House Exit",
+        "sections": [
+          {
+            "name": "Selphy's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Town",
+    "children": [
+      {
+        "name": "Six Island Old Man's House",
+        "sections": [
+          {
+            "name": "Six Island Old Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 264,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Old Man's House",
+    "children": [
+      {
+        "name": "Six Island Old Man's House Exit",
+        "sections": [
+          {
+            "name": "Six Island Old Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_old_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Water Path",
+    "children": [
+      {
+        "name": "Water Path Heracross Woman's House",
+        "sections": [
+          {
+            "name": "Water Path Heracross Woman's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 88,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Water Path Man's House",
+        "sections": [
+          {
+            "name": "Water Path Man's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 184,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Water Path Heracross Woman's House",
+    "children": [
+      {
+        "name": "Water Path Heracross Woman's House Exit",
+        "sections": [
+          {
+            "name": "Water Path Heracross Woman's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_heracross_womans_house",
+            "x": 56,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Water Path Man's House",
+    "children": [
+      {
+        "name": "Water Path Man's House Exit",
+        "sections": [
+          {
+            "name": "Water Path Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_mans_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Town",
+    "children": [
+      {
+        "name": "Seven Island Trainer Battle House",
+        "sections": [
+          {
+            "name": "Seven Island Trainer Battle House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 184,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Trainer Battle House",
+    "children": [
+      {
+        "name": "Seven Island Trainer Battle House Exit",
+        "sections": [
+          {
+            "name": "Seven Island Trainer Battle House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_battle_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sevault Canyon",
+    "children": [
+      {
+        "name": "Tanoby Key",
+        "sections": [
+          {
+            "name": "Tanoby Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 120,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Chansey House",
+        "sections": [
+          {
+            "name": "Sevault Canyon Chansey House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sevault Canyon Chansey House",
+    "children": [
+      {
+        "name": "Sevault Canyon Chansey House Exit",
+        "sections": [
+          {
+            "name": "Sevault Canyon Chansey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_chansey_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trainer Tower Exterior",
+    "children": [
+      {
+        "name": "Trainer Tower",
+        "sections": [
+          {
+            "name": "Trainer Tower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 328,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trainer Tower Lobby",
+    "children": [
+      {
+        "name": "Trainer Tower Lobby Exit",
+        "sections": [
+          {
+            "name": "Trainer Tower Lobby Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_lobby",
+            "x": 152,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 2",
+    "children": [
+      {
+        "name": "Viridian Forest South Gate",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 96,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest North Gate",
+        "sections": [
+          {
+            "name": "Viridian Forest North Gate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 96,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Trade House",
+        "sections": [
+          {
+            "name": "Route 2 Trade House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 280,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 2 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 304,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 2 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 304,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 2 Gate",
+    "children": [
+      {
+        "name": "Route 2 Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Route 2 Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Route 2 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Forest South Gate",
+    "children": [
+      {
+        "name": "Viridian Forest South Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south_entrance",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest South Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south_entrance",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Forest North Gate",
+    "children": [
+      {
+        "name": "Viridian Forest North Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Viridian Forest North Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north_entrance",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest North Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Viridian Forest North Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north_entrance",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 2 Trade House",
+    "children": [
+      {
+        "name": "Route 2 Trade House Exit",
+        "sections": [
+          {
+            "name": "Route 2 Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_trade_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 5",
+    "children": [
+      {
+        "name": "Route 5 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 5 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "x": 400,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Pokemon Day Care",
+        "sections": [
+          {
+            "name": "Route 5 Pokemon Day Care"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "x": 376,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Underground Path North Entrance",
+        "sections": [
+          {
+            "name": "Underground Path North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "x": 504,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 5 Pokemon Day Care",
+    "children": [
+      {
+        "name": "Route 5 Pokemon Day Care Exit",
+        "sections": [
+          {
+            "name": "Route 5 Pokemon Day Care Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_pokemon_day_care",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 5 Gate",
+    "children": [
+      {
+        "name": "Route 5 Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Route 5 Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_gate",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Route 5 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_gate",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 6",
+    "children": [
+      {
+        "name": "Route 6 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 6 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 208,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Underground Path South Entrance",
+        "sections": [
+          {
+            "name": "Underground Path South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 312,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 6 Gate",
+    "children": [
+      {
+        "name": "Route 6 Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Route 6 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6_gate",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Route 6 Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Route 6 Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6_gate",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 7",
+    "children": [
+      {
+        "name": "Route 7 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 7 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7",
+            "x": 248,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Underground Path West Entrance",
+        "sections": [
+          {
+            "name": "Underground Path West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7",
+            "x": 120,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 7 Gate",
+    "children": [
+      {
+        "name": "Route 7 Gate Exit (West)",
+        "sections": [
+          {
+            "name": "Route 7 Gate Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7_gate",
+            "x": 24,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 7 Gate Exit (East)",
+        "sections": [
+          {
+            "name": "Route 7 Gate Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7_gate",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 8",
+    "children": [
+      {
+        "name": "Route 8 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 8 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Underground Path East Entrance",
+        "sections": [
+          {
+            "name": "Underground Path East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 8 Gate",
+    "children": [
+      {
+        "name": "Route 8 Gate Exit (East)",
+        "sections": [
+          {
+            "name": "Route 8 Gate Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_gate",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Gate Exit (West)",
+        "sections": [
+          {
+            "name": "Route 8 Gate Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_gate",
+            "x": 24,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 11",
+    "children": [
+      {
+        "name": "Route 11 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 11 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 344,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 11 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_east",
+            "x": 456,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 11 Gate 1F",
+    "children": [
+      {
+        "name": "Route 11 Gate 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Route 11 Gate 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_1f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 11 Gate 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Route 11 Gate 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_1f",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12",
+    "children": [
+      {
+        "name": "Route 12 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 12 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 232,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 12 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Fishing House",
+        "sections": [
+          {
+            "name": "Route 12 Fishing House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 200,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Gate 1F",
+    "children": [
+      {
+        "name": "Route 12 Gate 1F Exit (North)",
+        "sections": [
+          {
+            "name": "Route 12 Gate 1F Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "x": 88,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate 1F Exit (South)",
+        "sections": [
+          {
+            "name": "Route 12 Gate 1F Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "x": 88,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Fishing House",
+    "children": [
+      {
+        "name": "Route 12 Fishing House Exit",
+        "sections": [
+          {
+            "name": "Route 12 Fishing House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_fishing_house",
+            "x": 56,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 15",
+    "children": [
+      {
+        "name": "Route 15 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 15 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 264,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 15 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 152,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 15 Gate 1F",
+    "children": [
+      {
+        "name": "Route 15 Gate 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Route 15 Gate 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Route 15 Gate 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16",
+    "children": [
+      {
+        "name": "Route 16 Gate (Northeast)",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Northeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 440,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate (Northwest)",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Northwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 328,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate (Southeast)",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Southeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate (Southwest)",
+        "sections": [
+          {
+            "name": "Route 16 Gate (Southwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 328,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Fly House",
+        "sections": [
+          {
+            "name": "Route 16 Fly House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 168,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Fly House",
+    "children": [
+      {
+        "name": "Route 16 Fly House Exit",
+        "sections": [
+          {
+            "name": "Route 16 Fly House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_house",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Gate 1F",
+    "children": [
+      {
+        "name": "Route 16 Gate 1F Exit (Northeast)",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Exit (Northeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 184,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Exit (Northwest)",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Exit (Northwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 24,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Exit (Southeast)",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Exit (Southeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 184,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Exit (Southwest)",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Exit (Southwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 24,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 18",
+    "children": [
+      {
+        "name": "Route 18 Gate (West)",
+        "sections": [
+          {
+            "name": "Route 18 Gate (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 184,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Route 18 Gate (East)",
+        "sections": [
+          {
+            "name": "Route 18 Gate (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 296,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 18 Gate 1F",
+    "children": [
+      {
+        "name": "Route 18 Gate 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Route 18 Gate 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_gate_1f",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 18 Gate 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Route 18 Gate 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_gate_1f",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 22",
+    "children": [
+      {
+        "name": "Route 22 Gate (South)",
+        "sections": [
+          {
+            "name": "Route 22 Gate (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_22",
+            "x": 136,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 22 Gate",
+    "children": [
+      {
+        "name": "Route 22 Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Route 22 Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_22_gate",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 22 Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Route 22 Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_22_gate",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 23",
+    "children": [
+      {
+        "name": "Route 22 Gate (North)",
+        "sections": [
+          {
+            "name": "Route 22 Gate (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_south",
+            "x": 136,
+            "y": 536
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 25",
+    "children": [
+      {
+        "name": "Sea Cottage",
+        "sections": [
+          {
+            "name": "Sea Cottage"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "x": 248,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sea Cottage",
+    "children": [
+      {
+        "name": "Sea Cottage Exit",
+        "sections": [
+          {
+            "name": "Sea Cottage Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sea_cottage",
+            "x": 120,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -33,41 +33,6 @@
             "y": 216
           }
         ]
-      },
-      {
-        "name": "Starter Tutor's House",
-        "sections": [
-          {
-            "name": "Starter Tutor's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cape_brink",
-            "x": 200,
-            "y": 264
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Starter Tutor's House",
-    "children": [
-      {
-        "name": "Starter Tutor's House Exit",
-        "sections": [
-          {
-            "name": "Starter Tutor's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "starter_tutors_house",
-            "x": 72,
-            "y": 120
-          }
-        ]
       }
     ]
   }

@@ -197,81 +197,6 @@
             "y": 200
           }
         ]
-      },
-      {
-        "name": "Rock Tunnel (North)",
-        "sections": [
-          {
-            "name": "Rock Tunnel (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_10_north",
-            "x": 136,
-            "y": 312
-          }
-        ]
-      },
-      {
-        "name": "Route 10 Pokemon Center",
-        "sections": [
-          {
-            "name": "Route 10 Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_10_north",
-            "x": 216,
-            "y": 328
-          }
-        ]
-      },
-      {
-        "name": "Power Plant (Front)",
-        "sections": [
-          {
-            "name": "Power Plant (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_10_south",
-            "x": 120,
-            "y": 144
-          }
-        ]
-      },
-      {
-        "name": "Power Plant (Back)",
-        "sections": [
-          {
-            "name": "Power Plant (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_10_south",
-            "x": 40,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Rock Tunnel (South)",
-        "sections": [
-          {
-            "name": "Rock Tunnel (South)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_10_south",
-            "x": 136,
-            "y": 408
-          }
-        ]
       }
     ]
   },
@@ -323,21 +248,6 @@
             "map": "route_10_pokemon_center_1f",
             "x": 200,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Route 10 Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Route 10 Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_10_pokemon_center_1f",
-            "x": 120,
-            "y": 136
           }
         ]
       }

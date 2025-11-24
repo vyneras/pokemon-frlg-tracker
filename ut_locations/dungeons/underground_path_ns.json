@@ -1,75 +1,5 @@
 [
   {
-    "name": "Underground Path North Entrance",
-    "children": [
-      {
-        "name": "Underground Path North Entrance Exit",
-        "sections": [
-          {
-            "name": "Underground Path North Entrance Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_north_entrance",
-            "x": 104,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Underground Path North Entrance Stairs",
-        "sections": [
-          {
-            "name": "Underground Path North Entrance Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_north_entrance",
-            "x": 112,
-            "y": 76
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Underground Path South Entrance",
-    "children": [
-      {
-        "name": "Underground Path South Entrance Exit",
-        "sections": [
-          {
-            "name": "Underground Path South Entrance Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_south_entrance",
-            "x": 104,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Underground Path South Entrance Stairs",
-        "sections": [
-          {
-            "name": "Underground Path South Entrance Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_south_entrance",
-            "x": 112,
-            "y": 76
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Underground Path North-South Tunnel",
     "children": [
       {
@@ -181,36 +111,6 @@
             "map": "underground_path_north_south_tunnel_south",
             "x": 40,
             "y": 408
-          }
-        ]
-      },
-      {
-        "name": "Underground Path North-South Tunnel North Stairs",
-        "sections": [
-          {
-            "name": "Underground Path North-South Tunnel North Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_north_south_tunnel_north",
-            "x": 80,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Underground Path North-South Tunnel South Stairs",
-        "sections": [
-          {
-            "name": "Underground Path North-South Tunnel South Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_north_south_tunnel_south",
-            "x": 48,
-            "y": 456
           }
         ]
       }

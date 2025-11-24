@@ -21,56 +21,6 @@
             "y": 88
           }
         ]
-      },
-      {
-        "name": "Route 22 Gate (South)",
-        "sections": [
-          {
-            "name": "Route 22 Gate (South)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_22",
-            "x": 136,
-            "y": 88
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Route 22 Gate",
-    "children": [
-      {
-        "name": "Route 22 Gate Exit (North)",
-        "sections": [
-          {
-            "name": "Route 22 Gate Exit (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_22_gate",
-            "x": 120,
-            "y": 24
-          }
-        ]
-      },
-      {
-        "name": "Route 22 Gate Exit (South)",
-        "sections": [
-          {
-            "name": "Route 22 Gate Exit (South)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_22_gate",
-            "x": 120,
-            "y": 168
-          }
-        ]
       }
     ]
   }

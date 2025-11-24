@@ -107,7 +107,7 @@ TAB_MAPPING = {
     [2306] = { -- Vermilion Pokémon Center 2F
         [0] = {"Cities", "Vermilion City", "Pokémon Center", "2F"}
     },
-    [2307] = { -- Vermilion Pokémon Fan Club
+    [2307] = { -- Pokémon Fan Club
         [0] = {"Cities", "Vermilion City", "Pokémon Fan Club"}
     },
     [2308] = { -- Vermilion House 2

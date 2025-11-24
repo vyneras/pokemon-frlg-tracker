@@ -1,0 +1,5732 @@
+[
+  {
+    "name": "Pewter Museum 1F",
+    "children": [
+      {
+        "name": "Pewter Museum 1F Stairs",
+        "sections": [
+          {
+            "name": "Pewter Museum 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "x": 144,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Museum 2F",
+    "children": [
+      {
+        "name": "Pewter Museum 2F Stairs",
+        "sections": [
+          {
+            "name": "Pewter Museum 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_2f",
+            "x": 176,
+            "y": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 1F",
+    "children": [
+      {
+        "name": "Celadon Department Store 1F Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_1f",
+            "x": 64,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 2F",
+    "children": [
+      {
+        "name": "Celadon Department Store 2F West Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 2F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_2f",
+            "x": 48,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 2F East Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 2F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_2f",
+            "x": 160,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 3F",
+    "children": [
+      {
+        "name": "Celadon Department Store 3F East Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 3F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_3f",
+            "x": 160,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 3F West Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 3F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_3f",
+            "x": 48,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 4F",
+    "children": [
+      {
+        "name": "Celadon Department Store 4F West Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 4F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_4f",
+            "x": 48,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 4F East Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 4F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_4f",
+            "x": 160,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 5F",
+    "children": [
+      {
+        "name": "Celadon Department Store 5F East Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 5F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_5f",
+            "x": 160,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 5F West Stairs",
+        "sections": [
+          {
+            "name": "Celadon Department Store 5F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_5f",
+            "x": 48,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store Roof",
+    "children": [
+      {
+        "name": "Celadon Department Store Roof Exit",
+        "sections": [
+          {
+            "name": "Celadon Department Store Roof Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_roof",
+            "x": 248,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums 1F",
+    "children": [
+      {
+        "name": "Celadon Condominiums 1F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 1F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "x": 208,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 1F Northwest Stairs",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 1F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "x": 80,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums 2F",
+    "children": [
+      {
+        "name": "Celadon Condominiums 2F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 2F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "x": 176,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 2F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 2F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "x": 208,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 2F Northwest Stairs (Right)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 2F Northwest Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "x": 80,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 2F Northwest Stairs (Left)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 2F Northwest Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "x": 32,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums 3F",
+    "children": [
+      {
+        "name": "Celadon Condominiums 3F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 3F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_3f",
+            "x": 208,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 3F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 3F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_3f",
+            "x": 176,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 3F Northwest Stairs (Left)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 3F Northwest Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_3f",
+            "x": 32,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 3F Northwest Stairs (Right)",
+        "sections": [
+          {
+            "name": "Celadon Condominiums 3F Northwest Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_3f",
+            "x": 80,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums Roof",
+    "children": [
+      {
+        "name": "Celadon Condominiums Roof Northeast Stairs",
+        "sections": [
+          {
+            "name": "Celadon Condominiums Roof Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof",
+            "x": 176,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums Roof Northwest Stairs",
+        "sections": [
+          {
+            "name": "Celadon Condominiums Roof Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof",
+            "x": 80,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums Roof Room",
+        "sections": [
+          {
+            "name": "Celadon Condominiums Roof Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof",
+            "x": 40,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums Roof Room",
+    "children": [
+      {
+        "name": "Celadon Condominiums Roof Room Exit",
+        "sections": [
+          {
+            "name": "Celadon Condominiums Roof Room Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof_room",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Copycat's House 1F",
+    "children": [
+      {
+        "name": "Copycat's House 1F Stairs",
+        "sections": [
+          {
+            "name": "Copycat's House 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_1f",
+            "x": 176,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Copycat's House 2F",
+    "children": [
+      {
+        "name": "Copycat's House 2F Stairs",
+        "sections": [
+          {
+            "name": "Copycat's House 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_2f",
+            "x": 160,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Lab",
+    "children": [
+      {
+        "name": "Pokemon Lab Lounge",
+        "sections": [
+          {
+            "name": "Pokemon Lab Lounge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_entrance",
+            "x": 216,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Lab Research Room",
+        "sections": [
+          {
+            "name": "Pokemon Lab Research Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_entrance",
+            "x": 312,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Lab Experiment Room",
+        "sections": [
+          {
+            "name": "Pokemon Lab Experiment Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_entrance",
+            "x": 408,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokemon Lab Lounge",
+    "children": [
+      {
+        "name": "Pokemon Lab Lounge Exit",
+        "sections": [
+          {
+            "name": "Pokemon Lab Lounge Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_lounge",
+            "x": 120,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Lab Research Room",
+    "children": [
+      {
+        "name": "Pokemon Lab Research Room Exit",
+        "sections": [
+          {
+            "name": "Pokemon Lab Research Room Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_research_room",
+            "x": 120,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Lab Experiment Room",
+    "children": [
+      {
+        "name": "Pokemon Lab Experiment Room Exit",
+        "sections": [
+          {
+            "name": "Pokemon Lab Experiment Room Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_experiment_room",
+            "x": 120,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Moon 1F",
+    "children": [
+      {
+        "name": "Mt. Moon 1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 88,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon 1F Center Ladder (Left)",
+        "sections": [
+          {
+            "name": "Mt. Moon 1F Center Ladder (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 312,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon 1F Center Ladder (Right)",
+        "sections": [
+          {
+            "name": "Mt. Moon 1F Center Ladder (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 504,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Moon B1F",
+    "children": [
+      {
+        "name": "Mt. Moon B1F (First Tunnel) Northeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B1F (First Tunnel) Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 696,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F (First Tunnel) Southwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B1F (First Tunnel) Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 424,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F (Second Tunnel) East Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B1F (Second Tunnel) East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 408,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F (Second Tunnel) West Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B1F (Second Tunnel) West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F (Third Tunnel) Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B1F (Third Tunnel) Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F (Third Tunnel) Southeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B1F (Third Tunnel) Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 360,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F (Fourth Tunnel) West Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B1F (Fourth Tunnel) West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 632,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Moon B2F",
+    "children": [
+      {
+        "name": "Mt. Moon B2F South Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B2F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 280,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B2F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B2F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 504,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B2F Center Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B2F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 408,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "x": 88,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path North Entrance",
+    "children": [
+      {
+        "name": "Underground Path North Entrance Stairs",
+        "sections": [
+          {
+            "name": "Underground Path North Entrance Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_entrance",
+            "x": 112,
+            "y": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path South Entrance",
+    "children": [
+      {
+        "name": "Underground Path South Entrance Stairs",
+        "sections": [
+          {
+            "name": "Underground Path South Entrance Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_south_entrance",
+            "x": 112,
+            "y": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path North-South Tunnel",
+    "children": [
+      {
+        "name": "Underground Path North-South Tunnel North Stairs",
+        "sections": [
+          {
+            "name": "Underground Path North-South Tunnel North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_north",
+            "x": 80,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Underground Path North-South Tunnel South Stairs",
+        "sections": [
+          {
+            "name": "Underground Path North-South Tunnel South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_south",
+            "x": 48,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne Exterior",
+    "children": [
+      {
+        "name": "S.S. Anne",
+        "sections": [
+          {
+            "name": "S.S. Anne"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_exterior",
+            "x": 120,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Corridor",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Corridor Northwest Stairs",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Corridor Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 48,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne Kitchen",
+        "sections": [
+          {
+            "name": "S.S. Anne Kitchen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 40,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 312,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Corridor Southeast Stairs",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Corridor Southeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 448,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 1",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 88,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 2",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 3",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 4",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 5",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 6",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 328,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 7",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 376,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne Kitchen",
+    "children": [
+      {
+        "name": "S.S. Anne Kitchen Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne Kitchen Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_kitchen",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 1",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 1 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 1 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_1",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 2",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 2 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 2 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_2",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 3",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 3 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 3 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_3",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 4",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 4 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 4 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_4",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 5",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 5 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 5 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_5",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 6",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 6 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 6 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_4",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 7",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 7 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 7 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_7",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne B1F Corridor",
+    "children": [
+      {
+        "name": "S.S. Anne B1F Corridor Stairs",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Corridor Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 320,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 1",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 2",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 104,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 3",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 168,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 4",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 232,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 5",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 296,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne B1F Room 1",
+    "children": [
+      {
+        "name": "S.S. Anne B1F Room 1 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 1 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_1",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne B1F Room 2",
+    "children": [
+      {
+        "name": "S.S. Anne B1F Room 2 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 2 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_2",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne B1F Room 3",
+    "children": [
+      {
+        "name": "S.S. Anne B1F Room 3 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 3 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_3",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne B1F Room 4",
+    "children": [
+      {
+        "name": "S.S. Anne B1F Room 4 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 4 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_4",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne B1F Room 5",
+    "children": [
+      {
+        "name": "S.S. Anne B1F Room 5 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 5 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_5",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Corridor",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Corridor Northwest Stairs",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Corridor Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 48,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Corridor Southwest Stairs",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Corridor Southwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 48,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Corridor Northeast Stairs",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Corridor Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 496,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 1",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 104,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 2",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 168,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 3",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 232,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 4",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 296,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 5",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 5"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 360,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 6",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 424,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 1",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 1 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 1 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_1",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 2",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 2 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 2 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_2",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 3",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 3 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 3 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_3",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 4",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 4 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 4 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_4",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 5",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 5 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 5 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_5",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 6",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 6 Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 6 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_6",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 3F Corridor",
+    "children": [
+      {
+        "name": "S.S. Anne 3F Corridor Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne 3F Corridor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_3f_corridor",
+            "x": 24,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 3F Corridor Stairs",
+        "sections": [
+          {
+            "name": "S.S. Anne 3F Corridor Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_3f_corridor",
+            "x": 304,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne Deck",
+    "children": [
+      {
+        "name": "S.S. Anne Deck Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne Deck Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_deck",
+            "x": 264,
+            "y": 144
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne Captain's Office",
+    "children": [
+      {
+        "name": "S.S. Anne Captain's Office Stairs",
+        "sections": [
+          {
+            "name": "S.S. Anne Captain's Office Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_captains_office",
+            "x": 48,
+            "y": 124
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diglett's Cave South Entrance",
+    "children": [
+      {
+        "name": "Diglett's Cave South Entrance Ladder",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_south_entrance",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diglett's Cave North Entrance",
+    "children": [
+      {
+        "name": "Diglett's Cave North Entrance Ladder",
+        "sections": [
+          {
+            "name": "Diglett's Cave North Entrance Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_north_entrance",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diglett's Cave B1F",
+    "children": [
+      {
+        "name": "Diglett's Cave B1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Diglett's Cave B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_north",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave B1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Diglett's Cave B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_south",
+            "x": 760,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rock Tunnel 1F",
+    "children": [
+      {
+        "name": "Rock Tunnel 1F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 728,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F Center Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel 1F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 328,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F East Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel 1F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 728,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rock Tunnel B1F",
+    "children": [
+      {
+        "name": "Rock Tunnel B1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "x": 616,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel B1F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel B1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "x": 536,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel B1F Center Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel B1F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "x": 440,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel B1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 1F",
+    "children": [
+      {
+        "name": "Pokemon Tower 1F Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_1f",
+            "x": 304,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 2F",
+    "children": [
+      {
+        "name": "Pokemon Tower 2F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 2F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_2f",
+            "x": 64,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 2F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 2F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_2f",
+            "x": 304,
+            "y": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 3F",
+    "children": [
+      {
+        "name": "Pokemon Tower 3F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 3F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 64,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 3F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 3F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_3f",
+            "x": 304,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 4F",
+    "children": [
+      {
+        "name": "Pokemon Tower 4F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 4F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 64,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 4F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 4F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_4f",
+            "x": 304,
+            "y": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 5F",
+    "children": [
+      {
+        "name": "Pokemon Tower 5F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 5F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 64,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 5F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 5F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_5f",
+            "x": 304,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 6F",
+    "children": [
+      {
+        "name": "Pokemon Tower 6F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 6F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 304,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Tower 6F South Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 6F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_6f",
+            "x": 176,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 7F",
+    "children": [
+      {
+        "name": "Pokemon Tower 7F Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Tower 7F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_7f",
+            "x": 176,
+            "y": 268
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path East Entrance",
+    "children": [
+      {
+        "name": "Underground Path East Entrance Stairs",
+        "sections": [
+          {
+            "name": "Underground Path East Entrance Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_entrance",
+            "x": 112,
+            "y": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path West Entrance",
+    "children": [
+      {
+        "name": "Underground Path West Entrance Stairs",
+        "sections": [
+          {
+            "name": "Underground Path West Entrance Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_west_entrance",
+            "x": 112,
+            "y": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path East-West Tunnel",
+    "children": [
+      {
+        "name": "Underground Path East-West Tunnel East Stairs",
+        "sections": [
+          {
+            "name": "Underground Path East-West Tunnel East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_east",
+            "x": 592,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Underground Path East-West Tunnel West Stairs",
+        "sections": [
+          {
+            "name": "Underground Path East-West Tunnel West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_west",
+            "x": 48,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B1F",
+    "children": [
+      {
+        "name": "Rocket Hideout B1F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B1F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 288,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B1F South Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B1F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 256,
+            "y": 492
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B2F",
+    "children": [
+      {
+        "name": "Rocket Hideout B2F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Rocket Hideout B2F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 352,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Rocket Hideout B2F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 464,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B2F Southeast Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B2F Southeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b2f",
+            "x": 384,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B3F",
+    "children": [
+      {
+        "name": "Rocket Hideout B3F North Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B3F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 304,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout B3F South Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B3F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b3f",
+            "x": 240,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B4F",
+    "children": [
+      {
+        "name": "Rocket Hideout B4F Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B4F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b4f",
+            "x": 192,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Center Area",
+    "children": [
+      {
+        "name": "Safari Zone Center Area Rest House",
+        "sections": [
+          {
+            "name": "Safari Zone Center Area Rest House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 472,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Center Area Exit (East)",
+        "sections": [
+          {
+            "name": "Safari Zone Center Area Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 696,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Center Area Exit (North)",
+        "sections": [
+          {
+            "name": "Safari Zone Center Area Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 416,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Center Area Exit (West)",
+        "sections": [
+          {
+            "name": "Safari Zone Center Area Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 136,
+            "y": 288
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone East Area",
+    "children": [
+      {
+        "name": "Safari Zone East Area Exit (Northwest)",
+        "sections": [
+          {
+            "name": "Safari Zone East Area Exit (Northwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 136,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone East Area Exit (Southwest)",
+        "sections": [
+          {
+            "name": "Safari Zone East Area Exit (Southwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 136,
+            "y": 432
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone East Area Rest House",
+        "sections": [
+          {
+            "name": "Safari Zone East Area Rest House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 648,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone North Area",
+    "children": [
+      {
+        "name": "Safari Zone North Area Exit (Southwest)",
+        "sections": [
+          {
+            "name": "Safari Zone North Area Exit (Southwest)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 176,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area Exit (South)",
+        "sections": [
+          {
+            "name": "Safari Zone North Area Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 336,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area Exit (East)",
+        "sections": [
+          {
+            "name": "Safari Zone North Area Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 776,
+            "y": 512
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area Exit (Southeast)",
+        "sections": [
+          {
+            "name": "Safari Zone North Area Exit (Southeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 496,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area Rest House",
+        "sections": [
+          {
+            "name": "Safari Zone North Area Rest House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 696,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone West Area",
+    "children": [
+      {
+        "name": "Safari Zone West Area Exit (Northeast)",
+        "sections": [
+          {
+            "name": "Safari Zone West Area Exit (Northeast)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 608,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone West Area Exit (East)",
+        "sections": [
+          {
+            "name": "Safari Zone West Area Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 648,
+            "y": 432
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone West Area Rest House",
+        "sections": [
+          {
+            "name": "Safari Zone West Area Rest House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 312,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone West Area Exit (North)",
+        "sections": [
+          {
+            "name": "Safari Zone West Area Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 496,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Secret House",
+        "sections": [
+          {
+            "name": "Safari Zone Secret House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 200,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Center Rest House",
+    "children": [
+      {
+        "name": "Safari Zone Center Area Rest House Exit",
+        "sections": [
+          {
+            "name": "Safari Zone Center Area Rest House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center_rest_house",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone East Area Rest House",
+    "children": [
+      {
+        "name": "Safari Zone East Area Rest House Exit",
+        "sections": [
+          {
+            "name": "Safari Zone East Area Rest House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east_rest_house",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone North Area Rest House",
+    "children": [
+      {
+        "name": "Safari Zone North Area Rest House Exit",
+        "sections": [
+          {
+            "name": "Safari Zone North Area Rest House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north_rest_house",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone West Rest House",
+    "children": [
+      {
+        "name": "Safari Zone West Area Rest House Exit",
+        "sections": [
+          {
+            "name": "Safari Zone West Area Rest House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west_rest_house",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Secret House",
+    "children": [
+      {
+        "name": "Safari Zone Secret House Exit",
+        "sections": [
+          {
+            "name": "Safari Zone Secret House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_secret_house",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 1F",
+    "children": [
+      {
+        "name": "Silph Co. 1F Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_1f",
+            "x": 512,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 2F",
+    "children": [
+      {
+        "name": "Silph Co. 2F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 2F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 2F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "x": 496,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 3F",
+    "children": [
+      {
+        "name": "Silph Co. 3F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 448,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 3F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "x": 496,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 4F",
+    "children": [
+      {
+        "name": "Silph Co. 4F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 4F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 4F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "x": 496,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 5F",
+    "children": [
+      {
+        "name": "Silph Co. 5F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 5F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 448,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 5F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "x": 496,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 6F",
+    "children": [
+      {
+        "name": "Silph Co. 6F North Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 6F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 224,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 6F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "x": 432,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 7F",
+    "children": [
+      {
+        "name": "Silph Co. 7F North Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 7F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 304,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 7F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 8F",
+    "children": [
+      {
+        "name": "Silph Co. 8F North Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 8F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 256,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Northeast Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 8F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "x": 464,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 9F",
+    "children": [
+      {
+        "name": "Silph Co. 9F North Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 9F North Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 256,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F North Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 9F North Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "x": 304,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 10F",
+    "children": [
+      {
+        "name": "Silph Co. 10F North Stairs (Left)",
+        "sections": [
+          {
+            "name": "Silph Co. 10F North Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 96,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F North Stairs (Right)",
+        "sections": [
+          {
+            "name": "Silph Co. 10F North Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "x": 144,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 11F",
+    "children": [
+      {
+        "name": "Silph Co. 11F Stairs",
+        "sections": [
+          {
+            "name": "Silph Co. 11F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "x": 112,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands 1F",
+    "children": [
+      {
+        "name": "Seafoam Islands 1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "x": 168,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "x": 504,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands 1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "x": 456,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B1F",
+    "children": [
+      {
+        "name": "Seafoam Islands B1F Northwest Ladder (Bottom)",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F Northwest Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 168,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Northwest Ladder (Top)",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F Northwest Ladder (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 120,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Center Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F South Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 408,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 504,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Southeast Ladder (Bottom Left)",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F Southeast Ladder (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 456,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Southeast Ladder (Top Right)",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F Southeast Ladder (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 520,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B2F",
+    "children": [
+      {
+        "name": "Seafoam Islands B2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Southwest Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B2F Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 120,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Center Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B2F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F South Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B2F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 408,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B2F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 520,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Southeast Ladder (Bottom)",
+        "sections": [
+          {
+            "name": "Seafoam Islands B2F Southeast Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 504,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Southeast Ladder (Top)",
+        "sections": [
+          {
+            "name": "Seafoam Islands B2F Southeast Ladder (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 520,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B3F",
+    "children": [
+      {
+        "name": "Seafoam Islands B3F Southwest Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B3F Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "x": 136,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F West Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B3F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "x": 200,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Northeast Ladder (Right)",
+        "sections": [
+          {
+            "name": "Seafoam Islands B3F Northeast Ladder (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "x": 504,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Northeast Ladder (Left)",
+        "sections": [
+          {
+            "name": "Seafoam Islands B3F Northeast Ladder (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "x": 504,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B4F",
+    "children": [
+      {
+        "name": "Seafoam Islands B4F Center Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B4F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "x": 248,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B4F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Seafoam Islands B4F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "x": 520,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mansion 1F",
+    "children": [
+      {
+        "name": "Pokemon Mansion 1F West Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 176,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F South Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 400,
+            "y": 444
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mansion 2F",
+    "children": [
+      {
+        "name": "Pokemon Mansion 2F Northwest Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 2F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 160,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F West Stairs (Left)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 2F West Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 96,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F West Stairs (Right)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 2F West Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 160,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F East Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 2F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "x": 560,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mansion 3F",
+    "children": [
+      {
+        "name": "Pokemon Mansion 3F Southwest Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 3F Southwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 176,
+            "y": 188
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Northwest Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 3F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 128,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Southeast Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 3F Southeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "x": 544,
+            "y": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mansion B1F",
+    "children": [
+      {
+        "name": "Pokemon Mansion B1F Stairs",
+        "sections": [
+          {
+            "name": "Pokemon Mansion B1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "x": 560,
+            "y": 472
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Victory Road 1F",
+    "children": [
+      {
+        "name": "Victory Road 1F Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 56,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Victory Road 2F",
+    "children": [
+      {
+        "name": "Victory Road 2F West Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 24,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Center Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 552,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 584,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F East Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 2F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 616,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Victory Road 3F",
+    "children": [
+      {
+        "name": "Victory Road 3F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 88,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Victory Road 3F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 552,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Southeast Ladder (Top)",
+        "sections": [
+          {
+            "name": "Victory Road 3F Southeast Ladder (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 600,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Southeast Ladder (Bottom)",
+        "sections": [
+          {
+            "name": "Victory Road 3F Southeast Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "x": 632,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Exterior",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 680,
+            "y": 632
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path (Bottom)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 232,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path (Top)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 632,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 472,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Summit Path 1F",
+    "children": [
+      {
+        "name": "Mt. Ember Summit Path 1F Exit (South)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 1F Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_1f",
+            "x": 40,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 1F Exit (North)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 1F Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Summit Path 2F",
+    "children": [
+      {
+        "name": "Mt. Ember Summit Path 2F Exit (South)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 2F Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_2f",
+            "x": 136,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 2F Exit (North)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 2F Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_2f",
+            "x": 632,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Summit Path 3F",
+    "children": [
+      {
+        "name": "Mt. Ember Summit Path 3F Exit (West)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 3F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_3f",
+            "x": 40,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 3F Exit (East)",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Path 3F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_3f",
+            "x": 184,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Summit",
+    "children": [
+      {
+        "name": "Mt. Ember Summit Exit",
+        "sections": [
+          {
+            "name": "Mt. Ember Summit Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit",
+            "x": 152,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path 1F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path 1F Exit",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "x": 360,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path 1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "x": 24,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path 1F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "x": 392,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B1F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B1F South Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B1F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f",
+            "x": 152,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B1F North Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f",
+            "x": 104,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B1F Return",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B1F Return Northeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B1F Return Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f_return",
+            "x": 104,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B1F Return Southwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B1F Return Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f_return",
+            "x": 24,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B2F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B2F West Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B2F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f",
+            "x": 24,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B2F East Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B2F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f",
+            "x": 216,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B2F Return",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B2F Return Northeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B2F Return Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f_return",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B2F Return Southwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B2F Return Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f_return",
+            "x": 24,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B3F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B3F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "x": 24,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B3F Southwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B3F Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "x": 88,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B3F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "x": 312,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B4F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B4F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B4F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b4f",
+            "x": 232,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B4F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B4F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b4f",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B5F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B5F Ladder",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B5F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b5f",
+            "x": 184,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave Front",
+    "children": [
+      {
+        "name": "Icefall Cave Front Exit (North)",
+        "sections": [
+          {
+            "name": "Icefall Cave Front Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_front",
+            "x": 168,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave Front Ladder",
+        "sections": [
+          {
+            "name": "Icefall Cave Front Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_front",
+            "x": 152,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave 1F",
+    "children": [
+      {
+        "name": "Icefall Cave 1F Exit (South)",
+        "sections": [
+          {
+            "name": "Icefall Cave 1F Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 56,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F East Ladder",
+        "sections": [
+          {
+            "name": "Icefall Cave 1F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Icefall Cave 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Icefall Cave 1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 248,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Icefall Cave 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 40,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F Exit (North)",
+        "sections": [
+          {
+            "name": "Icefall Cave 1F Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 56,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave B1F",
+    "children": [
+      {
+        "name": "Icefall Cave B1F West Ladder",
+        "sections": [
+          {
+            "name": "Icefall Cave B1F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave B1F North Ladder",
+        "sections": [
+          {
+            "name": "Icefall Cave B1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave B1F South Ladder",
+        "sections": [
+          {
+            "name": "Icefall Cave B1F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "x": 248,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave Back",
+    "children": [
+      {
+        "name": "Icefall Cave Back Exit",
+        "sections": [
+          {
+            "name": "Icefall Cave Back Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_back",
+            "x": 200,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave 1F",
+    "children": [
+      {
+        "name": "Lost Cave 1F Ladder",
+        "sections": [
+          {
+            "name": "Lost Cave 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_entrance",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave B1F Room 1",
+    "children": [
+      {
+        "name": "Lost Cave B1F Room 1 Ladder",
+        "sections": [
+          {
+            "name": "Lost Cave B1F Room 1 Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_1",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dotted Hole 1F",
+    "children": [
+      {
+        "name": "Dotted Hole 1F Ladder",
+        "sections": [
+          {
+            "name": "Dotted Hole 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_1f",
+            "x": 216,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dotted Hole Sapphire Room",
+    "children": [
+      {
+        "name": "Dotted Hole Sapphire Room Ladder",
+        "sections": [
+          {
+            "name": "Dotted Hole Sapphire Room Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_sapphire_room",
+            "x": 184,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Cave 1F",
+    "children": [
+      {
+        "name": "Cerulean Cave 1F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 552,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 1F North Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 168,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 1F Southwest Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 88,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 1F East Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 488,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 1F Center Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 392,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 1F Northwest Ladder (Bottom)",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F Northwest Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 24,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 1F Northwest Ladder (Top)",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F Northwest Ladder (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 40,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Cave 2F",
+    "children": [
+      {
+        "name": "Cerulean Cave 2F Northeast Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 2F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 536,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 2F North Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 2F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 2F West Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 2F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 120,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 2F East Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 2F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 424,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 2F Center Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 2F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 376,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave 2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave 2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_2f",
+            "x": 88,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Cave B1F",
+    "children": [
+      {
+        "name": "Cerulean Cave B1F Ladder",
+        "sections": [
+          {
+            "name": "Cerulean Cave B1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_b1f",
+            "x": 88,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock 1F",
+    "children": [
+      {
+        "name": "Navel Rock 1F Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_1f",
+            "x": 136,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock B1F",
+    "children": [
+      {
+        "name": "Navel Rock B1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_b1f",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock B1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_b1f",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Fork",
+    "children": [
+      {
+        "name": "Navel Rock Fork South Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Fork South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_fork_south",
+            "x": 216,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Fork Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Fork Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_fork_north",
+            "x": 56,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Fork Northeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Fork Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_fork_north",
+            "x": 424,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit Path 2F",
+    "children": [
+      {
+        "name": "Navel Rock Summit Path 2F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 2F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_2f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Path 2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_2f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit Path 3F",
+    "children": [
+      {
+        "name": "Navel Rock Summit Path 3F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_3f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Path 3F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_3f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit Path 4F",
+    "children": [
+      {
+        "name": "Navel Rock Summit Path 4F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 4F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_4f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Path 4F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 4F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_4f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit Path 5F",
+    "children": [
+      {
+        "name": "Navel Rock Summit Path 5F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 5F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_5f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Summit Path 5F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Path 5F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit_path_5f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Summit",
+    "children": [
+      {
+        "name": "Navel Rock Summit Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Summit Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_summit",
+            "x": 168,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B1F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B1F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b1f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B1F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b1f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B2F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B2F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B2F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b2f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B2F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b2f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B3F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B3F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b3f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B3F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b3f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B4F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B4F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B4F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b4f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B4F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B4F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b4f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B5F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B5F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B5F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b5f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B5F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B5F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b5f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B6F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B6F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B6F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b6f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B6F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B6F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b6f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B7F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B7F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B7F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b7f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B7F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B7F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b7f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B8F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B8F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B8F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b8f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B8F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B8F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b8f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B9F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B9F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B9F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b9f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B9F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B9F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b9f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B10F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B10F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B10F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b10f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B10F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B10F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b10f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base Path B11F",
+    "children": [
+      {
+        "name": "Navel Rock Base Path B11F Northwest Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B11F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b11f",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock Base Path B11F Southeast Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Path B11F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base_path_b11f",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Base",
+    "children": [
+      {
+        "name": "Navel Rock Base Ladder",
+        "sections": [
+          {
+            "name": "Navel Rock Base Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_base",
+            "x": 216,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 11 Gate 1F",
+    "children": [
+      {
+        "name": "Route 11 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 11 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_1f",
+            "x": 160,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 11 Gate 2F",
+    "children": [
+      {
+        "name": "Route 11 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 11 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Gate 1F",
+    "children": [
+      {
+        "name": "Route 12 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 12 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "x": 144,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Gate 2F",
+    "children": [
+      {
+        "name": "Route 12 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 12 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 15 Gate 1F",
+    "children": [
+      {
+        "name": "Route 15 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 15 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "x": 160,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 15 Gate 2F",
+    "children": [
+      {
+        "name": "Route 15 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 15 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Gate 1F",
+    "children": [
+      {
+        "name": "Route 16 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 16 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "x": 160,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Gate 2F",
+    "children": [
+      {
+        "name": "Route 16 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 16 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 18 Gate 1F",
+    "children": [
+      {
+        "name": "Route 18 Gate 1F Stairs",
+        "sections": [
+          {
+            "name": "Route 18 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_gate_1f",
+            "x": 160,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 18 Gate 2F",
+    "children": [
+      {
+        "name": "Route 18 Gate 2F Stairs",
+        "sections": [
+          {
+            "name": "Route 18 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_gate_2f",
+            "x": 160,
+            "y": 156
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -113,36 +113,6 @@
             "y": 200
           }
         ]
-      },
-      {
-        "name": "Power Plant Exit (Front)",
-        "sections": [
-          {
-            "name": "Power Plant Exit (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "power_plant",
-            "x": 88,
-            "y": 616
-          }
-        ]
-      },
-      {
-        "name": "Power Plant Exit (Back)",
-        "sections": [
-          {
-            "name": "Power Plant Exit (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "power_plant",
-            "x": 24,
-            "y": 184
-          }
-        ]
       }
     ]
   }

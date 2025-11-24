@@ -129,51 +129,6 @@
             "y": 136
           }
         ]
-      },
-      {
-        "name": "Route 22 Gate (North)",
-        "sections": [
-          {
-            "name": "Route 22 Gate (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_23_south",
-            "x": 136,
-            "y": 536
-          }
-        ]
-      },
-      {
-        "name": "Victory Road (West)",
-        "sections": [
-          {
-            "name": "Victory Road (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_23_north",
-            "x": 88,
-            "y": 456
-          }
-        ]
-      },
-      {
-        "name": "Victory Road (East)",
-        "sections": [
-          {
-            "name": "Victory Road (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_23_north",
-            "x": 296,
-            "y": 456
-          }
-        ]
       }
     ]
   }

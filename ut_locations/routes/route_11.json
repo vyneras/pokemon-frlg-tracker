@@ -241,101 +241,6 @@
             "y": 232
           }
         ]
-      },
-      {
-        "name": "Diglett's Cave South Entrance",
-        "sections": [
-          {
-            "name": "Diglett's Cave South Entrance"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_11_west",
-            "x": 104,
-            "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Route 11 Gate (West)",
-        "sections": [
-          {
-            "name": "Route 11 Gate (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_11_east",
-            "x": 344,
-            "y": 168
-          }
-        ]
-      },
-      {
-        "name": "Route 11 Gate (East)",
-        "sections": [
-          {
-            "name": "Route 11 Gate (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_11_east",
-            "x": 456,
-            "y": 168
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Route 11 Gate 1F",
-    "children": [
-      {
-        "name": "Route 11 Gate 1F Exit (West)",
-        "sections": [
-          {
-            "name": "Route 11 Gate 1F Exit (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_11_gate_1f",
-            "x": 24,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Route 11 Gate 1F Exit (East)",
-        "sections": [
-          {
-            "name": "Route 11 Gate 1F Exit (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_11_gate_1f",
-            "x": 184,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Route 11 Gate 1F Stairs",
-        "sections": [
-          {
-            "name": "Route 11 Gate 1F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_11_gate_1f",
-            "x": 160,
-            "y": 168
-          }
-        ]
       }
     ]
   },
@@ -355,21 +260,6 @@
             "map": "route_11_gate_2f",
             "x": 40,
             "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Route 11 Gate 2F Stairs",
-        "sections": [
-          {
-            "name": "Route 11 Gate 2F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_11_gate_2f",
-            "x": 160,
-            "y": 156
           }
         ]
       }

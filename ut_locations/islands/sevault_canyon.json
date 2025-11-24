@@ -221,36 +221,6 @@
             "y": 584
           }
         ]
-      },
-      {
-        "name": "Tanoby Key",
-        "sections": [
-          {
-            "name": "Tanoby Key"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "sevault_canyon_north",
-            "x": 120,
-            "y": 280
-          }
-        ]
-      },
-      {
-        "name": "Sevault Canyon Chansey House",
-        "sections": [
-          {
-            "name": "Sevault Canyon Chansey House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "sevault_canyon_south",
-            "x": 232,
-            "y": 344
-          }
-        ]
       }
     ]
   },
@@ -270,21 +240,6 @@
             "map": "sevault_canyon_chansey_house",
             "x": 104,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Sevault Canyon Chansey House Exit",
-        "sections": [
-          {
-            "name": "Sevault Canyon Chansey House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "sevault_canyon_chansey_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }

@@ -49,36 +49,6 @@
             "y": 264
           }
         ]
-      },
-      {
-        "name": "Rival's House",
-        "sections": [
-          {
-            "name": "Rival's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pallet_town",
-            "x": 248,
-            "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Professor Oak's Lab",
-        "sections": [
-          {
-            "name": "Professor Oak's Lab"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pallet_town",
-            "x": 264,
-            "y": 216
-          }
-        ]
       }
     ]
   },
@@ -119,21 +89,6 @@
             "map": "rivals_house",
             "x": 88,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Rival's House Exit",
-        "sections": [
-          {
-            "name": "Rival's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "rivals_house",
-            "x": 72,
-            "y": 136
           }
         ]
       }
@@ -231,21 +186,6 @@
             "map": "oaks_lab",
             "x": 56,
             "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Professor Oak's Lab Exit",
-        "sections": [
-          {
-            "name": "Professor Oak's Lab Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "oaks_lab",
-            "x": 104,
-            "y": 200
           }
         ]
       }

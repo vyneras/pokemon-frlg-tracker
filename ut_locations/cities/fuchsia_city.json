@@ -65,156 +65,6 @@
             "y": 104
           }
         ]
-      },
-      {
-        "name": "Safari Zone Entrance",
-        "sections": [
-          {
-            "name": "Safari Zone Entrance"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 392,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone Warden's House",
-        "sections": [
-          {
-            "name": "Safari Zone Warden's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 536,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Poke Mart",
-        "sections": [
-          {
-            "name": "Fuchsia Poke Mart"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 184,
-            "y": 248
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone Office",
-        "sections": [
-          {
-            "name": "Safari Zone Office"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 456,
-            "y": 264
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Gym",
-        "sections": [
-          {
-            "name": "Fuchsia Gym"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 152,
-            "y": 520
-          }
-        ]
-      },
-      {
-        "name": "Bill's Grandpa's House",
-        "sections": [
-          {
-            "name": "Bill's Grandpa's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 232,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Pokemon Center",
-        "sections": [
-          {
-            "name": "Fuchsia Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 408,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Fishing House (Front)",
-        "sections": [
-          {
-            "name": "Fuchsia Fishing House (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 616,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Move Deleter's House",
-        "sections": [
-          {
-            "name": "Move Deleter's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 312,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Fishing House (Back)",
-        "sections": [
-          {
-            "name": "Fuchsia Fishing House (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_city",
-            "x": 632,
-            "y": 456
-          }
-        ]
       }
     ]
   },
@@ -236,21 +86,6 @@
             "y": 72
           }
         ]
-      },
-      {
-        "name": "Safari Zone Office Exit",
-        "sections": [
-          {
-            "name": "Safari Zone Office Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_office",
-            "x": 104,
-            "y": 152
-          }
-        ]
       }
     ]
   },
@@ -270,21 +105,6 @@
             "map": "fuchsia_pokemon_center_1f",
             "x": 184,
             "y": 24
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Fuchsia Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_pokemon_center_1f",
-            "x": 120,
-            "y": 136
           }
         ]
       }
@@ -420,21 +240,6 @@
             "y": 216
           }
         ]
-      },
-      {
-        "name": "Fuchsia Gym Exit",
-        "sections": [
-          {
-            "name": "Fuchsia Gym Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_gym",
-            "x": 120,
-            "y": 344
-          }
-        ]
       }
     ]
   },
@@ -454,21 +259,6 @@
             "map": "bills_grandpas_house",
             "x": 120,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Bill's Grandpa's House Exit",
-        "sections": [
-          {
-            "name": "Bill's Grandpa's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "bills_grandpas_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }
@@ -524,21 +314,6 @@
             "y": 32
           }
         ]
-      },
-      {
-        "name": "Safari Zone Warden's House Exit",
-        "sections": [
-          {
-            "name": "Safari Zone Warden's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_wardens_house",
-            "x": 104,
-            "y": 152
-          }
-        ]
       }
     ]
   },
@@ -558,36 +333,6 @@
             "map": "fuchsia_fishing_house",
             "x": 104,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Fishing House Exit (Front)",
-        "sections": [
-          {
-            "name": "Fuchsia Fishing House Exit (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_fishing_house",
-            "x": 56,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Fishing House Exit (Back)",
-        "sections": [
-          {
-            "name": "Fuchsia Fishing House Exit (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_fishing_house",
-            "x": 56,
-            "y": 24
           }
         ]
       }
@@ -629,41 +374,6 @@
             "map": "fuchsia_mart",
             "x": 40,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Fuchsia Poke Mart Exit",
-        "sections": [
-          {
-            "name": "Fuchsia Poke Mart Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "fuchsia_mart",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Move Deleter's House",
-    "children": [
-      {
-        "name": "Move Deleter's House Exit",
-        "sections": [
-          {
-            "name": "Move Deleter's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "move_deleters_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }

@@ -81,111 +81,6 @@
             "y": 328
           }
         ]
-      },
-      {
-        "name": "Pewter Museum (West)",
-        "sections": [
-          {
-            "name": "Pewter Museum (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_city",
-            "x": 280,
-            "y": 112
-          }
-        ]
-      },
-      {
-        "name": "Pewter Gym",
-        "sections": [
-          {
-            "name": "Pewter Gym"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_city",
-            "x": 248,
-            "y": 264
-          }
-        ]
-      },
-      {
-        "name": "Pewter Poke Mart",
-        "sections": [
-          {
-            "name": "Pewter Poke Mart"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_city",
-            "x": 456,
-            "y": 296
-          }
-        ]
-      },
-      {
-        "name": "Pewter Nidoran House",
-        "sections": [
-          {
-            "name": "Pewter Nidoran House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_city",
-            "x": 536,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Pewter Pokemon Center",
-        "sections": [
-          {
-            "name": "Pewter Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_city",
-            "x": 280,
-            "y": 408
-          }
-        ]
-      },
-      {
-        "name": "Pewter Info House",
-        "sections": [
-          {
-            "name": "Pewter Info House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_city",
-            "x": 152,
-            "y": 488
-          }
-        ]
-      },
-      {
-        "name": "Pewter Museum (East)",
-        "sections": [
-          {
-            "name": "Pewter Museum (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_city",
-            "x": 408,
-            "y": 72
-          }
-        ]
       }
     ]
   },
@@ -207,43 +102,12 @@
             "y": 24
           }
         ]
-      },
-      {
-        "name": "Pewter Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Pewter Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_pokemon_center_1f",
-            "x": 120,
-            "y": 136
-          }
-        ]
       }
     ]
   },
   {
-    "name": "Pewter Museum",
+    "name": "Pewter Museum 1F",
     "children": [
-      {
-        "name": "Pewter Museum Item",
-        "sections": [
-          {
-            "ref": "Cities/Pewter City/Pewter Museum Item",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_museum_2f",
-            "x": 296,
-            "y": 40
-          }
-        ]
-      },
       {
         "name": "Pewter Museum Scientist",
         "sections": [
@@ -275,64 +139,25 @@
             "y": 32
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "Pewter Museum 2F",
+    "children": [
       {
-        "name": "Pewter Museum 1F Exit (West)",
+        "name": "Pewter Museum Item",
         "sections": [
           {
-            "name": "Pewter Museum 1F Exit (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_museum_1f",
-            "x": 232,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Pewter Museum 1F Stairs",
-        "sections": [
-          {
-            "name": "Pewter Museum 1F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_museum_1f",
-            "x": 144,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Pewter Museum 1F Exit (East)",
-        "sections": [
-          {
-            "name": "Pewter Museum 1F Exit (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_museum_1f",
-            "x": 344,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Pewter Museum 2F Stairs",
-        "sections": [
-          {
-            "name": "Pewter Museum 2F Stairs"
+            "ref": "Cities/Pewter City/Pewter Museum Item",
+            "name": "Item"
           }
         ],
         "map_locations": [
           {
             "map": "pewter_museum_2f",
-            "x": 176,
-            "y": 140
+            "x": 296,
+            "y": 40
           }
         ]
       }
@@ -384,21 +209,6 @@
             "y": 88
           }
         ]
-      },
-      {
-        "name": "Pewter Gym Exit",
-        "sections": [
-          {
-            "name": "Pewter Gym Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_gym",
-            "x": 104,
-            "y": 232
-          }
-        ]
       }
     ]
   },
@@ -446,61 +256,6 @@
             "map": "pewter_mart",
             "x": 40,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Pewter Poke Mart Exit",
-        "sections": [
-          {
-            "name": "Pewter Poke Mart Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_mart",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Pewter Nidoran House",
-    "children": [
-      {
-        "name": "Pewter Nidoran House Exit",
-        "sections": [
-          {
-            "name": "Pewter Nidoran House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_nidoran_house",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Pewter Info House",
-    "children": [
-      {
-        "name": "Pewter Info House Exit",
-        "sections": [
-          {
-            "name": "Pewter Info House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_info_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }

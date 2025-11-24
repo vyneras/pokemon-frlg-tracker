@@ -1,75 +1,5 @@
 [
   {
-    "name": "Underground Path East Entrance",
-    "children": [
-      {
-        "name": "Underground Path East Entrance Exit",
-        "sections": [
-          {
-            "name": "Underground Path East Entrance Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_east_entrance",
-            "x": 104,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Underground Path East Entrance Stairs",
-        "sections": [
-          {
-            "name": "Underground Path East Entrance Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_east_entrance",
-            "x": 112,
-            "y": 76
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Underground Path West Entrance",
-    "children": [
-      {
-        "name": "Underground Path West Entrance Exit",
-        "sections": [
-          {
-            "name": "Underground Path West Entrance Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_west_entrance",
-            "x": 104,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Underground Path West Entrance Stairs",
-        "sections": [
-          {
-            "name": "Underground Path West Entrance Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_west_entrance",
-            "x": 112,
-            "y": 76
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Underground Path East-West Tunnel",
     "children": [
       {
@@ -181,36 +111,6 @@
             "map": "underground_path_east_west_tunnel_west",
             "x": 120,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Underground Path East-West Tunnel East Stairs",
-        "sections": [
-          {
-            "name": "Underground Path East-West Tunnel East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_east_west_tunnel_east",
-            "x": 592,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Underground Path East-West Tunnel West Stairs",
-        "sections": [
-          {
-            "name": "Underground Path East-West Tunnel West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "underground_path_east_west_tunnel_west",
-            "x": 48,
-            "y": 72
           }
         ]
       }

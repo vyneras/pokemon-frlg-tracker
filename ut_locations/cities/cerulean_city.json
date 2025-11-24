@@ -93,186 +93,6 @@
             "y": 104
           }
         ]
-      },
-      {
-        "name": "Badge Guy's House (Front)",
-        "sections": [
-          {
-            "name": "Badge Guy's House (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 168,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Robbed House (Front)",
-        "sections": [
-          {
-            "name": "Robbed House (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 488,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Cerulean Trade House",
-        "sections": [
-          {
-            "name": "Cerulean Trade House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 248,
-            "y": 280
-          }
-        ]
-      },
-      {
-        "name": "Cerulean Pokemon Center",
-        "sections": [
-          {
-            "name": "Cerulean Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 360,
-            "y": 312
-          }
-        ]
-      },
-      {
-        "name": "Cerulean Gym",
-        "sections": [
-          {
-            "name": "Cerulean Gym"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 504,
-            "y": 344
-          }
-        ]
-      },
-      {
-        "name": "Bike Shop",
-        "sections": [
-          {
-            "name": "Bike Shop"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 224,
-            "y": 456
-          }
-        ]
-      },
-      {
-        "name": "Cerulean Poke Mart",
-        "sections": [
-          {
-            "name": "Cerulean Poke Mart"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 472,
-            "y": 456
-          }
-        ]
-      },
-      {
-        "name": "Wonder News House",
-        "sections": [
-          {
-            "name": "Wonder News House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 376,
-            "y": 456
-          }
-        ]
-      },
-      {
-        "name": "Berry Powder Man's House",
-        "sections": [
-          {
-            "name": "Berry Powder Man's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 280,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Badge Guy's House (Back)",
-        "sections": [
-          {
-            "name": "Badge Guy's House (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 168,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Robbed House (Back)",
-        "sections": [
-          {
-            "name": "Robbed House (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 504,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Cerulean Cave",
-        "sections": [
-          {
-            "name": "Cerulean Cave"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_city",
-            "x": 24,
-            "y": 200
-          }
-        ]
       }
     ]
   },
@@ -324,21 +144,6 @@
             "map": "cerulean_pokemon_center_1f",
             "x": 48,
             "y": 32
-          }
-        ]
-      },
-      {
-        "name": "Cerulean Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Cerulean Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_pokemon_center_1f",
-            "x": 120,
-            "y": 136
           }
         ]
       }
@@ -426,21 +231,6 @@
             "y": 104
           }
         ]
-      },
-      {
-        "name": "Cerulean Gym Exit",
-        "sections": [
-          {
-            "name": "Cerulean Gym Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_gym",
-            "x": 136,
-            "y": 296
-          }
-        ]
       }
     ]
   },
@@ -462,21 +252,6 @@
             "y": 56
           }
         ]
-      },
-      {
-        "name": "Bike Shop Exit",
-        "sections": [
-          {
-            "name": "Bike Shop Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "bike_shop",
-            "x": 88,
-            "y": 136
-          }
-        ]
       }
     ]
   },
@@ -496,21 +271,6 @@
             "map": "berry_powder_mans_house",
             "x": 120,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Berry Powder Man's House Exit",
-        "sections": [
-          {
-            "name": "Berry Powder Man's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "berry_powder_mans_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }
@@ -564,131 +324,6 @@
             "map": "cerulean_mart",
             "x": 40,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Cerulean Poke Mart Exit",
-        "sections": [
-          {
-            "name": "Cerulean Poke Mart Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_mart",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Badge Guy's House",
-    "children": [
-      {
-        "name": "Badge Guy's House Exit (Front)",
-        "sections": [
-          {
-            "name": "Badge Guy's House Exit (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "badge_guys_house",
-            "x": 56,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Badge Guy's House Exit (Back)",
-        "sections": [
-          {
-            "name": "Badge Guy's House Exit (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "badge_guys_house",
-            "x": 56,
-            "y": 24
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Robbed House",
-    "children": [
-      {
-        "name": "Robbed House Exit (Front)",
-        "sections": [
-          {
-            "name": "Robbed House Exit (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "robbed_house",
-            "x": 56,
-            "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Robbed House Exit (Back)",
-        "sections": [
-          {
-            "name": "Robbed House Exit (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "robbed_house",
-            "x": 72,
-            "y": 24
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Cerulean Trade House",
-    "children": [
-      {
-        "name": "Cerulean Trade House Exit",
-        "sections": [
-          {
-            "name": "Cerulean Trade House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cerulean_trade_house",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Wonder News House",
-    "children": [
-      {
-        "name": "Wonder News House Exit",
-        "sections": [
-          {
-            "name": "Wonder News House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "wonder_news_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }

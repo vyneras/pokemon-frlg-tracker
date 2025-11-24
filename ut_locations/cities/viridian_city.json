@@ -66,81 +66,6 @@
             "y": 184
           }
         ]
-      },
-      {
-        "name": "Viridian Pokemon Center",
-        "sections": [
-          {
-            "name": "Viridian Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_city",
-            "x": 424,
-            "y": 424
-          }
-        ]
-      },
-      {
-        "name": "Viridian Nickname House",
-        "sections": [
-          {
-            "name": "Viridian Nickname House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_city",
-            "x": 408,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Viridian School",
-        "sections": [
-          {
-            "name": "Viridian School"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_city",
-            "x": 408,
-            "y": 296
-          }
-        ]
-      },
-      {
-        "name": "Viridian Poke Mart",
-        "sections": [
-          {
-            "name": "Viridian Poke Mart"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_city",
-            "x": 584,
-            "y": 312
-          }
-        ]
-      },
-      {
-        "name": "Viridian Gym",
-        "sections": [
-          {
-            "name": "Viridian Gym"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_city",
-            "x": 584,
-            "y": 168
-          }
-        ]
       }
     ]
   },
@@ -160,41 +85,6 @@
             "map": "viridian_pokemon_center_1f",
             "x": 184,
             "y": 24
-          }
-        ]
-      },
-      {
-        "name": "Viridian Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Viridian Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_pokemon_center_1f",
-            "x": 120,
-            "y": 136
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Viridian Nickname House",
-    "children": [
-      {
-        "name": "Viridian Nickname House Exit",
-        "sections": [
-          {
-            "name": "Viridian Nickname House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }
@@ -378,21 +268,6 @@
             "y": 40
           }
         ]
-      },
-      {
-        "name": "Viridian Gym Exit",
-        "sections": [
-          {
-            "name": "Viridian Gym Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_gym",
-            "x": 280,
-            "y": 360
-          }
-        ]
       }
     ]
   },
@@ -416,21 +291,6 @@
             "map": "viridian_school",
             "x": 144,
             "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Viridian School Exit",
-        "sections": [
-          {
-            "name": "Viridian School Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_school",
-            "x": 72,
-            "y": 120
           }
         ]
       }
@@ -468,21 +328,6 @@
             "map": "viridian_mart",
             "x": 40,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Viridian Poke Mart Exit",
-        "sections": [
-          {
-            "name": "Viridian Poke Mart Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "viridian_mart",
-            "x": 72,
-            "y": 120
           }
         ]
       }

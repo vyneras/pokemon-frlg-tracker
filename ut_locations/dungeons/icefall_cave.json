@@ -1,55 +1,5 @@
 [
   {
-    "name": "Icefall Cave Front",
-    "children": [
-      {
-        "name": "Icefall Cave Front Exit (South)",
-        "sections": [
-          {
-            "name": "Icefall Cave Front Exit (South)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_front",
-            "x": 280,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave Front Exit (North)",
-        "sections": [
-          {
-            "name": "Icefall Cave Front Exit (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_front",
-            "x": 168,
-            "y": 344
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave Front Ladder",
-        "sections": [
-          {
-            "name": "Icefall Cave Front Ladder"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_front",
-            "x": 152,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Icefall Cave 1F",
     "children": [
       {
@@ -81,96 +31,6 @@
             "map": "icefall_cave_1f",
             "x": 200,
             "y": 264
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave 1F Exit (South)",
-        "sections": [
-          {
-            "name": "Icefall Cave 1F Exit (South)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_1f",
-            "x": 56,
-            "y": 296
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave 1F East Ladder",
-        "sections": [
-          {
-            "name": "Icefall Cave 1F East Ladder"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_1f",
-            "x": 200,
-            "y": 200
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave 1F Northeast Ladder",
-        "sections": [
-          {
-            "name": "Icefall Cave 1F Northeast Ladder"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_1f",
-            "x": 200,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave 1F Southeast Ladder",
-        "sections": [
-          {
-            "name": "Icefall Cave 1F Southeast Ladder"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_1f",
-            "x": 248,
-            "y": 264
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave 1F Northwest Ladder",
-        "sections": [
-          {
-            "name": "Icefall Cave 1F Northwest Ladder"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_1f",
-            "x": 40,
-            "y": 136
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave 1F Exit (North)",
-        "sections": [
-          {
-            "name": "Icefall Cave 1F Exit (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_1f",
-            "x": 56,
-            "y": 104
           }
         ]
       }
@@ -210,51 +70,6 @@
             "y": 232
           }
         ]
-      },
-      {
-        "name": "Icefall Cave B1F West Ladder",
-        "sections": [
-          {
-            "name": "Icefall Cave B1F West Ladder"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_b1f",
-            "x": 200,
-            "y": 200
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave B1F North Ladder",
-        "sections": [
-          {
-            "name": "Icefall Cave B1F North Ladder"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_b1f",
-            "x": 200,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave B1F South Ladder",
-        "sections": [
-          {
-            "name": "Icefall Cave B1F South Ladder"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_b1f",
-            "x": 248,
-            "y": 264
-          }
-        ]
       }
     ]
   },
@@ -290,21 +105,6 @@
             "map": "icefall_cave_back",
             "x": 216,
             "y": 232
-          }
-        ]
-      },
-      {
-        "name": "Icefall Cave Back Exit",
-        "sections": [
-          {
-            "name": "Icefall Cave Back Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "icefall_cave_back",
-            "x": 200,
-            "y": 392
           }
         ]
       }

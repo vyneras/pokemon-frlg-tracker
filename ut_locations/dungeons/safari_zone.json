@@ -1,25 +1,5 @@
 [
   {
-    "name": "Safari Zone Entrance",
-    "children": [
-      {
-        "name": "Safari Zone Entrance Exit",
-        "sections": [
-          {
-            "name": "Safari Zone Entrance Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_entrance",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Safari Zone Center Area",
     "children": [
       {
@@ -51,66 +31,6 @@
             "map": "safari_zone_center",
             "x": 440,
             "y": 248
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone Center Area Rest House",
-        "sections": [
-          {
-            "name": "Safari Zone Center Area Rest House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_center",
-            "x": 472,
-            "y": 408
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone Center Area Exit (East)",
-        "sections": [
-          {
-            "name": "Safari Zone Center Area Exit (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_center",
-            "x": 696,
-            "y": 256
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone Center Area Exit (North)",
-        "sections": [
-          {
-            "name": "Safari Zone Center Area Exit (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_center",
-            "x": 416,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone Center Area Exit (West)",
-        "sections": [
-          {
-            "name": "Safari Zone Center Area Exit (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_center",
-            "x": 136,
-            "y": 288
           }
         ]
       }
@@ -182,51 +102,6 @@
             "y": 248
           }
         ]
-      },
-      {
-        "name": "Safari Zone East Area Exit (Northwest)",
-        "sections": [
-          {
-            "name": "Safari Zone East Area Exit (Northwest)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_east",
-            "x": 136,
-            "y": 160
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone East Area Exit (Southwest)",
-        "sections": [
-          {
-            "name": "Safari Zone East Area Exit (Southwest)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_east",
-            "x": 136,
-            "y": 432
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone East Area Rest House",
-        "sections": [
-          {
-            "name": "Safari Zone East Area Rest House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_east",
-            "x": 648,
-            "y": 232
-          }
-        ]
       }
     ]
   },
@@ -278,81 +153,6 @@
             "map": "safari_zone_north",
             "x": 536,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone North Area Exit (Southwest)",
-        "sections": [
-          {
-            "name": "Safari Zone North Area Exit (Southwest)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_north",
-            "x": 176,
-            "y": 552
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone North Area Exit (South)",
-        "sections": [
-          {
-            "name": "Safari Zone North Area Exit (South)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_north",
-            "x": 336,
-            "y": 552
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone North Area Exit (East)",
-        "sections": [
-          {
-            "name": "Safari Zone North Area Exit (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_north",
-            "x": 776,
-            "y": 512
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone North Area Exit (Southeast)",
-        "sections": [
-          {
-            "name": "Safari Zone North Area Exit (Southeast)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_north",
-            "x": 496,
-            "y": 552
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone North Area Rest House",
-        "sections": [
-          {
-            "name": "Safari Zone North Area Rest House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_north",
-            "x": 696,
-            "y": 136
           }
         ]
       }
@@ -440,101 +240,6 @@
             "y": 184
           }
         ]
-      },
-      {
-        "name": "Safari Zone West Area Exit (Northeast)",
-        "sections": [
-          {
-            "name": "Safari Zone West Area Exit (Northeast)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_west",
-            "x": 608,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone West Area Exit (East)",
-        "sections": [
-          {
-            "name": "Safari Zone West Area Exit (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_west",
-            "x": 648,
-            "y": 432
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone West Area Rest House",
-        "sections": [
-          {
-            "name": "Safari Zone West Area Rest House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_west",
-            "x": 312,
-            "y": 296
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone West Area Exit (North)",
-        "sections": [
-          {
-            "name": "Safari Zone West Area Exit (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_west",
-            "x": 496,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone Secret House",
-        "sections": [
-          {
-            "name": "Safari Zone Secret House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_west",
-            "x": 200,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Safari Zone Center Rest House",
-    "children": [
-      {
-        "name": "Safari Zone Center Area Rest House Exit",
-        "sections": [
-          {
-            "name": "Safari Zone Center Area Rest House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_center_rest_house",
-            "x": 72,
-            "y": 152
-          }
-        ]
       }
     ]
   },
@@ -554,21 +259,6 @@
             "map": "safari_zone_east_rest_house",
             "x": 136,
             "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone East Area Rest House Exit",
-        "sections": [
-          {
-            "name": "Safari Zone East Area Rest House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_east_rest_house",
-            "x": 72,
-            "y": 152
           }
         ]
       }
@@ -592,41 +282,6 @@
             "y": 40
           }
         ]
-      },
-      {
-        "name": "Safari Zone North Area Rest House Exit",
-        "sections": [
-          {
-            "name": "Safari Zone North Area Rest House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_north_rest_house",
-            "x": 72,
-            "y": 152
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Safari Zone West Rest House",
-    "children": [
-      {
-        "name": "Safari Zone West Area Rest House Exit",
-        "sections": [
-          {
-            "name": "Safari Zone West Area Rest House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_west_rest_house",
-            "x": 72,
-            "y": 152
-          }
-        ]
       }
     ]
   },
@@ -646,21 +301,6 @@
             "map": "safari_zone_secret_house",
             "x": 104,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone Secret House Exit",
-        "sections": [
-          {
-            "name": "Safari Zone Secret House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "safari_zone_secret_house",
-            "x": 72,
-            "y": 152
           }
         ]
       }

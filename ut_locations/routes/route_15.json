@@ -229,86 +229,6 @@
             "y": 104
           }
         ]
-      },
-      {
-        "name": "Route 15 Gate (East)",
-        "sections": [
-          {
-            "name": "Route 15 Gate (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_15_west",
-            "x": 264,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Route 15 Gate (West)",
-        "sections": [
-          {
-            "name": "Route 15 Gate (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_15_west",
-            "x": 152,
-            "y": 184
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Route 15 Gate 1F",
-    "children": [
-      {
-        "name": "Route 15 Gate 1F Exit (East)",
-        "sections": [
-          {
-            "name": "Route 15 Gate 1F Exit (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_15_gate_1f",
-            "x": 184,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Route 15 Gate 1F Exit (West)",
-        "sections": [
-          {
-            "name": "Route 15 Gate 1F Exit (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_15_gate_1f",
-            "x": 24,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Route 15 Gate 1F Stairs",
-        "sections": [
-          {
-            "name": "Route 15 Gate 1F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_15_gate_1f",
-            "x": 160,
-            "y": 168
-          }
-        ]
       }
     ]
   },
@@ -328,21 +248,6 @@
             "map": "route_15_gate_2f",
             "x": 88,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Route 15 Gate 2F Stairs",
-        "sections": [
-          {
-            "name": "Route 15 Gate 2F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_15_gate_2f",
-            "x": 160,
-            "y": 156
           }
         ]
       }

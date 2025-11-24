@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Viridian City",
+    "children": [
+      {
+        "name": "Viridian Poke Mart",
+        "sections": [
+          {
+            "name": "Viridian Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 584,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Mart",
+    "children": [
+      {
+        "name": "Viridian Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Viridian Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter City",
+    "children": [
+      {
+        "name": "Pewter Poke Mart",
+        "sections": [
+          {
+            "name": "Pewter Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 456,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Mart",
+    "children": [
+      {
+        "name": "Pewter Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Pewter Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean City",
+    "children": [
+      {
+        "name": "Cerulean Poke Mart",
+        "sections": [
+          {
+            "name": "Cerulean Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 472,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Mart",
+    "children": [
+      {
+        "name": "Cerulean Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Cerulean Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion City",
+    "children": [
+      {
+        "name": "Vermilion Poke Mart",
+        "sections": [
+          {
+            "name": "Vermilion Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Mart",
+    "children": [
+      {
+        "name": "Vermilion Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Vermilion Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavender Town",
+    "children": [
+      {
+        "name": "Lavender Poke Mart",
+        "sections": [
+          {
+            "name": "Lavender Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 328,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavender Mart",
+    "children": [
+      {
+        "name": "Lavender Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Lavender Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia City",
+    "children": [
+      {
+        "name": "Fuchsia Poke Mart",
+        "sections": [
+          {
+            "name": "Fuchsia Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 184,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Mart",
+    "children": [
+      {
+        "name": "Fuchsia Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Fuchsia Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron City",
+    "children": [
+      {
+        "name": "Saffron Poke Mart",
+        "sections": [
+          {
+            "name": "Saffron Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 648,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Mart",
+    "children": [
+      {
+        "name": "Saffron Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Saffron Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Island",
+    "children": [
+      {
+        "name": "Cinnabar Poke Mart",
+        "sections": [
+          {
+            "name": "Cinnabar Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 312,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Mart",
+    "children": [
+      {
+        "name": "Cinnabar Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Cinnabar Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Town",
+    "children": [
+      {
+        "name": "Three Island Poke Mart",
+        "sections": [
+          {
+            "name": "Three Island Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Mart",
+    "children": [
+      {
+        "name": "Three Island Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Three Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Town",
+    "children": [
+      {
+        "name": "Four Island Poke Mart",
+        "sections": [
+          {
+            "name": "Four Island Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 360,
+            "y": 424
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Mart",
+    "children": [
+      {
+        "name": "Four Island Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Four Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Town",
+    "children": [
+      {
+        "name": "Six Island Poke Mart",
+        "sections": [
+          {
+            "name": "Six Island Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 328,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Mart",
+    "children": [
+      {
+        "name": "Six Island Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Six Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Town",
+    "children": [
+      {
+        "name": "Seven Island Poke Mart",
+        "sections": [
+          {
+            "name": "Seven Island Poke Mart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Mart",
+    "children": [
+      {
+        "name": "Seven Island Poke Mart Exit",
+        "sections": [
+          {
+            "name": "Seven Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_mart",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -97,51 +97,6 @@
             "y": 56
           }
         ]
-      },
-      {
-        "name": "Mt. Moon (West)",
-        "sections": [
-          {
-            "name": "Mt. Moon (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_4_west",
-            "x": 312,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Mt. Moon (East)",
-        "sections": [
-          {
-            "name": "Mt. Moon (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_4_west",
-            "x": 520,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Route 4 Pokemon Center",
-        "sections": [
-          {
-            "name": "Route 4 Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_4_west",
-            "x": 200,
-            "y": 88
-          }
-        ]
       }
     ]
   },
@@ -177,21 +132,6 @@
             "map": "route_4_pokemon_center_1f",
             "x": 12,
             "y": 12
-          }
-        ]
-      },
-      {
-        "name": "Route 4 Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Route 4 Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_4_pokemon_center_1f",
-            "x": 120,
-            "y": 136
           }
         ]
       }

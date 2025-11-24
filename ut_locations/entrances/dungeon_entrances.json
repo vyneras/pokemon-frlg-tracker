@@ -1,0 +1,1407 @@
+[
+  {
+    "name": "Cerulean City",
+    "children": [
+      {
+        "name": "Cerulean Cave",
+        "sections": [
+          {
+            "name": "Cerulean Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 24,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion City",
+    "children": [
+      {
+        "name": "Vermilion Harbor",
+        "sections": [
+          {
+            "name": "Vermilion Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 376,
+            "y": 552
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavender Town",
+    "children": [
+      {
+        "name": "Pokemon Tower",
+        "sections": [
+          {
+            "name": "Pokemon Tower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 296,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Game Corner",
+    "children": [
+      {
+        "name": "Rocket Hideout",
+        "sections": [
+          {
+            "name": "Rocket Hideout"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "x": 256,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia City",
+    "children": [
+      {
+        "name": "Safari Zone Entrance",
+        "sections": [
+          {
+            "name": "Safari Zone Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 392,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron City",
+    "children": [
+      {
+        "name": "Silph Co.",
+        "sections": [
+          {
+            "name": "Silph Co."
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 536,
+            "y": 488
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Island",
+    "children": [
+      {
+        "name": "Pokemon Mansion",
+        "sections": [
+          {
+            "name": "Pokemon Mansion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 136,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Forest",
+    "children": [
+      {
+        "name": "Viridian Forest Exit (South)",
+        "sections": [
+          {
+            "name": "Viridian Forest Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 472,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest Exit (North)",
+        "sections": [
+          {
+            "name": "Viridian Forest Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Moon 1F",
+    "children": [
+      {
+        "name": "Mt. Moon 1F Exit",
+        "sections": [
+          {
+            "name": "Mt. Moon 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "x": 296,
+            "y": 616
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Moon B1F",
+    "children": [
+      {
+        "name": "Mt. Moon B1F (Fourth Tunnel) East Ladder",
+        "sections": [
+          {
+            "name": "Mt. Moon B1F (Fourth Tunnel) East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "x": 728,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne Exterior",
+    "children": [
+      {
+        "name": "S.S. Anne Exterior Exit",
+        "sections": [
+          {
+            "name": "S.S. Anne Exterior Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_exterior",
+            "x": 120,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diglett's Cave South Entrance",
+    "children": [
+      {
+        "name": "Diglett's Cave South Entrance Exit",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_south_entrance",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diglett's Cave North Entrance",
+    "children": [
+      {
+        "name": "Diglett's Cave North Entrance Exit",
+        "sections": [
+          {
+            "name": "Diglett's Cave North Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_north_entrance",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rock Tunnel 1F",
+    "children": [
+      {
+        "name": "Rock Tunnel 1F North Ladder",
+        "sections": [
+          {
+            "name": "Rock Tunnel 1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 280,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F Exit",
+        "sections": [
+          {
+            "name": "Rock Tunnel 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "x": 296,
+            "y": 616
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Power Plant",
+    "children": [
+      {
+        "name": "Power Plant Exit (Front)",
+        "sections": [
+          {
+            "name": "Power Plant Exit (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 88,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Exit (Back)",
+        "sections": [
+          {
+            "name": "Power Plant Exit (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 24,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Tower 1F",
+    "children": [
+      {
+        "name": "Pokemon Tower 1F Exit",
+        "sections": [
+          {
+            "name": "Pokemon Tower 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_tower_1f",
+            "x": 184,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Hideout B1F",
+    "children": [
+      {
+        "name": "Rocket Hideout B1F Northwest Stairs",
+        "sections": [
+          {
+            "name": "Rocket Hideout B1F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_hideout_b1f",
+            "x": 192,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Entrance",
+    "children": [
+      {
+        "name": "Safari Zone Entrance Exit",
+        "sections": [
+          {
+            "name": "Safari Zone Entrance Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_entrance",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silph Co. 1F",
+    "children": [
+      {
+        "name": "Silph Co. 1F Exit",
+        "sections": [
+          {
+            "name": "Silph Co. 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_1f",
+            "x": 136,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands 1F",
+    "children": [
+      {
+        "name": "Seafoam Islands 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Seafoam Islands 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "x": 104,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Seafoam Islands 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "x": 520,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Mansion 1F",
+    "children": [
+      {
+        "name": "Pokemon Mansion 1F Exit (West)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 136,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F Exit (East)",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "x": 552,
+            "y": 536
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Victory Road 1F",
+    "children": [
+      {
+        "name": "Victory Road 1F Exit",
+        "sections": [
+          {
+            "name": "Victory Road 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "x": 184,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Victory Road 2F",
+    "children": [
+      {
+        "name": "Victory Road 2F Exit",
+        "sections": [
+          {
+            "name": "Victory Road 2F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "x": 776,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Exterior",
+    "children": [
+      {
+        "name": "Mt. Ember Exterior Exit",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 464,
+            "y": 792
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Berry Forest",
+    "children": [
+      {
+        "name": "Berry Forest Exit",
+        "sections": [
+          {
+            "name": "Berry Forest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "berry_forest",
+            "x": 696,
+            "y": 664
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave Front",
+    "children": [
+      {
+        "name": "Icefall Cave Front Exit (South)",
+        "sections": [
+          {
+            "name": "Icefall Cave Front Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_front",
+            "x": 280,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rocket Warehouse",
+    "children": [
+      {
+        "name": "Rocket Warehouse Exit",
+        "sections": [
+          {
+            "name": "Rocket Warehouse Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "x": 392,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lost Cave 1F",
+    "children": [
+      {
+        "name": "Lost Cave 1F Exit",
+        "sections": [
+          {
+            "name": "Lost Cave 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_entrance",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dotted Hole 1F",
+    "children": [
+      {
+        "name": "Dotted Hole 1F Exit",
+        "sections": [
+          {
+            "name": "Dotted Hole 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_1f",
+            "x": 104,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pattern Bush",
+    "children": [
+      {
+        "name": "Pattern Bush Exit (East)",
+        "sections": [
+          {
+            "name": "Pattern Bush Exit (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 888,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush Exit (West)",
+        "sections": [
+          {
+            "name": "Pattern Bush Exit (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "x": 72,
+            "y": 424
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Altering Cave",
+    "children": [
+      {
+        "name": "Altering Cave Exit",
+        "sections": [
+          {
+            "name": "Altering Cave Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "altering_cave",
+            "x": 296,
+            "y": 376
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monean Chamber",
+    "children": [
+      {
+        "name": "Monean Chamber Exit",
+        "sections": [
+          {
+            "name": "Monean Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "monean_chamber",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Liptoo Chamber",
+    "children": [
+      {
+        "name": "Liptoo Chamber Exit",
+        "sections": [
+          {
+            "name": "Liptoo Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "liptoo_chamber",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Weepth Chamber",
+    "children": [
+      {
+        "name": "Weepth Chamber Exit",
+        "sections": [
+          {
+            "name": "Weepth Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "weepth_chamber",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dilford Chamber",
+    "children": [
+      {
+        "name": "Dilford Chamber Exit",
+        "sections": [
+          {
+            "name": "Dilford Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dilford_chamber",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scufib Chamber",
+    "children": [
+      {
+        "name": "Scufib Chamber Exit",
+        "sections": [
+          {
+            "name": "Scufib Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "scufib_chamber",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rixy Chamber",
+    "children": [
+      {
+        "name": "Rixy Chamber Exit",
+        "sections": [
+          {
+            "name": "Rixy Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rixy_chamber",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viapois Chamber",
+    "children": [
+      {
+        "name": "Viapois Chamber Exit",
+        "sections": [
+          {
+            "name": "Viapois Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viapois_chamber",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Cave 1F",
+    "children": [
+      {
+        "name": "Cerulean Cave 1F Exit",
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_cave_1f",
+            "x": 536,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kindle Road",
+    "children": [
+      {
+        "name": "Mt. Ember",
+        "sections": [
+          {
+            "name": "Mt. Ember"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_north",
+            "x": 192,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bond Bridge",
+    "children": [
+      {
+        "name": "Berry Forest",
+        "sections": [
+          {
+            "name": "Berry Forest"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 208,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Town",
+    "children": [
+      {
+        "name": "Icefall Cave",
+        "sections": [
+          {
+            "name": "Icefall Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 616,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Isle Meadow",
+    "children": [
+      {
+        "name": "Rocket Warehouse",
+        "sections": [
+          {
+            "name": "Rocket Warehouse"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 200,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Resort Gorgeous",
+    "children": [
+      {
+        "name": "Lost Cave",
+        "sections": [
+          {
+            "name": "Lost Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ruin Valley",
+    "children": [
+      {
+        "name": "Dotted Hole",
+        "sections": [
+          {
+            "name": "Dotted Hole"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 392,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Green Path",
+    "children": [
+      {
+        "name": "Pattern Bush (East)",
+        "sections": [
+          {
+            "name": "Pattern Bush (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_east",
+            "x": 448,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush (West)",
+        "sections": [
+          {
+            "name": "Pattern Bush (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_east",
+            "x": 160,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Outcast Island",
+    "children": [
+      {
+        "name": "Altering Cave",
+        "sections": [
+          {
+            "name": "Altering Cave"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 120,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tanoby Ruins",
+    "children": [
+      {
+        "name": "Monean Chamber",
+        "sections": [
+          {
+            "name": "Monean Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 376,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Liptoo Chamber",
+        "sections": [
+          {
+            "name": "Liptoo Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 104,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Weepth Chamber",
+        "sections": [
+          {
+            "name": "Weepth Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 312,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Dilford Chamber",
+        "sections": [
+          {
+            "name": "Dilford Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_left",
+            "x": 104,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Scufib Chamber",
+        "sections": [
+          {
+            "name": "Scufib Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 520,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Rixy Chamber",
+        "sections": [
+          {
+            "name": "Rixy Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 200,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Viapois Chamber",
+        "sections": [
+          {
+            "name": "Viapois Chamber"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Exterior",
+    "children": [
+      {
+        "name": "Navel Rock",
+        "sections": [
+          {
+            "name": "Navel Rock"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_exterior",
+            "x": 152,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock 1F",
+    "children": [
+      {
+        "name": "Navel Rock 1F Exit",
+        "sections": [
+          {
+            "name": "Navel Rock 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_1f",
+            "x": 136,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 2",
+    "children": [
+      {
+        "name": "Diglett's Cave North Entrance",
+        "sections": [
+          {
+            "name": "Diglett's Cave North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 4",
+    "children": [
+      {
+        "name": "Mt. Moon (West)",
+        "sections": [
+          {
+            "name": "Mt. Moon (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 312,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon (East)",
+        "sections": [
+          {
+            "name": "Mt. Moon (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 520,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 10",
+    "children": [
+      {
+        "name": "Rock Tunnel (North)",
+        "sections": [
+          {
+            "name": "Rock Tunnel (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 136,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Power Plant (Front)",
+        "sections": [
+          {
+            "name": "Power Plant (Front)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 120,
+            "y": 144
+          }
+        ]
+      },
+      {
+        "name": "Power Plant (Back)",
+        "sections": [
+          {
+            "name": "Power Plant (Back)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 40,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel (South)",
+        "sections": [
+          {
+            "name": "Rock Tunnel (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 136,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 11",
+    "children": [
+      {
+        "name": "Diglett's Cave South Entrance",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_11_west",
+            "x": 104,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 20",
+    "children": [
+      {
+        "name": "Seafoam Islands (South)",
+        "sections": [
+          {
+            "name": "Seafoam Islands (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_center",
+            "x": 520,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands (North)",
+        "sections": [
+          {
+            "name": "Seafoam Islands (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_20_center",
+            "x": 328,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 23",
+    "children": [
+      {
+        "name": "Victory Road (West)",
+        "sections": [
+          {
+            "name": "Victory Road (West)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 88,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Victory Road (East)",
+        "sections": [
+          {
+            "name": "Victory Road (East)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 296,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  }
+]

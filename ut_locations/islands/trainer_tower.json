@@ -89,21 +89,6 @@
             "y": 472
           }
         ]
-      },
-      {
-        "name": "Trainer Tower",
-        "sections": [
-          {
-            "name": "Trainer Tower"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "trainer_tower_exterior",
-            "x": 328,
-            "y": 120
-          }
-        ]
       }
     ]
   },
@@ -155,21 +140,6 @@
             "map": "trainer_tower_lobby",
             "x": 232,
             "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Trainer Tower Lobby Exit",
-        "sections": [
-          {
-            "name": "Trainer Tower Lobby Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "trainer_tower_lobby",
-            "x": 152,
-            "y": 248
           }
         ]
       }

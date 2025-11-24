@@ -225,101 +225,6 @@
             "y": 248
           }
         ]
-      },
-      {
-        "name": "Route 12 Gate (North)",
-        "sections": [
-          {
-            "name": "Route 12 Gate (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_12_north",
-            "x": 232,
-            "y": 248
-          }
-        ]
-      },
-      {
-        "name": "Route 12 Gate (South)",
-        "sections": [
-          {
-            "name": "Route 12 Gate (South)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_12_north",
-            "x": 232,
-            "y": 344
-          }
-        ]
-      },
-      {
-        "name": "Route 12 Fishing House",
-        "sections": [
-          {
-            "name": "Route 12 Fishing House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_12_south",
-            "x": 200,
-            "y": 40
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Route 12 Gate 1F",
-    "children": [
-      {
-        "name": "Route 12 Gate 1F Exit (North)",
-        "sections": [
-          {
-            "name": "Route 12 Gate 1F Exit (North)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_12_gate_1f",
-            "x": 88,
-            "y": 24
-          }
-        ]
-      },
-      {
-        "name": "Route 12 Gate 1F Exit (South)",
-        "sections": [
-          {
-            "name": "Route 12 Gate 1F Exit (South)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_12_gate_1f",
-            "x": 88,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Route 12 Gate 1F Stairs",
-        "sections": [
-          {
-            "name": "Route 12 Gate 1F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_12_gate_1f",
-            "x": 144,
-            "y": 168
-          }
-        ]
       }
     ]
   },
@@ -339,21 +244,6 @@
             "map": "route_12_gate_2f",
             "x": 120,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Route 12 Gate 2F Stairs",
-        "sections": [
-          {
-            "name": "Route 12 Gate 2F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_12_gate_2f",
-            "x": 160,
-            "y": 156
           }
         ]
       }
@@ -379,21 +269,6 @@
             "map": "route_12_fishing_house",
             "x": 72,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Route 12 Fishing House Exit",
-        "sections": [
-          {
-            "name": "Route 12 Fishing House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "route_12_fishing_house",
-            "x": 56,
-            "y": 120
           }
         ]
       }

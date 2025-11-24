@@ -185,36 +185,6 @@
             "y": 344
           }
         ]
-      },
-      {
-        "name": "Water Path Heracross Woman's House",
-        "sections": [
-          {
-            "name": "Water Path Heracross Woman's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "water_path_north",
-            "x": 88,
-            "y": 216
-          }
-        ]
-      },
-      {
-        "name": "Water Path Man's House",
-        "sections": [
-          {
-            "name": "Water Path Man's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "water_path_north",
-            "x": 184,
-            "y": 312
-          }
-        ]
       }
     ]
   },
@@ -234,41 +204,6 @@
             "map": "water_path_heracross_womans_house",
             "x": 56,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Water Path Heracross Woman's House Exit",
-        "sections": [
-          {
-            "name": "Water Path Heracross Woman's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "water_path_heracross_womans_house",
-            "x": 56,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Water Path Man's House",
-    "children": [
-      {
-        "name": "Water Path Man's House Exit",
-        "sections": [
-          {
-            "name": "Water Path Man's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "water_path_mans_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }

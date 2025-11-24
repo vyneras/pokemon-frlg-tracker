@@ -97,66 +97,6 @@
             "y": 184
           }
         ]
-      },
-      {
-        "name": "Two Island Game Corner",
-        "sections": [
-          {
-            "name": "Two Island Game Corner"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "two_island",
-            "x": 632,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Move Maniac's House",
-        "sections": [
-          {
-            "name": "Move Maniac's House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "two_island",
-            "x": 536,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Two Island Pokemon Center",
-        "sections": [
-          {
-            "name": "Two Island Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "two_island",
-            "x": 344,
-            "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Two Island Harbor",
-        "sections": [
-          {
-            "name": "Two Island Harbor"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "two_island",
-            "x": 168,
-            "y": 136
-          }
-        ]
       }
     ]
   },
@@ -178,21 +118,6 @@
             "y": 24
           }
         ]
-      },
-      {
-        "name": "Two Island Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Two Island Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "two_island_pokemon_center_1f",
-            "x": 120,
-            "y": 136
-          }
-        ]
       }
     ]
   },
@@ -212,61 +137,6 @@
             "map": "two_island_game_corner",
             "x": 88,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Two Island Game Corner Exit",
-        "sections": [
-          {
-            "name": "Two Island Game Corner Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "two_island_game_corner",
-            "x": 88,
-            "y": 136
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Move Maniac's House",
-    "children": [
-      {
-        "name": "Move Maniac's House Exit",
-        "sections": [
-          {
-            "name": "Move Maniac's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "two_island_move_maniacs_house",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Two Island Harbor",
-    "children": [
-      {
-        "name": "Two Island Harbor Exit",
-        "sections": [
-          {
-            "name": "Two Island Harbor Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "two_island_harbor",
-            "x": 136,
-            "y": 40
           }
         ]
       }

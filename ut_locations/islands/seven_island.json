@@ -37,66 +37,6 @@
             "y": 88
           }
         ]
-      },
-      {
-        "name": "Seven Island Trainer Battle House",
-        "sections": [
-          {
-            "name": "Seven Island Trainer Battle House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seven_island",
-            "x": 184,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Seven Island Poke Mart",
-        "sections": [
-          {
-            "name": "Seven Island Poke Mart"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seven_island",
-            "x": 88,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Seven Island Pokemon Center",
-        "sections": [
-          {
-            "name": "Seven Island Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seven_island",
-            "x": 200,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Seven Island Harbor",
-        "sections": [
-          {
-            "name": "Seven Island Harbor"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seven_island",
-            "x": 264,
-            "y": 216
-          }
-        ]
       }
     ]
   },
@@ -132,21 +72,6 @@
             "map": "seven_island_pokemon_center_1f",
             "x": 48,
             "y": 32
-          }
-        ]
-      },
-      {
-        "name": "Seven Island Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Seven Island Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seven_island_pokemon_center_1f",
-            "x": 120,
-            "y": 136
           }
         ]
       }
@@ -200,61 +125,6 @@
             "map": "seven_island_mart",
             "x": 40,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Seven Island Poke Mart Exit",
-        "sections": [
-          {
-            "name": "Seven Island Poke Mart Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seven_island_mart",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Seven Island Trainer Battle House",
-    "children": [
-      {
-        "name": "Seven Island Trainer Battle House Exit",
-        "sections": [
-          {
-            "name": "Seven Island Trainer Battle House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seven_island_battle_house",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Seven Island Harbor",
-    "children": [
-      {
-        "name": "Seven Island Harbor Exit",
-        "sections": [
-          {
-            "name": "Seven Island Harbor Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "seven_island_harbor",
-            "x": 136,
-            "y": 40
           }
         ]
       }

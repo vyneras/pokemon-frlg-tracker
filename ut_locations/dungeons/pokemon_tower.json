@@ -1,40 +1,5 @@
 [
   {
-    "name": "Pokémon Tower 1F",
-    "children": [
-      {
-        "name": "Pokemon Tower 1F Exit",
-        "sections": [
-          {
-            "name": "Pokemon Tower 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_1f",
-            "x": 184,
-            "y": 296
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 1F Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 1F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_1f",
-            "x": 304,
-            "y": 152
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Pokémon Tower 2F",
     "children": [
       {
@@ -50,36 +15,6 @@
             "map": "pokemon_tower_2f",
             "x": 264,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 2F West Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 2F West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_2f",
-            "x": 64,
-            "y": 168
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 2F East Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 2F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_2f",
-            "x": 304,
-            "y": 172
           }
         ]
       }
@@ -149,36 +84,6 @@
             "map": "pokemon_tower_3f",
             "x": 168,
             "y": 232
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 3F West Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 3F West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_3f",
-            "x": 64,
-            "y": 172
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 3F East Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 3F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_3f",
-            "x": 304,
-            "y": 168
           }
         ]
       }
@@ -280,36 +185,6 @@
             "map": "pokemon_tower_4f",
             "x": 72,
             "y": 200
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 4F West Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 4F West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_4f",
-            "x": 64,
-            "y": 168
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 4F East Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 4F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_4f",
-            "x": 304,
-            "y": 172
           }
         ]
       }
@@ -429,36 +304,6 @@
             "y": 120
           }
         ]
-      },
-      {
-        "name": "Pokemon Tower 5F West Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 5F West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_5f",
-            "x": 64,
-            "y": 172
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 5F East Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 5F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_5f",
-            "x": 304,
-            "y": 168
-          }
-        ]
       }
     ]
   },
@@ -544,36 +389,6 @@
             "y": 104
           }
         ]
-      },
-      {
-        "name": "Pokemon Tower 6F East Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 6F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_6f",
-            "x": 304,
-            "y": 172
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 6F South Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 6F South Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_6f",
-            "x": 176,
-            "y": 264
-          }
-        ]
       }
     ]
   },
@@ -645,21 +460,6 @@
             "map": "pokemon_tower_7f",
             "x": 152,
             "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Tower 7F Stairs",
-        "sections": [
-          {
-            "name": "Pokemon Tower 7F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_tower_7f",
-            "x": 176,
-            "y": 268
           }
         ]
       }

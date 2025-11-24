@@ -49,126 +49,6 @@
             "y": 392
           }
         ]
-      },
-      {
-        "name": "Vermilion Fishing House",
-        "sections": [
-          {
-            "name": "Vermilion Fishing House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 152,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Vermilion Pokemon Center",
-        "sections": [
-          {
-            "name": "Vermilion Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 248,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Fan Club",
-        "sections": [
-          {
-            "name": "Pokemon Fan Club"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 200,
-            "y": 280
-          }
-        ]
-      },
-      {
-        "name": "Vermilion Trade House",
-        "sections": [
-          {
-            "name": "Vermilion Trade House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 312,
-            "y": 280
-          }
-        ]
-      },
-      {
-        "name": "Vermilion Poke Mart",
-        "sections": [
-          {
-            "name": "Vermilion Poke Mart"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 472,
-            "y": 280
-          }
-        ]
-      },
-      {
-        "name": "Vermilion Pidgey House",
-        "sections": [
-          {
-            "name": "Vermilion Pidgey House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 456,
-            "y": 392
-          }
-        ]
-      },
-      {
-        "name": "Vermilion Gym",
-        "sections": [
-          {
-            "name": "Vermilion Gym"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 232,
-            "y": 408
-          }
-        ]
-      },
-      {
-        "name": "Vermilion Harbor",
-        "sections": [
-          {
-            "name": "Vermilion Harbor"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_city",
-            "x": 376,
-            "y": 552
-          }
-        ]
       }
     ]
   },
@@ -188,21 +68,6 @@
             "map": "vermilion_fishing_house",
             "x": 72,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Vermilion Fishing House Exit",
-        "sections": [
-          {
-            "name": "Vermilion Fishing House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_fishing_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }
@@ -258,26 +123,11 @@
             "y": 32
           }
         ]
-      },
-      {
-        "name": "Vermilion Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Vermilion Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_pokemon_center_1f",
-            "x": 120,
-            "y": 136
-          }
-        ]
       }
     ]
   },
   {
-    "name": "Vermilion Pokémon Fan Club",
+    "name": "Pokémon Fan Club",
     "children": [
       {
         "name": "Pokémon Fan Club Chairman",
@@ -308,21 +158,6 @@
             "map": "pokemon_fan_club",
             "x": 104,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Fan Club Exit",
-        "sections": [
-          {
-            "name": "Pokemon Fan Club Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_fan_club",
-            "x": 88,
-            "y": 168
           }
         ]
       }
@@ -418,21 +253,6 @@
             "y": 40
           }
         ]
-      },
-      {
-        "name": "Vermilion Gym Exit",
-        "sections": [
-          {
-            "name": "Vermilion Gym Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_gym",
-            "x": 88,
-            "y": 312
-          }
-        ]
       }
     ]
   },
@@ -476,61 +296,6 @@
             "map": "vermilion_mart",
             "x": 40,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Vermilion Poke Mart Exit",
-        "sections": [
-          {
-            "name": "Vermilion Poke Mart Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_mart",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Vermilion Trade House",
-    "children": [
-      {
-        "name": "Vermilion Trade House Exit",
-        "sections": [
-          {
-            "name": "Vermilion Trade House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_trade_house",
-            "x": 72,
-            "y": 120
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Vermilion Pidgey House",
-    "children": [
-      {
-        "name": "Vermilion Pidgey House Exit",
-        "sections": [
-          {
-            "name": "Vermilion Pidgey House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "vermilion_pidgey_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }

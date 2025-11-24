@@ -49,81 +49,6 @@
             "y": 104
           }
         ]
-      },
-      {
-        "name": "Pokemon Mansion",
-        "sections": [
-          {
-            "name": "Pokemon Mansion"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 136,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Cinnabar Gym",
-        "sections": [
-          {
-            "name": "Cinnabar Gym"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 328,
-            "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Lab",
-        "sections": [
-          {
-            "name": "Pokemon Lab"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 136,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Cinnabar Pokemon Center",
-        "sections": [
-          {
-            "name": "Cinnabar Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 232,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Cinnabar Poke Mart",
-        "sections": [
-          {
-            "name": "Cinnabar Poke Mart"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 312,
-            "y": 184
-          }
-        ]
       }
     ]
   },
@@ -297,106 +222,6 @@
             "y": 16
           }
         ]
-      },
-      {
-        "name": "Cinnabar Gym Exit",
-        "sections": [
-          {
-            "name": "Cinnabar Gym Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_gym",
-            "x": 408,
-            "y": 376
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Pokémon Lab",
-    "children": [
-      {
-        "name": "Pokemon Lab Exit",
-        "sections": [
-          {
-            "name": "Pokemon Lab Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_lab_entrance",
-            "x": 72,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Lab Lounge",
-        "sections": [
-          {
-            "name": "Pokemon Lab Lounge"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_lab_entrance",
-            "x": 216,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Lab Research Room",
-        "sections": [
-          {
-            "name": "Pokemon Lab Research Room"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_lab_entrance",
-            "x": 312,
-            "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Lab Experiment Room",
-        "sections": [
-          {
-            "name": "Pokemon Lab Experiment Room"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_lab_entrance",
-            "x": 408,
-            "y": 88
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Pokemon Lab Lounge",
-    "children": [
-      {
-        "name": "Pokemon Lab Lounge Exit",
-        "sections": [
-          {
-            "name": "Pokemon Lab Lounge Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_lab_lounge",
-            "x": 120,
-            "y": 152
-          }
-        ]
       }
     ]
   },
@@ -418,21 +243,6 @@
             "y": 56
           }
         ]
-      },
-      {
-        "name": "Pokemon Lab Research Room Exit",
-        "sections": [
-          {
-            "name": "Pokemon Lab Research Room Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_lab_research_room",
-            "x": 120,
-            "y": 152
-          }
-        ]
       }
     ]
   },
@@ -452,21 +262,6 @@
             "map": "pokemon_lab_experiment_room",
             "x": 184,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Lab Experiment Room Exit",
-        "sections": [
-          {
-            "name": "Pokemon Lab Experiment Room Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pokemon_lab_experiment_room",
-            "x": 120,
-            "y": 152
           }
         ]
       }
@@ -522,21 +317,6 @@
             "y": 32
           }
         ]
-      },
-      {
-        "name": "Cinnabar Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Cinnabar Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_pokemon_center_1f",
-            "x": 120,
-            "y": 136
-          }
-        ]
       }
     ]
   },
@@ -580,21 +360,6 @@
             "map": "cinnabar_mart",
             "x": 40,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Cinnabar Poke Mart Exit",
-        "sections": [
-          {
-            "name": "Cinnabar Poke Mart Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_mart",
-            "x": 72,
-            "y": 120
           }
         ]
       }

@@ -65,171 +65,6 @@
             "y": 504
           }
         ]
-      },
-      {
-        "name": "Celadon Game Corner",
-        "sections": [
-          {
-            "name": "Celadon Game Corner"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 552,
-            "y": 344
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store (West)",
-        "sections": [
-          {
-            "name": "Celadon Department Store (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 184,
-            "y": 232
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store (East)",
-        "sections": [
-          {
-            "name": "Celadon Department Store (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 248,
-            "y": 232
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums (Front)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 488,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Celadon Pokemon Center",
-        "sections": [
-          {
-            "name": "Celadon Pokemon Center"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 776,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Celadon Game Corner Prize Room",
-        "sections": [
-          {
-            "name": "Celadon Game Corner Prize Room"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 632,
-            "y": 328
-          }
-        ]
-      },
-      {
-        "name": "Celadon Restaurant",
-        "sections": [
-          {
-            "name": "Celadon Restaurant"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 600,
-            "y": 472
-          }
-        ]
-      },
-      {
-        "name": "Celadon Rocket House",
-        "sections": [
-          {
-            "name": "Celadon Rocket House"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 664,
-            "y": 472
-          }
-        ]
-      },
-      {
-        "name": "Celadon Hotel",
-        "sections": [
-          {
-            "name": "Celadon Hotel"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 792,
-            "y": 472
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums (Back)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 488,
-            "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Celadon Gym",
-        "sections": [
-          {
-            "name": "Celadon Gym"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_city",
-            "x": 184,
-            "y": 488
-          }
-        ]
       }
     ]
   },
@@ -249,71 +84,6 @@
             "map": "celadon_pokemon_center_1f",
             "x": 184,
             "y": 24
-          }
-        ]
-      },
-      {
-        "name": "Celadon Pokemon Center 1F Exit",
-        "sections": [
-          {
-            "name": "Celadon Pokemon Center 1F Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_pokemon_center_1f",
-            "x": 120,
-            "y": 136
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Celadon Department Store 1F",
-    "children": [
-      {
-        "name": "Celadon Department Store 1F Exit (West)",
-        "sections": [
-          {
-            "name": "Celadon Department Store 1F Exit (West)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_1f",
-            "x": 40,
-            "y": 232
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store 1F Exit (East)",
-        "sections": [
-          {
-            "name": "Celadon Department Store 1F Exit (East)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_1f",
-            "x": 168,
-            "y": 232
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store 1F Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 1F Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_1f",
-            "x": 64,
-            "y": 40
           }
         ]
       }
@@ -421,71 +191,6 @@
             "y": 104
           }
         ]
-      },
-      {
-        "name": "Celadon Department Store 2F West Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 2F West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_2f",
-            "x": 48,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store 2F East Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 2F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_2f",
-            "x": 160,
-            "y": 40
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Celadon Department Store 3F",
-    "children": [
-      {
-        "name": "Celadon Department Store 3F East Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 3F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_3f",
-            "x": 160,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store 3F West Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 3F West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_3f",
-            "x": 48,
-            "y": 40
-          }
-        ]
       }
     ]
   },
@@ -525,36 +230,6 @@
             "map": "celadon_department_store_4f",
             "x": 56,
             "y": 216
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store 4F West Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 4F West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_4f",
-            "x": 48,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store 4F East Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 4F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_4f",
-            "x": 160,
-            "y": 40
           }
         ]
       }
@@ -638,36 +313,6 @@
             "y": 120
           }
         ]
-      },
-      {
-        "name": "Celadon Department Store 5F East Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 5F East Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_5f",
-            "x": 160,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store 5F West Stairs",
-        "sections": [
-          {
-            "name": "Celadon Department Store 5F West Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_5f",
-            "x": 48,
-            "y": 40
-          }
-        ]
       }
     ]
   },
@@ -719,21 +364,6 @@
             "map": "celadon_department_store_roof",
             "x": 88,
             "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Celadon Department Store Roof Exit",
-        "sections": [
-          {
-            "name": "Celadon Department Store Roof Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_department_store_roof",
-            "x": 248,
-            "y": 104
           }
         ]
       }
@@ -809,66 +439,6 @@
             "y": 152
           }
         ]
-      },
-      {
-        "name": "Celadon Condominiums 1F Exit (Front)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 1F Exit (Front)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_1f",
-            "x": 200,
-            "y": 296
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 1F Northeast Stairs",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 1F Northeast Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_1f",
-            "x": 208,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 1F Northwest Stairs",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 1F Northwest Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_1f",
-            "x": 80,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 1F Exit (Back)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 1F Exit (Back)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_1f",
-            "x": 40,
-            "y": 24
-          }
-        ]
       }
     ]
   },
@@ -888,201 +458,6 @@
             "map": "celadon_condominiums_2f",
             "x": 96,
             "y": 112
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 2F Northeast Stairs (Left)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 2F Northeast Stairs (Left)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_2f",
-            "x": 176,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 2F Northeast Stairs (Right)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 2F Northeast Stairs (Right)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_2f",
-            "x": 208,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 2F Northwest Stairs (Right)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 2F Northwest Stairs (Right)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_2f",
-            "x": 80,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 2F Northwest Stairs (Left)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 2F Northwest Stairs (Left)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_2f",
-            "x": 32,
-            "y": 40
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Celadon Condominiums 3F",
-    "children": [
-      {
-        "name": "Celadon Condominiums 3F Northeast Stairs (Right)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 3F Northeast Stairs (Right)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_3f",
-            "x": 208,
-            "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 3F Northeast Stairs (Left)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 3F Northeast Stairs (Left)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_3f",
-            "x": 176,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 3F Northwest Stairs (Left)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 3F Northwest Stairs (Left)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_3f",
-            "x": 32,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums 3F Northwest Stairs (Right)",
-        "sections": [
-          {
-            "name": "Celadon Condominiums 3F Northwest Stairs (Right)"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_3f",
-            "x": 80,
-            "y": 40
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Celadon Condominiums Roof",
-    "children": [
-      {
-        "name": "Celadon Condominiums Roof Northeast Stairs",
-        "sections": [
-          {
-            "name": "Celadon Condominiums Roof Northeast Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_roof",
-            "x": 176,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums Roof Northwest Stairs",
-        "sections": [
-          {
-            "name": "Celadon Condominiums Roof Northwest Stairs"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_roof",
-            "x": 80,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Celadon Condominiums Roof Room",
-        "sections": [
-          {
-            "name": "Celadon Condominiums Roof Room"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_roof",
-            "x": 40,
-            "y": 200
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Celadon Condominiums Roof Room",
-    "children": [
-      {
-        "name": "Celadon Condominiums Roof Room Exit",
-        "sections": [
-          {
-            "name": "Celadon Condominiums Roof Room Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_condominiums_roof_room",
-            "x": 72,
-            "y": 120
           }
         ]
       }
@@ -1346,36 +721,6 @@
             "y": 40
           }
         ]
-      },
-      {
-        "name": "Celadon Game Corner Exit",
-        "sections": [
-          {
-            "name": "Celadon Game Corner Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_game_corner",
-            "x": 152,
-            "y": 216
-          }
-        ]
-      },
-      {
-        "name": "Rocket Hideout",
-        "sections": [
-          {
-            "name": "Rocket Hideout"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_game_corner",
-            "x": 256,
-            "y": 40
-          }
-        ]
       }
     ]
   },
@@ -1443,21 +788,6 @@
             "map": "celadon_game_corner_prize_room",
             "x": 104,
             "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Game Corner Prize Room Exit",
-        "sections": [
-          {
-            "name": "Celadon Game Corner Prize Room Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_game_corner_prize_room",
-            "x": 72,
-            "y": 136
           }
         ]
       }
@@ -1617,21 +947,6 @@
             "y": 72
           }
         ]
-      },
-      {
-        "name": "Celadon Gym Exit",
-        "sections": [
-          {
-            "name": "Celadon Gym Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_gym",
-            "x": 104,
-            "y": 296
-          }
-        ]
       }
     ]
   },
@@ -1651,21 +966,6 @@
             "map": "celadon_restaurant",
             "x": 24,
             "y": 40
-          }
-        ]
-      },
-      {
-        "name": "Celadon Restaurant Exit",
-        "sections": [
-          {
-            "name": "Celadon Restaurant Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_restaurant",
-            "x": 104,
-            "y": 152
           }
         ]
       }
@@ -1689,21 +989,6 @@
             "y": 72
           }
         ]
-      },
-      {
-        "name": "Celadon Rocket House Exit",
-        "sections": [
-          {
-            "name": "Celadon Rocket House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_rocket_house",
-            "x": 72,
-            "y": 120
-          }
-        ]
       }
     ]
   },
@@ -1723,21 +1008,6 @@
             "map": "celadon_hotel",
             "x": 216,
             "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Celadon Hotel Exit",
-        "sections": [
-          {
-            "name": "Celadon Hotel Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celadon_hotel",
-            "x": 72,
-            "y": 152
           }
         ]
       }
