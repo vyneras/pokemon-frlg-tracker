@@ -86,14 +86,6 @@ SLOT_CODES = {
             [1] = 1  -- Trainersanity On
         }
     },
-    rematchsanity = {
-        code = "rematchsanity_setting",
-        type = "progressive",
-        mapping = {
-            [0] = 0, -- Rematchsanity Off
-            [1] = 1  -- Rematchsanity On
-        }
-    },
     famesanity = {
         code = "famesanity_setting",
         type = "progressive",

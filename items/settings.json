@@ -240,10 +240,17 @@
       },
       {
         "img": "images/settings/green.png",
-        "img_mods": "overlay|images/overlays/on.png",
-        "codes": "rematchsanity_setting,rematchsanity_on",
+        "img_mods": "overlay|images/overlays/rainbow_badge.png",
+        "codes": "rematchsanity_setting,rematchsanity_badges",
         "inherit_codes": false,
-        "name": "Rematchsanity - On"
+        "name": "Rematchsanity - Badges"
+      },
+      {
+        "img": "images/settings/green.png",
+        "img_mods": "overlay|images/overlays/gym.png",
+        "codes": "rematchsanity_setting,rematchsanity_gyms",
+        "inherit_codes": false,
+        "name": "Rematchsanity - Gyms"
       }
     ]
   },

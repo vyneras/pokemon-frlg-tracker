@@ -96,6 +96,19 @@ function jump_up_ledge()
     return has("acrobatic_bicycle_on") and has("bicycle") and (has("jumping_shoes") or has("bicycle_jumping_shoes_off"))
 end
 
+function has_n_badges(n)
+    local count = 0
+    for _, item in pairs(BADGES) do
+        if has(item) then
+            count = count + 1
+        end
+        if count >= n then
+            return true
+        end
+    end
+    return false
+end
+
 function has_n_gyms(n)
     local count = 0
     for _, item in pairs(GYMS) do
@@ -114,18 +127,30 @@ function trainer_rematch_1()
 end
 
 function trainer_rematch_2()
+    if has("rematchsanity_badges") then
+        return has("vs_seeker") and has_n_badges(2)
+    end
     return has("vs_seeker") and has_n_gyms(2)
 end
 
 function trainer_rematch_3()
+    if has("rematchsanity_badges") then
+        return has("vs_seeker") and has_n_badges(4)
+    end
     return has("vs_seeker") and has_n_gyms(4)
 end
 
 function trainer_rematch_4()
+    if has("rematchsanity_badges") then
+        return has("vs_seeker") and has_n_badges(6)
+    end
     return has("vs_seeker") and has_n_gyms(6)
 end
 
 function trainer_rematch_5()
+    if has("rematchsanity_badges") then
+        return has("vs_seeker") and has_n_badges(8)
+    end
     return has("vs_seeker") and has_n_gyms(8)
 end
 
@@ -341,4 +366,8 @@ end
 
 function shuffle_dungeons_on()
     return has("shuffle_dungeons_simple") or has("shuffle_dungeons_restricted") or has("shuffle_dungeons_full")
+end
+
+function rematchsanity_on()
+    return has("rematchsanity_badges") or has("rematchsanity_gyms")
 end

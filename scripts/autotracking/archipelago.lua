@@ -257,6 +257,19 @@ function onClear(slot_data)
                 local item = FLY_DESTINATION_ITEMS[exit]
                 FLY_DESTINATION_MAPPING[item.flyUnlock] = {item, fly_mapping[region]}
             end
+        elseif key == "rematchsanity" then
+            local object = Tracker:FindObjectForCode("rematchsanity_setting")
+            if object then
+                if slot_data["rematchsanity"] then
+                    if slot_data["rematch_requirements"] then
+                        object.CurrentStage = 2
+                    else
+                        object.CurrentStage = 1
+                    end
+                else
+                    object.CurrentStage = 0
+                end
+            end
         elseif SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
             if object then
