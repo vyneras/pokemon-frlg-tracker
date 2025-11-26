@@ -3,11 +3,10 @@
     "name": "Trainer Tower Exterior",
     "children": [
       {
-        "name": "Trainer Tower Exterior Hidden Item Near Fence",
+        "name": "Hidden Item Near Fence",
         "sections": [
           {
-            "ref": "Islands/Trainer Tower Exterior/Hidden Item Near Fence",
-            "name": "Hidden Item"
+            "name": "Trainer Tower Exterior - Hidden Item Near Fence"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Trainer Tower Exterior Beach West Hidden Item",
+        "name": "Beach West Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Trainer Tower Exterior/Beach West Hidden Item",
-            "name": "Hidden Item"
+            "name": "Trainer Tower Exterior - Beach West Hidden Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Trainer Tower Exterior Beach North Hidden Item",
+        "name": "Beach North Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Trainer Tower Exterior/Beach North Hidden Item",
-            "name": "Hidden Item"
+            "name": "Trainer Tower Exterior - Beach North Hidden Item"
           }
         ],
         "map_locations": [
@@ -54,12 +51,10 @@
         "name": "Psychic Dario",
         "sections": [
           {
-            "ref": "Islands/Trainer Tower Exterior/Psychic Dario Reward",
-            "name": "Reward"
+            "name": "Trainer Tower Exterior - Psychic Dario Reward"
           },
           {
-            "ref": "Islands/Trainer Tower Exterior/Psychic Dario Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Trainer Tower Exterior - Psychic Dario Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -74,12 +69,10 @@
         "name": "Psychic Rodette",
         "sections": [
           {
-            "ref": "Islands/Trainer Tower Exterior/Psychic Rodette Reward",
-            "name": "Reward"
+            "name": "Trainer Tower Exterior - Psychic Rodette Reward"
           },
           {
-            "ref": "Islands/Trainer Tower Exterior/Psychic Rodette Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Trainer Tower Exterior - Psychic Rodette Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -99,39 +92,30 @@
         "name": "Trainer Tower Lobby Shop Clerk",
         "sections": [
           {
-            "ref": "Islands/Trainer Tower/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 8",
             "name": "Shop Item 8"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 9",
             "name": "Shop Item 9"
           }
         ],

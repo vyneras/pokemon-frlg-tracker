@@ -6,7 +6,6 @@
         "name": "Three Island Visit",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -22,8 +21,7 @@
         "name": "Anti-Biker",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Anti-Biker Gift",
-            "name": "Gift"
+            "name": "Three Island Town - Anti-Biker Gift"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Three Island Item Behind East Fence",
+        "name": "Item Behind East Fence",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Item Behind East Fence",
-            "name": "Item"
+            "name": "Three Island Town - Item Behind East Fence"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Three Island Hidden Item Behind West Fence",
+        "name": "Hidden Item Behind West Fence",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Hidden Item Behind West Fence",
-            "name": "Hidden Item"
+            "name": "Three Island Town - Hidden Item Behind West Fence"
           }
         ],
         "map_locations": [
@@ -70,8 +66,7 @@
         "name": "Biker Goon 1",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Biker Goon 1 Reward",
-            "name": "Reward"
+            "name": "Three Island Town - Biker Goon 1 Reward"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Biker Goon 2",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Biker Goon 2 Reward",
-            "name": "Reward"
+            "name": "Three Island Town - Biker Goon 2 Reward"
           }
         ],
         "map_locations": [
@@ -102,8 +96,7 @@
         "name": "Biker Goon 3",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Biker Goon 3 Reward",
-            "name": "Reward"
+            "name": "Three Island Town - Biker Goon 3 Reward"
           }
         ],
         "map_locations": [
@@ -118,8 +111,7 @@
         "name": "Cue Ball Paxton",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Cue Ball Paxton Reward",
-            "name": "Reward"
+            "name": "Three Island Town - Cue Ball Paxton Reward"
           }
         ],
         "map_locations": [
@@ -133,13 +125,12 @@
     ]
   },
   {
-    "name": "Three Island Pokémon Center 1F",
+    "name": "Three Island Pokemon Center 1F",
     "children": [
       {
-        "name": "Three Island Pokémon Center PC",
+        "name": "Three Island Pokemon Center PC",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/PC Item",
             "name": "Item"
           }
         ],
@@ -157,11 +148,10 @@
     "name": "Lostelle's House",
     "children": [
       {
-        "name": "Lostelle's House Lostelle",
+        "name": "Lostelle",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Lostelle Gift",
-            "name": "Gift"
+            "name": "Lostelle's House - Lostelle Gift"
           }
         ],
         "map_locations": [
@@ -181,8 +171,7 @@
         "name": "Sabrina Fan",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Sabrina Fan Info",
-            "name": "Info"
+            "name": "Sabrina Fan's House - Sabrina Fan Info"
           }
         ],
         "map_locations": [
@@ -196,33 +185,27 @@
     ]
   },
   {
-    "name": "Three Island Mart",
+    "name": "Three Island Poke Mart",
     "children": [
       {
-        "name": "Three Island Poké Mart Clerk",
+        "name": "Three Island Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Islands/Three Island Town/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Islands/Three Island Town/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Islands/Three Island Town/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Islands/Three Island Town/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Islands/Three Island Town/Shop Item 6",
             "name": "Shop Item 6"
           }
         ],

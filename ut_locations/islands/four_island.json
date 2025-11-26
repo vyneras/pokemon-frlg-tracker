@@ -6,7 +6,6 @@
         "name": "Four Island Visit",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Four Island Beach Southeast Hidden Item",
+        "name": "Beach Southeast Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Beach Southeast Hidden Item",
-            "name": "Hidden Item"
+            "name": "Four Island Town - Beach Southeast Hidden Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Four Island Beach Northwest Hidden Item",
+        "name": "Beach Northwest Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Beach Northwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Four Island Town - Beach Northwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Four Island Beach Item",
+        "name": "Beach Item",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Beach Item",
-            "name": "Item"
+            "name": "Four Island Town - Beach Item"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Four Island Northeast Island Item",
+        "name": "Northeast Island Item",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Northeast Island Item",
-            "name": "Item"
+            "name": "Four Island Town - Northeast Island Item"
           }
         ],
         "map_locations": [
@@ -83,11 +78,10 @@
         ]
       },
       {
-        "name": "Four Island Little Girl",
+        "name": "Little Girl",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Little Girl Info",
-            "name": "Info"
+            "name": "Four Island Town - Little Girl Info"
           }
         ],
         "map_locations": [
@@ -99,11 +93,10 @@
         ]
       },
       {
-        "name": "Four Island Old Woman",
+        "name": "Old Woman",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Old Woman Info",
-            "name": "Info"
+            "name": "Four Island Town - Old Woman Info"
           }
         ],
         "map_locations": [
@@ -117,13 +110,12 @@
     ]
   },
   {
-    "name": "Four Island Pokémon Center 1F",
+    "name": "Four Island Pokemon Center 1F",
     "children": [
       {
-        "name": "Four Island Pokémon Center PC",
+        "name": "Four Island Pokemon Center PC",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/PC Item",
             "name": "Item"
           }
         ],
@@ -136,11 +128,10 @@
         ]
       },
       {
-        "name": "Four Island Pokémon Center Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Bookshelf Info",
-            "name": "Info"
+            "name": "Four Island Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -154,14 +145,13 @@
     ]
   },
   {
-    "name": "Four Island Mart",
+    "name": "Four Island Poke Mart",
     "children": [
       {
-        "name": "Four Island Mart Old Man",
+        "name": "Old Man",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Old Man Info",
-            "name": "Info"
+            "name": "Four Island Poke Mart - Old Man Info"
           }
         ],
         "map_locations": [
@@ -173,38 +163,30 @@
         ]
       },
       {
-        "name": "Four Island Poké Mart Clerk",
+        "name": "Four Island Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Islands/Four Island Town/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Islands/Four Island Town/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Islands/Four Island Town/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Islands/Four Island Town/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Islands/Four Island Town/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Islands/Four Island Town/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Islands/Four Island Town/Shop Item 8",
             "name": "Shop Item 8"
           }
         ],

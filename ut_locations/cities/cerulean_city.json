@@ -6,7 +6,6 @@
         "name": "Cerulean City Visit",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Cerulean Gym Sign",
+        "name": "Gym Sign",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Gym Sign Info",
-            "name": "Info"
+            "name": "Cerulean City - Gym Sign Info"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Cerulean Hidden Item Behind Badge Guy's House",
+        "name": "Hidden Item Behind Badge Guy's House",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Hidden Item Behind Badge Guy's House",
-            "name": "Hidden Item"
+            "name": "Cerulean City - Hidden Item Behind Badge Guy's House"
           }
         ],
         "map_locations": [
@@ -51,19 +48,16 @@
         ]
       },
       {
-        "name": "Cerulean Rival",
+        "name": "Rival",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Rival Info",
-            "name": "Info"
+            "name": "Cerulean City - Rival Info"
           },
           {
-            "ref": "Cities/Cerulean City/Rival Reward",
-            "name": "Reward"
+            "name": "Cerulean City - Rival Reward"
           },
           {
-            "ref": "Cities/Cerulean City/Rival Gift",
-            "name": "Gift"
+            "name": "Cerulean City - Rival Gift"
           }
         ],
         "map_locations": [
@@ -75,15 +69,13 @@
         ]
       },
       {
-        "name": "Cerulean Team Rocket Grunt",
+        "name": "Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Cerulean City - Team Rocket Grunt Reward"
           },
           {
-            "ref": "Cities/Cerulean City/Recover Stolen TM",
-            "name": "Recover Stolen TM"
+            "name": "Cerulean City - Recover Stolen TM"
           }
         ],
         "map_locations": [
@@ -97,13 +89,12 @@
     ]
   },
   {
-    "name": "Cerulean Pokémon Center 1F",
+    "name": "Cerulean Pokemon Center 1F",
     "children": [
       {
-        "name": "Cerulean Pokémon Center PC",
+        "name": "Cerulean Pokemon Center PC",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/PC Item",
             "name": "Item"
           }
         ],
@@ -116,11 +107,10 @@
         ]
       },
       {
-        "name": "Cerulean Pokémon Center Youngster",
+        "name": "Youngster",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Youngster Info",
-            "name": "Info"
+            "name": "Cerulean Pokemon Center 1F - Youngster Info"
           }
         ],
         "map_locations": [
@@ -132,11 +122,10 @@
         ]
       },
       {
-        "name": "Cerulean Pokémon Center Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Bookshelf Info",
-            "name": "Info"
+            "name": "Cerulean Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -153,11 +142,10 @@
     "name": "Cerulean Gym",
     "children": [
       {
-        "name": "Cerulean Gym Hidden Item in Water",
+        "name": "Hidden Item in Water",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Hidden Item in Water",
-            "name": "Hidden Item"
+            "name": "Cerulean Gym - Hidden Item in Water"
           }
         ],
         "map_locations": [
@@ -172,12 +160,10 @@
         "name": "Swimmer Luis",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Swimmer Luis Reward",
-            "name": "Reward"
+            "name": "Cerulean Gym - Swimmer Luis Reward"
           },
           {
-            "ref": "Cities/Cerulean City/Swimmer Luis Info",
-            "name": "Info"
+            "name": "Cerulean Gym - Swimmer Luis Info"
           }
         ],
         "map_locations": [
@@ -192,8 +178,7 @@
         "name": "Picnicker Diana",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Picnicker Diana Reward",
-            "name": "Reward"
+            "name": "Cerulean Gym - Picnicker Diana Reward"
           }
         ],
         "map_locations": [
@@ -205,23 +190,19 @@
         ]
       },
       {
-        "name": "Cerulean Gym Misty",
+        "name": "Misty",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Leader Misty Reward",
-            "name": "Reward"
+            "name": "Cerulean Gym - Leader Misty Reward"
           },
           {
-            "ref": "Cities/Cerulean City/Misty Info",
-            "name": "Info"
+            "name": "Cerulean Gym - Misty Info"
           },
           {
-            "ref": "Cities/Cerulean City/Cerulean Gym Prize",
-            "name": "Gym Prize"
+            "name": "Cerulean Gym - Prize"
           },
           {
-            "ref": "Cities/Cerulean City/Misty TM",
-            "name": "TM"
+            "name": "Cerulean Gym - Misty TM"
           }
         ],
         "map_locations": [
@@ -241,8 +222,7 @@
         "name": "Bike Shop Owner",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Bicycle Purchase",
-            "name": "Bicycle Purchase"
+            "name": "Bike Shop - Bicycle Purchase"
           }
         ],
         "map_locations": [
@@ -262,8 +242,7 @@
         "name": "Berry Powder Man",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Berry Powder Man Gift",
-            "name": "Gift"
+            "name": "Berry Powder Man's House - Berry Powder Man Gift"
           }
         ],
         "map_locations": [
@@ -277,45 +256,36 @@
     ]
   },
   {
-    "name": "Cerulean Mart",
+    "name": "Cerulean Poke Mart",
     "children": [
       {
-        "name": "Cerulean Poké Mart Clerk",
+        "name": "Cerulean Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Cerulean City/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Cerulean City/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Cerulean City/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Cerulean City/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Cerulean City/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Cities/Cerulean City/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Cities/Cerulean City/Shop Item 8",
             "name": "Shop Item 8"
           },
           {
-            "ref": "Cities/Cerulean City/Shop Item 9",
             "name": "Shop Item 9"
           }
         ],

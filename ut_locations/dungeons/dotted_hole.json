@@ -3,11 +3,10 @@
     "name": "Dotted Hole 1F",
     "children": [
       {
-        "name": "Dotted Hole 1F Dropped Item",
+        "name": "Dropped Item",
         "sections": [
           {
-            "ref": "Dungeons/Dotted Hole/1F - Dropped Item",
-            "name": "Item"
+            "name": "Dotted Hole 1F - Dropped Item"
           }
         ],
         "map_locations": [

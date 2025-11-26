@@ -6,7 +6,6 @@
         "name": "Visit Pewter City",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Pewter Gym Sign",
+        "name": "Gym Sign",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Gym Sign Info",
-            "name": "Info"
+            "name": "Pewter City - Gym Sign Info"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Pewter Fat Man",
+        "name": "Fat Man",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Fat Man Info",
-            "name": "Info"
+            "name": "Pewter City - Fat Man Info"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Pewter Northwest Hidden Item",
+        "name": "Northwest Hidden Item",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Northwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Pewter City - Northwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Pewter Oak's Aide",
+        "name": "Oak's Aide",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Gift from Mom",
-            "name": "Gift from Mom"
+            "name": "Pewter City - Gift from Mom"
           }
         ],
         "map_locations": [
@@ -85,13 +80,12 @@
     ]
   },
   {
-    "name": "Pewter Pokémon Center 1F",
+    "name": "Pewter Pokemon Center 1F",
     "children": [
       {
-        "name": "Pewter Pokémon Center PC",
+        "name": "Pewter Pokemon Center PC",
         "sections": [
           {
-            "ref": "Cities/Pewter City/PC Item",
             "name": "Item"
           }
         ],
@@ -109,11 +103,10 @@
     "name": "Pewter Museum 1F",
     "children": [
       {
-        "name": "Pewter Museum Scientist",
+        "name": "Scientist",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Scientist Gift",
-            "name": "Gift"
+            "name": "Pewter Museum 1F - Scientist Gift"
           }
         ],
         "map_locations": [
@@ -125,11 +118,10 @@
         ]
       },
       {
-        "name": "Pewter Museum Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Bookshelf Info",
-            "name": "Info"
+            "name": "Pewter Museum 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -146,11 +138,10 @@
     "name": "Pewter Museum 2F",
     "children": [
       {
-        "name": "Pewter Museum Item",
+        "name": "Item",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Pewter Museum Item",
-            "name": "Item"
+            "name": "Pewter Museum 2F - Item"
           }
         ],
         "map_locations": [
@@ -170,8 +161,7 @@
         "name": "Camper Liam",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Camper Liam Reward",
-            "name": "Reward"
+            "name": "Pewter Gym - Camper Liam Reward"
           }
         ],
         "map_locations": [
@@ -183,23 +173,19 @@
         ]
       },
       {
-        "name": "Pewter Gym Brock",
+        "name": "Brock",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Leader Brock Reward",
-            "name": "Reward"
+            "name": "Pewter Gym - Leader Brock Reward"
           },
           {
-            "ref": "Cities/Pewter City/Brock Info",
-            "name": "Info"
+            "name": "Pewter Gym - Brock Info"
           },
           {
-            "ref": "Cities/Pewter City/Pewter Gym Prize",
-            "name": "Gym Prize"
+            "name": "Pewter Gym - Prize"
           },
           {
-            "ref": "Cities/Pewter City/Brock TM",
-            "name": "TM"
+            "name": "Pewter Gym - Brock TM"
           }
         ],
         "map_locations": [
@@ -213,41 +199,33 @@
     ]
   },
   {
-    "name": "Pewter Mart",
+    "name": "Pewter Poke Mart",
     "children": [
       {
-        "name": "Pewter Poké Mart Clerk",
+        "name": "Pewter Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Pewter City/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Pewter City/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Pewter City/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Pewter City/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Pewter City/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Cities/Pewter City/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Cities/Pewter City/Shop Item 8",
             "name": "Shop Item 8"
           }
         ],

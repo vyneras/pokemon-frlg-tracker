@@ -6,7 +6,6 @@
         "name": "Celadon City Visit",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Celadon Northwest Item",
+        "name": "Northwest Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Northwest Item",
-            "name": "Item"
+            "name": "Celadon City - Northwest Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Celadon Hidden Item Near Cuttable Tree",
+        "name": "Hidden Item Near Cuttable Tree",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Hidden Item Near Cuttable Tree",
-            "name": "Hidden Item"
+            "name": "Celadon City - Hidden Item Near Cuttable Tree"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Celadon Gym Sign",
+        "name": "Gym Sign",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Gym Sign Info",
-            "name": "Info"
+            "name": "Celadon City - Gym Sign Info"
           }
         ],
         "map_locations": [
@@ -69,13 +65,12 @@
     ]
   },
   {
-    "name": "Celadon Pokémon Center 1F",
+    "name": "Celadon Pokemon Center 1F",
     "children": [
       {
-        "name": "Celadon Pokémon Center PC",
+        "name": "Celadon Pokemon Center PC",
         "sections": [
           {
-            "ref": "Cities/Celadon City/PC Item",
             "name": "Item"
           }
         ],
@@ -96,27 +91,21 @@
         "name": "Celadon Department Store TM Shop Clerk",
         "sections": [
           {
-            "ref": "Cities/Celadon City/TM Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 6",
             "name": "Shop Item 6"
           }
         ],
@@ -132,39 +121,30 @@
         "name": "Celadon Department Store Item Shop Clerk",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 8",
             "name": "Shop Item 8"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 9",
             "name": "Shop Item 9"
           }
         ],
@@ -180,8 +160,7 @@
         "name": "Celadon Department Store Woman",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Woman Info",
-            "name": "Info"
+            "name": "Celadon Department Store 2F - Woman Info"
           }
         ],
         "map_locations": [
@@ -201,27 +180,21 @@
         "name": "Celadon Department Store Evo Shop Clerk",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 6",
             "name": "Shop Item 6"
           }
         ],
@@ -242,27 +215,21 @@
         "name": "Celadon Department Store Vitamin Shop Clerk",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 6",
             "name": "Shop Item 6"
           }
         ],
@@ -278,31 +245,24 @@
         "name": "Celadon Department Store Battle Shop Clerk",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 7",
             "name": "Shop Item 7"
           }
         ],
@@ -323,15 +283,12 @@
         "name": "Celadon Department Store Vending Machines",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Vending Machine Item 1",
             "name": "Vending Machine Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Vending Machine Item 3",
             "name": "Vending Machine Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Vending Machine Item 3",
             "name": "Vending Machine Item 3"
           }
         ],
@@ -347,16 +304,13 @@
         "name": "Thirsty Girl",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Fresh Water)",
-            "name": "Gift (Give Fresh Water)"
+            "name": "Celadon Department Store Roof - Thirsty Girl Gift (Give Fresh Water)"
           },
           {
-            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Soda Pop)",
-            "name": "Gift (Give Soda Pop)"
+            "name": "Celadon Department Store Roof - Thirsty Girl Gift (Give Soda Pop)"
           },
           {
-            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Lemonade)",
-            "name": "Gift (Give Lemonade)"
+            "name": "Celadon Department Store Roof - Thirsty Girl Gift (Give Lemonade)"
           }
         ],
         "map_locations": [
@@ -376,12 +330,10 @@
         "name": "Tea Woman",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Tea Woman Gift",
-            "name": "Gift"
+            "name": "Celadon Condominiums 1F - Tea Woman Gift"
           },
           {
-            "ref": "Cities/Celadon City/Tea Woman Info",
-            "name": "Info"
+            "name": "Celadon Condominiums 1F - Tea Woman Info"
           }
         ],
         "map_locations": [
@@ -393,11 +345,10 @@
         ]
       },
       {
-        "name": "Celadon Condominiums Brock",
+        "name": "Brock",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Brock Gift",
-            "name": "Gift"
+            "name": "Celadon Condominiums 1F - Brock Gift"
           }
         ],
         "map_locations": [
@@ -409,11 +360,10 @@
         ]
       },
       {
-        "name": "Celadon Condominiums Misty",
+        "name": "Misty",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Misty Gift",
-            "name": "Gift"
+            "name": "Celadon Condominiums 1F - Misty Gift"
           }
         ],
         "map_locations": [
@@ -425,11 +375,10 @@
         ]
       },
       {
-        "name": "Celadon Condominiums Erika",
+        "name": "Erika",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Erika Gift",
-            "name": "Gift"
+            "name": "Celadon Condominiums 1F - Erika Gift"
           }
         ],
         "map_locations": [
@@ -446,11 +395,10 @@
     "name": "Celadon Condominiums 2F",
     "children": [
       {
-        "name": "Celadon Condominiums Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Bookshelf Info",
-            "name": "Info"
+            "name": "Celadon Condominiums 2F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -467,11 +415,10 @@
     "name": "Celadon Game Corner",
     "children": [
       {
-        "name": "Celadon Game Corner Fisherman",
+        "name": "Fisherman",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Fisherman Gift",
-            "name": "Gift"
+            "name": "Celadon Game Corner - Fisherman Gift"
           }
         ],
         "map_locations": [
@@ -483,11 +430,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner Scientist",
+        "name": "Scientist",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Scientist Gift",
-            "name": "Gift"
+            "name": "Celadon Game Corner - Scientist Gift"
           }
         ],
         "map_locations": [
@@ -499,11 +445,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner Gentleman",
+        "name": "Gentleman",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Gentleman Gift",
-            "name": "Gift"
+            "name": "Celadon Game Corner - Gentleman Gift"
           }
         ],
         "map_locations": [
@@ -515,11 +460,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner Southwest Hidden Item",
+        "name": "Southwest Hidden Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner Southwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - Southwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -531,11 +475,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner South Hidden Item (Left)",
+        "name": "South Hidden Item (Left)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner South Hidden Item (Left)",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - South Hidden Item (Left)"
           }
         ],
         "map_locations": [
@@ -547,11 +490,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner South Hidden Item (Right)",
+        "name": "South Hidden Item (Right)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner South Hidden Item (Right)",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - South Hidden Item (Right)"
           }
         ],
         "map_locations": [
@@ -563,11 +505,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner Southeast Hidden Item",
+        "name": "Southeast Hidden Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner Southeast Hidden Item",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - Southeast Hidden Item"
           }
         ],
         "map_locations": [
@@ -579,11 +520,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner West Hidden Item",
+        "name": "West Hidden Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner West Hidden Item",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - West Hidden Item"
           }
         ],
         "map_locations": [
@@ -595,11 +535,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner Center Hidden Item",
+        "name": "Center Hidden Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner Center Hidden Item",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - Center Hidden Item"
           }
         ],
         "map_locations": [
@@ -611,11 +550,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner East Hidden Item (Left)",
+        "name": "East Hidden Item (Left)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner East Hidden Item (Left)",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - East Hidden Item (Left)"
           }
         ],
         "map_locations": [
@@ -627,11 +565,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner East Hidden Item (Right)",
+        "name": "East Hidden Item (Right)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner East Hidden Item (Right)",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - East Hidden Item (Right)"
           }
         ],
         "map_locations": [
@@ -643,11 +580,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner Northwest Hidden Item",
+        "name": "Northwest Hidden Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner Northwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - Northwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -659,11 +595,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner North Hidden Item (Left)",
+        "name": "North Hidden Item (Left)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner North Hidden Item (Left)",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - North Hidden Item (Left)"
           }
         ],
         "map_locations": [
@@ -675,11 +610,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner North Hidden Item (Right)",
+        "name": "North Hidden Item (Right)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner North Hidden Item (Right)",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - North Hidden Item (Right)"
           }
         ],
         "map_locations": [
@@ -691,11 +625,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner Northeast Hidden Item",
+        "name": "Northeast Hidden Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner Northeast Hidden Item",
-            "name": "Hidden Item"
+            "name": "Celadon Game Corner - Northeast Hidden Item"
           }
         ],
         "map_locations": [
@@ -707,11 +640,10 @@
         ]
       },
       {
-        "name": "Celadon Game Corner Team Rocket Grunt",
+        "name": "Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Celadon Game Corner - Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [
@@ -731,23 +663,18 @@
         "name": "Celadon Game Corner Prize Room Worker (Left)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 1",
             "name": "Prize Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 2",
             "name": "Prize Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 3",
             "name": "Prize Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 4",
             "name": "Prize Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 5",
             "name": "Prize Item 5"
           }
         ],
@@ -763,23 +690,18 @@
         "name": "Celadon Game Corner Prize Room Worker (Right)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 1",
             "name": "Prize TM 1"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 2",
             "name": "Prize TM 2"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 3",
             "name": "Prize TM 3"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 4",
             "name": "Prize TM 4"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 5",
             "name": "Prize TM 5"
           }
         ],
@@ -800,8 +722,7 @@
         "name": "Lass Kay",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Lass Kay Reward",
-            "name": "Reward"
+            "name": "Celadon Gym - Lass Kay Reward"
           }
         ],
         "map_locations": [
@@ -816,8 +737,7 @@
         "name": "Beauty Bridget",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Beauty Bridget Reward",
-            "name": "Reward"
+            "name": "Celadon Gym - Beauty Bridget Reward"
           }
         ],
         "map_locations": [
@@ -832,12 +752,10 @@
         "name": "Beauty Tamia",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Beauty Tamia Reward",
-            "name": "Reward"
+            "name": "Celadon Gym - Beauty Tamia Reward"
           },
           {
-            "ref": "Cities/Celadon City/Beauty Tamia Info",
-            "name": "Info"
+            "name": "Celadon Gym - Beauty Tamia Info"
           }
         ],
         "map_locations": [
@@ -852,8 +770,7 @@
         "name": "Picnicker Tina",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Picnicker Tina Reward",
-            "name": "Reward"
+            "name": "Celadon Gym - Picnicker Tina Reward"
           }
         ],
         "map_locations": [
@@ -868,8 +785,7 @@
         "name": "Cooltrainer Mary",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Cooltrainer Mary Reward",
-            "name": "Reward"
+            "name": "Celadon Gym - Cooltrainer Mary Reward"
           }
         ],
         "map_locations": [
@@ -884,8 +800,7 @@
         "name": "Beauty Lori",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Beauty Lori Reward",
-            "name": "Reward"
+            "name": "Celadon Gym - Beauty Lori Reward"
           }
         ],
         "map_locations": [
@@ -900,12 +815,10 @@
         "name": "Lass Lisa",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Lass Lisa Reward",
-            "name": "Reward"
+            "name": "Celadon Gym - Lass Lisa Reward"
           },
           {
-            "ref": "Cities/Celadon City/Lass Lisa Info",
-            "name": "Info"
+            "name": "Celadon Gym - Lass Lisa Info"
           }
         ],
         "map_locations": [
@@ -917,27 +830,22 @@
         ]
       },
       {
-        "name": "Celadon Gym Erika",
+        "name": "Erika",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Leader Erika Reward",
-            "name": "Reward"
+            "name": "Celadon Gym - Leader Erika Reward"
           },
           {
-            "ref": "Cities/Celadon City/Erika Info 1",
-            "name": "Info 1"
+            "name": "Celadon Gym - Erika Info 1"
           },
           {
-            "ref": "Cities/Celadon City/Celadon Gym Prize",
-            "name": "Gym Prize"
+            "name": "Celadon Gym - Prize"
           },
           {
-            "ref": "Cities/Celadon City/Erika TM",
-            "name": "TM"
+            "name": "Celadon Gym - Erika TM"
           },
           {
-            "ref": "Cities/Celadon City/Erika Info 2",
-            "name": "Info 2"
+            "name": "Celadon Gym - Erika Info 2"
           }
         ],
         "map_locations": [
@@ -957,8 +865,7 @@
         "name": "Coin Case Man",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Coin Case Man Gift",
-            "name": "Gift"
+            "name": "Celadon Restaurant - Coin Case Man Gift"
           }
         ],
         "map_locations": [
@@ -975,11 +882,10 @@
     "name": "Celadon Rocket House",
     "children": [
       {
-        "name": "Celadon Rocket House Item",
+        "name": "Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Rocket House Item",
-            "name": "Item"
+            "name": "Celadon Rocket House - Item"
           }
         ],
         "map_locations": [
@@ -996,11 +902,10 @@
     "name": "Celadon Hotel",
     "children": [
       {
-        "name": "Celadon Hotel Item",
+        "name": "Item",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Hotel Item",
-            "name": "Item"
+            "name": "Celadon Hotel - Item"
           }
         ],
         "map_locations": [

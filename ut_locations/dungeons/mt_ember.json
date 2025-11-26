@@ -3,11 +3,10 @@
     "name": "Mt. Ember Exterior",
     "children": [
       {
-        "name": "Mt. Ember Exterior Hidden Item Near West Cave Entrance",
+        "name": "Hidden Item Near West Cave Entrance",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Hidden Item Near West Cave Entrance",
-            "name": "Hidden Item"
+            "name": "Mt. Ember Exterior - Hidden Item Near West Cave Entrance"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Mt. Ember Exterior East Item",
+        "name": "East Item",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - East Item",
-            "name": "Item"
+            "name": "Mt. Ember Exterior - East Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Mt. Ember Exterior Item Near Summit",
+        "name": "Item Near Summit",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Item Near Summit",
-            "name": "Item"
+            "name": "Mt. Ember Exterior - Item Near Summit"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Mt. Ember Exterior Northwest Rock Hidden Item",
+        "name": "Northwest Rock Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Northwest Rock Hidden Item",
-            "name": "Hidden Item"
+            "name": "Mt. Ember Exterior - Northwest Rock Hidden Item"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Mt. Ember Exterior Northwest Item",
+        "name": "Northwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Northwest Item",
-            "name": "Item"
+            "name": "Mt. Ember Exterior - Northwest Item"
           }
         ],
         "map_locations": [
@@ -83,11 +78,10 @@
         ]
       },
       {
-        "name": "Mt. Ember Exterior Team Rocket Grunt (Left)",
+        "name": "Team Rocket Grunt (Left)",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Team Rocket Grunt Reward (Left)",
-            "name": "Reward"
+            "name": "Mt. Ember Exterior - Team Rocket Grunt Reward (Left)"
           }
         ],
         "map_locations": [
@@ -99,11 +93,10 @@
         ]
       },
       {
-        "name": "Mt. Ember Exterior Team Rocket Grunt (Right)",
+        "name": "Team Rocket Grunt (Right)",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Team Rocket Grunt Reward (Right)",
-            "name": "Reward"
+            "name": "Mt. Ember Exterior - Team Rocket Grunt Reward (Right)"
           }
         ],
         "map_locations": [
@@ -118,8 +111,7 @@
         "name": "Crush Girl Jocelyn",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Crush Girl Jocelyn Reward",
-            "name": "Reward"
+            "name": "Mt. Ember Exterior - Crush Girl Jocelyn Reward"
           }
         ],
         "map_locations": [
@@ -131,11 +123,10 @@
         ]
       },
       {
-        "name": "Pokémon Ranger Beth",
+        "name": "Pokemon Ranger Beth",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Pokémon Ranger Beth Reward",
-            "name": "Reward"
+            "name": "Mt. Ember Exterior - Pokemon Ranger Beth Reward"
           }
         ],
         "map_locations": [
@@ -147,11 +138,10 @@
         ]
       },
       {
-        "name": "Pokémon Ranger Logan",
+        "name": "Pokemon Ranger Logan",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Exterior - Pokémon Ranger Logan Reward",
-            "name": "Reward"
+            "name": "Mt. Ember Exterior - Pokemon Ranger Logan Reward"
           }
         ],
         "map_locations": [
@@ -171,8 +161,7 @@
         "name": "Ruby",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Ruby Path B5F - Ruby",
-            "name": "Gem"
+            "name": "Mt. Ember Ruby Path B5F - Ruby"
           }
         ],
         "map_locations": [

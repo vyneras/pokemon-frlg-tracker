@@ -6,7 +6,6 @@
         "name": "Two Island Visit",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Two Island Item Behind Cuttable Tree",
+        "name": "Item Behind Cuttable Tree",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/Item Behind Cuttable Tree",
-            "name": "Item"
+            "name": "Two Island Town - Item Behind Cuttable Tree"
           }
         ],
         "map_locations": [
@@ -38,39 +36,30 @@
         "name": "Market Stall Clerk",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 1",
             "name": "Market Stall Item 1"
           },
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 2",
             "name": "Market Stall Item 2"
           },
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 3",
             "name": "Market Stall Item 3"
           },
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 4",
             "name": "Market Stall Item 4"
           },
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 5",
             "name": "Market Stall Item 5"
           },
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 6",
             "name": "Market Stall Item 6"
           },
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 7",
             "name": "Market Stall Item 7"
           },
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 8",
             "name": "Market Stall Item 8"
           },
           {
-            "ref": "Islands/Two Island Town/Market Stall Item 9",
             "name": "Market Stall Item 9"
           }
         ],
@@ -83,11 +72,10 @@
         ]
       },
       {
-        "name": "Two Island Beauty",
+        "name": "Beauty",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/Beauty Info",
-            "name": "Info"
+            "name": "Two Island Town - Beauty Info"
           }
         ],
         "map_locations": [
@@ -101,13 +89,12 @@
     ]
   },
   {
-    "name": "Two Island Pokémon Center 1F",
+    "name": "Two Island Pokemon Center 1F",
     "children": [
       {
-        "name": "Two Island Pokémon Center PC",
+        "name": "Two Island Pokemon Center PC",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/PC Item",
             "name": "Item"
           }
         ],
@@ -128,8 +115,7 @@
         "name": "Lostelle's Dad",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/Lostelle's Dad Gift",
-            "name": "Gift"
+            "name": "Two Island Game Corner - Lostelle's Dad Gift"
           }
         ],
         "map_locations": [

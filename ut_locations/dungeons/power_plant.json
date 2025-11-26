@@ -3,11 +3,10 @@
     "name": "Power Plant",
     "children": [
       {
-        "name": "Power Plant Item Near Entrance",
+        "name": "Item Near Entrance",
         "sections": [
           {
-            "ref": "Dungeons/Power Plant/Item Near Entrance",
-            "name": "Item"
+            "name": "Power Plant - Item Near Entrance"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Power Plant Long Center Room Item (Right)",
+        "name": "Long Center Room Item (Right)",
         "sections": [
           {
-            "ref": "Dungeons/Power Plant/Long Center Room Item (Right)",
-            "name": "Item"
+            "name": "Power Plant - Long Center Room Item (Right)"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Power Plant Long Center Room Item (Left)",
+        "name": "Long Center Room Item (Left)",
         "sections": [
           {
-            "ref": "Dungeons/Power Plant/Long Center Room Item (Left)",
-            "name": "Item"
+            "name": "Power Plant - Long Center Room Item (Left)"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Power Plant Southeast Room Item",
+        "name": "Southeast Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Power Plant/Southeast Room Item",
-            "name": "Item"
+            "name": "Power Plant - Southeast Room Item"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Power Plant Northeast Room Item (Right)",
+        "name": "Northeast Room Item (Right)",
         "sections": [
           {
-            "ref": "Dungeons/Power Plant/Northeast Room Item (Right)",
-            "name": "Item"
+            "name": "Power Plant - Northeast Room Item (Right)"
           }
         ],
         "map_locations": [
@@ -83,11 +78,10 @@
         ]
       },
       {
-        "name": "Power Plant Center Machine Room Hidden Item",
+        "name": "Center Machine Room Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Power Plant/Center Machine Room Hidden Item",
-            "name": "Hidden Item"
+            "name": "Power Plant - Center Machine Room Hidden Item"
           }
         ],
         "map_locations": [
@@ -99,11 +93,10 @@
         ]
       },
       {
-        "name": "Power Plant Hidden Item Near Zapdos",
+        "name": "Hidden Item Near Zapdos",
         "sections": [
           {
-            "ref": "Dungeons/Power Plant/Hidden Item Near Zapdos",
-            "name": "Hidden Item"
+            "name": "Power Plant - Hidden Item Near Zapdos"
           }
         ],
         "map_locations": [

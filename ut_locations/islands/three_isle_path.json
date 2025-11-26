@@ -3,11 +3,10 @@
     "name": "Three Isle Path",
     "children": [
       {
-        "name": "Three Isle Path Rock Hidden Item",
+        "name": "Rock Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Three Isle Path/Rock Hidden Item",
-            "name": "Hidden Item"
+            "name": "Three Isle Path - Rock Hidden Item"
           }
         ],
         "map_locations": [
@@ -22,8 +21,7 @@
         "name": "Prospector",
         "sections": [
           {
-            "ref": "Islands/Three Isle Path/Prospector Gift",
-            "name": "Gift"
+            "name": "Three Isle Path - Prospector Gift"
           }
         ],
         "map_locations": [

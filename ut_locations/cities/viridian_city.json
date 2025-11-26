@@ -6,7 +6,6 @@
         "name": "Visit Viridian City",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -20,11 +19,10 @@
       },
 
       {
-        "name": "Viridian Item Near Cuttable Tree",
+        "name": "Item Near Cuttable Tree",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Item Near Cuttable Tree",
-            "name": "Item"
+            "name": "Viridian City - Item Near Cuttable Tree"
           }
         ],
         "map_locations": [
@@ -39,8 +37,7 @@
         "name": "Tutorial Man",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Tutorial Man Gift",
-            "name": "Gift"
+            "name": "Viridian City - Tutorial Man Gift"
           }
         ],
         "map_locations": [
@@ -52,11 +49,10 @@
         ]
       },
       {
-        "name": "Viridian Old Man",
+        "name": "Old Man",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Old Man Gift",
-            "name": "Gift"
+            "name": "Viridian City - Old Man Gift"
           }
         ],
         "map_locations": [
@@ -70,13 +66,12 @@
     ]
   },
   {
-    "name": "Viridian Pokémon Center 1F",
+    "name": "Viridian Pokemon Center 1F",
     "children": [
       {
-        "name": "Viridian Pokémon Center PC",
+        "name": "Viridian Pokemon Center PC",
         "sections": [
           {
-            "ref": "Cities/Viridian City/PC Item",
             "name": "Item"
           }
         ],
@@ -94,11 +89,10 @@
     "name": "Viridian Gym",
     "children": [
       {
-        "name": "Viridian Gym Guy",
+        "name": "Gym Guy",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Gym Guy Info",
-            "name": "Info"
+            "name": "Viridian Gym - Gym Guy Info"
           }
         ],
         "map_locations": [
@@ -113,8 +107,7 @@
         "name": "Tamer Cole",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Tamer Cole Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Tamer Cole Reward"
           }
         ],
         "map_locations": [
@@ -129,8 +122,7 @@
         "name": "Black Belt Kiyo",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Black Belt Kiyo Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Black Belt Kiyo Reward"
           }
         ],
         "map_locations": [
@@ -145,8 +137,7 @@
         "name": "Cooltrainer Samuel",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Cooltrainer Samuel Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Cooltrainer Samuel Reward"
           }
         ],
         "map_locations": [
@@ -161,8 +152,7 @@
         "name": "Cooltrainer Yuji",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Cooltrainer Yuji Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Cooltrainer Yuji Reward"
           }
         ],
         "map_locations": [
@@ -177,8 +167,7 @@
         "name": "Black Belt Atsushi",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Black Belt Atsushi Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Black Belt Atsushi Reward"
           }
         ],
         "map_locations": [
@@ -193,8 +182,7 @@
         "name": "Tamer Jason",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Tamer Jason Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Tamer Jason Reward"
           }
         ],
         "map_locations": [
@@ -209,8 +197,7 @@
         "name": "Cooltrainer Warren",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Cooltrainer Warren Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Cooltrainer Warren Reward"
           }
         ],
         "map_locations": [
@@ -225,8 +212,7 @@
         "name": "Black Belt Takashi",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Black Belt Takashi Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Black Belt Takashi Reward"
           }
         ],
         "map_locations": [
@@ -241,24 +227,19 @@
         "name": "Viridian Gym Giovanni",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Leader Giovanni Reward",
-            "name": "Reward"
+            "name": "Viridian Gym - Leader Giovanni Reward"
           },
           {
-            "ref": "Cities/Viridian City/Giovanni Info",
-            "name": "Info"
+            "name": "Viridian Gym - Giovanni Info"
           },
           {
-            "ref": "Cities/Viridian City/Viridian Gym Prize",
-            "name": "Gym Prize"
+            "name": "Viridian Gym - Prize"
           },
           {
-            "ref": "Cities/Viridian City/Giovanni TM",
-            "name": "TM"
+            "name": "Viridian Gym - Giovanni TM"
           },
           {
-            "ref": "Cities/Viridian City/Hidden Item Under Giovanni",
-            "name": "Hidden Item Under Giovanni"
+            "name": "Viridian Gym - Hidden Item Under Giovanni"
           }
         ],
         "map_locations": [
@@ -275,15 +256,13 @@
     "name": "Viridian School",
     "children": [
       {
-        "name": "Viridian School Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Bookshelf Info 1",
-            "name": "Info 1"
+            "name": "Viridian School - Bookshelf Info 1"
           },
           {
-            "ref": "Cities/Viridian City/Bookshelf Info 2",
-            "name": "Info 2"
+            "name": "Viridian School - Bookshelf Info 2"
           }
         ],
         "map_locations": [
@@ -297,29 +276,24 @@
     ]
   },
   {
-    "name": "Viridian Mart",
+    "name": "Viridian Poke Mart",
     "children": [
       {
-        "name": "Viridian Poké Mart Clerk",
+        "name": "Viridian Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Delivery for Oak",
-            "name": "Delivery for Oak"
+            "name": "Viridian Poke Mart - Delivery for Oak"
           },
           {
-            "ref": "Cities/Viridian City/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Viridian City/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Viridian City/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Viridian City/Shop Item 4",
             "name": "Shop Item 4"
           }
         ],

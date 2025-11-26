@@ -1,13 +1,12 @@
 [
   {
-    "name": "Pokémon Tower 2F",
+    "name": "Pokemon Tower 2F",
     "children": [
       {
-        "name": "Pokémon Tower Rival",
+        "name": "Rival",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/2F - Rival Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 2F - Rival Reward"
           }
         ],
         "map_locations": [
@@ -21,14 +20,13 @@
     ]
   },
   {
-    "name": "Pokémon Tower 3F",
+    "name": "Pokemon Tower 3F",
     "children": [
       {
-        "name": "Pokémon Tower 3F North Item",
+        "name": "North Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/3F - North Item",
-            "name": "Item"
+            "name": "Pokemon Tower 3F - North Item"
           }
         ],
         "map_locations": [
@@ -43,8 +41,7 @@
         "name": "Channeler Carly",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/3F - Channeler Carly Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 3F - Channeler Carly Reward"
           }
         ],
         "map_locations": [
@@ -59,8 +56,7 @@
         "name": "Channeler Hope",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/3F - Channeler Hope Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 3F - Channeler Hope Reward"
           }
         ],
         "map_locations": [
@@ -75,8 +71,7 @@
         "name": "Channeler Patricia",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/3F - Channeler Patricia Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 3F - Channeler Patricia Reward"
           }
         ],
         "map_locations": [
@@ -90,14 +85,13 @@
     ]
   },
   {
-    "name": "Pokémon Tower 4F",
+    "name": "Pokemon Tower 4F",
     "children": [
       {
-        "name": "Pokémon Tower 4F Center Item (Right)",
+        "name": "Center Item (Right)",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/4F - Center Item (Right)",
-            "name": "Item"
+            "name": "Pokemon Tower 4F - Center Item (Right)"
           }
         ],
         "map_locations": [
@@ -109,11 +103,10 @@
         ]
       },
       {
-        "name": "Pokémon Tower 4F Center Item (Left)",
+        "name": "Center Item (Left)",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/4F - Center Item (Left)",
-            "name": "Item"
+            "name": "Pokemon Tower 4F - Center Item (Left)"
           }
         ],
         "map_locations": [
@@ -125,11 +118,10 @@
         ]
       },
       {
-        "name": "Pokémon Tower 4F South Item",
+        "name": "South Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/4F - South Item",
-            "name": "Item"
+            "name": "Pokemon Tower 4F - South Item"
           }
         ],
         "map_locations": [
@@ -144,8 +136,7 @@
         "name": "Channeler Jody",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/4F - Channeler Jody Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 4F - Channeler Jody Reward"
           }
         ],
         "map_locations": [
@@ -160,8 +151,7 @@
         "name": "Channeler Laurel",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/4F - Channeler Laurel Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 4F - Channeler Laurel Reward"
           }
         ],
         "map_locations": [
@@ -176,8 +166,7 @@
         "name": "Channeler Paula",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/4F - Channeler Paula Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 4F - Channeler Paula Reward"
           }
         ],
         "map_locations": [
@@ -191,14 +180,13 @@
     ]
   },
   {
-    "name": "Pokémon Tower 5F",
+    "name": "Pokemon Tower 5F",
     "children": [
       {
-        "name": "Pokémon Tower 5F Northwest Hidden Item",
+        "name": "Northwest Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/5F - Northwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Pokemon Tower 5F - Northwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -210,11 +198,10 @@
         ]
       },
       {
-        "name": "Pokémon Tower 5F Healing Area Item",
+        "name": "Healing Area Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/5F - Healing Area Item",
-            "name": "Item"
+            "name": "Pokemon Tower 5F - Healing Area Item"
           }
         ],
         "map_locations": [
@@ -226,11 +213,10 @@
         ]
       },
       {
-        "name": "Pokémon Tower 5F Southwest Item",
+        "name": "Southwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/5F - Southwest Item",
-            "name": "Item"
+            "name": "Pokemon Tower 5F - Southwest Item"
           }
         ],
         "map_locations": [
@@ -245,8 +231,7 @@
         "name": "Channeler Janae",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/5F - Channeler Janae Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 5F - Channeler Janae Reward"
           }
         ],
         "map_locations": [
@@ -261,8 +246,7 @@
         "name": "Channeler Karina",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/5F - Channeler Karina Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 5F - Channeler Karina Reward"
           }
         ],
         "map_locations": [
@@ -277,8 +261,7 @@
         "name": "Channeler Ruth",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/5F - Channeler Ruth Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 5F - Channeler Ruth Reward"
           }
         ],
         "map_locations": [
@@ -293,8 +276,7 @@
         "name": "Channeler Tammy",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/5F - Channeler Tammy Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 5F - Channeler Tammy Reward"
           }
         ],
         "map_locations": [
@@ -308,14 +290,13 @@
     ]
   },
   {
-    "name": "Pokémon Tower 6F",
+    "name": "Pokemon Tower 6F",
     "children": [
       {
-        "name": "Pokémon Tower 6F Southeast Item",
+        "name": "Southeast Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/6F - Southeast Item",
-            "name": "Item"
+            "name": "Pokemon Tower 6F - Southeast Item"
           }
         ],
         "map_locations": [
@@ -327,11 +308,10 @@
         ]
       },
       {
-        "name": "Pokémon Tower 6F Southwest Item",
+        "name": "Southwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/6F - Southwest Item",
-            "name": "Item"
+            "name": "Pokemon Tower 6F - Southwest Item"
           }
         ],
         "map_locations": [
@@ -346,8 +326,7 @@
         "name": "Channeler Angelica",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/6F - Channeler Angelica Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 6F - Channeler Angelica Reward"
           }
         ],
         "map_locations": [
@@ -362,8 +341,7 @@
         "name": "Channeler Emilia",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/6F - Channeler Emilia Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 6F - Channeler Emilia Reward"
           }
         ],
         "map_locations": [
@@ -378,8 +356,7 @@
         "name": "Channeler Jennifer",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/6F - Channeler Jennifer Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 6F - Channeler Jennifer Reward"
           }
         ],
         "map_locations": [
@@ -393,14 +370,13 @@
     ]
   },
   {
-    "name": "Pokémon Tower 7F",
+    "name": "Pokemon Tower 7F",
     "children": [
       {
-        "name": "Pokémon Tower Mr. Fuji",
+        "name": "Mr. Fuji",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/7F - Hidden Item Under Mr. Fuji",
-            "name": "Hidden Item Under Mr. Fuji"
+            "name": "Pokemon Tower 7F - Hidden Item Under Mr. Fuji"
           }
         ],
         "map_locations": [
@@ -412,11 +388,10 @@
         ]
       },
       {
-        "name": "Pokémon Tower 7F South Team Rocket Grunt",
+        "name": "South Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/7F - South Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 7F - South Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [
@@ -428,14 +403,12 @@
         ]
       },
       {
-        "name": "Pokémon Tower 7F Center Team Rocket Grunt",
+        "name": "Center Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/7F - Center Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 7F - Center Team Rocket Grunt Reward"
           },
           {
-            "ref": "Dungeons/Pokémon Tower/7F - Team Rocket Grunt Info",
             "name": "Info"
           }
         ],
@@ -448,11 +421,10 @@
         ]
       },
       {
-        "name": "Pokémon Tower 7F North Team Rocket Grunt",
+        "name": "North Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Tower/7F - North Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Pokemon Tower 7F - North Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [

@@ -6,7 +6,6 @@
         "name": "Six Island Visit",
         "sections": [
           {
-            "ref": "Islands/Six Island Town/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Six Island Hidden Item Behind Pokémon Center",
+        "name": "Hidden Item Behind Pokemon Center",
         "sections": [
           {
-            "ref": "Islands/Six Island Town/Hidden Item Behind Pokémon Center",
-            "name": "Hidden Item"
+            "name": "Six Island Town - Hidden Item Behind Pokemon Center"
           }
         ],
         "map_locations": [
@@ -37,13 +35,12 @@
     ]
   },
   {
-    "name": "Six Island Pokémon Center 1F",
+    "name": "Six Island Pokemon Center 1F",
     "children": [
       {
-        "name": "Six Island Pokémon Center PC",
+        "name": "Six Island Pokemon Center PC",
         "sections": [
           {
-            "ref": "Islands/Six Island Town/PC Item",
             "name": "Item"
           }
         ],
@@ -58,14 +55,13 @@
     ]
   },
   {
-    "name": "Six Island Mart",
+    "name": "Six Island Poke Mart",
     "children": [
       {
-        "name": "Six Island Mart Old Woman",
+        "name": "Old Woman",
         "sections": [
           {
-            "ref": "Islands/Six Island Town/Old Woman Info",
-            "name": "Info"
+            "name": "Six Island Poke Mart - Old Woman Info"
           }
         ],
         "map_locations": [
@@ -77,38 +73,30 @@
         ]
       },
       {
-        "name": "Six Island Poké Mart Clerk",
+        "name": "Six Island Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Islands/Six Island Town/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Islands/Six Island Town/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Islands/Six Island Town/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Islands/Six Island Town/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Islands/Six Island Town/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Islands/Six Island Town/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Islands/Six Island Town/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Islands/Six Island Town/Shop Item 8",
             "name": "Shop Item 8"
           }
         ],

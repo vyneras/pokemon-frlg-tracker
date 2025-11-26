@@ -6,7 +6,6 @@
         "name": "Visit Pallet Town",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -22,7 +21,6 @@
         "name": "Player's House",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/PC Item",
             "name": "PC Item"
           }
         ],
@@ -38,8 +36,7 @@
         "name": "Oak's Lab Sign",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak's Lab Sign Info",
-            "name": "Info"
+            "name": "Pallet Town - Oak's Lab Sign Info"
           }
         ],
         "map_locations": [
@@ -59,7 +56,6 @@
         "name": "Player's House 2F PC",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/PC Item",
             "name": "Item"
           }
         ],
@@ -80,8 +76,7 @@
         "name": "Daisy",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Daisy Gift",
-            "name": "Gift"
+            "name": "Rival's House - Daisy Gift"
           }
         ],
         "map_locations": [
@@ -95,14 +90,13 @@
     ]
   },
   {
-    "name": "Oak's Lab",
+    "name": "Professor Oak's Lab",
     "children": [
       {
-        "name": "Oak's Lab Rival",
+        "name": "Rival",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Rival Reward",
-            "name": "Reward"
+            "name": "Professor Oak's Lab - Rival Reward"
           }
         ],
         "map_locations": [
@@ -114,23 +108,19 @@
         ]
       },
       {
-        "name": "Oak's Lab Oak",
+        "name": "Oak",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak Gift 1 (Deliver Parcel)",
-            "name": "Gift 1 (Deliver Parcel)"
+            "name": "Professor Oak's Lab - Oak Gift 1 (Deliver Parcel)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Gift 2 (Deliver Parcel)",
-            "name": "Gift 2 (Deliver Parcel)"
+            "name": "Professor Oak's Lab - Oak Gift 2 (Deliver Parcel)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Info",
-            "name": "Info"
+            "name": "Professor Oak's Lab - Oak Info"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Gift (Post Route 22 Rival)",
-            "name": "Gift (Post Route 22 Rival)"
+            "name": "Professor Oak's Lab - Oak Gift (Post Route 22 Rival)"
           }
         ],
         "map_locations": [
@@ -145,8 +135,7 @@
         "name": "Oak's Aide M (Right)",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak's Aide M Info (Right)",
-            "name": "Info"
+            "name": "Professor Oak's Lab - Oak's Aide M Info (Right)"
           }
         ],
         "map_locations": [
@@ -161,8 +150,7 @@
         "name": "Oak's Aide F",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak's Aide F Info",
-            "name": "Info"
+            "name": "Professor Oak's Lab - Oak's Aide F Info"
           }
         ],
         "map_locations": [
@@ -177,8 +165,7 @@
         "name": "Oak's Aide M (Left)",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Oak's Aide M Info (Left)",
-            "name": "Info"
+            "name": "Professor Oak's Lab - Oak's Aide M Info (Left)"
           }
         ],
         "map_locations": [

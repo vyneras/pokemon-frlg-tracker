@@ -3,11 +3,10 @@
     "name": "Route 2",
     "children": [
       {
-        "name": "Route 2 North Item",
+        "name": "North Item",
         "sections": [
           {
-            "ref": "Routes/Route 2/North Item",
-            "name": "Item"
+            "name": "Route 2 - North Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Route 2 South Item",
+        "name": "South Item",
         "sections": [
           {
-            "ref": "Routes/Route 2/South Item",
-            "name": "Item"
+            "name": "Route 2 - South Item"
           }
         ],
         "map_locations": [
@@ -40,11 +38,10 @@
     "name": "Route 2 Gate",
     "children": [
       {
-        "name": "Route 2 Gate Oak's Aide",
+        "name": "Oak's Aide",
         "sections": [
           {
-            "ref": "Routes/Route 2/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Gift (Pokédex Progress)"
+            "name": "Route 2 Gate - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [

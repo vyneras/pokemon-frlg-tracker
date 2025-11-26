@@ -3,11 +3,10 @@
     "name": "Diglett's Cave B1F",
     "children": [
       {
-        "name": "Diglett's Cave B1F Item",
+        "name": "Item",
         "sections": [
           {
-            "ref": "Dungeons/Diglett's Cave/B1F - Item",
-            "name": "Item"
+            "name": "Diglett's Cave B1F - Item"
           }
         ],
         "map_locations": [

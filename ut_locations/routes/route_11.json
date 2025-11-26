@@ -3,11 +3,10 @@
     "name": "Route 11",
     "children": [
       {
-        "name": "Route 11 Northwest Item",
+        "name": "Northwest Item",
         "sections": [
           {
-            "ref": "Routes/Route 11/Northwest Item",
-            "name": "Item"
+            "name": "Route 11 - Northwest Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Route 11 Tall Grass Item",
+        "name": "Tall Grass Item",
         "sections": [
           {
-            "ref": "Routes/Route 11/Tall Grass Item",
-            "name": "Item"
+            "name": "Route 11 - Tall Grass Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Route 11 Item Behind Trees",
+        "name": "Item Behind Trees",
         "sections": [
           {
-            "ref": "Routes/Route 11/Item Behind Trees",
-            "name": "Item"
+            "name": "Route 11 - Item Behind Trees"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Route 11 Northeast Rock Hidden Item",
+        "name": "Northeast Rock Hidden Item",
         "sections": [
           {
-            "ref": "Routes/Route 11/Northeast Rock Hidden Item",
-            "name": "Hidden Item"
+            "name": "Route 11 - Northeast Rock Hidden Item"
           }
         ],
         "map_locations": [
@@ -70,12 +66,10 @@
         "name": "Engineer Bernie",
         "sections": [
           {
-            "ref": "Routes/Route 11/Engineer Bernie Reward",
-            "name": "Reward"
+            "name": "Route 11 - Engineer Bernie Reward"
           },
           {
-            "ref": "Routes/Route 11/Engineer Bernie Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 11 - Engineer Bernie Rematch Reward (4 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -90,8 +84,7 @@
         "name": "Engineer Braxton",
         "sections": [
           {
-            "ref": "Routes/Route 11/Engineer Braxton Reward",
-            "name": "Reward"
+            "name": "Route 11 - Engineer Braxton Reward"
           }
         ],
         "map_locations": [
@@ -106,12 +99,10 @@
         "name": "Gamer Darian",
         "sections": [
           {
-            "ref": "Routes/Route 11/Gamer Darian Reward",
-            "name": "Reward"
+            "name": "Route 11 - Gamer Darian Reward"
           },
           {
-            "ref": "Routes/Route 11/Gamer Darian Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 11 - Gamer Darian Rematch Reward (4 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -126,8 +117,7 @@
         "name": "Gamer Dirk",
         "sections": [
           {
-            "ref": "Routes/Route 11/Gamer Dirk Reward",
-            "name": "Reward"
+            "name": "Route 11 - Gamer Dirk Reward"
           }
         ],
         "map_locations": [
@@ -142,8 +132,7 @@
         "name": "Gamer Hugo",
         "sections": [
           {
-            "ref": "Routes/Route 11/Gamer Hugo Reward",
-            "name": "Reward"
+            "name": "Route 11 - Gamer Hugo Reward"
           }
         ],
         "map_locations": [
@@ -158,8 +147,7 @@
         "name": "Gamer Jasper",
         "sections": [
           {
-            "ref": "Routes/Route 11/Gamer Jasper Reward",
-            "name": "Reward"
+            "name": "Route 11 - Gamer Jasper Reward"
           }
         ],
         "map_locations": [
@@ -174,8 +162,7 @@
         "name": "Youngster Dave",
         "sections": [
           {
-            "ref": "Routes/Route 11/Youngster Dave Reward",
-            "name": "Reward"
+            "name": "Route 11 - Youngster Dave Reward"
           }
         ],
         "map_locations": [
@@ -190,8 +177,7 @@
         "name": "Youngster Dillon",
         "sections": [
           {
-            "ref": "Routes/Route 11/Youngster Dillon Reward",
-            "name": "Reward"
+            "name": "Route 11 - Youngster Dillon Reward"
           }
         ],
         "map_locations": [
@@ -206,8 +192,7 @@
         "name": "Youngster Eddie",
         "sections": [
           {
-            "ref": "Routes/Route 11/Youngster Eddie Reward",
-            "name": "Reward"
+            "name": "Route 11 - Youngster Eddie Reward"
           }
         ],
         "map_locations": [
@@ -222,16 +207,13 @@
         "name": "Youngster Yasu",
         "sections": [
           {
-            "ref": "Routes/Route 11/Youngster Yasu Reward",
-            "name": "Reward"
+            "name": "Route 11 - Youngster Yasu Reward"
           },
           {
-            "ref": "Routes/Route 11/Youngster Yasu Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 11 - Youngster Yasu Rematch Reward (2 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 11/Youngster Yasu Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 11 - Youngster Yasu Rematch Reward (6 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -248,11 +230,10 @@
     "name": "Route 11 Gate 2F",
     "children": [
       {
-        "name": "Route 11 Gate 2F Oak's Aide",
+        "name": "Oak's Aide",
         "sections": [
           {
-            "ref": "Routes/Route 11/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Gift (Pokédex Progress)"
+            "name": "Route 11 Gate 2F - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [

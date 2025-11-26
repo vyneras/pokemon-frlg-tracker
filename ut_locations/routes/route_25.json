@@ -3,11 +3,10 @@
     "name": "Route 25",
     "children": [
       {
-        "name": "Route 25 Northwest Hidden Item Near Bush",
+        "name": "Northwest Hidden Item Near Bush",
         "sections": [
           {
-            "ref": "Routes/Route 25/Northwest Hidden Item Near Bush",
-            "name": "Hidden Item"
+            "name": "Route 25 - Northwest Hidden Item Near Bush"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Route 25 Item Near Bush",
+        "name": "Item Near Bush",
         "sections": [
           {
-            "ref": "Routes/Route 25/Item Near Bush",
-            "name": "Item"
+            "name": "Route 25 - Item Near Bush"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Route 25 Hidden Item Near South Flowers",
+        "name": "Hidden Item Near South Flowers",
         "sections": [
           {
-            "ref": "Routes/Route 25/Hidden Item Near South Flowers",
-            "name": "Hidden Item"
+            "name": "Route 25 - Hidden Item Near South Flowers"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Route 25 Hidden Item Near North Flowers",
+        "name": "Hidden Item Near North Flowers",
         "sections": [
           {
-            "ref": "Routes/Route 25/Hidden Item Near North Flowers",
-            "name": "Hidden Item"
+            "name": "Route 25 - Hidden Item Near North Flowers"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Route 25 Hidden Item Past Sea Cottage",
+        "name": "Hidden Item Past Sea Cottage",
         "sections": [
           {
-            "ref": "Routes/Route 25/Hidden Item Past Sea Cottage",
-            "name": "Hidden Item"
+            "name": "Route 25 - Hidden Item Past Sea Cottage"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Camper Flint",
         "sections": [
           {
-            "ref": "Routes/Route 25/Camper Flint Reward",
-            "name": "Reward"
+            "name": "Route 25 - Camper Flint Reward"
           }
         ],
         "map_locations": [
@@ -102,12 +96,10 @@
         "name": "Hiker Franklin",
         "sections": [
           {
-            "ref": "Routes/Route 25/Hiker Franklin Reward",
-            "name": "Reward"
+            "name": "Route 25 - Hiker Franklin Reward"
           },
           {
-            "ref": "Routes/Route 25/Hiker Franklin Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 25 - Hiker Franklin Rematch Reward (2 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -122,8 +114,7 @@
         "name": "Hiker Nob",
         "sections": [
           {
-            "ref": "Routes/Route 25/Hiker Nob Reward",
-            "name": "Reward"
+            "name": "Route 25 - Hiker Nob Reward"
           }
         ],
         "map_locations": [
@@ -138,8 +129,7 @@
         "name": "Hiker Wayne",
         "sections": [
           {
-            "ref": "Routes/Route 25/Hiker Wayne Reward",
-            "name": "Reward"
+            "name": "Route 25 - Hiker Wayne Reward"
           }
         ],
         "map_locations": [
@@ -154,8 +144,7 @@
         "name": "Lass Haley",
         "sections": [
           {
-            "ref": "Routes/Route 25/Lass Haley Reward",
-            "name": "Reward"
+            "name": "Route 25 - Lass Haley Reward"
           }
         ],
         "map_locations": [
@@ -170,20 +159,16 @@
         "name": "Picnicker Kelsey",
         "sections": [
           {
-            "ref": "Routes/Route 25/Picnicker Kelsey Reward",
-            "name": "Reward"
+            "name": "Route 25 - Picnicker Kelsey Reward"
           },
           {
-            "ref": "Routes/Route 25/Picnicker Kelsey Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 25 - Picnicker Kelsey Rematch Reward"
           },
           {
-            "ref": "Routes/Route 25/Picnicker Kelsey Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 25 - Picnicker Kelsey Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 25/Picnicker Kelsey Rematch Reward 3",
-            "name": "Rematch Reward 3"
+            "name": "Route 25 - Picnicker Kelsey Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -198,20 +183,16 @@
         "name": "Youngster Chad",
         "sections": [
           {
-            "ref": "Routes/Route 25/Youngster Chad Reward",
-            "name": "Reward"
+            "name": "Route 25 - Youngster Chad Reward"
           },
           {
-            "ref": "Routes/Route 25/Youngster Chad Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 25 - Youngster Chad Rematch Reward"
           },
           {
-            "ref": "Routes/Route 25/Youngster Chad Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 25 - Youngster Chad Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 25/Youngster Chad Rematch Reward 3",
-            "name": "Rematch Reward 3"
+            "name": "Route 25 - Youngster Chad Rematch Reward (6 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -226,8 +207,7 @@
         "name": "Youngster Dan",
         "sections": [
           {
-            "ref": "Routes/Route 25/Youngster Dan Reward",
-            "name": "Reward"
+            "name": "Route 25 - Youngster Dan Reward"
           }
         ],
         "map_locations": [
@@ -242,8 +222,7 @@
         "name": "Youngster Joey",
         "sections": [
           {
-            "ref": "Routes/Route 25/Youngster Joey Reward",
-            "name": "Reward"
+            "name": "Route 25 - Youngster Joey Reward"
           }
         ],
         "map_locations": [
@@ -255,11 +234,10 @@
         ]
       },
       {
-        "name": "Route 25 Beauty",
+        "name": "Beauty",
         "sections": [
           {
-            "ref": "Routes/Route 25/Beauty Info",
-            "name": "Info"
+            "name": "Route 25 - Beauty Info"
           }
         ],
         "map_locations": [
@@ -271,11 +249,10 @@
         ]
       },
       {
-        "name": "Route 25 Man",
+        "name": "Man",
         "sections": [
           {
-            "ref": "Routes/Route 25/Man Gift",
-            "name": "Gift"
+            "name": "Route 25 - Man Gift"
           }
         ],
         "map_locations": [
@@ -292,11 +269,10 @@
     "name": "Sea Cottage",
     "children": [
       {
-        "name": "Sea Cottage Bill",
+        "name": "Bill",
         "sections": [
           {
-            "ref": "Routes/Route 25/Bill Gift",
-            "name": "Gift"
+            "name": "Sea Cottage - Bill Gift"
           }
         ],
         "map_locations": [
@@ -304,21 +280,6 @@
             "map": "sea_cottage",
             "x": 120,
             "y": 88
-          }
-        ]
-      },
-      {
-        "name": "Sea Cottage Exit",
-        "sections": [
-          {
-            "name": "Sea Cottage Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "sea_cottage",
-            "x": 120,
-            "y": 152
           }
         ]
       }

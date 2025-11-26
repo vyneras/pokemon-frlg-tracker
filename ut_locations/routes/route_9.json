@@ -3,11 +3,10 @@
     "name": "Route 9",
     "children": [
       {
-        "name": "Route 9 Southwest Item",
+        "name": "Southwest Item",
         "sections": [
           {
-            "ref": "Routes/Route 9/Southwest Item",
-            "name": "Item"
+            "name": "Route 9 - Southwest Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Route 9 Northwest Ledge Rock Hidden Item",
+        "name": "Northwest Ledge Rock Hidden Item",
         "sections": [
           {
-            "ref": "Routes/Route 9/Northwest Ledge Rock Hidden Item",
-            "name": "Hidden Item"
+            "name": "Route 9 - Northwest Ledge Rock Hidden Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Route 9 Southeast Item",
+        "name": "Southeast Item",
         "sections": [
           {
-            "ref": "Routes/Route 9/Southeast Item",
-            "name": "Item"
+            "name": "Route 9 - Southeast Item"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Route 9 Northeast Ledge Hidden Item (Left)",
+        "name": "Northeast Ledge Hidden Item (Left)",
         "sections": [
           {
-            "ref": "Routes/Route 9/Northeast Ledge Hidden Item (Left)",
-            "name": "Hidden Item"
+            "name": "Route 9 - Northeast Ledge Hidden Item (Left)"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Route 9 Northeast Ledge Hidden Item (Right)",
+        "name": "Northeast Ledge Hidden Item (Right)",
         "sections": [
           {
-            "ref": "Routes/Route 9/Northeast Ledge Hidden Item (Right)",
-            "name": "Hidden Item"
+            "name": "Route 9 - Northeast Ledge Hidden Item (Right)"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Bug Catcher Brent",
         "sections": [
           {
-            "ref": "Routes/Route 9/Bug Catcher Brent Reward",
-            "name": "Reward"
+            "name": "Route 9 - Bug Catcher Brent Reward"
           }
         ],
         "map_locations": [
@@ -102,8 +96,7 @@
         "name": "Bug Catcher Conner",
         "sections": [
           {
-            "ref": "Routes/Route 9/Bug Catcher Conner Reward",
-            "name": "Reward"
+            "name": "Route 9 - Bug Catcher Conner Reward"
           }
         ],
         "map_locations": [
@@ -118,20 +111,16 @@
         "name": "Camper Chris",
         "sections": [
           {
-            "ref": "Routes/Route 9/Camper Chris Reward",
-            "name": "Reward"
+            "name": "Route 9 - Camper Chris Reward"
           },
           {
-            "ref": "Routes/Route 9/Camper Chris Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 9 - Camper Chris Rematch Reward (2 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 9/Camper Chris Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 9 - Camper Chris Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 9/Camper Chris Rematch Reward 3",
-            "name": "Rematch Reward 3"
+            "name": "Route 9 - Camper Chris Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -146,8 +135,7 @@
         "name": "Camper Drew",
         "sections": [
           {
-            "ref": "Routes/Route 9/Camper Drew Reward",
-            "name": "Reward"
+            "name": "Route 9 - Camper Drew Reward"
           }
         ],
         "map_locations": [
@@ -162,8 +150,7 @@
         "name": "Hiker Alan",
         "sections": [
           {
-            "ref": "Routes/Route 9/Hiker Alan Reward",
-            "name": "Reward"
+            "name": "Route 9 - Hiker Alan Reward"
           }
         ],
         "map_locations": [
@@ -178,8 +165,7 @@
         "name": "Hiker Brice",
         "sections": [
           {
-            "ref": "Routes/Route 9/Hiker Brice Reward",
-            "name": "Reward"
+            "name": "Route 9 - Hiker Brice Reward"
           }
         ],
         "map_locations": [
@@ -194,12 +180,10 @@
         "name": "Hiker Jeremy",
         "sections": [
           {
-            "ref": "Routes/Route 9/Hiker Jeremy Reward",
-            "name": "Reward"
+            "name": "Route 9 - Hiker Jeremy Reward"
           },
           {
-            "ref": "Routes/Route 9/Hiker Jeremy Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 9 - Hiker Jeremy Rematch Reward (4 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -214,20 +198,16 @@
         "name": "Picnicker Alicia",
         "sections": [
           {
-            "ref": "Routes/Route 9/Picnicker Alicia Reward",
-            "name": "Reward"
+            "name": "Route 9 - Picnicker Alicia Reward"
           },
           {
-            "ref": "Routes/Route 9/Picnicker Alicia Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 9 - Picnicker Alicia Rematch Reward (2 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 9/Picnicker Alicia Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 9 - Picnicker Alicia Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 9/Picnicker Alicia Rematch Reward 3",
-            "name": "Rematch Reward 3"
+            "name": "Route 9 - Picnicker Alicia Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -242,8 +222,7 @@
         "name": "Picnicker Caitlin",
         "sections": [
           {
-            "ref": "Routes/Route 9/Picnicker Caitlin Reward",
-            "name": "Reward"
+            "name": "Route 9 - Picnicker Caitlin Reward"
           }
         ],
         "map_locations": [

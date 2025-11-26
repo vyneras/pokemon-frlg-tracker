@@ -3,11 +3,10 @@
     "name": "Route 12",
     "children": [
       {
-        "name": "Route 12 North Island Item",
+        "name": "North Island Item",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/North Island Item",
-            "name": "Item"
+            "name": "Route 12 - North Island Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Route 12 Grass Hidden Item",
+        "name": "Grass Hidden Item",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Grass Hidden Item",
-            "name": "Hidden Item"
+            "name": "Route 12 - Grass Hidden Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Route 12 Snorlax",
+        "name": "Snorlax",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Hidden Item Under Snorlax",
-            "name": "Hidden Item Under Snorlax"
+            "name": "Route 12 - Hidden Item Under Snorlax"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Route 12 Item Behind Cuttable Tree",
+        "name": "Item Behind Cuttable Tree",
         "sections": [
           {
-            "ref": "Routes/Route 12 South/Item Behind Cuttable Tree",
-            "name": "Item"
+            "name": "Route 12 - Item Behind Cuttable Tree"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Route 12 Tall Grass Hidden Item",
+        "name": "Tall Grass Hidden Item",
         "sections": [
           {
-            "ref": "Routes/Route 12 South/Tall Grass Hidden Item",
-            "name": "Hidden Item"
+            "name": "Route 12 - Tall Grass Hidden Item"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Fisherman Chip",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Fisherman Chip Reward",
-            "name": "Reward"
+            "name": "Route 12 - Fisherman Chip Reward"
           }
         ],
         "map_locations": [
@@ -102,12 +96,10 @@
         "name": "Fisherman Elliot",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Fisherman Elliot Reward",
-            "name": "Reward"
+            "name": "Route 12 - Fisherman Elliot Reward"
           },
           {
-            "ref": "Routes/Route 12 North/Fisherman Elliot Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 12 - Fisherman Elliot Rematch Reward (4 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -122,8 +114,7 @@
         "name": "Fisherman Hank",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Fisherman Hank Reward",
-            "name": "Reward"
+            "name": "Route 12 - Fisherman Hank Reward"
           }
         ],
         "map_locations": [
@@ -138,8 +129,7 @@
         "name": "Fisherman Ned",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Fisherman Ned Reward",
-            "name": "Reward"
+            "name": "Route 12 - Fisherman Ned Reward"
           }
         ],
         "map_locations": [
@@ -154,16 +144,13 @@
         "name": "Young Couple Gia & Jes",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Reward",
-            "name": "Reward"
+            "name": "Route 12 - Young Couple Gia & Jes Reward"
           },
           {
-            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 12 - Young Couple Gia & Jes Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 12 - Young Couple Gia & Jes Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -178,8 +165,7 @@
         "name": "Fisherman Andrew",
         "sections": [
           {
-            "ref": "Routes/Route 12 South/Fisherman Andrew Reward",
-            "name": "Reward"
+            "name": "Route 12 - Fisherman Andrew Reward"
           }
         ],
         "map_locations": [
@@ -194,12 +180,10 @@
         "name": "Rocker Luca",
         "sections": [
           {
-            "ref": "Routes/Route 12 South/Rocker Luca Reward",
-            "name": "Reward"
+            "name": "Route 12 - Rocker Luca Reward"
           },
           {
-            "ref": "Routes/Route 12 South/Rocker Luca Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 12 - Rocker Luca Rematch Reward (4 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -214,8 +198,7 @@
         "name": "Camper Justin",
         "sections": [
           {
-            "ref": "Routes/Route 12 South/Camper Justin Reward",
-            "name": "Reward"
+            "name": "Route 12 - Camper Justin Reward"
           }
         ],
         "map_locations": [
@@ -235,8 +218,7 @@
         "name": "Mourning Lass",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Mourning Lass Gift",
-            "name": "Gift"
+            "name": "Route 12 Gate 2F - Mourning Lass Gift"
           }
         ],
         "map_locations": [
@@ -253,15 +235,13 @@
     "name": "Route 12 Fishing House",
     "children": [
       {
-        "name": "Route 12 Fishing Guru",
+        "name": "Fishing Guru",
         "sections": [
           {
-            "ref": "Routes/Route 12 South/Fishing Guru Gift",
-            "name": "Gift"
+            "name": "Route 12 Fishing House - Fishing Guru Gift"
           },
           {
-            "ref": "Routes/Route 12 South/Fishing Guru Gift (Show Magikarp)",
-            "name": "Gift (Show Magikarp)"
+            "name": "Route 12 Fishing House - Fishing Guru Gift (Show Magikarp)"
           }
         ],
         "map_locations": [

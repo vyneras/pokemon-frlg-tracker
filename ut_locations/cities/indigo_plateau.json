@@ -6,7 +6,7 @@
         "name": "Indigo Plateau Visit",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Unlock Fly Destination"
+            "name": "Unlock Fly Destination"
           }
         ],
         "map_locations": [
@@ -20,13 +20,12 @@
     ]
   },
   {
-    "name": "Indigo Plateau Pokémon Center 1F",
+    "name": "Indigo Plateau Pokemon Center 1F",
     "children": [
       {
-        "name": "Indigo Plateau Pokémon Center PC",
+        "name": "Indigo Plateau Pokemon Center PC",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/PC Item",
             "name": "Item"
           }
         ],
@@ -39,34 +38,27 @@
         ]
       },
       {
-        "name": "Indigo Plateau Pokémon Center Shop Clerk",
+        "name": "Indigo Plateau Pokemon Center Shop Clerk",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 7",
             "name": "Shop Item 7"
           }
         ],
@@ -79,11 +71,10 @@
         ]
       },
       {
-        "name": "Indigo Plateau Pokémon Center Cooltrainer",
+        "name": "Cooltrainer",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Cooltrainer Info",
-            "name": "Info"
+            "name": "Indigo Plateau Pokemon Center 1F - Cooltrainer Info"
           }
         ],
         "map_locations": [
@@ -95,15 +86,13 @@
         ]
       },
       {
-        "name": "Indigo Plateau Pokémon Center Black Belt",
+        "name": "Black Belt",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Black Belt Info 1",
-            "name": "Info 1"
+            "name": "Indigo Plateau Pokemon Center 1F - Black Belt Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Black Belt Info 2",
-            "name": "Info 2"
+            "name": "Indigo Plateau Pokemon Center 1F - Black Belt Info 2"
           }
         ],
         "map_locations": [
@@ -115,11 +104,10 @@
         ]
       },
       {
-        "name": "Indigo Plateau Pokémon Center Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Bookshelf Info",
-            "name": "Info"
+            "name": "Indigo Plateau Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -136,23 +124,19 @@
     "name": "Lorelei's Room",
     "children": [
       {
-        "name": "Pokémon League Lorelei",
+        "name": "Lorelei",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Lorelei Info 1",
-            "name": "Info 1"
+            "name": "Lorelei's Room - Lorelei Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Lorelei Info 2",
-            "name": "Info 2"
+            "name": "Lorelei's Room - Lorelei Info 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Reward",
-            "name": "Reward"
+            "name": "Lorelei's Room - Elite Four Lorelei Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Lorelei's Room - Elite Four Lorelei Rematch Reward"
           }
         ],
         "map_locations": [
@@ -172,20 +156,16 @@
         "name": "Bruno",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Bruno Info 1",
-            "name": "Info 1"
+            "name": "Bruno's Room - Bruno Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Bruno Info 2",
-            "name": "Info 2"
+            "name": "Bruno's Room - Bruno Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Bruno Reward",
-            "name": "Reward"
+            "name": "Bruno's Room - Elite Four Bruno Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Bruno Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Bruno's Room - Elite Four Bruno Rematch Reward"
           }
         ],
         "map_locations": [
@@ -205,24 +185,19 @@
         "name": "Agatha",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Agatha Info 1",
-            "name": "Info 1"
+            "name": "Agatha's Room - Agatha Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Agatha Info 2",
-            "name": "Info 2"
+            "name": "Agatha's Room - Agatha Info 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Agatha Info 3",
-            "name": "Info 3"
+            "name": "Agatha's Room - Agatha Info 3"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Agatha Reward",
-            "name": "Reward"
+            "name": "Agatha's Room - Elite Four Agatha Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Agatha Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Agatha's Room - Elite Four Agatha Rematch Reward"
           }
         ],
         "map_locations": [
@@ -242,20 +217,16 @@
         "name": "Lance",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Lance Info 1",
-            "name": "Info 1"
+            "name": "Lance's Room - Lance Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Lance Info 2",
-            "name": "Info 2"
+            "name": "Lance's Room - Lance Info 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Lance Reward",
-            "name": "Reward"
+            "name": "Lance's Room - Elite Four Lance Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Lance Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Lance's Room - Elite Four Lance Rematch Reward"
           }
         ],
         "map_locations": [
@@ -275,12 +246,10 @@
         "name": "Champion",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Champion Reward",
-            "name": "Reward"
+            "name": "Champion's Room - Champion Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Champion Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Champion's Room - Champion Rematch Reward"
           }
         ],
         "map_locations": [
@@ -297,15 +266,13 @@
     "name": "Hall of Fame",
     "children": [
       {
-        "name": "Hall of Fame Oak",
+        "name": "Oak",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/Oak Gift 1",
-            "name": "Gift 1"
+            "name": "Hall of Fame - Oak Gift 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Oak Gift 2",
-            "name": "Gift 2"
+            "name": "Hall of Fame - Oak Gift 2"
           }
         ],
         "map_locations": [

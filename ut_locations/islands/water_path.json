@@ -3,11 +3,10 @@
     "name": "Water Path",
     "children": [
       {
-        "name": "Water Path Tall Grass North Hidden Item",
+        "name": "Tall Grass North Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Water Path/Tall Grass North Hidden Item",
-            "name": "Hidden Item"
+            "name": "Water Path - Tall Grass North Hidden Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Water Path Tall Grass South Hidden Item",
+        "name": "Tall Grass South Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Water Path/Tall Grass South Hidden Item",
-            "name": "Hidden Item"
+            "name": "Water Path - Tall Grass South Hidden Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Water Path South Island Item",
+        "name": "South Island Item",
         "sections": [
           {
-            "ref": "Islands/Water Path/South Island Item",
-            "name": "Item"
+            "name": "Water Path - South Island Item"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Water Path North Island Hidden Item",
+        "name": "North Island Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Water Path/North Island Hidden Item",
-            "name": "Hidden Item"
+            "name": "Water Path - North Island Hidden Item"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Water Path North Island Item",
+        "name": "North Island Item",
         "sections": [
           {
-            "ref": "Islands/Water Path/North Island Item",
-            "name": "Item"
+            "name": "Water Path - North Island Item"
           }
         ],
         "map_locations": [
@@ -86,12 +81,10 @@
         "name": "Hiker Earl",
         "sections": [
           {
-            "ref": "Islands/Water Path/Hiker Earl Reward",
-            "name": "Reward"
+            "name": "Water Path - Hiker Earl Reward"
           },
           {
-            "ref": "Islands/Water Path/Hiker Earl Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Water Path - Hiker Earl Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -106,8 +99,7 @@
         "name": "Juggler Edward",
         "sections": [
           {
-            "ref": "Islands/Water Path/Juggler Edward Reward",
-            "name": "Reward"
+            "name": "Water Path - Juggler Edward Reward"
           }
         ],
         "map_locations": [
@@ -122,8 +114,7 @@
         "name": "Swimmer Denise",
         "sections": [
           {
-            "ref": "Islands/Water Path/Swimmer Denise Reward",
-            "name": "Reward"
+            "name": "Water Path - Swimmer Denise Reward"
           }
         ],
         "map_locations": [
@@ -138,12 +129,10 @@
         "name": "Swimmer Samir",
         "sections": [
           {
-            "ref": "Islands/Water Path/Swimmer Samir Reward",
-            "name": "Reward"
+            "name": "Water Path - Swimmer Samir Reward"
           },
           {
-            "ref": "Islands/Water Path/Swimmer Samir Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Water Path - Swimmer Samir Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -158,8 +147,7 @@
         "name": "Aroma Lady Rose",
         "sections": [
           {
-            "ref": "Islands/Water Path/Aroma Lady Rose Reward",
-            "name": "Reward"
+            "name": "Water Path - Aroma Lady Rose Reward"
           }
         ],
         "map_locations": [
@@ -174,8 +162,7 @@
         "name": "Twins Miu & Mia Rose",
         "sections": [
           {
-            "ref": "Islands/Water Path/Twins Miu & Mia Reward",
-            "name": "Reward"
+            "name": "Water Path - Twins Miu & Mia Reward"
           }
         ],
         "map_locations": [
@@ -189,14 +176,13 @@
     ]
   },
   {
-    "name": "Water Path Heracross Woman's House",
+    "name": "Heracross Woman's House",
     "children": [
       {
-        "name": "Heracross Woman",
+        "name": "Woman",
         "sections": [
           {
-            "ref": "Islands/Water Path/Woman Gift (Show Heracross)",
-            "name": "Gift (Show Heracross)"
+            "name": "Water Path Heracross Woman's House - Woman Gift (Show Heracross)"
           }
         ],
         "map_locations": [

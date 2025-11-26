@@ -3,11 +3,10 @@
     "name": "Rock Tunnel 1F",
     "children": [
       {
-        "name": "Rock Tunnel 1F Northeast Area Item",
+        "name": "Northeast Area Item",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Northeast Area Item",
-            "name": "Item"
+            "name": "Rock Tunnel 1F - Northeast Area Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Rock Tunnel 1F Northwest Area Item",
+        "name": "Northwest Area Item",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Northwest Area Item",
-            "name": "Item"
+            "name": "Rock Tunnel 1F - Northwest Area Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Rock Tunnel 1F South Area Item",
+        "name": "South Area Item",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - South Area Item",
-            "name": "Item"
+            "name": "Rock Tunnel 1F - South Area Item"
           }
         ],
         "map_locations": [
@@ -54,8 +51,7 @@
         "name": "Picnicker Ariana",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Picnicker Ariana Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel 1F - Picnicker Ariana Reward"
           }
         ],
         "map_locations": [
@@ -70,8 +66,7 @@
         "name": "Picnicker Dana",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Picnicker Dana Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel 1F - Picnicker Dana Reward"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Picnicker Leah",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Picnicker Leah Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel 1F - Picnicker Leah Reward"
           }
         ],
         "map_locations": [
@@ -102,8 +96,7 @@
         "name": "Hiker Lenny",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Hiker Lenny Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel 1F - Hiker Lenny Reward"
           }
         ],
         "map_locations": [
@@ -118,8 +111,7 @@
         "name": "Hiker Lucas",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Hiker Lucas Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel 1F - Hiker Lucas Reward"
           }
         ],
         "map_locations": [
@@ -134,8 +126,7 @@
         "name": "Hiker Oliver",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - Hiker Oliver Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel 1F - Hiker Oliver Reward"
           }
         ],
         "map_locations": [
@@ -147,11 +138,10 @@
         ]
       },
       {
-        "name": "PokéManiac Ashton",
+        "name": "PokeManiac Ashton",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/1F - PokéManiac Ashton Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel 1F - PokeManiac Ashton Reward"
           }
         ],
         "map_locations": [
@@ -168,11 +158,10 @@
     "name": "Rock Tunnel B1F",
     "children": [
       {
-        "name": "Rock Tunnel B1F Southeast Area Item",
+        "name": "Southeast Area Item",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - Southeast Area Item",
-            "name": "Item"
+            "name": "Rock Tunnel B1F - Southeast Area Item"
           }
         ],
         "map_locations": [
@@ -184,11 +173,10 @@
         ]
       },
       {
-        "name": "Rock Tunnel B1F Northwest Area Item",
+        "name": "Northwest Area Item",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - Northwest Area Item",
-            "name": "Item"
+            "name": "Rock Tunnel B1F - Northwest Area Item"
           }
         ],
         "map_locations": [
@@ -203,8 +191,7 @@
         "name": "Hiker Dudley",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - Hiker Dudley Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel B1F - Hiker Dudley Reward"
           }
         ],
         "map_locations": [
@@ -219,8 +206,7 @@
         "name": "Picnicker Sofia",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - Picnicker Sofia Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel B1F - Picnicker Sofia Reward"
           }
         ],
         "map_locations": [
@@ -232,11 +218,10 @@
         ]
       },
       {
-        "name": "PokéManiac Cooper",
+        "name": "PokeManiac Cooper",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - PokéManiac Cooper Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel B1F - PokeManiac Cooper Reward"
           }
         ],
         "map_locations": [
@@ -251,8 +236,7 @@
         "name": "Hiker Allen",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - Hiker Allen Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel B1F - Hiker Allen Reward"
           }
         ],
         "map_locations": [
@@ -267,8 +251,7 @@
         "name": "Hiker Eric",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - Hiker Eric Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel B1F - Hiker Eric Reward"
           }
         ],
         "map_locations": [
@@ -283,8 +266,7 @@
         "name": "Picnicker Martha",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - Picnicker Martha Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel B1F - Picnicker Martha Reward"
           }
         ],
         "map_locations": [
@@ -296,11 +278,10 @@
         ]
       },
       {
-        "name": "PokéManiac Steve",
+        "name": "PokeManiac Steve",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - PokéManiac Steve Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel B1F - PokeManiac Steve Reward"
           }
         ],
         "map_locations": [
@@ -312,11 +293,10 @@
         ]
       },
       {
-        "name": "PokéManiac Winston",
+        "name": "PokeManiac Winston",
         "sections": [
           {
-            "ref": "Dungeons/Rock Tunnel/B1F - PokéManiac Winston Reward",
-            "name": "Reward"
+            "name": "Rock Tunnel B1F - PokeManiac Winston Reward"
           }
         ],
         "map_locations": [

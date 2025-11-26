@@ -3,11 +3,10 @@
     "name": "Route 16",
     "children": [
       {
-        "name": "Route 16 Snorlax",
+        "name": "Snorlax",
         "sections": [
           {
-            "ref": "Routes/Route 16/Hidden Item Under Snorlax",
-            "name": "Hidden Item Under Snorlax"
+            "name": "Route 16 - Hidden Item Under Snorlax"
           }
         ],
         "map_locations": [
@@ -22,8 +21,7 @@
         "name": "Young Couple Lea & Jed",
         "sections": [
           {
-            "ref": "Routes/Route 16/Young Couple Lea & Jed Reward",
-            "name": "Reward"
+            "name": "Route 16 - Young Couple Lea & Jed Reward"
           }
         ],
         "map_locations": [
@@ -38,8 +36,7 @@
         "name": "Biker Hideo",
         "sections": [
           {
-            "ref": "Routes/Route 16/Biker Hideo Reward",
-            "name": "Reward"
+            "name": "Route 16 - Biker Hideo Reward"
           }
         ],
         "map_locations": [
@@ -54,8 +51,7 @@
         "name": "Biker Lao",
         "sections": [
           {
-            "ref": "Routes/Route 16/Biker Lao Reward",
-            "name": "Reward"
+            "name": "Route 16 - Biker Lao Reward"
           }
         ],
         "map_locations": [
@@ -70,12 +66,10 @@
         "name": "Biker Ruben",
         "sections": [
           {
-            "ref": "Routes/Route 16/Biker Ruben Reward",
-            "name": "Reward"
+            "name": "Route 16 - Biker Ruben Reward"
           },
           {
-            "ref": "Routes/Route 16/Biker Ruben Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 16 - Biker Ruben Rematch Reward (6 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -90,12 +84,10 @@
         "name": "Cue Ball Camron",
         "sections": [
           {
-            "ref": "Routes/Route 16/Cue Ball Camron Reward",
-            "name": "Reward"
+            "name": "Route 16 - Cue Ball Camron Reward"
           },
           {
-            "ref": "Routes/Route 16/Cue Ball Camron Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 16 - Cue Ball Camron Rematch Reward (6 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -110,8 +102,7 @@
         "name": "Cue Ball Koji",
         "sections": [
           {
-            "ref": "Routes/Route 16/Cue Ball Koji Reward",
-            "name": "Reward"
+            "name": "Route 16 - Cue Ball Koji Reward"
           }
         ],
         "map_locations": [
@@ -126,8 +117,7 @@
         "name": "Cue Ball Luke",
         "sections": [
           {
-            "ref": "Routes/Route 16/Cue Ball Luke Reward",
-            "name": "Reward"
+            "name": "Route 16 - Cue Ball Luke Reward"
           }
         ],
         "map_locations": [
@@ -144,11 +134,10 @@
     "name": "Route 16 Fly House",
     "children": [
       {
-        "name": "Route 16 Fly House Woman",
+        "name": "Woman",
         "sections": [
           {
-            "ref": "Routes/Route 16/Woman Gift",
-            "name": "Gift"
+            "name": "Route 16 Fly House - Woman Gift"
           }
         ],
         "map_locations": [
@@ -165,11 +154,10 @@
     "name": "Route 16 Gate 2F",
     "children": [
       {
-        "name": "Route 16 Gate 2F Oak's Aide",
+        "name": "Oak's Aide",
         "sections": [
           {
-            "ref": "Routes/Route 16/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Gift (Pokédex Progress)"
+            "name": "Route 16 Gate 2F - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [

@@ -3,11 +3,10 @@
     "name": "Route 10",
     "children": [
       {
-        "name": "Route 10 Southeast Hidden Item Near Pokémon Center",
+        "name": "Southeast Hidden Item Near Pokemon Center",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/Southeast Hidden Item Near Pokémon Center",
-            "name": "Hidden Item"
+            "name": "Route 10 - Southeast Hidden Item Near Pokemon Center"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Route 10 West Hidden Item Near Pokémon Center",
+        "name": "West Hidden Item Near Pokemon Center",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/West Hidden Item Near Pokémon Center",
-            "name": "Hidden Item"
+            "name": "Route 10 - West Hidden Item Near Pokemon Center"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Route 10 Hidden Item Behind Cuttable Tree",
+        "name": "Hidden Item Behind Cuttable Tree",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/Hidden Item Behind Cuttable Tree",
-            "name": "Hidden Item"
+            "name": "Route 10 - Hidden Item Behind Cuttable Tree"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Route 10 Hidden Item Near Power Plant Entrance",
+        "name": "Hidden Item Near Power Plant Entrance",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/Hidden Item Near Power Plant Entrance",
-            "name": "Hidden Item"
+            "name": "Route 10 - Hidden Item Near Power Plant Entrance"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Route 10 Hidden Item Near Rock Tunnel South Entrance",
+        "name": "Hidden Item Near Rock Tunnel South Entrance",
         "sections": [
           {
-            "ref": "Routes/Route 10 South/Hidden Item Near Rock Tunnel South Entrance",
-            "name": "Hidden Item"
+            "name": "Route 10 - Hidden Item Near Rock Tunnel South Entrance"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Picnicker Heidi",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/Picnicker Heidi Reward",
-            "name": "Reward"
+            "name": "Route 10 - Picnicker Heidi Reward"
           }
         ],
         "map_locations": [
@@ -102,8 +96,7 @@
         "name": "Hiker Clark",
         "sections": [
           {
-            "ref": "Routes/Route 10 South/Hiker Clark Reward",
-            "name": "Reward"
+            "name": "Route 10 - Hiker Clark Reward"
           }
         ],
         "map_locations": [
@@ -118,12 +111,10 @@
         "name": "Hiker Trent",
         "sections": [
           {
-            "ref": "Routes/Route 10 South/Hiker Trent Reward",
-            "name": "Reward"
+            "name": "Route 10 - Hiker Trent Reward"
           },
           {
-            "ref": "Routes/Route 10 South/Hiker Trent Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 10 - Hiker Trent Rematch Reward (4 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -138,8 +129,7 @@
         "name": "Picnicker Carol",
         "sections": [
           {
-            "ref": "Routes/Route 10 South/Picnicker Carol Reward",
-            "name": "Reward"
+            "name": "Route 10 - Picnicker Carol Reward"
           }
         ],
         "map_locations": [
@@ -151,19 +141,16 @@
         ]
       },
       {
-        "name": "PokéManiac Herman",
+        "name": "PokeManiac Herman",
         "sections": [
           {
-            "ref": "Routes/Route 10 South/PokéManiac Herman Reward",
-            "name": "Reward"
+            "name": "Route 10 - PokeManiac Herman Reward"
           },
           {
-            "ref": "Routes/Route 10 South/PokéManiac Herman Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 10 - PokeManiac Herman Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 10 South/PokéManiac Herman Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 10 - PokeManiac Herman Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -175,19 +162,16 @@
         ]
       },
       {
-        "name": "PokéManiac Mark",
+        "name": "PokeManiac Mark",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/PokéManiac Mark Reward",
-            "name": "Reward"
+            "name": "Route 10 - PokeManiac Mark Reward"
           },
           {
-            "ref": "Routes/Route 10 North/PokéManiac Mark Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 10 - PokeManiac Mark Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 10 North/PokéManiac Mark Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 10 - PokeManiac Mark Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -201,13 +185,12 @@
     ]
   },
   {
-    "name": "Route 10 Pokémon Center 1F",
+    "name": "Route 10 Pokemon Center 1F",
     "children": [
       {
-        "name": "Route 10 Pokémon Center PC",
+        "name": "Route 10 Pokemon Center PC",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/PC Item",
             "name": "Item"
           }
         ],
@@ -220,10 +203,9 @@
         ]
       },
       {
-        "name": "Route 10 Pokémon Center Visit",
+        "name": "Route 10 Pokemon Center Visit",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -236,11 +218,10 @@
         ]
       },
       {
-        "name": "Route 10 Pokémon Center Oak's Aide",
+        "name": "Oak's Aide",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Gift (Pokédex Progress)"
+            "name": "Route 10 Pokemon Center 1F - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [

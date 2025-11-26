@@ -3,11 +3,10 @@
     "name": "Canyon Entrance",
     "children": [
       {
-        "name": "Canyon Entrance Southwest Hidden Item",
+        "name": "Southwest Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Canyon Entrance/Southwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Canyon Entrance - Southwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -22,8 +21,7 @@
         "name": "Aroma Lady Miah",
         "sections": [
           {
-            "ref": "Islands/Canyon Entrance/Aroma Lady Miah Reward",
-            "name": "Reward"
+            "name": "Canyon Entrance - Aroma Lady Miah Reward"
           }
         ],
         "map_locations": [
@@ -38,12 +36,10 @@
         "name": "Juggler Mason",
         "sections": [
           {
-            "ref": "Islands/Canyon Entrance/Juggler Mason Reward",
-            "name": "Reward"
+            "name": "Canyon Entrance - Juggler Mason Reward"
           },
           {
-            "ref": "Islands/Canyon Entrance/Juggler Mason Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Canyon Entrance - Juggler Mason Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -55,15 +51,13 @@
         ]
       },
       {
-        "name": "Pokémon Ranger Madeline",
+        "name": "Pokemon Ranger Madeline",
         "sections": [
           {
-            "ref": "Islands/Canyon Entrance/Pokémon Ranger Madeline Reward",
-            "name": "Reward"
+            "name": "Canyon Entrance - Pokemon Ranger Madeline Reward"
           },
           {
-            "ref": "Islands/Canyon Entrance/Pokémon Ranger Madeline Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Canyon Entrance - Pokemon Ranger Madeline Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -75,15 +69,13 @@
         ]
       },
       {
-        "name": "Pokémon Ranger Nicolas",
+        "name": "Pokemon Ranger Nicolas",
         "sections": [
           {
-            "ref": "Islands/Canyon Entrance/Pokémon Ranger Nicolas Reward",
-            "name": "Reward"
+            "name": "Canyon Entrance - Pokemon Ranger Nicolas Reward"
           },
           {
-            "ref": "Islands/Canyon Entrance/Pokémon Ranger Nicolas Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Canyon Entrance - Pokemon Ranger Nicolas Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -98,8 +90,7 @@
         "name": "Young Couple Eve & Jon",
         "sections": [
           {
-            "ref": "Islands/Canyon Entrance/Young Couple Eve & Jon Reward",
-            "name": "Reward"
+            "name": "Canyon Entrance - Young Couple Eve & Jon Reward"
           }
         ],
         "map_locations": [

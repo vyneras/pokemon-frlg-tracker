@@ -3,11 +3,10 @@
     "name": "Bond Bridge",
     "children": [
       {
-        "name": "Bond Bridge Rock Hidden Item",
+        "name": "Rock Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/Rock Hidden Item",
-            "name": "Hidden Item"
+            "name": "Bond Bridge - Rock Hidden Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Bond Bridge East Beach Hidden Item",
+        "name": "East Beach Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/East Beach Hidden Item",
-            "name": "Hidden Item"
+            "name": "Bond Bridge - East Beach Hidden Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Bond Bridge West Beach Hidden Item",
+        "name": "West Beach Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/West Beach Hidden Item",
-            "name": "Hidden Item"
+            "name": "Bond Bridge - West Beach Hidden Item"
           }
         ],
         "map_locations": [
@@ -54,8 +51,7 @@
         "name": "Aroma Lady Nikki",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/Aroma Lady Nikki Reward",
-            "name": "Reward"
+            "name": "Bond Bridge - Aroma Lady Nikki Reward"
           }
         ],
         "map_locations": [
@@ -70,8 +66,7 @@
         "name": "Aroma Lady Violet",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/Aroma Lady Violet Reward",
-            "name": "Reward"
+            "name": "Bond Bridge - Aroma Lady Violet Reward"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Tuber Alexis",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/Tuber Alexis Reward",
-            "name": "Reward"
+            "name": "Bond Bridge - Tuber Alexis Reward"
           }
         ],
         "map_locations": [
@@ -102,12 +96,10 @@
         "name": "Tuber Amira",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/Tuber Amira Reward",
-            "name": "Reward"
+            "name": "Bond Bridge - Tuber Amira Reward"
           },
           {
-            "ref": "Islands/Bond Bridge/Tuber Amira Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Bond Bridge - Tuber Amira Rematch Reward (6 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -122,12 +114,10 @@
         "name": "Twins Joy & Meg",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/Twins Joy & Meg Reward",
-            "name": "Reward"
+            "name": "Bond Bridge - Twins Joy & Meg Reward"
           },
           {
-            "ref": "Islands/Bond Bridge/Twins Joy & Meg Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Bond Bridge - Twins Joy & Meg Rematch Reward (6 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -142,8 +132,7 @@
         "name": "Swimmer Tisha",
         "sections": [
           {
-            "ref": "Islands/Bond Bridge/Swimmer Tisha Reward",
-            "name": "Reward"
+            "name": "Bond Bridge - Swimmer Tisha Reward"
           }
         ],
         "map_locations": [

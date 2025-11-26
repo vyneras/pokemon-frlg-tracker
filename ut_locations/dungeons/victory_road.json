@@ -3,11 +3,10 @@
     "name": "Victory Road 1F",
     "children": [
       {
-        "name": "Victory Road 1F North Rock Hidden Item",
+        "name": "North Rock Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/1F - North Rock Hidden Item",
-            "name": "Hidden Item"
+            "name": "Victory Road 1F - North Rock Hidden Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Victory Road 1F North Item (Right)",
+        "name": "North Item (Right)",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/1F - North Item (Right)",
-            "name": "Item"
+            "name": "Victory Road 1F - North Item (Right)"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Victory Road 1F North Item (Left)",
+        "name": "North Item (Left)",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/1F - North Item (Left)",
-            "name": "Item"
+            "name": "Victory Road 1F - North Item (Left)"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Victory Road 1F Center Rock Hidden Item",
+        "name": "Center Rock Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/1F - Center Rock Hidden Item",
-            "name": "Hidden Item"
+            "name": "Victory Road 1F - Center Rock Hidden Item"
           }
         ],
         "map_locations": [
@@ -70,8 +66,7 @@
         "name": "Cooltrainer Naomi",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/1F - Cooltrainer Naomi Reward",
-            "name": "Reward"
+            "name": "Victory Road 1F - Cooltrainer Naomi Reward"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Cooltrainer Rolando",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/1F - Cooltrainer Rolando Reward",
-            "name": "Reward"
+            "name": "Victory Road 1F - Cooltrainer Rolando Reward"
           }
         ],
         "map_locations": [
@@ -104,11 +98,10 @@
     "name": "Victory Road 2F",
     "children": [
       {
-        "name": "Victory Road 2F Item Below Plateau",
+        "name": "Item Below Plateau",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - Item Below Plateau",
-            "name": "Item"
+            "name": "Victory Road 2F - Item Below Plateau"
           }
         ],
         "map_locations": [
@@ -120,11 +113,10 @@
         ]
       },
       {
-        "name": "Victory Road 2F Item Above Plateau",
+        "name": "Item Above Plateau",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - Item Above Plateau",
-            "name": "Item"
+            "name": "Victory Road 2F - Item Above Plateau"
           }
         ],
         "map_locations": [
@@ -136,11 +128,10 @@
         ]
       },
       {
-        "name": "Victory Road 2F Northeast Item",
+        "name": "Northeast Item",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - Northeast Item",
-            "name": "Item"
+            "name": "Victory Road 2F - Northeast Item"
           }
         ],
         "map_locations": [
@@ -152,11 +143,10 @@
         ]
       },
       {
-        "name": "Victory Road 2F Northwest Item",
+        "name": "Northwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - Northwest Item",
-            "name": "Item"
+            "name": "Victory Road 2F - Northwest Item"
           }
         ],
         "map_locations": [
@@ -171,8 +161,7 @@
         "name": "Black Belt Daisuke",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - Black Belt Daisuke Reward",
-            "name": "Reward"
+            "name": "Victory Road 2F - Black Belt Daisuke Reward"
           }
         ],
         "map_locations": [
@@ -187,8 +176,7 @@
         "name": "Juggler Gregory",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - Juggler Gregory Reward",
-            "name": "Reward"
+            "name": "Victory Road 2F - Juggler Gregory Reward"
           }
         ],
         "map_locations": [
@@ -203,8 +191,7 @@
         "name": "Juggler Nelson",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - Juggler Nelson Reward",
-            "name": "Reward"
+            "name": "Victory Road 2F - Juggler Nelson Reward"
           }
         ],
         "map_locations": [
@@ -219,8 +206,7 @@
         "name": "Tamer Vincent",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - Tamer Vincent Reward",
-            "name": "Reward"
+            "name": "Victory Road 2F - Tamer Vincent Reward"
           }
         ],
         "map_locations": [
@@ -232,11 +218,10 @@
         ]
       },
       {
-        "name": "PokéManiac Dawson",
+        "name": "PokeManiac Dawson",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/2F - PokéManiac Dawson Reward",
-            "name": "Reward"
+            "name": "Victory Road 2F - PokeManiac Dawson Reward"
           }
         ],
         "map_locations": [
@@ -253,11 +238,10 @@
     "name": "Victory Road 3F",
     "children": [
       {
-        "name": "Victory Road 3F Northeast Item",
+        "name": "Northeast Item",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/3F - Northeast Item",
-            "name": "Item"
+            "name": "Victory Road 3F - Northeast Item"
           }
         ],
         "map_locations": [
@@ -269,11 +253,10 @@
         ]
       },
       {
-        "name": "Victory Road 3F Northwest Item",
+        "name": "Northwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/3F - Northwest Item",
-            "name": "Item"
+            "name": "Victory Road 3F - Northwest Item"
           }
         ],
         "map_locations": [
@@ -288,8 +271,7 @@
         "name": "Cooltrainer Alexa",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/3F - Cooltrainer Alexa Reward",
-            "name": "Reward"
+            "name": "Victory Road 3F - Cooltrainer Alexa Reward"
           }
         ],
         "map_locations": [
@@ -304,8 +286,7 @@
         "name": "Cooltrainer George",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/3F - Cooltrainer George Reward",
-            "name": "Reward"
+            "name": "Victory Road 3F - Cooltrainer George Reward"
           }
         ],
         "map_locations": [
@@ -320,8 +301,7 @@
         "name": "Cooltrainer Caroline",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/3F - Cooltrainer Caroline Reward",
-            "name": "Reward"
+            "name": "Victory Road 3F - Cooltrainer Caroline Reward"
           }
         ],
         "map_locations": [
@@ -336,8 +316,7 @@
         "name": "Cooltrainer Colby",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/3F - Cooltrainer Colby Reward",
-            "name": "Reward"
+            "name": "Victory Road 3F - Cooltrainer Colby Reward"
           }
         ],
         "map_locations": [
@@ -352,8 +331,7 @@
         "name": "Cool Couple Ray & Tyra",
         "sections": [
           {
-            "ref": "Dungeons/Victory Road/3F - Cool Couple Ray & Tyra Reward",
-            "name": "Reward"
+            "name": "Victory Road 3F - Cool Couple Ray & Tyra Reward"
           }
         ],
         "map_locations": [

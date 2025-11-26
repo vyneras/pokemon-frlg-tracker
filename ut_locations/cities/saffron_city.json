@@ -6,7 +6,6 @@
         "name": "Saffron City Visit",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Saffron Battle Girl",
+        "name": "Battle Girl",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Battle Girl Info",
-            "name": "Info"
+            "name": "Saffron City - Battle Girl Info"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Saffron Gym Sign",
+        "name": "Gym Sign",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Gym Sign Info",
-            "name": "Info"
+            "name": "Saffron City - Gym Sign Info"
           }
         ],
         "map_locations": [
@@ -56,11 +53,10 @@
     "name": "Copycat's House 2F",
     "children": [
       {
-        "name": "Copycat's House Desk Hidden Item",
+        "name": "Desk Hidden Item",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Copycat's House Desk Hidden Item",
-            "name": "Hidden Item"
+            "name": "Copycat's House 2F - Desk Hidden Item"
           }
         ],
         "map_locations": [
@@ -80,8 +76,7 @@
         "name": "Black Belt Hideki",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Black Belt Hideki Reward",
-            "name": "Reward"
+            "name": "Saffron Dojo - Black Belt Hideki Reward"
           }
         ],
         "map_locations": [
@@ -96,8 +91,7 @@
         "name": "Black Belt Hitoshi",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Black Belt Hitoshi Reward",
-            "name": "Reward"
+            "name": "Saffron Dojo - Black Belt Hitoshi Reward"
           }
         ],
         "map_locations": [
@@ -112,8 +106,7 @@
         "name": "Black Belt Mike",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Black Belt Mike Reward",
-            "name": "Reward"
+            "name": "Saffron Dojo - Black Belt Mike Reward"
           }
         ],
         "map_locations": [
@@ -128,8 +121,7 @@
         "name": "Black Belt Aaron",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Black Belt Aaron Reward",
-            "name": "Reward"
+            "name": "Saffron Dojo - Black Belt Aaron Reward"
           }
         ],
         "map_locations": [
@@ -144,8 +136,7 @@
         "name": "Black Belt Koichi",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Black Belt Koichi Reward",
-            "name": "Reward"
+            "name": "Saffron Dojo - Black Belt Koichi Reward"
           }
         ],
         "map_locations": [
@@ -157,11 +148,10 @@
         ]
       },
       {
-        "name": "Saffron Dojo Item",
+        "name": "Item",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Dojo Item (Center)",
-            "name": "Item"
+            "name": "Saffron Dojo - Item (Center)"
           }
         ],
         "map_locations": [
@@ -169,21 +159,6 @@
             "map": "saffron_dojo",
             "x": 104,
             "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Saffron Dojo Exit",
-        "sections": [
-          {
-            "name": "Saffron Dojo Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "saffron_dojo",
-            "x": 104,
-            "y": 232
           }
         ]
       }
@@ -196,8 +171,7 @@
         "name": "Psychic Cameron",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Psychic Cameron Reward",
-            "name": "Reward"
+            "name": "Saffron Gym - Psychic Cameron Reward"
           }
         ],
         "map_locations": [
@@ -212,8 +186,7 @@
         "name": "Channeler Tasha",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Channeler Tasha Reward",
-            "name": "Reward"
+            "name": "Saffron Gym - Channeler Tasha Reward"
           }
         ],
         "map_locations": [
@@ -228,12 +201,10 @@
         "name": "Psychic Tyron",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Psychic Tyron Reward",
-            "name": "Reward"
+            "name": "Saffron Gym - Psychic Tyron Reward"
           },
           {
-            "ref": "Cities/Saffron City/Psychic Tyron Info",
-            "name": "Info"
+            "name": "Saffron Gym - Psychic Tyron Info"
           }
         ],
         "map_locations": [
@@ -248,8 +219,7 @@
         "name": "Channeler Stacy",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Channeler Stacy Reward",
-            "name": "Reward"
+            "name": "Saffron Gym - Channeler Stacy Reward"
           }
         ],
         "map_locations": [
@@ -264,8 +234,7 @@
         "name": "Psychic Johan",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Psychic Johan Reward",
-            "name": "Reward"
+            "name": "Saffron Gym - Psychic Johan Reward"
           }
         ],
         "map_locations": [
@@ -280,8 +249,7 @@
         "name": "Channeler Amanda",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Channeler Amanda Reward",
-            "name": "Reward"
+            "name": "Saffron Gym - Channeler Amanda Reward"
           }
         ],
         "map_locations": [
@@ -296,8 +264,7 @@
         "name": "Psychic Preston",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Psychic Preston Reward",
-            "name": "Reward"
+            "name": "Saffron Gym - Psychic Preston Reward"
           }
         ],
         "map_locations": [
@@ -312,24 +279,19 @@
         "name": "Sabrina",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Leader Sabrina Reward",
-            "name": "Reward"
+            "name": "Saffron Gym - Leader Sabrina Reward"
           },
           {
-            "ref": "Cities/Saffron City/Sabrina Info 1",
-            "name": "Info 1"
+            "name": "Saffron Gym - Sabrina Info 1"
           },
           {
-            "ref": "Cities/Saffron City/Sabrina Info 2",
-            "name": "Info 2"
+            "name": "Saffron Gym - Sabrina Info 2"
           },
           {
-            "ref": "Cities/Saffron City/Saffron Gym Prize",
-            "name": "Gym Prize"
+            "name": "Saffron Gym - Prize"
           },
           {
-            "ref": "Cities/Saffron City/Sabrina TM",
-            "name": "TM"
+            "name": "Saffron Gym - Sabrina TM"
           }
         ],
         "map_locations": [
@@ -343,13 +305,12 @@
     ]
   },
   {
-    "name": "Saffron Pokémon Center 1F",
+    "name": "Saffron Pokemon Center 1F",
     "children": [
       {
-        "name": "Saffron Pokémon Center PC",
+        "name": "Saffron Pokemon Center PC",
         "sections": [
           {
-            "ref": "Cities/Saffron City/PC Item",
             "name": "Item"
           }
         ],
@@ -362,11 +323,10 @@
         ]
       },
       {
-        "name": "Saffron Pokémon Center Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Pokémon Center Bookshelf Info",
-            "name": "Info"
+            "name": "Saffron Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -386,8 +346,7 @@
         "name": "Mr. Psychic",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Mr. Psychic Gift",
-            "name": "Gift"
+            "name": "Mr. Psychic's House - Mr. Psychic Gift"
           }
         ],
         "map_locations": [
@@ -401,14 +360,13 @@
     ]
   },
   {
-    "name": "Pokémon Trainer Fan Club",
+    "name": "Pokemon Trainer Fan Club",
     "children": [
       {
-        "name": "Pokémon Trainer Fan Club Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Pokémon Trainer Fan Club Bookshelf Info",
-            "name": "Info"
+            "name": "Pokemon Trainer Fan Club - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -422,33 +380,27 @@
     ]
   },
   {
-    "name": "Saffron Mart",
+    "name": "Saffron Poke Mart",
     "children": [
       {
-        "name": "Saffron Poké Mart Clerk",
+        "name": "Saffron Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Saffron City/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Saffron City/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Saffron City/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Saffron City/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Saffron City/Shop Item 6",
             "name": "Shop Item 6"
           }
         ],

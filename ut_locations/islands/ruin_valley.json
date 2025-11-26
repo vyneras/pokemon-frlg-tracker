@@ -3,11 +3,10 @@
     "name": "Ruin Valley",
     "children": [
       {
-        "name": "Ruin Valley Southeast Item",
+        "name": "Southeast Item",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/Southeast Item",
-            "name": "Item"
+            "name": "Ruin Valley - Southeast Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Ruin Valley Southwest Item",
+        "name": "Southwest Item",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/Southwest Item",
-            "name": "Item"
+            "name": "Ruin Valley - Southwest Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Ruin Valley Plateau Item",
+        "name": "Plateau Item",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/Plateau Item",
-            "name": "Item"
+            "name": "Ruin Valley - Plateau Item"
           }
         ],
         "map_locations": [
@@ -54,8 +51,7 @@
         "name": "Hiker Daryl",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/Hiker Daryl Reward",
-            "name": "Reward"
+            "name": "Ruin Valley - Hiker Daryl Reward"
           }
         ],
         "map_locations": [
@@ -67,15 +63,13 @@
         ]
       },
       {
-        "name": "PokéManiac Hector",
+        "name": "PokeManiac Hector",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/PokéManiac Hector Reward",
-            "name": "Reward"
+            "name": "Ruin Valley - PokeManiac Hector Reward"
           },
           {
-            "ref": "Islands/Ruin Valley/PokéManiac Hector Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Ruin Valley - PokeManiac Hector Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -90,8 +84,7 @@
         "name": "Ruin Maniac Foster",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/Ruin Maniac Foster Reward",
-            "name": "Reward"
+            "name": "Ruin Valley - Ruin Maniac Foster Reward"
           }
         ],
         "map_locations": [
@@ -106,12 +99,10 @@
         "name": "Ruin Maniac Larry",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/Ruin Maniac Larry Reward",
-            "name": "Reward"
+            "name": "Ruin Valley - Ruin Maniac Larry Reward"
           },
           {
-            "ref": "Islands/Ruin Valley/Ruin Maniac Larry Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Ruin Valley - Ruin Maniac Larry Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -126,8 +117,7 @@
         "name": "Ruin Maniac Stanly",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/Ruin Maniac Stanly Reward",
-            "name": "Reward"
+            "name": "Ruin Valley - Ruin Maniac Stanly Reward"
           }
         ],
         "map_locations": [

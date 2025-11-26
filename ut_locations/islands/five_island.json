@@ -6,7 +6,6 @@
         "name": "Five Island Visit",
         "sections": [
           {
-            "ref": "Islands/Five Island Town/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -21,13 +20,12 @@
     ]
   },
   {
-    "name": "Five Island Pokémon Center 1F",
+    "name": "Five Island Pokemon Center 1F",
     "children": [
       {
-        "name": "Five Island Pokémon Center PC",
+        "name": "Five Island Pokemon Center PC",
         "sections": [
           {
-            "ref": "Islands/Five Island Town/PC Item",
             "name": "Item"
           }
         ],
@@ -40,11 +38,10 @@
         ]
       },
       {
-        "name": "Five Island Pokémon Center Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Islands/Five Island Town/Bookshelf Info",
-            "name": "Info"
+            "name": "Five Island Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [

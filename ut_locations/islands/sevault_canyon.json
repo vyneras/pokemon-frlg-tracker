@@ -3,11 +3,10 @@
     "name": "Sevault Canyon",
     "children": [
       {
-        "name": "Sevault Canyon North Item",
+        "name": "North Item",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/North Item",
-            "name": "Item"
+            "name": "Sevault Canyon - North Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Sevault Canyon Tall Grass Item",
+        "name": "Tall Grass Item",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Tall Grass Item",
-            "name": "Item"
+            "name": "Sevault Canyon - Tall Grass Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Sevault Canyon Black Belt",
+        "name": "Black Belt",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Black Belt Info",
-            "name": "Info"
+            "name": "Sevault Canyon - Black Belt Info"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Sevault Canyon Item Behind Smashable Rocks",
+        "name": "Item Behind Smashable Rocks",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Item Behind Smashable Rocks",
-            "name": "Item"
+            "name": "Sevault Canyon - Item Behind Smashable Rocks"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Sevault Canyon Hidden Item Near Chansey House",
+        "name": "Hidden Item Near Chansey House",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Hidden Item Near Chansey House",
-            "name": "Hidden Item"
+            "name": "Sevault Canyon - Hidden Item Near Chansey House"
           }
         ],
         "map_locations": [
@@ -86,12 +81,10 @@
         "name": "Cooltrainer Leroy",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Cooltrainer Leroy Reward",
-            "name": "Reward"
+            "name": "Sevault Canyon - Cooltrainer Leroy Reward"
           },
           {
-            "ref": "Islands/Sevault Canyon/Cooltrainer Leroy Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Sevault Canyon - Cooltrainer Leroy Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -106,12 +99,10 @@
         "name": "Cooltrainer Michelle",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Cooltrainer Michelle Reward",
-            "name": "Reward"
+            "name": "Sevault Canyon - Cooltrainer Michelle Reward"
           },
           {
-            "ref": "Islands/Sevault Canyon/Cooltrainer Michelle Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Sevault Canyon - Cooltrainer Michelle Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -126,12 +117,10 @@
         "name": "Cool Couple Lex & Nya",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Cool Couple Lex & Nya Reward",
-            "name": "Reward"
+            "name": "Sevault Canyon - Cool Couple Lex & Nya Reward"
           },
           {
-            "ref": "Islands/Sevault Canyon/Cool Couple Lex & Nya Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Sevault Canyon - Cool Couple Lex & Nya Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -146,12 +135,10 @@
         "name": "Crush Girl Cyndy",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Crush Girl Cyndy Reward",
-            "name": "Reward"
+            "name": "Sevault Canyon - Crush Girl Cyndy Reward"
           },
           {
-            "ref": "Islands/Sevault Canyon/Crush Girl Cyndy Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Sevault Canyon - Crush Girl Cyndy Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -163,15 +150,13 @@
         ]
       },
       {
-        "name": "Pokémon Ranger Jackson",
+        "name": "Pokemon Ranger Jackson",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Pokémon Ranger Jackson Reward",
-            "name": "Reward"
+            "name": "Sevault Canyon - Pokemon Ranger Jackson Reward"
           },
           {
-            "ref": "Islands/Sevault Canyon/Pokémon Ranger Jackson Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Sevault Canyon - Pokemon Ranger Jackson Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -183,15 +168,13 @@
         ]
       },
       {
-        "name": "Pokémon Ranger Katelyn",
+        "name": "Pokemon Ranger Katelyn",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Pokémon Ranger Katelyn Reward",
-            "name": "Reward"
+            "name": "Sevault Canyon - Pokemon Ranger Katelyn Reward"
           },
           {
-            "ref": "Islands/Sevault Canyon/Pokémon Ranger Katelyn Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Sevault Canyon - Pokemon Ranger Katelyn Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -206,12 +189,10 @@
         "name": "Tamer Evan",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Tamer Evan Reward",
-            "name": "Reward"
+            "name": "Sevault Canyon - Tamer Evan Reward"
           },
           {
-            "ref": "Islands/Sevault Canyon/Tamer Evan Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Sevault Canyon - Tamer Evan Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -228,11 +209,10 @@
     "name": "Sevault Canyon Chansey House",
     "children": [
       {
-        "name": "Sevault Canyon Chansey House Item",
+        "name": "Item",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Chansey House Item",
-            "name": "Item"
+            "name": "Sevault Canyon Chansey House - Item"
           }
         ],
         "map_locations": [

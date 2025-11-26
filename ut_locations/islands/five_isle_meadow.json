@@ -3,11 +3,10 @@
     "name": "Five Isle Meadow",
     "children": [
       {
-        "name": "Five Isle Meadow Item Behind Cuttable Tree",
+        "name": "Item Behind Cuttable Tree",
         "sections": [
           {
-            "ref": "Islands/Five Isle Meadow/Item Behind Cuttable Tree",
-            "name": "Item"
+            "name": "Five Isle Meadow - Item Behind Cuttable Tree"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Five Isle Meadow Southwest Island Item",
+        "name": "Southwest Island Item",
         "sections": [
           {
-            "ref": "Islands/Five Isle Meadow/Southwest Island Item",
-            "name": "Item"
+            "name": "Five Isle Meadow - Southwest Island Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Five Isle Meadow North Team Rocket Grunt",
+        "name": "North Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Islands/Five Isle Meadow/North Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Five Isle Meadow - North Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Five Isle Meadow Center Team Rocket Grunt",
+        "name": "Center Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Islands/Five Isle Meadow/Center Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Five Isle Meadow - Center Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Five Isle Meadow South Team Rocket Grunt",
+        "name": "South Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Islands/Five Isle Meadow/South Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Five Isle Meadow - South Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [

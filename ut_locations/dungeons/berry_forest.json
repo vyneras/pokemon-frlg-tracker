@@ -3,11 +3,10 @@
     "name": "Berry Forest",
     "children": [
       {
-        "name": "Berry Forest Center Hidden Item (Right)",
+        "name": "Center Hidden Item (Right)",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Center Hidden Item (Right)",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Center Hidden Item (Right)"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Berry Forest East Hidden Item (Left)",
+        "name": "East Hidden Item (Left)",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/East Hidden Item (Left)",
-            "name": "Hidden Item"
+            "name": "Berry Forest - East Hidden Item (Left)"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Berry Forest Southeast Hidden Item",
+        "name": "Southeast Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Southeast Hidden Item",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Southeast Hidden Item"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Berry Forest East Hidden Item (Right)",
+        "name": "East Hidden Item (Right)",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/East Hidden Item (Right)",
-            "name": "Hidden Item"
+            "name": "Berry Forest - East Hidden Item (Right)"
           }
         ],
         "map_locations": [
@@ -67,11 +63,10 @@
         ]
       },
       {
-        "name": "Berry Forest Northeast Hidden Item",
+        "name": "Northeast Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Northeast Hidden Item",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Northeast Hidden Item"
           }
         ],
         "map_locations": [
@@ -83,11 +78,10 @@
         ]
       },
       {
-        "name": "Berry Forest Item Near North Pond",
+        "name": "Item Near North Pond",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Item Near North Pond",
-            "name": "Item"
+            "name": "Berry Forest - Item Near North Pond"
           }
         ],
         "map_locations": [
@@ -99,11 +93,10 @@
         ]
       },
       {
-        "name": "Berry Forest Center Hidden Item (Left)",
+        "name": "Center Hidden Item (Left)",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Center Hidden Item (Left)",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Center Hidden Item (Left)"
           }
         ],
         "map_locations": [
@@ -115,11 +108,10 @@
         ]
       },
       {
-        "name": "Berry Forest Hidden Item Near West Pond (Right)",
+        "name": "Hidden Item Near West Pond (Right)",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Hidden Item Near West Pond (Right)",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Hidden Item Near West Pond (Right)"
           }
         ],
         "map_locations": [
@@ -131,11 +123,10 @@
         ]
       },
       {
-        "name": "Berry Forest Hidden Item Near West Pond (Left)",
+        "name": "Hidden Item Near West Pond (Left)",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Hidden Item Near West Pond (Left)",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Hidden Item Near West Pond (Left)"
           }
         ],
         "map_locations": [
@@ -147,11 +138,10 @@
         ]
       },
       {
-        "name": "Berry Forest Northwest Hidden Item (Bottom)",
+        "name": "Northwest Hidden Item (Bottom)",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Northwest Hidden Item (Bottom)",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Northwest Hidden Item (Bottom)"
           }
         ],
         "map_locations": [
@@ -163,11 +153,10 @@
         ]
       },
       {
-        "name": "Berry Forest Northwest Item",
+        "name": "Northwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Northwest Item",
-            "name": "Item"
+            "name": "Berry Forest - Northwest Item"
           }
         ],
         "map_locations": [
@@ -179,11 +168,10 @@
         ]
       },
       {
-        "name": "Berry Forest Northwest Hidden Item (Top)",
+        "name": "Northwest Hidden Item (Top)",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Northwest Hidden Item (Top)",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Northwest Hidden Item (Top)"
           }
         ],
         "map_locations": [
@@ -195,11 +183,10 @@
         ]
       },
       {
-        "name": "Berry Forest North Hidden Item",
+        "name": "North Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/North Hidden Item",
-            "name": "Hidden Item"
+            "name": "Berry Forest - North Hidden Item"
           }
         ],
         "map_locations": [
@@ -211,11 +198,10 @@
         ]
       },
       {
-        "name": "Berry Forest Hidden Item Near Southwest Pond",
+        "name": "Hidden Item Near Southwest Pond",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Hidden Item Near Southwest Pond",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Hidden Item Near Southwest Pond"
           }
         ],
         "map_locations": [
@@ -227,11 +213,10 @@
         ]
       },
       {
-        "name": "Berry Forest Item Past Southwest Pond",
+        "name": "Item Past Southwest Pond",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Item Past Southwest Pond",
-            "name": "Item"
+            "name": "Berry Forest - Item Past Southwest Pond"
           }
         ],
         "map_locations": [
@@ -243,11 +228,10 @@
         ]
       },
       {
-        "name": "Berry Forest Lostelle",
+        "name": "Lostelle",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Lostelle Gift",
-            "name": "Gift"
+            "name": "Berry Forest - Lostelle Gift"
           }
         ],
         "map_locations": [
@@ -259,11 +243,10 @@
         ]
       },
       {
-        "name": "Berry Forest Hidden Item Near Lostelle",
+        "name": "Hidden Item Near Lostelle",
         "sections": [
           {
-            "ref": "Dungeons/Berry Forest/Hidden Item Near Lostelle",
-            "name": "Hidden Item"
+            "name": "Berry Forest - Hidden Item Near Lostelle"
           }
         ],
         "map_locations": [

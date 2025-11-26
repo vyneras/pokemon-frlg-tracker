@@ -3,11 +3,10 @@
     "name": "Route 20",
     "children": [
       {
-        "name": "Route 20 Northwest Island Hidden Item",
+        "name": "Northwest Island Hidden Item",
         "sections": [
           {
-            "ref": "Routes/Route 20 West/Northwest Island Hidden Item",
-            "name": "Hidden Item"
+            "name": "Route 20 - Northwest Island Hidden Item"
           }
         ],
         "map_locations": [
@@ -22,8 +21,7 @@
         "name": "Swimmer Shirley",
         "sections": [
           {
-            "ref": "Routes/Route 20 East/Swimmer Shirley Reward",
-            "name": "Reward"
+            "name": "Route 20 - Swimmer Shirley Reward"
           }
         ],
         "map_locations": [
@@ -38,8 +36,7 @@
         "name": "Swimmer Tiffany",
         "sections": [
           {
-            "ref": "Routes/Route 20 East/Swimmer Tiffany Reward",
-            "name": "Reward"
+            "name": "Route 20 - Swimmer Tiffany Reward"
           }
         ],
         "map_locations": [
@@ -54,8 +51,7 @@
         "name": "Swimmer Barry",
         "sections": [
           {
-            "ref": "Routes/Route 20 East/Swimmer Barry Reward",
-            "name": "Reward"
+            "name": "Route 20 - Swimmer Barry Reward"
           }
         ],
         "map_locations": [
@@ -70,12 +66,10 @@
         "name": "Swimmer Darrin",
         "sections": [
           {
-            "ref": "Routes/Route 20 East/Swimmer Darrin Reward",
-            "name": "Reward"
+            "name": "Route 20 - Swimmer Darrin Reward"
           },
           {
-            "ref": "Routes/Route 20 East/Swimmer Darrin Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 20 - Swimmer Darrin Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -87,11 +81,10 @@
         ]
       },
       {
-        "name": "Route 20 Camper",
+        "name": "Camper",
         "sections": [
           {
-            "ref": "Routes/Route 20 East/Camper Info",
-            "name": "Info"
+            "name": "Route 20 - Camper Info"
           }
         ],
         "map_locations": [
@@ -106,8 +99,7 @@
         "name": "Picnicker Irene",
         "sections": [
           {
-            "ref": "Routes/Route 20 West/Picnicker Irene Reward",
-            "name": "Reward"
+            "name": "Route 20 - Picnicker Irene Reward"
           }
         ],
         "map_locations": [
@@ -122,8 +114,7 @@
         "name": "Bird Keeper Roger",
         "sections": [
           {
-            "ref": "Routes/Route 20 West/Bird Keeper Roger Reward",
-            "name": "Reward"
+            "name": "Route 20 - Bird Keeper Roger Reward"
           }
         ],
         "map_locations": [
@@ -138,16 +129,13 @@
         "name": "Picnicker Missy",
         "sections": [
           {
-            "ref": "Routes/Route 20 West/Picnicker Missy Reward",
-            "name": "Reward"
+            "name": "Route 20 - Picnicker Missy Reward"
           },
           {
-            "ref": "Routes/Route 20 West/Picnicker Missy Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 20 - Picnicker Missy Rematch Reward (6 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 20 West/Picnicker Missy Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 20 - Picnicker Missy Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -162,12 +150,10 @@
         "name": "Swimmer Melissa",
         "sections": [
           {
-            "ref": "Routes/Route 20 West/Swimmer Melissa Reward",
-            "name": "Reward"
+            "name": "Route 20 - Swimmer Melissa Reward"
           },
           {
-            "ref": "Routes/Route 20 West/Swimmer Melissa Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Route 20 - Swimmer Melissa Rematch Reward (6 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -182,8 +168,7 @@
         "name": "Swimmer Nora",
         "sections": [
           {
-            "ref": "Routes/Route 20 West/Swimmer Nora Reward",
-            "name": "Reward"
+            "name": "Route 20 - Swimmer Nora Reward"
           }
         ],
         "map_locations": [
@@ -198,8 +183,7 @@
         "name": "Swimmer Dean",
         "sections": [
           {
-            "ref": "Routes/Route 20 West/Swimmer Dean Reward",
-            "name": "Reward"
+            "name": "Route 20 - Swimmer Dean Reward"
           }
         ],
         "map_locations": [

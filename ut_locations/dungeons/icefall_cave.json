@@ -3,11 +3,10 @@
     "name": "Icefall Cave 1F",
     "children": [
       {
-        "name": "Icefall Cave 1F Center Item",
+        "name": "Center Item",
         "sections": [
           {
-            "ref": "Dungeons/Icefall Cave/1F - Center Item",
-            "name": "Item"
+            "name": "Icefall Cave 1F - Center Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Icefall Cave 1F Southeast Ledge Item",
+        "name": "Southeast Ledge Item",
         "sections": [
           {
-            "ref": "Dungeons/Icefall Cave/1F - Southeast Ledge Item",
-            "name": "Item"
+            "name": "Icefall Cave 1F - Southeast Ledge Item"
           }
         ],
         "map_locations": [
@@ -40,11 +38,10 @@
     "name": "Icefall Cave B1F",
     "children": [
       {
-        "name": "Icefall Cave B1F East Item",
+        "name": "East Item",
         "sections": [
           {
-            "ref": "Dungeons/Icefall Cave/B1F - East Item",
-            "name": "Item"
+            "name": "Icefall Cave B1F - East Item"
           }
         ],
         "map_locations": [
@@ -56,11 +53,10 @@
         ]
       },
       {
-        "name": "Icefall Cave B1F Southwest Item",
+        "name": "Southwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Icefall Cave/B1F - Southwest Item",
-            "name": "Item"
+            "name": "Icefall Cave B1F - Southwest Item"
           }
         ],
         "map_locations": [
@@ -77,11 +73,10 @@
     "name": "Icefall Cave Back",
     "children": [
       {
-        "name": "Icefall Cave Lorelei",
+        "name": "Lorelei",
         "sections": [
           {
-            "ref": "Dungeons/Icefall Cave/Back - Lorelei Gift",
-            "name": "Gift"
+            "name": "Icefall Cave Back - Lorelei Gift"
           }
         ],
         "map_locations": [
@@ -93,11 +88,10 @@
         ]
       },
       {
-        "name": "Icefall Cave Back Team Rocket Grunt",
+        "name": "Team Rocket Grunt",
         "sections": [
           {
-            "ref": "Dungeons/Icefall Cave/Back - Team Rocket Grunt Reward",
-            "name": "Reward"
+            "name": "Icefall Cave Back - Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [

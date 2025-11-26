@@ -3,11 +3,10 @@
     "name": "Resort Gorgeous",
     "children": [
       {
-        "name": "Resort Gorgeous West Island Hidden Item",
+        "name": "West Island Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/West Island Hidden Item",
-            "name": "Hidden Item"
+            "name": "Resort Gorgeous - West Island Hidden Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Resort Gorgeous Main Island Northwest Hidden Item",
+        "name": "Main Island Northwest Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Main Island Northwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Resort Gorgeous - Main Island Northwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Resort Gorgeous Main Island Southwest Hidden Item",
+        "name": "Main Island Southwest Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Main Island Southwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Resort Gorgeous - Main Island Southwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Resort Gorgeous Main Island Southeast Hidden Item",
+        "name": "Main Island Southeast Hidden Item",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Main Island Southeast Hidden Item",
-            "name": "Hidden Item"
+            "name": "Resort Gorgeous - Main Island Southeast Hidden Item"
           }
         ],
         "map_locations": [
@@ -70,12 +66,10 @@
         "name": "Painter Rayna",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Painter Rayna Reward",
-            "name": "Reward"
+            "name": "Resort Gorgeous - Painter Rayna Reward"
           },
           {
-            "ref": "Islands/Resort Gorgeous/Painter Rayna Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Resort Gorgeous - Painter Rayna Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -90,8 +84,7 @@
         "name": "Swimmer Toby",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Swimmer Toby Reward",
-            "name": "Reward"
+            "name": "Resort Gorgeous - Swimmer Toby Reward"
           }
         ],
         "map_locations": [
@@ -106,8 +99,7 @@
         "name": "Lady Gillian",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Lady Gillian Reward",
-            "name": "Reward"
+            "name": "Resort Gorgeous - Lady Gillian Reward"
           }
         ],
         "map_locations": [
@@ -122,8 +114,7 @@
         "name": "Lady Jacki",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Lady Jacki Reward",
-            "name": "Reward"
+            "name": "Resort Gorgeous - Lady Jacki Reward"
           }
         ],
         "map_locations": [
@@ -138,8 +129,7 @@
         "name": "Painter Celina",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Painter Celina Reward",
-            "name": "Reward"
+            "name": "Resort Gorgeous - Painter Celina Reward"
           }
         ],
         "map_locations": [
@@ -154,8 +144,7 @@
         "name": "Painter Daisy",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Painter Daisy Reward",
-            "name": "Reward"
+            "name": "Resort Gorgeous - Painter Daisy Reward"
           }
         ],
         "map_locations": [
@@ -170,12 +159,10 @@
         "name": "Youngster Destin",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Youngster Destin Reward",
-            "name": "Reward"
+            "name": "Resort Gorgeous - Youngster Destin Reward"
           },
           {
-            "ref": "Islands/Resort Gorgeous/Youngster Destin Rematch Reward",
-            "name": "Rematch Reward"
+            "name": "Resort Gorgeous - Youngster Destin Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -195,8 +182,7 @@
         "name": "Selphy",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Selphy Gift (Show Pokemon)",
-            "name": "Gift (Show Pokemon)"
+            "name": "Selphy's House - Selphy Gift (Show Pokemon)"
           }
         ],
         "map_locations": [
@@ -208,11 +194,10 @@
         ]
       },
       {
-        "name": "Selphy's House Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Bookshelf Info",
-            "name": "Info"
+            "name": "Selphy's House - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -220,21 +205,6 @@
             "map": "resort_gorgeous_house",
             "x": 144,
             "y": 32
-          }
-        ]
-      },
-      {
-        "name": "Selphy's House Exit",
-        "sections": [
-          {
-            "name": "Selphy's House Exit"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "resort_gorgeous_house",
-            "x": 72,
-            "y": 120
           }
         ]
       }

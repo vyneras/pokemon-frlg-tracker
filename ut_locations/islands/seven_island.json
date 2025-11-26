@@ -6,7 +6,6 @@
         "name": "Seven Island Visit",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -19,15 +18,13 @@
         ]
       },
       {
-        "name": "Seven Island Scientist",
+        "name": "Scientist",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/Scientist Gift 1 (Trade Scanner)",
-            "name": "Gift 1 (Trade Scanner)"
+            "name": "Seven Island Town - Scientist Gift 1 (Trade Scanner)"
           },
           {
-            "ref": "Islands/Seven Island Town/Scientist Gift 2 (Trade Scanner)",
-            "name": "Gift 2 (Trade Scanner)"
+            "name": "Seven Island Town - Scientist Gift 2 (Trade Scanner)"
           }
         ],
         "map_locations": [
@@ -41,13 +38,12 @@
     ]
   },
   {
-    "name": "Seven Island Pokémon Center 1F",
+    "name": "Seven Island Pokemon Center 1F",
     "children": [
       {
-        "name": "Seven Island Pokémon Center PC",
+        "name": "Seven Island Pokemon Center PC",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/PC Item",
             "name": "Item"
           }
         ],
@@ -60,11 +56,10 @@
         ]
       },
       {
-        "name": "Seven Island Pokémon Center Bookshelf",
+        "name": "Bookshelf",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/Bookshelf Info",
-            "name": "Info"
+            "name": "Seven Island Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -78,45 +73,36 @@
     ]
   },
   {
-    "name": "Seven Island Mart",
+    "name": "Seven Island Poke Mart",
     "children": [
       {
-        "name": "Seven Island Poké Mart Clerk",
+        "name": "Seven Island Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 8"
           },
           {
-            "ref": "Islands/Seven Island Town/Shop Item 1",
             "name": "Shop Item 9"
           }
         ],

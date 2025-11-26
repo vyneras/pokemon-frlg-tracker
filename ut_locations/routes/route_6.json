@@ -3,11 +3,10 @@
     "name": "Route 6",
     "children": [
       {
-        "name": "Route 6 Northwest Hidden Item",
+        "name": "Northwest Hidden Item",
         "sections": [
           {
-            "ref": "Routes/Route 6/Northwest Hidden Item",
-            "name": "Hidden Item"
+            "name": "Route 6 - Northwest Hidden Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Route 6 Northeast Hidden Item",
+        "name": "Northeast Hidden Item",
         "sections": [
           {
-            "ref": "Routes/Route 6/Northeast Hidden Item",
-            "name": "Hidden Item"
+            "name": "Route 6 - Northeast Hidden Item"
           }
         ],
         "map_locations": [
@@ -38,8 +36,7 @@
         "name": "Bug Catcher Elijah",
         "sections": [
           {
-            "ref": "Routes/Route 6/Bug Catcher Elijah Reward",
-            "name": "Reward"
+            "name": "Route 6 - Bug Catcher Elijah Reward"
           }
         ],
         "map_locations": [
@@ -54,8 +51,7 @@
         "name": "Bug Catcher Keigo",
         "sections": [
           {
-            "ref": "Routes/Route 6/Bug Catcher Keigo Reward",
-            "name": "Reward"
+            "name": "Route 6 - Bug Catcher Keigo Reward"
           }
         ],
         "map_locations": [
@@ -70,20 +66,16 @@
         "name": "Camper Jeff",
         "sections": [
           {
-            "ref": "Routes/Route 6/Camper Jeff Reward",
-            "name": "Reward"
+            "name": "Route 6 - Camper Jeff Reward"
           },
           {
-            "ref": "Routes/Route 6/Camper Jeff Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 6 - Camper Jeff Rematch Reward"
           },
           {
-            "ref": "Routes/Route 6/Camper Jeff Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 6 - Camper Jeff Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 6/Camper Jeff Rematch Reward 3",
-            "name": "Rematch Reward 3"
+            "name": "Route 6 - Camper Jeff Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -98,20 +90,16 @@
         "name": "Camper Ricky",
         "sections": [
           {
-            "ref": "Routes/Route 6/Camper Ricky Reward",
-            "name": "Reward"
+            "name": "Route 6 - Camper Ricky Reward"
           },
           {
-            "ref": "Routes/Route 6/Camper Ricky Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 6 - Camper Ricky Rematch Reward"
           },
           {
-            "ref": "Routes/Route 6/Camper Ricky Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 6 - Camper Ricky Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 6/Camper Ricky Rematch Reward 3",
-            "name": "Rematch Reward 3"
+            "name": "Route 6 - Camper Ricky Rematch Reward (8 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -126,20 +114,16 @@
         "name": "Picnicker Isabelle",
         "sections": [
           {
-            "ref": "Routes/Route 6/Picnicker Isabelle Reward",
-            "name": "Reward"
+            "name": "Route 6 - Picnicker Isabelle Reward"
           },
           {
-            "ref": "Routes/Route 6/Picnicker Isabelle Rematch Reward 1",
-            "name": "Rematch Reward 1"
+            "name": "Route 6 - Picnicker Isabelle Rematch Reward"
           },
           {
-            "ref": "Routes/Route 6/Picnicker Isabelle Rematch Reward 2",
-            "name": "Rematch Reward 2"
+            "name": "Route 6 - Picnicker Isabelle Rematch Reward (4 Badges/Gyms)"
           },
           {
-            "ref": "Routes/Route 6/Picnicker Isabelle Rematch Reward 3",
-            "name": "Rematch Reward 3"
+            "name": "Route 6 - Picnicker Isabelle Rematch Reward (6 Badges/Gyms)"
           }
         ],
         "map_locations": [
@@ -154,8 +138,7 @@
         "name": "Picnicker Nancy",
         "sections": [
           {
-            "ref": "Routes/Route 6/Picnicker Nancy Reward",
-            "name": "Reward"
+            "name": "Route 6 - Picnicker Nancy Reward"
           }
         ],
         "map_locations": [

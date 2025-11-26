@@ -3,11 +3,10 @@
     "name": "Safari Zone Center Area",
     "children": [
       {
-        "name": "Safari Zone Center Area Island Item",
+        "name": "Island Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/Center Area - Island Item",
-            "name": "Item"
+            "name": "Safari Zone Center Area - Island Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Safari Zone Center Area Island Hidden Item",
+        "name": "Island Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/Center Area - Island Hidden Item",
-            "name": "Hidden Item"
+            "name": "Safari Zone Center Area - Island Hidden Item"
           }
         ],
         "map_locations": [
@@ -40,11 +38,10 @@
     "name": "Safari Zone East Area",
     "children": [
       {
-        "name": "Safari Zone East Area Southeast Plateau Item",
+        "name": "Southeast Plateau Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/East Area - Southeast Plateau Item",
-            "name": "Item"
+            "name": "Safari Zone East Area - Southeast Plateau Item"
           }
         ],
         "map_locations": [
@@ -56,11 +53,10 @@
         ]
       },
       {
-        "name": "Safari Zone East Area Tall Grass Item",
+        "name": "Tall Grass Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/East Area - Tall Grass Item",
-            "name": "Item"
+            "name": "Safari Zone East Area - Tall Grass Item"
           }
         ],
         "map_locations": [
@@ -72,11 +68,10 @@
         ]
       },
       {
-        "name": "Safari Zone East Area Item Near Bush",
+        "name": "Item Near Bush",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/East Area - Item Near Bush",
-            "name": "Item"
+            "name": "Safari Zone East Area - Item Near Bush"
           }
         ],
         "map_locations": [
@@ -88,11 +83,10 @@
         ]
       },
       {
-        "name": "Safari Zone East Area Item Near Rest House",
+        "name": "Item Near Rest House",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/East Area - Item Near Rest House",
-            "name": "Item"
+            "name": "Safari Zone East Area - Item Near Rest House"
           }
         ],
         "map_locations": [
@@ -109,11 +103,10 @@
     "name": "Safari Zone North Area",
     "children": [
       {
-        "name": "Safari Zone North Area South Item",
+        "name": "South Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/North Area - South Item",
-            "name": "Item"
+            "name": "Safari Zone North Area - South Item"
           }
         ],
         "map_locations": [
@@ -125,11 +118,10 @@
         ]
       },
       {
-        "name": "Safari Zone North Area Center Item",
+        "name": "Center Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/North Area - Center Item",
-            "name": "Item"
+            "name": "Safari Zone North Area - Center Item"
           }
         ],
         "map_locations": [
@@ -141,11 +133,10 @@
         ]
       },
       {
-        "name": "Safari Zone North Area North Item",
+        "name": "North Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/North Area - North Item",
-            "name": "Item"
+            "name": "Safari Zone North Area - North Item"
           }
         ],
         "map_locations": [
@@ -162,11 +153,10 @@
     "name": "Safari Zone West Area",
     "children": [
       {
-        "name": "Safari Zone West Area Southeast Item",
+        "name": "Southeast Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/West Area - Southeast Item",
-            "name": "Item"
+            "name": "Safari Zone West Area - Southeast Item"
           }
         ],
         "map_locations": [
@@ -178,11 +168,10 @@
         ]
       },
       {
-        "name": "Safari Zone West Area Southwest Item",
+        "name": "Southwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/West Area - Southwest Item",
-            "name": "Item"
+            "name": "Safari Zone West Area - Southwest Item"
           }
         ],
         "map_locations": [
@@ -194,11 +183,10 @@
         ]
       },
       {
-        "name": "Safari Zone West Area Northeast Item",
+        "name": "Northeast Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/West Area - Northeast Item",
-            "name": "Item"
+            "name": "Safari Zone West Area - Northeast Item"
           }
         ],
         "map_locations": [
@@ -210,11 +198,10 @@
         ]
       },
       {
-        "name": "Safari Zone West Area Northwest Item",
+        "name": "Northwest Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/West Area - Northwest Item",
-            "name": "Item"
+            "name": "Safari Zone West Area - Northwest Item"
           }
         ],
         "map_locations": [
@@ -226,11 +213,10 @@
         ]
       },
       {
-        "name": "Safari Zone West Area Hidden Item Near Secret House",
+        "name": "Hidden Item Near Secret House",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/West Area - Hidden Item Near Secret House",
-            "name": "Hidden Item"
+            "name": "Safari Zone West Area - Hidden Item Near Secret House"
           }
         ],
         "map_locations": [
@@ -247,11 +233,10 @@
     "name": "Safari Zone East Area Rest House",
     "children": [
       {
-        "name": "Safari Zone East Area Rest House Item",
+        "name": "Item",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/East Area Rest House - Item",
-            "name": "Item"
+            "name": "Safari Zone East Area Rest House - Item"
           }
         ],
         "map_locations": [
@@ -268,11 +253,10 @@
     "name": "Safari Zone North Area Rest House",
     "children": [
       {
-        "name": "Safari Zone North Area Rest House Balding Man",
+        "name": "Balding Man",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/North Area Rest House - Balding Man Info",
-            "name": "Info"
+            "name": "Safari Zone North Area Rest House - Balding Man Info"
           }
         ],
         "map_locations": [
@@ -289,11 +273,10 @@
     "name": "Safari Zone Secret House",
     "children": [
       {
-        "name": "Secret House Attendant",
+        "name": "Attendant",
         "sections": [
           {
-            "ref": "Dungeons/Safari Zone/Secret House - Campaign Prize",
-            "name": "Campaign Prize"
+            "name": "Safari Zone Secret House - Campaign Prize"
           }
         ],
         "map_locations": [

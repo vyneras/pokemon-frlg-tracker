@@ -3,1463 +3,1434 @@
     "name": "Dungeon Overview",
     "children": [
       {
-        "name": "Viridian Forest Dungeon Overview",
+        "name": "Viridian Forest",
         "sections": [
           {
-            "name": "Hidden Item Near South Entrance"
+            "name": "Viridian Forest - Hidden Item Near South Entrance"
           },
           {
-            "name": "West Item"
+            "name": "Viridian Forest - West Item"
           },
           {
-            "name": "Southeast Item"
+            "name": "Viridian Forest - Southeast Item"
           },
           {
-            "name": "Bug Catcher Rick Reward"
+            "name": "Viridian Forest - Bug Catcher Rick Reward"
           },
           {
-            "name": "Bug Catcher Doug Reward"
+            "name": "Viridian Forest - Bug Catcher Doug Reward"
           },
           {
-            "name": "Northeast Item"
+            "name": "Viridian Forest - Northeast Item"
           },
           {
-            "name": "Bug Catcher Anthony Reward"
+            "name": "Viridian Forest - Bug Catcher Anthony Reward"
           },
           {
-            "name": "Bug Catcher Charlie Reward"
+            "name": "Viridian Forest - Bug Catcher Charlie Reward"
           },
           {
-            "name": "Center Item"
+            "name": "Viridian Forest - Center Item"
           },
           {
-            "name": "Bug Catcher Sammy Reward"
+            "name": "Viridian Forest - Bug Catcher Sammy Reward"
           },
           {
-            "name": "Hidden Item Near North Entrance"
+            "name": "Viridian Forest - Hidden Item Near North Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "viridian_forest_south_entrance",
             "x": 120,
-            "y": 24,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 24
           },
           {
             "map": "viridian_forest_north_entrance",
             "x": 120,
-            "y": 168,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 168
           }
         ]
       },
       {
-        "name": "Mt. Moon Overview",
+        "name": "Mt. Moon",
         "sections": [
           {
-            "name": "1F - Southwest Item"
+            "name": "Mt. Moon 1F - Southwest Item"
           },
           {
-            "name": "1F - Bug Catcher Kent Reward"
+            "name": "Mt. Moon 1F - Bug Catcher Kent Reward"
           },
           {
-            "name": "1F - West Item"
+            "name": "Mt. Moon 1F - West Item"
           },
           {
-            "name": "1F - Lass Iris Reward"
+            "name": "Mt. Moon 1F - Lass Iris Reward"
           },
           {
-            "name": "B1F - First Tunnel East Rock Hidden Item"
+            "name": "Mt. Moon B1F - First Tunnel East Rock Hidden Item"
           },
           {
-            "name": "B1F - First Tunnel West Rock Hidden Item (Right)"
+            "name": "Mt. Moon B1F - First Tunnel West Rock Hidden Item (Right)"
           },
           {
-            "name": "B1F - First Tunnel West Rock Hidden Item (Left)"
+            "name": "Mt. Moon B1F - First Tunnel West Rock Hidden Item (Left)"
           },
           {
-            "name": "B2F - Isolated Room Team Rocket Grunt Reward"
+            "name": "Mt. Moon B2F - Isolated Room Team Rocket Grunt Reward"
           },
           {
-            "name": "B2F - Isolated Room Item"
+            "name": "Mt. Moon B2F - Isolated Room Item"
           },
           {
-            "name": "1F - Super Nerd Jovan Reward"
+            "name": "Mt. Moon 1F - Super Nerd Jovan Reward"
           },
           {
-            "name": "1F - South Item"
+            "name": "Mt. Moon 1F - South Item"
           },
           {
-            "name": "1F - Bug Catcher Robby Reward"
+            "name": "Mt. Moon 1F - Bug Catcher Robby Reward"
           },
           {
-            "name": "1F - Southeast Item"
+            "name": "Mt. Moon 1F - Southeast Item"
           },
           {
-            "name": "1F - East Item"
+            "name": "Mt. Moon 1F - East Item"
           },
           {
-            "name": "1F - Balding Man Info"
+            "name": "Mt. Moon 1F - Balding Man Info"
           },
           {
-            "name": "1F - Lass Miriam Reward"
+            "name": "Mt. Moon 1F - Lass Miriam Reward"
           },
           {
-            "name": "B1F - Second Tunnel Rock Hidden Item"
+            "name": "Mt. Moon B1F - Second Tunnel Rock Hidden Item"
           },
           {
-            "name": "B2F - Northeast Room Team Rocket Grunt Reward"
+            "name": "Mt. Moon B2F - Northeast Room Team Rocket Grunt Reward"
           },
           {
-            "name": "B2F - Northeast Plateau Item"
+            "name": "Mt. Moon B2F - Northeast Plateau Item"
           },
           {
-            "name": "B2F - Northeast Rock Hidden Item"
+            "name": "Mt. Moon B2F - Northeast Rock Hidden Item"
           },
           {
-            "name": "1F - Youngster Josh Reward"
+            "name": "Mt. Moon 1F - Youngster Josh Reward"
           },
           {
-            "name": "1F - Hiker Marcos Reward"
+            "name": "Mt. Moon 1F - Hiker Marcos Reward"
           },
           {
-            "name": "1F - Northwest Item"
+            "name": "Mt. Moon 1F - Northwest Item"
           },
           {
-            "name": "B1F - Third Tunnel Rock Hidden Item"
+            "name": "Mt. Moon B1F - Third Tunnel Rock Hidden Item"
           },
           {
-            "name": "B2F - North Item"
+            "name": "Mt. Moon B2F - North Item"
           },
           {
-            "name": "B2F - East Team Rocket Grunt Reward"
+            "name": "Mt. Moon B2F - East Team Rocket Grunt Reward"
           },
           {
-            "name": "B2F - West Team Rocket Grunt Reward"
+            "name": "Mt. Moon B2F - West Team Rocket Grunt Reward"
           },
           {
-            "name": "B2F - Rock Near Fossils Hidden Item"
+            "name": "Mt. Moon B2F - Rock Near Fossils Hidden Item"
           },
           {
-            "name": "B2F - Super Nerd Miguel Reward"
+            "name": "Mt. Moon B2F - Super Nerd Miguel Reward"
           },
           {
-            "name": "B2F - Fossil"
+            "name": "Mt. Moon B2F - Fossil"
           },
           {
-            "name": "B2F - Northwest Item"
+            "name": "Mt. Moon B2F - Northwest Item"
           },
           {
-            "name": "B1F - Fourth Tunnel Rock Hidden Item"
+            "name": "Mt. Moon B1F - Fourth Tunnel Rock Hidden Item"
           }
         ],
         "map_locations": [
           {
             "map": "route_4_west",
             "x": 312,
-            "y": 88,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 88
           },
           {
             "map": "route_4_west",
             "x": 520,
-            "y": 88,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 88
           }
         ]
       },
       {
-        "name": "S.S. Anne Overview",
+        "name": "S.S. Anne",
         "sections": [
           {
-            "name": "Exterior - East Pier Hidden Item"
+            "name": "S.S. Anne Exterior - East Pier Hidden Item"
           },
           {
-            "name": "Kitchen - Item"
+            "name": "S.S. Anne Kitchen - Item"
           },
           {
-            "name": "Kitchen - Trash Can Hidden Item (Top)"
+            "name": "S.S. Anne Kitchen - Trash Can Hidden Item (Top)"
           },
           {
-            "name": "Kitchen - Trash Can Hidden Item (Middle)"
+            "name": "S.S. Anne Kitchen - Trash Can Hidden Item (Middle)"
           },
           {
-            "name": "Kitchen - Trash Can Hidden Item (Bottom)"
+            "name": "S.S. Anne Kitchen - Trash Can Hidden Item (Bottom)"
           },
           {
-            "name": "1F Room 2 - Youngster Tyler Reward"
+            "name": "S.S. Anne 1F Room 2 - Youngster Tyler Reward"
           },
           {
-            "name": "1F Room 2 - Lass Ann Reward"
+            "name": "S.S. Anne 1F Room 2 - Lass Ann Reward"
           },
           {
-            "name": "1F Room 2 - Item"
+            "name": "S.S. Anne 1F Room 2 - Item"
           },
           {
-            "name": "1F Room 5 - Gentleman Arthur Reward"
+            "name": "S.S. Anne 1F Room 5 - Gentleman Arthur Reward"
           },
           {
-            "name": "1F Room 7 - Gentleman Thomas Reward"
+            "name": "S.S. Anne 1F Room 7 - Gentleman Thomas Reward"
           },
           {
-            "name": "B1F Corridor - Trash Can Hidden Item"
+            "name": "S.S. Anne B1F Corridor - Trash Can Hidden Item"
           },
           {
-            "name": "B1F Room 1 - Sailor Phillip Reward"
+            "name": "S.S. Anne B1F Room 1 - Sailor Phillip Reward"
           },
           {
-            "name": "B1F Room 1 - Fisherman Barny Reward"
+            "name": "S.S. Anne B1F Room 1 - Fisherman Barny Reward"
           },
           {
-            "name": "B1F Room 2 - Sailor Huey Reward"
+            "name": "S.S. Anne B1F Room 2 - Sailor Huey Reward"
           },
           {
-            "name": "B1F Room 2 - Item"
+            "name": "S.S. Anne B1F Room 2 - Item"
           },
           {
-            "name": "B1F Room 3 - Sailor Dylan Reward"
+            "name": "S.S. Anne B1F Room 3 - Sailor Dylan Reward"
           },
           {
-            "name": "B1F Room 3 - Item"
+            "name": "S.S. Anne B1F Room 3 - Item"
           },
           {
-            "name": "B1F Room 4 - Sailor Leonard Reward"
+            "name": "S.S. Anne B1F Room 4 - Sailor Leonard Reward"
           },
           {
-            "name": "B1F Room 4 - Sailor Duncan Reward"
+            "name": "S.S. Anne B1F Room 4 - Sailor Duncan Reward"
           },
           {
-            "name": "B1F Room 5 - Item"
+            "name": "S.S. Anne B1F Room 5 - Item"
           },
           {
-            "name": "Deck - Sailor Trevor Reward"
+            "name": "S.S. Anne Deck - Sailor Trevor Reward"
           },
           {
-            "name": "Deck - Sailor Edmond Reward"
+            "name": "S.S. Anne Deck - Sailor Edmond Reward"
           },
           {
-            "name": "2F Room 2 - Fisherman Dale Reward"
+            "name": "S.S. Anne 2F Room 2 - Fisherman Dale Reward"
           },
           {
-            "name": "2F Room 2 - Gentleman Brooks Reward"
+            "name": "S.S. Anne 2F Room 2 - Gentleman Brooks Reward"
           },
           {
-            "name": "2F Room 2 - Item"
+            "name": "S.S. Anne 2F Room 2 - Item"
           },
           {
-            "name": "2F Room 4 - Gentleman Lamar Reward"
+            "name": "S.S. Anne 2F Room 4 - Gentleman Lamar Reward"
           },
           {
-            "name": "2F Room 4 - Lass Dawn Reward"
+            "name": "S.S. Anne 2F Room 4 - Lass Dawn Reward"
           },
           {
-            "name": "2F Room 4 - Item"
+            "name": "S.S. Anne 2F Room 4 - Item"
           },
           {
-            "name": "2F Corridor - Rival Reward"
+            "name": "S.S. Anne 2F Corridor - Rival Reward"
           },
           {
-            "name": "Captain's Office - Captain Gift"
+            "name": "S.S. Anne Captain's Office - Captain Gift"
           }
         ],
         "map_locations": [
           {
             "map": "vermilion_city",
             "x": 376,
-            "y": 552,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 552
           }
         ]
       },
       {
-        "name": "Diglett's Cave Overview",
+        "name": "Diglett's Cave",
         "sections": [
           {
-            "name": "B1F - Item"
+            "name": "Diglett's Cave B1F - Item"
           }
         ],
         "map_locations": [
           {
             "map": "route_2_north",
             "x": 280,
-            "y": 184,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 184
           },
           {
             "map": "route_11_west",
             "x": 104,
-            "y": 120,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 120
           }
         ]
       },
       {
-        "name": "Rock Tunnel Overview",
+        "name": "Rock Tunnel",
         "sections": [
           {
-            "name": "1F - Northeast Area Item"
+            "name": "Rock Tunnel 1F - Northeast Area Item"
           },
           {
-            "name": "1F - PokéManiac Ashton Reward"
+            "name": "Rock Tunnel 1F - PokeManiac Ashton Reward"
           },
           {
-            "name": "B1F - PokéManiac Winston Reward"
+            "name": "Rock Tunnel B1F - PokeManiac Winston Reward"
           },
           {
-            "name": "B1F - Southeast Area Item"
+            "name": "Rock Tunnel B1F - Southeast Area Item"
           },
           {
-            "name": "B1F - Picnicker Martha Reward"
+            "name": "Rock Tunnel B1F - Picnicker Martha Reward"
           },
           {
-            "name": "B1F - PokéManiac Steve Reward"
+            "name": "Rock Tunnel B1F - PokeManiac Steve Reward"
           },
           {
-            "name": "B1F - Hiker Allen Reward"
+            "name": "Rock Tunnel B1F - Hiker Allen Reward"
           },
           {
-            "name": "B1F - Hiker Eric Reward"
+            "name": "Rock Tunnel B1F - Hiker Eric Reward"
           },
           {
-            "name": "1F - Hiker Lenny Reward"
+            "name": "Rock Tunnel 1F - Hiker Lenny Reward"
           },
           {
-            "name": "1F - Hiker Oliver Reward"
+            "name": "Rock Tunnel 1F - Hiker Oliver Reward"
           },
           {
-            "name": "1F - Northwest Area Item"
+            "name": "Rock Tunnel 1F - Northwest Area Item"
           },
           {
-            "name": "1F - Hiker Lucas Reward"
+            "name": "Rock Tunnel 1F - Hiker Lucas Reward"
           },
           {
-            "name": "B1F - Picnicker Sofia Reward"
+            "name": "Rock Tunnel B1F - Picnicker Sofia Reward"
           },
           {
-            "name": "B1F - Northwest Area Item"
+            "name": "Rock Tunnel B1F - Northwest Area Item"
           },
           {
-            "name": "B1F - Hiker Dudley Reward"
+            "name": "Rock Tunnel B1F - Hiker Dudley Reward"
           },
           {
-            "name": "B1F - PokéManiac Cooper Reward"
+            "name": "Rock Tunnel B1F - PokeManiac Cooper Reward"
           },
           {
-            "name": "1F - Picnicker Leah Reward"
+            "name": "Rock Tunnel 1F - Picnicker Leah Reward"
           },
           {
-            "name": "1F - Picnicker Ariana Reward"
+            "name": "Rock Tunnel 1F - Picnicker Ariana Reward"
           },
           {
-            "name": "1F - South Area Item"
+            "name": "Rock Tunnel 1F - South Area Item"
           },
           {
-            "name": "1F - Picnicker Dana Reward"
+            "name": "Rock Tunnel 1F - Picnicker Dana Reward"
           }
         ],
         "map_locations": [
           {
             "map": "route_10_north",
             "x": 136,
-            "y": 312,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 312
           },
           {
             "map": "route_10_south",
             "x": 136,
-            "y": 408,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 408
           }
         ]
       },
       {
-        "name": "Power Plant Overview",
+        "name": "Power Plant",
         "sections": [
           {
-            "name": "Item Near Entrance"
+            "name": "Power Plant - Item Near Entrance"
           },
           {
-            "name": "Long Center Room Item (Right)"
+            "name": "Power Plant - Long Center Room Item (Right)"
           },
           {
-            "name": "Long Center Room Item (Left)"
+            "name": "Power Plant - Long Center Room Item (Left)"
           },
           {
-            "name": "Southeast Room Item"
+            "name": "Power Plant - Southeast Room Item"
           },
           {
-            "name": "Northeast Room Item (Right)"
+            "name": "Power Plant - Northeast Room Item (Right)"
           },
           {
-            "name": "Center Machine Room Hidden Item"
+            "name": "Power Plant - Center Machine Room Hidden Item"
           },
           {
-            "name": "Hidden Item Near Zapdos"
+            "name": "Power Plant - Hidden Item Near Zapdos"
           }
         ],
         "map_locations": [
           {
             "map": "route_10_south",
             "x": 120,
-            "y": 144,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 144
           },
           {
             "map": "route_10_south",
             "x": 40,
-            "y": 88,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 88
           }
         ]
       },
       {
-        "name": "Pokémon Tower Overview",
+        "name": "Pokémon Tower",
         "sections": [
           {
-            "name": "2F - Rival Reward"
+            "name": "Pokemon Tower 2F - Rival Reward"
           },
           {
-            "name": "3F - Channeler Hope Reward"
+            "name": "Pokemon Tower 3F - Channeler Hope Reward"
           },
           {
-            "name": "3F - North Item"
+            "name": "Pokemon Tower 3F - North Item"
           },
           {
-            "name": "3F - Channeler Patricia Reward"
+            "name": "Pokemon Tower 3F - Channeler Patricia Reward"
           },
           {
-            "name": "3F - Channeler Carly Reward"
+            "name": "Pokemon Tower 3F - Channeler Carly Reward"
           },
           {
-            "name": "4F - Channeler Laurel Reward"
+            "name": "Pokemon Tower 4F - Channeler Laurel Reward"
           },
           {
-            "name": "4F - Center Item (Right)"
+            "name": "Pokemon Tower 4F - Center Item (Right)"
           },
           {
-            "name": "4F - Center Item (Left)"
+            "name": "Pokemon Tower 4F - Center Item (Left)"
           },
           {
-            "name": "4F - Channeler Jody Reward"
+            "name": "Pokemon Tower 4F - Channeler Jody Reward"
           },
           {
-            "name": "4F - South Item"
+            "name": "Pokemon Tower 4F - South Item"
           },
           {
-            "name": "4F - Channeler Paula Reward"
+            "name": "Pokemon Tower 4F - Channeler Paula Reward"
           },
           {
-            "name": "5F - Channeler Ruth Reward"
+            "name": "Pokemon Tower 5F - Channeler Ruth Reward"
           },
           {
-            "name": "5F - Northwest Hidden Item"
+            "name": "Pokemon Tower 5F - Northwest Hidden Item"
           },
           {
-            "name": "5F - Channeler Tammy Reward"
+            "name": "Pokemon Tower 5F - Channeler Tammy Reward"
           },
           {
-            "name": "5F - Healing Area Item"
+            "name": "Pokemon Tower 5F - Healing Area Item"
           },
           {
-            "name": "5F - Channeler Karina Reward"
+            "name": "Pokemon Tower 5F - Channeler Karina Reward"
           },
           {
-            "name": "5F - Channeler Janae Reward"
+            "name": "Pokemon Tower 5F - Channeler Janae Reward"
           },
           {
-            "name": "5F - Southwest Item"
+            "name": "Pokemon Tower 5F - Southwest Item"
           },
           {
-            "name": "6F - Channeler Angelica Reward"
+            "name": "Pokemon Tower 6F - Channeler Angelica Reward"
           },
           {
-            "name": "6F - Southeast Item"
+            "name": "Pokemon Tower 6F - Southeast Item"
           },
           {
-            "name": "6F - Channeler Jennifer Reward"
+            "name": "Pokemon Tower 6F - Channeler Jennifer Reward"
           },
           {
-            "name": "6F - Channeler Emilia Reward"
+            "name": "Pokemon Tower 6F - Channeler Emilia Reward"
           },
           {
-            "name": "6F - Southwest Item"
+            "name": "Pokemon Tower 6F - Southwest Item"
           },
           {
-            "name": "7F - South Team Rocket Grunt Reward"
+            "name": "Pokemon Tower 7F - South Team Rocket Grunt Reward"
           },
           {
-            "name": "7F - Center Team Rocket Grunt Reward"
+            "name": "Pokemon Tower 7F - Center Team Rocket Grunt Reward"
           },
           {
-            "name": "7F - Team Rocket Grunt Info"
+            "name": "Pokemon Tower 7F - Team Rocket Grunt Info"
           },
           {
-            "name": "7F - North Team Rocket Grunt Reward"
+            "name": "Pokemon Tower 7F - North Team Rocket Grunt Reward"
           },
           {
-            "name": "7F - Hidden Item Under Mr. Fuji"
+            "name": "Pokemon Tower 7F - Hidden Item Under Mr. Fuji"
           }
         ],
         "map_locations": [
           {
             "map": "lavender_town",
             "x": 296,
-            "y": 104,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 104
           }
         ]
       },
       {
-        "name": "Rocket Hideout Overview",
+        "name": "Rocket Hideout",
         "sections": [
           {
-            "name": "B1F - Northwest Team Rocket Grunt Reward"
+            "name": "Rocket Hideout B1F - Northwest Team Rocket Grunt Reward"
           },
           {
-            "name": "B1F - West Room Item"
+            "name": "Rocket Hideout B1F - West Room Item"
           },
           {
-            "name": "B1F - Southeast Plant Hidden Item"
+            "name": "Rocket Hideout B1F - Southeast Plant Hidden Item"
           },
           {
-            "name": "B1F - Northeast Team Rocket Grunt Reward"
+            "name": "Rocket Hideout B1F - Northeast Team Rocket Grunt Reward"
           },
           {
-            "name": "B2F - Team Rocket Grunt Reward"
+            "name": "Rocket Hideout B2F - Team Rocket Grunt Reward"
           },
           {
-            "name": "B2F - Maze Northeast Item"
+            "name": "Rocket Hideout B2F - Maze Northeast Item"
           },
           {
-            "name": "B2F - Maze Northwest Item (Left)"
+            "name": "Rocket Hideout B2F - Maze Northwest Item (Left)"
           },
           {
-            "name": "B2F - Maze Northwest Item (Right)"
+            "name": "Rocket Hideout B2F - Maze Northwest Item (Right)"
           },
           {
-            "name": "B2F - Maze Southwest Item"
+            "name": "Rocket Hideout B2F - Maze Southwest Item"
           },
           {
-            "name": "B1F - Southwest Room Team Rocket Grunt Reward (Bottom)"
+            "name": "Rocket Hideout B1F - Southwest Room Team Rocket Grunt Reward (Bottom)"
           },
           {
-            "name": "B1F - Southwest Room Team Rocket Grunt Reward (Top)"
+            "name": "Rocket Hideout B1F - Southwest Room Team Rocket Grunt Reward (Top)"
           },
           {
-            "name": "B1F - Southwest Room Item"
+            "name": "Rocket Hideout B1F - Southwest Room Item"
           },
           {
-            "name": "B3F - Northeast Team Rocket Grunt Reward"
+            "name": "Rocket Hideout B3F - Northeast Team Rocket Grunt Reward"
           },
           {
-            "name": "B3F - East Room Item"
+            "name": "Rocket Hideout B3F - East Room Item"
           },
           {
-            "name": "B3F - Northwest Hidden Item"
+            "name": "Rocket Hideout B3F - Northwest Hidden Item"
           },
           {
-            "name": "B3F - Maze Item"
+            "name": "Rocket Hideout B3F - Maze Item"
           },
           {
-            "name": "B3F - Maze Team Rocket Grunt Reward"
+            "name": "Rocket Hideout B3F - Maze Team Rocket Grunt Reward"
           },
           {
-            "name": "B3F - Item Near B4F Stairs"
+            "name": "Rocket Hideout B3F - Item Near B4F Stairs"
           },
           {
-            "name": "B4F - West Room Item"
+            "name": "Rocket Hideout B4F - West Room Item"
           },
           {
-            "name": "B4F - Northwest Room Item"
+            "name": "Rocket Hideout B4F - Northwest Room Item"
           },
           {
-            "name": "B4F - Northwest Room Team Rocket Grunt Reward"
+            "name": "Rocket Hideout B4F - Northwest Room Team Rocket Grunt Reward"
           },
           {
-            "name": "B4F - Team Rocket Grunt Item"
+            "name": "Rocket Hideout B4F - Team Rocket Grunt Item"
           },
           {
-            "name": "B4F - Southwest Room Item"
+            "name": "Rocket Hideout B4F - Southwest Room Item"
           },
           {
-            "name": "B4F - Door Guard Team Rocket Grunt Reward (Left)"
+            "name": "Rocket Hideout B4F - Door Guard Team Rocket Grunt Reward (Left)"
           },
           {
-            "name": "B4F - Door Guard Team Rocket Grunt Reward (Right)"
+            "name": "Rocket Hideout B4F - Door Guard Team Rocket Grunt Reward (Right)"
           },
           {
-            "name": "B4F - Giovanni Info"
+            "name": "Rocket Hideout B4F - Giovanni Info"
           },
           {
-            "name": "B4F - Boss Giovanni Reward"
+            "name": "Rocket Hideout B4F - Boss Giovanni Reward"
           },
           {
-            "name": "B4F - Giovanni Item"
+            "name": "Rocket Hideout B4F - Giovanni Item"
           },
           {
-            "name": "B4F - Giovanni's Room Hidden Item Between West Plants"
+            "name": "Rocket Hideout B4F - Giovanni's Room Hidden Item Between West Plants"
           },
           {
-            "name": "B4F - Giovanni's Room Hidden Item Between East Plants"
+            "name": "Rocket Hideout B4F - Giovanni's Room Hidden Item Between East Plants"
           },
           {
-            "name": "B1F - Southeast Team Rocket Grunt Reward"
+            "name": "Rocket Hideout B1F - Southeast Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [
           {
             "map": "celadon_game_corner",
             "x": 256,
-            "y": 40,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 40
           }
         ]
       },
       {
-        "name": "Safari Zone Overview",
+        "name": "Safari Zone",
         "sections": [
           {
-            "name": "Center Area - Island Item"
+            "name": "Safari Zone Center Area - Island Item"
           },
           {
-            "name": "Center Area - Island Hidden Item"
+            "name": "Safari Zone Center Area - Island Hidden Item"
           },
           {
-            "name": "East Area - Southeast Plateau Item"
+            "name": "Safari Zone East Area - Southeast Plateau Item"
           },
           {
-            "name": "East Area - Tall Grass Item"
+            "name": "Safari Zone East Area - Tall Grass Item"
           },
           {
-            "name": "East Area - Item Near Bush"
+            "name": "Safari Zone East Area - Item Near Bush"
           },
           {
-            "name": "East Area - Item Near Rest House"
+            "name": "Safari Zone East Area - Item Near Rest House"
           },
           {
-            "name": "East Area Rest House - Item"
+            "name": "Safari Zone East Area Rest House - Item"
           },
           {
-            "name": "North Area - South Item"
+            "name": "Safari Zone North Area - South Item"
           },
           {
-            "name": "North Area - Center Item"
+            "name": "Safari Zone North Area - Center Item"
           },
           {
-            "name": "North Area - North Item"
+            "name": "Safari Zone North Area - North Item"
           },
           {
-            "name": "North Area Rest House - Balding Man Info"
+            "name": "Safari Zone North Area Rest House - Balding Man Info"
           },
           {
-            "name": "West Area - Southeast Item"
+            "name": "Safari Zone West Area - Southeast Item"
           },
           {
-            "name": "West Area - Southwest Item"
+            "name": "Safari Zone West Area - Southwest Item"
           },
           {
-            "name": "West Area - Northeast Item"
+            "name": "Safari Zone West Area - Northeast Item"
           },
           {
-            "name": "West Area - Northwest Item"
+            "name": "Safari Zone West Area - Northwest Item"
           },
           {
-            "name": "West Area - Hidden Item Near Secret House"
+            "name": "Safari Zone West Area - Hidden Item Near Secret House"
           },
           {
-            "name": "Secret House - Campaign Prize"
+            "name": "Safari Zone Secret House - Campaign Prize"
           }
         ],
         "map_locations": [
           {
             "map": "fuchsia_city",
             "x": 392,
-            "y": 88,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 88
           }
         ]
       },
       {
-        "name": "Silph Co. Overview",
+        "name": "Silph Co.",
         "sections": [
           {
-            "name": "2F - East Team Rocket Grunt Reward"
+            "name": "Silph Co. 2F - East Team Rocket Grunt Reward"
           },
           {
-            "name": "2F - Center Team Rocket Grunt Reward"
+            "name": "Silph Co. 2F - Center Team Rocket Grunt Reward"
           },
           {
-            "name": "2F - Scientist Jerry Reward"
+            "name": "Silph Co. 2F - Scientist Jerry Reward"
           },
           {
-            "name": "2F - Southeast Room Item"
+            "name": "Silph Co. 2F - Southeast Room Item"
           },
           {
-            "name": "2F - Scientist Connor Reward"
+            "name": "Silph Co. 2F - Scientist Connor Reward"
           },
           {
-            "name": "2F - Southwest Room Plant Hidden Item"
+            "name": "Silph Co. 2F - Southwest Room Plant Hidden Item"
           },
           {
-            "name": "3F - Team Rocket Grunt Reward"
+            "name": "Silph Co. 3F - Team Rocket Grunt Reward"
           },
           {
-            "name": "3F - East Room Item"
+            "name": "Silph Co. 3F - East Room Item"
           },
           {
-            "name": "3F - Southeast Plant Hidden Item"
+            "name": "Silph Co. 3F - Southeast Plant Hidden Item"
           },
           {
-            "name": "3F - Scientist Jose Reward"
+            "name": "Silph Co. 3F - Scientist Jose Reward"
           },
           {
-            "name": "3F - West Room Item"
+            "name": "Silph Co. 3F - West Room Item"
           },
           {
-            "name": "4F - Southeast Room Team Rocket Grunt Reward"
+            "name": "Silph Co. 4F - Southeast Room Team Rocket Grunt Reward"
           },
           {
-            "name": "4F - Southeast Room Item"
+            "name": "Silph Co. 4F - Southeast Room Item"
           },
           {
-            "name": "4F - Southeast Room Plant Hidden Item"
+            "name": "Silph Co. 4F - Southeast Room Plant Hidden Item"
           },
           {
-            "name": "4F - Southwest Team Rocket Grunt Reward"
+            "name": "Silph Co. 4F - Southwest Team Rocket Grunt Reward"
           },
           {
-            "name": "4F - North Room Item"
+            "name": "Silph Co. 4F - North Room Item"
           },
           {
-            "name": "4F - Scientist Rodney Reward"
+            "name": "Silph Co. 4F - Scientist Rodney Reward"
           },
           {
-            "name": "4F - West Room Item (Left)"
+            "name": "Silph Co. 4F - West Room Item (Left)"
           },
           {
-            "name": "4F - West Room Item (Right)"
+            "name": "Silph Co. 4F - West Room Item (Right)"
           },
           {
-            "name": "4F - West Room Item (Middle)"
+            "name": "Silph Co. 4F - West Room Item (Middle)"
           },
           {
-            "name": "5F - Northeast Team Rocket Grunt Reward"
+            "name": "Silph Co. 5F - Northeast Team Rocket Grunt Reward"
           },
           {
-            "name": "5F - Center Room Northeast Plant Hidden Item"
+            "name": "Silph Co. 5F - Center Room Northeast Plant Hidden Item"
           },
           {
-            "name": "5F - Juggler Dalton Reward"
+            "name": "Silph Co. 5F - Juggler Dalton Reward"
           },
           {
-            "name": "5F - Center Room Southwest Plant Hidden Item"
+            "name": "Silph Co. 5F - Center Room Southwest Plant Hidden Item"
           },
           {
-            "name": "5F - Scientist Beau Reward"
+            "name": "Silph Co. 5F - Scientist Beau Reward"
           },
           {
-            "name": "5F - Southwest Team Rocket Grunt Reward"
+            "name": "Silph Co. 5F - Southwest Team Rocket Grunt Reward"
           },
           {
-            "name": "5F - South Hallway Item"
+            "name": "Silph Co. 5F - South Hallway Item"
           },
           {
-            "name": "5F - Northwest Room Item"
+            "name": "Silph Co. 5F - Northwest Room Item"
           },
           {
-            "name": "5F - Scientist Info"
+            "name": "Silph Co. 5F - Scientist Info"
           },
           {
-            "name": "5F - Southwest Room Item"
+            "name": "Silph Co. 5F - Southwest Room Item"
           },
           {
-            "name": "6F - North Team Rocket Grunt Reward"
+            "name": "Silph Co. 6F - North Team Rocket Grunt Reward"
           },
           {
-            "name": "6F - Center Room Item"
+            "name": "Silph Co. 6F - Center Room Item"
           },
           {
-            "name": "6F - Northwest Room Plant Hidden Item"
+            "name": "Silph Co. 6F - Northwest Room Plant Hidden Item"
           },
           {
-            "name": "6F - Scientist Taylor Reward"
+            "name": "Silph Co. 6F - Scientist Taylor Reward"
           },
           {
-            "name": "6F - South Team Rocket Grunt Reward"
+            "name": "Silph Co. 6F - South Team Rocket Grunt Reward"
           },
           {
-            "name": "6F - Southwest Room Item (Top)"
+            "name": "Silph Co. 6F - Southwest Room Item (Top)"
           },
           {
-            "name": "6F - Southwest Room Item (Bottom)"
+            "name": "Silph Co. 6F - Southwest Room Item (Bottom)"
           },
           {
-            "name": "7F - Northeast Team Rocket Grunt Reward"
+            "name": "Silph Co. 7F - Northeast Team Rocket Grunt Reward"
           },
           {
-            "name": "7F - North Room Team Rocket Grunt Reward"
+            "name": "Silph Co. 7F - North Room Team Rocket Grunt Reward"
           },
           {
-            "name": "7F - Scientist Joshua Reward"
+            "name": "Silph Co. 7F - Scientist Joshua Reward"
           },
           {
-            "name": "7F - Southwest Room Item"
+            "name": "Silph Co. 7F - Southwest Room Item"
           },
           {
-            "name": "7F - Southeast Room Team Rocket Grunt Reward"
+            "name": "Silph Co. 7F - Southeast Room Team Rocket Grunt Reward"
           },
           {
-            "name": "7F - East Room Item"
+            "name": "Silph Co. 7F - East Room Item"
           },
           {
-            "name": "7F - East Room Plant Hidden Item"
+            "name": "Silph Co. 7F - East Room Plant Hidden Item"
           },
           {
-            "name": "7F - Rival Reward"
+            "name": "Silph Co. 7F - Rival Reward"
           },
           {
-            "name": "7F - Rival Gift"
+            "name": "Silph Co. 7F - Rival Gift"
           },
           {
-            "name": "7F - Northwest Room Item"
+            "name": "Silph Co. 7F - Northwest Room Item"
           },
           {
-            "name": "8F - Northeast Team Rocket Grunt Reward"
+            "name": "Silph Co. 8F - Northeast Team Rocket Grunt Reward"
           },
           {
-            "name": "8F - Southwest Team Rocket Grunt Reward"
+            "name": "Silph Co. 8F - Southwest Team Rocket Grunt Reward"
           },
           {
-            "name": "8F - Scientist Parker Reward"
+            "name": "Silph Co. 8F - Scientist Parker Reward"
           },
           {
-            "name": "8F - West Room Item"
+            "name": "Silph Co. 8F - West Room Item"
           },
           {
-            "name": "8F - East Room Item"
+            "name": "Silph Co. 8F - East Room Item"
           },
           {
-            "name": "8F - East Room Plant Hidden Item"
+            "name": "Silph Co. 8F - East Room Plant Hidden Item"
           },
           {
-            "name": "8F - Scientist Info"
+            "name": "Silph Co. 8F - Scientist Info"
           },
           {
-            "name": "9F - Scientist Ed Reward"
+            "name": "Silph Co. 9F - Scientist Ed Reward"
           },
           {
-            "name": "9F - South Team Rocket Grunt Reward"
+            "name": "Silph Co. 9F - South Team Rocket Grunt Reward"
           },
           {
-            "name": "9F - West Room Hidden Item Near Boxes"
+            "name": "Silph Co. 9F - West Room Hidden Item Near Boxes"
           },
           {
-            "name": "9F - West Room Plant Hidden Item"
+            "name": "Silph Co. 9F - West Room Plant Hidden Item"
           },
           {
-            "name": "9F - Northwest Room Team Rocket Grunt Reward"
+            "name": "Silph Co. 9F - Northwest Room Team Rocket Grunt Reward"
           },
           {
-            "name": "9F - Northwest Room Item"
+            "name": "Silph Co. 9F - Northwest Room Item"
           },
           {
-            "name": "10F - Scientist Travis Reward"
+            "name": "Silph Co. 10F - Scientist Travis Reward"
           },
           {
-            "name": "10F - Team Rocket Grunt Reward"
+            "name": "Silph Co. 10F - Team Rocket Grunt Reward"
           },
           {
-            "name": "10F - Southwest Room Item (Left)"
+            "name": "Silph Co. 10F - Southwest Room Item (Left)"
           },
           {
-            "name": "10F - Southwest Room Item (Bottom)"
+            "name": "Silph Co. 10F - Southwest Room Item (Bottom)"
           },
           {
-            "name": "10F - Southwest Room Item (Right)"
+            "name": "Silph Co. 10F - Southwest Room Item (Right)"
           },
           {
-            "name": "10F - East Room Plant Hidden Item"
+            "name": "Silph Co. 10F - East Room Plant Hidden Item"
           },
           {
-            "name": "10F - Southeast Room Item"
+            "name": "Silph Co. 10F - Southeast Room Item"
           },
           {
-            "name": "11F - East Team Rocket Grunt Reward"
+            "name": "Silph Co. 11F - East Team Rocket Grunt Reward"
           },
           {
-            "name": "11F - East Hallway Item"
+            "name": "Silph Co. 11F - East Hallway Item"
           },
           {
-            "name": "11F - Southwest Team Rocket Grunt Reward"
+            "name": "Silph Co. 11F - Southwest Team Rocket Grunt Reward"
           },
           {
-            "name": "11F - South Hallway Plant Hidden Item"
+            "name": "Silph Co. 11F - South Hallway Plant Hidden Item"
           },
           {
-            "name": "11F - West Hallway Item"
+            "name": "Silph Co. 11F - West Hallway Item"
           },
           {
-            "name": "11F - Boss Giovanni Reward"
+            "name": "Silph Co. 11F - Boss Giovanni Reward"
           },
           {
-            "name": "11F - President Gift"
+            "name": "Silph Co. 11F - President Gift"
           }
         ],
         "map_locations": [
           {
             "map": "saffron_city",
             "x": 536,
-            "y": 488,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 488
           }
         ]
       },
       {
-        "name": "Seafoam Islands Overview",
+        "name": "Seafoam Islands",
         "sections": [
           {
-            "name": "1F - Plateau Item"
+            "name": "Seafoam Islands 1F - Plateau Item"
           },
           {
-            "name": "B1F - Center Plateau Item"
+            "name": "Seafoam Islands B1F - Center Plateau Item"
           },
           {
-            "name": "B2F - Item Below Center Plateau"
+            "name": "Seafoam Islands B2F - Item Below Center Plateau"
           },
           {
-            "name": "B1F - South Item"
+            "name": "Seafoam Islands B1F - South Item"
           },
           {
-            "name": "B3F - West Plateau Rock Hidden Item"
+            "name": "Seafoam Islands B3F - West Plateau Rock Hidden Item"
           },
           {
-            "name": "B4F - West Rock Hidden Item"
+            "name": "Seafoam Islands B4F - West Rock Hidden Item"
           },
           {
-            "name": "B4F - South Peninsula Item"
+            "name": "Seafoam Islands B4F - South Peninsula Item"
           }
         ],
         "map_locations": [
           {
             "map": "route_20_center",
             "x": 328,
-            "y": 136,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 136
           },
           {
             "map": "route_20_center",
             "x": 520,
-            "y": 232,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 232
           }
         ]
       },
       {
-        "name": "Pokémon Mansion Overview",
+        "name": "Pokémon Mansion",
         "sections": [
           {
-            "name": "1F - West Rubble Hidden Item"
+            "name": "Pokemon Mansion 1F - West Rubble Hidden Item"
           },
           {
-            "name": "1F - Youngster Johnson Reward"
+            "name": "Pokemon Mansion 1F - Youngster Johnson Reward"
           },
           {
-            "name": "1F - Item Between North Pillars"
+            "name": "Pokemon Mansion 1F - Item Between North Pillars"
           },
           {
-            "name": "1F - Item Behind Gate"
+            "name": "Pokemon Mansion 1F - Item Behind Gate"
           },
           {
-            "name": "3F - Burglar Simon Reward"
+            "name": "Pokemon Mansion 3F - Burglar Simon Reward"
           },
           {
-            "name": "3F - Southwest Room Item"
+            "name": "Pokemon Mansion 3F - Southwest Room Item"
           },
           {
-            "name": "2F - Burglar Arnie Reward"
+            "name": "Pokemon Mansion 2F - Burglar Arnie Reward"
           },
           {
-            "name": "2F - West Balcony Item"
+            "name": "Pokemon Mansion 2F - West Balcony Item"
           },
           {
-            "name": "2F - Northeast Room Item"
+            "name": "Pokemon Mansion 2F - Northeast Room Item"
           },
           {
-            "name": "3F - Northeast Room Item"
+            "name": "Pokemon Mansion 3F - Northeast Room Item"
           },
           {
-            "name": "3F - Scientist Braydon Reward"
+            "name": "Pokemon Mansion 3F - Scientist Braydon Reward"
           },
           {
-            "name": "3F - East Hallway Hidden Item"
+            "name": "Pokemon Mansion 3F - East Hallway Hidden Item"
           },
           {
-            "name": "2F - Item Near East Balcony"
+            "name": "Pokemon Mansion 2F - Item Near East Balcony"
           },
           {
-            "name": "1F - Scientist Ted Reward"
+            "name": "Pokemon Mansion 1F - Scientist Ted Reward"
           },
           {
-            "name": "1F - Item Near B1F Stairs"
+            "name": "Pokemon Mansion 1F - Item Near B1F Stairs"
           },
           {
-            "name": "B1F - Burglar Lewis Reward"
+            "name": "Pokemon Mansion B1F - Burglar Lewis Reward"
           },
           {
-            "name": "B1F - Southwest Hallway Item"
+            "name": "Pokemon Mansion B1F - Southwest Hallway Item"
           },
           {
-            "name": "B1F - Scientist Ivan Reward"
+            "name": "Pokemon Mansion B1F - Scientist Ivan Reward"
           },
           {
-            "name": "B1F - Northeast Room Hidden Item"
+            "name": "Pokemon Mansion B1F - Northeast Room Hidden Item"
           },
           {
-            "name": "B1F - North Room Item"
+            "name": "Pokemon Mansion B1F - North Room Item"
           },
           {
-            "name": "B1F - Northwest Room Item"
+            "name": "Pokemon Mansion B1F - Northwest Room Item"
           },
           {
-            "name": "B1F - West Room Item"
+            "name": "Pokemon Mansion B1F - West Room Item"
           }
         ],
         "map_locations": [
           {
             "map": "cinnabar_island",
             "x": 136,
-            "y": 56,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 56
           }
         ]
       },
       {
-        "name": "Victory Road Overview",
+        "name": "Victory Road",
         "sections": [
           {
-            "name": "1F - Cooltrainer Naomi Reward"
+            "name": "Victory Road 1F - Cooltrainer Naomi Reward"
           },
           {
-            "name": "1F - North Rock Hidden Item"
+            "name": "Victory Road 1F - North Rock Hidden Item"
           },
           {
-            "name": "1F - North Item (Right)"
+            "name": "Victory Road 1F - North Item (Right)"
           },
           {
-            "name": "1F - North Item (Left)"
+            "name": "Victory Road 1F - North Item (Left)"
           },
           {
-            "name": "1F - Center Rock Hidden Item"
+            "name": "Victory Road 1F - Center Rock Hidden Item"
           },
           {
-            "name": "1F - Cooltrainer Rolando Reward"
+            "name": "Victory Road 1F - Cooltrainer Rolando Reward"
           },
           {
-            "name": "2F - Black Belt Daisuke Reward"
+            "name": "Victory Road 2F - Black Belt Daisuke Reward"
           },
           {
-            "name": "2F - Item Below Plateau"
+            "name": "Victory Road 2F - Item Below Plateau"
           },
           {
-            "name": "2F - Juggler Nelson Reward"
+            "name": "Victory Road 2F - Juggler Nelson Reward"
           },
           {
-            "name": "2F - Item Above Plateau"
+            "name": "Victory Road 2F - Item Above Plateau"
           },
           {
-            "name": "2F - Tamer Vincent Reward"
+            "name": "Victory Road 2F - Tamer Vincent Reward"
           },
           {
-            "name": "2F - Juggler Gregory Reward"
+            "name": "Victory Road 2F - Juggler Gregory Reward"
           },
           {
-            "name": "2F - Northeast Item"
+            "name": "Victory Road 2F - Northeast Item"
           },
           {
-            "name": "3F - Cooltrainer George Reward"
+            "name": "Victory Road 3F - Cooltrainer George Reward"
           },
           {
-            "name": "3F - Northeast Item"
+            "name": "Victory Road 3F - Northeast Item"
           },
           {
-            "name": "3F - Northwest Item"
+            "name": "Victory Road 3F - Northwest Item"
           },
           {
-            "name": "2F - PokéManiac Dawson Reward"
+            "name": "Victory Road 2F - PokeManiac Dawson Reward"
           },
           {
-            "name": "2F - Northwest Item"
+            "name": "Victory Road 2F - Northwest Item"
           },
           {
-            "name": "3F - Cooltrainer Alexa Reward"
+            "name": "Victory Road 3F - Cooltrainer Alexa Reward"
           },
           {
-            "name": "3F - Cooltrainer Colby Reward"
+            "name": "Victory Road 3F - Cooltrainer Colby Reward"
           },
           {
-            "name": "3F - Cooltrainer Caroline Reward"
+            "name": "Victory Road 3F - Cooltrainer Caroline Reward"
           },
           {
-            "name": "3F - Cool Couple Ray & Tyra Reward"
+            "name": "Victory Road 3F - Cool Couple Ray & Tyra Reward"
           }
         ],
         "map_locations": [
           {
             "map": "route_23_north",
             "x": 88,
-            "y": 456,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 456
           },
           {
             "map": "route_23_north",
             "x": 296,
-            "y": 456,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 456
           }
         ]
       },
       {
-        "name": "Mt. Ember Overview",
+        "name": "Mt. Ember",
         "sections": [
           {
-            "name": "Exterior - Pokémon Ranger Beth Reward"
+            "name": "Mt. Ember Exterior - Pokemon Ranger Beth Reward"
           },
           {
-            "name": "Exterior - Hidden Item Near West Cave Entrance"
+            "name": "Mt. Ember Exterior - Hidden Item Near West Cave Entrance"
           },
           {
-            "name": "Exterior - Pokémon Ranger Logan Reward"
+            "name": "Mt. Ember Exterior - Pokemon Ranger Logan Reward"
           },
           {
-            "name": "Exterior - Crush Girl Jocelyn Reward"
+            "name": "Mt. Ember Exterior - Crush Girl Jocelyn Reward"
           },
           {
-            "name": "Exterior - East Item"
+            "name": "Mt. Ember Exterior - East Item"
           },
           {
-            "name": "Exterior - Item Near Summit"
+            "name": "Mt. Ember Exterior - Item Near Summit"
           },
           {
-            "name": "Exterior - Northwest Rock Hidden Item"
+            "name": "Mt. Ember Exterior - Northwest Rock Hidden Item"
           },
           {
-            "name": "Exterior - Northwest Item"
+            "name": "Mt. Ember Exterior - Northwest Item"
           },
           {
-            "name": "Exterior - Team Rocket Grunt Reward (Left)"
+            "name": "Mt. Ember Exterior - Team Rocket Grunt Reward (Left)"
           },
           {
-            "name": "Exterior - Team Rocket Grunt Reward (Right)"
+            "name": "Mt. Ember Exterior - Team Rocket Grunt Reward (Right)"
           },
           {
-            "name": "Ruby Path B5F - Ruby"
+            "name": "Mt. Ember Ruby Path B5F - Ruby"
           }
         ],
         "map_locations": [
           {
             "map": "kindle_road_north",
             "x": 192,
-            "y": 88,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 88
           }
         ]
       },
       {
-        "name": "Berry Forest Overview",
+        "name": "Berry Forest",
         "sections": [
           {
-            "name": "Center Hidden Item (Right)"
+            "name": "Berry Forest - Center Hidden Item (Right)"
           },
           {
-            "name": "East Hidden Item (Left)"
+            "name": "Berry Forest - East Hidden Item (Left)"
           },
           {
-            "name": "Southeast Hidden Item"
+            "name": "Berry Forest - Southeast Hidden Item"
           },
           {
-            "name": "East Hidden Item (Right)"
+            "name": "Berry Forest - East Hidden Item (Right)"
           },
           {
-            "name": "Northeast Hidden Item"
+            "name": "Berry Forest - Northeast Hidden Item"
           },
           {
-            "name": "Item Near North Pond"
+            "name": "Berry Forest - Item Near North Pond"
           },
           {
-            "name": "Center Hidden Item (Left)"
+            "name": "Berry Forest - Center Hidden Item (Left)"
           },
           {
-            "name": "Hidden Item Near West Pond (Right)"
+            "name": "Berry Forest - Hidden Item Near West Pond (Right)"
           },
           {
-            "name": "Hidden Item Near West Pond (Left)"
+            "name": "Berry Forest - Hidden Item Near West Pond (Left)"
           },
           {
-            "name": "Northwest Hidden Item (Bottom)"
+            "name": "Berry Forest - Northwest Hidden Item (Bottom)"
           },
           {
-            "name": "Northwest Item"
+            "name": "Berry Forest - Northwest Item"
           },
           {
-            "name": "Northwest Hidden Item (Top)"
+            "name": "Berry Forest - Northwest Hidden Item (Top)"
           },
           {
-            "name": "North Hidden Item"
+            "name": "Berry Forest - North Hidden Item"
           },
           {
-            "name": "Hidden Item Near Southwest Pond"
+            "name": "Berry Forest - Hidden Item Near Southwest Pond"
           },
           {
-            "name": "Item Past Southwest Pond"
+            "name": "Berry Forest - Item Past Southwest Pond"
           },
           {
-            "name": "Lostelle Gift"
+            "name": "Berry Forest - Lostelle Gift"
           },
           {
-            "name": "Hidden Item Near Lostelle"
+            "name": "Berry Forest - Hidden Item Near Lostelle"
           }
         ],
         "map_locations": [
           {
             "map": "bond_bridge_west",
             "x": 208,
-            "y": 104,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 104
           }
         ]
       },
       {
-        "name": "Icefall Cave Overview",
+        "name": "Icefall Cave",
         "sections": [
           {
-            "name": "1F - Center Item"
+            "name": "Icefall Cave 1F - Center Item"
           },
           {
-            "name": "B1F - East Item"
+            "name": "Icefall Cave B1F - East Item"
           },
           {
-            "name": "B1F - Southwest Item"
+            "name": "Icefall Cave B1F - Southwest Item"
           },
           {
-            "name": "1F - Southeast Ledge Item"
+            "name": "Icefall Cave 1F - Southeast Ledge Item"
           },
           {
-            "name": "Back - Team Rocket Grunt Reward"
+            "name": "Icefall Cave Back - Team Rocket Grunt Reward"
           },
           {
-            "name": "Back - Lorelei Gift"
+            "name": "Icefall Cave Back - Lorelei Gift"
           }
         ],
         "map_locations": [
           {
             "map": "four_island",
             "x": 616,
-            "y": 200,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 200
           }
         ]
       },
       {
-        "name": "Rocket Warehouse Overview",
+        "name": "Rocket Warehouse",
         "sections": [
           {
-            "name": "Maze South Item"
+            "name": "Rocket Warehouse - Maze South Item"
           },
           {
-            "name": "Maze West Item"
+            "name": "Rocket Warehouse - Maze West Item"
           },
           {
-            "name": "Northwest Room Item"
+            "name": "Rocket Warehouse - Northwest Room Item"
           },
           {
-            "name": "Northwest Room Team Rocket Grunt Reward"
+            "name": "Rocket Warehouse - Northwest Room Team Rocket Grunt Reward"
           },
           {
-            "name": "Maze Team Rocket Grunt Reward (Left)"
+            "name": "Rocket Warehouse - Maze Team Rocket Grunt Reward (Left)"
           },
           {
-            "name": "Maze Center Box Hidden Item"
+            "name": "Rocket Warehouse - Maze Center Box Hidden Item"
           },
           {
-            "name": "North Room Item"
+            "name": "Rocket Warehouse - North Room Item"
           },
           {
-            "name": "Maze Team Rocket Grunt Reward (Right)"
+            "name": "Rocket Warehouse - Maze Team Rocket Grunt Reward (Right)"
           },
           {
-            "name": "Southeast Room Team Rocket Admin Reward"
+            "name": "Rocket Warehouse - Southeast Room Team Rocket Admin Reward"
           },
           {
-            "name": "East Room Team Rocket Admin Reward"
+            "name": "Rocket Warehouse - East Room Team Rocket Admin Reward"
           },
           {
-            "name": "Scientist Gideon Reward"
+            "name": "Rocket Warehouse - Scientist Gideon Reward"
           },
           {
-            "name": "Recover Stolen Gem"
+            "name": "Rocket Warehouse - Recover Stolen Gem"
           },
           {
-            "name": "Scientist Gideon Info"
+            "name": "Rocket Warehouse - Scientist Gideon Info"
           },
           {
-            "name": "Northeast Room Box Hidden Item"
+            "name": "Rocket Warehouse - Northeast Room Box Hidden Item"
           }
         ],
         "map_locations": [
           {
             "map": "five_isle_meadow",
             "x": 200,
-            "y": 344,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 344
           }
         ]
       },
       {
-        "name": "Lost Cave Overview",
+        "name": "Lost Cave",
         "sections": [
           {
-            "name": "B1F Room 1 - Ruin Maniac Lawson Reward"
+            "name": "Lost Cave B1F Room 1 - Ruin Maniac Lawson Reward"
           },
           {
-            "name": "B1F Room 11 - Item"
+            "name": "Lost Cave B1F Room 11 - Item"
           },
           {
-            "name": "B1F Room 4 - Psychic Laura Reward"
+            "name": "Lost Cave B1F Room 4 - Psychic Laura Reward"
           },
           {
-            "name": "B1F Room 12 - Item"
+            "name": "Lost Cave B1F Room 12 - Item"
           },
           {
-            "name": "B1F Room 13 - Item"
+            "name": "Lost Cave B1F Room 13 - Item"
           },
           {
-            "name": "B1F Room 14 - Item"
+            "name": "Lost Cave B1F Room 14 - Item"
           },
           {
-            "name": "B1F Room 10 - Lady Selphy Reward"
+            "name": "Lost Cave B1F Room 10 - Lady Selphy Reward"
           },
           {
-            "name": "B1F Room 10 - Item"
+            "name": "Lost Cave B1F Room 10 - Item"
           }
         ],
         "map_locations": [
           {
             "map": "resort_gorgeous_east",
             "x": 440,
-            "y": 216,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 216
           }
         ]
       },
       {
-        "name": "Dotted Hole Overview",
+        "name": "Dotted Hole",
         "sections": [
           {
-            "name": "1F - Dropped Item"
+            "name": "Dotted Hole 1F - Dropped Item"
           }
         ],
         "map_locations": [
           {
             "map": "ruin_valley",
             "x": 392,
-            "y": 392,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 392
           }
         ]
       },
       {
-        "name": "Pattern Bush Overview",
+        "name": "Pattern Bush",
         "sections": [
           {
-            "name": "Youngster Cordell Reward"
+            "name": "Pattern Bush - Youngster Cordell Reward"
           },
           {
-            "name": "Pokémon Breeder Bethany Reward"
+            "name": "Pattern Bush - Pokemon Breeder Bethany Reward"
           },
           {
-            "name": "Bug Catcher Garret Reward"
+            "name": "Pattern Bush - Bug Catcher Garret Reward"
           },
           {
-            "name": "Lass Joana Reward"
+            "name": "Pattern Bush - Lass Joana Reward"
           },
           {
-            "name": "Youngster Nash Reward"
+            "name": "Pattern Bush - Youngster Nash Reward"
           },
           {
-            "name": "Bug Catcher Vance Reward"
+            "name": "Pattern Bush - Bug Catcher Vance Reward"
           },
           {
-            "name": "Ruin Maniac Layton Reward"
+            "name": "Pattern Bush - Ruin Maniac Layton Reward"
           },
           {
-            "name": "Picnicker Marcy Reward"
+            "name": "Pattern Bush - Picnicker Marcy Reward"
           },
           {
-            "name": "Lass Dalia Reward"
+            "name": "Pattern Bush - Lass Dalia Reward"
           },
           {
-            "name": "Bug Catcher Jonah Reward"
+            "name": "Pattern Bush - Bug Catcher Jonah Reward"
           },
           {
-            "name": "Pokémon Breeder Allison Reward"
+            "name": "Pattern Bush - Pokemon Breeder Allison Reward"
           },
           {
-            "name": "Camper Riley Reward"
+            "name": "Pattern Bush - Camper Riley Reward"
           }
         ],
         "map_locations": [
           {
             "map": "green_path_east",
             "x": 160,
-            "y": 168,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 168
           },
           {
             "map": "green_path_east",
             "x": 448,
-            "y": 168,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 168
           }
         ]
       },
       {
-        "name": "Cerulean Cave Overview",
+        "name": "Cerulean Cave",
         "sections": [
           {
-            "name": "2F - East Item"
+            "name": "Cerulean Cave 2F - East Item"
           },
           {
-            "name": "1F - West Plateau Hidden Item"
+            "name": "Cerulean Cave 1F - West Plateau Hidden Item"
           },
           {
-            "name": "1F - West Plateau Item"
+            "name": "Cerulean Cave 1F - West Plateau Item"
           },
           {
-            "name": "2F - West Item"
+            "name": "Cerulean Cave 2F - West Item"
           },
           {
-            "name": "1F - Southwest Item"
+            "name": "Cerulean Cave 1F - Southwest Item"
           },
           {
-            "name": "2F - Center Item"
+            "name": "Cerulean Cave 2F - Center Item"
           },
           {
-            "name": "1F - East Plateau Item"
+            "name": "Cerulean Cave 1F - East Plateau Item"
           },
           {
-            "name": "B1F - Northeast Item"
+            "name": "Cerulean Cave B1F - Northeast Item"
           },
           {
-            "name": "B1F - East Plateau Item"
+            "name": "Cerulean Cave B1F - East Plateau Item"
           }
         ],
         "map_locations": [
           {
             "map": "cerulean_city",
             "x": 24,
-            "y": 200,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 200
           }
         ]
       },
@@ -1467,7 +1438,6 @@
         "name": "Navel Rock Exterior",
         "sections": [
           {
-            "ref": "Islands/Navel Rock/Hidden Item Near Ho-Oh",
             "name": "Hidden Item Near Ho-Oh"
           }
         ],
@@ -1475,8 +1445,7 @@
           {
             "map": "navel_rock_exterior",
             "x": 152,
-            "y": 136,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 136
           }
         ]
       }

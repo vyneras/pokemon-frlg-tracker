@@ -1,13 +1,12 @@
 [
   {
-    "name": "Pokémon Mansion 1F",
+    "name": "Pokemon Mansion 1F",
     "children": [
       {
-        "name": "Pokémon Mansion 1F West Rubble Hidden Item",
+        "name": "West Rubble Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/1F - West Rubble Hidden Item",
-            "name": "Hidden Item"
+            "name": "Pokemon Mansion 1F - West Rubble Hidden Item"
           }
         ],
         "map_locations": [
@@ -19,11 +18,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion 1F Item Between North Pillars",
+        "name": "Item Between North Pillars",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/1F - Item Between North Pillars",
-            "name": "Item"
+            "name": "Pokemon Mansion 1F - Item Between North Pillars"
           }
         ],
         "map_locations": [
@@ -35,11 +33,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion 1F Item Behind Gate",
+        "name": "Item Behind Gate",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/1F - Item Behind Gate",
-            "name": "Item"
+            "name": "Pokemon Mansion 1F - Item Behind Gate"
           }
         ],
         "map_locations": [
@@ -51,11 +48,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion 1F Item Near B1F Stairs",
+        "name": "Item Near B1F Stairs",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/1F - Item Near B1F Stairs",
-            "name": "Item"
+            "name": "Pokemon Mansion 1F - Item Near B1F Stairs"
           }
         ],
         "map_locations": [
@@ -70,8 +66,7 @@
         "name": "Youngster Johnson",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/1F - Youngster Johnson Reward",
-            "name": "Reward"
+            "name": "Pokemon Mansion 1F - Youngster Johnson Reward"
           }
         ],
         "map_locations": [
@@ -86,8 +81,7 @@
         "name": "Scientist Ted",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/1F - Scientist Ted Reward",
-            "name": "Reward"
+            "name": "Pokemon Mansion 1F - Scientist Ted Reward"
           }
         ],
         "map_locations": [
@@ -101,14 +95,13 @@
     ]
   },
   {
-    "name": "Pokémon Mansion 2F",
+    "name": "Pokemon Mansion 2F",
     "children": [
       {
-        "name": "Pokémon Mansion 2F Item Near East Balcony",
+        "name": "Item Near East Balcony",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/2F - Item Near East Balcony",
-            "name": "Item"
+            "name": "Pokemon Mansion 2F - Item Near East Balcony"
           }
         ],
         "map_locations": [
@@ -120,11 +113,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion 2F West Balcony Item",
+        "name": "West Balcony Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/2F - West Balcony Item",
-            "name": "Item"
+            "name": "Pokemon Mansion 2F - West Balcony Item"
           }
         ],
         "map_locations": [
@@ -136,11 +128,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion 2F Northeast Room Item",
+        "name": "Northeast Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/2F - Northeast Room Item",
-            "name": "Item"
+            "name": "Pokemon Mansion 2F - Northeast Room Item"
           }
         ],
         "map_locations": [
@@ -155,8 +146,7 @@
         "name": "Burglar Arnie",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/2F - Burglar Arnie Reward",
-            "name": "Reward"
+            "name": "Pokemon Mansion 2F - Burglar Arnie Reward"
           }
         ],
         "map_locations": [
@@ -170,14 +160,13 @@
     ]
   },
   {
-    "name": "Pokémon Mansion 3F",
+    "name": "Pokemon Mansion 3F",
     "children": [
       {
-        "name": "Pokémon Mansion 3F Southwest Room Item",
+        "name": "Southwest Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/3F - Southwest Room Item",
-            "name": "Item"
+            "name": "Pokemon Mansion 3F - Southwest Room Item"
           }
         ],
         "map_locations": [
@@ -189,11 +178,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion 3F Northeast Room Item",
+        "name": "Northeast Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/3F - Northeast Room Item",
-            "name": "Item"
+            "name": "Pokemon Mansion 3F - Northeast Room Item"
           }
         ],
         "map_locations": [
@@ -205,11 +193,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion 3F East Hallway Hidden Item",
+        "name": "East Hallway Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/3F - East Hallway Hidden Item",
-            "name": "Hidden Item"
+            "name": "Pokemon Mansion 3F - East Hallway Hidden Item"
           }
         ],
         "map_locations": [
@@ -224,8 +211,7 @@
         "name": "Burglar Simon",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/3F - Burglar Simon Reward",
-            "name": "Reward"
+            "name": "Pokemon Mansion 3F - Burglar Simon Reward"
           }
         ],
         "map_locations": [
@@ -240,8 +226,7 @@
         "name": "Scientist Braydon",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/3F - Scientist Braydon Reward",
-            "name": "Reward"
+            "name": "Pokemon Mansion 3F - Scientist Braydon Reward"
           }
         ],
         "map_locations": [
@@ -255,14 +240,13 @@
     ]
   },
   {
-    "name": "Pokémon Mansion B1F",
+    "name": "Pokemon Mansion B1F",
     "children": [
       {
-        "name": "Pokémon Mansion B1F Southwest Hallway Item",
+        "name": "Southwest Hallway Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/B1F - Southwest Hallway Item",
-            "name": "Item"
+            "name": "Pokemon Mansion B1F - Southwest Hallway Item"
           }
         ],
         "map_locations": [
@@ -274,11 +258,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion B1F Northeast Room Hidden Item",
+        "name": "Northeast Room Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/B1F - Northeast Room Hidden Item",
-            "name": "Hidden Item"
+            "name": "Pokemon Mansion B1F - Northeast Room Hidden Item"
           }
         ],
         "map_locations": [
@@ -290,11 +273,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion B1F North Room Item",
+        "name": "North Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/B1F - North Room Item",
-            "name": "Item"
+            "name": "Pokemon Mansion B1F - North Room Item"
           }
         ],
         "map_locations": [
@@ -306,11 +288,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion B1F Northwest Room Item",
+        "name": "Northwest Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/B1F - Northwest Room Item",
-            "name": "Item"
+            "name": "Pokemon Mansion B1F - Northwest Room Item"
           }
         ],
         "map_locations": [
@@ -322,11 +303,10 @@
         ]
       },
       {
-        "name": "Pokémon Mansion B1F West Room Item",
+        "name": "West Room Item",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/B1F - West Room Item",
-            "name": "Item"
+            "name": "Pokemon Mansion B1F - West Room Item"
           }
         ],
         "map_locations": [
@@ -341,8 +321,7 @@
         "name": "Burglar Lewis",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/B1F - Burglar Lewis Reward",
-            "name": "Reward"
+            "name": "Pokemon Mansion B1F - Burglar Lewis Reward"
           }
         ],
         "map_locations": [
@@ -357,8 +336,7 @@
         "name": "Scientist Ivan",
         "sections": [
           {
-            "ref": "Dungeons/Pokémon Mansion/B1F - Scientist Ivan Reward",
-            "name": "Reward"
+            "name": "Pokemon Mansion B1F - Scientist Ivan Reward"
           }
         ],
         "map_locations": [

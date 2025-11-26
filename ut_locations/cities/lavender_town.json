@@ -6,7 +6,6 @@
         "name": "Lavender Town Visit",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           }
         ],
@@ -21,13 +20,12 @@
     ]
   },
   {
-    "name": "Lavender Pokémon Center 1F",
+    "name": "Lavender Pokemon Center 1F",
     "children": [
       {
-        "name": "Lavender Pokémon Center PC",
+        "name": "Lavender Pokemon Center PC",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/PC Item",
             "name": "Item"
           }
         ],
@@ -40,11 +38,10 @@
         ]
       },
       {
-        "name": "Lavender Pokémon Center Balding Man",
+        "name": "Balding Man",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Balding Man Info",
-            "name": "Info"
+            "name": "Lavender Pokemon Center 1F - Balding Man Info"
           }
         ],
         "map_locations": [
@@ -58,14 +55,13 @@
     ]
   },
   {
-    "name": "Volunteer Pokémon House",
+    "name": "Volunteer Pokemon House",
     "children": [
       {
-        "name": "Volunteer Pokémon House Little Girl",
+        "name": "Little Girl",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Little Girl Info",
-            "name": "Info"
+            "name": "Volunteer Pokemon House - Little Girl Info"
           }
         ],
         "map_locations": [
@@ -77,11 +73,10 @@
         ]
       },
       {
-        "name": "Volunteer Pokémon House Journal",
+        "name": "Journal",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Journal Info",
-            "name": "Info"
+            "name": "Volunteer Pokemon House - Journal Info"
           }
         ],
         "map_locations": [
@@ -93,11 +88,10 @@
         ]
       },
       {
-        "name": "Volunteer Pokémon House Mr. Fuji",
+        "name": "Mr. Fuji",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Mr. Fuji Gift",
-            "name": "Gift"
+            "name": "Volunteer Pokemon House - Mr. Fuji Gift"
           }
         ],
         "map_locations": [
@@ -111,45 +105,36 @@
     ]
   },
   {
-    "name": "Lavender Mart",
+    "name": "Lavender Poke Mart",
     "children": [
       {
-        "name": "Lavender Poké Mart Clerk",
+        "name": "Lavender Poke Mart Clerk",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Lavender Town/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Lavender Town/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Lavender Town/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Lavender Town/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Lavender Town/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Cities/Lavender Town/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Cities/Lavender Town/Shop Item 8",
             "name": "Shop Item 8"
           },
           {
-            "ref": "Cities/Lavender Town/Shop Item 9",
             "name": "Shop Item 9"
           }
         ],

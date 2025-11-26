@@ -1,41 +1,33 @@
 [
   {
-    "name": "Building Overview",
+    "name": "Buildings",
     "children": [
       {
-        "name": "Oak's Lab",
+        "name": "Professor Oak's Lab",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Rival Reward",
-            "name": "Rival Reward"
+            "name": "Professor Oak's Lab - Rival Reward"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Gift 1 (Deliver Parcel)",
-            "name": "Oak Gift 1 (Deliver Parcel)"
+            "name": "Professor Oak's Lab - Oak Gift 1 (Deliver Parcel)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Gift 2 (Deliver Parcel)",
-            "name": "Oak Gift 2 (Deliver Parcel)"
+            "name": "Professor Oak's Lab - Oak Gift 2 (Deliver Parcel)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Info",
-            "name": "Oak Info"
+            "name": "Professor Oak's Lab - Oak Info"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Gift (Post Route 22 Rival)",
-            "name": "Oak Gift (Post Route 22 Rival)"
+            "name": "Professor Oak's Lab - Oak Gift (Post Route 22 Rival)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Aide F Info",
-            "name": "Oak's Aide F Info"
+            "name": "Professor Oak's Lab - Oak's Aide F Info"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Aide M Info (Right)",
-            "name": "Oak's Aide M Info (Right)"
+            "name": "Professor Oak's Lab - Oak's Aide M Info (Right)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak's Aide M Info (Left)",
-            "name": "Oak's Aide M Info (Left)"
+            "name": "Professor Oak's Lab - Oak's Aide M Info (Left)"
           }
         ],
         "map_locations": [
@@ -50,8 +42,7 @@
         "name": "Rival's House",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Daisy Gift",
-            "name": "Daisy Gift"
+            "name": "Rival's House - Daisy Gift"
           }
         ],
         "map_locations": [
@@ -66,12 +57,10 @@
         "name": "Viridian School",
         "sections": [
           {
-            "ref": "Cities/Viridian City/Bookshelf Info 1",
-            "name": "Bookshelf Info 1"
+            "name": "Viridian School - Bookshelf Info 1"
           },
           {
-            "ref": "Cities/Viridian City/Bookshelf Info 2",
-            "name": "Bookshelf Info 2"
+            "name": "Viridian School - Bookshelf Info 2"
           }
         ],
         "map_locations": [
@@ -86,8 +75,7 @@
         "name": "Pewter Museum (West)",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Pewter Museum Item",
-            "name": "Item"
+            "name": "Pewter Museum 2F - Item"
           }
         ],
         "map_locations": [
@@ -102,12 +90,10 @@
         "name": "Pewter Museum (East)",
         "sections": [
           {
-            "ref": "Cities/Pewter City/Scientist Gift",
-            "name": "Scientist Gift"
+            "name": "Pewter Museum 1F - Scientist Gift"
           },
           {
-            "ref": "Cities/Pewter City/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Pewter Museum 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -122,8 +108,7 @@
         "name": "Berry Powder Man's House",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Berry Powder Man Gift",
-            "name": "Berry Powder Man Gift"
+            "name": "Berry Powder Man's House - Berry Powder Man Gift"
           }
         ],
         "map_locations": [
@@ -138,8 +123,7 @@
         "name": "Bike Shop",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Bicycle Purchase",
-            "name": "Bicycle Purchase"
+            "name": "Bike Shop - Bicycle Purchase"
           }
         ],
         "map_locations": [
@@ -154,8 +138,7 @@
         "name": "Vermilion Fishing House",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/Fishing Guru Gift",
-            "name": "Fishing Guru Gift"
+            "name": "Vermilion Fishing House - Fishing Guru Gift"
           }
         ],
         "map_locations": [
@@ -167,15 +150,13 @@
         ]
       },
       {
-        "name": "Pokémon Fan Club",
+        "name": "Pokemon Fan Club",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/Pokémon Fan Club Chairman Gift",
-            "name": "Chairman Gift"
+            "name": "Pokemon Fan Club - Chairman Gift"
           },
           {
-            "ref": "Cities/Vermilion City/Pokémon Fan Club Worker Info",
-            "name": "Worker Info"
+            "name": "Pokemon Fan Club - Worker Info"
           }
         ],
         "map_locations": [
@@ -187,19 +168,16 @@
         ]
       },
       {
-        "name": "Volunteer Pokémon House",
+        "name": "Volunteer Pokemon House",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/Little Girl Info",
-            "name": "Little Girl Info"
+            "name": "Volunteer Pokemon House - Little Girl Info"
           },
           {
-            "ref": "Cities/Lavender Town/Journal Info",
-            "name": "Journal Info"
+            "name": "Volunteer Pokemon House - Journal Info"
           },
           {
-            "ref": "Cities/Lavender Town/Mr. Fuji Gift",
-            "name": "Mr. Fuji Gift"
+            "name": "Volunteer Pokemon House - Mr. Fuji Gift"
           }
         ],
         "map_locations": [
@@ -214,28 +192,22 @@
         "name": "Celadon Condominiums (Front)",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Tea Woman Gift",
-            "name": "Tea Woman Gift"
+            "name": "Celadon Condominiums 1F - Tea Woman Gift"
           },
           {
-            "ref": "Cities/Celadon City/Tea Woman Info",
-            "name": "Tea Woman Info"
+            "name": "Celadon Condominiums 1F - Tea Woman Info"
           },
           {
-            "ref": "Cities/Celadon City/Brock Gift",
-            "name": "Brock Gift"
+            "name": "Celadon Condominiums 1F - Brock Gift"
           },
           {
-            "ref": "Cities/Celadon City/Misty Gift",
-            "name": "Misty Gift"
+            "name": "Celadon Condominiums 1F - Misty Gift"
           },
           {
-            "ref": "Cities/Celadon City/Erika Gift",
-            "name": "Erika Gift"
+            "name": "Celadon Condominiums 1F - Erika Gift"
           },
           {
-            "ref": "Cities/Celadon City/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Celadon Condominiums 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -250,168 +222,127 @@
         "name": "Celadon Department Store",
         "sections": [
           {
-            "ref": "Cities/Celadon City/TM Shop Item 1",
             "name": "TM Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 2",
             "name": "TM Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 3",
             "name": "TM Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 4",
             "name": "TM Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 5",
             "name": "TM Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/TM Shop Item 6",
             "name": "TM Shop Item 6"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 8",
             "name": "Shop Item 8"
           },
           {
-            "ref": "Cities/Celadon City/Shop Item 9",
             "name": "Shop Item 9"
           },
           {
-            "ref": "Cities/Celadon City/Woman Info",
-            "name": "Woman Info"
+            "name": "Celadon Department Store 2F - Woman Info"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 1",
             "name": "Evo Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 2",
             "name": "Evo Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 3",
             "name": "Evo Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 4",
             "name": "Evo Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 5",
             "name": "Evo Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Evo Shop Item 6",
             "name": "Evo Shop Item 6"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 1",
             "name": "Vitamin Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 2",
             "name": "Vitamin Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 3",
             "name": "Vitamin Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 4",
             "name": "Vitamin Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 5",
             "name": "Vitamin Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Vitamin Shop Item 6",
             "name": "Vitamin Shop Item 6"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 1",
             "name": "Battle Shop Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 2",
             "name": "Battle Shop Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 3",
             "name": "Battle Shop Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 4",
             "name": "Battle Shop Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 5",
             "name": "Battle Shop Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 6",
             "name": "Battle Shop Item 6"
           },
           {
-            "ref": "Cities/Celadon City/Battle Shop Item 7",
             "name": "Battle Shop Item 7"
           },
           {
-            "ref": "Cities/Celadon City/Vending Machine Item 1",
             "name": "Vending Machine Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Vending Machine Item 3",
             "name": "Vending Machine Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Vending Machine Item 3",
             "name": "Vending Machine Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Fresh Water)",
-            "name": "Thirsty Girl Gift (Give Fresh Water)"
+            "name": "Celadon Department Store Roof - Thirsty Girl Gift (Give Fresh Water)"
           },
           {
-            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Soda Pop)",
-            "name": "Thirsty Girl Gift (Give Soda Pop)"
+            "name": "Celadon Department Store Roof - Thirsty Girl Gift (Give Soda Pop)"
           },
           {
-            "ref": "Cities/Celadon City/Thirsty Girl Gift (Give Lemonade)",
-            "name": "Thirsty Girl Gift (Give Lemonade)"
+            "name": "Celadon Department Store Roof - Thirsty Girl Gift (Give Lemonade)"
           }
         ],
         "map_locations": [
@@ -431,8 +362,7 @@
         "name": "Celadon Restaurant",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Coin Case Man Gift",
-            "name": "Coin Case Man Gift"
+            "name": "Celadon Restaurant - Coin Case Man Gift"
           }
         ],
         "map_locations": [
@@ -447,8 +377,7 @@
         "name": "Celadon Rocket House",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Rocket House Item",
-            "name": "Item"
+            "name": "Celadon Rocket House - Item"
           }
         ],
         "map_locations": [
@@ -463,8 +392,7 @@
         "name": "Celadon Hotel",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Hotel Item",
-            "name": "Item"
+            "name": "Celadon Hotel - Item"
           }
         ],
         "map_locations": [
@@ -479,68 +407,52 @@
         "name": "Celadon Game Corner",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Fisherman Gift",
-            "name": "Fisherman Gift"
+            "name": "Celadon Game Corner - Fisherman Gift"
           },
           {
-            "ref": "Cities/Celadon City/Scientist Gift",
-            "name": "Scientist Gift"
+            "name": "Celadon Game Corner - Scientist Gift"
           },
           {
-            "ref": "Cities/Celadon City/Gentleman Gift",
-            "name": "Gentleman Gift"
+            "name": "Celadon Game Corner - Gentleman Gift"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Southwest Hidden Item",
-            "name": "Southwest Hidden Item"
+            "name": "Celadon Game Corner - Southwest Hidden Item"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner South Hidden Item (Left)",
-            "name": "South Hidden Item (Left)"
+            "name": "Celadon Game Corner - South Hidden Item (Left)"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner South Hidden Item (Right)",
-            "name": "South Hidden Item (Right)"
+            "name": "Celadon Game Corner - South Hidden Item (Right)"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Southeast Hidden Item",
-            "name": "Southeast Hidden Item"
+            "name": "Celadon Game Corner - Southeast Hidden Item"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner West Hidden Item",
-            "name": "West Hidden Item"
+            "name": "Celadon Game Corner - West Hidden Item"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Center Hidden Item",
-            "name": "Center Hidden Item"
+            "name": "Celadon Game Corner - Center Hidden Item"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner East Hidden Item (Left)",
-            "name": "East Hidden Item (Left)"
+            "name": "Celadon Game Corner - East Hidden Item (Left)"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner East Hidden Item (Right)",
-            "name": "East Hidden Item (Right)"
+            "name": "Celadon Game Corner - East Hidden Item (Right)"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Northwest Hidden Item",
-            "name": "Northwest Hidden Item"
+            "name": "Celadon Game Corner - Northwest Hidden Item"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner North Hidden Item (Left)",
-            "name": "North Hidden Item (Left)"
+            "name": "Celadon Game Corner - North Hidden Item (Left)"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner North Hidden Item (Right)",
-            "name": "North Hidden Item (Right)"
+            "name": "Celadon Game Corner - North Hidden Item (Right)"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Northeast Hidden Item",
-            "name": "Northeast Hidden Item"
+            "name": "Celadon Game Corner - Northeast Hidden Item"
           },
           {
-            "ref": "Cities/Celadon City/Team Rocket Grunt Reward",
-            "name": "Team Rocket Grunt Reward"
+            "name": "Celadon Game Corner - Team Rocket Grunt Reward"
           }
         ],
         "map_locations": [
@@ -555,43 +467,33 @@
         "name": "Celadon Game Corner Prize Room",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 1",
             "name": "Prize Item 1"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 2",
             "name": "Prize Item 2"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 3",
             "name": "Prize Item 3"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 4",
             "name": "Prize Item 4"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize Item 5",
             "name": "Prize Item 5"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 1",
             "name": "Prize TM 1"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 2",
             "name": "Prize TM 2"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 3",
             "name": "Prize TM 3"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 4",
             "name": "Prize TM 4"
           },
           {
-            "ref": "Cities/Celadon City/Game Corner Prize TM 5",
             "name": "Prize TM 5"
           }
         ],
@@ -607,8 +509,7 @@
         "name": "Fuchsia Fishing House",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Fishing Guru Gift",
-            "name": "Fishing Guru Gift"
+            "name": "Fuchsia Fishing House - Fishing Guru Gift"
           }
         ],
         "map_locations": [
@@ -623,16 +524,13 @@
         "name": "Safari Zone Warden's House",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Safari Zone Warden Gift (Return Teeth)",
-            "name": "Safari Zone Warden Gift (Return Teeth)"
+            "name": "Safari Zone Warden's House - Warden Gift (Return Teeth)"
           },
           {
-            "ref": "Cities/Fuchsia City/Safari Zone Warden's House Item",
-            "name": "Item"
+            "name": "Safari Zone Warden's House - Item"
           },
           {
-            "ref": "Cities/Fuchsia City/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Safari Zone Warden's House - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -647,8 +545,7 @@
         "name": "Safari Zone Office",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Safari Zone Worker Gift",
-            "name": "Safari Zone Worker Gift"
+            "name": "Safari Zone Office - Safari Zone Worker Gift"
           }
         ],
         "map_locations": [
@@ -663,8 +560,7 @@
         "name": "Bill's Grandpa's House",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/Bill's Grandpa Info",
-            "name": "Bill's Grandpa Info"
+            "name": "Bill's Grandpa's House - Bill's Grandpa Info"
           }
         ],
         "map_locations": [
@@ -679,8 +575,7 @@
         "name": "Mr. Psychic's House",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Mr. Psychic Gift",
-            "name": "Mr. Psychic Gift"
+            "name": "Mr. Psychic's House - Mr. Psychic Gift"
           }
         ],
         "map_locations": [
@@ -692,11 +587,10 @@
         ]
       },
       {
-        "name": "Pokémon Trainer Fan Club",
+        "name": "Pokemon Trainer Fan Club",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Pokémon Trainer Fan Club Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Pokemon Trainer Fan Club - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -711,28 +605,22 @@
         "name": "Saffron Dojo",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Black Belt Hideki Reward",
-            "name": "Black Belt Hideki Reward"
+            "name": "Saffron Dojo - Black Belt Hideki Reward"
           },
           {
-            "ref": "Cities/Saffron City/Black Belt Hitoshi Reward",
-            "name": "Black Belt Hitoshi Reward"
+            "name": "Saffron Dojo - Black Belt Hitoshi Reward"
           },
           {
-            "ref": "Cities/Saffron City/Black Belt Mike Reward",
-            "name": "Black Belt Mike Reward"
+            "name": "Saffron Dojo - Black Belt Mike Reward"
           },
           {
-            "ref": "Cities/Saffron City/Black Belt Aaron Reward",
-            "name": "Black Belt Aaron Reward"
+            "name": "Saffron Dojo - Black Belt Aaron Reward"
           },
           {
-            "ref": "Cities/Saffron City/Black Belt Koichi Reward",
-            "name": "Black Belt Koichi Reward"
+            "name": "Saffron Dojo - Black Belt Koichi Reward"
           },
           {
-            "ref": "Cities/Saffron City/Dojo Item (Center)",
-            "name": "Item (Center)"
+            "name": "Saffron Dojo - Item (Center)"
           }
         ],
         "map_locations": [
@@ -747,8 +635,7 @@
         "name": "Copycat's House",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Copycat's House Desk Hidden Item",
-            "name": "Desk Hidden Item"
+            "name": "Copycat's House 2F - Desk Hidden Item"
           }
         ],
         "map_locations": [
@@ -760,15 +647,13 @@
         ]
       },
       {
-        "name": "Pokémon Lab",
+        "name": "Pokemon Lab",
         "sections": [
           {
-            "ref": "Cities/Cinnabar Island/Scientist Gift",
-            "name": "Scientist Gift"
+            "name": "Pokemon Lab Research Room - Scientist Gift"
           },
           {
-            "ref": "Cities/Cinnabar Island/Fossil",
-            "name": "Fossil"
+            "name": "Pokemon Lab Experiment Room - Fossil"
           }
         ],
         "map_locations": [
@@ -780,13 +665,13 @@
         ]
       },
       {
-        "name": "Ember Spa Overview",
+        "name": "Ember Spa",
         "sections": [
           {
-            "name": "Rock Smash Man Gift"
+            "name": "Ember Spa - Rock Smash Man Gift"
           },
           {
-            "name": "Black Belt Info"
+            "name": "Ember Spa - Black Belt Info"
           }
         ],
         "map_locations": [
@@ -801,7 +686,6 @@
         "name": "Two Island Game Corner",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/Lostelle's Dad Gift",
             "name": "Lostelle's Dad Gift"
           }
         ],
@@ -814,13 +698,13 @@
         ]
       },
       {
-        "name": "Three Isle Path Overview",
+        "name": "Three Isle Path",
         "sections": [
           {
-            "name": "Rock Hidden Item"
+            "name": "Three Isle Path - Rock Hidden Item"
           },
           {
-            "name": "Prospector Gift"
+            "name": "Three Isle Path - Prospector Gift"
           }
         ],
         "map_locations": [
@@ -840,8 +724,7 @@
         "name": "Sabrina Fan's House",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Sabrina Fan Info",
-            "name": "Sabrina Fan Info"
+            "name": "Sabrina Fan's House - Sabrina Fan Info"
           }
         ],
         "map_locations": [
@@ -856,8 +739,7 @@
         "name": "Lostelle's House",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/Lostelle Gift",
-            "name": "Lostelle Gift"
+            "name": "Lostelle's House - Lostelle Gift"
           }
         ],
         "map_locations": [
@@ -872,12 +754,10 @@
         "name": "Selphy's House",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Selphy Gift (Show Pokemon)",
-            "name": "Selphy Gift (Show Pokemon)"
+            "name": "Selphy's House - Selphy Gift (Show Pokemon)"
           },
           {
-            "ref": "Islands/Resort Gorgeous/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Selphy's House - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -892,8 +772,7 @@
         "name": "Heracross Woman's House",
         "sections": [
           {
-            "ref": "Islands/Water Path/Woman Gift (Show Heracross)",
-            "name": "Woman Gift (Show Heracross)"
+            "name": "Water Path Heracross Woman's House - Woman Gift (Show Heracross)"
           }
         ],
         "map_locations": [
@@ -908,8 +787,7 @@
         "name": "Sevault Canyon Chansey House",
         "sections": [
           {
-            "ref": "Islands/Sevault Canyon/Chansey House Item",
-            "name": "Item"
+            "name": "Sevault Canyon Chansey House - Item"
           }
         ],
         "map_locations": [
@@ -924,39 +802,30 @@
         "name": "Trainer Tower Lobby",
         "sections": [
           {
-            "ref": "Islands/Trainer Tower/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 8",
             "name": "Shop Item 8"
           },
           {
-            "ref": "Islands/Trainer Tower/Shop Item 9",
             "name": "Shop Item 9"
           }
         ],
@@ -972,8 +841,7 @@
         "name": "Route 2 Gate",
         "sections": [
           {
-            "ref": "Routes/Route 2/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Oak's Aide Gift (Pokédex Progress)"
+            "name": "Route 2 Gate - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [
@@ -990,28 +858,28 @@
         ]
       },
       {
-        "name": "Underground Path North-South Tunnel Overview",
+        "name": "Underground Path North-South Tunnel",
         "sections": [
           {
-            "name": "Farthest North Hidden Item"
+            "name": "Underground Path (North-South) - Farthest North Hidden Item"
           },
           {
-            "name": "Far North Hidden Item"
+            "name": "Underground Path (North-South) - Far North Hidden Item"
           },
           {
-            "name": "North Hidden Item"
+            "name": "Underground Path (North-South) - North Hidden Item"
           },
           {
-            "name": "Center Hidden Item"
+            "name": "Underground Path (North-South) - Center Hidden Item"
           },
           {
-            "name": "South Hidden Item"
+            "name": "Underground Path (North-South) - South Hidden Item"
           },
           {
-            "name": "Far South Hidden Item"
+            "name": "Underground Path (North-South) - Far South Hidden Item"
           },
           {
-            "name": "Farthest South Hidden Item"
+            "name": "Underground Path (North-South) - Farthest South Hidden Item"
           }
         ],
         "map_locations": [
@@ -1028,28 +896,28 @@
         ]
       },
       {
-        "name": "Underground Path East-West Tunnel Overview",
+        "name": "Underground Path East-West Tunnel",
         "sections": [
           {
-            "name": "Farthest East Hidden Item"
+            "name": "Underground Path (East-West) - Farthest East Hidden Item"
           },
           {
-            "name": "Far East Hidden Item"
+            "name": "Underground Path (East-West) - Far East Hidden Item"
           },
           {
-            "name": "East Hidden Item"
+            "name": "Underground Path (East-West) - East Hidden Item"
           },
           {
-            "name": "Center Hidden Item"
+            "name": "Underground Path (East-West) - Center Hidden Item"
           },
           {
-            "name": "West Hidden Item"
+            "name": "Underground Path (East-West) - West Hidden Item"
           },
           {
-            "name": "Far West Hidden Item"
+            "name": "Underground Path (East-West) - Far West Hidden Item"
           },
           {
-            "name": "Farthest West Hidden Item"
+            "name": "Underground Path (East-West) - Farthest West Hidden Item"
           }
         ],
         "map_locations": [
@@ -1069,8 +937,7 @@
         "name": "Route 11 Gate",
         "sections": [
           {
-            "ref": "Routes/Route 11/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Oak's Aide Gift (Pokédex Progress)"
+            "name": "Route 11 Gate 2F - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [
@@ -1090,8 +957,7 @@
         "name": "Route 12 Gate",
         "sections": [
           {
-            "ref": "Routes/Route 12 North/Mourning Lass Gift",
-            "name": "Mourning Lass Gift"
+            "name": "Route 12 Gate 2F - Mourning Lass Gift"
           }
         ],
         "map_locations": [
@@ -1111,12 +977,10 @@
         "name": "Route 12 Fishing House",
         "sections": [
           {
-            "ref": "Routes/Route 12 South/Fishing Guru Gift",
-            "name": "Fishing Guru Gift"
+            "name": "Route 12 Fishing House - Fishing Guru Gift"
           },
           {
-            "ref": "Routes/Route 12 South/Fishing Guru Gift (Show Magikarp)",
-            "name": "Fishing Guru Gift (Show Magikarp)"
+            "name": "Route 12 Fishing House - Fishing Guru Gift (Show Magikarp)"
           }
         ],
         "map_locations": [
@@ -1131,8 +995,7 @@
         "name": "Route 15 Gate",
         "sections": [
           {
-            "ref": "Routes/Route 15/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Oak's Aide Gift (Pokédex Progress)"
+            "name": "Route 15 Gate 2F - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [
@@ -1152,8 +1015,7 @@
         "name": "Route 16 Fly House",
         "sections": [
           {
-            "ref": "Routes/Route 16/Woman Gift",
-            "name": "Woman Gift"
+            "name": "Route 16 Fly House - Woman Gift"
           }
         ],
         "map_locations": [
@@ -1168,8 +1030,7 @@
         "name": "Route 16 Gate",
         "sections": [
           {
-            "ref": "Routes/Route 16/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Oak's Aide Gift (Pokédex Progress)"
+            "name": "Route 16 Gate 2F - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [
@@ -1189,8 +1050,7 @@
         "name": "Sea Cottage",
         "sections": [
           {
-            "ref": "Routes/Route 25/Bill Gift",
-            "name": "Bill Gift"
+            "name": "Sea Cottage - Bill Gift"
           }
         ],
         "map_locations": [
@@ -1202,40 +1062,40 @@
         ]
       },
       {
-        "name": "Viridian Forest Building Overview",
+        "name": "Viridian Forest",
         "sections": [
           {
-            "name": "Hidden Item Near South Entrance"
+            "name": "Viridian Forest - Hidden Item Near South Entrance"
           },
           {
-            "name": "West Item"
+            "name": "Viridian Forest - West Item"
           },
           {
-            "name": "Southeast Item"
+            "name": "Viridian Forest - Southeast Item"
           },
           {
-            "name": "Bug Catcher Rick Reward"
+            "name": "Viridian Forest - Bug Catcher Rick Reward"
           },
           {
-            "name": "Bug Catcher Doug Reward"
+            "name": "Viridian Forest - Bug Catcher Doug Reward"
           },
           {
-            "name": "Northeast Item"
+            "name": "Viridian Forest - Northeast Item"
           },
           {
-            "name": "Bug Catcher Anthony Reward"
+            "name": "Viridian Forest - Bug Catcher Anthony Reward"
           },
           {
-            "name": "Bug Catcher Charlie Reward"
+            "name": "Viridian Forest - Bug Catcher Charlie Reward"
           },
           {
-            "name": "Center Item"
+            "name": "Viridian Forest - Center Item"
           },
           {
-            "name": "Bug Catcher Sammy Reward"
+            "name": "Viridian Forest - Bug Catcher Sammy Reward"
           },
           {
-            "name": "Hidden Item Near North Entrance"
+            "name": "Viridian Forest - Hidden Item Near North Entrance"
           }
         ],
         "map_locations": [

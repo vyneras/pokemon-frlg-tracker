@@ -1,12 +1,11 @@
 [
   {
-    "name": "Pokémon Center Overview",
+    "name": "Pokemon Center Overview",
     "children": [
       {
-        "name": "Viridian Pokémon Center",
+        "name": "Viridian Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Viridian City/PC Item",
             "name": "PC Item"
           }
         ],
@@ -19,10 +18,9 @@
         ]
       },
       {
-        "name": "Pewter Pokémon Center",
+        "name": "Pewter Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Pewter City/PC Item",
             "name": "PC Item"
           }
         ],
@@ -35,19 +33,16 @@
         ]
       },
       {
-        "name": "Cerulean Pokémon Center",
+        "name": "Cerulean Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Cities/Cerulean City/Youngster Info",
-            "name": "Youngster Info"
+            "name": "Cerulean Pokemon Center 1F - Youngster Info"
           },
           {
-            "ref": "Cities/Cerulean City/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Cerulean Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -59,19 +54,16 @@
         ]
       },
       {
-        "name": "Vermilion Pokémon Center",
+        "name": "Vermilion Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Cities/Vermilion City/Vs. Seeker Woman Gift",
-            "name": "Vs. Seeker Woman Gift"
+            "name": "Vermilion Pokemon Center 1F - Vs. Seeker Woman Gift"
           },
           {
-            "ref": "Cities/Vermilion City/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Vermilion Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -83,15 +75,13 @@
         ]
       },
       {
-        "name": "Lavender Pokémon Center",
+        "name": "Lavender Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Lavender Town/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Cities/Lavender Town/Balding Man Info",
-            "name": "Balding Man Info"
+            "name": "Lavender Pokemon Center 1F - Balding Man Info"
           }
         ],
         "map_locations": [
@@ -103,10 +93,9 @@
         ]
       },
       {
-        "name": "Celadon Pokémon Center",
+        "name": "Celadon Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Celadon City/PC Item",
             "name": "PC Item"
           }
         ],
@@ -119,10 +108,9 @@
         ]
       },
       {
-        "name": "Fuchsia Pokémon Center",
+        "name": "Fuchsia Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Fuchsia City/PC Item",
             "name": "Pc Item"
           }
         ],
@@ -135,15 +123,13 @@
         ]
       },
       {
-        "name": "Saffron Pokémon Center",
+        "name": "Saffron Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Saffron City/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Cities/Saffron City/Pokémon Center Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Saffron Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -155,19 +141,16 @@
         ]
       },
       {
-        "name": "Cinnabar Pokémon Center",
+        "name": "Cinnabar Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Cinnabar Island/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Cities/Cinnabar Island/Bill Gift",
-            "name": "Bill Gift"
+            "name": "Cinnabar Pokemon Center 1F - Bill Gift"
           },
           {
-            "ref": "Cities/Cinnabar Island/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Cinnabar Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -179,139 +162,106 @@
         ]
       },
       {
-        "name": "Indigo Plateau Pokémon Center",
+        "name": "Indigo Plateau Pokemon Center",
         "sections": [
           {
-            "ref": "Cities/Indigo Plateau/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 1",
             "name": "Shop Item 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 2",
             "name": "Shop Item 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 3",
             "name": "Shop Item 3"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 4",
             "name": "Shop Item 4"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 5",
             "name": "Shop Item 5"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 6",
             "name": "Shop Item 6"
           },
           {
-            "ref": "Cities/Indigo Plateau/Shop Item 7",
             "name": "Shop Item 7"
           },
           {
-            "ref": "Cities/Indigo Plateau/Cooltrainer Info",
-            "name": "Cooltrainer Info"
+            "name": "Indigo Plateau Pokemon Center 1F - Cooltrainer Info"
           },
           {
-            "ref": "Cities/Indigo Plateau/Black Belt Info 1",
-            "name": "Black Belt Info 1"
+            "name": "Indigo Plateau Pokemon Center 1F - Black Belt Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Black Belt Info 2",
-            "name": "Black Belt Info 2"
+            "name": "Indigo Plateau Pokemon Center 1F - Black Belt Info 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Indigo Plateau Pokemon Center 1F - Bookshelf Info"
           },
           {
-            "ref": "Cities/Indigo Plateau/Lorelei Info 1",
-            "name": "Lorelei Info 1"
+            "name": "Lorelei's Room - Lorelei Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Lorelei Info 2",
-            "name": "Lorelei Info 2"
+            "name": "Lorelei's Room - Lorelei Info 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Reward",
-            "name": "Elite Four Lorelei Reward"
+            "name": "Lorelei's Room - Elite Four Lorelei Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Bruno Info 1",
-            "name": "Bruno Info 1"
+            "name": "Bruno's Room - Bruno Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Bruno Info 2",
-            "name": "Bruno Info 2"
+            "name": "Bruno's Room - Bruno Info 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Bruno Reward",
-            "name": "Elite Four Bruno Reward"
+            "name": "Bruno's Room - Elite Four Bruno Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Agatha Info 1",
-            "name": "Agatha Info 1"
+            "name": "Agatha's Room - Agatha Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Bruno Info 2",
-            "name": "Agatha Info 2"
+            "name": "Agatha's Room - Agatha Info 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Agatha Info 3",
-            "name": "Agatha Info 3"
+            "name": "Agatha's Room - Agatha Info 3"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Agatha Reward",
-            "name": "Elite Four Agatha Reward"
+            "name": "Agatha's Room - Elite Four Agatha Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Lance Info 1",
-            "name": "Lance Info 1"
+            "name": "Lance's Room - Lance Info 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Lance Info 2",
-            "name": "Lance Info 2"
+            "name": "Lance's Room - Lance Info 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Lance Reward",
-            "name": "Elite Four Lance Reward"
+            "name": "Lance's Room - Elite Four Lance Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Champion Reward",
-            "name": "Champion Reward"
+            "name": "Champion's Room - Champion Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Oak Gift 1",
-            "name": "Oak Gift 1"
+            "name": "Hall of Fame - Oak Gift 1"
           },
           {
-            "ref": "Cities/Indigo Plateau/Oak Gift 2",
-            "name": "Oak Gift 2"
+            "name": "Hall of Fame - Oak Gift 2"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Lorelei Rematch Reward",
-            "name": "Elite Four Lorelei Rematch Reward"
+            "name": "Lorelei's Room - Elite Four Lorelei Rematch Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Bruno Rematch Reward",
-            "name": "Elite Four Bruno Rematch Reward"
+            "name": "Bruno's Room - Elite Four Bruno Rematch Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Agatha Rematch Reward",
-            "name": "Elite Four Agatha Rematch Reward"
+            "name": "Agatha's Room - Elite Four Agatha Rematch Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Elite Four Lance Rematch Reward",
-            "name": "Elite Four Lance Rematch Reward"
+            "name": "Lance's Room - Elite Four Lance Rematch Reward"
           },
           {
-            "ref": "Cities/Indigo Plateau/Champion Rematch Reward",
-            "name": "Champion Rematch Reward"
+            "name": "Champion's Room - Champion Rematch Reward"
           }
         ],
         "map_locations": [
@@ -323,39 +273,31 @@
         ]
       },
       {
-        "name": "One Island Pokémon Center",
+        "name": "One Island Pokemon Center",
         "sections": [
           {
-            "ref": "Islands/One Island Town/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Islands/One Island Town/Delivery for Lostelle's Dad",
-            "name": "Delivery for Lostelle's Dad"
+            "name": "One Island Pokemon Center 1F - Delivery for Lostelle's Dad"
           },
           {
-            "ref": "Islands/One Island Town/Meet Celio",
-            "name": "Meet Celio"
+            "name": "One Island Pokemon Center 1F - Meet Celio"
           },
           {
-            "ref": "Islands/One Island Town/Celio Gift (Deliver Ruby)",
-            "name": "Celio Gift (Deliver Ruby)"
+            "name": "One Island Pokemon Center 1F - Celio Gift (Deliver Ruby)"
           },
           {
-            "ref": "Islands/One Island Town/Celio Gift (Deliver Sapphire)",
-            "name": "Celio Gift (Deliver Sapphire)"
+            "name": "One Island Pokemon Center 1F - Celio Gift (Deliver Sapphire)"
           },
           {
-            "ref": "Islands/One Island Town/Celio Info 1",
-            "name": "Celio Info 1"
+            "name": "One Island Pokemon Center 1F - Celio Info 1"
           },
           {
-            "ref": "Islands/One Island Town/Celio Info 2",
-            "name": "Celio Info 2"
+            "name": "One Island Pokemon Center 1F - Celio Info 2"
           },
           {
-            "ref": "Islands/One Island Town/Celio Info 3",
-            "name": "Celio Info 3"
+            "name": "One Island Pokemon Center 1F - Celio Info 3"
           }
         ],
         "map_locations": [
@@ -367,10 +309,9 @@
         ]
       },
       {
-        "name": "Two Island Pokémon Center",
+        "name": "Two Island Pokemon Center",
         "sections": [
           {
-            "ref": "Islands/Two Island Town/PC Item",
             "name": "PC Item"
           }
         ],
@@ -383,10 +324,9 @@
         ]
       },
       {
-        "name": "Three Island Pokémon Center",
+        "name": "Three Island Pokemon Center",
         "sections": [
           {
-            "ref": "Islands/Three Island Town/PC Item",
             "name": "PC Item"
           }
         ],
@@ -399,15 +339,13 @@
         ]
       },
       {
-        "name": "Four Island Pokémon Center",
+        "name": "Four Island Pokemon Center",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Islands/Four Island Town/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Four Island Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -419,15 +357,13 @@
         ]
       },
       {
-        "name": "Five Island Pokémon Center",
+        "name": "Five Island Pokemon Center",
         "sections": [
           {
-            "ref": "Islands/Five Island Town/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Islands/Five Island Town/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Five Island Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -439,10 +375,9 @@
         ]
       },
       {
-        "name": "Six Island Pokémon Center",
+        "name": "Six Island Pokemon Center",
         "sections": [
           {
-            "ref": "Islands/Six Island Town/PC Item",
             "name": "PC Item"
           }
         ],
@@ -455,15 +390,13 @@
         ]
       },
       {
-        "name": "Seven Island Pokémon Center",
+        "name": "Seven Island Pokemon Center",
         "sections": [
           {
-            "ref": "Islands/Seven Island Town/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Islands/Seven Island Town/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Seven Island Pokemon Center 1F - Bookshelf Info"
           }
         ],
         "map_locations": [
@@ -475,14 +408,12 @@
         ]
       },
       {
-        "name": "Route 4 Pokémon Center",
+        "name": "Route 4 Pokemon Center",
         "sections": [
           {
-            "ref": "Routes/Route 4 West/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           },
           {
-            "ref": "Routes/Route 4 West/PC Item",
             "name": "PC Item"
           }
         ],
@@ -495,19 +426,16 @@
         ]
       },
       {
-        "name": "Route 10 Pokémon Center",
+        "name": "Route 10 Pokemon Center",
         "sections": [
           {
-            "ref": "Routes/Route 10 North/Unlock Fly Destination",
             "name": "Unlock Fly Destination"
           },
           {
-            "ref": "Routes/Route 10 North/PC Item",
             "name": "PC Item"
           },
           {
-            "ref": "Routes/Route 10 North/Oak's Aide Gift (Pokédex Progress)",
-            "name": "Oak's Aide Gift (Pokédex Progress)"
+            "name": "Route 10 Pokemon Center 1F - Oak's Aide Gift (Pokedex Progress)"
           }
         ],
         "map_locations": [
