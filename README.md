@@ -1,8 +1,10 @@
 # Pokémon FireRed/LeafGreen Tracker
 
-Pokémon FireRed/LeafGreen tracker pack for [PopTracker](https://github.com/black-sliver/PopTracker/) with Autotracking.
+Pokémon FireRed/LeafGreen tracker pack for [PopTracker](https://github.com/black-sliver/PopTracker/) or [Universal Tracker](https://github.com/FarisTheAncient/Archipelago) with Autotracking.
 
-![Screenshot of the pack](images/preview.png)
+| Poptracker | Universal Tracker |
+|:----------:|:-----------------:|
+| ![Poptracker Screenshot](images/poptracker_preview.png) | ![UT Screenshot](images/ut_preview.png) |
 
 # Compatibility Chart
 | Apworld Version | Pack Version  |
