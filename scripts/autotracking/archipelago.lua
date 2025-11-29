@@ -295,6 +295,8 @@ function onClear(slot_data)
         setTrainersanityVisibility()
     end
     setDexsanityLocations()
+    set_default_fly_destinations()
+    set_default_dungeon_entrances()
     if PLAYER_NUMBER > -1 then
         updateEvents(0, true)
         updateFlyUnlocks(0, true)

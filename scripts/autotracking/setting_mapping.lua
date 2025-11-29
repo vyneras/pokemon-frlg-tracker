@@ -78,6 +78,22 @@ SLOT_CODES = {
             [1] = 1  -- Shopsanity On
         }
     },
+    vending_machines = {
+        code = "vending_machines_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Vending Machines Off
+            [1] = 1  -- Vending Machines On
+        }
+    },
+    prizesanity = {
+        code = "prizesanity_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Prizesanity Off
+            [1] = 1  -- Prizesanity On
+        }
+    },
     trainersanity = {
         code = "trainersanity_setting",
         type = "progressive",
