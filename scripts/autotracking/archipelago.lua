@@ -260,8 +260,8 @@ function onClear(slot_data)
         elseif key == "rematchsanity" then
             local object = Tracker:FindObjectForCode("rematchsanity_setting")
             if object then
-                if slot_data["rematchsanity"] then
-                    if slot_data["rematch_requirements"] then
+                if slot_data["rematchsanity"] == 1 then
+                    if slot_data["rematch_requirements"] ~= 0 then
                         object.CurrentStage = 2
                     else
                         object.CurrentStage = 1
@@ -295,7 +295,7 @@ function onClear(slot_data)
         setTrainersanityVisibility()
     end
     setDexsanityLocations()
-    set_default_fly_destinations()
+    set_default_fly_destinations("randomize_fly_destinations_setting")
     set_default_dungeon_entrances()
     if PLAYER_NUMBER > -1 then
         updateEvents(0, true)
