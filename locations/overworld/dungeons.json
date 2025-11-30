@@ -3382,8 +3382,11 @@
             "clear_as_group": false,
             "access_rules": [
               "@Route 20 Near North Cave Access,$surf,$shuffle_dungeons_off",
+              "@Route 20 Near North Cave Access,$strength,shuffle_dungeons_off",
               "@Route 20 Near South Cave Access,$surf,$shuffle_dungeons_off",
+              "@Route 20 Near South Cave Access,$strength,shuffle_dungeons_seafoam",
               "seafoam_islands_north_exit,$surf,$shuffle_dungeons_on",
+              "seafoam_islands_north_exit,$strength,$shuffle_dungeons_on",
               "seafoam_islands_south_exit,$surf,$shuffle_dungeons_on"
             ],
             "visibility_rules": [
@@ -3461,11 +3464,11 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access,$surf,shuffle_dungeons_off",
+              "@Route 20 Near North Cave Access,shuffle_dungeons_off",
               "@Route 20 Near South Cave Access,$surf,$waterfall,shuffle_dungeons_off",
               "@Route 20 Near North Cave Access,$surf,$waterfall,shuffle_dungeons_seafoam",
-              "@Route 20 Near South Cave Access,$surf,shuffle_dungeons_seafoam",
-              "seafoam_islands_north_exit,$surf,$shuffle_dungeons_on",
+              "@Route 20 Near South Cave Access,shuffle_dungeons_seafoam",
+              "seafoam_islands_north_exit,$shuffle_dungeons_on",
               "seafoam_islands_south_exit,$surf,$waterfall,$shuffle_dungeons_on"
             ],
             "visibility_rules": [
