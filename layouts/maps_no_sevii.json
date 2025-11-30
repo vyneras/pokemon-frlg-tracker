@@ -2399,38 +2399,227 @@
               }
             },
             {
-              "title": "1F Corridor",
+              "title": "1F",
               "content": {
-                "type": "map",
-                "maps": [
-                  "ss_anne_1f_corridor"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Corridor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_corridor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Kitchen",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_kitchen"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_room_1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_room_2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_room_3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 4",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_room_4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 5",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_room_5"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 6",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_room_6"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 7",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_1f_room_7"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "Kitchen",
+              "title": "B1F",
               "content": {
-                "type": "map",
-                "maps": [
-                  "ss_anne_kitchen"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Corridor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_b1f_corridor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_b1f_room_1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_b1f_room_2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_b1f_room_3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 4",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_b1f_room_4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 5",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_b1f_room_5"
+                      ]
+                    }
+                  }
                 ]
               }
             },
             {
-              "title": "B1F Corridor",
+              "title": "2F",
               "content": {
-                "type": "map",
-                "maps": [
-                  "ss_anne_b1f_corridor"
-                ]
-              }
-            },
-            {
-              "title": "2F Corridor",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "ss_anne_2f_corridor"
+                "type": "tabbed",
+                "dock": "top",
+                "tabs": [
+                  {
+                    "title": "Corridor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_2f_corridor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_2f_room_1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_2f_room_2"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 3",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_2f_room_3"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 4",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_2f_room_4"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 5",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_2f_room_5"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Room 6",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ss_anne_2f_room_6"
+                      ]
+                    }
+                  }
                 ]
               }
             },
