@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Memorial Pillar",
+    "children": [
+      {
+        "name": "Tall Grass North Hidden Item",
+        "sections": [
+          {
+            "name": "Memorial Pillar - Tall Grass North Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass South Hidden Item (Left)",
+        "sections": [
+          {
+            "name": "Memorial Pillar - Tall Grass South Hidden Item (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass South Hidden Item (Right)",
+        "sections": [
+          {
+            "name": "Memorial Pillar - Tall Grass South Hidden Item (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 280,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Memorial Man",
+        "sections": [
+          {
+            "name": "Memorial Pillar - Memorial Man Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 136,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "South Island Item",
+        "sections": [
+          {
+            "name": "Memorial Pillar - South Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 72,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "South Beach Hidden Item",
+        "sections": [
+          {
+            "name": "Memorial Pillar - South Beach Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_south",
+            "x": 136,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Chaz",
+        "sections": [
+          {
+            "name": "Memorial Pillar - Bird Keeper Chaz Reward"
+          },
+          {
+            "name": "Memorial Pillar - Bird Keeper Chaz Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 232,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Harold",
+        "sections": [
+          {
+            "name": "Memorial Pillar - Bird Keeper Harold Reward"
+          },
+          {
+            "name": "Memorial Pillar - Bird Keeper Harold Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 280,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Milo",
+        "sections": [
+          {
+            "name": "Memorial Pillar - Bird Keeper Milo Reward"
+          },
+          {
+            "name": "Memorial Pillar - Bird Keeper Milo Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "memorial_pillar_north",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Indigo Plateau",
+    "children": [
+      {
+        "name": "Indigo Plateau Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Indigo Plateau Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Indigo Plateau Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokemon Center Shop Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 8,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer",
+        "sections": [
+          {
+            "name": "Indigo Plateau Pokemon Center 1F - Cooltrainer Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 264,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Black Belt",
+        "sections": [
+          {
+            "name": "Indigo Plateau Pokemon Center 1F - Black Belt Info 1"
+          },
+          {
+            "name": "Indigo Plateau Pokemon Center 1F - Black Belt Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 376,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Indigo Plateau Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "x": 368,
+            "y": 160
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lorelei's Room",
+    "children": [
+      {
+        "name": "Lorelei",
+        "sections": [
+          {
+            "name": "Lorelei's Room - Lorelei Info 1"
+          },
+          {
+            "name": "Lorelei's Room - Lorelei Info 2"
+          },
+          {
+            "name": "Lorelei's Room - Elite Four Lorelei Reward"
+          },
+          {
+            "name": "Lorelei's Room - Elite Four Lorelei Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "loreleis_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bruno's Room",
+    "children": [
+      {
+        "name": "Bruno",
+        "sections": [
+          {
+            "name": "Bruno's Room - Bruno Info 1"
+          },
+          {
+            "name": "Bruno's Room - Bruno Info 1"
+          },
+          {
+            "name": "Bruno's Room - Elite Four Bruno Reward"
+          },
+          {
+            "name": "Bruno's Room - Elite Four Bruno Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "brunos_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Agatha's Room",
+    "children": [
+      {
+        "name": "Agatha",
+        "sections": [
+          {
+            "name": "Agatha's Room - Agatha Info 1"
+          },
+          {
+            "name": "Agatha's Room - Agatha Info 2"
+          },
+          {
+            "name": "Agatha's Room - Agatha Info 3"
+          },
+          {
+            "name": "Agatha's Room - Elite Four Agatha Reward"
+          },
+          {
+            "name": "Agatha's Room - Elite Four Agatha Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "agathas_room",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lance's Room",
+    "children": [
+      {
+        "name": "Lance",
+        "sections": [
+          {
+            "name": "Lance's Room - Lance Info 1"
+          },
+          {
+            "name": "Lance's Room - Lance Info 2"
+          },
+          {
+            "name": "Lance's Room - Elite Four Lance Reward"
+          },
+          {
+            "name": "Lance's Room - Elite Four Lance Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lances_room",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Champion's Room",
+    "children": [
+      {
+        "name": "Champion",
+        "sections": [
+          {
+            "name": "Champion's Room - Champion Reward"
+          },
+          {
+            "name": "Champion's Room - Champion Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "champions_room",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hall of Fame",
+    "children": [
+      {
+        "name": "Oak",
+        "sections": [
+          {
+            "name": "Hall of Fame - Oak Gift 1"
+          },
+          {
+            "name": "Hall of Fame - Oak Gift 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hall_of_fame",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

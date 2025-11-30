@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Mt. Ember Exterior",
+    "children": [
+      {
+        "name": "Hidden Item Near West Cave Entrance",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Hidden Item Near West Cave Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 136,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "East Item",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - East Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 776,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Item Near Summit",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Item Near Summit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 616,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Northwest Rock Hidden Item",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Northwest Rock Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 296,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Northwest Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 216,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt (Left)",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Team Rocket Grunt Reward (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 664,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt (Right)",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Team Rocket Grunt Reward (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 680,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Jocelyn",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Crush Girl Jocelyn Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 360,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Ranger Beth",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Pokemon Ranger Beth Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 232,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Ranger Logan",
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior - Pokemon Ranger Logan Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 248,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B5F",
+    "children": [
+      {
+        "name": "Ruby",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B5F - Ruby"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b5f",
+            "x": 120,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

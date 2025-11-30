@@ -1,0 +1,228 @@
+[
+  {
+    "name": "Sevault Canyon",
+    "children": [
+      {
+        "name": "North Item",
+        "sections": [
+          {
+            "name": "Sevault Canyon - North Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 280,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Item",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Tall Grass Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 120,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Black Belt",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Black Belt Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 136,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Smashable Rocks",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Item Behind Smashable Rocks"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 296,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Chansey House",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Hidden Item Near Chansey House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 248,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Leroy",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Cooltrainer Leroy Reward"
+          },
+          {
+            "name": "Sevault Canyon - Cooltrainer Leroy Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 120,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Michelle",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Cooltrainer Michelle Reward"
+          },
+          {
+            "name": "Sevault Canyon - Cooltrainer Michelle Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Cool Couple Lex & Nya",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Cool Couple Lex & Nya Reward"
+          },
+          {
+            "name": "Sevault Canyon - Cool Couple Lex & Nya Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 232,
+            "y": 224
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Cyndy",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Crush Girl Cyndy Reward"
+          },
+          {
+            "name": "Sevault Canyon - Crush Girl Cyndy Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "x": 216,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Ranger Jackson",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Pokemon Ranger Jackson Reward"
+          },
+          {
+            "name": "Sevault Canyon - Pokemon Ranger Jackson Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 56,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Ranger Katelyn",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Pokemon Ranger Katelyn Reward"
+          },
+          {
+            "name": "Sevault Canyon - Pokemon Ranger Katelyn Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 56,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Tamer Evan",
+        "sections": [
+          {
+            "name": "Sevault Canyon - Tamer Evan Reward"
+          },
+          {
+            "name": "Sevault Canyon - Tamer Evan Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "x": 216,
+            "y": 584
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sevault Canyon Chansey House",
+    "children": [
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "name": "Sevault Canyon Chansey House - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_chansey_house",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

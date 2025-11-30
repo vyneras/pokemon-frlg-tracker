@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Three Island Town",
+    "children": [
+      {
+        "name": "Three Island Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Anti-Biker",
+        "sections": [
+          {
+            "name": "Three Island Town - Anti-Biker Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 120,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Item Behind East Fence",
+        "sections": [
+          {
+            "name": "Three Island Town - Item Behind East Fence"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 296,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind West Fence",
+        "sections": [
+          {
+            "name": "Three Island Town - Hidden Item Behind West Fence"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 88,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Biker Goon 1",
+        "sections": [
+          {
+            "name": "Three Island Town - Biker Goon 1 Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 152,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Biker Goon 2",
+        "sections": [
+          {
+            "name": "Three Island Town - Biker Goon 2 Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 168,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Biker Goon 3",
+        "sections": [
+          {
+            "name": "Three Island Town - Biker Goon 3 Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 152,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Paxton",
+        "sections": [
+          {
+            "name": "Three Island Town - Cue Ball Paxton Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 136,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Three Island Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lostelle's House",
+    "children": [
+      {
+        "name": "Lostelle",
+        "sections": [
+          {
+            "name": "Lostelle's House - Lostelle Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_house",
+            "x": 56,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sabrina Fan's House",
+    "children": [
+      {
+        "name": "Sabrina Fan",
+        "sections": [
+          {
+            "name": "Sabrina Fan's House - Sabrina Fan Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_sabrina_fans_house",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Poke Mart",
+    "children": [
+      {
+        "name": "Three Island Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

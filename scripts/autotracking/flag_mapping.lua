@@ -41,67 +41,75 @@ EVENT_FLAG_MAPPING = {
     },
     [10] = {
         value = 0,
-        code = "save_bill"
+        code = "miguel_takes_fossil"
     },
     [11] = {
         value = 0,
-        code = "rescue_mr_fuji"
+        code = "save_bill"
     },
     [12] = {
         value = 0,
-        code = "liberate_silph_co"
+        code = "rescue_mr_fuji"
     },
     [13] = {
         value = 0,
-        code = "defeat_champion"
+        code = "liberate_silph_co"
     },
     [14] = {
         value = 0,
-        code = "rescue_lostelle"
+        code = "defeat_champion"
     },
     [15] = {
         value = 0,
-        code = "deliver_meteorite"
+        code = "rescue_lostelle"
     },
     [16] = {
         value = 0,
-        code = "learn_goldeen_need_log"
+        code = "deliver_meteorite"
     },
     [17] = {
         value = 0,
-        code = "help_lorelei"
+        code = "learn_goldeen_need_log"
     },
     [18] = {
         value = 0,
-        code = "rescue_selphy"
+        code = "help_lorelei"
     },
     [19] = {
         value = 0,
-        code = "learn_yes_nah_chansey"
+        code = "rescue_selphy"
     },
     [20] = {
         value = 0,
-        code = "free_captured_pokemon"
+        code = "learn_yes_nah_chansey"
     },
     [21] = {
         value = 0,
-        code = "unlock_ruins"
+        code = "free_captured_pokemon"
     },
     [22] = {
         value = 0,
-        code = "restore_pokemon_network_machine"
+        code = "unlock_ruins"
     },
     [23] = {
         value = 0,
-        code = "defeat_champion_rematch"
+        code = "restore_pokemon_network_machine"
     },
     [24] = {
         value = 0,
-        code = "lemonade"
+        code = "defeat_champion_rematch"
     },
     [25] = {
         value = 0,
-        code = "running_shoes"
+        code = "fresh_water"
+    },
+    [26] = {
+        value = 0,
+        code = "soda_pop"
+    },
+    [27] = {
+        value = 0,
+        code = "lemonade"
     }
 }
 
@@ -191,128 +199,127 @@ FLY_UNLOCK_FLAG_MAPPING = {
 STATIC_FLAG_MAPPING = {
     [0] = {
         value = 0,
-        names = {"Route 4 Pokemon Center 1F - Purchase Pokemon"}
+        names = {"GIFT_POKEMON_MAGIKARP"}
     },
     [1] = {
         value = 0,
-        names = {"Cerulean Trade House - Trade Pokemon"}
+        names = {"TRADE_POKEMON_JYNX"}
     },
     [2] = {
         value = 0,
-        names = {"Underground Path North Entrance - Trade Pokemon"}
+        names = {"TRADE_POKEMON_NIDORAN"}
     },
     [3] = {
         value = 0,
-        names = {"Vermilion Trade House - Trade Pokemon"}
+        names = {"TRADE_POKEMON_FARFETCHD"}
     },
     [4] = {
         value = 0,
-        names = {"Route 2 Trade House - Trade Pokemon"}
+        names = {"TRADE_POKEMON_MR_MIME"}
     },
     [5] = {
         value = 0,
-        names = {"Route 11 Gate 2F - Trade Pokemon"}
+        names = {"TRADE_POKEMON_NIDORINOA"}
     },
     [6] = {
         value = 0,
-        names = {"Power Plant - South Room Item"}
+        names = {"STATIC_POKEMON_ELECTRODE_1"}
     },
     [7] = {
         value = 0,
-        names = {"Power Plant - Northeast Room Item (Left)"}
+        names = {"STATIC_POKEMON_ELECTRODE_2"}
     },
     [8] = {
         value = 0,
-        names = {"Power Plant - Legendary Pokemon"}
+        names = {"LEGENDARY_POKEMON_ZAPDOS"}
     },
     [9] = {
         value = 0,
-        names = {"Celadon Game Corner Prize Room - Prize Pokemon 1", "Celadon Game Corner Prize Room - Prize Pokemon 2",
-                 "Celadon Game Corner Prize Room - Prize Pokemon 3", "Celadon Game Corner Prize Room - Prize Pokemon 4",
-                 "Celadon Game Corner Prize Room - Prize Pokemon 5"}
+        names = {"CELADON_PRIZE_POKEMON_1", "CELADON_PRIZE_POKEMON_2", "CELADON_PRIZE_POKEMON_3",
+                 "CELADON_PRIZE_POKEMON_4", "CELADON_PRIZE_POKEMON_5"}
     },
     [10] = {
         value = 0,
-        names = {"Celadon Condominiums Roof Room - Item"}
+        names = {"GIFT_POKEMON_EEVEE"}
     },
     [11] = {
         value = 0,
-        names = {"Route 12 - Sleeping Pokemon"}
+        names = {"STATIC_POKEMON_ROUTE12_SNORLAX"}
     },
     [12] = {
         value = 0,
-        names = {"Route 16 - Sleeping Pokemon"}
+        names = {"STATIC_POKEMON_ROUTE16_SNORLAX"}
     },
     [13] = {
         value = 0,
-        names = {"Route 18 Gate 2F - Trade Pokemon"}
+        names = {"TRADE_POKEMON_LICKITUNG"}
     },
     [14] = {
         value = 0,
-        names = {"Saffron Dojo - Item (Left)"}
+        names = {"GIFT_POKEMON_HITMONLEE"}
     },
     [15] = {
         value = 0,
-        names = {"Saffron Dojo - Item (Right)"}
+        names = {"GIFT_POKEMON_HITMONCHAN"}
     },
     [16] = {
         value = 0,
-        names = {"Silph Co. 7F - Employee Pokemon"}
+        names = {"GIFT_POKEMON_LAPRAS"}
     },
     [17] = {
         value = 0,
-        names = {"Seafoam Islands B4F - Legendary Pokemon"}
+        names = {"LEGENDARY_POKEMON_ARTICUNO"}
     },
     [18] = {
         value = 0,
-        names = {"Pokemon Lab Lounge - Trade Pokemon 1"}
+        names = {"TRADE_POKEMON_ELECTRODE"}
     },
     [19] = {
         value = 0,
-        names = {"Pokemon Lab Lounge - Trade Pokemon 2"}
+        names = {"TRADE_POKEMON_TANGELA"}
     },
     [20] = {
         value = 0,
-        names = {"Pokemon Lab Experiment Room - Trade Pokemon"}
+        names = {"TRADE_POKEMON_SEEL"}
     },
     [21] = {
         value = 0,
-        names = {"Pokemon Lab Experiment Room - Revive Dome Fossil"}
+        names = {"GIFT_POKEMON_KABUTO"}
     },
     [22] = {
         value = 0,
-        names = {"Pokemon Lab Experiment Room - Revive Helix Fossil"}
+        names = {"GIFT_POKEMON_OMANYTE"}
     },
     [23] = {
         value = 0,
-        names = {"Pokemon Lab Experiment Room - Revive Old Amber"}
+        names = {"GIFT_POKEMON_AERODACTYL"}
     },
     [24] = {
         value = 0,
-        names = {"Mt. Ember Summit - Legendary Pokemon"}
+        names = {"LEGENDARY_POKEMON_MOLTRES"}
     },
     [25] = {
         value = 0,
-        names = {"Berry Forest - Scary Pokemon"}
+        names = {"STATIC_POKEMON_HYPNO"}
     },
     [26] = {
         value = 0,
-        names = {"Water Labyrinth - Pokemon Egg"}
+        names = {"EGG_POKEMON_TOGEPI"}
     },
     [27] = {
         value = 0,
-        names = {"Cerulean Cave B1F - Legendary Pokemon"}
+        names = {"LEGENDARY_POKEMON_MEWTWO"}
     },
     [28] = {
         value = 0,
-        names = {"Navel Rock Summit - Legendary Pokemon"}
+        names = {"LEGENDARY_POKEMON_HO_OH"}
     },
     [29] = {
         value = 0,
-        names = {"Navel Rock Base - Legendary Pokemon"}
+        names = {"LEGENDARY_POKEMON_LUGIA"}
     },
     [30] = {
         value = 0,
-        names = {"Birth Island Exterior - Legendary Pokemon"}
+        names = {"LEGENDARY_POKEMON_DEOXYS"}
     }
 }

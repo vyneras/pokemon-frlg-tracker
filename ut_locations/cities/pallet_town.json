@@ -1,0 +1,181 @@
+[
+  {
+    "name": "Pallet Town",
+    "children": [
+      {
+        "name": "Visit Pallet Town",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Player's House",
+        "sections": [
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 104,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Oak's Lab Sign",
+        "sections": [
+          {
+            "name": "Pallet Town - Oak's Lab Sign Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 264,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Player's House 2F",
+    "children": [
+      {
+        "name": "Player's House 2F PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "players_house_2f",
+            "x": 24,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rival's House",
+    "children": [
+      {
+        "name": "Daisy",
+        "sections": [
+          {
+            "name": "Rival's House - Daisy Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rivals_house",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Professor Oak's Lab",
+    "children": [
+      {
+        "name": "Rival",
+        "sections": [
+          {
+            "name": "Professor Oak's Lab - Rival Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oaks_lab",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Oak",
+        "sections": [
+          {
+            "name": "Professor Oak's Lab - Oak Gift 1 (Deliver Parcel)"
+          },
+          {
+            "name": "Professor Oak's Lab - Oak Gift 2 (Deliver Parcel)"
+          },
+          {
+            "name": "Professor Oak's Lab - Oak Info"
+          },
+          {
+            "name": "Professor Oak's Lab - Oak Gift (Post Route 22 Rival)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oaks_lab",
+            "x": 104,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Oak's Aide M (Right)",
+        "sections": [
+          {
+            "name": "Professor Oak's Lab - Oak's Aide M Info (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oaks_lab",
+            "x": 184,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Oak's Aide F",
+        "sections": [
+          {
+            "name": "Professor Oak's Lab - Oak's Aide F Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oaks_lab",
+            "x": 40,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Oak's Aide M (Left)",
+        "sections": [
+          {
+            "name": "Professor Oak's Lab - Oak's Aide M Info (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oaks_lab",
+            "x": 56,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  }
+]

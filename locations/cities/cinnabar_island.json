@@ -21,20 +21,16 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Cities/Cinnabar Island/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Cities/Cinnabar Island/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Cities/Cinnabar Island/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Cities/Cinnabar Island/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Cities/Cinnabar Island/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Cities/Cinnabar Island/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Cities/Cinnabar Island/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Cities/Cinnabar Island/Super Rod Encounters",
@@ -119,6 +115,10 @@
           {
             "ref": "Cities/Cinnabar Island/Scientist Gift",
             "name": "Scientist Gift"
+          },
+          {
+            "ref": "Cities/Cinnabar Island/Fossil",
+            "name": "Fossil"
           },
           {
             "ref": "Cities/Cinnabar Island/Boy Trade Pokémon",
@@ -497,6 +497,21 @@
             "map": "pokemon_lab_experiment_room",
             "x": 184,
             "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Fossil",
+        "sections": [
+          {
+            "ref": "Cities/Cinnabar Island/Fossil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_experiment_room",
+            "x": 184,
+            "y": 88
           }
         ]
       },

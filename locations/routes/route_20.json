@@ -6,20 +6,16 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Routes/Route 20 West/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Routes/Route 20 West/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Routes/Route 20 West/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Routes/Route 20 West/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Routes/Route 20 West/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Routes/Route 20 West/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Routes/Route 20 West/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Routes/Route 20 West/Super Rod Encounters",
@@ -114,6 +110,10 @@
           {
             "ref": "Routes/Route 20 East/Swimmer Darrin Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 20 East/Swimmer Darrin Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -178,6 +178,14 @@
           {
             "ref": "Routes/Route 20 West/Picnicker Missy Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 20 West/Picnicker Missy Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 20 West/Picnicker Missy Rematch Reward 2",
+            "name": "Rematch Reward 2"
           }
         ],
         "map_locations": [
@@ -194,6 +202,10 @@
           {
             "ref": "Routes/Route 20 West/Swimmer Melissa Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 20 West/Swimmer Melissa Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [

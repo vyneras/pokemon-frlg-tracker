@@ -1,4 +1,5 @@
 Tracker:AddMaps("maps/maps.json")
+Tracker:AddMaps("maps/maps_version_mismatch.json")
 Tracker:AddMaps("maps/maps_cinnabar_vanilla.json")
 Tracker:AddMaps("maps/maps_kanto_only_off.json")
 Tracker:AddMaps("maps/maps_no_gym_keys.json")

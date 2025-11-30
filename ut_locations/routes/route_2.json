@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Route 2",
+    "children": [
+      {
+        "name": "North Item",
+        "sections": [
+          {
+            "name": "Route 2 - North Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 280,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "South Item",
+        "sections": [
+          {
+            "name": "Route 2 - South Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "x": 280,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 2 Gate",
+    "children": [
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "name": "Route 2 Gate - Oak's Aide Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

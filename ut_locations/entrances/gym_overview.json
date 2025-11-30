@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Gym Overview",
+    "children": [
+      {
+        "name": "Viridian Gym",
+        "sections": [
+          {
+            "name": "Viridian Gym - Gym Guy Info"
+          },
+          {
+            "name": "Viridian Gym - Tamer Cole Reward"
+          },
+          {
+            "name": "Viridian Gym - Black Belt Kiyo Reward"
+          },
+          {
+            "name": "Viridian Gym - Cooltrainer Samuel Reward"
+          },
+          {
+            "name": "Viridian Gym - Cooltrainer Yuji Reward"
+          },
+          {
+            "name": "Viridian Gym - Black Belt Atsushi Reward"
+          },
+          {
+            "name": "Viridian Gym - Tamer Jason Reward"
+          },
+          {
+            "name": "Viridian Gym - Cooltrainer Warren Reward"
+          },
+          {
+            "name": "Viridian Gym - Black Belt Takashi Reward"
+          },
+          {
+            "name": "Viridian Gym - Leader Giovanni Reward"
+          },
+          {
+            "name": "Viridian Gym - Giovanni Info"
+          },
+          {
+            "name": "Viridian Gym - Prize"
+          },
+          {
+            "name": "Viridian Gym - Giovanni TM"
+          },
+          {
+            "name": "Viridian Gym - Hidden Item Under Giovanni"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 584,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Pewter Gym",
+        "sections": [
+          {
+            "name": "Pewter Gym - Camper Liam Reward"
+          },
+          {
+            "name": "Pewter Gym - Leader Brock Reward"
+          },
+          {
+            "name": "Pewter Gym - Brock Info"
+          },
+          {
+            "name": "Pewter Gym - Prize"
+          },
+          {
+            "name": "Pewter Gym - Brock TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 248,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Gym",
+        "sections": [
+          {
+            "name": "Cerulean Gym - Hidden Item in Water"
+          },
+          {
+            "name": "Cerulean Gym - Swimmer Luis Reward"
+          },
+          {
+            "name": "Cerulean Gym - Swimmer Luis Info"
+          },
+          {
+            "name": "Cerulean Gym - Picnicker Diana Reward"
+          },
+          {
+            "name": "Cerulean Gym - Leader Misty Reward"
+          },
+          {
+            "name": "Cerulean Gym - Misty Info"
+          },
+          {
+            "name": "Cerulean Gym - Prize"
+          },
+          {
+            "name": "Cerulean Gym - Misty TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 504,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Gym",
+        "sections": [
+          {
+            "name": "Vermilion Gym - Sailor Dwayne Reward"
+          },
+          {
+            "name": "Vermilion Gym - Sailor Dwayne Info"
+          },
+          {
+            "name": "Vermilion Gym - Engineer Baily Reward"
+          },
+          {
+            "name": "Vermilion Gym - Gentleman Tucker Reward"
+          },
+          {
+            "name": "Vermilion Gym - Gentleman Tucker Info 1"
+          },
+          {
+            "name": "Vermilion Gym - Gentleman Tucker Info 2"
+          },
+          {
+            "name": "Vermilion Gym - Lt. Surge Info"
+          },
+          {
+            "name": "Vermilion Gym - Leader Lt. Surge Reward"
+          },
+          {
+            "name": "Vermilion Gym - Prize"
+          },
+          {
+            "name": "Vermilion Gym - Lt. Surge TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Celadon Gym",
+        "sections": [
+          {
+            "name": "Celadon Gym - Lass Kay Reward"
+          },
+          {
+            "name": "Celadon Gym - Beauty Bridget Reward"
+          },
+          {
+            "name": "Celadon Gym - Beauty Tamia Reward"
+          },
+          {
+            "name": "Celadon Gym - Beauty Tamia Info"
+          },
+          {
+            "name": "Celadon Gym - Picnicker Tina Reward"
+          },
+          {
+            "name": "Celadon Gym - Cooltrainer Mary Reward"
+          },
+          {
+            "name": "Celadon Gym - Beauty Lori Reward"
+          },
+          {
+            "name": "Celadon Gym - Lass Lisa Reward"
+          },
+          {
+            "name": "Celadon Gym - Lass Lisa Info"
+          },
+          {
+            "name": "Celadon Gym - Leader Erika Reward"
+          },
+          {
+            "name": "Celadon Gym - Erika Info 1"
+          },
+          {
+            "name": "Celadon Gym - Prize"
+          },
+          {
+            "name": "Celadon Gym - Erika TM"
+          },
+          {
+            "name": "Celadon Gym - Erika Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 184,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Gym",
+        "sections": [
+          {
+            "name": "Fuchsia Gym - Juggler Nate Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Juggler Kayden Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Juggler Kirk Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Juggler Kirk Info"
+          },
+          {
+            "name": "Fuchsia Gym - Tamer Edgar Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Tamer Phil Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Juggler Shawn Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Leader Koga Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Koga Info"
+          },
+          {
+            "name": "Fuchsia Gym - Prize"
+          },
+          {
+            "name": "Fuchsia Gym - Koga TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 152,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym",
+        "sections": [
+          {
+            "name": "Saffron Gym - Psychic Cameron Reward"
+          },
+          {
+            "name": "Saffron Gym - Channeler Tasha Reward"
+          },
+          {
+            "name": "Saffron Gym - Psychic Tyron Reward"
+          },
+          {
+            "name": "Saffron Gym - Psychic Tyron Info"
+          },
+          {
+            "name": "Saffron Gym - Channeler Stacy Reward"
+          },
+          {
+            "name": "Saffron Gym - Psychic Johan Reward"
+          },
+          {
+            "name": "Saffron Gym - Channeler Amanda Reward"
+          },
+          {
+            "name": "Saffron Gym - Psychic Preston Reward"
+          },
+          {
+            "name": "Saffron Gym - Leader Sabrina Reward"
+          },
+          {
+            "name": "Saffron Gym - Sabrina Info 1"
+          },
+          {
+            "name": "Saffron Gym - Sabrina Info 2"
+          },
+          {
+            "name": "Saffron Gym - Prize"
+          },
+          {
+            "name": "Saffron Gym - Sabrina TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 744,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Cinnabar Gym",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Burglar Quinn Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Super Nerd Erik Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Super Nerd Avery Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Burglar Ramon Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Super Nerd Derek Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Super Nerd Derek Info"
+          },
+          {
+            "name": "Cinnabar Gym - Burglar Dusty Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Super Nerd Zac Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Leader Blaine Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Blaine Info"
+          },
+          {
+            "name": "Cinnabar Gym - Prize"
+          },
+          {
+            "name": "Cinnabar Gym - Blaine TM"
+          },
+          {
+            "name": "Cinnabar Gym - Photo Info 1"
+          },
+          {
+            "name": "Cinnabar Gym - Photo Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 328,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

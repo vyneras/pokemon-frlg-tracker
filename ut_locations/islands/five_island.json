@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Five Island Town",
+    "children": [
+      {
+        "name": "Five Island Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Five Island Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Five Island Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  }
+]

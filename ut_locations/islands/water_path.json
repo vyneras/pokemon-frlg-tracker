@@ -1,0 +1,198 @@
+[
+  {
+    "name": "Water Path",
+    "children": [
+      {
+        "name": "Tall Grass North Hidden Item",
+        "sections": [
+          {
+            "name": "Water Path - Tall Grass North Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_center",
+            "x": 216,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass South Hidden Item",
+        "sections": [
+          {
+            "name": "Water Path - Tall Grass South Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_south",
+            "x": 248,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "South Island Item",
+        "sections": [
+          {
+            "name": "Water Path - South Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_south",
+            "x": 280,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "North Island Hidden Item",
+        "sections": [
+          {
+            "name": "Water Path - North Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "North Island Item",
+        "sections": [
+          {
+            "name": "Water Path - North Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 280,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Hiker Earl",
+        "sections": [
+          {
+            "name": "Water Path - Hiker Earl Reward"
+          },
+          {
+            "name": "Water Path - Hiker Earl Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_south",
+            "x": 184,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Juggler Edward",
+        "sections": [
+          {
+            "name": "Water Path - Juggler Edward Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_center",
+            "x": 184,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Denise",
+        "sections": [
+          {
+            "name": "Water Path - Swimmer Denise Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_center",
+            "x": 248,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Samir",
+        "sections": [
+          {
+            "name": "Water Path - Swimmer Samir Reward"
+          },
+          {
+            "name": "Water Path - Swimmer Samir Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_center",
+            "x": 216,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Aroma Lady Rose",
+        "sections": [
+          {
+            "name": "Water Path - Aroma Lady Rose Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 200,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Twins Miu & Mia Rose",
+        "sections": [
+          {
+            "name": "Water Path - Twins Miu & Mia Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "x": 112,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heracross Woman's House",
+    "children": [
+      {
+        "name": "Woman",
+        "sections": [
+          {
+            "name": "Water Path Heracross Woman's House - Woman Gift (Show Heracross)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_heracross_womans_house",
+            "x": 56,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

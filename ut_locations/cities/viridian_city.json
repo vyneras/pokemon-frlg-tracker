@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Viridian City",
+    "children": [
+      {
+        "name": "Visit Viridian City",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+
+      {
+        "name": "Item Near Cuttable Tree",
+        "sections": [
+          {
+            "name": "Viridian City - Item Near Cuttable Tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Tutorial Man",
+        "sections": [
+          {
+            "name": "Viridian City - Tutorial Man Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 344,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Old Man",
+        "sections": [
+          {
+            "name": "Viridian City - Old Man Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 552,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Viridian Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Gym",
+    "children": [
+      {
+        "name": "Gym Guy",
+        "sections": [
+          {
+            "name": "Viridian Gym - Gym Guy Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 264,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Tamer Cole",
+        "sections": [
+          {
+            "name": "Viridian Gym - Tamer Cole Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 40,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Kiyo",
+        "sections": [
+          {
+            "name": "Viridian Gym - Black Belt Kiyo Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 56,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Samuel",
+        "sections": [
+          {
+            "name": "Viridian Gym - Cooltrainer Samuel Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Yuji",
+        "sections": [
+          {
+            "name": "Viridian Gym - Cooltrainer Yuji Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 200,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Atsushi",
+        "sections": [
+          {
+            "name": "Viridian Gym - Black Belt Atsushi Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 184,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Tamer Jason",
+        "sections": [
+          {
+            "name": "Viridian Gym - Tamer Jason Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 168,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Cooltrainer Warren",
+        "sections": [
+          {
+            "name": "Viridian Gym - Cooltrainer Warren Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 216,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Takashi",
+        "sections": [
+          {
+            "name": "Viridian Gym - Black Belt Takashi Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 168,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Viridian Gym Giovanni",
+        "sections": [
+          {
+            "name": "Viridian Gym - Leader Giovanni Reward"
+          },
+          {
+            "name": "Viridian Gym - Giovanni Info"
+          },
+          {
+            "name": "Viridian Gym - Prize"
+          },
+          {
+            "name": "Viridian Gym - Giovanni TM"
+          },
+          {
+            "name": "Viridian Gym - Hidden Item Under Giovanni"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian School",
+    "children": [
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Viridian School - Bookshelf Info 1"
+          },
+          {
+            "name": "Viridian School - Bookshelf Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_school",
+            "x": 144,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Poke Mart",
+    "children": [
+      {
+        "name": "Viridian Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Viridian Poke Mart - Delivery for Oak"
+          },
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Two Island Town",
+    "children": [
+      {
+        "name": "Two Island Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "name": "Two Island Town - Item Behind Cuttable Tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 632,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Market Stall Clerk",
+        "sections": [
+          {
+            "name": "Market Stall Item 1"
+          },
+          {
+            "name": "Market Stall Item 2"
+          },
+          {
+            "name": "Market Stall Item 3"
+          },
+          {
+            "name": "Market Stall Item 4"
+          },
+          {
+            "name": "Market Stall Item 5"
+          },
+          {
+            "name": "Market Stall Item 6"
+          },
+          {
+            "name": "Market Stall Item 7"
+          },
+          {
+            "name": "Market Stall Item 8"
+          },
+          {
+            "name": "Market Stall Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 456,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Beauty",
+        "sections": [
+          {
+            "name": "Two Island Town - Beauty Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Two Island Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Game Corner",
+    "children": [
+      {
+        "name": "Lostelle's Dad",
+        "sections": [
+          {
+            "name": "Two Island Game Corner - Lostelle's Dad Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_game_corner",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

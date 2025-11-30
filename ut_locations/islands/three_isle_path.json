@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Three Isle Path",
+    "children": [
+      {
+        "name": "Rock Hidden Item",
+        "sections": [
+          {
+            "name": "Three Isle Path - Rock Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "x": 344,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Prospector",
+        "sections": [
+          {
+            "name": "Three Isle Path - Prospector Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "x": 376,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

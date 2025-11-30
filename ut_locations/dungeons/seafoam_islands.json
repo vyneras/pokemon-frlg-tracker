@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Seafoam Islands 1F",
+    "children": [
+      {
+        "name": "Plateau Item",
+        "sections": [
+          {
+            "name": "Seafoam Islands 1F - Plateau Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "x": 184,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B1F",
+    "children": [
+      {
+        "name": "Center Plateau Item",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F - Center Plateau Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 392,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "South Item",
+        "sections": [
+          {
+            "name": "Seafoam Islands B1F - South Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "x": 312,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B2F",
+    "children": [
+      {
+        "name": "Item Below Center Plateau",
+        "sections": [
+          {
+            "name": "Seafoam Islands B2F - Item Below Center Plateau"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "x": 296,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B3F",
+    "children": [
+      {
+        "name": "West Plateau Rock Hidden Item",
+        "sections": [
+          {
+            "name": "Seafoam Islands B3F - West Plateau Rock Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "x": 88,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seafoam Islands B4F",
+    "children": [
+      {
+        "name": "West Rock Hidden Item",
+        "sections": [
+          {
+            "name": "Seafoam Islands B4F - West Rock Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "x": 216,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "South Peninsula Item",
+        "sections": [
+          {
+            "name": "Seafoam Islands B4F - South Peninsula Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  }
+]

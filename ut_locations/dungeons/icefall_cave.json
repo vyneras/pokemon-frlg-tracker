@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Icefall Cave 1F",
+    "children": [
+      {
+        "name": "Center Item",
+        "sections": [
+          {
+            "name": "Icefall Cave 1F - Center Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 184,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Southeast Ledge Item",
+        "sections": [
+          {
+            "name": "Icefall Cave 1F - Southeast Ledge Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave B1F",
+    "children": [
+      {
+        "name": "East Item",
+        "sections": [
+          {
+            "name": "Icefall Cave B1F - East Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "x": 344,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "name": "Icefall Cave B1F - Southwest Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Icefall Cave Back",
+    "children": [
+      {
+        "name": "Lorelei",
+        "sections": [
+          {
+            "name": "Icefall Cave Back - Lorelei Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_back",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt",
+        "sections": [
+          {
+            "name": "Icefall Cave Back - Team Rocket Grunt Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_back",
+            "x": 216,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  }
+]

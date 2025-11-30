@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Route 4",
+    "children": [
+      {
+        "name": "Boy",
+        "sections": [
+          {
+            "name": "Route 4 - Boy Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 248,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Pokemon Center",
+        "sections": [
+          {
+            "name": "Route 4 - Hidden Item Near Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Move Tutors",
+        "sections": [
+          {
+            "name": "Route 4 - Hidden Item Near Move Tutors"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 696,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Below South Ledge",
+        "sections": [
+          {
+            "name": "Route 4 - Hidden Item Below South Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_east",
+            "x": 184,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "East Ledges Item",
+        "sections": [
+          {
+            "name": "Route 4 - East Ledges Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_east",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Lass Crissy",
+        "sections": [
+          {
+            "name": "Route 4 - Lass Crissy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_east",
+            "x": 312,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 4 Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Route 4 Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Pokemon Center Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  }
+]

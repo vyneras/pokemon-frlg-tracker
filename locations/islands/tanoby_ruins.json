@@ -10,16 +10,12 @@
             "name": "Surf Encounters"
           },
           {
-            "ref": "Islands/Tanoby Ruins/​Surf Encounters",
-            "name": "​Surf Encounters"
+            "ref": "Islands/Tanoby Ruins/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Islands/Tanoby Ruins/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
-          },
-          {
-            "ref": "Islands/Tanoby Ruins/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Islands/Tanoby Ruins/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Islands/Tanoby Ruins/Super Rod Encounters",
@@ -223,7 +219,7 @@
             "x": 376,
             "y": 168,
             "force_invisibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           }
         ]
@@ -258,7 +254,7 @@
             "x": 104,
             "y": 168,
             "force_invisibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           }
         ]
@@ -293,7 +289,7 @@
             "x": 312,
             "y": 136,
             "force_invisibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           }
         ]
@@ -328,7 +324,7 @@
             "x": 104,
             "y": 184,
             "force_invisibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           }
         ]
@@ -363,7 +359,7 @@
             "x": 520,
             "y": 152,
             "force_invisibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           }
         ]
@@ -398,7 +394,7 @@
             "x": 200,
             "y": 248,
             "force_invisibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           }
         ]
@@ -433,7 +429,7 @@
             "x": 184,
             "y": 104,
             "force_invisibility_rules": [
-              "dungeon_entrance_shuffle_on"
+              "$shuffle_dungeons_on"
             ]
           }
         ]

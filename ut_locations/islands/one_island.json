@@ -1,0 +1,87 @@
+[
+  {
+    "name": "One Island Town",
+    "children": [
+      {
+        "name": "One Island Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Pokemon Center 1F",
+    "children": [
+      {
+        "name": "One Island Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "x": 152,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Bill",
+        "sections": [
+          {
+            "name": "One Island Pokemon Center 1F - Delivery for Lostelle's Dad"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "x": 232,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Celio",
+        "sections": [
+          {
+            "name": "One Island Pokemon Center 1F - Meet Celio"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Gift (Deliver Ruby)"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Gift (Deliver Sapphire)"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Info 1"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Info 2"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Info 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "x": 248,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

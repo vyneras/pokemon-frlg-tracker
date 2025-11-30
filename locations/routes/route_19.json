@@ -6,20 +6,16 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Routes/Route 19/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Routes/Route 19/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Routes/Route 19/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Routes/Route 19/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Routes/Route 19/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Routes/Route 19/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Routes/Route 19/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Routes/Route 19/Super Rod Encounters",
@@ -93,6 +89,10 @@
           {
             "ref": "Routes/Route 19/Swimmer Alice Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 19/Swimmer Alice Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -189,6 +189,10 @@
           {
             "ref": "Routes/Route 19/Swimmer Matthew Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 19/Swimmer Matthew Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -205,6 +209,10 @@
           {
             "ref": "Routes/Route 19/Swimmer Tony Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 19/Swimmer Tony Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [

@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Route 10",
+    "children": [
+      {
+        "name": "Southeast Hidden Item Near Pokemon Center",
+        "sections": [
+          {
+            "name": "Route 10 - Southeast Hidden Item Near Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 280,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "West Hidden Item Near Pokemon Center",
+        "sections": [
+          {
+            "name": "Route 10 - West Hidden Item Near Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 104,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "name": "Route 10 - Hidden Item Behind Cuttable Tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 168,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Power Plant Entrance",
+        "sections": [
+          {
+            "name": "Route 10 - Hidden Item Near Power Plant Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 200,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Rock Tunnel South Entrance",
+        "sections": [
+          {
+            "name": "Route 10 - Hidden Item Near Rock Tunnel South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 328,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Heidi",
+        "sections": [
+          {
+            "name": "Route 10 - Picnicker Heidi Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 152,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Hiker Clark",
+        "sections": [
+          {
+            "name": "Route 10 - Hiker Clark Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 72,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Hiker Trent",
+        "sections": [
+          {
+            "name": "Route 10 - Hiker Trent Reward"
+          },
+          {
+            "name": "Route 10 - Hiker Trent Rematch Reward (4 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 72,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Carol",
+        "sections": [
+          {
+            "name": "Route 10 - Picnicker Carol Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 120,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "PokeManiac Herman",
+        "sections": [
+          {
+            "name": "Route 10 - PokeManiac Herman Reward"
+          },
+          {
+            "name": "Route 10 - PokeManiac Herman Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 10 - PokeManiac Herman Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 248,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "PokeManiac Mark",
+        "sections": [
+          {
+            "name": "Route 10 - PokeManiac Mark Reward"
+          },
+          {
+            "name": "Route 10 - PokeManiac Mark Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 10 - PokeManiac Mark Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_south",
+            "x": 216,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 10 Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Route 10 Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Pokemon Center Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "name": "Route 10 Pokemon Center 1F - Oak's Aide Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_pokemon_center_1f",
+            "x": 200,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Five Isle Meadow",
+    "children": [
+      {
+        "name": "Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "name": "Five Isle Meadow - Item Behind Cuttable Tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 200,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Southwest Island Item",
+        "sections": [
+          {
+            "name": "Five Isle Meadow - Southwest Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 56,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "North Team Rocket Grunt",
+        "sections": [
+          {
+            "name": "Five Isle Meadow - North Team Rocket Grunt Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Center Team Rocket Grunt",
+        "sections": [
+          {
+            "name": "Five Isle Meadow - Center Team Rocket Grunt Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 296,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "South Team Rocket Grunt",
+        "sections": [
+          {
+            "name": "Five Isle Meadow - South Team Rocket Grunt Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_isle_meadow",
+            "x": 184,
+            "y": 440
+          }
+        ]
+      }
+    ]
+  }
+]

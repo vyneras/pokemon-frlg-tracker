@@ -19,7 +19,7 @@
         ]
       },
       {
-        "name": "Fly House",
+        "name": "Route 16 Fly House",
         "sections": [
           {
             "ref": "Routes/Route 16/Woman Gift"
@@ -127,6 +127,10 @@
           {
             "ref": "Routes/Route 16/Biker Ruben Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 16/Biker Ruben Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -143,6 +147,10 @@
           {
             "ref": "Routes/Route 16/Cue Ball Camron Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 16/Cue Ball Camron Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -188,7 +196,7 @@
     ]
   },
   {
-    "name": "Route 16 House",
+    "name": "Route 16 Fly House",
     "children": [
       {
         "name": "Woman",

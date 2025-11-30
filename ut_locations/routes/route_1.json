@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Route 1",
+    "children": [
+      {
+        "name": "Poke Mart Employee",
+        "sections": [
+          {
+            "name": "Route 1 - Free Sample"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_1",
+            "x": 104,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  }
+]

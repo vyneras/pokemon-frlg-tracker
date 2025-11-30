@@ -8,12 +8,12 @@ ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/trainer_mapping.lua")
 
-TRACKER_CHECKSUM = 0xA6E2C575
+TRACKER_CHECKSUM = 0x4A497E8F
 
 CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
 PROG_PASS_COUNT = 0
-VANILLA_RUNNING_SHOES = false
+PROG_ROD_COUNT = 0
 
 PROG_CARD_KEY = {
     [0] = "card_key_2f",
@@ -43,19 +43,26 @@ PROG_PASS_SPLIT = {
     [6] = "seven_pass"
 }
 
+PROG_ROD = {
+    [0] = "old_rod",
+    [1] = "good_rod",
+    [2] = "super_rod"
+}
+
 if Highlight then
-    HIGHTLIGHT_LEVEL= {
+    HIGHTLIGHT_LEVEL = {
         [0] = Highlight.Unspecified,
         [10] = Highlight.NoPriority,
         [20] = Highlight.Avoid,
         [30] = Highlight.Priority,
-        [40] = Highlight.None,
+        [40] = Highlight.None
     }
 end
 
 DEXSANITY_LOCATIONS = {}
-ENCOUNTER_LIST = {}
+WILD_ENCOUNTER_LIST = {}
 STATIC_ENCOUNTER_LIST = {}
+POKEMON_TO_LOCATION = {}
 
 SEEN_POKEMON = {}
 CAUGHT_POKEMON = {}
@@ -176,26 +183,6 @@ function setDexsanityLocations()
     end
 end
 
-function setRandomizeFlyDestinationsSetting(stage)
-    local object = Tracker:FindObjectForCode("randomize_fly_destinations_setting")
-    if object then
-        object.CurrentStage = stage
-    end
-end
-
-function setDungeonEntranceShuffleSetting(stage)
-    local object = Tracker:FindObjectForCode("dungeon_entrance_shuffle_setting")
-    if object then
-        object.CurrentStage = stage
-    end
-end
-
-function setEncounterList(wild_encounters)
-    for dex_number, encounters in pairs(wild_encounters) do
-        ENCOUNTER_LIST[tonumber(dex_number)] = encounters
-    end
-end
-
 function onClear(slot_data)
     Tracker.BulkUpdate = true
     local version_mismatch = Tracker:FindObjectForCode("version_mismatch")
@@ -211,10 +198,10 @@ function onClear(slot_data)
     CUR_INDEX = -1
     PROG_CARD_KEY_COUNT = 0
     PROG_PASS_COUNT = 0
-    VANILLA_RUNNING_SHOES = false
+    PROG_ROD_COUNT = 0
     FLY_DESTINATION_MAPPING = {}
     DEXSANITY_LOCATIONS = {}
-    ENCOUNTER_LIST = {}
+    POKEMON_TO_LOCATION = {}
     SEEN_POKEMON = {}
     CAUGHT_POKEMON = {}
     resetItems()
@@ -222,13 +209,19 @@ function onClear(slot_data)
     resetWorldStateSettings()
     resetDarkCaves()
     resetEntrances()
-    setRandomizeFlyDestinationsSetting(0)
-    setDungeonEntranceShuffleSetting(0)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
-    setEncounterList(slot_data["wild_encounters"])
+    WILD_ENCOUNTER_LIST = slot_data["wild_encounters"]
     STATIC_ENCOUNTER_LIST = slot_data["static_encounters"]
+    for location, dex_numbers in pairs(WILD_ENCOUNTER_LIST) do
+        for _, dex_number in pairs(dex_numbers) do
+            if POKEMON_TO_LOCATION[dex_number] == nil then
+                POKEMON_TO_LOCATION[dex_number] = {}
+            end
+            table.insert(POKEMON_TO_LOCATION[dex_number], location)
+        end
+    end
     for key, value in pairs(slot_data) do
         if key == "remove_badge_requirement" then
             for hm, code in pairs(BADGE_FOR_HM) do
@@ -255,18 +248,28 @@ function onClear(slot_data)
                     object.CurrentStage = 1
                 end
             end
-        elseif key == "randomize_fly_destinations" then
-            setRandomizeFlyDestinationsSetting(1)
+        elseif key == "fly_destinations" then
             local fly_mapping = {}
             for key, value in pairs(FLY_DESTINATION_DATA) do
                 fly_mapping[value[1]] = key
             end
-            for exit, region in pairs(slot_data["randomize_fly_destinations"]) do
+            for exit, region in pairs(slot_data["fly_destinations"]) do
                 local item = FLY_DESTINATION_ITEMS[exit]
                 FLY_DESTINATION_MAPPING[item.flyUnlock] = {item, fly_mapping[region]}
             end
-        elseif key == "dungeon_entrance_shuffle" then
-            setDungeonEntranceShuffleSetting(1)
+        elseif key == "rematchsanity" then
+            local object = Tracker:FindObjectForCode("rematchsanity_setting")
+            if object then
+                if slot_data["rematchsanity"] then
+                    if slot_data["rematch_requirements"] then
+                        object.CurrentStage = 2
+                    else
+                        object.CurrentStage = 1
+                    end
+                else
+                    object.CurrentStage = 0
+                end
+            end
         elseif SLOT_CODES[key] then
             local object = Tracker:FindObjectForCode(SLOT_CODES[key].code)
             if object then
@@ -288,25 +291,12 @@ function onClear(slot_data)
             end
         end
     end
-    if slot_data["shuffle_running_shoes"] == 0 then
-        VANILLA_RUNNING_SHOES = true
-    end
-    if slot_data["shuffle_berry_pouch"] == 0 then
-        local object = Tracker:FindObjectForCode("berry_pouch")
-        if object then
-            object.Active = true
-        end
-    end
-    if slot_data["shuffle_tm_case"] == 0 then
-        local object = Tracker:FindObjectForCode("tm_case")
-        if object then
-            object.Active = true
-        end
-    end
     if has("trainersanity_on") then
         setTrainersanityVisibility()
     end
     setDexsanityLocations()
+    set_default_fly_destinations()
+    set_default_dungeon_entrances()
     if PLAYER_NUMBER > -1 then
         updateEvents(0, true)
         updateFlyUnlocks(0, true)
@@ -348,11 +338,15 @@ function onItem(index, item_id, item_name, player_number)
         addProgressiveCardKey()
     elseif value[1] == "prog_pass" then
         addProgressivePass()
+    elseif value[1] == "prog_rod" then
+        addProgressiveRod()
     else
         local object = Tracker:FindObjectForCode(value[1])
         if object then
             if value[2] == "toggle" or value[2] == "progressive_toggle" then
                 object.Active = true
+            elseif value[1] == "pokedex" then
+                POKEDEX:setActive(true)
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: could not find object for code %s", v[1]))
@@ -386,6 +380,16 @@ function addProgressivePass()
                 object.Active = true
                 PROG_PASS_COUNT = PROG_PASS_COUNT + 1
             end
+        end
+    end
+end
+
+function addProgressiveRod()
+    if PROG_ROD_COUNT <= 2 then
+        local object = Tracker:FindObjectForCode(PROG_ROD[PROG_ROD_COUNT])
+        if object then
+            object.Active = true
+            PROG_ROD_COUNT = PROG_ROD_COUNT + 1
         end
     end
 end
@@ -463,13 +467,9 @@ function updateEvents(value, reset)
             local bitmask = 2 ^ bit
             if reset or (value & bitmask ~= event.value) then
                 event.value = value & bitmask
-                if event.code == "lemonade" then
+                if event.code == "fresh_water" or event.code == "soda_pop" or event.code == "lemonade" then
                     Tracker:FindObjectForCode(event.code).Active =
                         Tracker:FindObjectForCode(event.code).Active or event.value
-                elseif event.code == "running_shoes" then
-                    if VANILLA_RUNNING_SHOES then
-                        Tracker:FindObjectForCode(event.code).Active = event.value
-                    end
                 else
                     Tracker:FindObjectForCode(event.code).Active = event.value
                 end
@@ -544,23 +544,17 @@ function updatePokemon(pokemon)
             end
         end
         if has("encounter_tracking_on") then
-            local encounter_mapping = {}
-            if has("game_version_fire") then
-                encounter_mapping = ENCOUNTER_MAPPING_FIRERED
-            elseif has("game_version_leaf") then
-                encounter_mapping = ENCOUNTER_MAPPING_LEAFGREEN
-            end
-            for _, location in pairs(encounter_mapping) do
+            for key, location in pairs(ENCOUNTER_MAPPING_WILDS) do
                 local object = Tracker:FindObjectForCode(location)
-                if object then
-                    object.AvailableChestCount = object.ChestCount
+                if object and WILD_ENCOUNTER_LIST[key] ~= nil then
+                    object.AvailableChestCount = #WILD_ENCOUNTER_LIST[key]
                 end
             end
-            for dex_number, encounters in pairs(ENCOUNTER_LIST) do
+            for dex_number, encounters in pairs(POKEMON_TO_LOCATION) do
                 local code = Tracker:FindObjectForCode(POKEMON_MAPPING[dex_number])
                 if caught_pokemon[dex_number] or (seen_pokemon[dex_number] and code.CurrentStage == 0) then
                     for _, encounter in pairs(encounters) do
-                        local object_name = encounter_mapping[encounter]
+                        local object_name = ENCOUNTER_MAPPING_WILDS[encounter]
                         if object_name then
                             local object = Tracker:FindObjectForCode(object_name)
                             if object then
@@ -638,10 +632,10 @@ end
 
 function updateHints(value)
     if Highlight then
-        for _, hint in ipairs(value) do --loop over all hints provided
-            local location_table = LOCATION_MAPPING[hint.location] 
-            for _, location in ipairs(location_table) do --loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
-                if location:sub(1, 1) == "@" then --this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
+        for _, hint in ipairs(value) do -- loop over all hints provided
+            local location_table = LOCATION_MAPPING[hint.location]
+            for _, location in ipairs(location_table) do -- loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
+                if location:sub(1, 1) == "@" then -- this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
                     local obj = Tracker:FindObjectForCode(location)
                     if obj then
                         obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]

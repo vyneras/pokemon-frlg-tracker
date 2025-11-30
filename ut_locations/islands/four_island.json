@@ -1,0 +1,203 @@
+[
+  {
+    "name": "Four Island Town",
+    "children": [
+      {
+        "name": "Four Island Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Beach Southeast Hidden Item",
+        "sections": [
+          {
+            "name": "Four Island Town - Beach Southeast Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 360,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Beach Northwest Hidden Item",
+        "sections": [
+          {
+            "name": "Four Island Town - Beach Northwest Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 104,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Beach Item",
+        "sections": [
+          {
+            "name": "Four Island Town - Beach Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 88,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Northeast Island Item",
+        "sections": [
+          {
+            "name": "Four Island Town - Northeast Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 520,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Little Girl",
+        "sections": [
+          {
+            "name": "Four Island Town - Little Girl Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 504,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Old Woman",
+        "sections": [
+          {
+            "name": "Four Island Town - Old Woman Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 424,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Four Island Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Four Island Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Poke Mart",
+    "children": [
+      {
+        "name": "Old Man",
+        "sections": [
+          {
+            "name": "Four Island Poke Mart - Old Man Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_mart",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Four Island Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

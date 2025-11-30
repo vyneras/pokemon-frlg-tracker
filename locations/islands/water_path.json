@@ -14,12 +14,12 @@
             "name": "Surf Encounters"
           },
           {
-            "ref": "Islands/Water Path/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Islands/Water Path/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Islands/Water Path/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Islands/Water Path/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Islands/Water Path/Super Rod Encounters",
@@ -130,6 +130,10 @@
           {
             "ref": "Islands/Water Path/Hiker Earl Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Islands/Water Path/Hiker Earl Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -178,6 +182,10 @@
           {
             "ref": "Islands/Water Path/Swimmer Samir Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Islands/Water Path/Swimmer Samir Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Cerulean City",
+    "children": [
+      {
+        "name": "Cerulean City Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Gym Sign",
+        "sections": [
+          {
+            "name": "Cerulean City - Gym Sign Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 440,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind Badge Guy's House",
+        "sections": [
+          {
+            "name": "Cerulean City - Hidden Item Behind Badge Guy's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 296,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Rival",
+        "sections": [
+          {
+            "name": "Cerulean City - Rival Info"
+          },
+          {
+            "name": "Cerulean City - Rival Reward"
+          },
+          {
+            "name": "Cerulean City - Rival Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 376,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt",
+        "sections": [
+          {
+            "name": "Cerulean City - Team Rocket Grunt Reward"
+          },
+          {
+            "name": "Cerulean City - Recover Stolen TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 536,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Cerulean Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Youngster",
+        "sections": [
+          {
+            "name": "Cerulean Pokemon Center 1F - Youngster Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "x": 72,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Cerulean Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Gym",
+    "children": [
+      {
+        "name": "Hidden Item in Water",
+        "sections": [
+          {
+            "name": "Cerulean Gym - Hidden Item in Water"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 104,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Luis",
+        "sections": [
+          {
+            "name": "Cerulean Gym - Swimmer Luis Reward"
+          },
+          {
+            "name": "Cerulean Gym - Swimmer Luis Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 168,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Diana",
+        "sections": [
+          {
+            "name": "Cerulean Gym - Picnicker Diana Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Misty",
+        "sections": [
+          {
+            "name": "Cerulean Gym - Leader Misty Reward"
+          },
+          {
+            "name": "Cerulean Gym - Misty Info"
+          },
+          {
+            "name": "Cerulean Gym - Prize"
+          },
+          {
+            "name": "Cerulean Gym - Misty TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "x": 136,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bike Shop",
+    "children": [
+      {
+        "name": "Bike Shop Owner",
+        "sections": [
+          {
+            "name": "Bike Shop - Bicycle Purchase"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bike_shop",
+            "x": 152,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Berry Powder Man's House",
+    "children": [
+      {
+        "name": "Berry Powder Man",
+        "sections": [
+          {
+            "name": "Berry Powder Man's House - Berry Powder Man Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "berry_powder_mans_house",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerulean Poke Mart",
+    "children": [
+      {
+        "name": "Cerulean Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

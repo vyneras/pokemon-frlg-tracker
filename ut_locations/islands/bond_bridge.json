@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Bond Bridge",
+    "children": [
+      {
+        "name": "Rock Hidden Item",
+        "sections": [
+          {
+            "name": "Bond Bridge - Rock Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_east",
+            "x": 248,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "East Beach Hidden Item",
+        "sections": [
+          {
+            "name": "Bond Bridge - East Beach Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 712,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "West Beach Hidden Item",
+        "sections": [
+          {
+            "name": "Bond Bridge - West Beach Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 536,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Aroma Lady Nikki",
+        "sections": [
+          {
+            "name": "Bond Bridge - Aroma Lady Nikki Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 440,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Aroma Lady Violet",
+        "sections": [
+          {
+            "name": "Bond Bridge - Aroma Lady Violet Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_east",
+            "x": 360,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Tuber Alexis",
+        "sections": [
+          {
+            "name": "Bond Bridge - Tuber Alexis Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_east",
+            "x": 72,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Tuber Amira",
+        "sections": [
+          {
+            "name": "Bond Bridge - Tuber Amira Reward"
+          },
+          {
+            "name": "Bond Bridge - Tuber Amira Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 536,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Twins Joy & Meg",
+        "sections": [
+          {
+            "name": "Bond Bridge - Twins Joy & Meg Reward"
+          },
+          {
+            "name": "Bond Bridge - Twins Joy & Meg Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_east",
+            "x": 512,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Tisha",
+        "sections": [
+          {
+            "name": "Bond Bridge - Swimmer Tisha Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "x": 584,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

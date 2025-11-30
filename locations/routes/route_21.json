@@ -6,24 +6,20 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Routes/Route 21/Land Encounter",
-            "name": "Land Encounter"
+            "ref": "Routes/Route 21/Land Encounters",
+            "name": "Land Encounters"
           },
           {
-            "ref": "Routes/Route 21/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Routes/Route 21/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Routes/Route 21/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Routes/Route 21/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Routes/Route 21/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Routes/Route 21/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Routes/Route 21/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Routes/Route 21/Super Rod Encounters",
@@ -81,6 +77,10 @@
           {
             "ref": "Routes/Route 21/Fisherman Wade Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 21/Fisherman Wade Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -97,6 +97,14 @@
           {
             "ref": "Routes/Route 21/Sis and Bro Lil & Ian Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 21/Sis and Bro Lil & Ian Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 21/Sis and Bro Lil & Ian Rematch Reward 2",
+            "name": "Rematch Reward 2"
           }
         ],
         "map_locations": [
@@ -161,6 +169,10 @@
           {
             "ref": "Routes/Route 21/Swimmer Jack Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 21/Swimmer Jack Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [

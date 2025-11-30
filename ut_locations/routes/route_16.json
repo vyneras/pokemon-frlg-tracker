@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Route 16",
+    "children": [
+      {
+        "name": "Snorlax",
+        "sections": [
+          {
+            "name": "Route 16 - Hidden Item Under Snorlax"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 504,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Young Couple Lea & Jed",
+        "sections": [
+          {
+            "name": "Route 16 - Young Couple Lea & Jed Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 496,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Biker Hideo",
+        "sections": [
+          {
+            "name": "Route 16 - Biker Hideo Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Biker Lao",
+        "sections": [
+          {
+            "name": "Route 16 - Biker Lao Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 264,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Biker Ruben",
+        "sections": [
+          {
+            "name": "Route 16 - Biker Ruben Reward"
+          },
+          {
+            "name": "Route 16 - Biker Ruben Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 136,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Camron",
+        "sections": [
+          {
+            "name": "Route 16 - Cue Ball Camron Reward"
+          },
+          {
+            "name": "Route 16 - Cue Ball Camron Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 104,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Koji",
+        "sections": [
+          {
+            "name": "Route 16 - Cue Ball Koji Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 232,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Luke",
+        "sections": [
+          {
+            "name": "Route 16 - Cue Ball Luke Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Fly House",
+    "children": [
+      {
+        "name": "Woman",
+        "sections": [
+          {
+            "name": "Route 16 Fly House - Woman Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_house",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Gate 2F",
+    "children": [
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "name": "Route 16 Gate 2F - Oak's Aide Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_2f",
+            "x": 168,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  }
+]

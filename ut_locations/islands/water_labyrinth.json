@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Water Labyrinth",
+    "children": [
+      {
+        "name": "Gentleman",
+        "sections": [
+          {
+            "name": "Water Labyrinth - Gentleman Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_labyrinth_west",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Breeder Alize",
+        "sections": [
+          {
+            "name": "Water Labyrinth - Pokemon Breeder Alize Reward"
+          },
+          {
+            "name": "Water Labyrinth - Pokemon Breeder Alize Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_labyrinth_west",
+            "x": 152,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  }
+]

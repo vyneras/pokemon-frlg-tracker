@@ -10,16 +10,12 @@
             "name": "Surf Encounters"
           },
           {
-            "ref": "Islands/Trainer Tower Exterior/​Surf Encounters",
-            "name": "​Surf Encounters"
+            "ref": "Islands/Trainer Tower Exterior/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Islands/Trainer Tower Exterior/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
-          },
-          {
-            "ref": "Islands/Trainer Tower Exterior/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Islands/Trainer Tower Exterior/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Islands/Trainer Tower Exterior/Super Rod Encounters",
@@ -88,6 +84,10 @@
           {
             "ref": "Islands/Trainer Tower Exterior/Psychic Dario Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Islands/Trainer Tower Exterior/Psychic Dario Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -104,6 +104,10 @@
           {
             "ref": "Islands/Trainer Tower Exterior/Psychic Rodette Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Islands/Trainer Tower Exterior/Psychic Rodette Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [

@@ -2,6 +2,7 @@ BADGES = { "boulder_badge", "cascade_badge", "thunder_badge", "rainbow_badge", "
     "volcano_badge", "earth_badge" }
 GYMS = { "defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defeat_koga", "defeat_sabrina",
     "defeat_blaine", "defeat_giovanni" }
+FOSSILS = {"dome_fossil", "helix_fossil", "old_amber"}
 
 function cut()
     local badge_required = Tracker:FindObjectForCode("hm01_cut").CurrentStage
@@ -87,6 +88,72 @@ function post_game_fame()
     return has("defeat_champion") or has("early_gossipers_on")
 end
 
+function jump_down_ledge()
+    return has("jumping_shoes") or (has("bicycle") and has("bicycle_jumping_shoes_off"))
+end
+
+function jump_up_ledge()
+    return has("acrobatic_bicycle_on") and has("bicycle") and (has("jumping_shoes") or has("bicycle_jumping_shoes_off"))
+end
+
+function has_n_badges(n)
+    local count = 0
+    for _, item in pairs(BADGES) do
+        if has(item) then
+            count = count + 1
+        end
+        if count >= n then
+            return true
+        end
+    end
+    return false
+end
+
+function has_n_gyms(n)
+    local count = 0
+    for _, item in pairs(GYMS) do
+        if has(item) then
+            count = count + 1
+        end
+        if count >= n then
+            return true
+        end
+    end
+    return false
+end
+
+function trainer_rematch_1()
+    return has("vs_seeker")
+end
+
+function trainer_rematch_2()
+    if has("rematchsanity_badges") then
+        return has("vs_seeker") and has_n_badges(2)
+    end
+    return has("vs_seeker") and has_n_gyms(2)
+end
+
+function trainer_rematch_3()
+    if has("rematchsanity_badges") then
+        return has("vs_seeker") and has_n_badges(4)
+    end
+    return has("vs_seeker") and has_n_gyms(4)
+end
+
+function trainer_rematch_4()
+    if has("rematchsanity_badges") then
+        return has("vs_seeker") and has_n_badges(6)
+    end
+    return has("vs_seeker") and has_n_gyms(6)
+end
+
+function trainer_rematch_5()
+    if has("rematchsanity_badges") then
+        return has("vs_seeker") and has_n_badges(8)
+    end
+    return has("vs_seeker") and has_n_gyms(8)
+end
+
 function purchase_bicycle()
     if has("bike_voucher") then
         return AccessibilityLevel.Normal
@@ -95,38 +162,62 @@ function purchase_bicycle()
 end
 
 function route_2_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_2_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_2_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_10_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_10_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_10_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_11_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_11_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_11_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_16_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_16_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_16_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_15_oaks_aide()
-    if Tracker:ProviderCountForCode("pokedex") >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement") then
+    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
+end
+
+function two_island_stall(level)
+    if level == 1 and has("rescue_lostelle") then
+        return AccessibilityLevel.Normal
+    elseif level == 2 and has("rescue_lostelle") and has("defeat_champion") then
+        return AccessibilityLevel.Normal
+    elseif level == 3 and has("rescue_lostelle") and has("defeat_champion") and has("restore_pokemon_network_machine") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
+function fossils()
+    local count = 0
+    for _, fossil in pairs(FOSSILS) do
+        if has(fossil) then
+            count = count + 1
+        end
+    end
+    if count >= Tracker:ProviderCountForCode("fossil_requirement") then
+        return true
+    end
+    return false
 end
 
 function route_2_modified()
@@ -170,7 +261,7 @@ function mt_moon()
 end
 
 function leave_cerulean()
-    return has("save_bill") or has("cerulean_roadblock_off")
+    return has("save_bill") or has("cerulean_roadblock_off") or jump_up_ledge()
 end
 
 function tunnels_blocked()
@@ -255,4 +346,28 @@ end
 
 function victory_road_rock_smash()
     return has("victory_road_rocks_off") or rock_smash()
+end
+
+function post_goal_visible()
+    return has("goal_e4_rematch") or has("post_goal_on")
+end
+
+function post_goal_gossipers_visible()
+    return post_goal_visible() or has("early_gossipers_on")
+end
+
+function cerulean_cave_visisble()
+    return post_goal_visible() or CERULEAN_CAVE_REQ:getType() == "network_machine" or CERULEAN_CAVE_REQ:getType() == "badges" or CERULEAN_CAVE_REQ:getType() == "gyms"
+end
+
+function shuffle_dungeons_off()
+    return has("shuffle_dungeons_off") or has("shuffle_dungeons_seafoam")
+end
+
+function shuffle_dungeons_on()
+    return has("shuffle_dungeons_simple") or has("shuffle_dungeons_restricted") or has("shuffle_dungeons_full")
+end
+
+function rematchsanity_on()
+    return has("rematchsanity_badges") or has("rematchsanity_gyms")
 end

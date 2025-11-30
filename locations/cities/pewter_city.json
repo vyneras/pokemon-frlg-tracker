@@ -206,30 +206,14 @@
     ]
   },
   {
-    "name": "Pewter Museum",
+    "name": "Pewter Museum 1F",
     "children": [
-      {
-        "name": "Item",
-        "sections": [
-          {
-            "ref": "Cities/Pewter City/Pewter Museum Item",
-            "name": "Item"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pewter_museum_2f",
-            "x": 296,
-            "y": 40
-          }
-        ]
-      },
       {
         "name": "Scientist",
         "sections": [
           {
             "ref": "Cities/Pewter City/Scientist Gift",
-            "name": "Scientist Gift"
+            "name": "Gift"
           }
         ],
         "map_locations": [
@@ -245,7 +229,7 @@
         "sections": [
           {
             "ref": "Cities/Pewter City/Bookshelf Info",
-            "name": "Bookshelf Info"
+            "name": "Info"
           }
         ],
         "map_locations": [
@@ -253,6 +237,27 @@
             "map": "pewter_museum_1f",
             "x": 432,
             "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Museum 2F",
+    "children": [
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "ref": "Cities/Pewter City/Pewter Museum Item",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_2f",
+            "x": 296,
+            "y": 40
           }
         ]
       }

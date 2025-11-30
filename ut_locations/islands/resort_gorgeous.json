@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Resort Gorgeous",
+    "children": [
+      {
+        "name": "West Island Hidden Item",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - West Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Main Island Northwest Hidden Item",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Main Island Northwest Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 440,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Main Island Southwest Hidden Item",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Main Island Southwest Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 440,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Main Island Southeast Hidden Item",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Main Island Southeast Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 56,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Painter Rayna",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Painter Rayna Reward"
+          },
+          {
+            "name": "Resort Gorgeous - Painter Rayna Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 200,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Toby",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Swimmer Toby Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 312,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Lady Gillian",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Lady Gillian Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Lady Jacki",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Lady Jacki Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 376,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Painter Celina",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Painter Celina Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Painter Daisy",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Painter Daisy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Youngster Destin",
+        "sections": [
+          {
+            "name": "Resort Gorgeous - Youngster Destin Reward"
+          },
+          {
+            "name": "Resort Gorgeous - Youngster Destin Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_west",
+            "x": 536,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Selphy's House",
+    "children": [
+      {
+        "name": "Selphy",
+        "sections": [
+          {
+            "name": "Selphy's House - Selphy Gift (Show Pokemon)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Selphy's House - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "x": 144,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -222,26 +222,6 @@ function toggle_split_tea_maps(code)
     end
 end
 
-function toggle_split_card_key_maps(code)
-    local card_keys_vanilla = has("card_keys_vanilla")
-
-    if card_keys_vanilla then
-        Tracker:AddMaps("maps/maps_vanilla_card_key.json")
-    else
-        Tracker:AddMaps("maps/maps_split_card_key.json")
-    end
-end
-
-function toggle_gym_key_maps(code)
-    local gym_keys = has("gym_keys_on")
-
-    if gym_keys then
-        Tracker:AddMaps("maps/maps_gym_keys.json")
-    else
-        Tracker:AddMaps("maps/maps_no_gym_keys.json")
-    end
-end
-
 function toggle_tunnel_maps(code)
     local tunnels_blocked = has("block_tunnels_on")
 
@@ -376,13 +356,36 @@ function toggle_fly_unlock(code)
 end
 
 function set_default_dungeon_entrances(code)
-    local dungeon_entrances_shuffled = Tracker:FindObjectForCode(code).CurrentStage == 1
-    for _, item in pairs(ENTRANCE_ITEMS) do
-        if dungeon_entrances_shuffled then
+    for name, item in pairs(ENTRANCE_ITEMS) do
+        if shuffle_dungeons_on() then
             item:setStage(item:getSavedStage())
         else
-            item:setStage(item:getDefaultStage())
+            if has("shuffle_dungeons_seafoam") and name == "Seafoam Islands (South)" then
+                item:setStage(17)
+            elseif has("shuffle_dungeons_seafoam") and name == "Seafoam Islands (North)" then
+                item:setStage(16)
+            else
+                item:setStage(item:getDefaultStage())
+            end
         end
+    end
+end
+
+function set_encounter_counts(code)
+    if has("game_version_fire") then
+        Tracker:FindObjectForCode("@Cities/Vermilion City/Super Rod Encounters").AvailableChestCount = 4
+        Tracker:FindObjectForCode("@Dungeons/Power Plant/Land Encounters").AvailableChestCount = 5
+        Tracker:FindObjectForCode("@Dungeons/Mt. Ember/Exterior - Land Encounters").AvailableChestCount = 6
+        Tracker:FindObjectForCode("@Islands/Sevault Canyon/Land Encounters").AvailableChestCount = 10
+        Tracker:FindObjectForCode("@Islands/Tanoby Ruins/Surf Encounters").AvailableChestCount = 2
+        Tracker:FindObjectForCode("@Islands/Trainer Tower Exterior/Surf Encounters").AvailableChestCount = 2
+    else
+        Tracker:FindObjectForCode("@Cities/Vermilion City/Super Rod Encounters").AvailableChestCount = 5
+        Tracker:FindObjectForCode("@Dungeons/Power Plant/Land Encounters").AvailableChestCount = 4
+        Tracker:FindObjectForCode("@Dungeons/Mt. Ember/Exterior - Land Encounters").AvailableChestCount = 7
+        Tracker:FindObjectForCode("@Islands/Sevault Canyon/Land Encounters").AvailableChestCount = 9
+        Tracker:FindObjectForCode("@Islands/Tanoby Ruins/Surf Encounters").AvailableChestCount = 3
+        Tracker:FindObjectForCode("@Islands/Trainer Tower Exterior/Surf Encounters").AvailableChestCount = 3
     end
 end
 

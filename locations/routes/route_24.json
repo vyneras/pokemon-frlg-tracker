@@ -10,20 +10,16 @@
             "name": "Land Encounters"
           },
           {
-            "ref": "Routes/Route 24/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Routes/Route 24/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Routes/Route 24/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Routes/Route 24/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Routes/Route 24/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Routes/Route 24/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Routes/Route 24/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Routes/Route 24/Super Rod Encounters",
@@ -160,6 +156,14 @@
           {
             "ref": "Routes/Route 24/Lass Reli Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 24/Lass Reli Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 24/Lass Reli Rematch Reward 2",
+            "name": "Rematch Reward 2"
           }
         ],
         "map_locations": [
@@ -176,6 +180,18 @@
           {
             "ref": "Routes/Route 24/Youngster Timmy Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 24/Youngster Timmy Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 24/Youngster Timmy Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 24/Youngster Timmy Rematch Reward 3",
+            "name": "Rematch Reward 3"
           }
         ],
         "map_locations": [

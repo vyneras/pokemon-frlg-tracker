@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Canyon Entrance",
+    "children": [
+      {
+        "name": "Southwest Hidden Item",
+        "sections": [
+          {
+            "name": "Canyon Entrance - Southwest Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 136,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Aroma Lady Miah",
+        "sections": [
+          {
+            "name": "Canyon Entrance - Aroma Lady Miah Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Juggler Mason",
+        "sections": [
+          {
+            "name": "Canyon Entrance - Juggler Mason Reward"
+          },
+          {
+            "name": "Canyon Entrance - Juggler Mason Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 184,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Ranger Madeline",
+        "sections": [
+          {
+            "name": "Canyon Entrance - Pokemon Ranger Madeline Reward"
+          },
+          {
+            "name": "Canyon Entrance - Pokemon Ranger Madeline Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 168,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Ranger Nicolas",
+        "sections": [
+          {
+            "name": "Canyon Entrance - Pokemon Ranger Nicolas Reward"
+          },
+          {
+            "name": "Canyon Entrance - Pokemon Ranger Nicolas Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 184,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Young Couple Eve & Jon",
+        "sections": [
+          {
+            "name": "Canyon Entrance - Young Couple Eve & Jon Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "canyon_entrance",
+            "x": 64,
+            "y": 552
+          }
+        ]
+      }
+    ]
+  }
+]

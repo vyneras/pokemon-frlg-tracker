@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Seven Island Town",
+    "children": [
+      {
+        "name": "Seven Island Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Scientist",
+        "sections": [
+          {
+            "name": "Seven Island Town - Scientist Gift 1 (Trade Scanner)"
+          },
+          {
+            "name": "Seven Island Town - Scientist Gift 2 (Trade Scanner)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 248,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Seven Island Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Seven Island Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Poke Mart",
+    "children": [
+      {
+        "name": "Seven Island Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

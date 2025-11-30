@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Fuchsia City",
+    "children": [
+      {
+        "name": "Fuchsia City Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Gym Sign",
+        "sections": [
+          {
+            "name": "Fuchsia City - Gym Sign Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 88,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind Fishing Guru's House",
+        "sections": [
+          {
+            "name": "Fuchsia City - Hidden Item Behind Fishing Guru's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 536,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Koga's Daughter",
+        "sections": [
+          {
+            "name": "Fuchsia City - Koga's Daughter Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 648,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Office",
+    "children": [
+      {
+        "name": "Worker",
+        "sections": [
+          {
+            "name": "Safari Zone Office - Safari Zone Worker Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_office",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Fuchsia Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Gym",
+    "children": [
+      {
+        "name": "Juggler Nate",
+        "sections": [
+          {
+            "name": "Fuchsia Gym - Juggler Nate Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 40,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Juggler Kayden",
+        "sections": [
+          {
+            "name": "Fuchsia Gym - Juggler Kayden Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Juggler Kirk",
+        "sections": [
+          {
+            "name": "Fuchsia Gym - Juggler Kirk Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Juggler Kirk Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Tamer Edgar",
+        "sections": [
+          {
+            "name": "Fuchsia Gym - Tamer Edgar Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Tamer Phil",
+        "sections": [
+          {
+            "name": "Fuchsia Gym - Tamer Phil Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Juggler Shawn",
+        "sections": [
+          {
+            "name": "Fuchsia Gym - Juggler Shawn Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 40,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Koga",
+        "sections": [
+          {
+            "name": "Fuchsia Gym - Leader Koga Reward"
+          },
+          {
+            "name": "Fuchsia Gym - Koga Info"
+          },
+          {
+            "name": "Fuchsia Gym - Prize"
+          },
+          {
+            "name": "Fuchsia Gym - Koga TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_gym",
+            "x": 120,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bill's Grandpa's House",
+    "children": [
+      {
+        "name": "Bill's Grandpa",
+        "sections": [
+          {
+            "name": "Bill's Grandpa's House - Bill's Grandpa Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bills_grandpas_house",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Warden's House",
+    "children": [
+      {
+        "name": "Warden",
+        "sections": [
+          {
+            "name": "Safari Zone Warden's House - Warden Gift (Return Teeth)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 56,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "name": "Safari Zone Warden's House - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Safari Zone Warden's House - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_wardens_house",
+            "x": 72,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Fishing House",
+    "children": [
+      {
+        "name": "Fishing Guru",
+        "sections": [
+          {
+            "name": "Fuchsia Fishing House - Fishing Guru Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_fishing_house",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fuchsia Poke Mart",
+    "children": [
+      {
+        "name": "Fuchsia Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

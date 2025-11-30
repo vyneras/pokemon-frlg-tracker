@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Pewter City",
+    "children": [
+      {
+        "name": "Visit Pewter City",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Gym Sign",
+        "sections": [
+          {
+            "name": "Pewter City - Gym Sign Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Fat Man",
+        "sections": [
+          {
+            "name": "Pewter City - Fat Man Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 344,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Northwest Hidden Item",
+        "sections": [
+          {
+            "name": "Pewter City - Northwest Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 104,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "name": "Pewter City - Gift from Mom"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 744,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Pewter Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Museum 1F",
+    "children": [
+      {
+        "name": "Scientist",
+        "sections": [
+          {
+            "name": "Pewter Museum 1F - Scientist Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "x": 344,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Pewter Museum 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "x": 432,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Museum 2F",
+    "children": [
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "name": "Pewter Museum 2F - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_2f",
+            "x": 296,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Gym",
+    "children": [
+      {
+        "name": "Camper Liam",
+        "sections": [
+          {
+            "name": "Pewter Gym - Camper Liam Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_gym",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Brock",
+        "sections": [
+          {
+            "name": "Pewter Gym - Leader Brock Reward"
+          },
+          {
+            "name": "Pewter Gym - Brock Info"
+          },
+          {
+            "name": "Pewter Gym - Prize"
+          },
+          {
+            "name": "Pewter Gym - Brock TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_gym",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Poke Mart",
+    "children": [
+      {
+        "name": "Pewter Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

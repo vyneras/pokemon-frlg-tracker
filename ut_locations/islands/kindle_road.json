@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Kindle Road",
+    "children": [
+      {
+        "name": "Plateau Item",
+        "sections": [
+          {
+            "name": "Kindle Road - Plateau Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Isolated Beach Item",
+        "sections": [
+          {
+            "name": "Kindle Road - Isolated Beach Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 280,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Smashable Rock",
+        "sections": [
+          {
+            "name": "Kindle Road - Item Behind Smashable Rock"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 248,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Abigail",
+        "sections": [
+          {
+            "name": "Kindle Road - Swimmer Abigail Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 280,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Hugh",
+        "sections": [
+          {
+            "name": "Kindle Road - Black Belt Hugh Reward"
+          },
+          {
+            "name": "Kindle Road - Black Belt Hugh Rematch Reward (6 Badges/Gyms)"
+          },
+          {
+            "name": "Kindle Road - Black Belt Hugh Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 184,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Black Belt Shea",
+        "sections": [
+          {
+            "name": "Kindle Road - Black Belt Shea Reward"
+          },
+          {
+            "name": "Kindle Road - Black Belt Shea Rematch Reward (6 Badges/Gyms)"
+          },
+          {
+            "name": "Kindle Road - Black Belt Shea Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 264,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Camper Bryce",
+        "sections": [
+          {
+            "name": "Kindle Road - Camper Bryce Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Sharon",
+        "sections": [
+          {
+            "name": "Kindle Road - Crush Girl Sharon Reward"
+          },
+          {
+            "name": "Kindle Road - Crush Girl Sharon Rematch Reward (6 Badges/Gyms)"
+          },
+          {
+            "name": "Kindle Road - Crush Girl Sharon Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 152,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Crush Girl Tanya",
+        "sections": [
+          {
+            "name": "Kindle Road - Crush Girl Tanya Reward"
+          },
+          {
+            "name": "Kindle Road - Crush Girl Tanya Rematch Reward (6 Badges/Gyms)"
+          },
+          {
+            "name": "Kindle Road - Crush Girl Tanya Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 296,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Crush Kin Mik & Kia",
+        "sections": [
+          {
+            "name": "Kindle Road - Crush Kin Mik & Kia Reward"
+          },
+          {
+            "name": "Kindle Road - Crush Kin Mik & Kia Rematch Reward (6 Badges/Gyms)"
+          },
+          {
+            "name": "Kindle Road - Crush Kin Mik & Kia Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 144,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Claire",
+        "sections": [
+          {
+            "name": "Kindle Road - Picnicker Claire Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_south",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Garrett",
+        "sections": [
+          {
+            "name": "Kindle Road - Swimmer Garrett Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_bottom",
+            "x": 312,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Tommy",
+        "sections": [
+          {
+            "name": "Kindle Road - Fisherman Tommy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_north",
+            "x": 248,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Maria",
+        "sections": [
+          {
+            "name": "Kindle Road - Swimmer Maria Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 184,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Finn",
+        "sections": [
+          {
+            "name": "Kindle Road - Swimmer Finn Reward"
+          },
+          {
+            "name": "Kindle Road - Swimmer Finn Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "x": 120,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

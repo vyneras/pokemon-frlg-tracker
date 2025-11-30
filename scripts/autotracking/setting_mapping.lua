@@ -31,6 +31,28 @@ SLOT_CODES = {
             [1] = 1  -- Kanto Only On
         }
     },
+    shuffle_dungeons = {
+        code = "shuffle_dungeons_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Dungeons Off
+            [1] = 1, -- Shuffle Dungeons Seafoam
+            [2] = 2, -- Shuffle Dungeons Simple
+            [3] = 3, -- Shuffle Dungeons Restricted
+            [4] = 4  -- Shuffle Dungeons Full
+        }
+    },
+    randomize_fly_destinations = {
+        code = "randomize_fly_destinations_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Randomize Fly Destinations Off
+            [1] = 1, -- Randomize Fly Destinations Area
+            [2] = 1, -- Randomize Fly Destinations Map
+            [3] = 1, -- Randomize Fly Destinations Region
+            [4] = 1  -- Randomize Fly Destinations Completely Random
+        }
+    },
     shuffle_hidden = {
         code = "hidden_setting",
         type = "progressive",
@@ -56,6 +78,22 @@ SLOT_CODES = {
             [1] = 1  -- Shopsanity On
         }
     },
+    vending_machines = {
+        code = "vending_machines_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Vending Machines Off
+            [1] = 1  -- Vending Machines On
+        }
+    },
+    prizesanity = {
+        code = "prizesanity_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Prizesanity Off
+            [1] = 1  -- Prizesanity On
+        }
+    },
     trainersanity = {
         code = "trainersanity_setting",
         type = "progressive",
@@ -76,9 +114,9 @@ SLOT_CODES = {
         code = "fly_unlocks_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Fly Destination Unlocks Off
-            [1] = 1, -- Fly Destination Unlocks Exclude Indigo
-            [2] = 2  -- Fly Destination Unlocks All
+            [0] = 0, -- Fly Unlocks Off
+            [1] = 1, -- Fly Unlocks Exclude Indigo
+            [2] = 1  -- Fly Unlocks All
         }
     },
     pokemon_request_locations = {
@@ -124,6 +162,14 @@ SLOT_CODES = {
             [1] = 1  -- Gym Keys On
         }
     },
+    post_goal_locations = {
+        code = "post_goal_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Post Goal Locations Off
+            [1] = 1  -- Post Goal Locations On
+        }
+    },
     itemfinder_required = {
         code = "itemfinder_setting",
         type = "progressive",
@@ -148,6 +194,22 @@ SLOT_CODES = {
         mapping = {
             [0] = 0, -- Fame Checker Not Required
             [1] = 1  -- Fame Checker Required
+        }
+    },
+    bicycle_requires_jumping_shoes = {
+        code = "bicycle_jumping_shoes_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Ledge Jump not Required for Bicycle
+            [1] = 1  -- Ledge Jump Required for Bicycle
+        }
+    },
+    acrobatic_bicycle = {
+        code = "acrobatic_bicycle_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Acrobatic Bicycle Off
+            [1] = 1  -- Acrobatic Bicycle On
         }
     },
     viridian_city_roadblock = {
@@ -282,6 +344,11 @@ SLOT_CODES = {
         type = "requirement_count",
         item = OAKS_AIDE_ROUTE_15_REQ
     },
+    fossil_count = {
+        code = "fossil_requirement",
+        type = "requirement_count",
+        item = FOSSIL_REQ
+    },
     starting_town = {
         code = "start_town_setting",
         type = "progressive",
@@ -391,7 +458,8 @@ MODIFY_WORLD_STATE = {
     ["Victory Road Rocks"] = "victory_road_rocks_setting",
     ["Early Gossipers"] = "early_gossipers_setting",
     ["Total Darkness"] = "",
-    ["Block Vermilion Sailing"] = "block_sailing_setting"
+    ["Block Vermilion Sailing"] = "block_sailing_setting",
+    ["All Elevators Locked"] = "elevators_locked_setting"
 }
 
 ADDITIONAL_DARK_CAVES = {

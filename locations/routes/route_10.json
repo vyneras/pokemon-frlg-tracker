@@ -10,20 +10,16 @@
             "name": "Land Encounters"
           },
           {
-            "ref": "Routes/Route 10 North/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Routes/Route 10 North/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Routes/Route 10 North/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Routes/Route 10 North/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Routes/Route 10 North/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Routes/Route 10 North/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Routes/Route 10 North/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Routes/Route 10 North/Super Rod Encounters",
@@ -185,6 +181,10 @@
           {
             "ref": "Routes/Route 10 South/Hiker Trent Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 10 South/Hiker Trent Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -217,6 +217,14 @@
           {
             "ref": "Routes/Route 10 South/PokéManiac Herman Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 10 South/PokéManiac Herman Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 10 South/PokéManiac Herman Rematch Reward 2",
+            "name": "Rematch Reward 2"
           }
         ],
         "map_locations": [
@@ -233,6 +241,14 @@
           {
             "ref": "Routes/Route 10 North/PokéManiac Mark Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 10 North/PokéManiac Mark Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 10 North/PokéManiac Mark Rematch Reward 2",
+            "name": "Rematch Reward 2"
           }
         ],
         "map_locations": [
@@ -287,7 +303,7 @@
           {
             "map": "route_10_south",
             "x": 120,
-            "y": 136
+            "y": 144
           }
         ]
       },

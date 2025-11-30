@@ -21,24 +21,16 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Cities/Vermilion City/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Cities/Vermilion City/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Cities/Vermilion City/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Cities/Vermilion City/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Cities/Vermilion City/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
-          },
-          {
-            "ref": "Cities/Vermilion City/Good-Super Rod Encounters",
-            "name": "Good-Super Rod Encounters"
+            "ref": "Cities/Vermilion City/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Cities/Vermilion City/Super Rod Encounters",
@@ -110,7 +102,7 @@
         ]
       },
       {
-        "name": "Fishing Guru's House",
+        "name": "Vermilion Fishing House",
         "sections": [
           {
             "ref": "Cities/Vermilion City/Fishing Guru Gift"
@@ -255,7 +247,8 @@
         "name": "Fishing Guru",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/Fishing Guru Gift"
+            "ref": "Cities/Vermilion City/Fishing Guru Gift",
+            "name": "Gift"
           }
         ],
         "map_locations": [
@@ -322,7 +315,7 @@
     ]
   },
   {
-    "name": "Vermilion Pokémon Fan Club",
+    "name": "Pokémon Fan Club",
     "children": [
       {
         "name": "Chairman",

@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Route 12",
+    "children": [
+      {
+        "name": "North Island Item",
+        "sections": [
+          {
+            "name": "Route 12 - North Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 296,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Grass Hidden Item",
+        "sections": [
+          {
+            "name": "Route 12 - Grass Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 296,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "sections": [
+          {
+            "name": "Route 12 - Hidden Item Under Snorlax"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 232,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Item Behind Cuttable Tree",
+        "sections": [
+          {
+            "name": "Route 12 - Item Behind Cuttable Tree"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 152,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Hidden Item",
+        "sections": [
+          {
+            "name": "Route 12 - Tall Grass Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 152,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Chip",
+        "sections": [
+          {
+            "name": "Route 12 - Fisherman Chip Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 152,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Elliot",
+        "sections": [
+          {
+            "name": "Route 12 - Fisherman Elliot Reward"
+          },
+          {
+            "name": "Route 12 - Fisherman Elliot Rematch Reward (4 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 216,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Hank",
+        "sections": [
+          {
+            "name": "Route 12 - Fisherman Hank Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Ned",
+        "sections": [
+          {
+            "name": "Route 12 - Fisherman Ned Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "x": 280,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Young Couple Gia & Jes",
+        "sections": [
+          {
+            "name": "Route 12 - Young Couple Gia & Jes Reward"
+          },
+          {
+            "name": "Route 12 - Young Couple Gia & Jes Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 12 - Young Couple Gia & Jes Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_center",
+            "x": 312,
+            "y": 352
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Andrew",
+        "sections": [
+          {
+            "name": "Route 12 - Fisherman Andrew Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 296,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Rocker Luca",
+        "sections": [
+          {
+            "name": "Route 12 - Rocker Luca Reward"
+          },
+          {
+            "name": "Route 12 - Rocker Luca Rematch Reward (4 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 216,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Camper Justin",
+        "sections": [
+          {
+            "name": "Route 12 - Camper Justin Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "x": 168,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Gate 2F",
+    "children": [
+      {
+        "name": "Mourning Lass",
+        "sections": [
+          {
+            "name": "Route 12 Gate 2F - Mourning Lass Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_2f",
+            "x": 120,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Fishing House",
+    "children": [
+      {
+        "name": "Fishing Guru",
+        "sections": [
+          {
+            "name": "Route 12 Fishing House - Fishing Guru Gift"
+          },
+          {
+            "name": "Route 12 Fishing House - Fishing Guru Gift (Show Magikarp)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_fishing_house",
+            "x": 72,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  }
+]

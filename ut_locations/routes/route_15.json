@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Route 15",
+    "children": [
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "name": "Route 15 - Northwest Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 328,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Beauty Grace",
+        "sections": [
+          {
+            "name": "Route 15 - Beauty Grace Reward"
+          },
+          {
+            "name": "Route 15 - Beauty Grace Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Beauty Olivia",
+        "sections": [
+          {
+            "name": "Route 15 - Beauty Olivia Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 232,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Biker Alex",
+        "sections": [
+          {
+            "name": "Route 15 - Biker Alex Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 376,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Biker Ernest",
+        "sections": [
+          {
+            "name": "Route 15 - Biker Ernest Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Chester",
+        "sections": [
+          {
+            "name": "Route 15 - Bird Keeper Chester Reward"
+          },
+          {
+            "name": "Route 15 - Bird Keeper Chester Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 15 - Bird Keeper Chester Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 24,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Edwin",
+        "sections": [
+          {
+            "name": "Route 15 - Bird Keeper Edwin Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 504,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Kindra",
+        "sections": [
+          {
+            "name": "Route 15 - Picnicker Kindra Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 136,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Yazmin",
+        "sections": [
+          {
+            "name": "Route 15 - Picnicker Yazmin Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 360,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Crush Kin Ron & Mya",
+        "sections": [
+          {
+            "name": "Route 15 - Crush Kin Ron & Mya Reward"
+          },
+          {
+            "name": "Route 15 - Crush Kin Ron & Mya Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 15 - Crush Kin Ron & Mya Rematch Reward (6 Badges/Gyms)"
+          },
+          {
+            "name": "Route 15 - Crush Kin Ron & Mya Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 64,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Becky",
+        "sections": [
+          {
+            "name": "Route 15 - Picnicker Becky Reward"
+          },
+          {
+            "name": "Route 15 - Picnicker Becky Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 15 - Picnicker Becky Rematch Reward (6 Badges/Gyms)"
+          },
+          {
+            "name": "Route 15 - Picnicker Becky Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_east",
+            "x": 264,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Celia",
+        "sections": [
+          {
+            "name": "Route 15 - Picnicker Celia Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "x": 456,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 15 Gate 2F",
+    "children": [
+      {
+        "name": "Oak's Aide",
+        "sections": [
+          {
+            "name": "Route 15 Gate 2F - Oak's Aide Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_2f",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

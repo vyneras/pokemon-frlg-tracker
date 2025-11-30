@@ -1,0 +1,270 @@
+[
+  {
+    "name": "Interior Overview",
+    "children": [
+      {
+        "name": "S.S. Anne Kitchen",
+        "sections": [
+          {
+            "name": "S.S. Anne Kitchen - Item"
+          },
+          {
+            "name": "S.S. Anne Kitchen - Trash Can Hidden Item (Top)"
+          },
+          {
+            "name": "S.S. Anne Kitchen - Trash Can Hidden Item (Center)"
+          },
+          {
+            "name": "S.S. Anne Kitchen - Trash Can Hidden Item (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 40,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 2",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 2 - Youngster Tyler Reward"
+          },
+          {
+            "name": "S.S. Anne 1F Room 2 - Lass Ann Reward"
+          },
+          {
+            "name": "S.S. Anne 1F Room 2 - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 5",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 5 - Gentleman Arthur Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 7",
+        "sections": [
+          {
+            "name": "S.S. Anne 1F Room 7 - Gentleman Thomas Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "x": 376,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 1",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 1 - Sailor Phillip Reward"
+          },
+          {
+            "name": "S.S. Anne B1F Room 1 - Fisherman Barny Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 2",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 2 - Sailor Huey Reward"
+          },
+          {
+            "name": "S.S. Anne B1F Room 2 - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 104,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 3",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 3 - Sailor Dylan Reward"
+          },
+          {
+            "name": "S.S. Anne B1F Room 3 - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 168,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 4",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 4 - Sailor Leonard Reward"
+          },
+          {
+            "name": "S.S. Anne B1F Room 4 - Sailor Duncan Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 232,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 5",
+        "sections": [
+          {
+            "name": "S.S. Anne B1F Room 5 - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "x": 296,
+            "y": 40
+          }
+        ]
+      },{
+        "name": "S.S. Anne 2F Room 2",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 2 - Fisherman Dale Reward"
+          },
+          {
+            "name": "S.S. Anne 2F Room 2 - Gentleman Brooks Reward"
+          },
+          {
+            "name": "S.S. Anne 2F Room 2 - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 168,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 4",
+        "sections": [
+          {
+            "name": "S.S. Anne 2F Room 4 - Gentleman Lamar Reward"
+          },
+          {
+            "name": "S.S. Anne 2F Room 4 - Lass Dawn Reward"
+          },
+          {
+            "name": "S.S. Anne 2F Room 4 - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "x": 296,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone East Area Rest House",
+        "sections": [
+          {
+            "name": "Safari Zone East Area Rest House - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 648,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area Rest House",
+        "sections": [
+          {
+            "name": "Safari Zone North Area Rest House - Balding Man Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 696,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Secret House",
+        "sections": [
+          {
+            "name": "Safari Zone Secret House - Campaign Prize"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 200,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path",
+        "sections": [
+          {
+            "name": "Mt. Ember Ruby Path B5F - Ruby"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "x": 680,
+            "y": 632
+          }
+        ]
+      }
+    ]
+  }
+]

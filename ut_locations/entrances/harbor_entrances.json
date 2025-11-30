@@ -1,0 +1,362 @@
+[
+  {
+    "name": "One Island Town",
+    "children": [
+      {
+        "name": "One Island Harbor",
+        "sections": [
+          {
+            "name": "One Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 200,
+            "y": 296
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Harbor",
+    "children": [
+      {
+        "name": "One Island Harbor Exit",
+        "sections": [
+          {
+            "name": "One Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Town",
+    "children": [
+      {
+        "name": "Two Island Harbor",
+        "sections": [
+          {
+            "name": "Two Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 168,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Harbor",
+    "children": [
+      {
+        "name": "Two Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Two Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Isle Port",
+    "children": [
+      {
+        "name": "Three Island Harbor",
+        "sections": [
+          {
+            "name": "Three Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port",
+            "x": 200,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Harbor",
+    "children": [
+      {
+        "name": "Three Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Three Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Town",
+    "children": [
+      {
+        "name": "Four Island Harbor",
+        "sections": [
+          {
+            "name": "Four Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 168,
+            "y": 456
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Harbor",
+    "children": [
+      {
+        "name": "Four Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Four Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Town",
+    "children": [
+      {
+        "name": "Five Island Harbor",
+        "sections": [
+          {
+            "name": "Five Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 200,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Harbor",
+    "children": [
+      {
+        "name": "Five Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Five Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Town",
+    "children": [
+      {
+        "name": "Six Island Harbor",
+        "sections": [
+          {
+            "name": "Six Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Harbor",
+    "children": [
+      {
+        "name": "Six Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Six Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Town",
+    "children": [
+      {
+        "name": "Seven Island Harbor",
+        "sections": [
+          {
+            "name": "Seven Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 264,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Harbor",
+    "children": [
+      {
+        "name": "Seven Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Seven Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Exterior",
+    "children": [
+      {
+        "name": "Navel Rock Harbor",
+        "sections": [
+          {
+            "name": "Navel Rock Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_exterior",
+            "x": 152,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Navel Rock Harbor",
+    "children": [
+      {
+        "name": "Navel Rock Harbor Exit",
+        "sections": [
+          {
+            "name": "Navel Rock Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "navel_rock_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Birth Island Exterior",
+    "children": [
+      {
+        "name": "Birth Island Harbor",
+        "sections": [
+          {
+            "name": "Birth Island Harbor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "birth_island",
+            "x": 248,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Birth Island Harbor",
+    "children": [
+      {
+        "name": "Birth Island Harbor Exit",
+        "sections": [
+          {
+            "name": "Birth Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "birth_island_harbor",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  }
+]

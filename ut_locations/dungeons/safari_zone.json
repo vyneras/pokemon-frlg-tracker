@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Safari Zone Center Area",
+    "children": [
+      {
+        "name": "Island Item",
+        "sections": [
+          {
+            "name": "Safari Zone Center Area - Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 392,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Island Hidden Item",
+        "sections": [
+          {
+            "name": "Safari Zone Center Area - Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "x": 440,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone East Area",
+    "children": [
+      {
+        "name": "Southeast Plateau Item",
+        "sections": [
+          {
+            "name": "Safari Zone East Area - Southeast Plateau Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 584,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Tall Grass Item",
+        "sections": [
+          {
+            "name": "Safari Zone East Area - Tall Grass Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 504,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Item Near Bush",
+        "sections": [
+          {
+            "name": "Safari Zone East Area - Item Near Bush"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 216,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Item Near Rest House",
+        "sections": [
+          {
+            "name": "Safari Zone East Area - Item Near Rest House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "x": 600,
+            "y": 248
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone North Area",
+    "children": [
+      {
+        "name": "South Item",
+        "sections": [
+          {
+            "name": "Safari Zone North Area - South Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Center Item",
+        "sections": [
+          {
+            "name": "Safari Zone North Area - Center Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 456,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "North Item",
+        "sections": [
+          {
+            "name": "Safari Zone North Area - North Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "x": 536,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone West Area",
+    "children": [
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "name": "Safari Zone West Area - Southeast Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 440,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "name": "Safari Zone West Area - Southwest Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 264,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Northeast Item",
+        "sections": [
+          {
+            "name": "Safari Zone West Area - Northeast Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 456,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Northwest Item",
+        "sections": [
+          {
+            "name": "Safari Zone West Area - Northwest Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 280,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Secret House",
+        "sections": [
+          {
+            "name": "Safari Zone West Area - Hidden Item Near Secret House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "x": 216,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone East Area Rest House",
+    "children": [
+      {
+        "name": "Item",
+        "sections": [
+          {
+            "name": "Safari Zone East Area Rest House - Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east_rest_house",
+            "x": 136,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone North Area Rest House",
+    "children": [
+      {
+        "name": "Balding Man",
+        "sections": [
+          {
+            "name": "Safari Zone North Area Rest House - Balding Man Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north_rest_house",
+            "x": 184,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Secret House",
+    "children": [
+      {
+        "name": "Attendant",
+        "sections": [
+          {
+            "name": "Safari Zone Secret House - Campaign Prize"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_secret_house",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  }
+]

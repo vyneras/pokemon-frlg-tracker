@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Viridian Forest",
+    "children": [
+      {
+        "name": "Hidden Item Near South Entrance",
+        "sections": [
+          {
+            "name": "Viridian Forest - Hidden Item Near South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 456,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "West Item",
+        "sections": [
+          {
+            "name": "Viridian Forest - West Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "name": "Viridian Forest - Southeast Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 792,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Rick",
+        "sections": [
+          {
+            "name": "Viridian Forest - Bug Catcher Rick Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "x": 760,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Doug",
+        "sections": [
+          {
+            "name": "Viridian Forest - Bug Catcher Doug Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 760,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Northeast Item",
+        "sections": [
+          {
+            "name": "Viridian Forest - Northeast Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 648,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Charlie",
+        "sections": [
+          {
+            "name": "Viridian Forest - Bug Catcher Charlie Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 264,
+            "y": 88
+          }
+
+        ]
+      },
+      {
+        "name": "Bug Catcher Anthony",
+        "sections": [
+          {
+            "name": "Viridian Forest - Bug Catcher Anthony Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 696,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Center Item",
+        "sections": [
+          {
+            "name": "Viridian Forest - Center Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 344,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Sammy",
+        "sections": [
+          {
+            "name": "Viridian Forest - Bug Catcher Sammy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 120,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near North Entrance",
+        "sections": [
+          {
+            "name": "Viridian Forest - Hidden Item Near North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "x": 56,
+            "y": 360
+          }
+        ]
+      }
+    ]
+  }
+]

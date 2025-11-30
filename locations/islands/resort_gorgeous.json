@@ -10,12 +10,12 @@
             "name": "Surf Encounters"
           },
           {
-            "ref": "Islands/Resort Gorgeous/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Islands/Resort Gorgeous/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Islands/Resort Gorgeous/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Islands/Resort Gorgeous/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Islands/Resort Gorgeous/Super Rod Encounters",
@@ -105,6 +105,10 @@
           {
             "ref": "Islands/Resort Gorgeous/Painter Rayna Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Islands/Resort Gorgeous/Painter Rayna Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -201,6 +205,10 @@
           {
             "ref": "Islands/Resort Gorgeous/Youngster Destin Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Islands/Resort Gorgeous/Youngster Destin Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -212,7 +220,7 @@
         ]
       },
       {
-        "name": "Resort Gorgeous House",
+        "name": "Selphy's House",
         "sections": [
           {
             "ref": "Islands/Resort Gorgeous/Selphy Gift (Show Pokemon)",
@@ -250,7 +258,7 @@
     ]
   },
   {
-    "name": "Resort Gorgeous House",
+    "name": "Selphy's House",
     "children": [
       {
         "name": "Selphy",

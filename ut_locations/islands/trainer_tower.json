@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Trainer Tower Exterior",
+    "children": [
+      {
+        "name": "Hidden Item Near Fence",
+        "sections": [
+          {
+            "name": "Trainer Tower Exterior - Hidden Item Near Fence"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 344,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Beach West Hidden Item",
+        "sections": [
+          {
+            "name": "Trainer Tower Exterior - Beach West Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 152,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Beach North Hidden Item",
+        "sections": [
+          {
+            "name": "Trainer Tower Exterior - Beach North Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 184,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Psychic Dario",
+        "sections": [
+          {
+            "name": "Trainer Tower Exterior - Psychic Dario Reward"
+          },
+          {
+            "name": "Trainer Tower Exterior - Psychic Dario Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 296,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Psychic Rodette",
+        "sections": [
+          {
+            "name": "Trainer Tower Exterior - Psychic Rodette Reward"
+          },
+          {
+            "name": "Trainer Tower Exterior - Psychic Rodette Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "x": 296,
+            "y": 472
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trainer Tower Lobby",
+    "children": [
+      {
+        "name": "Trainer Tower Lobby Shop Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_lobby",
+            "x": 232,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  }
+]

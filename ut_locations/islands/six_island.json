@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Six Island Town",
+    "children": [
+      {
+        "name": "Six Island Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Behind Pokemon Center",
+        "sections": [
+          {
+            "name": "Six Island Town - Hidden Item Behind Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 152,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Six Island Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Poke Mart",
+    "children": [
+      {
+        "name": "Old Woman",
+        "sections": [
+          {
+            "name": "Six Island Poke Mart - Old Woman Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "x": 136,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Six Island Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

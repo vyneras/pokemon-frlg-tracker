@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Route 18",
+    "children": [
+      {
+        "name": "Bird Keeper Jacob",
+        "sections": [
+          {
+            "name": "Route 18 - Bird Keeper Jacob Reward"
+          },
+          {
+            "name": "Route 18 - Bird Keeper Jacob Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 18 - Bird Keeper Jacob Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 264,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Ramiro",
+        "sections": [
+          {
+            "name": "Route 18 - Bird Keeper Ramiro Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 184,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Bird Keeper Wilton",
+        "sections": [
+          {
+            "name": "Route 18 - Bird Keeper Wilton Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_18_east",
+            "x": 152,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  }
+]

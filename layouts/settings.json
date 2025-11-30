@@ -17,19 +17,21 @@
             "hidden_setting",
             "extra_key_items_setting",
             "shopsanity_setting",
+            "vending_machines_setting",
+            "prizesanity_setting",
             "trainersanity_setting",
+            "rematchsanity_setting",
             "famesanity_setting",
-            "fly_unlocks_setting",
-            "pokemon_request_setting",
-            "card_keys_setting"
+            "fly_unlocks_setting"
           ],
           [
+            "pokemon_request_setting",
+            "card_keys_setting",
             "island_passes_setting",
             "teas_setting",
             "gym_keys_setting",
+            "post_goal_setting",
             "game_version_setting",
-            "",
-            "",
             "",
             "",
             "",
@@ -55,16 +57,18 @@
             "itemfinder_setting",
             "flash_setting",
             "fame_checker_setting",
+            "bicycle_jumping_shoes_setting",
+            "acrobatic_bicycle_setting",
             "viridian_city_setting",
             "pewter_city_setting",
             "cerulean_roadblock_setting",
             "modify_route_2_setting",
             "block_tunnels_setting",
             "modify_route_9_setting",
-            "modify_route_10_setting",
-            "block_tower_setting"
+            "modify_route_10_setting"
           ],
           [
+            "block_tower_setting",
             "route_12_boulders_setting",
             "modify_route_12_setting",
             "modify_route_16_setting",
@@ -78,7 +82,8 @@
             "randomize_fly_destinations_setting"
           ],
           [
-            "dungeon_entrance_shuffle_setting",
+            "shuffle_dungeons_setting",
+            "",
             "",
             "",
             "",
@@ -136,7 +141,8 @@
             "route_10_oaks_aide",
             "route_11_oaks_aide",
             "route_16_oaks_aide",
-            "route_15_oaks_aide"
+            "route_15_oaks_aide",
+            "fossil_scientist"
           ],
           [
             "elite_four_requirement",
@@ -149,7 +155,8 @@
             "route_10_oaks_aide_requirement",
             "route_11_oaks_aide_requirement",
             "route_16_oaks_aide_requirement",
-            "route_15_oaks_aide_requirement"
+            "route_15_oaks_aide_requirement",
+            "fossil_requirement"
           ]
         ]
       }

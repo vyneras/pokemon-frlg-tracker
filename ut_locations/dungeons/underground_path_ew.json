@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Underground Path East-West Tunnel",
+    "children": [
+      {
+        "name": "Farthest East Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (East-West) - Farthest East Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_east",
+            "x": 488,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Far East Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (East-West) - Far East Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_east",
+            "x": 360,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "East Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (East-West) - East Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_east",
+            "x": 248,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Center Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (East-West) - Center Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_east",
+            "x": 88,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "West Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (East-West) - West Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_west",
+            "x": 504,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Far West Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (East-West) - Far West Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_west",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Farthest West Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (East-West) - Farthest West Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_west",
+            "x": 120,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

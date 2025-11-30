@@ -461,33 +461,17 @@
         ]
       },
       {
-        "name": "Dome Fossil",
+        "name": "Fossil",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Moon/B2F - Dome Fossil",
+            "ref": "Dungeons/Mt. Moon/B2F - Fossil",
             "name": "Fossil"
           }
         ],
         "map_locations": [
           {
             "map": "mt_moon_b2f",
-            "x": 216,
-            "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Helix Fossil",
-        "sections": [
-          {
-            "ref": "Dungeons/Mt. Moon/B2F - Helix Fossil",
-            "name": "Fossil"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "mt_moon_b2f",
-            "x": 232,
+            "x": 224,
             "y": 120
           }
         ]

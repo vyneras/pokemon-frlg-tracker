@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Underground Path North-South Tunnel",
+    "children": [
+      {
+        "name": "Farthest North Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (North-South) - Farthest North Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_north",
+            "x": 88,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Far North Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (North-South) - Far North Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_north",
+            "x": 56,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "North Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (North-South) - North Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_north",
+            "x": 24,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Center Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (North-South) - Center Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_north",
+            "x": 88,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "South Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (North-South) - South Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_south",
+            "x": 56,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Far South Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (North-South) - Far South Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_south",
+            "x": 104,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Farthest South Hidden Item",
+        "sections": [
+          {
+            "name": "Underground Path (North-South) - Farthest South Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_south",
+            "x": 40,
+            "y": 408
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -21,20 +21,16 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Cities/Pallet Town/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Cities/Pallet Town/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Cities/Pallet Town/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Cities/Pallet Town/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Cities/Pallet Town/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Cities/Pallet Town/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Cities/Pallet Town/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Cities/Pallet Town/Super Rod Encounters",
@@ -93,8 +89,12 @@
             "name": "Deliver Oak's Parcel (Event)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Gift (Deliver Parcel)",
-            "name": "Oak Gift (Deliver Parcel)"
+            "ref": "Cities/Pallet Town/Oak Gift 1 (Deliver Parcel)",
+            "name": "Oak Gift 1 (Deliver Parcel)"
+          },
+          {
+            "ref": "Cities/Pallet Town/Oak Gift 2 (Deliver Parcel)",
+            "name": "Oak Gift 2 (Deliver Parcel)"
           },
           {
             "ref": "Cities/Pallet Town/Oak Info",
@@ -137,26 +137,6 @@
             "map": "pallet_town",
             "x": 248,
             "y": 120
-          }
-        ]
-      },
-      {
-        "name": "Oak",
-        "sections": [
-          {
-            "ref": "Cities/Pallet Town/Oak Gift 1",
-            "name": "First Gift"
-          },
-          {
-            "ref": "Cities/Pallet Town/Oak Gift 2",
-            "name": "Second Gift"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "pallet_town",
-            "x": 104,
-            "y": 136
           }
         ]
       }
@@ -231,8 +211,12 @@
             "name": "Deliver Oak's Parcel (Event)"
           },
           {
-            "ref": "Cities/Pallet Town/Oak Gift (Deliver Parcel)",
-            "name": "Gift (Deliver Parcel)"
+            "ref": "Cities/Pallet Town/Oak Gift 1 (Deliver Parcel)",
+            "name": "Gift 1 (Deliver Parcel)"
+          },
+          {
+            "ref": "Cities/Pallet Town/Oak Gift 2 (Deliver Parcel)",
+            "name": "Gift 2 (Deliver Parcel)"
           },
           {
             "ref": "Cities/Pallet Town/Oak Info",
@@ -256,7 +240,7 @@
         "sections": [
           {
             "ref": "Cities/Pallet Town/Oak's Aide M Info (Right)",
-            "name": "Info "
+            "name": "Info"
           }
         ],
         "map_locations": [

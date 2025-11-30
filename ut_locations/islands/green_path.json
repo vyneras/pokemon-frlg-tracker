@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Green Path",
+    "children": [
+      {
+        "name": "Green Path West Island Hidden Item",
+        "sections": [
+          {
+            "name": "Green Path - West Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_west",
+            "x": 200,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Psychic Jaclyn",
+        "sections": [
+          {
+            "name": "Green Path - Psychic Jaclyn Reward"
+          },
+          {
+            "name": "Green Path - Psychic Jaclyn Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "green_path_west",
+            "x": 184,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  }
+]

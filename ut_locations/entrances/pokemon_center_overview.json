@@ -1,0 +1,451 @@
+[
+  {
+    "name": "Pokemon Center Overview",
+    "children": [
+      {
+        "name": "Viridian Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "x": 424,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pewter Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "x": 280,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Cerulean Pokemon Center 1F - Youngster Info"
+          },
+          {
+            "name": "Cerulean Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "x": 360,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Vermilion Pokemon Center 1F - Vs. Seeker Woman Gift"
+          },
+          {
+            "name": "Vermilion Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 248,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Lavender Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Lavender Pokemon Center 1F - Balding Man Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Celadon Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "x": 776,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia Pokemon Center",
+        "sections": [
+          {
+            "name": "Pc Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fuchsia_city",
+            "x": 408,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Saffron Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Saffron Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "x": 392,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Cinnabar Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Cinnabar Pokemon Center 1F - Bill Gift"
+          },
+          {
+            "name": "Cinnabar Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Indigo Plateau Pokemon Center 1F - Cooltrainer Info"
+          },
+          {
+            "name": "Indigo Plateau Pokemon Center 1F - Black Belt Info 1"
+          },
+          {
+            "name": "Indigo Plateau Pokemon Center 1F - Black Belt Info 2"
+          },
+          {
+            "name": "Indigo Plateau Pokemon Center 1F - Bookshelf Info"
+          },
+          {
+            "name": "Lorelei's Room - Lorelei Info 1"
+          },
+          {
+            "name": "Lorelei's Room - Lorelei Info 2"
+          },
+          {
+            "name": "Lorelei's Room - Elite Four Lorelei Reward"
+          },
+          {
+            "name": "Bruno's Room - Bruno Info 1"
+          },
+          {
+            "name": "Bruno's Room - Bruno Info 2"
+          },
+          {
+            "name": "Bruno's Room - Elite Four Bruno Reward"
+          },
+          {
+            "name": "Agatha's Room - Agatha Info 1"
+          },
+          {
+            "name": "Agatha's Room - Agatha Info 2"
+          },
+          {
+            "name": "Agatha's Room - Agatha Info 3"
+          },
+          {
+            "name": "Agatha's Room - Elite Four Agatha Reward"
+          },
+          {
+            "name": "Lance's Room - Lance Info 1"
+          },
+          {
+            "name": "Lance's Room - Lance Info 2"
+          },
+          {
+            "name": "Lance's Room - Elite Four Lance Reward"
+          },
+          {
+            "name": "Champion's Room - Champion Reward"
+          },
+          {
+            "name": "Hall of Fame - Oak Gift 1"
+          },
+          {
+            "name": "Hall of Fame - Oak Gift 2"
+          },
+          {
+            "name": "Lorelei's Room - Elite Four Lorelei Rematch Reward"
+          },
+          {
+            "name": "Bruno's Room - Elite Four Bruno Rematch Reward"
+          },
+          {
+            "name": "Agatha's Room - Elite Four Agatha Rematch Reward"
+          },
+          {
+            "name": "Lance's Room - Elite Four Lance Rematch Reward"
+          },
+          {
+            "name": "Champion's Room - Champion Rematch Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "One Island Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Delivery for Lostelle's Dad"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Meet Celio"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Gift (Deliver Ruby)"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Gift (Deliver Sapphire)"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Info 1"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Info 2"
+          },
+          {
+            "name": "One Island Pokemon Center 1F - Celio Info 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "x": 232,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Two Island Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "x": 344,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Three Island Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "x": 232,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Four Island Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Four Island Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "x": 296,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Five Island Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Five Island Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "x": 296,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Six Island Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Pokemon Center",
+        "sections": [
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Seven Island Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Pokemon Center",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "x": 200,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 10 Pokemon Center",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          },
+          {
+            "name": "PC Item"
+          },
+          {
+            "name": "Route 10 Pokemon Center 1F - Oak's Aide Gift (Pokedex Progress)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_10_north",
+            "x": 216,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  }
+]

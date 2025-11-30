@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Vermilion City",
+    "children": [
+      {
+        "name": "Vermilion City Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Pokemon Center",
+        "sections": [
+          {
+            "name": "Vermilion City - Hidden Item Near Pokemon Center"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Vermilion City - Gym Sign Info",
+        "sections": [
+          {
+            "name": "Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "x": 168,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Fishing House",
+    "children": [
+      {
+        "name": "Fishing Guru",
+        "sections": [
+          {
+            "name": "Vermilion Fishing House - Fishing Guru Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_fishing_house",
+            "x": 72,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Vermilion Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Vs. Seeker Woman",
+        "sections": [
+          {
+            "name": "Vermilion Pokemon Center 1F - Vs. Seeker Woman Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Vermilion Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokemon Fan Club",
+    "children": [
+      {
+        "name": "Chairman",
+        "sections": [
+          {
+            "name": "Pokemon Fan Club - Chairman Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_fan_club",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Worker",
+        "sections": [
+          {
+            "name": "Pokemon Fan Club - Worker Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_fan_club",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Gym",
+    "children": [
+      {
+        "name": "Sailor Dwayne",
+        "sections": [
+          {
+            "name": "Vermilion Gym - Sailor Dwayne Reward"
+          },
+          {
+            "name": "Vermilion Gym - Sailor Dwayne Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 136,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Engineer Baily",
+        "sections": [
+          {
+            "name": "Vermilion Gym - Engineer Baily Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 40,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Gentleman Tucker",
+        "sections": [
+          {
+            "name": "Vermilion Gym - Gentleman Tucker Reward"
+          },
+          {
+            "name": "Vermilion Gym - Gentleman Tucker Info 1"
+          },
+          {
+            "name": "Vermilion Gym - Gentleman Tucker Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Lt. Surge",
+        "sections": [
+          {
+            "name": "Vermilion Gym - Lt. Surge Info"
+          },
+          {
+            "name": "Vermilion Gym - Leader Lt. Surge Reward"
+          },
+          {
+            "name": "Vermilion Gym - Prize"
+          },
+          {
+            "name": "Vermilion Gym - Lt. Surge TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "x": 88,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Poke Mart",
+    "children": [
+      {
+        "name": "Vermilion Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

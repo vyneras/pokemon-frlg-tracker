@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Cinnabar Island",
+    "children": [
+      {
+        "name": "Cinnabar Island Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Gym Sign",
+        "sections": [
+          {
+            "name": "Cinnabar Island - Gym Sign Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 360,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Woman",
+        "sections": [
+          {
+            "name": "Cinnabar Island - Woman Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_island",
+            "x": 232,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Gym",
+    "children": [
+      {
+        "name": "Burglar Quinn",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Burglar Quinn Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 408,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Erik",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Super Nerd Erik Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 408,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Avery",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Super Nerd Avery Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Burglar Ramon",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Burglar Ramon Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 264,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Derek",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Super Nerd Derek Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Super Nerd Derek Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 264,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Burglar Dusty",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Burglar Dusty Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 72,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Super Nerd Zac",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Super Nerd Zac Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 72,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Blaine",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Leader Blaine Reward"
+          },
+          {
+            "name": "Cinnabar Gym - Blaine Info"
+          },
+          {
+            "name": "Cinnabar Gym - Prize"
+          },
+          {
+            "name": "Cinnabar Gym - Blaine TM"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Photo",
+        "sections": [
+          {
+            "name": "Cinnabar Gym - Photo Info 1"
+          },
+          {
+            "name": "Cinnabar Gym - Photo Info 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_gym",
+            "x": 56,
+            "y": 16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokemon Lab Research Room",
+    "children": [
+      {
+        "name": "Scientist",
+        "sections": [
+          {
+            "name": "Pokemon Lab Research Room - Scientist Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_research_room",
+            "x": 168,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pokemon Lab Experiment Room",
+    "children": [
+      {
+        "name": "Fossil",
+        "sections": [
+          {
+            "name": "Pokemon Lab Experiment Room - Fossil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_lab_experiment_room",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Cinnabar Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Bill",
+        "sections": [
+          {
+            "name": "Cinnabar Pokemon Center 1F - Bill Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_pokemon_center_1f",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Bookshelf",
+        "sections": [
+          {
+            "name": "Cinnabar Pokemon Center 1F - Bookshelf Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_pokemon_center_1f",
+            "x": 48,
+            "y": 32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cinnabar Poke Mart",
+    "children": [
+      {
+        "name": "Cinnabar Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cinnabar_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

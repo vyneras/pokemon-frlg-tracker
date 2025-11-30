@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Route 21",
+    "children": [
+      {
+        "name": "East Island Hidden Item",
+        "sections": [
+          {
+            "name": "Route 21 - East Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 280,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Ronald",
+        "sections": [
+          {
+            "name": "Route 21 - Fisherman Ronald Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 120,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Wade",
+        "sections": [
+          {
+            "name": "Route 21 - Fisherman Wade Reward"
+          },
+          {
+            "name": "Route 21 - Fisherman Wade Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 264,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Sis and Bro Lil & Ian",
+        "sections": [
+          {
+            "name": "Route 21 - Sis and Bro Lil & Ian Reward"
+          },
+          {
+            "name": "Route 21 - Sis and Bro Lil & Ian Rematch Reward (6 Badges/Gyms)"
+          },
+          {
+            "name": "Route 21 - Sis and Bro Lil & Ian Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 240,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Spencer",
+        "sections": [
+          {
+            "name": "Route 21 - Swimmer Spencer Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_north",
+            "x": 200,
+            "y": 712
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Claude",
+        "sections": [
+          {
+            "name": "Route 21 - Fisherman Claude Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 184,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Nolan",
+        "sections": [
+          {
+            "name": "Route 21 - Fisherman Nolan Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 232,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Jack",
+        "sections": [
+          {
+            "name": "Route 21 - Swimmer Jack Reward"
+          },
+          {
+            "name": "Route 21 - Swimmer Jack Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 248,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Jerome",
+        "sections": [
+          {
+            "name": "Route 21 - Swimmer Jerome Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 248,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Roland",
+        "sections": [
+          {
+            "name": "Route 21 - Swimmer Roland Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_21_south",
+            "x": 168,
+            "y": 472
+          }
+        ]
+      }
+    ]
+  }
+]

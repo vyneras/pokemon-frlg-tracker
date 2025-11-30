@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Ruin Valley",
+    "children": [
+      {
+        "name": "Southeast Item",
+        "sections": [
+          {
+            "name": "Ruin Valley - Southeast Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 696,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Southwest Item",
+        "sections": [
+          {
+            "name": "Ruin Valley - Southwest Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 88,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Plateau Item",
+        "sections": [
+          {
+            "name": "Ruin Valley - Plateau Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 312,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Hiker Daryl",
+        "sections": [
+          {
+            "name": "Ruin Valley - Hiker Daryl Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 232,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "PokeManiac Hector",
+        "sections": [
+          {
+            "name": "Ruin Valley - PokeManiac Hector Reward"
+          },
+          {
+            "name": "Ruin Valley - PokeManiac Hector Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 344,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Foster",
+        "sections": [
+          {
+            "name": "Ruin Valley - Ruin Maniac Foster Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 536,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Larry",
+        "sections": [
+          {
+            "name": "Ruin Valley - Ruin Maniac Larry Reward"
+          },
+          {
+            "name": "Ruin Valley - Ruin Maniac Larry Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 504,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Stanly",
+        "sections": [
+          {
+            "name": "Ruin Valley - Ruin Maniac Stanly Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ruin_valley",
+            "x": 520,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  }
+]

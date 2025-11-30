@@ -1,10 +1,9 @@
-HOSTED_ITEMS = {
-    "lemonade", "deliver_oaks_parcel", "defeat_route_22_rival", "defeat_brock", "save_bill", "defeat_misty",
-    "defeat_lt_surge", "defeat_erika", "rescue_mr_fuji", "defeat_koga", "liberate_silph_co",
-    "defeat_sabrina", "defeat_blaine", "defeat_giovanni", "defeat_champion", "rescue_lostelle",
-    "deliver_meteorite", "learn_goldeen_need_log", "help_lorelei", "rescue_selphy", "learn_yes_nah_chansey",
-    "free_captured_pokemon", "unlock_ruins", "restore_pokemon_network_machine", "defeat_champion_rematch"
-}
+HOSTED_ITEMS = {"fresh_water", "lemonade", "soda_pop", "deliver_oaks_parcel", "defeat_route_22_rival", "defeat_brock",
+                "miguel_takes_fossil", "save_bill", "defeat_misty", "defeat_lt_surge", "defeat_erika", "rescue_mr_fuji",
+                "defeat_koga", "liberate_silph_co", "defeat_sabrina", "defeat_blaine", "defeat_giovanni",
+                "defeat_champion", "rescue_lostelle", "deliver_meteorite", "learn_goldeen_need_log", "help_lorelei",
+                "rescue_selphy", "learn_yes_nah_chansey", "free_captured_pokemon", "unlock_ruins",
+                "restore_pokemon_network_machine", "defeat_champion_rematch"}
 
 function initialize_watch_items()
     -- Hosted Items
@@ -27,15 +26,11 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("split_map", "split_map_setting", toggle_maps)
     ScriptHost:AddWatchForCode("pokemon_tabs", "pokemon_tabs_setting", toggle_item_tabs)
     ScriptHost:AddWatchForCode("kanto_only", "kanto_only_setting", toggle_maps)
-    ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
-    ScriptHost:AddWatchForCode("dungeon_entrance_shuffle", "dungeon_entrance_shuffle_setting", set_default_dungeon_entrances)
 
     -- Maps
     ScriptHost:AddWatchForCode("kanto_only_map", "kanto_only_setting", toggle_kanto_only_maps)
     ScriptHost:AddWatchForCode("split_teas_map", "teas_setting", toggle_split_tea_maps)
-    ScriptHost:AddWatchForCode("card_keys_map", "card_keys_setting", toggle_split_card_key_maps)
     ScriptHost:AddWatchForCode("route2_map", "modify_route_2_setting", toggle_route_2_maps)
-    ScriptHost:AddWatchForCode("gym_key_map", "gym_keys_setting", toggle_gym_key_maps)
     ScriptHost:AddWatchForCode("block_tunnels_map", "block_tunnels_setting", toggle_tunnel_maps)
     ScriptHost:AddWatchForCode("victory_road_map", "victory_road_rocks_setting", toggle_victory_road_maps)
     ScriptHost:AddWatchForCode("route12_boulder_map", "route_12_boulders_setting", toggle_route_12_maps)
@@ -46,6 +41,13 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("extra_map", "extra_key_items_setting", toggle_route_10_and_extra_item_maps)
     ScriptHost:AddWatchForCode("route23_trees", "route_23_trees_setting", toggle_route_23_maps)
     ScriptHost:AddWatchForCode("route23_modified", "modify_route_23_setting", toggle_route_23_maps)
+
+    -- Entrances
+    ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
+    ScriptHost:AddWatchForCode("shuffle_dungeons", "shuffle_dungeons_setting", set_default_dungeon_entrances)
+
+    -- Encounters
+    ScriptHost:AddWatchForCode("game_version", "game_version_setting", set_encounter_counts)
 
     -- Apworld Version Mismtach
     ScriptHost:AddWatchForCode("version_mismatch", "version_mismatch", toggle_version_mismtach)

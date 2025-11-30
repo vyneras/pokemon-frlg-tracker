@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Route 23",
+    "children": [
+      {
+        "name": "Hidden Item After Second Checkpoint",
+        "sections": [
+          {
+            "name": "Route 23 - Hidden Item After Second Checkpoint"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_south",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Island Hidden Item",
+        "sections": [
+          {
+            "name": "Route 23 - Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_bottom",
+            "x": 184,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Between Statues",
+        "sections": [
+          {
+            "name": "Route 23 - Hidden Item Between Statues"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 328,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Before Sixth Checkpoint",
+        "sections": [
+          {
+            "name": "Route 23 - Hidden Item Before Sixth Checkpoint"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 168,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Northeast Rock Hidden Item",
+        "sections": [
+          {
+            "name": "Route 23 - Northeast Rock Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_center_top",
+            "x": 312,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Victory Road Entrance",
+        "sections": [
+          {
+            "name": "Route 23 - Hidden Item Near Victory Road Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 40,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item After Victory Road",
+        "sections": [
+          {
+            "name": "Route 23 - Hidden Item After Victory Road"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 56,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Stone Maze Hidden Item",
+        "sections": [
+          {
+            "name": "Route 23 - Stone Maze Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_north",
+            "x": 152,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  }
+]

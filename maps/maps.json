@@ -1,13 +1,15 @@
 [
   {
-    "name": "version_mismatch",
-    "img": "images/settings/version_mismatch.png"
-  },
-  {
     "name": "kanto_sevii",
     "location_size": 6,
     "location_border_thickness": 1,
     "img": "images/maps/kanto_sevii.png"
+  },
+  {
+    "name": "kanto",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/kanto_event_islands.png"
   },
   {
     "name": "sevii_123",
@@ -23,6 +25,36 @@
   },
   {
     "name": "sevii_67",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/sevii_67.png"
+  },
+  {
+    "name": "kanto_sevii_er",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/kanto_sevii.png"
+  },
+  {
+    "name": "kanto_er",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/kanto_event_islands.png"
+  },
+  {
+    "name": "sevii_123_er",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/sevii_123.png"
+  },
+  {
+    "name": "sevii_45_er",
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/sevii_45.png"
+  },
+  {
+    "name": "sevii_67_er",
     "location_size": 6,
     "location_border_thickness": 1,
     "img": "images/maps/sevii_67.png"
@@ -110,6 +142,12 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/pewter_museum_1f.png"
+  },
+  {
+    "name": "pewter_museum_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/pewter_museum_2f.png"
   },
   {
     "name": "pewter_gym",
@@ -424,6 +462,12 @@
     "img": "images/maps/celadon_rocket_house.png"
   },
   {
+    "name": "celadon_hotel",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/celadon_hotel.png"
+  },
+  {
     "name": "fuchsia_city",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -500,6 +544,12 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/copycats_house_2f.png"
+  },
+  {
+    "name": "saffron_dojo",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/saffron_dojo.png"
   },
   {
     "name": "saffron_gym",
@@ -730,16 +780,124 @@
     "img": "images/maps/ss_anne_kitchen.png"
   },
   {
+    "name": "ss_anne_1f_room_1",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_1f_room_1.png"
+  },
+  {
+    "name": "ss_anne_1f_room_2",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_1f_room_2.png"
+  },
+  {
+    "name": "ss_anne_1f_room_3",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_1f_room_3.png"
+  },
+  {
+    "name": "ss_anne_1f_room_4",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_1f_room_4.png"
+  },
+  {
+    "name": "ss_anne_1f_room_5",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_1f_room_5.png"
+  },
+  {
+    "name": "ss_anne_1f_room_6",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_1f_room_6.png"
+  },
+  {
+    "name": "ss_anne_1f_room_7",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_1f_room_7.png"
+  },
+  {
     "name": "ss_anne_b1f_corridor",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/ss_anne_b1f_corridor.png"
   },
   {
+    "name": "ss_anne_b1f_room_1",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_b1f_room_1.png"
+  },
+  {
+    "name": "ss_anne_b1f_room_2",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_b1f_room_2.png"
+  },
+  {
+    "name": "ss_anne_b1f_room_3",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_b1f_room_3.png"
+  },
+  {
+    "name": "ss_anne_b1f_room_4",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_b1f_room_4.png"
+  },
+  {
+    "name": "ss_anne_b1f_room_5",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_b1f_room_5.png"
+  },
+  {
     "name": "ss_anne_2f_corridor",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/ss_anne_2f_corridor.png"
+  },
+  {
+    "name": "ss_anne_2f_room_1",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_2f_room_1.png"
+  },
+  {
+    "name": "ss_anne_2f_room_2",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_2f_room_2.png"
+  },
+  {
+    "name": "ss_anne_2f_room_3",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_2f_room_3.png"
+  },
+  {
+    "name": "ss_anne_2f_room_4",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_2f_room_4.png"
+  },
+  {
+    "name": "ss_anne_2f_room_5",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_2f_room_5.png"
+  },
+  {
+    "name": "ss_anne_2f_room_6",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/ss_anne_2f_room_6.png"
   },
   {
     "name": "ss_anne_3f_corridor",
@@ -770,6 +928,12 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/digletts_cave_south_entrance.png"
+  },
+  {
+    "name": "digletts_cave_b1f_north",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/digletts_cave_b1f_north.png"
   },
   {
     "name": "digletts_cave_b1f_south",
@@ -910,6 +1074,12 @@
     "img": "images/maps/safari_zone_east.png"
   },
   {
+    "name": "safari_zone_east_rest_house",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/safari_zone_east_rest_house.png"
+  },
+  {
     "name": "safari_zone_north",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -946,10 +1116,64 @@
     "img": "images/maps/silph_co_1f.png"
   },
   {
+    "name": "silph_co_2f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_2f.png"
+  },
+  {
+    "name": "silph_co_3f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_3f.png"
+  },
+  {
+    "name": "silph_co_4f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_4f.png"
+  },
+  {
     "name": "silph_co_5f",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/silph_co_5f.png"
+  },
+  {
+    "name": "silph_co_6f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_6f.png"
+  },
+  {
+    "name": "silph_co_7f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_7f.png"
+  },
+  {
+    "name": "silph_co_8f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_8f.png"
+  },
+  {
+    "name": "silph_co_9f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_9f.png"
+  },
+  {
+    "name": "silph_co_10f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_10f.png"
+  },
+  {
+    "name": "silph_co_11f",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/silph_co_11f.png"
   },
   {
     "name": "seafoam_islands_1f",
@@ -1250,12 +1474,6 @@
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/pattern_bush.png"
-  },
-  {
-    "name": "altering_cave",
-    "location_size": 12,
-    "location_border_thickness": 2,
-    "img": "images/maps/altering_cave.png"
   },
   {
     "name": "altering_cave",
@@ -1654,12 +1872,6 @@
     "img": "images/maps/water_labyrinth_east.png"
   },
   {
-    "name": "water_labyrinth_east",
-    "location_size": 12,
-    "location_border_thickness": 2,
-    "img": "images/maps/water_labyrinth_east.png"
-  },
-  {
     "name": "resort_gorgeous_west",
     "location_size": 12,
     "location_border_thickness": 2,
@@ -2008,10 +2220,22 @@
     "img": "images/maps/navel_rock_base.png"
   },
   {
+    "name": "navel_rock_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/navel_rock_harbor.png"
+  },
+  {
     "name": "birth_island",
     "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/birth_island.png"
+  },
+  {
+    "name": "birth_island_harbor",
+    "location_size": 12,
+    "location_border_thickness": 2,
+    "img": "images/maps/birth_island_harbor.png"
   },
   {
     "name": "route_1",

@@ -10,20 +10,16 @@
             "name": "Land Encounters"
           },
           {
-            "ref": "Routes/Route 13/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Routes/Route 13/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Routes/Route 13/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Routes/Route 13/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Routes/Route 13/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Routes/Route 13/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Routes/Route 13/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Routes/Route 13/Super Rod Encounters",
@@ -81,6 +77,10 @@
           {
             "ref": "Routes/Route 13/Beauty Sheila Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 13/Beauty Sheila Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -129,6 +129,14 @@
           {
             "ref": "Routes/Route 13/Bird Keeper Robert Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 13/Bird Keeper Robert Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 13/Bird Keeper Robert Rematch Reward 2",
+            "name": "Rematch Reward 2"
           }
         ],
         "map_locations": [
@@ -193,6 +201,18 @@
           {
             "ref": "Routes/Route 13/Picnicker Susie Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 13/Picnicker Susie Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 13/Picnicker Susie Rematch Reward 2",
+            "name": "Rematch Reward 2"
+          },
+          {
+            "ref": "Routes/Route 13/Picnicker Susie Rematch Reward 3",
+            "name": "Rematch Reward 3"
           }
         ],
         "map_locations": [

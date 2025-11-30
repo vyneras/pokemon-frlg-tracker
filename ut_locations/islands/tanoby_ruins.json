@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Tanoby Ruins",
+    "children": [
+      {
+        "name": "Island Item",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Island Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Viapois Chamber Island Hidden Item",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Viapois Chamber Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 136,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Scufib Chamber Island Hidden Item",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Scufib Chamber Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 536,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Weepth Chamber Island Hidden Item",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Weepth Chamber Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Monean Chamber Island Hidden Item",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Monean Chamber Island Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 456,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Brandon",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Ruin Maniac Brandon Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_west",
+            "x": 568,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Gentleman Clifford",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Gentleman Clifford Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 264,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Painter Edna",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Painter Edna Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_center_right",
+            "x": 264,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Ruin Maniac Benjamin",
+        "sections": [
+          {
+            "name": "Tanoby Ruins - Ruin Maniac Benjamin Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_ruins_east",
+            "x": 392,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -204,6 +204,12 @@
     "codes": "four_pass"
   },
   {
+    "name": "Fresh Water",
+    "type": "toggle",
+    "img": "images/items/fresh_water.png",
+    "codes": "fresh_water"
+  },
+  {
     "name": "Fuchsia City Fly Unlock",
     "type": "toggle",
     "img": "images/items/fly_fuchsia.png",
@@ -375,6 +381,12 @@
     "type": "toggle",
     "img": "images/items/fly_indigo.png",
     "codes": "indigo_fly_unlock"
+  },
+  {
+    "name": "Jumping Shoes",
+    "type": "toggle",
+    "img": "images/items/jumping_shoes.png",
+    "codes": "jumping_shoes"
   },
   {
     "name": "Lavender Town Fly Unlock",
@@ -594,6 +606,12 @@
     "img": "images/items/rainbow_pass.png",
     "img_mods": "overlay|images/overlays/item_numbers/6.png",
     "codes": "six_pass"
+  },
+  {
+    "name": "Soda Pop",
+    "type": "toggle",
+    "img": "images/items/soda_pop.png",
+    "codes": "soda_pop"
   },
   {
     "name": "Soul Badge",

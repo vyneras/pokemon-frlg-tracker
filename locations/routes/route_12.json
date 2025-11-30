@@ -10,20 +10,16 @@
             "name": "Land Encounters"
           },
           {
-            "ref": "Routes/Route 12 North/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Routes/Route 12 North/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Routes/Route 12 North/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Routes/Route 12 North/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Routes/Route 12 North/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Routes/Route 12 North/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Routes/Route 12 North/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Routes/Route 12 North/Super Rod Encounters",
@@ -122,7 +118,7 @@
         ]
       },
       {
-        "name": "Fishing Guru's House",
+        "name": "Route 12 Fishing House",
         "sections": [
           {
             "ref": "Routes/Route 12 South/Fishing Guru Gift",
@@ -195,6 +191,10 @@
           {
             "ref": "Routes/Route 12 North/Fisherman Elliot Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 12 North/Fisherman Elliot Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [
@@ -243,6 +243,14 @@
           {
             "ref": "Routes/Route 12 North/Young Couple Gia & Jes Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Rematch Reward 1",
+            "name": "Rematch Reward 1"
+          },
+          {
+            "ref": "Routes/Route 12 North/Young Couple Gia & Jes Rematch Reward 2",
+            "name": "Rematch Reward 2"
           }
         ],
         "map_locations": [
@@ -275,6 +283,10 @@
           {
             "ref": "Routes/Route 12 South/Rocker Luca Reward",
             "name": "Reward"
+          },
+          {
+            "ref": "Routes/Route 12 South/Rocker Luca Rematch Reward",
+            "name": "Rematch Reward"
           }
         ],
         "map_locations": [

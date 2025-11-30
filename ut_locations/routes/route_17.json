@@ -1,0 +1,241 @@
+[
+  {
+    "name": "Route 17",
+    "children": [
+      {
+        "name": "Dirt Path Hidden Item",
+        "sections": [
+          {
+            "name": "Route 17 - Dirt Path Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 168,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "West Stone Path Hidden Item (Top)",
+        "sections": [
+          {
+            "name": "Route 17 - West Stone Path Hidden Item (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 72,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "West Stone Path Hidden Item (Bottom)",
+        "sections": [
+          {
+            "name": "Route 17 - West Stone Path Hidden Item (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_south",
+            "x": 72,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "East Stone Path Hidden Item",
+        "sections": [
+          {
+            "name": "Route 17 - East Stone Path Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_bottom",
+            "x": 296,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Southeast Stone Path Hidden Item",
+        "sections": [
+          {
+            "name": "Route 17 - Southeast Stone Path Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_south",
+            "x": 232,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Biker Billy",
+        "sections": [
+          {
+            "name": "Route 17 - Biker Billy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 120,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Biker Jaxon",
+        "sections": [
+          {
+            "name": "Route 17 - Biker Jaxon Reward"
+          },
+          {
+            "name": "Route 17 - Biker Jaxon Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_bottom",
+            "x": 72,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Biker Nikolas",
+        "sections": [
+          {
+            "name": "Route 17 - Biker Nikolas Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 296,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Biker Virgil",
+        "sections": [
+          {
+            "name": "Route 17 - Biker Virgil Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 72,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Biker William",
+        "sections": [
+          {
+            "name": "Route 17 - Biker William Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_south",
+            "x": 264,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Corey",
+        "sections": [
+          {
+            "name": "Route 17 - Cue Ball Corey Reward"
+          },
+          {
+            "name": "Route 17 - Cue Ball Corey Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_bottom",
+            "x": 296,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Isaiah",
+        "sections": [
+          {
+            "name": "Route 17 - Cue Ball Isaiah Reward"
+          },
+          {
+            "name": "Route 17 - Cue Ball Isaiah Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 184,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Jamal",
+        "sections": [
+          {
+            "name": "Route 17 - Cue Ball Jamal Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 40,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Raul",
+        "sections": [
+          {
+            "name": "Route 17 - Cue Ball Raul Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_north",
+            "x": 248,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Cue Ball Zeek",
+        "sections": [
+          {
+            "name": "Route 17 - Cue Ball Zeek Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_17_center_top",
+            "x": 344,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  }
+]

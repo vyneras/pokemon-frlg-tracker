@@ -21,20 +21,16 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Surf Encounter",
-            "name": "Surf Encounter"
+            "ref": "Cities/Cerulean City/Surf Encounters",
+            "name": "Surf Encounters"
           },
           {
-            "ref": "Cities/Cerulean City/Old-Good Rod Encounter",
-            "name": "Old-Good Rod Encounter"
+            "ref": "Cities/Cerulean City/Old Rod Encounters",
+            "name": "Old Rod Encounters"
           },
           {
-            "ref": "Cities/Cerulean City/Good Rod Encounter",
-            "name": "Good Rod Encounter"
-          },
-          {
-            "ref": "Cities/Cerulean City/Good-Super Rod Encounter",
-            "name": "Good-Super Rod Encounter"
+            "ref": "Cities/Cerulean City/Good Rod Encounters",
+            "name": "Good Rod Encounters"
           },
           {
             "ref": "Cities/Cerulean City/Super Rod Encounters",
@@ -230,7 +226,8 @@
             "name": "Reward"
           },
           {
-            "ref": "Cities/Cerulean City/Recover Stolen TM"
+            "ref": "Cities/Cerulean City/Recover Stolen TM",
+            "name": "Recover Stolen TM"
           }
         ],
         "map_locations": [

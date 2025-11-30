@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Lavender Town",
+    "children": [
+      {
+        "name": "Lavender Town Visit",
+        "sections": [
+          {
+            "name": "Unlock Fly Destination"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_town",
+            "x": 12,
+            "y": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavender Pokemon Center 1F",
+    "children": [
+      {
+        "name": "Lavender Pokemon Center PC",
+        "sections": [
+          {
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_pokemon_center_1f",
+            "x": 184,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Balding Man",
+        "sections": [
+          {
+            "name": "Lavender Pokemon Center 1F - Balding Man Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_pokemon_center_1f",
+            "x": 232,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Volunteer Pokemon House",
+    "children": [
+      {
+        "name": "Little Girl",
+        "sections": [
+          {
+            "name": "Volunteer Pokemon House - Little Girl Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volunteer_pokemon_house",
+            "x": 120,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Journal",
+        "sections": [
+          {
+            "name": "Volunteer Pokemon House - Journal Info"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volunteer_pokemon_house",
+            "x": 88,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mr. Fuji",
+        "sections": [
+          {
+            "name": "Volunteer Pokemon House - Mr. Fuji Gift"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "volunteer_pokemon_house",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavender Poke Mart",
+    "children": [
+      {
+        "name": "Lavender Poke Mart Clerk",
+        "sections": [
+          {
+            "name": "Shop Item 1"
+          },
+          {
+            "name": "Shop Item 2"
+          },
+          {
+            "name": "Shop Item 3"
+          },
+          {
+            "name": "Shop Item 4"
+          },
+          {
+            "name": "Shop Item 5"
+          },
+          {
+            "name": "Shop Item 6"
+          },
+          {
+            "name": "Shop Item 7"
+          },
+          {
+            "name": "Shop Item 8"
+          },
+          {
+            "name": "Shop Item 9"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavender_mart",
+            "x": 40,
+            "y": 56
+          }
+        ]
+      }
+    ]
+  }
+]

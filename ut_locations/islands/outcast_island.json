@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Outcast Island",
+    "children": [
+      {
+        "name": "West Beach Hidden Item",
+        "sections": [
+          {
+            "name": "Outcast Island - West Beach Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 104,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "East Beach Hidden Item",
+        "sections": [
+          {
+            "name": "Outcast Island - East Beach Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 264,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "North Beach Item",
+        "sections": [
+          {
+            "name": "Outcast Island - North Beach Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 184,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Fisherman Tylor",
+        "sections": [
+          {
+            "name": "Outcast Island - Fisherman Tylor Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 200,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Sis and Bro Ava & Geb",
+        "sections": [
+          {
+            "name": "Outcast Island - Sis and Bro Ava & Geb Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_south",
+            "x": 176,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Nicole",
+        "sections": [
+          {
+            "name": "Outcast Island - Swimmer Nicole Reward"
+          },
+          {
+            "name": "Outcast Island - Swimmer Nicole Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_south",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Swimmer Mymo",
+        "sections": [
+          {
+            "name": "Outcast Island - Swimmer Mymo Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 216,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Team Rocket Grunt",
+        "sections": [
+          {
+            "name": "Outcast Island - Team Rocket Grunt Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "outcast_island_north",
+            "x": 152,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Power Plant",
+    "children": [
+      {
+        "name": "Item Near Entrance",
+        "sections": [
+          {
+            "name": "Power Plant - Item Near Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 120,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Long Center Room Item (Right)",
+        "sections": [
+          {
+            "name": "Power Plant - Long Center Room Item (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 648,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Long Center Room Item (Left)",
+        "sections": [
+          {
+            "name": "Power Plant - Long Center Room Item (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 424,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Southeast Room Item",
+        "sections": [
+          {
+            "name": "Power Plant - Southeast Room Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 744,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Northeast Room Item (Right)",
+        "sections": [
+          {
+            "name": "Power Plant - Northeast Room Item (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 728,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Center Machine Room Hidden Item",
+        "sections": [
+          {
+            "name": "Power Plant - Center Machine Room Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 472,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Hidden Item Near Zapdos",
+        "sections": [
+          {
+            "name": "Power Plant - Hidden Item Near Zapdos"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "x": 136,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  }
+]

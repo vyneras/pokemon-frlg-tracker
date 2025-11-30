@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Route 6",
+    "children": [
+      {
+        "name": "Northwest Hidden Item",
+        "sections": [
+          {
+            "name": "Route 6 - Northwest Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Northeast Hidden Item",
+        "sections": [
+          {
+            "name": "Route 6 - Northeast Hidden Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 312,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Elijah",
+        "sections": [
+          {
+            "name": "Route 6 - Bug Catcher Elijah Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 328,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Bug Catcher Keigo",
+        "sections": [
+          {
+            "name": "Route 6 - Bug Catcher Keigo Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 56,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Camper Jeff",
+        "sections": [
+          {
+            "name": "Route 6 - Camper Jeff Reward"
+          },
+          {
+            "name": "Route 6 - Camper Jeff Rematch Reward"
+          },
+          {
+            "name": "Route 6 - Camper Jeff Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 6 - Camper Jeff Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Camper Ricky",
+        "sections": [
+          {
+            "name": "Route 6 - Camper Ricky Reward"
+          },
+          {
+            "name": "Route 6 - Camper Ricky Rematch Reward"
+          },
+          {
+            "name": "Route 6 - Camper Ricky Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 6 - Camper Ricky Rematch Reward (8 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 200,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Isabelle",
+        "sections": [
+          {
+            "name": "Route 6 - Picnicker Isabelle Reward"
+          },
+          {
+            "name": "Route 6 - Picnicker Isabelle Rematch Reward"
+          },
+          {
+            "name": "Route 6 - Picnicker Isabelle Rematch Reward (4 Badges/Gyms)"
+          },
+          {
+            "name": "Route 6 - Picnicker Isabelle Rematch Reward (6 Badges/Gyms)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Picnicker Nancy",
+        "sections": [
+          {
+            "name": "Route 6 - Picnicker Nancy Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "x": 216,
+            "y": 344
+          }
+        ]
+      }
+    ]
+  }
+]
