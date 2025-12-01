@@ -1,6 +1,24 @@
 {
   "versions": [
     {
+      "package_version": "4.0.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.0.0/pokemon-frlg-tracker.zip",
+      "sha256": "101ae8862216cab62d9e97d8820d0c23d243a107e0767fedd9c8bbe73b849ee9",
+      "changelog": [
+        "Added Universal Tracker support ",
+        "Added Pokédex item and logic",
+        "Added Jumping Shoes item and logic",
+        "Added auto tracking for Progressive Rods",
+        "Added Bicycle Requires Jumping Shoes and Acrobatic Bicycle settings and logic",
+        "Added Post Goal Locations setting",
+        "Added Rematchsanity setting and locations",
+        "Added Vending Machines setting and locations",
+        "Added Prizesanity setting and locations",
+        "Updated locations for Fossil rework",
+        "Fixed a logic issues with access to Route 21 fishing encounters from Cinnabar Island"
+      ]
+    },
+    {
       "package_version": "3.1.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/archive/refs/tags/3.1.0.zip",
       "sha256": "82e55ad8b495b6bf25ebebbbbcc2c83daa988a9beccb48a79d5375c977cfa3e0",
