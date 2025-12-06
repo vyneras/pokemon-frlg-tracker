@@ -1,11 +1,20 @@
 {
   "versions": [
     {
+      "package_version": "4.0.1",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.0.1/pokemon-frlg-tracker.zip",
+      "sha256": "19376f1be888780676aa9f14211fa4f48614669bfc3611fb6b756bd020a631c4",
+      "changelog": [
+        "Fixed randomize fly destinations and shuffled dungeons logic not working properly",
+        "Updated Silph Co. 5F Map"
+      ]
+    },
+    {
       "package_version": "4.0.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.0.0/pokemon-frlg-tracker.zip",
       "sha256": "101ae8862216cab62d9e97d8820d0c23d243a107e0767fedd9c8bbe73b849ee9",
       "changelog": [
-        "Added Universal Tracker support ",
+        "Added Universal Tracker support",
         "Added Pokédex item and logic",
         "Added Jumping Shoes item and logic",
         "Added auto tracking for Progressive Rods",
