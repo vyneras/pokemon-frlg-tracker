@@ -1,3 +1,8 @@
+# 4.0.1
+## Bug Fixes
+* Fixed randomize fly destinations and shuffled dungeons logic not working properly
+* Updated Silph Co. 5F Map
+
 # 4.0.0
 ## Updates
 * Added Universal Tracker support
