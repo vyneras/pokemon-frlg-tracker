@@ -156,8 +156,6 @@ function FlyDestination:canProvideCode(code)
 end
 
 function FlyDestination:providesCode(code)
-    print(code)
-    print(self.flyUnlock)
     if self:canProvideCode(code) and (has(self.flyUnlock) or has(self.freeFly) or (has(self.TownMapFly) and has("town_map"))) then
         return 1
     end
