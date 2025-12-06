@@ -106,19 +106,12 @@ function Entrance:onRightClick()
 end
 
 function Entrance:canProvideCode(code)
-    if self.code .. "_entrance" == code then
-        return true
-    end
-    return false
+    local data = ENTRANCE_DATA[self:getStage()]
+    return self.code .. "_entrance" == code or data[3] .. "_exit" == code
 end
 
 function Entrance:providesCode(code)
-    local data = ENTRANCE_DATA[self:getStage()]
-    if self.code .. "_entrance" == code then
-        if self:getStage() ~= 0 then
-            return 1
-        end
-    elseif data[3] .. "_exit" == code then
+    if self:canProvideCode(code) and self:getStage() ~= 0 then
         return 1
     end
     return 0

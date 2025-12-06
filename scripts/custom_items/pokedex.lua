@@ -71,10 +71,7 @@ function Pokedex:onRightClick()
 end
 
 function Pokedex:canProvideCode(code)
-    if self.code == code then
-        return true
-    end
-    return false
+    return self.code == code
 end
 
 function Pokedex:providesCode(code)

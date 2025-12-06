@@ -42,10 +42,7 @@ function PokedexRequirement:onRightClick()
 end
 
 function PokedexRequirement:canProvideCode(code)
-    if self.code == code then
-        return true
-    end
-    return false
+    return self.code == code
 end
 
 function PokedexRequirement:providesCode(code)

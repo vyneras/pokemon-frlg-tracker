@@ -59,10 +59,7 @@ function BadgesGymsRequirement:onRightClick()
 end
 
 function BadgesGymsRequirement:canProvideCode(code)
-    if self.code == code then
-        return true
-    end
-    return false
+    return self.code == code
 end
 
 function BadgesGymsRequirement:providesCode(code)

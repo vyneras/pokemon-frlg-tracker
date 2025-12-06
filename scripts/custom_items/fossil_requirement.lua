@@ -36,10 +36,7 @@ function FossilRequirement:onRightClick()
 end
 
 function FossilRequirement:canProvideCode(code)
-    if self.code == code then
-        return true
-    end
-    return false
+    return self.code == code
 end
 
 function FossilRequirement:providesCode(code)

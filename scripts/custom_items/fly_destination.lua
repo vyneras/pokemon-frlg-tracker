@@ -151,18 +151,15 @@ function FlyDestination:onRightClick()
 end
 
 function FlyDestination:canProvideCode(code)
-    if self.code == code then
-        return true
-    end
-    return false
+    local data = FLY_DESTINATION_DATA[self:getStage()]
+    return self.code == code or "fly_" .. data[2] == code
 end
 
 function FlyDestination:providesCode(code)
-    local data = FLY_DESTINATION_DATA[self:getStage()]
-    if "fly_" .. data[2] == code then
-        if has(self.flyUnlock) or has(self.freeFly) or (has(self.TownMapFly) and has("town_map")) then
-            return 1
-        end
+    print(code)
+    print(self.flyUnlock)
+    if self:canProvideCode(code) and (has(self.flyUnlock) or has(self.freeFly) or (has(self.TownMapFly) and has("town_map"))) then
+        return 1
     end
     return 0
 end

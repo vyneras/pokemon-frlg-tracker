@@ -78,10 +78,7 @@ function CeruleanCaveRequirement:onRightClick()
 end
 
 function CeruleanCaveRequirement:canProvideCode(code)
-    if self.code == code then
-        return true
-    end
-    return false
+    return self.code == code
 end
 
 function CeruleanCaveRequirement:providesCode(code)
