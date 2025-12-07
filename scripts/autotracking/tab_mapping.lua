@@ -17,7 +17,7 @@ TAB_MAPPING = {
     [769] = { -- Viridian City
         [0] = {"Cities", "Viridian City", "Exterior"}
     },
-    [1280] = { -- Viridian House
+    [1280] = { -- Viridian Nickname House
         [0] = {"Cities", "Viridian City", "House"}
     },
     [1281] = { -- Viridian Gym
@@ -50,7 +50,7 @@ TAB_MAPPING = {
     [1539] = { -- Pewter Poké Mart
         [0] = {"Cities", "Pewter City", "Mart"}
     },
-    [1540] = { -- Pewter House 1
+    [1540] = { -- Pewter Nidoran House
         [0] = {"Cities", "Pewter City", "Nidoran House"}
     },
     [1541] = { -- Pewter Pokémon Center 1F
@@ -59,19 +59,19 @@ TAB_MAPPING = {
     [1542] = { -- Pewter Pokémon Center 2F
         [0] = {"Cities", "Pewter City", "Pokémon Center", "2F"}
     },
-    [1543] = { -- Pewter House 2
+    [1543] = { -- Pewter Info House
         [0] = {"Cities", "Pewter City", "Info House"}
     },
     [771] = { -- Cerulean City
         [0] = {"Cities", "Cerulean City", "Exterior"}
     },
-    [1792] = { -- Cerulean House 1
+    [1792] = { -- Badge Guy's House
         [0] = {"Cities", "Cerulean City", "Badge Guy's House"}
     },
-    [1793] = { -- Cerulean House 2
+    [1793] = { -- Robbed House
         [0] = {"Cities", "Cerulean City", "Robbed House"}
     },
-    [1794] = { -- Cerulean House 3
+    [1794] = { -- Cerulean Trade House
         [0] = {"Cities", "Cerulean City", "Trade House"}
     },
     [1795] = { -- Cerulean Pokémon Center 1F
@@ -83,22 +83,22 @@ TAB_MAPPING = {
     [1797] = { -- Cerulean Gym
         [0] = {"Cities", "Cerulean City", "Gym"}
     },
-    [1798] = { -- Cerulean Bike Shop
+    [1798] = { -- Bike Shop
         [0] = {"Cities", "Cerulean City", "Bike Shop"}
     },
     [1799] = { -- Cerulean Poké Mart
         [0] = {"Cities", "Cerulean City", "Mart"}
     },
-    [1800] = { -- Cerulean House 4
+    [1800] = { -- Wonder News House
         [0] = {"Cities", "Cerulean City", "Wonder News House"}
     },
-    [1801] = { -- Cerulean House 5
+    [1801] = { -- Berry Powder Man's House
         [0] = {"Cities", "Cerulean City", "Berry Powder Man's House"}
     },
     [773] = { -- Vermilion City
         [0] = {"Cities", "Vermilion City", "Exterior"}
     },
-    [2304] = { -- Vermilion House 1
+    [2304] = { -- Vermilion Fishing House
         [0] = {"Cities", "Vermilion City", "Fishing House"}
     },
     [2305] = { -- Vermilion Pokémon Center 1F
@@ -110,7 +110,7 @@ TAB_MAPPING = {
     [2307] = { -- Pokémon Fan Club
         [0] = {"Cities", "Vermilion City", "Pokémon Fan Club"}
     },
-    [2308] = { -- Vermilion House 2
+    [2308] = { -- Vermilion Trade House
         [0] = {"Cities", "Vermilion City", "Trade House"}
     },
     [2309] = { -- Vermilion Poké Mart
@@ -119,7 +119,7 @@ TAB_MAPPING = {
     [2310] = { -- Vermilion Gym
         [0] = {"Cities", "Vermilion City", "Gym"}
     },
-    [2311] = { -- Vermilion House 3
+    [2311] = { -- Vermilion Pidgey House
         [0] = {"Cities", "Vermilion City", "Pidgey House"}
     },
     [772] = { -- Lavender Town
@@ -131,13 +131,13 @@ TAB_MAPPING = {
     [2049] = { -- Lavender Pokémon Center 2F
         [0] = {"Cities", "Lavender Town", "Pokémon Center", "2F"}
     },
-    [2050] = { -- Lavender Volunteer Pokémon House
+    [2050] = { -- Volunteer Pokémon House
         [0] = {"Cities", "Lavender Town", "Volunteer Pokémon House"}
     },
-    [2051] = { -- Lavender House 1
+    [2051] = { -- Lavender Cubone House
         [0] = {"Cities", "Lavender Town", "Cubone House"}
     },
-    [2052] = { -- Lavender House 2
+    [2052] = { -- Name Rater's House
         [0] = {"Cities", "Lavender Town", "Name Rater's House"}
     },
     [2053] = { -- Lavender Poké Mart
@@ -200,7 +200,7 @@ TAB_MAPPING = {
     [2577] = { -- Celadon Restaurant
         [0] = {"Cities", "Celadon City", "Restaurant"}
     },
-    [2578] = { -- Celadon House
+    [2578] = { -- Celadon Rocket House
         [0] = {"Cities", "Celadon City", "Rocket House"}
     },
     [2579] = { -- Celadon Hotel
@@ -218,7 +218,7 @@ TAB_MAPPING = {
     [2819] = { -- Fuchsia Gym
         [0] = {"Cities", "Fuchsia City", "Gym"}
     },
-    [2820] = { -- Fuchsia House 1
+    [2820] = { -- Bill's Grandpa's House
         [0] = {"Cities", "Fuchsia City", "Bill's Grandpa's House"}
     },
     [2821] = { -- Fuchsia Pokémon Center 1F
@@ -227,22 +227,22 @@ TAB_MAPPING = {
     [2822] = { -- Fuchsia Pokémon Center 2F
         [0] = {"Cities", "Fuchsia City", "Pokémon Center", "2F"}
     },
-    [2823] = { -- Fuchsia Warden's House
+    [2823] = { -- Safari Zone Warden's House
         [0] = {"Cities", "Fuchsia City", "Safari Zone Warden's House"}
     },
-    [2824] = { -- Fuchsia House 2
+    [2824] = { -- Fuchsia Fishing House
         [0] = {"Cities", "Fuchsia City", "Fishing House"}
     },
-    [2825] = { -- Fuchsia House 3
+    [2825] = { -- Move Deleter's House
         [0] = {"Cities", "Fuchsia City", "Move Deleter's House"}
     },
     [778] = { -- Saffron City
         [0] = {"Cities", "Saffron City", "Exterior"}
     },
-    [3584] = { -- Saffron Copycat's House 1F
+    [3584] = { -- Copycat's House 1F
         [0] = {"Cities", "Saffron City", "Copycat's House", "1F"}
     },
-    [3585] = { -- Saffron Copycat's House 2F
+    [3585] = { -- Copycat's House 2F
         [0] = {"Cities", "Saffron City", "Copycat's House", "2F"}
     },
     [3586] = { -- Saffron Dojo
@@ -251,7 +251,7 @@ TAB_MAPPING = {
     [3587] = { -- Saffron Gym
         [0] = {"Cities", "Saffron City", "Gym"}
     },
-    [3588] = { -- Saffron House
+    [3588] = { -- Saffron Pidgey House
         [0] = {"Cities", "Saffron City", "Pidgey House"}
     },
     [3589] = { -- Saffron Poké Mart
@@ -263,10 +263,10 @@ TAB_MAPPING = {
     [3591] = { -- Saffron Pokémon Center 2F
         [0] = {"Cities", "Saffron City", "Pokémon Center", "2F"}
     },
-    [3592] = { -- Saffron Mr. Psychic's House
+    [3592] = { -- Mr. Psychic's House
         [0] = {"Cities", "Saffron City", "Mr. Psychic's House"}
     },
-    [3593] = { -- Saffron Pokémon Trainer Fan Club
+    [3593] = { -- Pokémon Trainer Fan Club
         [0] = {"Cities", "Saffron City", "Pokémon Trainer Fan Club"}
     },
     [776] = { -- Cinnabar Island
@@ -275,16 +275,16 @@ TAB_MAPPING = {
     [3072] = { -- Cinnabar Gym
         [0] = {"Cities", "Cinnabar Island", "Gym"}
     },
-    [3073] = { -- Cinnabar Pokémon Lab Entrance
+    [3073] = { -- Pokémon Lab Entrance
         [0] = {"Cities", "Cinnabar Island", "Pokémon Lab", "Entrance"}
     },
-    [3074] = { -- Cinnabar Pokémon Lab Lounge
+    [3074] = { -- Pokémon Lab Lounge
         [0] = {"Cities", "Cinnabar Island", "Pokémon Lab", "Lounge"}
     },
-    [3075] = { -- Cinnabar Pokémon Lab Research Room
+    [3075] = { -- Pokémon Lab Research Room
         [0] = {"Cities", "Cinnabar Island", "Pokémon Lab", "Research Room"}
     },
-    [3076] = { -- Cinnabar Pokémon Lab Experiment Room
+    [3076] = { -- Pokémon Lab Experiment Room
         [0] = {"Cities", "Cinnabar Island", "Pokémon Lab", "Experiment Room"}
     },
     [3077] = { -- Cinnabar Pokémon Center 1F
@@ -305,32 +305,32 @@ TAB_MAPPING = {
     [3329] = { -- Indigo Plateau Pokémon Center 2F
         [0] = {"Cities", "Indigo Plateau", "Pokémon Center", "2F"}
     },
-    [331] = { -- Pokémon League Lorelei's Room
+    [331] = { -- Lorelei's Room
         [0] = {"Cities", "Indigo Plateau", "Pokémon League", "Lorelei's Room"}
     },
-    [332] = { -- Pokémon League Bruno's Room
+    [332] = { -- Bruno's Room
         [0] = {"Cities", "Indigo Plateau", "Pokémon League", "Bruno's Room"}
     },
-    [333] = { -- Pokémon League Agatha's Room
+    [333] = { -- Agatha's Room
         [0] = {"Cities", "Indigo Plateau", "Pokémon League", "Agatha's Room"}
     },
-    [334] = { -- Pokémon League Lance's Room
+    [334] = { -- Lance's Room
         [0] = {"Cities", "Indigo Plateau", "Pokémon League", "Lance's Room"}
     },
-    [335] = { -- Pokémon League Champion's Room
+    [335] = { -- Champion's Room
         [0] = {"Cities", "Indigo Plateau", "Pokémon League", "Champion's Room"}
     },
-    [336] = { -- Pokémon League Hall of Fame
+    [336] = { -- Hall of Fame
         [0] = {"Cities", "Indigo Plateau", "Pokémon League", "Hall of Fame"}
     },
-    [3840] = { -- Route 2 Viridian Forest South Entrance
+    [3840] = { -- Viridian Forest South Entrance
         [0] = {"Dungeons", "Viridian Forest", "South Entrance"}
     },
     [256] = { -- Viridian Forest
         [0] = {"Dungeons", "Viridian Forest", "Forest", "North"},
         [1] = {"Dungeons", "Viridian Forest", "Forest", "South"}
     },
-    [3843] = { -- Route 2 Viridian Forest North Entrance
+    [3843] = { -- Viridian Forest North Entrance
         [0] = {"Dungeons", "Viridian Forest", "North Entrance"}
     },
     [257] = { -- Mt. Moon 1F
@@ -492,34 +492,34 @@ TAB_MAPPING = {
     [301] = { -- Rocket Hideout B4F
         [0] = {"Dungeons", "Rocket Hideout", "B4F"}
     },
-    [2816] = { -- Fuchsia Safari Zone Entrance
+    [2816] = { -- Safari Zone Entrance
         [0] = {"Dungeons", "Safari Zone", "Entrance"}
     },
-    [319] = { -- Safari Zone Center
+    [319] = { -- Safari Zone Center Area
         [0] = {"Dungeons", "Safari Zone", "Center", "Area"}
     },
-    [320] = { -- Safari Zone East
+    [320] = { -- Safari Zone East Area
         [0] = {"Dungeons", "Safari Zone", "East", "Area"}
     },
-    [321] = { -- Safari Zone North
+    [321] = { -- Safari Zone North Area
         [0] = {"Dungeons", "Safari Zone", "North", "Area"}
     },
-    [322] = { -- Safari Zone West
+    [322] = { -- Safari Zone West Area
         [0] = {"Dungeons", "Safari Zone", "West", "Area"}
     },
-    [323] = { -- Safari Zone Center Rest House
+    [323] = { -- Safari Zone Center Area Rest House
         [0] = {"Dungeons", "Safari Zone", "Center", "Rest House"}
     },
-    [324] = { -- Safari Zone East Rest House
+    [324] = { -- Safari Zone East Area Rest House
         [0] = {"Dungeons", "Safari Zone", "East", "Rest House"}
     },
-    [325] = { -- Safari Zone North Rest House
+    [325] = { -- Safari Zone North Area Rest House
         [0] = {"Dungeons", "Safari Zone", "North", "Rest House"}
     },
-    [326] = { -- Safari Zone West Rest House
+    [326] = { -- Safari Zone West Area Rest House
         [0] = {"Dungeons", "Safari Zone", "West", "Rest House"}
     },
-    [327] = { -- Safari Zone West Secret House
+    [327] = { -- Safari Zone Secret House
         [0] = {"Dungeons", "Safari Zone", "West", "Secret House"}
     },
     [303] = { -- Silph Co. 1F
@@ -609,10 +609,10 @@ TAB_MAPPING = {
     [8193] = { -- One Island Pokémon Center 2F
         [0] = {"Islands", "One Island", "Town", "Pokémon Center", "1F"}
     },
-    [8194] = { -- One Island House 1
+    [8194] = { -- One Island Old Couple's House
         [0] = {"Islands", "One Island", "Town", "Old Couple's House"}
     },
-    [8195] = { -- One Island House 2
+    [8195] = { -- One Island Lass' House
         [0] = {"Islands", "One Island", "Town", "Lass' House"}
     },
     [8196] = { -- One Island Harbor
@@ -675,7 +675,7 @@ TAB_MAPPING = {
     [8448] = { -- Two Island Game Corner
         [0] = {"Islands", "Two Island", "Town", "Game Corner"}
     },
-    [8449] = { -- Two Island House
+    [8449] = { -- Move Maniac's House
         [0] = {"Islands", "Two Island", "Town", "Move Maniac's House"}
     },
     [8450] = { -- Two Island Pokémon Center 1F
@@ -690,13 +690,13 @@ TAB_MAPPING = {
     [815] = { -- Cape Brink
         [0] = {"Islands", "Two Island", "Cape Brink", "Cape"}
     },
-    [10240] = { -- Cape Brink House
+    [10240] = { -- Starter Tutor's House
         [0] = {"Islands", "Two Island", "Cape Brink", "Starter Tutor's House"}
     },
     [782] = { -- Three Island
         [0] = {"Islands", "Three Island", "Town", "Exterior"}
     },
-    [8704] = { -- Three Island House 1
+    [8704] = { -- Lostelle's House
         [0] = {"Islands", "Three Island", "Town", "Lostelle's House"}
     },
     [8705] = { -- Three Island Pokémon Center 1F
@@ -708,16 +708,16 @@ TAB_MAPPING = {
     [8707] = { -- Three Island Poké Mart
         [0] = {"Islands", "Three Island", "Town", "Mart"}
     },
-    [8708] = { -- Three Island House 2
+    [8708] = { -- Sabrina Fan's House
         [0] = {"Islands", "Three Island", "Town", "Sabrina Fan's House"}
     },
-    [8709] = { -- Three Island House 3
+    [8709] = { -- Three Island Beauty's House
         [0] = {"Islands", "Three Island", "Town", "Beauty's House"}
     },
-    [8710] = { -- Three Island House 4
+    [8710] = { -- Three Island Worried Father's House
         [0] = {"Islands", "Three Island", "Town", "Worried Father's House"}
     },
-    [8711] = { -- Three Island House 5
+    [8711] = { -- Lostelle's Friend's House
         [0] = {"Islands", "Three Island", "Town", "Lostelle's Friend's House"}
     },
     [817] = { -- Three Isle Port
@@ -748,16 +748,16 @@ TAB_MAPPING = {
     [8962] = { -- Four Island Pokémon Center 2F
         [0] = {"Islands", "Four Island", "Town", "Pokémon Center", "2F"}
     },
-    [8963] = { -- Four Island House 1
+    [8963] = { -- Move Tutor's House
         [0] = {"Islands", "Four Island", "Town", "Move Tutor's House"}
     },
-    [8964] = { -- Four Island Lorelei's House
+    [8964] = { -- Lorelei's House
         [0] = {"Islands", "Four Island", "Town", "Lorelei's House"}
     },
     [8965] = { -- Four Island Harbor
         [0] = {"Islands", "Four Island", "Town", "Harbor"}
     },
-    [8966] = { -- Four Island House 2
+    [8966] = { -- Sticker Man's House
         [0] = {"Islands", "Four Island", "Town", "Sticker Man's House"}
     },
     [8967] = { -- Four Island Poké Mart
@@ -787,10 +787,10 @@ TAB_MAPPING = {
     [9218] = { -- Five Island Harbor
         [0] = {"Islands", "Five Island", "Town", "Harbor"}
     },
-    [9219] = { -- Five Island House 1
+    [9219] = { -- Five Island Couple's House
         [0] = {"Islands", "Five Island", "Town", "Couple's House"}
     },
-    [9220] = { -- Five Island House 2
+    [9220] = { -- Five Island Old Man's House
         [0] = {"Islands", "Five Island", "Town", "Old Man's House"}
     },
     [824] = { -- Five Isle Meadow
@@ -871,7 +871,7 @@ TAB_MAPPING = {
     [9474] = { -- Six Island Harbor
         [0] = {"Islands", "Six Island", "Town", "Harbor"}
     },
-    [9475] = { -- Six Island House
+    [9475] = { -- Six Island Old Man's House
         [0] = {"Islands", "Six Island", "Town", "Old Man's House"}
     },
     [9476] = { -- Six Island Poké Mart
@@ -882,10 +882,10 @@ TAB_MAPPING = {
         [1] = {"Islands", "Six Island", "Water Path", "Path", "Center"},
         [2] = {"Islands", "Six Island", "Water Path", "Path", "South"}
     },
-    [10496] = { -- Water Path House 1
+    [10496] = { -- Water Path Heracross Woman's House
         [0] = {"Islands", "Six Island", "Water Path", "Heracross Woman's House"}
     },
-    [10497] = { -- Water Path House 2
+    [10497] = { -- Water Path Man's House
         [0] = {"Islands", "Six Island", "Water Path", "Man's House"}
     },
     [829] = { -- Ruin Valley
@@ -926,10 +926,10 @@ TAB_MAPPING = {
     [785] = { -- Seven Island
         [0] = {"Islands", "Seven Island", "Town", "Exterior"}
     },
-    [7936] = { -- Seven Island House Room 1
+    [7936] = { -- Seven Island Battle House
         [0] = {"Islands", "Seven Island", "Town", "Battle House"}
     },
-    [7937] = { -- Seven Island House Room 2
+    [7937] = { -- Seven Island Battle House Room 2
         [0] = {"Islands", "Seven Island", "Town", "Battle House"}
     },
     [7938] = { -- Seven Island Poké Mart
@@ -951,7 +951,7 @@ TAB_MAPPING = {
         [0] = {"Islands", "Seven Island", "Sevault Canyon", "Canyon", "North"},
         [1] = {"Islands", "Seven Island", "Sevault Canyon", "Canyon", "South"}
     },
-    [10752] = { -- Sevault Canyon House
+    [10752] = { -- Sevault Canyon Chansey House
         [0] = {"Islands", "Seven Island", "Sevault Canyon", "Chansey House"}
     },
     [547] = { -- Tanoby Key
@@ -1071,10 +1071,10 @@ TAB_MAPPING = {
         [0] = {"Routes", "Route 2", "Route", "North"},
         [1] = {"Routes", "Route 2", "Route", "South"}
     },
-    [3841] = { -- Route 2 House
+    [3841] = { -- Route 2 Trade House
         [0] = {"Routes", "Route 2", "Trade House"}
     },
-    [3842] = { -- Route 2 East Building
+    [3842] = { -- Route 2 Gate
         [0] = {"Routes", "Route 2", "Gate"}
     },
     [789] = { -- Route 3
@@ -1097,26 +1097,26 @@ TAB_MAPPING = {
     [4352] = { -- Route 5 Pokémon Day Care
         [0] = {"Routes", "Route 5", "Day Care"}
     },
-    [4353] = { -- Route 5 South Entrance
+    [4353] = { -- Route 5 Gate
         [0] = {"Routes", "Route 5", "Gate"}
     },
     [792] = { -- Route 6
         [0] = {"Routes", "Route 6", "Route"}
     },
-    [4608] = { -- Route 6 North Entrance
+    [4608] = { -- Route 6 Gate
         [0] = {"Routes", "Route 6", "Gate"}
     },
     [793] = { -- Route 7
         [0] = {"Routes", "Route 7", "Route"}
     },
-    [4864] = { -- Route 7 East Entrance
+    [4864] = { -- Route 7 Gate
         [0] = {"Routes", "Route 7", "Gate"}
     },
     [794] = { -- Route 8
         [0] = {"Routes", "Route 8", "Route", "West"},
         [1] = {"Routes", "Route 8", "Route", "East"}
     },
-    [5120] = { -- Route 8 West Entrance
+    [5120] = { -- Route 8 Gate
         [0] = {"Routes", "Route 8", "Gate"}
     },
     [795] = { -- Route 9
@@ -1137,10 +1137,10 @@ TAB_MAPPING = {
         [0] = {"Routes", "Route 11", "Route", "West"},
         [1] = {"Routes", "Route 11", "Route", "East"}
     },
-    [5632] = { -- Route 11 East Entrance 1F
+    [5632] = { -- Route 11 Gate 1F
         [0] = {"Routes", "Route 11", "Gate", "1F"}
     },
-    [5633] = { -- Route 11 East Entrance 2F
+    [5633] = { -- Route 11 Gate 2F
         [0] = {"Routes", "Route 11", "Gate", "2F"}
     },
     [798] = { -- Route 12
@@ -1148,10 +1148,10 @@ TAB_MAPPING = {
         [1] = {"Routes", "Route 12", "Route", "Center"},
         [2] = {"Routes", "Route 12", "Route", "South"}
     },
-    [5888] = { -- Route 12 North Entrance 1F
+    [5888] = { -- Route 12 Gate 1F
         [0] = {"Routes", "Route 12", "Gate", "1F"}
     },
-    [5889] = { -- Route 12 North Entrance 2F
+    [5889] = { -- Route 12 Gate 2F
         [0] = {"Routes", "Route 12", "Gate", "2F"}
     },
     [5890] = { -- Route 12 Fishing House
@@ -1169,10 +1169,10 @@ TAB_MAPPING = {
         [0] = {"Routes", "Route 15", "Route", "West"},
         [1] = {"Routes", "Route 15", "Route", "East"}
     },
-    [6144] = { -- Route 15 West Entrance 1F
+    [6144] = { -- Route 15 Gate 1F
         [0] = {"Routes", "Route 15", "Gate", "1F"}
     },
-    [6145] = { -- Route 15 West Entrance 2F
+    [6145] = { -- Route 15 Gate 2F
         [0] = {"Routes", "Route 15", "Gate", "2F"}
     },
     [802] = { -- Route 16
@@ -1181,10 +1181,10 @@ TAB_MAPPING = {
     [6400] = { -- Route 16 Fly House
         [0] = {"Routes", "Route 16", "Fly House"}
     },
-    [6401] = { -- Route 16 North Entrance 1F
+    [6401] = { -- Route 16 Gate 1F
         [0] = {"Routes", "Route 16", "Gate", "1F"}
     },
-    [6402] = { -- Route 16 North Entrance 2F
+    [6402] = { -- Route 16 Gate 2F
         [0] = {"Routes", "Route 16", "Gate", "2F"}
     },
     [803] = { -- Route 17
@@ -1197,10 +1197,10 @@ TAB_MAPPING = {
         [0] = {"Routes", "Route 18", "Route", "West"},
         [1] = {"Routes", "Route 18", "Route", "East"}
     },
-    [6656] = { -- Route 18 East Entrance 1F
+    [6656] = { -- Route 18 Gate 1F
         [0] = {"Routes", "Route 18", "Gate", "1F"}
     },
-    [6657] = { -- Route 18 East Entrance 2F
+    [6657] = { -- Route 18 Gate 2F
         [0] = {"Routes", "Route 18", "Gate", "2F"}
     },
     [805] = { -- Route 19
@@ -1221,7 +1221,7 @@ TAB_MAPPING = {
     [809] = { -- Route 22
         [0] = {"Routes", "Route 22", "Route"}
     },
-    [7168] = { -- Route 22 North Entrance
+    [7168] = { -- Route 22 Gate
         [0] = {"Routes", "Route 22", "Gate"}
     },
     [810] = { -- Route 23
@@ -1237,7 +1237,7 @@ TAB_MAPPING = {
         [0] = {"Routes", "Route 25", "Route", "West"},
         [1] = {"Routes", "Route 25", "Route", "East"}
     },
-    [7680] = { -- Route 25 Sea Cottage
+    [7680] = { -- Sea Cottage
         [0] = {"Routes", "Route 25", "Sea Cottage"}
     }
 }

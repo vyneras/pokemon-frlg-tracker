@@ -44,7 +44,6 @@ function initialize_watch_items()
 
     -- Entrances
     ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
-    ScriptHost:AddWatchForCode("shuffle_dungeons", "shuffle_dungeons_setting", set_default_dungeon_entrances)
 
     -- Encounters
     ScriptHost:AddWatchForCode("game_version", "game_version_setting", set_encounter_counts)

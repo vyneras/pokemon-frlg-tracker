@@ -2,16 +2,16 @@
 TRACKER_READY = false
 Tracker.AllowDeferredLogicUpdate = true
 
-ScriptHost:LoadScript("scripts/utils.lua")
-ScriptHost:LoadScript("scripts/custom_items.lua")
-ScriptHost:LoadScript("scripts/autotracking.lua")
-ScriptHost:LoadScript("scripts/watch.lua")
+ScriptHost:LoadScript("scripts/utils/utils.lua")
+ScriptHost:LoadScript("scripts/init/custom_items.lua")
+ScriptHost:LoadScript("scripts/init/autotracking.lua")
+ScriptHost:LoadScript("scripts/init/watch.lua")
+ScriptHost:LoadScript("scripts/logic/region_data.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
-
-ScriptHost:LoadScript("scripts/maps.lua")
-ScriptHost:LoadScript("scripts/items.lua")
-ScriptHost:LoadScript("scripts/locations.lua")
-ScriptHost:LoadScript("scripts/layouts.lua")
+ScriptHost:LoadScript("scripts/init/maps.lua")
+ScriptHost:LoadScript("scripts/init/items.lua")
+ScriptHost:LoadScript("scripts/init/locations.lua")
+ScriptHost:LoadScript("scripts/init/layouts.lua")
 
 initialize_watch_items()
 

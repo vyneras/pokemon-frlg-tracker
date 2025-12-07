@@ -1042,45 +1042,249 @@
     ]
   },
   {
+    "name": "Shuffle Pokémon Centers",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/pokemon_center.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_pokemon_centers_setting,shuffle_pokemon_centers_off",
+        "inherit_codes": false,
+        "name": "Shuffle Pokémon Centers - Off"
+      },
+      {
+        "img": "images/settings/pokemon_center.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_pokemon_centers_setting,shuffle_pokemon_centers_on",
+        "inherit_codes": false,
+        "name": "Shuffle Pokémon Centers - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Gyms",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/gym.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_gyms_setting,shuffle_gyms_off",
+        "inherit_codes": false,
+        "name": "Shuffle Gyms - Off"
+      },
+      {
+        "img": "images/settings/gym.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_gyms_setting,shuffle_gyms_on",
+        "inherit_codes": false,
+        "name": "Shuffle Gyms - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Marts",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/mart.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_marts_setting,shuffle_marts_off",
+        "inherit_codes": false,
+        "name": "Shuffle Marts - Off"
+      },
+      {
+        "img": "images/settings/mart.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_marts_setting,shuffle_marts_on",
+        "inherit_codes": false,
+        "name": "Shuffle Marts - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Harbors",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/harbor.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_harbors_setting,shuffle_harbors_off",
+        "inherit_codes": false,
+        "name": "Shuffle Harbors - Off"
+      },
+      {
+        "img": "images/settings/harbor.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_harbors_setting,shuffle_harbors_on",
+        "inherit_codes": false,
+        "name": "Shuffle Harbors - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Buildings",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/building.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_buildings_setting,shuffle_buildings_off",
+        "inherit_codes": false,
+        "name": "Shuffle Buildings - Off"
+      },
+      {
+        "img": "images/settings/building.png",
+        "img_mods": "overlay|images/overlays/simple.png",
+        "codes": "shuffle_buildings_setting,shuffle_buildings_simple",
+        "inherit_codes": false,
+        "name": "Shuffle Buildings - Simple"
+      },
+      {
+        "img": "images/settings/building.png",
+        "img_mods": "overlay|images/overlays/restricted.png",
+        "codes": "shuffle_buildings_setting,shuffle_buildings_restricted",
+        "inherit_codes": false,
+        "name": "Shuffle Buildings - Restricted"
+      },
+      {
+        "img": "images/settings/building.png",
+        "img_mods": "overlay|images/overlays/full.png",
+        "codes": "shuffle_buildings_setting,shuffle_buildings_full",
+        "inherit_codes": false,
+        "name": "Shuffle Buildings - Full"
+      }
+    ]
+  },
+  {
     "name": "Shuffle Dungeons",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
     "stages": [
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_off",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Off"
       },
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/sea.png",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_seafoam",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Seafoam"
       },
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/simple.png",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_simple",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Simple"
       },
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/restricted.png",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_restricted",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Restricted"
       },
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/full.png",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_full",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Full"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Interiors",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/ladder.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_interiors_setting,shuffle_interiors_off",
+        "inherit_codes": false,
+        "name": "Shuffle Interiors - Off"
+      },
+      {
+        "img": "images/settings/ladder.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_interiors_setting,shuffle_interiors_on",
+        "inherit_codes": false,
+        "name": "Shuffle Interiors - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Warp Tiles",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/warp_tile.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_warp_tiles_setting,shuffle_warp_tiles_off",
+        "inherit_codes": false,
+        "name": "Shuffle Warp Tiles - Off"
+      },
+      {
+        "img": "images/settings/warp_tile.png",
+        "img_mods": "overlay|images/overlays/simple.png",
+        "codes": "shuffle_warp_tiles_setting,shuffle_warp_tiles_simple",
+        "inherit_codes": false,
+        "name": "Shuffle Warp Tiles - Simple"
+      },
+      {
+        "img": "images/settings/warp_tile.png",
+        "img_mods": "overlay|images/overlays/full.png",
+        "codes": "shuffle_warp_tiles_setting,shuffle_warp_tiles_full",
+        "inherit_codes": false,
+        "name": "Shuffle Warp Tiles - Full"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Dropdowns",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/dropdown.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_dropdowns_setting,shuffle_dropdowns_off",
+        "inherit_codes": false,
+        "name": "Shuffle Dropdowns - Off"
+      },
+      {
+        "img": "images/settings/dropdown.png",
+        "img_mods": "overlay|images/overlays/simple.png",
+        "codes": "shuffle_dropdowns_setting,shuffle_dropdowns_simple",
+        "inherit_codes": false,
+        "name": "Shuffle Dropdowns - Simple"
+      },
+      {
+        "img": "images/settings/dropdown.png",
+        "img_mods": "overlay|images/overlays/full.png",
+        "codes": "shuffle_dropdowns_setting,shuffle_dropdowns_full",
+        "inherit_codes": false,
+        "name": "Shuffle Dropdowns - Full"
       }
     ]
   },
@@ -1226,7 +1430,7 @@
     "codes": "route_15_oaks_aide"
   },
   {
-    "name": "Pokemon Lab Fossil Scientist",
+    "name": "Pokémon Lab Fossil Scientist",
     "type": "static",
     "img": "images/settings/oaks_aide.png",
     "img_mods": "overlay|images/overlays/lab.png",
