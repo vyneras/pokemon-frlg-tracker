@@ -46,8 +46,9 @@ function PokedexRequirement:canProvideCode(code)
 end
 
 function PokedexRequirement:providesCode(code)
-    if self:canProvideCode(code) then
-        return self:getStage()
+    local pokedex = get_item("pokedex")
+    if self:canProvideCode(code) and pokedex:getStage() >= self:getStage() then
+        return 1
     end
     return 0
 end

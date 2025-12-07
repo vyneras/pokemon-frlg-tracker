@@ -39,6 +39,11 @@ function dump_table(o, depth)
     end
 end
 
+function get_item(code)
+    local item = Tracker:FindObjectForCode(code)
+    return item.ItemState["item"]
+end
+
 function toggle_item(code)
     local active = Tracker:FindObjectForCode(code).Active
     code = code .. "_hosted"
@@ -332,7 +337,8 @@ end
 
 function set_default_fly_destinations(code)
     local fly_destinations_randomized = Tracker:FindObjectForCode(code).CurrentStage == 1
-    for _, item in pairs(FLY_DESTINATION_ITEMS) do
+    for _, code in pairs(FLY_DESTINATION_CODES) do
+        local item = get_item(code)
         if fly_destinations_randomized then
             item:setStage(0)
         else

@@ -162,35 +162,40 @@ function purchase_bicycle()
 end
 
 function route_2_oaks_aide()
-    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_2_oaks_aide_requirement") then
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_2_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_10_oaks_aide()
-    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_10_oaks_aide_requirement") then
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_10_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_11_oaks_aide()
-    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_11_oaks_aide_requirement") then
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_11_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_16_oaks_aide()
-    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_16_oaks_aide_requirement") then
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_16_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
 end
 
 function route_15_oaks_aide()
-    if POKEDEX:getActive() and POKEDEX:getStage() >= Tracker:ProviderCountForCode("route_15_oaks_aide_requirement") then
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_15_oaks_aide_requirement") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
@@ -205,19 +210,6 @@ function two_island_stall(level)
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.Inspect
-end
-
-function fossils()
-    local count = 0
-    for _, fossil in pairs(FOSSILS) do
-        if has(fossil) then
-            count = count + 1
-        end
-    end
-    if count >= Tracker:ProviderCountForCode("fossil_requirement") then
-        return true
-    end
-    return false
 end
 
 function route_2_modified()
@@ -357,7 +349,8 @@ function post_goal_gossipers_visible()
 end
 
 function cerulean_cave_visisble()
-    return post_goal_visible() or CERULEAN_CAVE_REQ:getType() == "network_machine" or CERULEAN_CAVE_REQ:getType() == "badges" or CERULEAN_CAVE_REQ:getType() == "gyms"
+    local req = get_item("cerulean_cave_requirement")
+    return post_goal_visible() or req:getType() == "network_machine" or req:getType() == "badges" or req:getType() == "gyms"
 end
 
 function shuffle_dungeons_off()

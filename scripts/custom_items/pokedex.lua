@@ -3,7 +3,7 @@ Pokedex = CustomItem:extend()
 function Pokedex:init()
     self:createItem("Pokédex")
     self.code = "pokedex"
-    self:setActive(false)
+    self:setActive(0)
     self:setStage(0)
     self.stageCount = 386
     self:updateIcon()
@@ -29,7 +29,7 @@ function Pokedex:updateIcon()
     local active = self:getActive()
     local stage = self:getStage()
     local img_mod = ""
-    if not active then
+    if active == 0 then
         img_mod = "@disabled,"
     end
     if stage >= 100 then
@@ -47,10 +47,10 @@ function Pokedex:updateIcon()
 end
 
 function Pokedex:onLeftClick()
-    if self:getActive() then
-        self:setActive(false)
+    if self:getActive() ~= 0 then
+        self:setActive(0)
     else
-        self:setActive(true)
+        self:setActive(1)
     end
 end
 
@@ -75,7 +75,7 @@ function Pokedex:canProvideCode(code)
 end
 
 function Pokedex:providesCode(code)
-    if self:canProvideCode(code) then
+    if self:canProvideCode(code)  then
         return self:getActive()
     end
     return 0
@@ -101,9 +101,7 @@ end
 
 function Pokedex:propertyChanged(key, value)
     if TRACKER_READY then
-        if key == "active" then
-            self:updateIcon()
-        elseif key == "stage" then
+        if key == "active" or key == "stage" then
             self:updateIcon()
         end
     end

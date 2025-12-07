@@ -3138,7 +3138,7 @@
             "chest_unopened_img": "images/locations/fossil.png",
             "chest_opened_img": "images/locations/fossil_bw.png",
             "access_rules": [
-              "miguel_takes_fossil,$fossils"
+              "miguel_takes_fossil,fossil_requirement"
             ],
             "visibility_rules": [
               "item_locations_on"

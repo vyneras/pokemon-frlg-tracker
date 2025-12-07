@@ -82,6 +82,11 @@ function resetItems()
             if object then
                 if value[2] == "toggle" or value[2] == "progressive_toggle" then
                     object.Active = false
+                elseif value[2] == "custom" then
+                    local item = get_item(value[1])
+                    if item then
+                        item:setActive(0)
+                    end
                 end
             end
         end
@@ -254,7 +259,7 @@ function onClear(slot_data)
                 fly_mapping[value[1]] = key
             end
             for exit, region in pairs(slot_data["fly_destinations"]) do
-                local item = FLY_DESTINATION_ITEMS[exit]
+                local item = get_item(FLY_DESTINATION_CODES[exit])
                 FLY_DESTINATION_MAPPING[item.flyUnlock] = {item, fly_mapping[region]}
             end
         elseif key == "rematchsanity" then
@@ -280,10 +285,10 @@ function onClear(slot_data)
                 elseif SLOT_CODES[key].type == "consumable" then
                     object.AcquiredCount = value
                 elseif SLOT_CODES[key].type == "requirement" then
-                    local item = SLOT_CODES[key].item
+                    local item = get_item(SLOT_CODES[key].code)
                     item:setType(SLOT_CODES[key].mapping[value])
                 elseif SLOT_CODES[key].type == "requirement_count" then
-                    local item = SLOT_CODES[key].item
+                    local item = get_item(SLOT_CODES[key].code)
                     item:setStage(value)
                 end
             elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -346,7 +351,8 @@ function onItem(index, item_id, item_name, player_number)
             if value[2] == "toggle" or value[2] == "progressive_toggle" then
                 object.Active = true
             elseif value[1] == "pokedex" then
-                POKEDEX:setActive(true)
+                local item = get_item(value[1])
+                item:setActive(1)
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: could not find object for code %s", v[1]))
@@ -593,7 +599,8 @@ function updatePokedex(value)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updatePokedex: Value - %s", value))
         end
-        POKEDEX:setStage(value)
+        local pokedex = get_item("pokedex")
+        pokedex:setStage(value)
     end
 end
 

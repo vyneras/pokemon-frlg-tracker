@@ -235,7 +235,6 @@ SLOT_CODES = {
     elite_four_requirement = {
         code = "elite_four_requirement",
         type = "requirement",
-        item = E4_REQ,
         mapping = {
             [0] = "badges", -- Badges
             [1] = "gyms"    -- Gyms
@@ -243,13 +242,11 @@ SLOT_CODES = {
     },
     elite_four_count = {
         code = "elite_four_requirement",
-        type = "requirement_count",
-        item = E4_REQ
+        type = "requirement_count"
     },
     elite_four_rematch_requirement = {
         code = "elite_four_rematch_requirement",
         type = "requirement",
-        item = E4_REMATCH_REQ,
         mapping = {
             [0] = "badges", -- Badges
             [1] = "gyms"    -- Gyms
@@ -257,13 +254,11 @@ SLOT_CODES = {
     },
     elite_four_rematch_count = {
         code = "elite_four_rematch_requirement",
-        type = "requirement_count",
-        item = E4_REMATCH_REQ
+        type = "requirement_count"
     },
     route22_gate_requirement = {
         code = "route_22_gate_requirement",
         type = "requirement",
-        item = ROUTE_22_REQ,
         mapping = {
             [0] = "badges", -- Badges
             [1] = "gyms"    -- Gyms
@@ -271,13 +266,11 @@ SLOT_CODES = {
     },
     route22_gate_count = {
         code = "route_22_gate_requirement",
-        type = "requirement_count",
-        item = ROUTE_22_REQ
+        type = "requirement_count"
     },
     route23_guard_requirement = {
         code = "route_23_guard_requirement",
         type = "requirement",
-        item = ROUTE_23_REQ,
         mapping = {
             [0] = "badges", -- Badges
             [1] = "gyms"    -- Gyms
@@ -285,13 +278,11 @@ SLOT_CODES = {
     },
     route23_guard_count = {
         code = "route_23_guard_requirement",
-        type = "requirement_count",
-        item = ROUTE_23_REQ
+        type = "requirement_count"
     },
     viridian_gym_requirement = {
         code = "viridian_gym_requirement",
         type = "requirement",
-        item = VIRIDIAN_GYM_REQ,
         mapping = {
             [0] = "badges", -- Badges
             [1] = "gyms"    -- Gyms
@@ -299,13 +290,11 @@ SLOT_CODES = {
     },
     viridian_gym_count = {
         code = "viridian_gym_requirement",
-        type = "requirement_count",
-        item = VIRIDIAN_GYM_REQ
+        type = "requirement_count"
     },
     cerulean_cave_requirement = {
         code = "cerulean_cave_requirement",
         type = "requirement",
-        item = CERULEAN_CAVE_REQ,
         mapping = {
             [0] = "vanilla",         -- Vanilla
             [1] = "champion",        -- Defeat Champion
@@ -316,38 +305,31 @@ SLOT_CODES = {
     },
     cerulean_cave_count = {
         code = "cerulean_cave_requirement",
-        type = "requirement_count",
-        item = CERULEAN_CAVE_REQ
+        type = "requirement_count"
     },
     oaks_aide_route_2 = {
         code = "route_2_oaks_aide_requirement",
-        type = "requirement_count",
-        item = OAKS_AIDE_ROUTE_2_REQ
+        type = "requirement_count"
     },
     oaks_aide_route_10 = {
         code = "route_10_oaks_aide_requirement",
-        type = "requirement_count",
-        item = OAKS_AIDE_ROUTE_10_REQ
+        type = "requirement_count"
     },
     oaks_aide_route_11 = {
         code = "route_11_oaks_aide_requirement",
-        type = "requirement_count",
-        item = OAKS_AIDE_ROUTE_11_REQ
+        type = "requirement_count"
     },
     oaks_aide_route_16 = {
         code = "route_16_oaks_aide_requirement",
-        type = "requirement_count",
-        item = OAKS_AIDE_ROUTE_16_REQ
+        type = "requirement_count"
     },
     oaks_aide_route_15 = {
         code = "route_15_oaks_aide_requirement",
-        type = "requirement_count",
-        item = OAKS_AIDE_ROUTE_15_REQ
+        type = "requirement_count"
     },
     fossil_count = {
         code = "fossil_requirement",
-        type = "requirement_count",
-        item = FOSSIL_REQ
+        type = "requirement_count"
     },
     starting_town = {
         code = "start_town_setting",
@@ -466,27 +448,4 @@ ADDITIONAL_DARK_CAVES = {
     ["Mt. Moon"] = "mt_moon_dark_setting",
     ["Diglett's Cave"] = "digletts_cave_dark_setting",
     ["Victory Road"] = "victory_road_dark_setting"
-}
-
-FLY_DESTINATION_ITEMS = {
-    ["Pallet Town Fly Destination"] = PALLET_FLY_DESTINATION,
-    ["Viridian City Fly Destination"] = VIRIDIAN_FLY_DESTINATION,
-    ["Pewter City Fly Destination"] = PEWTER_FLY_DESTINATION,
-    ["Route 4 Fly Destination"] = ROUTE_4_FLY_DESTINATION,
-    ["Cerulean City Fly Destination"] = CERULEAN_FLY_DESTINATION,
-    ["Vermilion City Fly Destination"] = VERMILION_FLY_DESTINATION,
-    ["Route 10 Fly Destination"] = ROUTE_10_FLY_DESTINATION,
-    ["Lavender Town Fly Destination"] = LAVENDER_FLY_DESTINATION,
-    ["Celadon City Fly Destination"] = CELADON_FLY_DESTINATION,
-    ["Fuchsia City Fly Destination"] = FUCHSIA_FLY_DESTINATION,
-    ["Saffron City Fly Destination"] = SAFFRON_FLY_DESTINATION,
-    ["Cinnabar Island Fly Destination"] = CINNABAR_FLY_DESTINATION,
-    ["Indigo Plateau Fly Destination"] = INDIGO_FLY_DESTINATION,
-    ["One Island Fly Destination"] = ONE_ISLAND_FLY_DESTINATION,
-    ["Two Island Fly Destination"] = TWO_ISLAND_FLY_DESTINATION,
-    ["Three Island Fly Destination"] = THREE_ISLAND_FLY_DESTINATION,
-    ["Four Island Fly Destination"] = FOUR_ISLAND_FLY_DESTINATION,
-    ["Five Island Fly Destination"] = FIVE_ISLAND_FLY_DESTINATION,
-    ["Six Island Fly Destination"] = SIX_ISLAND_FLY_DESTINATION,
-    ["Seven Island Fly Destination"] = SEVEN_ISLAND_FLY_DESTINATION,
 }
