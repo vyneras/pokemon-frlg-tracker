@@ -359,8 +359,8 @@
     "name": "Route 20 Near North Cave Access",
     "access_rules": [
       "$fly|route_20_near_north_cave",
-      "@Route 20 Near South Cave Access,$surf,$waterfall,$shuffle_dungeons_off",
-      "@Route 20 Near South Cave Access,$strength,$surf,$shuffle_dungeons_sea",
+      "@Route 20 Near South Cave Access,$surf,$waterfall,shuffle_dungeons_off",
+      "@Route 20 Near South Cave Access,$strength,$surf,shuffle_dungeons_seafoam",
       "@Fuchsia City Access,$surf",
       "seafoam_islands_north_entrance,$shuffle_dungeons_on"
     ]
@@ -369,8 +369,8 @@
     "name": "Route 20 Near South Cave Access",
     "access_rules": [
       "$fly|route_20_near_south_cave",
-      "@Route 20 Near North Cave Access,$strength,$surf,$shuffle_dungeons_off",
-      "@Route 20 Near North Cave Access,$surf,$waterfall,$shuffle_dungeons_off",
+      "@Route 20 Near North Cave Access,$strength,$surf,shuffle_dungeons_off",
+      "@Route 20 Near North Cave Access,$surf,$waterfall,shuffle_dungeons_seafoam",
       "@Cinnabar Island Access,$surf",
       "seafoam_islands_south_entrance,$shuffle_dungeons_on"
     ]

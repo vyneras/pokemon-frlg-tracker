@@ -1,3 +1,7 @@
+# 4.0.2
+## Bug Fixes
+* Fix access rules for crossing Seafoam Islands
+
 # 4.0.1
 ## Bug Fixes
 * Fixed randomize fly destinations and shuffled dungeons logic not working properly
