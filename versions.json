@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "4.0.2",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.0.2/pokemon-frlg-tracker.zip",
+      "sha256": "d398339216722963d70e88e96b84736f8bfe7dbb8b9f63a2c65eb57c5cb6c575",
+      "changelog": [
+        "Fix access rules for crossing Seafoam Islands",
+        "Fix Route 25 - Picnicker Kelsey Rematch Reward (6 Badges/Gyms) not showing on UT"
+      ]
+    },
+    {
       "package_version": "4.0.1",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.0.1/pokemon-frlg-tracker.zip",
       "sha256": "19376f1be888780676aa9f14211fa4f48614669bfc3611fb6b756bd020a631c4",
