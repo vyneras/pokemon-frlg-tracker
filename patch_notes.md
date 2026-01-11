@@ -1,7 +1,7 @@
 # 4.0.2
 ## Bug Fixes
-* Fix access rules for crossing Seafoam Islands
-* Fix Route 25 - Picnicker Kelsey Rematch Reward (6 Badges/Gyms) not showing on UT
+* Fixed access rules for crossing Seafoam Islands
+* Fixed Route 25 - Picnicker Kelsey Rematch Reward (6 Badges/Gyms) not showing on UT
 
 # 4.0.1
 ## Bug Fixes
