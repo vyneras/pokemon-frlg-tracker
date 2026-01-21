@@ -100,6 +100,7 @@ function resetLocations()
             if object then
                 if code:sub(1, 1) == "@" then
                     object.AvailableChestCount = object.ChestCount
+                    object.Highlight = 0
                 else
                     object.CurrentStage = 0
                     DEXSANITY_LOCATIONS[id] = code
@@ -640,14 +641,16 @@ end
 function updateHints(value)
     if Highlight then
         for _, hint in ipairs(value) do -- loop over all hints provided
-            local location_table = LOCATION_MAPPING[hint.location]
-            for _, location in ipairs(location_table) do -- loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
-                if location:sub(1, 1) == "@" then -- this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
-                    local obj = Tracker:FindObjectForCode(location)
-                    if obj then
-                        obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]
-                    else
-                        print(string.format("No object found for code: %s", location))
+            if hint.finding_player == PLAYER_NUMBER then -- we only care about hints for the connected slot
+                local location_table = LOCATION_MAPPING[hint.location]
+                for _, location in ipairs(location_table) do -- loop through the table of locations contained in the hinted LOCATIONAMPPING[ID]
+                    if location:sub(1, 1) == "@" then -- this one checks if the code is an actual section because items dont have the highlight property so the pokedex checks wont highlight when hinted
+                        local obj = Tracker:FindObjectForCode(location)
+                        if obj then
+                            obj.Highlight = HIGHTLIGHT_LEVEL[hint.status]
+                        else
+                            print(string.format("No object found for code: %s", location))
+                        end
                     end
                 end
             end
