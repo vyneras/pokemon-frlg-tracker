@@ -4081,10 +4081,10 @@
             "chest_unopened_img": "images/locations/cool_couple.png",
             "chest_opened_img": "images/locations/cool_couple_bw.png",
             "access_rules": [
-              "@Victory Road Front Access,$strength,$victory_road_rock_smash,$shuffle_dungeons_off",
-              "@Indigo Plateau Access,$shuffle_dungeons_off",
-              "victory_road_west_exit,$strength,$victory_road_rock_smash,$shuffle_dungeons_on",
-              "victory_road_east_exit,$shuffle_dungeons_on"
+              "@Victory Road Front Access,$strength,$victory_road_rock_smash,$double_battle,$shuffle_dungeons_off",
+              "@Indigo Plateau Access,$double_battle,$shuffle_dungeons_off",
+              "victory_road_west_exit,$strength,$victory_road_rock_smash,$double_battle,$shuffle_dungeons_on",
+              "victory_road_east_exit,$double_battle,$shuffle_dungeons_on"
             ],
             "visibility_rules": [
               "trainersanity_on,cool_couple_ray_and_tyra,item_locations_on"

@@ -1,5 +1,6 @@
 # 4.0.3
 ## Bug Fixes
+* Fixed access for double battles so they require two Pokémon
 * Fixed Mt. Ember access with acrobatic bicycle setting
 * Fixed Viridian City South access without jumping shoes
 

@@ -973,6 +973,9 @@
             "name": "Twins Eli & Anne Reward",
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
+            "access_rules": [
+              "$double_battle"
+            ],
             "visibility_rules": [
               "trainersanity_on,twins_eli_and_anne,item_locations_on"
             ]
@@ -982,7 +985,7 @@
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
             "access_rules": [
-              "$trainer_rematch_3"
+              "$trainer_rematch_3,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,twins_eli_and_anne,item_locations_on"
@@ -2110,7 +2113,7 @@
             "chest_unopened_img": "images/locations/young_couple.png",
             "chest_opened_img": "images/locations/young_couple_bw.png",
             "access_rules": [
-              "@Route 12 North Access"
+              "@Route 12 North Access,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,young_couple_gia_and_jes,item_locations_on"
@@ -2121,7 +2124,7 @@
             "chest_unopened_img": "images/locations/young_couple.png",
             "chest_opened_img": "images/locations/young_couple_bw.png",
             "access_rules": [
-              "@Route 12 North Access,$trainer_rematch_3"
+              "@Route 12 North Access,$trainer_rematch_3,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,young_couple_gia_and_jes,item_locations_on"
@@ -2132,7 +2135,7 @@
             "chest_unopened_img": "images/locations/young_couple.png",
             "chest_opened_img": "images/locations/young_couple_bw.png",
             "access_rules": [
-              "@Route 12 North Access,$trainer_rematch_5"
+              "@Route 12 North Access,$trainer_rematch_5,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,young_couple_gia_and_jes,item_locations_on"
@@ -2727,6 +2730,9 @@
             "name": "Twins Kiri & Jan Reward",
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
+            "access_rules": [
+              "$double_battle"
+            ],
             "visibility_rules": [
               "trainersanity_on,twins_kiri_and_jan,item_locations_on"
             ]
@@ -2972,8 +2978,8 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "$cut",
-              "$jump_up_ledge"
+              "$cut,$double_battle",
+              "$jump_up_ledge,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,crush_kin_ron_and_mya,item_locations_on"
@@ -2984,8 +2990,8 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "$cut,$trainer_rematch_3",
-              "$jump_up_ledge,$trainer_rematch_3"
+              "$cut,$trainer_rematch_3,$double_battle",
+              "$jump_up_ledge,$trainer_rematch_3,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,crush_kin_ron_and_mya,item_locations_on"
@@ -2996,8 +3002,8 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "$cut,$trainer_rematch_4",
-              "$jump_up_ledge,$trainer_rematch_4"
+              "$cut,$trainer_rematch_4,$double_battle",
+              "$jump_up_ledge,$trainer_rematch_4,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,crush_kin_ron_and_mya,item_locations_on"
@@ -3008,8 +3014,8 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "$cut,$trainer_rematch_5",
-              "$jump_up_ledge,$trainer_rematch_5"
+              "$cut,$trainer_rematch_5,$double_battle",
+              "$jump_up_ledge,$trainer_rematch_5,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,crush_kin_ron_and_mya,item_locations_on"
@@ -3082,7 +3088,7 @@
             "chest_unopened_img": "images/locations/young_couple.png",
             "chest_opened_img": "images/locations/young_couple_bw.png",
             "access_rules": [
-              "@Route 16 North Access"
+              "@Route 16 North Access,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,young_couple_lea_and_jed,item_locations_on"
@@ -3651,8 +3657,8 @@
             "chest_unopened_img": "images/locations/sis_and_bro.png",
             "chest_opened_img": "images/locations/sis_and_bro_bw.png",
             "access_rules": [
-              "@Fuchsia City Access,$surf",
-              "@Route 20 Near North Cave Access,$surf"
+              "@Fuchsia City Access,$surf,$double_battle",
+              "@Route 20 Near North Cave Access,$surf,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,sis_and_bro_lia_and_luc,item_locations_on"
@@ -4136,8 +4142,8 @@
             "chest_unopened_img": "images/locations/sis_and_bro.png",
             "chest_opened_img": "images/locations/sis_and_bro_bw.png",
             "access_rules": [
-              "@Pallet Town Access,$surf",
-              "@Cinnabar Island Access,$surf"
+              "@Pallet Town Access,$surf,$double_battle",
+              "@Cinnabar Island Access,$surf,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,sis_and_bro_lil_and_ian,item_locations_on"
@@ -4148,8 +4154,8 @@
             "chest_unopened_img": "images/locations/sis_and_bro.png",
             "chest_opened_img": "images/locations/sis_and_bro_bw.png",
             "access_rules": [
-              "@Pallet Town Access,$surf,$trainer_rematch_4",
-              "@Cinnabar Island Access,$surf,$trainer_rematch_4"
+              "@Pallet Town Access,$surf,$trainer_rematch_4,$double_battle",
+              "@Cinnabar Island Access,$surf,$trainer_rematch_4,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,sis_and_bro_lil_and_ian,item_locations_on"
@@ -4160,8 +4166,8 @@
             "chest_unopened_img": "images/locations/sis_and_bro.png",
             "chest_opened_img": "images/locations/sis_and_bro_bw.png",
             "access_rules": [
-              "@Pallet Town Access,$surf,$trainer_rematch_5",
-              "@Cinnabar Island Access,$surf,$trainer_rematch_5"
+              "@Pallet Town Access,$surf,$trainer_rematch_5,$double_battle",
+              "@Cinnabar Island Access,$surf,$trainer_rematch_5,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,sis_and_bro_lil_and_ian,item_locations_on"

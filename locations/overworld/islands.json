@@ -473,7 +473,7 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "@Kindle Road Center Access"
+              "@Kindle Road Center Access,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,crush_kin_mik_and_kia,item_locations_on"
@@ -484,7 +484,7 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "@Kindle Road Center Access,$trainer_rematch_4"
+              "@Kindle Road Center Access,$trainer_rematch_4,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,crush_kin_mik_and_kia,item_locations_on"
@@ -495,7 +495,7 @@
             "chest_unopened_img": "images/locations/crush_kin.png",
             "chest_opened_img": "images/locations/crush_kin_bw.png",
             "access_rules": [
-              "@Kindle Road Center Access,$trainer_rematch_5"
+              "@Kindle Road Center Access,$trainer_rematch_5,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,crush_kin_mik_and_kia,item_locations_on"
@@ -1311,6 +1311,9 @@
             "name": "Twins Joy & Meg Reward",
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
+            "access_rules": [
+              "$double_battle"
+            ],
             "visibility_rules": [
               "trainersanity_on,twins_joy_and_meg,item_locations_on"
             ]
@@ -1320,7 +1323,7 @@
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
             "access_rules": [
-              "$trainer_rematch_4"
+              "$trainer_rematch_4,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,twins_joy_and_meg,item_locations_on"
@@ -2693,7 +2696,7 @@
             "chest_unopened_img": "images/locations/twins.png",
             "chest_opened_img": "images/locations/twins_bw.png",
             "access_rules": [
-              "@Green Path East Access"
+              "@Green Path East Access,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,twins_miu_and_mia,item_locations_on"
@@ -3167,7 +3170,7 @@
             "chest_unopened_img": "images/locations/sis_and_bro.png",
             "chest_opened_img": "images/locations/sis_and_bro_bw.png",
             "access_rules": [
-              "$surf"
+              "$surf,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,sis_and_bro_ava_and_geb,item_locations_on"
@@ -3478,6 +3481,9 @@
             "name": "Young Couple Eve & Jon Reward",
             "chest_unopened_img": "images/locations/young_couple.png",
             "chest_opened_img": "images/locations/young_couple_bw.png",
+            "access_rules": [
+              "$double_battle"
+            ],
             "visibility_rules": [
               "trainersanity_on,young_couple_eve_and_jon,item_locations_on"
             ]
@@ -3521,6 +3527,9 @@
             "name": "Cool Couple Lex & Nya Reward",
             "chest_unopened_img": "images/locations/cool_couple.png",
             "chest_opened_img": "images/locations/cool_couple_bw.png",
+            "access_rules": [
+              "$double_battle"
+            ],
             "visibility_rules": [
               "trainersanity_on,cool_couple_lex_and_nya,item_locations_on"
             ]
@@ -3530,7 +3539,7 @@
             "chest_unopened_img": "images/locations/cool_couple.png",
             "chest_opened_img": "images/locations/cool_couple_bw.png",
             "access_rules": [
-              "$trainer_rematch_5"
+              "$trainer_rematch_5,$double_battle"
             ],
             "visibility_rules": [
               "trainersanity_on,$rematchsanity_on,cool_couple_lex_and_nya,item_locations_on"

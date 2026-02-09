@@ -96,6 +96,19 @@ function jump_up_ledge()
     return has("acrobatic_bicycle_on") and has("bicycle") and (has("jumping_shoes") or has("bicycle_jumping_shoes_off"))
 end
 
+function double_battle()
+    local count = 0
+    for _, item in pairs(POKEMON_MAPPING) do
+        if has(item) then
+            count = count + 1
+        end
+        if count >= 2 then
+            return true
+        end
+    end
+    return false
+end
+
 function has_n_badges(n)
     local count = 0
     for _, item in pairs(BADGES) do
