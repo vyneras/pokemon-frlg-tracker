@@ -4185,7 +4185,8 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "trainersanity_on,pokemon_ranger_beth,item_locations_on"
@@ -4196,7 +4197,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$strength,^$hidden"
+              "$strength,^$hidden",
+              "$jump_up_ledge,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -4207,7 +4209,8 @@
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "trainersanity_on,pokemon_ranger_logan,item_locations_on"
@@ -4218,7 +4221,8 @@
             "chest_unopened_img": "images/locations/battle_girl.png",
             "chest_opened_img": "images/locations/battle_girl_bw.png",
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "trainersanity_on,crush_girl_jocelyn,item_locations_on"
@@ -4227,7 +4231,8 @@
           {
             "name": "Exterior - East Item",
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -4248,7 +4253,8 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$strength,^$hidden"
+              "$strength,^$hidden",
+              "$jump_up_ledge,^$hidden"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -4257,7 +4263,8 @@
           {
             "name": "Exterior - Northwest Item",
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -4300,7 +4307,8 @@
             "chest_unopened_img": "images/locations/moltres.png",
             "chest_opened_img": "images/locations/moltres_bw.png",
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4324,7 +4332,8 @@
             "item_count": 7,
             "clear_as_group": false,
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4337,7 +4346,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4350,7 +4360,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4363,7 +4374,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$strength"
+              "$strength",
+              "$jump_up_ledge"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4413,7 +4425,8 @@
             "chest_unopened_img": "images/locations/fire_cave.png",
             "chest_opened_img": "images/locations/fire_cave_bw.png",
             "access_rules": [
-              "$strength,deliver_meteorite"
+              "$strength,deliver_meteorite",
+              "$jump_up_ledge,deliver_meteorite"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4426,7 +4439,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$strength,deliver_meteorite"
+              "$strength,deliver_meteorite",
+              "$jump_up_ledge,deliver_meteorite"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -4439,7 +4453,8 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "$strength,deliver_meteorite"
+              "$strength,deliver_meteorite",
+              "$jump_up_ledge,deliver_meteorite"
             ],
             "visibility_rules": [
               "pokemon_locations_on"

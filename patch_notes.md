@@ -1,3 +1,7 @@
+# 4.0.3
+## Bug Fixes
+* Fixed Mt. Ember access with acrobatic bicycle setting
+
 # 4.0.2
 ## Bug Fixes
 * Fixed access rules for crossing Seafoam Islands
