@@ -1,6 +1,7 @@
 # 4.0.3
 ## Bug Fixes
 * Fixed Mt. Ember access with acrobatic bicycle setting
+* Fixed Viridian City South access without jumping shoes
 
 # 4.0.2
 ## Bug Fixes
