@@ -4,6 +4,8 @@
 * Fixed Mt. Ember access with acrobatic bicycle setting
 * Fixed Viridian City South access without jumping shoes
 * Renamed rematchsanity locations from X Badges/Gyms to X Badges-Gyms so that they will auto track and display properly
+* Fixed an issue with hint highlighting (credit to [palex00](https://github.com/palex00))
+* Fixed an issue with Seafoam Islands B4F fishing access (credit to [Darvitz](https://github.com/Darvitz))
 
 # 4.0.2
 ## Bug Fixes
