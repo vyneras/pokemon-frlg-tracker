@@ -3,6 +3,7 @@
 * Fixed access for double battles so they require two Pokémon
 * Fixed Mt. Ember access with acrobatic bicycle setting
 * Fixed Viridian City South access without jumping shoes
+* Renamed rematchsanity locations from X Badges/Gyms to X Badges-Gyms so that they will auto track and display properly
 
 # 4.0.2
 ## Bug Fixes
