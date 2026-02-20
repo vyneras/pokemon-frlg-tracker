@@ -3516,8 +3516,8 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Route 20 Near North Cave Access,super_rod,shuffle_dungeons_seafoam",
-              "@Route 20 Near South Cave Access,$surf,$waterfall,super_rod,shuffle_dungeons_seafoam",
+              "@Route 20 Near North Cave Access,super_rod,shuffle_dungeons_off",
+              "@Route 20 Near South Cave Access,$surf,$waterfall,super_rod,shuffle_dungeons_off",
               "@Route 20 Near North Cave Access,$surf,$waterfall,super_rod,shuffle_dungeons_seafoam",
               "@Route 20 Near South Cave Access,super_rod,shuffle_dungeons_seafoam",
               "seafoam_islands_north_exit,super_rod,$shuffle_dungeons_on",
