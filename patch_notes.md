@@ -1,3 +1,7 @@
+# 4.0.4
+## Bug Fixes
+* Fixed issue where Pokémon Breeder Alize Rematch Reward (8 Badges-Gyms) check did not appear on the sub map
+
 # 4.0.3
 ## Bug Fixes
 * Fixed access for double battles so they require two Pokémon
