@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "4.0.4",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.0.4/pokemon-frlg-tracker.zip",
+      "sha256": "f528009886dcd6ac7836570a5d13343ef4d6047674b55b7177626f2549906afb",
+      "changelog": [
+        "Fixed issue where Pokémon Breeder Alize Rematch Reward (8 Badges-Gyms) check did not appear on the sub map"
+      ]
+    },
+    {
       "package_version": "4.0.3",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.0.3/pokemon-frlg-tracker.zip",
       "sha256": "63cf05268736e0589ee22baa1dfe58e0235f0fcaababd114e7472b4c82595dfb",
