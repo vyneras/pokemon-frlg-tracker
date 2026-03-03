@@ -2,6 +2,7 @@
 ## Bug Fixes
 * Fixed the access rules for the Mt. Ember Summit - Legendary Pokémon
 * Fixed an issue where the Memorial Pillar Land Encounter didn't display on the area map
+* Fixed an issue where the Move Tutor's Hosue entrance and exit didn't appear on UT
 
 # 4.0.4
 ## Bug Fixes
