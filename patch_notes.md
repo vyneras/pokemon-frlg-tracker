@@ -1,3 +1,7 @@
+# 4.1.0
+## Bug Fixes
+* Fixed the access rules for the Mt. Ember Summit - Legendary Pokémon
+
 # 4.0.4
 ## Bug Fixes
 * Fixed issue where Pokémon Breeder Alize Rematch Reward (8 Badges-Gyms) check did not appear on the sub map

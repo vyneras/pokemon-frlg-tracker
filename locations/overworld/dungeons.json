@@ -4307,8 +4307,7 @@
             "chest_unopened_img": "images/locations/moltres.png",
             "chest_opened_img": "images/locations/moltres_bw.png",
             "access_rules": [
-              "$strength",
-              "$jump_up_ledge"
+              "$strength"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
