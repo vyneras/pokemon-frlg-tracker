@@ -3,10 +3,10 @@
     "name": "Cerulean City",
     "children": [
       {
-        "name": "Cerulean Cave",
+        "name": "Cerulean Cave Entrance",
         "sections": [
           {
-            "name": "Cerulean Cave"
+            "name": "Cerulean Cave Entrance"
           }
         ],
         "map_locations": [
@@ -23,10 +23,10 @@
     "name": "Vermilion City",
     "children": [
       {
-        "name": "Vermilion Harbor",
+        "name": "Vermilion Harbor Entrance",
         "sections": [
           {
-            "name": "Vermilion Harbor"
+            "name": "Vermilion Harbor Entrance"
           }
         ],
         "map_locations": [
@@ -43,10 +43,10 @@
     "name": "Lavender Town",
     "children": [
       {
-        "name": "Pokemon Tower",
+        "name": "Pokemon Tower Entrance",
         "sections": [
           {
-            "name": "Pokemon Tower"
+            "name": "Pokemon Tower Entrance"
           }
         ],
         "map_locations": [
@@ -63,10 +63,10 @@
     "name": "Celadon Game Corner",
     "children": [
       {
-        "name": "Rocket Hideout",
+        "name": "Rocket Hideout Entrance",
         "sections": [
           {
-            "name": "Rocket Hideout"
+            "name": "Rocket Hideout Entrance"
           }
         ],
         "map_locations": [
@@ -83,10 +83,10 @@
     "name": "Fuchsia City",
     "children": [
       {
-        "name": "Safari Zone Entrance",
+        "name": "Safari Zone Lobby Entrance",
         "sections": [
           {
-            "name": "Safari Zone Entrance"
+            "name": "Safari Zone Lobby Entrance"
           }
         ],
         "map_locations": [
@@ -103,10 +103,10 @@
     "name": "Saffron City",
     "children": [
       {
-        "name": "Silph Co.",
+        "name": "Silph Co. Entrance",
         "sections": [
           {
-            "name": "Silph Co."
+            "name": "Silph Co. Entrance"
           }
         ],
         "map_locations": [
@@ -123,10 +123,10 @@
     "name": "Cinnabar Island",
     "children": [
       {
-        "name": "Pokemon Mansion",
+        "name": "Pokemon Mansion Entrance",
         "sections": [
           {
-            "name": "Pokemon Mansion"
+            "name": "Pokemon Mansion Entrance"
           }
         ],
         "map_locations": [
@@ -235,13 +235,13 @@
     ]
   },
   {
-    "name": "Diglett's Cave South Entrance",
+    "name": "Diglett's Cave 1F (South)",
     "children": [
       {
-        "name": "Diglett's Cave South Entrance Exit",
+        "name": "Diglett's Cave 1F Exit (South)",
         "sections": [
           {
-            "name": "Diglett's Cave South Entrance Exit"
+            "name": "Diglett's Cave 1F Exit (South)"
           }
         ],
         "map_locations": [
@@ -255,13 +255,13 @@
     ]
   },
   {
-    "name": "Diglett's Cave North Entrance",
+    "name": "Diglett's Cave 1F (North)",
     "children": [
       {
-        "name": "Diglett's Cave North Entrance Exit",
+        "name": "Diglett's Cave 1F Exit (North)",
         "sections": [
           {
-            "name": "Diglett's Cave North Entrance Exit"
+            "name": "Diglett's Cave 1F Exit (North)"
           }
         ],
         "map_locations": [
@@ -385,13 +385,13 @@
     ]
   },
   {
-    "name": "Safari Zone Entrance",
+    "name": "Safari Zone Lobby",
     "children": [
       {
-        "name": "Safari Zone Entrance Exit",
+        "name": "Safari Zone Lobby Exit",
         "sections": [
           {
-            "name": "Safari Zone Entrance Exit"
+            "name": "Safari Zone Lobby Exit"
           }
         ],
         "map_locations": [
@@ -873,10 +873,10 @@
     "name": "Kindle Road",
     "children": [
       {
-        "name": "Mt. Ember",
+        "name": "Mt. Ember Entrance",
         "sections": [
           {
-            "name": "Mt. Ember"
+            "name": "Mt. Ember Entrance"
           }
         ],
         "map_locations": [
@@ -893,10 +893,10 @@
     "name": "Bond Bridge",
     "children": [
       {
-        "name": "Berry Forest",
+        "name": "Berry Forest Entrance",
         "sections": [
           {
-            "name": "Berry Forest"
+            "name": "Berry Forest Entrance"
           }
         ],
         "map_locations": [
@@ -913,10 +913,10 @@
     "name": "Four Island Town",
     "children": [
       {
-        "name": "Icefall Cave",
+        "name": "Icefall Cave Entrance",
         "sections": [
           {
-            "name": "Icefall Cave"
+            "name": "Icefall Cave Entrance"
           }
         ],
         "map_locations": [
@@ -933,10 +933,10 @@
     "name": "Five Isle Meadow",
     "children": [
       {
-        "name": "Rocket Warehouse",
+        "name": "Rocket Warehouse Entrance",
         "sections": [
           {
-            "name": "Rocket Warehouse"
+            "name": "Rocket Warehouse Entrance"
           }
         ],
         "map_locations": [
@@ -953,10 +953,10 @@
     "name": "Resort Gorgeous",
     "children": [
       {
-        "name": "Lost Cave",
+        "name": "Lost Cave Entrance",
         "sections": [
           {
-            "name": "Lost Cave"
+            "name": "Lost Cave Entrance"
           }
         ],
         "map_locations": [
@@ -973,10 +973,10 @@
     "name": "Ruin Valley",
     "children": [
       {
-        "name": "Dotted Hole",
+        "name": "Dotted Hole Entrance",
         "sections": [
           {
-            "name": "Dotted Hole"
+            "name": "Dotted Hole Entrance"
           }
         ],
         "map_locations": [
@@ -993,10 +993,10 @@
     "name": "Green Path",
     "children": [
       {
-        "name": "Pattern Bush (East)",
+        "name": "Pattern Bush Entrance (East)",
         "sections": [
           {
-            "name": "Pattern Bush (East)"
+            "name": "Pattern Bush Entrance (East)"
           }
         ],
         "map_locations": [
@@ -1008,10 +1008,10 @@
         ]
       },
       {
-        "name": "Pattern Bush (West)",
+        "name": "Pattern Bush Entrance (West)",
         "sections": [
           {
-            "name": "Pattern Bush (West)"
+            "name": "Pattern Bush Entrance (West)"
           }
         ],
         "map_locations": [
@@ -1028,10 +1028,10 @@
     "name": "Outcast Island",
     "children": [
       {
-        "name": "Altering Cave",
+        "name": "Altering Cave Entrance",
         "sections": [
           {
-            "name": "Altering Cave"
+            "name": "Altering Cave Entrance"
           }
         ],
         "map_locations": [
@@ -1048,10 +1048,10 @@
     "name": "Tanoby Ruins",
     "children": [
       {
-        "name": "Monean Chamber",
+        "name": "Monean Chamber Entrance",
         "sections": [
           {
-            "name": "Monean Chamber"
+            "name": "Monean Chamber Entrance"
           }
         ],
         "map_locations": [
@@ -1063,10 +1063,10 @@
         ]
       },
       {
-        "name": "Liptoo Chamber",
+        "name": "Liptoo Chamber Entrance",
         "sections": [
           {
-            "name": "Liptoo Chamber"
+            "name": "Liptoo Chamber Entrance"
           }
         ],
         "map_locations": [
@@ -1078,10 +1078,10 @@
         ]
       },
       {
-        "name": "Weepth Chamber",
+        "name": "Weepth Chamber Entrance",
         "sections": [
           {
-            "name": "Weepth Chamber"
+            "name": "Weepth Chamber Entrance"
           }
         ],
         "map_locations": [
@@ -1093,10 +1093,10 @@
         ]
       },
       {
-        "name": "Dilford Chamber",
+        "name": "Dilford Chamber Entrance",
         "sections": [
           {
-            "name": "Dilford Chamber"
+            "name": "Dilford Chamber Entrance"
           }
         ],
         "map_locations": [
@@ -1108,10 +1108,10 @@
         ]
       },
       {
-        "name": "Scufib Chamber",
+        "name": "Scufib Chamber Entrance",
         "sections": [
           {
-            "name": "Scufib Chamber"
+            "name": "Scufib Chamber Entrance"
           }
         ],
         "map_locations": [
@@ -1123,10 +1123,10 @@
         ]
       },
       {
-        "name": "Rixy Chamber",
+        "name": "Rixy Chamber Entrance",
         "sections": [
           {
-            "name": "Rixy Chamber"
+            "name": "Rixy Chamber Entrance"
           }
         ],
         "map_locations": [
@@ -1138,10 +1138,10 @@
         ]
       },
       {
-        "name": "Viapois Chamber",
+        "name": "Viapois Chamber Entrance",
         "sections": [
           {
-            "name": "Viapois Chamber"
+            "name": "Viapois Chamber Entrance"
           }
         ],
         "map_locations": [
@@ -1158,10 +1158,10 @@
     "name": "Navel Rock Exterior",
     "children": [
       {
-        "name": "Navel Rock",
+        "name": "Navel Rock Entrance",
         "sections": [
           {
-            "name": "Navel Rock"
+            "name": "Navel Rock Entrance"
           }
         ],
         "map_locations": [
@@ -1198,10 +1198,10 @@
     "name": "Route 2",
     "children": [
       {
-        "name": "Diglett's Cave North Entrance",
+        "name": "Diglett's Cave Entrance (North)",
         "sections": [
           {
-            "name": "Diglett's Cave North Entrance"
+            "name": "Diglett's Cave Entrance (North)"
           }
         ],
         "map_locations": [
@@ -1215,13 +1215,53 @@
     ]
   },
   {
+    "name": "Viridian Forest South Gate",
+    "children": [
+      {
+        "name": "Viridian Forest South Gate Exit (North)",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate Exit (North)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south_entrance",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Forest North Gate",
+    "children": [
+      {
+        "name": "Viridian Forest North Gate Exit (South)",
+        "sections": [
+          {
+            "name": "Viridian Forest North Gate Exit (South)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north_entrance",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Route 4",
     "children": [
       {
-        "name": "Mt. Moon (West)",
+        "name": "Mt. Moon Entrance (West)",
         "sections": [
           {
-            "name": "Mt. Moon (West)"
+            "name": "Mt. Moon Entrance (West)"
           }
         ],
         "map_locations": [
@@ -1233,10 +1273,10 @@
         ]
       },
       {
-        "name": "Mt. Moon (East)",
+        "name": "Mt. Moon Entrance (East)",
         "sections": [
           {
-            "name": "Mt. Moon (East)"
+            "name": "Mt. Moon Entrance (East)"
           }
         ],
         "map_locations": [
@@ -1253,10 +1293,10 @@
     "name": "Route 10",
     "children": [
       {
-        "name": "Rock Tunnel (North)",
+        "name": "Rock Tunnel Entrance (North)",
         "sections": [
           {
-            "name": "Rock Tunnel (North)"
+            "name": "Rock Tunnel Entrance (North)"
           }
         ],
         "map_locations": [
@@ -1268,10 +1308,10 @@
         ]
       },
       {
-        "name": "Power Plant (Front)",
+        "name": "Power Plant Entrance (Front)",
         "sections": [
           {
-            "name": "Power Plant (Front)"
+            "name": "Power Plant Entrance (Front)"
           }
         ],
         "map_locations": [
@@ -1283,10 +1323,10 @@
         ]
       },
       {
-        "name": "Power Plant (Back)",
+        "name": "Power Plant Entrance (Back)",
         "sections": [
           {
-            "name": "Power Plant (Back)"
+            "name": "Power Plant Entrance (Back)"
           }
         ],
         "map_locations": [
@@ -1298,10 +1338,10 @@
         ]
       },
       {
-        "name": "Rock Tunnel (South)",
+        "name": "Rock Tunnel Entrance (South)",
         "sections": [
           {
-            "name": "Rock Tunnel (South)"
+            "name": "Rock Tunnel Entrance (South)"
           }
         ],
         "map_locations": [
@@ -1318,10 +1358,10 @@
     "name": "Route 11",
     "children": [
       {
-        "name": "Diglett's Cave South Entrance",
+        "name": "Diglett's Cave Entrance (South)",
         "sections": [
           {
-            "name": "Diglett's Cave South Entrance"
+            "name": "Diglett's Cave Entrance (South)"
           }
         ],
         "map_locations": [
@@ -1338,10 +1378,10 @@
     "name": "Route 20",
     "children": [
       {
-        "name": "Seafoam Islands (South)",
+        "name": "Seafoam Islands Entrance (South)",
         "sections": [
           {
-            "name": "Seafoam Islands (South)"
+            "name": "Seafoam Islands Entrance (South)"
           }
         ],
         "map_locations": [
@@ -1353,10 +1393,10 @@
         ]
       },
       {
-        "name": "Seafoam Islands (North)",
+        "name": "Seafoam Islands Entrance (North)",
         "sections": [
           {
-            "name": "Seafoam Islands (North)"
+            "name": "Seafoam Islands Entrance (North)"
           }
         ],
         "map_locations": [
@@ -1373,10 +1413,10 @@
     "name": "Route 23",
     "children": [
       {
-        "name": "Victory Road (West)",
+        "name": "Victory Road Entrance (West)",
         "sections": [
           {
-            "name": "Victory Road (West)"
+            "name": "Victory Road Entrance (West)"
           }
         ],
         "map_locations": [
@@ -1388,10 +1428,10 @@
         ]
       },
       {
-        "name": "Victory Road (East)",
+        "name": "Victory Road Entrance (East)",
         "sections": [
           {
-            "name": "Victory Road (East)"
+            "name": "Victory Road Entrance (East)"
           }
         ],
         "map_locations": [

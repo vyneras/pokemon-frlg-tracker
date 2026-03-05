@@ -3,10 +3,10 @@
     "name": "Viridian City",
     "children": [
       {
-        "name": "Viridian Pokemon Center",
+        "name": "Viridian Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Viridian Pokemon Center"
+            "name": "Viridian Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -43,10 +43,10 @@
     "name": "Pewter City",
     "children": [
       {
-        "name": "Pewter Pokemon Center",
+        "name": "Pewter Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Pewter Pokemon Center"
+            "name": "Pewter Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -83,10 +83,10 @@
     "name": "Cerulean City",
     "children": [
       {
-        "name": "Cerulean Pokemon Center",
+        "name": "Cerulean Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Cerulean Pokemon Center"
+            "name": "Cerulean Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -123,10 +123,10 @@
     "name": "Vermilion City",
     "children": [
       {
-        "name": "Vermilion Pokemon Center",
+        "name": "Vermilion Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Vermilion Pokemon Center"
+            "name": "Vermilion Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -163,10 +163,10 @@
     "name": "Lavender Town",
     "children": [
       {
-        "name": "Lavender Pokemon Center",
+        "name": "Lavender Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Lavender Pokemon Center"
+            "name": "Lavender Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -203,10 +203,10 @@
     "name": "Celadon City",
     "children": [
       {
-        "name": "Celadon Pokemon Center",
+        "name": "Celadon Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Celadon Pokemon Center"
+            "name": "Celadon Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -243,10 +243,10 @@
     "name": "Fuchsia City",
     "children": [
       {
-        "name": "Fuchsia Pokemon Center",
+        "name": "Fuchsia Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Fuchsia Pokemon Center"
+            "name": "Fuchsia Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -283,10 +283,10 @@
     "name": "Saffron City",
     "children": [
       {
-        "name": "Saffron Pokemon Center",
+        "name": "Saffron Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Saffron Pokemon Center"
+            "name": "Saffron Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -323,76 +323,16 @@
     "name": "Cinnabar Island",
     "children": [
       {
-        "name": "Pokemon Mansion",
+        "name": "Cinnabar Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Pokemon Mansion"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 136,
-            "y": 56
-          }
-        ]
-      },
-      {
-        "name": "Cinnabar Gym",
-        "sections": [
-          {
-            "name": "Cinnabar Gym"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 328,
-            "y": 72
-          }
-        ]
-      },
-      {
-        "name": "Pokemon Lab",
-        "sections": [
-          {
-            "name": "Pokemon Lab"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 136,
-            "y": 152
-          }
-        ]
-      },
-      {
-        "name": "Cinnabar Pokemon Center",
-        "sections": [
-          {
-            "name": "Cinnabar Pokemon Center"
+            "name": "Cinnabar Pokemon Center Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "cinnabar_island",
             "x": 232,
-            "y": 184
-          }
-        ]
-      },
-      {
-        "name": "Cinnabar Poke Mart",
-        "sections": [
-          {
-            "name": "Cinnabar Poke Mart"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "cinnabar_island",
-            "x": 312,
             "y": 184
           }
         ]
@@ -423,10 +363,10 @@
     "name": "Indigo Plateau",
     "children": [
       {
-        "name": "Indigo Plateau Pokemon Center",
+        "name": "Indigo Plateau Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Indigo Plateau Pokemon Center"
+            "name": "Indigo Plateau Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -463,10 +403,10 @@
     "name": "One Island Town",
     "children": [
       {
-        "name": "One Island Pokemon Center",
+        "name": "One Island Pokemon Center Entrance",
         "sections": [
           {
-            "name": "One Island Pokemon Center"
+            "name": "One Island Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -503,10 +443,10 @@
     "name": "Two Island Town",
     "children": [
       {
-        "name": "Two Island Pokemon Center",
+        "name": "Two Island Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Two Island Pokemon Center"
+            "name": "Two Island Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -543,10 +483,10 @@
     "name": "Three Island Town",
     "children": [
       {
-        "name": "Three Island Pokemon Center",
+        "name": "Three Island Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Three Island Pokemon Center"
+            "name": "Three Island Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -583,10 +523,10 @@
     "name": "Four Island Town",
     "children": [
       {
-        "name": "Four Island Pokemon Center",
+        "name": "Four Island Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Four Island Pokemon Center"
+            "name": "Four Island Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -623,10 +563,10 @@
     "name": "Five Island Town",
     "children": [
       {
-        "name": "Five Island Pokemon Center",
+        "name": "Five Island Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Five Island Pokemon Center"
+            "name": "Five Island Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -663,10 +603,10 @@
     "name": "Six Island Town",
     "children": [
       {
-        "name": "Six Island Pokemon Center",
+        "name": "Six Island Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Six Island Pokemon Center"
+            "name": "Six Island Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -703,10 +643,10 @@
     "name": "Seven Island Town",
     "children": [
       {
-        "name": "Seven Island Pokemon Center",
+        "name": "Seven Island Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Seven Island Pokemon Center"
+            "name": "Seven Island Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -743,10 +683,10 @@
     "name": "Route 4",
     "children": [
       {
-        "name": "Route 4 Pokemon Center",
+        "name": "Route 4 Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Route 4 Pokemon Center"
+            "name": "Route 4 Pokemon Center Entrance"
           }
         ],
         "map_locations": [
@@ -783,10 +723,10 @@
     "name": "Route 10",
     "children": [
       {
-        "name": "Route 10 Pokemon Center",
+        "name": "Route 10 Pokemon Center Entrance",
         "sections": [
           {
-            "name": "Route 10 Pokemon Center"
+            "name": "Route 10 Pokemon Center Entrance"
           }
         ],
         "map_locations": [
