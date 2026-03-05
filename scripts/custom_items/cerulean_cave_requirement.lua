@@ -44,7 +44,7 @@ function CeruleanCaveRequirement:updateIcon()
         img = "images/settings/badge.png"
     elseif type == "gyms" then
         self.ItemInstance.Name = "Cerulean Cave Requirement - Gyms"
-        img = "images/settings/gym.png"
+        img = "images/settings/gym_sign.png"
     end
     if self:getType() == "badges" or self:getType() == "gyms" then
         img_mod = "overlay|images/overlays/long_count_numbers/" .. math.floor(stage) .. ".png"

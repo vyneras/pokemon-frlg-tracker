@@ -35,7 +35,7 @@ function BadgesGymsRequirement:updateIcon()
         img = "images/settings/badge.png"
     elseif type == "gyms" then
         self.ItemInstance.Name = self.name.." - Gyms"
-        img = "images/settings/gym.png"
+        img = "images/settings/gym_sign.png"
     end
     local img_mod = "overlay|images/overlays/long_count_numbers/" .. math.floor(stage) .. ".png"
     self.ItemInstance.Icon = ImageReference:FromPackRelativePath(img)
