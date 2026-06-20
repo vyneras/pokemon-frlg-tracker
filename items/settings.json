@@ -580,6 +580,35 @@
     ]
   },
   {
+    "name": "Elevator's Condition",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/elevator.png",
+        "img_mods": "overlay|images/overlays/open.png",
+        "codes": "elevators_condition_setting,elevators_condition_open",
+        "inherit_codes": false,
+        "name": "Elevator's Condition - Open"
+      },
+      {
+        "img": "images/settings/elevator.png",
+        "img_mods": "overlay|images/overlays/lock.png",
+        "codes": "elevators_condition_setting,elevators_condition_locked",
+        "inherit_codes": false,
+        "name": "Elevator's Condition - Locked"
+      },
+      {
+        "img": "images/settings/elevator.png",
+        "img_mods": "overlay|images/overlays/disabled.png",
+        "codes": "elevators_condition_setting,elevators_condition_disabled",
+        "inherit_codes": false,
+        "name": "Elevator's Condition - Disabled"
+      }
+    ]
+  },
+  {
     "name": "Viridian City Roadblock",
     "type": "progressive",
     "allow_disabled": false,

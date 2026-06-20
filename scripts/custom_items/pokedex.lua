@@ -75,7 +75,7 @@ function Pokedex:canProvideCode(code)
 end
 
 function Pokedex:providesCode(code)
-    if self:canProvideCode(code)  then
+    if self:canProvideCode(code) then
         return self:getActive()
     end
     return 0
