@@ -1,4 +1,38 @@
 FLY_DESTINATION_MAPPING = {}
+ACCESS_LEVEL = {
+    [0] = AccessibilityLevel.None,
+    [1] = AccessibilityLevel.Partial,
+    [3] = AccessibilityLevel.Inspect,
+    [5] = AccessibilityLevel.SequenceBreak,
+    [6] = AccessibilityLevel.Normal,
+    [7] = AccessibilityLevel.Cleared,
+    [AccessibilityLevel.None] = 0,
+    [AccessibilityLevel.Partial] = 1,
+    [AccessibilityLevel.Inspect] = 3,
+    [AccessibilityLevel.SequenceBreak] = 5,
+    [AccessibilityLevel.Normal] = 6,
+    [AccessibilityLevel.Cleared] = 7
+}
+
+function and_access(...)
+    local access = AccessibilityLevel.Cleared
+    for _, value in pairs(arg) do
+        if ACCESS_LEVEL[value] < ACCESS_LEVEL[access] then
+            access = value
+        end
+    end
+    return access
+end
+
+function or_access(...)
+    local access = AccessibilityLevel.None
+    for _, value in pairs(arg) do
+        if ACCESS_LEVEL[value] > ACCESS_LEVEL[access] then
+            access = value
+        end
+    end
+    return access
+end
 
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
@@ -71,8 +105,8 @@ function toggle_hosted_item(code)
 end
 
 function toggle_item_grid(code)
-    local extra_item_settings = { "extra_key_items_on", "card_keys_split", "card_keys_prog", "island_passes_split",
-        "island_passes_split_prog", "teas_split", "gym_keys_on" }
+    local extra_item_settings = {"extra_key_items_on", "card_keys_split", "card_keys_prog", "island_passes_split",
+                                 "island_passes_split_prog", "teas_split", "gym_keys_on"}
     local extra_grid = false
     local extra_key_items = has("extra_key_items_on")
     local split_card_keys = has("card_keys_split") or has("card_keys_prog")

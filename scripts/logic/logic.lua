@@ -4,6 +4,7 @@ GYMS = { "defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "def
     "defeat_blaine", "defeat_giovanni" }
 FOSSILS = {"dome_fossil", "helix_fossil", "old_amber"}
 
+-- Logic Rules
 function cut()
     local badge_required = Tracker:FindObjectForCode("hm01_cut").CurrentStage
     if badge_required == 1 then
@@ -69,15 +70,6 @@ function waterfall()
     else
         return has("hm07_waterfall") and has("tm_case")
     end
-end
-
-function hidden()
-    if has("itemfinder") or has("itemfinder_off") then
-        return AccessibilityLevel.Normal
-    elseif has("itemfinder_logic") then
-        return AccessibilityLevel.SequenceBreak
-    end
-    return AccessibilityLevel.None
 end
 
 function fame()
@@ -167,64 +159,6 @@ function trainer_rematch_5()
     return has("vs_seeker") and has_n_gyms(8)
 end
 
-function purchase_bicycle()
-    if has("bike_voucher") then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.Inspect
-end
-
-function route_2_oaks_aide()
-    local pokedex = get_item("pokedex")
-    if has("pokedex") and has("route_2_oaks_aide_requirement") then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.Inspect
-end
-
-function route_10_oaks_aide()
-    local pokedex = get_item("pokedex")
-    if has("pokedex") and has("route_10_oaks_aide_requirement") then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.Inspect
-end
-
-function route_11_oaks_aide()
-    local pokedex = get_item("pokedex")
-    if has("pokedex") and has("route_11_oaks_aide_requirement") then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.Inspect
-end
-
-function route_16_oaks_aide()
-    local pokedex = get_item("pokedex")
-    if has("pokedex") and has("route_16_oaks_aide_requirement") then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.Inspect
-end
-
-function route_15_oaks_aide()
-    local pokedex = get_item("pokedex")
-    if has("pokedex") and has("route_15_oaks_aide_requirement") then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.Inspect
-end
-
-function two_island_stall(level)
-    if level == 1 and has("rescue_lostelle") then
-        return AccessibilityLevel.Normal
-    elseif level == 2 and has("rescue_lostelle") and has("defeat_champion") then
-        return AccessibilityLevel.Normal
-    elseif level == 3 and has("rescue_lostelle") and has("defeat_champion") and has("restore_pokemon_network_machine") then
-        return AccessibilityLevel.Normal
-    end
-    return AccessibilityLevel.Inspect
-end
-
 function route_2_modified()
     if has("modify_route_2_on") then
         return rock_smash()
@@ -253,36 +187,12 @@ function leave_pewter_city()
     return has("pewter_city_open")
 end
 
-function mt_moon()
-    if has("mt_moon_dark_on") then
-        if flash() or has("flash_off") then
-            return AccessibilityLevel.Normal
-        elseif has("flash_logic") then
-            return AccessibilityLevel.SequenceBreak
-        end
-        return AccessibilityLevel.None
-    end
-    return AccessibilityLevel.Normal
-end
-
 function leave_cerulean()
-    return has("save_bill") or has("cerulean_roadblock_off") or jump_up_ledge()
+    return has("save_bill") or has("cerulean_roadblock_off")
 end
 
 function tunnels_blocked()
     return has("block_tunnels_off") or rock_smash()
-end
-
-function digletts_cave()
-    if has("digletts_cave_dark_on") then
-        if flash() or has("flash_off") then
-            return AccessibilityLevel.Normal
-        elseif has("flash_logic") then
-            return AccessibilityLevel.SequenceBreak
-        end
-        return AccessibilityLevel.None
-    end
-    return AccessibilityLevel.Normal
 end
 
 function route_9_modified()
@@ -296,17 +206,12 @@ function route_10_modified()
     return has("modify_route_10_on") and surf() and waterfall()
 end
 
-function rock_tunnel()
-    if flash() or has("flash_off") then
-        return AccessibilityLevel.Normal
-    elseif has("flash_logic") then
-        return AccessibilityLevel.SequenceBreak
-    end
-    return AccessibilityLevel.None
-end
-
 function tower_blocked()
     return has("block_tower_off") or has("silph_scope")
+end
+
+function can_use_elevators()
+    return has("elevators_condition_open") or (has("elevators_condition_locked") and has("lift_key"))
 end
 
 function route_12_boulders()
@@ -337,7 +242,166 @@ function route_23_trees()
     return has("route_23_trees_off") or cut()
 end
 
-function victory_road()
+function victory_road_rock_smash()
+    return has("victory_road_rocks_off") or rock_smash()
+end
+
+function elite_four_rematch()
+    return has("elite_four_rematch_requirement") and has("defeat_champion") and has("restore_pokemon_network_machine")
+end
+
+-- Access Rules
+function hidden_access()
+    if has("itemfinder") or has("itemfinder_off") then
+        return AccessibilityLevel.Normal
+    elseif has("itemfinder_logic") then
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None
+end
+
+function fishing_access(level)
+    if level == 1 and has("old_rod") then
+        return AccessibilityLevel.Normal
+    elseif level == 2 and has("good_rod") then
+        return AccessibilityLevel.Normal
+    elseif level == 3 and has("super_rod") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
+end
+
+function pokedex_access()
+    if has("pokedex") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.SequenceBreak
+end
+
+function route_2_oaks_aide_access()
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_2_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
+function route_10_oaks_aide_access()
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_10_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
+function route_11_oaks_aide_access()
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_11_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
+function route_16_oaks_aide_access()
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_16_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
+function route_15_oaks_aide_access()
+    local pokedex = get_item("pokedex")
+    if has("pokedex") and has("route_15_oaks_aide_requirement") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
+function two_island_stall_access(level)
+    if level == 1 and has("rescue_lostelle") then
+        return AccessibilityLevel.Normal
+    elseif level == 2 and has("rescue_lostelle") and has("defeat_champion") then
+        return AccessibilityLevel.Normal
+    elseif level == 3 and has("rescue_lostelle") and has("defeat_champion") and has("restore_pokemon_network_machine") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.Inspect
+end
+
+function mt_moon_access()
+    if has("mt_moon_dark_on") then
+        if flash() or has("flash_off") then
+            return AccessibilityLevel.Normal
+        elseif has("flash_logic") then
+            return AccessibilityLevel.SequenceBreak
+        end
+        return AccessibilityLevel.None
+    end
+    return AccessibilityLevel.Normal
+end
+
+function digletts_cave_access()
+    if has("digletts_cave_dark_on") then
+        if flash() or has("flash_off") then
+            return AccessibilityLevel.Normal
+        elseif has("flash_logic") then
+            return AccessibilityLevel.SequenceBreak
+        end
+        return AccessibilityLevel.None
+    end
+    return AccessibilityLevel.Normal
+end
+
+function route_10_modified_access()
+    if has("modify_route_10_on") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
+end
+
+function rock_tunnel_access()
+    if flash() or has("flash_off") then
+        return AccessibilityLevel.Normal
+    elseif has("flash_logic") then
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None
+end
+
+function pokemon_tower_ghost_access()
+    if has("silph_scope") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
+end
+
+function seafoam_b3f_current_access()
+    if strength() then
+        return and_access(region_access("Seafoam Islands 1F"),
+                          region_access("Seafoam Islands B1F (West)"),
+                          region_access("Seafoam Islands B1F (Northeast)"),
+                          region_access("Seafoam Islands B2F (Northwest)"),
+                          region_access("Seafoam Islands B2F (Northeast)"))
+    end
+    return AccessibilityLevel.None
+end
+
+function seafoam_b4f_current_access()
+    if strength() then
+        return region_access("Seafoam Islands B3F (West)")
+    end
+    return AccessibilityLevel.None
+end
+
+function pokemon_mansion_switch_access()
+    return or_access(region_access("Pokemon Mansion 1F"),
+                     region_access("Pokemon Mansion 2F"),
+                     region_access("Pokemon Mansion 3F (North)"),
+                     region_access("Pokemon Mansion B1F"))
+end
+
+function victory_road_access()
     if has("victory_road_dark_on") then
         if flash() or has("flash_off") then
             return AccessibilityLevel.Normal
@@ -349,10 +413,14 @@ function victory_road()
     return AccessibilityLevel.Normal
 end
 
-function victory_road_rock_smash()
-    return has("victory_road_rocks_off") or rock_smash()
+function tanoby_ruins_unown_access()
+    if has("unlock_ruins") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
 end
 
+-- Visibility Rules
 function post_goal_visible()
     return has("goal_e4_rematch") or has("post_goal_on")
 end
@@ -366,14 +434,43 @@ function cerulean_cave_visisble()
     return post_goal_visible() or req:getType() == "network_machine" or req:getType() == "badges" or req:getType() == "gyms"
 end
 
-function shuffle_dungeons_off()
-    return has("shuffle_dungeons_off") or has("shuffle_dungeons_seafoam")
+function rematchsanity_on()
+    return has("rematchsanity_badges") or has("rematchsanity_gyms")
 end
 
-function shuffle_dungeons_on()
+-- Entrance Randomization Rules
+function shuffle_pokemon_centers()
+    return has("shuffle_pokemon_centers_on")
+end
+
+function shuffle_gyms()
+    return has("shuffle_gyms_on")
+end
+
+function shuffle_marts()
+    return has("shuffle_marts_on")
+end
+
+function shuffle_harbors()
+    return has("shuffle_harbors_on")
+end
+
+function shuffle_buildings()
+    return has("shuffle_buildings_simple") or has("shuffle_buildings_restricted") or has("shuffle_buildings_full")
+end
+
+function shuffle_dungeons()
     return has("shuffle_dungeons_simple") or has("shuffle_dungeons_restricted") or has("shuffle_dungeons_full")
 end
 
-function rematchsanity_on()
-    return has("rematchsanity_badges") or has("rematchsanity_gyms")
+function shuffle_interiors()
+    return has("shuffle_interiors_on")
+end
+
+function shuffle_warp_tiles()
+    return has("shuffle_warp_tiles_simple") or has("shuffle_warp_tiles_full")
+end
+
+function shuffle_dropdowns()
+    return has("shuffle_dropdowns_simple") or has("shuffle_dropdowns_full")
 end
