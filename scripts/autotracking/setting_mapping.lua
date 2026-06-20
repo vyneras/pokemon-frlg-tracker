@@ -232,6 +232,15 @@ SLOT_CODES = {
             [4] = 4  -- Any Badge
         }
     },
+    elevators_condition = {
+        code = "elevators_condition_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Open
+            [1] = 1, -- Locked
+            [2] = 2, -- Disabled
+        }
+    },
     elite_four_requirement = {
         code = "elite_four_requirement",
         type = "requirement",
@@ -440,8 +449,7 @@ MODIFY_WORLD_STATE = {
     ["Victory Road Rocks"] = "victory_road_rocks_setting",
     ["Early Gossipers"] = "early_gossipers_setting",
     ["Total Darkness"] = "",
-    ["Block Vermilion Sailing"] = "block_sailing_setting",
-    ["All Elevators Locked"] = "elevators_locked_setting"
+    ["Block Vermilion Sailing"] = "block_sailing_setting"
 }
 
 ADDITIONAL_DARK_CAVES = {
