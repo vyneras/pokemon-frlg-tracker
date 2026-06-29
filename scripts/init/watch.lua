@@ -6,6 +6,9 @@ HOSTED_ITEMS = {"fresh_water", "lemonade", "soda_pop", "deliver_oaks_parcel", "d
                 "restore_pokemon_network_machine", "defeat_champion_rematch"}
 
 function initialize_watch_items()
+    -- Updates
+    ScriptHost:AddWatchForCode("tracker_on_accessibility_updating", "*", tracker_on_accessibility_updating)
+
     -- Hosted Items
     for _, code in pairs(HOSTED_ITEMS) do
         ScriptHost:AddWatchForCode(code, code, toggle_item)

@@ -1035,7 +1035,7 @@
               "@Cerulean City Near Cave Access,cerulean_cave_requirement"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on,$cerulean_cave_visisble"
+              "$shuffle_dungeons,$cerulean_cave_visisble"
             ]
           },
           {
@@ -1371,7 +1371,7 @@
               "@Vermilion City Near Harbor Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -1520,7 +1520,7 @@
             "name": "Pokémon Tower Entrance",
             "hosted_item": "pokemon_tower_hosted",
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           }
         ],
@@ -2294,7 +2294,7 @@
               "@Celadon City Access,hideout_key"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -2629,7 +2629,7 @@
             "name": "Safari Zone Entrance",
             "hosted_item": "safari_zone_hosted",
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -3021,7 +3021,7 @@
               "$open_silph"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           }
         ],
@@ -3387,7 +3387,7 @@
               "letter"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {

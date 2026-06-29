@@ -95,7 +95,7 @@
               "@Viridian City North Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -105,7 +105,7 @@
               "@Pewter City Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -115,7 +115,7 @@
               "@Route 2 Northeast Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -402,7 +402,7 @@
             "name": "Mt. Moon West Entrance",
             "hosted_item": "mt_moon_west_hosted",
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           }
         ],
@@ -473,7 +473,7 @@
               "@Route 4 East Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -1511,7 +1511,7 @@
               "@Route 10 North Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -1522,7 +1522,7 @@
               "@Route 10 Near Power Plant Access,machine_part"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -1532,7 +1532,7 @@
               "@Route 10 Near Power Plant Back Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -1718,7 +1718,7 @@
               "@Lavender Town Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -1942,7 +1942,7 @@
             "name": "Diglett's Cave South Entrance",
             "hosted_item": "digletts_cave_south_hosted",
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -3912,7 +3912,7 @@
               "@Route 20 Near South Cave Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -4059,7 +4059,7 @@
               "@Route 20 Near North Cave Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -4561,7 +4561,7 @@
               "@Victory Road Front Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {
@@ -4571,7 +4571,7 @@
               "@Indigo Plateau Access"
             ],
             "visibility_rules": [
-              "$shuffle_dungeons_on"
+              "$shuffle_dungeons"
             ]
           },
           {

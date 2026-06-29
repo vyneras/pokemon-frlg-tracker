@@ -376,6 +376,13 @@ function pokemon_tower_ghost_access()
     return AccessibilityLevel.None
 end
 
+function cycling_road_access()
+    if has("bicycle") then
+        return AccessibilityLevel.Normal
+    end
+    return AccessibilityLevel.None
+end
+
 function seafoam_b3f_current_access()
     if strength() then
         return and_access(region_access("Seafoam Islands 1F"),
@@ -439,6 +446,10 @@ function rematchsanity_on()
 end
 
 -- Entrance Randomization Rules
+function unshuffled()
+    return false
+end
+
 function shuffle_pokemon_centers()
     return has("shuffle_pokemon_centers_on")
 end
@@ -473,4 +484,8 @@ end
 
 function shuffle_dropdowns()
     return has("shuffle_dropdowns_simple") or has("shuffle_dropdowns_full")
+end
+
+function randomize_fly_destinations()
+    return has("randomize_fly_destinations_on")
 end

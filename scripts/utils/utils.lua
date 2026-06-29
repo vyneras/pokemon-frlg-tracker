@@ -14,9 +14,15 @@ ACCESS_LEVEL = {
     [AccessibilityLevel.Cleared] = 7
 }
 
+function tracker_on_accessibility_updating()
+    if TRACKER_READY then
+        update_region_connections()
+    end
+end
+
 function and_access(...)
     local access = AccessibilityLevel.Cleared
-    for _, value in pairs(arg) do
+    for _, value in pairs({...}) do
         if ACCESS_LEVEL[value] < ACCESS_LEVEL[access] then
             access = value
         end
@@ -26,7 +32,7 @@ end
 
 function or_access(...)
     local access = AccessibilityLevel.None
-    for _, value in pairs(arg) do
+    for _, value in pairs({...}) do
         if ACCESS_LEVEL[value] > ACCESS_LEVEL[access] then
             access = value
         end
