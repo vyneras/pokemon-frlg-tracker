@@ -190,13 +190,11 @@ function setDexsanityLocations()
 end
 
 function onClear(slot_data)
-    Tracker.BulkUpdate = true
     local version_mismatch = Tracker:FindObjectForCode("version_mismatch")
     if slot_data["poptracker_checksum"] and slot_data["poptracker_checksum"] == TRACKER_CHECKSUM then
         version_mismatch.Active = false
     else
         version_mismatch.Active = true
-        Tracker.BulkUpdate = false
         return
     end
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
@@ -322,7 +320,6 @@ function onClear(slot_data)
         Archipelago:SetNotify({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID, HINT_ID})
         Archipelago:Get({EVENT_ID, FLY_UNLOCK_ID, STATIC_ID, POKEMON_ID, POKEDEX_ID, ENTRANCES_ID, HINT_ID})
     end
-    Tracker.BulkUpdate = false
 end
 
 function onItem(index, item_id, item_name, player_number)

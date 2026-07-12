@@ -6,14 +6,14 @@
     "children": [
       {
         "name": "Pallet Town",
-        "access_rules": [
-          "@Pallet Town Access"
-        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "^$location_access|Pallet Town - Unlock Fly Destination"
+            ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
             ]
@@ -22,6 +22,9 @@
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "access_rules": [
+              "^$location_access|Player's PC - Item"
+            ],
             "visibility_rules": [
               "start_town_pallet,item_locations_on"
             ]
@@ -31,7 +34,7 @@
             "chest_unopened_img": "images/locations/sign_info.png",
             "chest_opened_img": "images/locations/sign_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Pallet Town - Oak's Lab Sign Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -41,6 +44,9 @@
             "name": "Rival Reward",
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
+            "access_rules": [
+              "^$location_access|Professor Oak's Lab - Rival Reward"
+            ],
             "visibility_rules": [
               "trainersanity_on,rival_oaks_lab,item_locations_on"
             ]
@@ -49,7 +55,7 @@
             "name": "Deliver Oak's Parcel (Event)",
             "hosted_item": "deliver_oaks_parcel_hosted",
             "access_rules": [
-              "oaks_parcel"
+              "^$location_access|Professor Oak's Lab - Oak Gift (Deliver Parcel)"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -60,7 +66,7 @@
             "chest_unopened_img": "images/locations/oak_pokedex.png",
             "chest_opened_img": "images/locations/oak_pokedex_bw.png",
             "access_rules": [
-              "oaks_parcel"
+              "^$location_access|Professor Oak's Lab - Oak Gift (Deliver Parcel)"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -71,7 +77,7 @@
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
-              "oaks_parcel"
+              "^$location_access|Professor Oak's Lab - Oak Gift (Deliver Parcel)"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -82,7 +88,7 @@
             "chest_unopened_img": "images/locations/oak_info.png",
             "chest_opened_img": "images/locations/oak_info_bw.png",
             "access_rules": [
-              "oaks_parcel,$fame"
+              "^$location_access|Professor Oak's Lab - Oak Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -93,7 +99,7 @@
             "chest_unopened_img": "images/locations/oak_pokeball.png",
             "chest_opened_img": "images/locations/oak_pokeball_bw.png",
             "access_rules": [
-              "deliver_oaks_parcel,defeat_route_22_rival"
+              "^$location_access|Professor Oak's Lab - Oak Gift (Post Route 22 Rival)"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -104,7 +110,7 @@
             "chest_unopened_img": "images/locations/worker_female_info.png",
             "chest_opened_img": "images/locations/worker_female_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Professor Oak's Lab - Oak's Aide F Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -115,7 +121,7 @@
             "chest_unopened_img": "images/locations/scientist_info.png",
             "chest_opened_img": "images/locations/scientist_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Professor Oak's Lab - Oak's Aide M Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -126,7 +132,7 @@
             "chest_unopened_img": "images/locations/scientist_info.png",
             "chest_opened_img": "images/locations/scientist_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Professor Oak's Lab - Oak's Aide M Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -137,7 +143,7 @@
             "chest_unopened_img": "images/locations/daisy_town_map.png",
             "chest_opened_img": "images/locations/daisy_town_map_bw.png",
             "access_rules": [
-              "deliver_oaks_parcel"
+              "^$location_access|Rival's House - Daisy Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -148,7 +154,7 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "$surf"
+              "^$location_access|Pallet Town Water"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -159,7 +165,7 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod"
+              "^$location_access|Pallet Town Old Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -172,7 +178,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "good_rod"
+              "^$location_access|Pallet Town Good Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -185,7 +191,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "^$location_access|Pallet Town Super Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -213,8 +219,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "access_rules": [
-              "@Viridian City South Access",
-              "@Viridian City North Access"
+              "^$location_access|Viridian City - Unlock Fly Destination"
             ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
@@ -225,7 +230,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "access_rules": [
-              "@Viridian City South Access"
+              "^$location_access|Player's PC - Item"
             ],
             "visibility_rules": [
               "start_town_viridian,item_locations_on"
@@ -236,7 +241,7 @@
             "chest_unopened_img": "images/locations/clerk_oaks_parcel.png",
             "chest_opened_img": "images/locations/clerk_oaks_parcel_bw.png",
             "access_rules": [
-              "@Viridian City South Access"
+              "^$location_access|Viridian Poke Mart - Delivery for Oak"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -249,7 +254,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "@Viridian City South Access"
+              "^$location_access|Viridian Poke Mart - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -260,7 +265,7 @@
             "chest_unopened_img": "images/locations/bookshelf_2_info.png",
             "chest_opened_img": "images/locations/bookshelf_2_info_bw.png",
             "access_rules": [
-              "@Viridian City South Access,$fame"
+              "^$location_access|Viridian School - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -271,7 +276,7 @@
             "chest_unopened_img": "images/locations/bookshelf_2_info.png",
             "chest_opened_img": "images/locations/bookshelf_2_info_bw.png",
             "access_rules": [
-              "@Viridian City South Access,$fame"
+              "^$location_access|Viridian School - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -280,7 +285,7 @@
           {
             "name": "Item Near Cuttable Tree",
             "access_rules": [
-              "@Viridian City South Access"
+              "^$location_access|Viridian City - Item Near Cuttable Tree"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -291,8 +296,7 @@
             "chest_unopened_img": "images/locations/old_man_teachy_tv.png",
             "chest_opened_img": "images/locations/old_man_teachy_tv_bw.png",
             "access_rules": [
-              "@Viridian City South Access,deliver_oaks_parcel",
-              "@Viridian City South Access,viridian_city_open"
+              "^$location_access|Viridian City - Tutorial Man Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -303,7 +307,7 @@
             "chest_unopened_img": "images/locations/old_man_viridian_key.png",
             "chest_opened_img": "images/locations/old_man_viridian_key_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement"
+              "^$location_access|Viridian City - Old Man Gift"
             ],
             "visibility_rules": [
               "gym_keys_on,item_locations_on"
@@ -314,8 +318,7 @@
             "chest_unopened_img": "images/locations/gym_guy_info.png",
             "chest_opened_img": "images/locations/gym_guy_info_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off,defeat_giovanni,$fame",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key,defeat_giovanni,$fame"
+              "^$location_access|Viridian Gym - Gym Guy Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -326,8 +329,7 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Tamer Cole Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_cole,item_locations_on"
@@ -338,8 +340,7 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Black Belt Kiyo Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_kiyo,item_locations_on"
@@ -350,8 +351,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Cooltrainer Samuel Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_samuel,item_locations_on"
@@ -362,8 +362,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Cooltrainer Samuel Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_yuji,item_locations_on"
@@ -374,8 +373,7 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Black Belt Kiyo Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_atsushi,item_locations_on"
@@ -386,8 +384,7 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Tamer Cole Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_jason,item_locations_on"
@@ -398,8 +395,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Cooltrainer Samuel Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_warren,item_locations_on"
@@ -410,8 +406,7 @@
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Black Belt Kiyo Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,black_belt_takashi,item_locations_on"
@@ -421,8 +416,7 @@
             "name": "Defeat Giovanni (Event)",
             "hosted_item": "defeat_giovanni_hosted",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Giovanni"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -433,8 +427,7 @@
             "chest_unopened_img": "images/locations/giovanni.png",
             "chest_opened_img": "images/locations/giovanni_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Giovanni"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_giovanni,item_locations_on"
@@ -445,8 +438,7 @@
             "chest_unopened_img": "images/locations/giovanni_info.png",
             "chest_opened_img": "images/locations/giovanni_info_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off,$fame",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key,$fame"
+              "^$location_access|Viridian Gym - Giovanni Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -457,8 +449,7 @@
             "chest_unopened_img": "images/locations/giovanni_earth_badge.png",
             "chest_opened_img": "images/locations/giovanni_earth_badge_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Giovanni"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -469,8 +460,7 @@
             "chest_unopened_img": "images/locations/giovanni_ground_tm.png",
             "chest_opened_img": "images/locations/giovanni_ground_tm_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key"
+              "^$location_access|Viridian Gym - Giovanni"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -481,8 +471,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Viridian City North Access,viridian_gym_requirement,gym_keys_off,itemfinder",
-              "@Viridian City North Access,viridian_gym_requirement,viridian_key,itemfinder"
+              "^$location_access|Viridian Gym - Hidden Item Under Giovanni"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -493,7 +482,7 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "@Viridian City South Access,$surf"
+              "^$location_access|Viridian City Water"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -504,7 +493,7 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Viridian City South Access,old_rod"
+              "^$location_access|Viridian City Old Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -517,7 +506,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Viridian City South Access,good_rod"
+              "^$location_access|Viridian City Good Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -530,7 +519,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "@Viridian City South Access,super_rod"
+              "^$location_access|Viridian City Super Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -558,8 +547,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "access_rules": [
-              "@Pewter City Access",
-              "@Pewter City Near Museum Access"
+              "^$location_access|Pewter City - Unlock Fly Destination"
             ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
@@ -570,7 +558,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "access_rules": [
-              "@Pewter City Access"
+              "^$location_access|Player's PC - Item"
             ],
             "visibility_rules": [
               "start_town_pewter,item_locations_on"
@@ -581,7 +569,7 @@
             "chest_unopened_img": "images/locations/fat_man_info.png",
             "chest_opened_img": "images/locations/fat_man_info_bw.png",
             "access_rules": [
-              "@Pewter City Access,$fame"
+              "^$location_access|Pewter City - Fat Man Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -594,7 +582,7 @@
             "item_count": 8,
             "clear_as_group": false,
             "access_rules": [
-              "@Pewter City Access"
+              "^$location_access|Pewter Poke Mart - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -605,7 +593,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Pewter City Access,^$hidden"
+              "^$location_access|Pewter City - Northwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -616,7 +604,7 @@
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
             "access_rules": [
-              "@Pewter City Access,$fame"
+              "^$location_access|Pewter City - Gym Sign Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -625,7 +613,7 @@
           {
             "name": "Pewter Museum Item",
             "access_rules": [
-              "@Pewter City Access"
+              "^$location_access|Pewter Museum 2F - Item"
             ],
             "visibility_rules": [
               "gym_keys_on,item_locations_on"
@@ -636,7 +624,7 @@
             "chest_unopened_img": "images/locations/scientist_old_amber.png",
             "chest_opened_img": "images/locations/scientist_old_amber_bw.png",
             "access_rules": [
-              "@Pewter City Near Museum Access"
+              "^$location_access|Pewter Museum 1F - Scientist Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -647,7 +635,7 @@
             "chest_unopened_img": "images/locations/bookshelf_2_info.png",
             "chest_opened_img": "images/locations/bookshelf_2_info_bw.png",
             "access_rules": [
-              "@Pewter City Near Museum Access,$fame"
+              "^$location_access|Pewter Museum 1F - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -658,7 +646,7 @@
             "chest_unopened_img": "images/locations/scientist_running_shoes.png",
             "chest_opened_img": "images/locations/scientist_running_shoes_bw.png",
             "access_rules": [
-              "@Route 4 West Access,defeat_brock"
+              "^$location_access|Pewter City - Gift from Mom"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -669,8 +657,7 @@
             "chest_unopened_img": "images/locations/camper.png",
             "chest_opened_img": "images/locations/camper_bw.png",
             "access_rules": [
-              "@Pewter City Access,gym_keys_off",
-              "@Pewter City Access,pewter_key"
+              "^$location_access|Pewter Gym - Camper Liam Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,camper_liam,item_locations_on"
@@ -680,8 +667,7 @@
             "name": "Defeat Brock (Event)",
             "hosted_item": "defeat_brock_hosted",
             "access_rules": [
-              "@Pewter City Access,gym_keys_off",
-              "@Pewter City Access,pewter_key"
+              "^$location_access|Pewter Gym - Brock"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -692,8 +678,7 @@
             "chest_unopened_img": "images/locations/brock.png",
             "chest_opened_img": "images/locations/brock_bw.png",
             "access_rules": [
-              "@Pewter City Access,gym_keys_off",
-              "@Pewter City Access,pewter_key"
+              "^$location_access|Pewter Gym - Brock"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_brock,item_locations_on"
@@ -704,8 +689,7 @@
             "chest_unopened_img": "images/locations/brock_info.png",
             "chest_opened_img": "images/locations/brock_info_bw.png",
             "access_rules": [
-              "@Pewter City Access,gym_keys_off,$fame",
-              "@Pewter City Access,pewter_key,$fame"
+              "^$location_access|Pewter Gym - Brock Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -716,8 +700,7 @@
             "chest_unopened_img": "images/locations/brock_boulder_badge.png",
             "chest_opened_img": "images/locations/brock_boulder_badge_bw.png",
             "access_rules": [
-              "@Pewter City Access,gym_keys_off",
-              "@Pewter City Access,pewter_key"
+              "^$location_access|Pewter Gym - Brock"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -728,8 +711,7 @@
             "chest_unopened_img": "images/locations/brock_rock_tm.png",
             "chest_opened_img": "images/locations/brock_rock_tm_bw.png",
             "access_rules": [
-              "@Pewter City Access,gym_keys_off",
-              "@Pewter City Access,pewter_key"
+              "^$location_access|Pewter Gym - Brock"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -757,9 +739,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "access_rules": [
-              "@Cerulean City Access",
-              "@Cerulean City Outskirts Access",
-              "@Cerulean City Near Cave Access"
+              "^$location_access|Cerulean City - Unlock Fly Destination"
             ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
@@ -770,7 +750,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "^$location_access|Player's PC - Item"
             ],
             "visibility_rules": [
               "start_town_cerulean,item_locations_on"
@@ -781,7 +761,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Cerulean City Access,^$hidden"
+              "^$location_access|Cerulean City - Hidden Item Behind Badge Guy's House"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -792,7 +772,7 @@
             "chest_unopened_img": "images/locations/old_man_2_powder_jar.png",
             "chest_opened_img": "images/locations/old_man_2_powder_jar_bw.png",
             "access_rules": [
-              "@Cerulean City Access,berry_pouch"
+              "^$location_access|Berry Powder Man's House - Berry Powder Man Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -803,7 +783,7 @@
             "chest_unopened_img": "images/locations/rival_info.png",
             "chest_opened_img": "images/locations/rival_info_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$fame"
+              "^$location_access|Cerulean City - Rival Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -814,7 +794,7 @@
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "^$location_access|Cerulean City - Rival"
             ],
             "visibility_rules": [
               "trainersanity_on,rival_cerulean,item_locations_on"
@@ -825,7 +805,7 @@
             "chest_unopened_img": "images/locations/rival_fame_checker.png",
             "chest_opened_img": "images/locations/rival_fame_checker_bw.png",
             "access_rules": [
-              "@Cerulean City Access"
+              "^$location_access|Cerulean City - Rival"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -836,7 +816,7 @@
             "chest_unopened_img": "images/locations/old_man.png",
             "chest_opened_img": "images/locations/old_man_bw.png",
             "access_rules": [
-              "@Cerulean City Access,[pokedex]"
+              "^$location_access|Cerulean Trade House - Trade Pokemon"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -847,7 +827,7 @@
             "chest_unopened_img": "images/locations/youngster_info.png",
             "chest_opened_img": "images/locations/youngster_info_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$fame"
+              "^$location_access|Cerulean Pokemon Center 1F - Youngster Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -858,7 +838,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$fame,$post_game_fame"
+              "^$location_access|Cerulean Pokemon Center 1F - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -869,7 +849,7 @@
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$fame"
+              "^$location_access|Cerulean City - Gym Sign Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -880,7 +860,7 @@
             "chest_unopened_img": "images/locations/clerk_bicycle.png",
             "chest_opened_img": "images/locations/clerk_bicycle_bw.png",
             "access_rules": [
-              "@Cerulean City Access,^$purchase_bicycle"
+              "^$location_access|Bike Shop - Bicycle Purchase"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -893,7 +873,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "access_rules": [
-              "@Cerulean City Access"
+              "^$location_access|Cerulean Poke Mart - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -904,7 +884,7 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "access_rules": [
-              "@Cerulean City Outskirts Access"
+              "^$location_access|Cerulean City - Team Rocket Grunt"
             ],
             "visibility_rules": [
               "trainersanity_on,team_rocket_grunt_5,item_locations_on"
@@ -915,7 +895,7 @@
             "chest_unopened_img": "images/locations/rocket_male_ground_tm.png",
             "chest_opened_img": "images/locations/rocket_male_ground_tm_bw.png",
             "access_rules": [
-              "@Cerulean City Outskirts Access"
+              "^$location_access|Cerulean City - Team Rocket Grunt"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -926,8 +906,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off,$surf,itemfinder",
-              "@Cerulean City Access,cerulean_key,$surf,itemfinder"
+              "^$location_access|Cerulean Gym - Hidden Item in Water"
             ],
             "visibility_rules": [
               "extra_key_items_on,item_locations_on"
@@ -938,8 +917,7 @@
             "chest_unopened_img": "images/locations/swimmer_male_water.png",
             "chest_opened_img": "images/locations/swimmer_male_water_bw.png",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off",
-              "@Cerulean City Access,cerulean_key"
+              "^$location_access|Cerulean Gym - Swimmer Luis Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,swimmer_luis,item_locations_on"
@@ -950,8 +928,7 @@
             "chest_unopened_img": "images/locations/swimmer_male_water_info.png",
             "chest_opened_img": "images/locations/swimmer_male_water_info_bw.png",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off,$fame",
-              "@Cerulean City Access,cerulean_key,$fame"
+              "^$location_access|Cerulean Gym - Swimmer Luis Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -962,8 +939,7 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off",
-              "@Cerulean City Access,cerulean_key"
+              "^$location_access|Cerulean Gym - Picnicker Diana Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_diana,item_locations_on"
@@ -973,8 +949,7 @@
             "name": "Defeat Misty (Event)",
             "hosted_item": "defeat_misty_hosted",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off",
-              "@Cerulean City Access,cerulean_key"
+              "^$location_access|Cerulean Gym - Misty"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -985,8 +960,7 @@
             "chest_unopened_img": "images/locations/misty.png",
             "chest_opened_img": "images/locations/misty_bw.png",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off",
-              "@Cerulean City Access,cerulean_key"
+              "^$location_access|Cerulean Gym - Misty"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_misty,item_locations_on"
@@ -997,8 +971,7 @@
             "chest_unopened_img": "images/locations/misty_info.png",
             "chest_opened_img": "images/locations/misty_info_bw.png",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off,$fame",
-              "@Cerulean City Access,cerulean_key,$fame"
+              "^$location_access|Cerulean Gym - Misty Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1009,8 +982,7 @@
             "chest_unopened_img": "images/locations/misty_cascade_badge.png",
             "chest_opened_img": "images/locations/misty_cascade_badge_bw.png",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off",
-              "@Cerulean City Access,cerulean_key"
+              "^$location_access|Cerulean Gym - Misty"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1021,21 +993,10 @@
             "chest_unopened_img": "images/locations/misty_water_tm.png",
             "chest_opened_img": "images/locations/misty_water_tm_bw.png",
             "access_rules": [
-              "@Cerulean City Access,gym_keys_off",
-              "@Cerulean City Access,cerulean_key"
+              "^$location_access|Cerulean Gym - Misty"
             ],
             "visibility_rules": [
               "item_locations_on"
-            ]
-          },
-          {
-            "name": "Cerulean Cave Entrance",
-            "hosted_item": "cerulean_cave_hosted",
-            "access_rules": [
-              "@Cerulean City Near Cave Access,cerulean_cave_requirement"
-            ],
-            "visibility_rules": [
-              "$shuffle_dungeons,$cerulean_cave_visisble"
             ]
           },
           {
@@ -1043,8 +1004,7 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$surf",
-              "@Cerulean City Near Cave Access,$surf"
+              "^$location_access|Cerulean City Water"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1055,8 +1015,7 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Cerulean City Access,$surf,old_rod",
-              "@Cerulean City Near Cave Access,old_rod"
+              "^$location_access|Cerulean City Old Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1069,8 +1028,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Cerulean City Access,$surf,good_rod",
-              "@Cerulean City Near Cave Access,good_rod"
+              "^$location_access|Cerulean City Good Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1083,8 +1041,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Cerulean City Access,$surf,super_rod",
-              "@Cerulean City Near Cave Access,super_rod"
+              "^$location_access|Cerulean City Super Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1112,9 +1069,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "access_rules": [
-              "@Vermilion City Access",
-              "@Vermilion City Near Gym Access",
-              "@Vermilion City Near Harbor Access"
+              "^$location_access|Vermilion City - Unlock Fly Destination"
             ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
@@ -1125,7 +1080,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "access_rules": [
-              "@Vermilion City Access"
+              "^$location_access|Player's PC - Item"
             ],
             "visibility_rules": [
               "start_town_vermilion,item_locations_on"
@@ -1136,7 +1091,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Vermilion City Access,^$hidden"
+              "^$location_access|Vermilion City - Hidden Item Near Pokemon Center"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1147,7 +1102,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_female_vs_seeker.png",
             "chest_opened_img": "images/locations/cooltrainer_female_vs_seeker_bw.png",
             "access_rules": [
-              "@Vermilion City Access"
+              "^$location_access|Vermilion Pokemon Center 1F - Vs. Seeker Woman Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1158,7 +1113,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "@Vermilion City Access,defeat_lt_surge,$fame"
+              "^$location_access|Vermilion Pokemon Center 1F - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1169,7 +1124,7 @@
             "chest_unopened_img": "images/locations/fisherman_old_rod.png",
             "chest_opened_img": "images/locations/fisherman_old_rod_bw.png",
             "access_rules": [
-              "@Vermilion City Access"
+              "^$location_access|Vermilion Fishing House - Fishing Guru Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1182,7 +1137,7 @@
             "item_count": 7,
             "clear_as_group": false,
             "access_rules": [
-              "@Vermilion City Access"
+              "^$location_access|Vermilion Poke Mart - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -1193,7 +1148,7 @@
             "chest_unopened_img": "images/locations/little_girl.png",
             "chest_opened_img": "images/locations/little_girl_bw.png",
             "access_rules": [
-              "@Vermilion City Access,[pokedex]"
+              "^$location_access|Vermilion Trade House - Trade Pokemon"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1204,7 +1159,7 @@
             "chest_unopened_img": "images/locations/gentleman_bike_voucher.png",
             "chest_opened_img": "images/locations/gentleman_bike_voucher_bw.png",
             "access_rules": [
-              "@Vermilion City Access"
+              "^$location_access|Pokemon Fan Club - Chairman Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1215,7 +1170,7 @@
             "chest_unopened_img": "images/locations/worker_female_info.png",
             "chest_opened_img": "images/locations/worker_female_info_bw.png",
             "access_rules": [
-              "@Vermilion City Access,$fame,$post_game_fame"
+              "^$location_access|Pokemon Fan Club - Worker Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -1226,8 +1181,7 @@
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
             "access_rules": [
-              "@Vermilion City Access,$fame",
-              "@Vermilion City Near Gym Access,$fame"
+              "^$location_access|Vermilion City - Gym Sign Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1238,8 +1192,7 @@
             "chest_unopened_img": "images/locations/sailor.png",
             "chest_opened_img": "images/locations/sailor_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off",
-              "@Vermilion City Near Gym Access,vermilion_key"
+              "^$location_access|Vermilion Gym - Sailor Dwayne Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,sailor_dwayne,item_locations_on"
@@ -1250,8 +1203,7 @@
             "chest_unopened_img": "images/locations/sailor_info.png",
             "chest_opened_img": "images/locations/sailor_info_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off,$fame",
-              "@Vermilion City Near Gym Access,vermilion_key,$fame"
+              "^$location_access|Vermilion Gym - Sailor Dwayne Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1262,8 +1214,7 @@
             "chest_unopened_img": "images/locations/balding_man.png",
             "chest_opened_img": "images/locations/balding_man_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off",
-              "@Vermilion City Near Gym Access,vermilion_key"
+              "^$location_access|Vermilion Gym - Engineer Baily Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,engineer_baily,item_locations_on"
@@ -1274,8 +1225,7 @@
             "chest_unopened_img": "images/locations/gentleman.png",
             "chest_opened_img": "images/locations/gentleman_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off",
-              "@Vermilion City Near Gym Access,vermilion_key"
+              "^$location_access|Vermilion Gym - Gentleman Tucker Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,gentleman_tucker,item_locations_on"
@@ -1286,8 +1236,7 @@
             "chest_unopened_img": "images/locations/gentleman_info.png",
             "chest_opened_img": "images/locations/gentleman_info_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off,$fame",
-              "@Vermilion City Near Gym Access,vermilion_key,$fame"
+              "^$location_access|Vermilion Gym - Gentleman Tucker Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1298,8 +1247,7 @@
             "chest_unopened_img": "images/locations/gentleman_info.png",
             "chest_opened_img": "images/locations/gentleman_info_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off,$fame",
-              "@Vermilion City Near Gym Access,vermilion_key,$fame"
+              "^$location_access|Vermilion Gym - Gentleman Tucker Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1309,8 +1257,7 @@
             "name": "Defeat Lt. Surge (Event)",
             "hosted_item": "defeat_lt_surge_hosted",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off",
-              "@Vermilion City Near Gym Access,vermilion_key"
+              "^$location_access|Vermilion Gym - Lt. Surge"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1321,8 +1268,7 @@
             "chest_unopened_img": "images/locations/lt_surge_info.png",
             "chest_opened_img": "images/locations/lt_surge_info_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off,$fame",
-              "@Vermilion City Near Gym Access,vermilion_key,$fame"
+              "^$location_access|Vermilion Gym - Lt. Surge Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1333,8 +1279,7 @@
             "chest_unopened_img": "images/locations/lt_surge.png",
             "chest_opened_img": "images/locations/lt_surge_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off",
-              "@Vermilion City Near Gym Access,vermilion_key"
+              "^$location_access|Vermilion Gym - Lt. Surge"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_lt_surge,item_locations_on"
@@ -1345,8 +1290,7 @@
             "chest_unopened_img": "images/locations/lt_surge_thunder_badge.png",
             "chest_opened_img": "images/locations/lt_surge_thunder_badge_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off",
-              "@Vermilion City Near Gym Access,vermilion_key"
+              "^$location_access|Vermilion Gym - Lt. Surge"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1357,21 +1301,10 @@
             "chest_unopened_img": "images/locations/lt_surge_thunder_tm.png",
             "chest_opened_img": "images/locations/lt_surge_thunder_tm_bw.png",
             "access_rules": [
-              "@Vermilion City Near Gym Access,gym_keys_off",
-              "@Vermilion City Near Gym Access,vermilion_key"
+              "^$location_access|Vermilion Gym - Lt. Surge"
             ],
             "visibility_rules": [
               "item_locations_on"
-            ]
-          },
-          {
-            "name": "S.S. Anne Entrance",
-            "hosted_item": "ss_anne_hosted",
-            "access_rules": [
-              "@Vermilion City Near Harbor Access"
-            ],
-            "visibility_rules": [
-              "$shuffle_dungeons"
             ]
           },
           {
@@ -1379,8 +1312,7 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "@Vermilion City Access,$surf",
-              "@Vermilion City Near Gym Access,$surf"
+              "^$location_access|Vermilion City Water"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1391,8 +1323,7 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Vermilion City Access,old_rod",
-              "@Vermilion City Near Gym Access,old_rod"
+              "^$location_access|Vermilion City Old Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1405,8 +1336,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Vermilion City Access,good_rod",
-              "@Vermilion City Near Gym Access,good_rod"
+              "^$location_access|Vermilion City Good Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1419,8 +1349,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Vermilion City Access,super_rod",
-              "@Vermilion City Near Gym Access,super_rod"
+              "^$location_access|Vermilion City Super Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1442,14 +1371,14 @@
       },
       {
         "name": "Lavender Town",
-        "access_rules": [
-          "@Lavender Town Access"
-        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "^$location_access|Lavender Town - Unlock Fly Destination"
+            ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
             ]
@@ -1458,6 +1387,9 @@
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "access_rules": [
+              "^$location_access|Player's PC - Item"
+            ],
             "visibility_rules": [
               "start_town_lavender,item_locations_on"
             ]
@@ -1467,7 +1399,7 @@
             "chest_unopened_img": "images/locations/balding_man_info.png",
             "chest_opened_img": "images/locations/balding_man_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Lavender Pokemon Center 1F - Balding Man Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -1478,7 +1410,7 @@
             "chest_unopened_img": "images/locations/little_girl_info.png",
             "chest_opened_img": "images/locations/little_girl_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Volunteer Pokemon House - Little Girl Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1489,7 +1421,7 @@
             "chest_unopened_img": "images/locations/journal_info.png",
             "chest_opened_img": "images/locations/journal_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Volunteer Pokemon House - Journal Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1500,7 +1432,7 @@
             "chest_unopened_img": "images/locations/mr_fuji_poke_flute.png",
             "chest_opened_img": "images/locations/mr_fuji_poke_flute_bw.png",
             "access_rules": [
-              "rescue_mr_fuji"
+              "^$location_access|Volunteer Pokemon House - Mr. Fuji Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1512,15 +1444,11 @@
             "chest_opened_img": "images/locations/clerk_bw.png",
             "item_count": 9,
             "clear_as_group": false,
+            "access_rules": [
+              "^$location_access|Lavender Poke Mart - Shop Item"
+            ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
-            ]
-          },
-          {
-            "name": "Pokémon Tower Entrance",
-            "hosted_item": "pokemon_tower_hosted",
-            "visibility_rules": [
-              "$shuffle_dungeons"
             ]
           }
         ],
@@ -1545,8 +1473,7 @@
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
             "access_rules": [
-              "@Celadon City Access",
-              "@Celadon City Near Gym Access"
+              "^$location_access|Celadon City - Unlock Fly Destination"
             ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
@@ -1557,7 +1484,7 @@
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Player's PC - Item"
             ],
             "visibility_rules": [
               "start_town_celadon,item_locations_on"
@@ -1566,7 +1493,7 @@
           {
             "name": "Northwest Item",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon City - Northwest Item"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1577,7 +1504,7 @@
             "chest_unopened_img": "images/locations/old_woman_tea.png",
             "chest_opened_img": "images/locations/old_woman_tea_bw.png",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Condominiums 1F - Tea Woman Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1588,7 +1515,7 @@
             "chest_unopened_img": "images/locations/old_woman_info.png",
             "chest_opened_img": "images/locations/old_woman_info_bw.png",
             "access_rules": [
-              "@Celadon City Access,$fame,$post_game_fame"
+              "^$location_access|Celadon Condominiums 1F - Tea Woman Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -1599,7 +1526,7 @@
             "chest_unopened_img": "images/locations/brock_red_tea.png",
             "chest_opened_img": "images/locations/brock_red_tea_bw.png",
             "access_rules": [
-              "@Celadon City Access,defeat_brock"
+              "^$location_access|Celadon Condominiums 1F - Brock Gift"
             ],
             "visibility_rules": [
               "teas_split,item_locations_on"
@@ -1610,7 +1537,7 @@
             "chest_unopened_img": "images/locations/misty_blue_tea.png",
             "chest_opened_img": "images/locations/misty_blue_tea_bw.png",
             "access_rules": [
-              "@Celadon City Access,defeat_misty"
+              "^$location_access|Celadon Condominiums 1F - Misty Gift"
             ],
             "visibility_rules": [
               "teas_split,item_locations_on"
@@ -1621,7 +1548,7 @@
             "chest_unopened_img": "images/locations/erika_purple_tea.png",
             "chest_opened_img": "images/locations/erika_purple_tea_bw.png",
             "access_rules": [
-              "@Celadon City Access,defeat_erika"
+              "^$location_access|Celadon Condominiums 1F - Erika Gift"
             ],
             "visibility_rules": [
               "teas_split,item_locations_on"
@@ -1632,7 +1559,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "@Celadon City Access,defeat_erika,$fame"
+              "^$location_access|Celadon Condominiums 2F - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -1641,7 +1568,7 @@
           {
             "name": "Roof Room Pokémon",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Condominiums Roof Room - Item"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -1654,7 +1581,7 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store 2F - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -1667,7 +1594,7 @@
             "item_count": 9,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store 2F - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -1678,7 +1605,7 @@
             "chest_unopened_img": "images/locations/woman_info.png",
             "chest_opened_img": "images/locations/woman_info_bw.png",
             "access_rules": [
-              "@Celadon City Access,$fame,$post_game_fame"
+              "^$location_access|Celadon Department Store 2F - Woman Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -1691,7 +1618,7 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store 4F - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -1704,7 +1631,7 @@
             "item_count": 6,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store 5F - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -1717,7 +1644,7 @@
             "item_count": 7,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store 5F - Shop Item"
             ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
@@ -1727,7 +1654,7 @@
             "name": "Buy Fresh Water (Event)",
             "hosted_item": "fresh_water_hosted",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store Roof - Vending Machine Item"
             ],
             "visibility_rules": [
               "vending_machines_off,item_locations_on"
@@ -1737,7 +1664,7 @@
             "name": "Buy Soda Pop (Event)",
             "hosted_item": "soda_pop_hosted",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store Roof - Vending Machine Item"
             ],
             "visibility_rules": [
               "vending_machines_off,item_locations_on"
@@ -1747,7 +1674,7 @@
             "name": "Buy Lemonade (Event)",
             "hosted_item": "lemonade_hosted",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store Roof - Vending Machine Item"
             ],
             "visibility_rules": [
               "vending_machines_off,item_locations_on"
@@ -1760,7 +1687,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Department Store Roof - Vending Machine Item"
             ],
             "visibility_rules": [
               "vending_machines_on,item_locations_on"
@@ -1771,7 +1698,7 @@
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
             "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png",
             "access_rules": [
-              "@Celadon City Access,fresh_water"
+              "^$location_access|Celadon Department Store Roof - Thirsty Girl Gift (Give Fresh Water)"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1782,7 +1709,7 @@
             "chest_unopened_img": "images/locations/little_girl_normal_tm.png",
             "chest_opened_img": "images/locations/little_girl_normal_tm_bw.png",
             "access_rules": [
-              "@Celadon City Access,soda_pop"
+              "^$location_access|Celadon Department Store Roof - Thirsty Girl Gift (Give Soda Pop)"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1793,7 +1720,7 @@
             "chest_unopened_img": "images/locations/little_girl_psychic_tm.png",
             "chest_opened_img": "images/locations/little_girl_psychic_tm_bw.png",
             "access_rules": [
-              "@Celadon City Access,lemonade"
+              "^$location_access|Celadon Department Store Roof - Thirsty Girl Gift (Give Lemonade)"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1804,7 +1731,7 @@
             "chest_unopened_img": "images/locations/balding_man_coin_case.png",
             "chest_opened_img": "images/locations/balding_man_coin_case_bw.png",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Restaurant - Coin Case Man Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1813,7 +1740,7 @@
           {
             "name": "Rocket House Item",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Rocket House - Item"
             ],
             "visibility_rules": [
               "extra_key_items_on,item_locations_on"
@@ -1822,7 +1749,7 @@
           {
             "name": "Hotel Item",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Hotel - Item"
             ],
             "visibility_rules": [
               "gym_keys_on,item_locations_on"
@@ -1833,7 +1760,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,^$hidden"
+              "^$location_access|Celadon City - Hidden Item Near Cuttable Tree"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1844,7 +1771,7 @@
             "chest_unopened_img": "images/locations/fisherman_coins.png",
             "chest_opened_img": "images/locations/fisherman_coins_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner - Fisherman Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1855,7 +1782,7 @@
             "chest_unopened_img": "images/locations/scientist_coins.png",
             "chest_opened_img": "images/locations/scientist_coins_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner - Scientist Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1866,7 +1793,7 @@
             "chest_unopened_img": "images/locations/gentleman_coins.png",
             "chest_opened_img": "images/locations/gentleman_coins_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner - Gentleman Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -1877,7 +1804,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1888,7 +1815,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1899,7 +1826,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1910,7 +1837,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1921,7 +1848,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1932,7 +1859,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1943,7 +1870,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1954,7 +1881,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1965,7 +1892,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1976,7 +1903,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1987,7 +1914,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -1998,7 +1925,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case,^$hidden"
+              "^$location_access|Celadon Game Corner - Southwest Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -2009,7 +1936,7 @@
             "chest_unopened_img": "images/locations/rocket_male.png",
             "chest_opened_img": "images/locations/rocket_male_bw.png",
             "access_rules": [
-              "@Celadon City Access"
+              "^$location_access|Celadon Game Corner - Team Rocket Grunt Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,team_rocket_grunt_7,item_locations_on"
@@ -2022,7 +1949,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner Prize Room - Prize Item"
             ],
             "visibility_rules": [
               "prizesanity_on,item_locations_on"
@@ -2035,7 +1962,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner Prize Room - Prize Item"
             ],
             "visibility_rules": [
               "prizesanity_on,item_locations_on"
@@ -2046,7 +1973,7 @@
             "chest_unopened_img": "images/locations/worker_male.png",
             "chest_opened_img": "images/locations/worker_male_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner Prize Room - Prize Item"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2057,7 +1984,7 @@
             "chest_unopened_img": "images/locations/worker_male.png",
             "chest_opened_img": "images/locations/worker_male_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner Prize Room - Prize Item"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2068,7 +1995,7 @@
             "chest_unopened_img": "images/locations/worker_male.png",
             "chest_opened_img": "images/locations/worker_male_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner Prize Room - Prize Item"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2079,7 +2006,7 @@
             "chest_unopened_img": "images/locations/worker_male.png",
             "chest_opened_img": "images/locations/worker_male_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner Prize Room - Prize Item"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2090,7 +2017,7 @@
             "chest_unopened_img": "images/locations/worker_male.png",
             "chest_opened_img": "images/locations/worker_male_bw.png",
             "access_rules": [
-              "@Celadon City Access,coin_case"
+              "^$location_access|Celadon Game Corner Prize Room - Prize Item"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2101,7 +2028,7 @@
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,$fame"
+              "^$location_access|Celadon City - Gym Sign Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2112,8 +2039,7 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off",
-              "@Celadon City Near Gym Access,celadon_key"
+              "^$location_access|Celadon Gym - Lass Kay Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,lass_kay,item_locations_on"
@@ -2124,8 +2050,7 @@
             "chest_unopened_img": "images/locations/beauty.png",
             "chest_opened_img": "images/locations/beauty_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off",
-              "@Celadon City Near Gym Access,celadon_key"
+              "^$location_access|Celadon Gym - Beauty Bridget Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,beauty_bridget,item_locations_on"
@@ -2136,8 +2061,7 @@
             "chest_unopened_img": "images/locations/beauty.png",
             "chest_opened_img": "images/locations/beauty_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off",
-              "@Celadon City Near Gym Access,celadon_key"
+              "^$location_access|Celadon Gym - Beauty Bridget Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,beauty_tamia,item_locations_on"
@@ -2148,8 +2072,7 @@
             "chest_unopened_img": "images/locations/beauty_info.png",
             "chest_opened_img": "images/locations/beauty_info_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$fame",
-              "@Celadon City Near Gym Access,celadon_key,$fame"
+              "^$location_access|Celadon Gym - Beauty Tamia Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2160,8 +2083,7 @@
             "chest_unopened_img": "images/locations/picnicker.png",
             "chest_opened_img": "images/locations/picnicker_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off",
-              "@Celadon City Near Gym Access,celadon_key"
+              "^$location_access|Celadon Gym - Picnicker Tina Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,picnicker_tina,item_locations_on"
@@ -2172,8 +2094,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_female.png",
             "chest_opened_img": "images/locations/cooltrainer_female_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut",
-              "@Celadon City Near Gym Access,celadon_key,$cut"
+              "^$location_access|Celadon Gym - Cooltrainer Mary Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,cooltrainer_mary,item_locations_on"
@@ -2184,8 +2105,7 @@
             "chest_unopened_img": "images/locations/beauty.png",
             "chest_opened_img": "images/locations/beauty_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut",
-              "@Celadon City Near Gym Access,celadon_key,$cut"
+              "^$location_access|Celadon Gym - Beauty Lori Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,beauty_lori,item_locations_on"
@@ -2196,8 +2116,7 @@
             "chest_unopened_img": "images/locations/lass.png",
             "chest_opened_img": "images/locations/lass_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut",
-              "@Celadon City Near Gym Access,celadon_key,$cut"
+              "^$location_access|Celadon Gym - Lass Lisa Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,lass_lisa,item_locations_on"
@@ -2208,8 +2127,7 @@
             "chest_unopened_img": "images/locations/lass_info.png",
             "chest_opened_img": "images/locations/lass_info_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut,$fame",
-              "@Celadon City Near Gym Access,celadon_key,$cut,$fame"
+              "^$location_access|Celadon Gym - Lass Lisa Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2219,8 +2137,7 @@
             "name": "Defeat Erika (Event)",
             "hosted_item": "defeat_erika_hosted",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut",
-              "@Celadon City Near Gym Access,celadon_key,$cut"
+              "^$location_access|Celadon Gym - Erika"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2231,8 +2148,7 @@
             "chest_unopened_img": "images/locations/erika.png",
             "chest_opened_img": "images/locations/erika_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut",
-              "@Celadon City Near Gym Access,celadon_key,$cut"
+              "^$location_access|Celadon Gym - Erika"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_erika,item_locations_on"
@@ -2243,8 +2159,7 @@
             "chest_unopened_img": "images/locations/erika_info.png",
             "chest_opened_img": "images/locations/erika_info_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut,$fame",
-              "@Celadon City Near Gym Access,celadon_key,$cut,$fame"
+              "^$location_access|Celadon Gym - Erika Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2255,8 +2170,7 @@
             "chest_unopened_img": "images/locations/erika_rainbow_badge.png",
             "chest_opened_img": "images/locations/erika_rainbow_badge_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut",
-              "@Celadon City Near Gym Access,celadon_key,$cut"
+              "^$location_access|Celadon Gym - Erika"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2267,8 +2181,7 @@
             "chest_unopened_img": "images/locations/erika_grass_tm.png",
             "chest_opened_img": "images/locations/erika_grass_tm_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut",
-              "@Celadon City Near Gym Access,celadon_key,$cut"
+              "^$location_access|Celadon Gym - Erika"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2279,22 +2192,10 @@
             "chest_unopened_img": "images/locations/erika_info.png",
             "chest_opened_img": "images/locations/erika_info_bw.png",
             "access_rules": [
-              "@Celadon City Near Gym Access,gym_keys_off,$cut,$fame",
-              "@Celadon City Near Gym Access,celadon_key,$cut,$fame"
+              "^$location_access|Celadon Gym - Erika Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
-            ]
-          },
-          {
-            "name": "Rocket Hideout Entrance",
-            "hosted_item": "rocket_hideout_hosted",
-            "access_rules": [
-              "@Celadon City Access,extra_key_items_off",
-              "@Celadon City Access,hideout_key"
-            ],
-            "visibility_rules": [
-              "$shuffle_dungeons"
             ]
           },
           {
@@ -2304,7 +2205,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access,$surf"
+              "^$location_access|Celadon City Water"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2315,7 +2216,7 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Celadon City Access,old_rod"
+              "^$location_access|Celadon City Old Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2326,7 +2227,7 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "@Celadon City Access,good_rod"
+              "^$location_access|Celadon City Good Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2339,7 +2240,7 @@
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": [
-              "@Celadon City Access,super_rod"
+              "^$location_access|Celadon City Super Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2361,14 +2262,14 @@
       },
       {
         "name": "Fuchsia City",
-        "access_rules": [
-          "@Fuchsia City Access"
-        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "^$location_access|Fuchsia City - Unlock Fly Destination"
+            ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
             ]
@@ -2377,6 +2278,9 @@
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "access_rules": [
+              "^$location_access|Player's PC - Item"
+            ],
             "visibility_rules": [
               "start_town_fuchsia,item_locations_on"
             ]
@@ -2385,6 +2289,9 @@
             "name": "Fishing Guru Gift",
             "chest_unopened_img": "images/locations/fisherman_good_rod.png",
             "chest_opened_img": "images/locations/fisherman_good_rod_bw.png",
+            "access_rules": [
+              "^$location_access|Fuchsia Fishing House - Fishing Guru Gift"
+            ],
             "visibility_rules": [
               "item_locations_on"
             ]
@@ -2394,7 +2301,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "^$hidden"
+              "^$location_access|Fuchsia City - Hidden Item Behind Fishing Guru's House"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -2405,7 +2312,7 @@
             "chest_unopened_img": "images/locations/old_man_2_normal_tm.png",
             "chest_opened_img": "images/locations/old_man_2_normal_tm_bw.png",
             "access_rules": [
-              "gold_teeth"
+              "^$location_access|Safari Zone Warden's House - Warden Gift (Return Teeth)"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2414,7 +2321,7 @@
           {
             "name": "Safari Zone Warden's House Item",
             "access_rules": [
-              "$strength"
+              "^$location_access|Safari Zone Warden's House - Item"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2425,7 +2332,7 @@
             "chest_unopened_img": "images/locations/bookshelf_3_info.png",
             "chest_opened_img": "images/locations/bookshelf_3_info_bw.png",
             "access_rules": [
-              "defeat_koga,$fame"
+              "^$location_access|Safari Zone Warden's House - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2435,6 +2342,9 @@
             "name": "Safari Zone Worker Gift",
             "chest_unopened_img": "images/locations/worker_male_safari_pass.png",
             "chest_opened_img": "images/locations/worker_male_safari_pass_bw.png",
+            "access_rules": [
+              "^$location_access|Safari Zone Office - Safari Zone Worker Gift"
+            ],
             "visibility_rules": [
               "extra_key_items_on,item_locations_on"
             ]
@@ -2445,6 +2355,9 @@
             "chest_opened_img": "images/locations/clerk_bw.png",
             "item_count": 6,
             "clear_as_group": false,
+            "access_rules": [
+              "^$location_access|Fuchsia Poke Mart - Shop Item"
+            ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
             ]
@@ -2454,7 +2367,7 @@
             "chest_unopened_img": "images/locations/lass_info.png",
             "chest_opened_img": "images/locations/lass_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Fuchsia City - Koga's Daughter Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -2465,7 +2378,7 @@
             "chest_unopened_img": "images/locations/old_man_info.png",
             "chest_opened_img": "images/locations/old_man_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Bill's Grandpa's House - Bill's Grandpa Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2476,7 +2389,7 @@
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Fuchsia City - Gym Sign Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2487,8 +2400,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Juggler Nate Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,juggler_nate,item_locations_on"
@@ -2499,8 +2411,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Juggler Nate Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,juggler_kayden,item_locations_on"
@@ -2511,8 +2422,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Juggler Nate Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,juggler_kirk,item_locations_on"
@@ -2523,8 +2433,7 @@
             "chest_unopened_img": "images/locations/rocker_info.png",
             "chest_opened_img": "images/locations/rocker_info_bw.png",
             "access_rules": [
-              "gym_keys_off,$fame",
-              "fuchsia_key,$fame"
+              "^$location_access|Fuchsia Gym - Juggler Kirk Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2535,8 +2444,7 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Tamer Edgar Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_edgar,item_locations_on"
@@ -2547,8 +2455,7 @@
             "chest_unopened_img": "images/locations/man.png",
             "chest_opened_img": "images/locations/man_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Tamer Edgar Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,tamer_phil,item_locations_on"
@@ -2559,8 +2466,7 @@
             "chest_unopened_img": "images/locations/rocker.png",
             "chest_opened_img": "images/locations/rocker_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Juggler Nate Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,juggler_shawn,item_locations_on"
@@ -2570,8 +2476,7 @@
             "name": "Defeat Koga (Event)",
             "hosted_item": "defeat_koga_hosted",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Koga"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2582,8 +2487,7 @@
             "chest_unopened_img": "images/locations/koga.png",
             "chest_opened_img": "images/locations/koga_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Koga"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_koga,item_locations_on"
@@ -2594,8 +2498,7 @@
             "chest_unopened_img": "images/locations/koga_info.png",
             "chest_opened_img": "images/locations/koga_info_bw.png",
             "access_rules": [
-              "gym_keys_off,$fame",
-              "fuchsia_key,$fame"
+              "^$location_access|Fuchsia Gym - Koga Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2606,8 +2509,7 @@
             "chest_unopened_img": "images/locations/koga_soul_badge.png",
             "chest_opened_img": "images/locations/koga_soul_badge_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Koga"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2618,18 +2520,10 @@
             "chest_unopened_img": "images/locations/koga_poison_tm.png",
             "chest_opened_img": "images/locations/koga_poison_tm_bw.png",
             "access_rules": [
-              "gym_keys_off",
-              "fuchsia_key"
+              "^$location_access|Fuchsia Gym - Koga"
             ],
             "visibility_rules": [
               "item_locations_on"
-            ]
-          },
-          {
-            "name": "Safari Zone Entrance",
-            "hosted_item": "safari_zone_hosted",
-            "visibility_rules": [
-              "$shuffle_dungeons"
             ]
           },
           {
@@ -2637,7 +2531,7 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "$surf"
+              "^$location_access|Fuchsia City Water"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2648,7 +2542,7 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod"
+              "^$location_access|Fuchsia City Old Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2661,7 +2555,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "good_rod"
+              "^$location_access|Fuchsia City Good Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2674,7 +2568,7 @@
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "^$location_access|Fuchsia City Super Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -2696,14 +2590,14 @@
       },
       {
         "name": "Saffron City",
-        "access_rules": [
-          "@Saffron City Access"
-        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "^$location_access|Saffron City - Unlock Fly Destination"
+            ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
             ]
@@ -2712,6 +2606,9 @@
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "access_rules": [
+              "^$location_access|Player's PC - Item"
+            ],
             "visibility_rules": [
               "start_town_saffron,item_locations_on"
             ]
@@ -2721,7 +2618,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "defeat_sabrina,$fame"
+              "^$location_access|Saffron Pokemon Center 1F - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2731,6 +2628,9 @@
             "name": "Mr. Psychic Gift",
             "chest_unopened_img": "images/locations/balding_man_psychic_tm.png",
             "chest_opened_img": "images/locations/balding_man_psychic_tm_bw.png",
+            "access_rules": [
+              "^$location_access|Mr. Psychic's House - Mr. Psychic Gift"
+            ],
             "visibility_rules": [
               "item_locations_on"
             ]
@@ -2740,7 +2640,7 @@
             "chest_unopened_img": "images/locations/battle_girl_info.png",
             "chest_opened_img": "images/locations/battle_girl_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Saffron City - Battle Girl Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -2751,7 +2651,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Pokemon Trainer Fan Club - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -2763,6 +2663,9 @@
             "chest_opened_img": "images/locations/clerk_bw.png",
             "item_count": 6,
             "clear_as_group": false,
+            "access_rules": [
+              "^$location_access|Saffron Poke Mart - Shop Item"
+            ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
             ]
@@ -2772,7 +2675,7 @@
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Saffron City - Gym Sign Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2782,6 +2685,9 @@
             "name": "Black Belt Hideki Reward",
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "^$location_access|Saffron Dojo - Black Belt Hideki Reward"
+            ],
             "visibility_rules": [
               "trainersanity_on,black_belt_hideki,item_locations_on"
             ]
@@ -2790,6 +2696,9 @@
             "name": "Black Belt Hitoshi Reward",
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "^$location_access|Saffron Dojo - Black Belt Hideki Reward"
+            ],
             "visibility_rules": [
               "trainersanity_on,black_belt_hitoshi,item_locations_on"
             ]
@@ -2798,6 +2707,9 @@
             "name": "Black Belt Mike Reward",
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "^$location_access|Saffron Dojo - Black Belt Hideki Reward"
+            ],
             "visibility_rules": [
               "trainersanity_on,black_belt_mike,item_locations_on"
             ]
@@ -2806,6 +2718,9 @@
             "name": "Black Belt Aaron Reward",
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "^$location_access|Saffron Dojo - Black Belt Hideki Reward"
+            ],
             "visibility_rules": [
               "trainersanity_on,black_belt_aaron,item_locations_on"
             ]
@@ -2814,24 +2729,36 @@
             "name": "Black Belt Koichi Reward",
             "chest_unopened_img": "images/locations/black_belt.png",
             "chest_opened_img": "images/locations/black_belt_bw.png",
+            "access_rules": [
+              "^$location_access|Saffron Dojo - Black Belt Hideki Reward"
+            ],
             "visibility_rules": [
               "trainersanity_on,black_belt_koichi,item_locations_on"
             ]
           },
           {
             "name": "Dojo Pokémon (Left)",
+            "access_rules": [
+              "^$location_access|Saffron Dojo - Item"
+            ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
           },
           {
             "name": "Dojo Item (Center)",
+            "access_rules": [
+              "^$location_access|Saffron Dojo - Item"
+            ],
             "visibility_rules": [
               "gym_keys_on,item_locations_on"
             ]
           },
           {
             "name": "Dojo Pokémon (Right)",
+            "access_rules": [
+              "^$location_access|Saffron Dojo - Item"
+            ],
             "visibility_rules": [
               "pokemon_locations_on"
             ]
@@ -2841,7 +2768,7 @@
             "chest_unopened_img": "images/locations/hidden_item.png",
             "chest_opened_img": "images/locations/hidden_item_bw.png",
             "access_rules": [
-              "$saffron_rockets,^$hidden"
+              "^$location_access|Copycat's House 2F - Desk Hidden Item"
             ],
             "visibility_rules": [
               "hidden_nonrecurring,item_locations_on"
@@ -2852,8 +2779,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Psychic Cameron Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_cameron,item_locations_on"
@@ -2864,8 +2790,7 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Channeler Tasha Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,channeler_tasha,item_locations_on"
@@ -2876,8 +2801,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Psychic Tyron Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_tyron,item_locations_on"
@@ -2888,8 +2812,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male_info.png",
             "chest_opened_img": "images/locations/cooltrainer_male_info_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off,$fame",
-              "$saffron_rockets,saffron_key,$fame"
+              "^$location_access|Saffron Gym - Psychic Tyron Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2900,8 +2823,7 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Channeler Stacy Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,channeler_stacy,item_locations_on"
@@ -2912,8 +2834,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Psychic Johan Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_johan,item_locations_on"
@@ -2924,8 +2845,7 @@
             "chest_unopened_img": "images/locations/channeler.png",
             "chest_opened_img": "images/locations/channeler_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Channeler Amanda Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,channeler_amanda,item_locations_on"
@@ -2936,8 +2856,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male.png",
             "chest_opened_img": "images/locations/cooltrainer_male_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Psychic Preston Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,psychic_preston,item_locations_on"
@@ -2947,8 +2866,7 @@
             "name": "Defeat Sabrina (Event)",
             "hosted_item": "defeat_sabrina_hosted",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Sabrina"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -2959,8 +2877,7 @@
             "chest_unopened_img": "images/locations/sabrina.png",
             "chest_opened_img": "images/locations/sabrina_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Sabrina"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_sabrina,item_locations_on"
@@ -2971,8 +2888,7 @@
             "chest_unopened_img": "images/locations/sabrina_info.png",
             "chest_opened_img": "images/locations/sabrina_info_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off,$fame",
-              "$saffron_rockets,saffron_key,$fame"
+              "^$location_access|Saffron Gym - Sabrina Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2983,8 +2899,7 @@
             "chest_unopened_img": "images/locations/sabrina_info.png",
             "chest_opened_img": "images/locations/sabrina_info_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off,$fame",
-              "$saffron_rockets,saffron_key,$fame"
+              "^$location_access|Saffron Gym - Sabrina Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -2995,8 +2910,7 @@
             "chest_unopened_img": "images/locations/sabrina_marsh_badge.png",
             "chest_opened_img": "images/locations/sabrina_marsh_badge_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Sabrina"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -3007,21 +2921,10 @@
             "chest_unopened_img": "images/locations/sabrina_psychic_tm.png",
             "chest_opened_img": "images/locations/sabrina_psychic_tm_bw.png",
             "access_rules": [
-              "$saffron_rockets,gym_keys_off",
-              "$saffron_rockets,saffron_key"
+              "^$location_access|Saffron Gym - Sabrina"
             ],
             "visibility_rules": [
               "item_locations_on"
-            ]
-          },
-          {
-            "name": "Silph Co. Entrance",
-            "hosted_item": "silph_co_hosted",
-            "access_rules": [
-              "$open_silph"
-            ],
-            "visibility_rules": [
-              "$shuffle_dungeons"
             ]
           }
         ],
@@ -3040,14 +2943,14 @@
       },
       {
         "name": "Cinnabar Island",
-        "access_rules": [
-          "@Cinnabar Island Access"
-        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "^$location_access|Cinnabar Island - Unlock Fly Destination"
+            ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
             ]
@@ -3056,6 +2959,9 @@
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "access_rules": [
+              "^$location_access|Player's PC - Item"
+            ],
             "visibility_rules": [
               "start_town_cinnabar,item_locations_on"
             ]
@@ -3066,6 +2972,9 @@
             "chest_opened_img": "images/locations/clerk_bw.png",
             "item_count": 7,
             "clear_as_group": false,
+            "access_rules": [
+              "^$location_access|Cinnabar Poke Mart - Shop Item"
+            ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
             ]
@@ -3075,7 +2984,7 @@
             "chest_unopened_img": "images/locations/gym_sign_info.png",
             "chest_opened_img": "images/locations/gym_sign_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Cinnabar Island - Gym Sign Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -3086,7 +2995,7 @@
             "chest_unopened_img": "images/locations/woman_2_info.png",
             "chest_opened_img": "images/locations/woman_2_info_bw.png",
             "access_rules": [
-              "$fame"
+              "^$location_access|Cinnabar Island - Woman Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -3097,7 +3006,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Cinnabar Pokemon Center 1F - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -3108,7 +3017,7 @@
             "chest_unopened_img": "images/locations/old_man_2.png",
             "chest_opened_img": "images/locations/old_man_2_bw.png",
             "access_rules": [
-              "[pokedex]"
+              "^$location_access|Pokemon Lab Lounge - Trade Pokemon 1"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3119,7 +3028,7 @@
             "chest_unopened_img": "images/locations/woman_2.png",
             "chest_opened_img": "images/locations/woman_2_bw.png",
             "access_rules": [
-              "[pokedex]"
+              "^$location_access|Pokemon Lab Lounge - Trade Pokemon 2"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3129,6 +3038,9 @@
             "name": "Scientist Gift",
             "chest_unopened_img": "images/locations/scientist_letter.png",
             "chest_opened_img": "images/locations/scientist_letter_bw.png",
+            "access_rules": [
+              "^$location_access|Pokemon Lab Research Room - Scientist Gift"
+            ],
             "visibility_rules": [
               "extra_key_items_on,item_locations_on"
             ]
@@ -3138,7 +3050,7 @@
             "chest_unopened_img": "images/locations/fossil.png",
             "chest_opened_img": "images/locations/fossil_bw.png",
             "access_rules": [
-              "miguel_takes_fossil,fossil_requirement"
+              "^$location_access|Pokemon Lab Experiment Room - Fossil"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -3149,7 +3061,7 @@
             "chest_unopened_img": "images/locations/boy.png",
             "chest_opened_img": "images/locations/boy_bw.png",
             "access_rules": [
-              "[pokedex]"
+              "^$location_access|Pokemon Lab Experiment Room - Trade Pokemon"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3160,7 +3072,7 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "dome_fossil"
+              "^$location_access|Pokemon Lab Experiment Room - Revive Dome Fossil"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3171,7 +3083,7 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "helix_fossil"
+              "^$location_access|Pokemon Lab Experiment Room - Revive Helix Fossil"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3182,7 +3094,7 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "old_amber"
+              "^$location_access|Pokemon Lab Experiment Room - Revive Old Amber"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3193,7 +3105,7 @@
             "chest_unopened_img": "images/locations/bill_tri_pass.png",
             "chest_opened_img": "images/locations/bill_tri_pass_bw.png",
             "access_rules": [
-              "defeat_blaine"
+              "^$location_access|Cinnabar Pokemon Center 1F - Bill Gift"
             ],
             "visibility_rules": [
               "island_passes_split,kanto_only_off,item_locations_on",
@@ -3205,8 +3117,7 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Burglar Quinn Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,burglar_quinn,item_locations_on"
@@ -3217,8 +3128,7 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Super Nerd Erik Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,super_nerd_erik,item_locations_on"
@@ -3229,8 +3139,7 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Super Nerd Erik Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,super_nerd_avery,item_locations_on"
@@ -3241,8 +3150,7 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Burglar Quinn Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,burglar_ramon,item_locations_on"
@@ -3253,8 +3161,7 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Super Nerd Erik Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,super_nerd_derek,item_locations_on"
@@ -3265,8 +3172,7 @@
             "chest_unopened_img": "images/locations/scientist_info.png",
             "chest_opened_img": "images/locations/scientist_info_bw.png",
             "access_rules": [
-              "secret_key,$fame",
-              "cinnabar_key,$fame"
+              "^$location_access|Cinnabar Gym - Super Nerd Derek Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -3277,8 +3183,7 @@
             "chest_unopened_img": "images/locations/super_nerd.png",
             "chest_opened_img": "images/locations/super_nerd_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Burglar Quinn Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,burglar_dusty,item_locations_on"
@@ -3289,8 +3194,7 @@
             "chest_unopened_img": "images/locations/scientist.png",
             "chest_opened_img": "images/locations/scientist_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Super Nerd Erik Reward"
             ],
             "visibility_rules": [
               "trainersanity_on,super_nerd_zac,item_locations_on"
@@ -3300,8 +3204,7 @@
             "name": "Defeat Blaine (Event)",
             "hosted_item": "defeat_blaine_hosted",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Blaine"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -3312,8 +3215,7 @@
             "chest_unopened_img": "images/locations/blaine.png",
             "chest_opened_img": "images/locations/blaine_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Blaine"
             ],
             "visibility_rules": [
               "trainersanity_on,leader_blaine,item_locations_on"
@@ -3324,8 +3226,7 @@
             "chest_unopened_img": "images/locations/blaine_info.png",
             "chest_opened_img": "images/locations/blaine_info_bw.png",
             "access_rules": [
-              "secret_key,$fame",
-              "cinnabar_key,$fame"
+              "^$location_access|Cinnabar Gym - Blaine Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -3336,8 +3237,7 @@
             "chest_unopened_img": "images/locations/blaine_volcano_badge.png",
             "chest_opened_img": "images/locations/blaine_volcano_badge_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Blaine"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -3348,8 +3248,7 @@
             "chest_unopened_img": "images/locations/blaine_fire_tm.png",
             "chest_opened_img": "images/locations/blaine_fire_tm_bw.png",
             "access_rules": [
-              "secret_key",
-              "cinnabar_key"
+              "^$location_access|Cinnabar Gym - Blaine"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -3360,8 +3259,7 @@
             "chest_unopened_img": "images/locations/photo_info.png",
             "chest_opened_img": "images/locations/photo_info_bw.png",
             "access_rules": [
-              "secret_key,$fame",
-              "cinnabar_key,$fame"
+              "^$location_access|Cinnabar Gym - Photo Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
@@ -3372,22 +3270,10 @@
             "chest_unopened_img": "images/locations/photo_info.png",
             "chest_opened_img": "images/locations/photo_info_bw.png",
             "access_rules": [
-              "secret_key,$fame",
-              "cinnabar_key,$fame"
+              "^$location_access|Cinnabar Gym - Photo Info"
             ],
             "visibility_rules": [
               "famesanity_on,item_locations_on"
-            ]
-          },
-          {
-            "name": "Pokémon Mansion Entrance",
-            "hosted_item": "pokemon_mansion_hosted",
-            "access_rules": [
-              "extra_key_items_off",
-              "letter"
-            ],
-            "visibility_rules": [
-              "$shuffle_dungeons"
             ]
           },
           {
@@ -3395,7 +3281,7 @@
             "chest_unopened_img": "images/locations/surfing.png",
             "chest_opened_img": "images/locations/surfing_bw.png",
             "access_rules": [
-              "$surf"
+              "^$location_access|Cinnabar Island Water"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3406,7 +3292,7 @@
             "chest_unopened_img": "images/locations/old_rod.png",
             "chest_opened_img": "images/locations/old_rod_bw.png",
             "access_rules": [
-              "old_rod"
+              "^$location_access|Cinnabar Island Old Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3419,7 +3305,7 @@
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": [
-              "good_rod"
+              "^$location_access|Cinnabar Island Good Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3432,7 +3318,7 @@
             "item_count": 5,
             "clear_as_group": false,
             "access_rules": [
-              "super_rod"
+              "^$location_access|Cinnabar Island Super Rod"
             ],
             "visibility_rules": [
               "pokemon_locations_on"
@@ -3454,14 +3340,14 @@
       },
       {
         "name": "Indigo Plateau",
-        "access_rules": [
-          "@Indigo Plateau Access"
-        ],
         "sections": [
           {
             "name": "Unlock Fly Destination",
             "chest_unopened_img": "images/locations/fly_destination_unlock.png",
             "chest_opened_img": "images/locations/fly_destination_unlock_bw.png",
+            "access_rules": [
+              "^$location_access|Indigo Plateau - Unlock Fly Destination"
+            ],
             "visibility_rules": [
               "fly_unlocks_on,item_locations_on"
             ]
@@ -3470,6 +3356,9 @@
             "name": "PC Item",
             "chest_unopened_img": "images/locations/pc_potion.png",
             "chest_opened_img": "images/locations/pc_potion_bw.png",
+            "access_rules": [
+              "^$location_access|Player's PC - Item"
+            ],
             "visibility_rules": [
               "start_town_indigo,item_locations_on"
             ]
@@ -3480,6 +3369,9 @@
             "chest_opened_img": "images/locations/clerk_bw.png",
             "item_count": 7,
             "clear_as_group": false,
+            "access_rules": [
+              "^$location_access|Indigo Plateau Pokemon Center 1F - Shop Item"
+            ],
             "visibility_rules": [
               "shopsanity_on,item_locations_on"
             ]
@@ -3489,7 +3381,7 @@
             "chest_unopened_img": "images/locations/cooltrainer_male_info.png",
             "chest_opened_img": "images/locations/cooltrainer_male_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Indigo Plateau Pokemon Center 1F - Cooltrainer Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -3500,7 +3392,7 @@
             "chest_unopened_img": "images/locations/black_belt_info.png",
             "chest_opened_img": "images/locations/black_belt_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Indigo Plateau Pokemon Center 1F - Black Belt Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -3511,7 +3403,7 @@
             "chest_unopened_img": "images/locations/black_belt_info.png",
             "chest_opened_img": "images/locations/black_belt_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Indigo Plateau Pokemon Center 1F - Black Belt Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -3522,7 +3414,7 @@
             "chest_unopened_img": "images/locations/bookshelf_info.png",
             "chest_opened_img": "images/locations/bookshelf_info_bw.png",
             "access_rules": [
-              "$fame,$post_game_fame"
+              "^$location_access|Indigo Plateau Pokemon Center 1F - Bookshelf Info"
             ],
             "visibility_rules": [
               "famesanity_on,$post_goal_gossipers_visible,item_locations_on"
@@ -3533,7 +3425,7 @@
             "chest_unopened_img": "images/locations/lorelei_info.png",
             "chest_opened_img": "images/locations/lorelei_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Lorelei's Room - Lorelei Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3544,7 +3436,7 @@
             "chest_unopened_img": "images/locations/lorelei_info.png",
             "chest_opened_img": "images/locations/lorelei_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Lorelei's Room - Lorelei Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3555,7 +3447,7 @@
             "chest_unopened_img": "images/locations/lorelei.png",
             "chest_opened_img": "images/locations/lorelei_bw.png",
             "access_rules": [
-              "elite_four_requirement"
+              "^$location_access|Lorelei's Room - Elite Four Lorelei Reward"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_lorelei,item_locations_on"
@@ -3566,7 +3458,7 @@
             "chest_unopened_img": "images/locations/bruno_info.png",
             "chest_opened_img": "images/locations/bruno_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Bruno's Room - Bruno Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3577,7 +3469,7 @@
             "chest_unopened_img": "images/locations/bruno_info.png",
             "chest_opened_img": "images/locations/bruno_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Bruno's Room - Bruno Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3588,7 +3480,7 @@
             "chest_unopened_img": "images/locations/bruno.png",
             "chest_opened_img": "images/locations/bruno_bw.png",
             "access_rules": [
-              "elite_four_requirement"
+              "^$location_access|Bruno's Room - Elite Four Bruno Reward"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_bruno,item_locations_on"
@@ -3599,7 +3491,7 @@
             "chest_unopened_img": "images/locations/agatha_info.png",
             "chest_opened_img": "images/locations/agatha_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Agatha's Room - Agatha Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3610,7 +3502,7 @@
             "chest_unopened_img": "images/locations/agatha_info.png",
             "chest_opened_img": "images/locations/agatha_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Agatha's Room - Agatha Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3621,7 +3513,7 @@
             "chest_unopened_img": "images/locations/agatha_info.png",
             "chest_opened_img": "images/locations/agatha_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Agatha's Room - Agatha Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3632,7 +3524,7 @@
             "chest_unopened_img": "images/locations/agatha.png",
             "chest_opened_img": "images/locations/agatha_bw.png",
             "access_rules": [
-              "elite_four_requirement"
+              "^$location_access|Agatha's Room - Elite Four Agatha Reward"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_agatha,item_locations_on"
@@ -3643,7 +3535,7 @@
             "chest_unopened_img": "images/locations/lance_info.png",
             "chest_opened_img": "images/locations/lance_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Lance's Room - Lance Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3654,7 +3546,7 @@
             "chest_unopened_img": "images/locations/lance_info.png",
             "chest_opened_img": "images/locations/lance_info_bw.png",
             "access_rules": [
-              "elite_four_requirement,$fame"
+              "^$location_access|Lance's Room - Lance Info"
             ],
             "visibility_rules": [
               "skip_elite_four_off,famesanity_on,item_locations_on"
@@ -3665,7 +3557,7 @@
             "chest_unopened_img": "images/locations/lance.png",
             "chest_opened_img": "images/locations/lance_bw.png",
             "access_rules": [
-              "elite_four_requirement"
+              "^$location_access|Lance's Room - Elite Four Lance Reward"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_lance,item_locations_on"
@@ -3675,7 +3567,7 @@
             "name": "Defeat Champion (Event)",
             "hosted_item": "defeat_champion_hosted",
             "access_rules": [
-              "elite_four_requirement"
+              "^$location_access|Champion's Room - Champion"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -3686,7 +3578,7 @@
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
             "access_rules": [
-              "elite_four_requirement"
+              "^$location_access|Champion's Room - Champion"
             ],
             "visibility_rules": [
               "trainersanity_on,champion,item_locations_on"
@@ -3697,7 +3589,7 @@
             "chest_unopened_img": "images/locations/oak_mystic_ticket.png",
             "chest_opened_img": "images/locations/oak_mystic_ticket_bw.png",
             "access_rules": [
-              "elite_four_requirement"
+              "^$location_access|Hall of Fame - Oak Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -3708,7 +3600,7 @@
             "chest_unopened_img": "images/locations/oak_aurora_ticket.png",
             "chest_opened_img": "images/locations/oak_aurora_ticket_bw.png",
             "access_rules": [
-              "elite_four_requirement"
+              "^$location_access|Hall of Fame - Oak Gift"
             ],
             "visibility_rules": [
               "item_locations_on"
@@ -3719,7 +3611,7 @@
             "chest_unopened_img": "images/locations/lorelei.png",
             "chest_opened_img": "images/locations/lorelei_bw.png",
             "access_rules": [
-              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
+              "^$location_access|Lorelei's Room - Elite Four Lorelei Rematch Reward"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_lorelei_rematch,$post_goal_visible,item_locations_on"
@@ -3730,7 +3622,7 @@
             "chest_unopened_img": "images/locations/bruno.png",
             "chest_opened_img": "images/locations/bruno_bw.png",
             "access_rules": [
-              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
+              "^$location_access|Bruno's Room - Elite Four Bruno Rematch Reward"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_bruno_rematch,$post_goal_visible,item_locations_on"
@@ -3741,7 +3633,7 @@
             "chest_unopened_img": "images/locations/agatha.png",
             "chest_opened_img": "images/locations/agatha_bw.png",
             "access_rules": [
-              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
+              "^$location_access|Agatha's Room - Elite Four Agatha Rematch Reward"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_agatha_rematch,$post_goal_visible,item_locations_on"
@@ -3752,7 +3644,7 @@
             "chest_unopened_img": "images/locations/lance.png",
             "chest_opened_img": "images/locations/lance_bw.png",
             "access_rules": [
-              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
+              "^$location_access|Lance's Room - Elite Four Lance Rematch Reward"
             ],
             "visibility_rules": [
               "skip_elite_four_off,trainersanity_on,elite_four_lance_rematch,$post_goal_visible,item_locations_on"
@@ -3762,7 +3654,7 @@
             "name": "Defeat Champion Rematch (Event)",
             "hosted_item": "defeat_champion_rematch_hosted",
             "access_rules": [
-              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
+              "^$location_access|Champion's Room - Champion Rematch"
             ],
             "visibility_rules": [
               "goal_e4_rematch,item_locations_on"
@@ -3773,7 +3665,7 @@
             "chest_unopened_img": "images/locations/rival.png",
             "chest_opened_img": "images/locations/rival_bw.png",
             "access_rules": [
-              "elite_four_rematch_requirement,defeat_champion,restore_pokemon_network_machine"
+              "^$location_access|Champion's Room - Champion Rematch"
             ],
             "visibility_rules": [
               "trainersanity_on,champion_rematch,$post_goal_visible,item_locations_on"

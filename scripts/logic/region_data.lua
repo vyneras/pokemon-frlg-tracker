@@ -814,6 +814,9 @@ REGION_DATA = {
     },
     ["Viridian City (Water)"] = {
         ["map"] = "Viridian City",
+        ["water"] = function()
+            return AccessibilityLevel.Normal
+        end,
         ["fishing"] = {
             ["old_rod"] = function()
                 return fishing_access(1)
@@ -1038,7 +1041,7 @@ REGION_DATA = {
                 end
             },
             ["Pewter Pokemon Center Entrance"] = {
-                ["connected_region"] = "Pewter Pokemon Center",
+                ["connected_region"] = "Pewter Pokemon Center 1F",
                 ["shuffled"] = shuffle_pokemon_centers,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
@@ -1242,7 +1245,7 @@ REGION_DATA = {
             }
         },
         ["locations"] = {
-            ["Pewter City - Shop Item"] = {
+            ["Pewter Poke Mart - Shop Item"] = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
@@ -1352,7 +1355,7 @@ REGION_DATA = {
                 end
             },
             ["Cerulean Pokemon Center Entrance"] = {
-                ["connected_region"] = "Cerulean Pokemon Center",
+                ["connected_region"] = "Cerulean Pokemon Center 1F",
                 ["shuffled"] = shuffle_pokemon_centers,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
@@ -1878,7 +1881,7 @@ REGION_DATA = {
                 end
             },
             ["Vermilion Pokemon Center Entrance"] = {
-                ["connected_region"] = "Vermilion Pokemon Center",
+                ["connected_region"] = "Vermilion Pokemon Center 1F",
                 ["shuffled"] = shuffle_pokemon_centers,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
@@ -3525,7 +3528,7 @@ REGION_DATA = {
                 ["connected_region"] = "Safari Zone Center Area (South)",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
-                    if has("safari_pass") then
+                    if has("extra_key_items_off") or has("safari_pass") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -3780,7 +3783,7 @@ REGION_DATA = {
                 end
             },
             ["Saffron Gym Entrance"] = {
-                ["connected_region"] = "Saffron Gym",
+                ["connected_region"] = "Saffron Gym (South)",
                 ["shuffled"] = shuffle_gyms,
                 ["access"] = function()
                     if saffron_rockets() and (has("gym_keys_off") or has("saffron_key")) then
@@ -3807,7 +3810,7 @@ REGION_DATA = {
                 end
             },
             ["Saffron Poke Center Entrance"] = {
-                ["connected_region"] = "Saffron Poke Center 1F",
+                ["connected_region"] = "Saffron Pokemon Center 1F",
                 ["shuffled"] = shuffle_pokemon_centers,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
@@ -5400,7 +5403,7 @@ REGION_DATA = {
                     return mt_moon_access()
                 end
             },
-            ["Mt. Moon B2F - Team Rocket Grunt Reward"] = {
+            ["Mt. Moon B2F - East Team Rocket Grunt Reward"] = {
                 ["access"] = function()
                     return mt_moon_access()
                 end
@@ -6059,7 +6062,7 @@ REGION_DATA = {
             }
         },
         ["locations"] = {
-            ["S.S. Anne Deck - Sailor Edmond Reward"] = {
+            ["S.S. Anne Deck - Sailor Trevor Reward"] = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
@@ -6373,7 +6376,7 @@ REGION_DATA = {
             },
             ["Power Plant - Legendary Pokemon"] = {
                 ["access"] = function()
-                    return hidden_access()
+                    return AccessibilityLevel.Normal
                 end
             }
         }
@@ -6382,7 +6385,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Pokemon Tower 1F (Near Stairs)"] = {
                 ["access"] = function()
-                    if has("tower_blocked_off") or has("silph_scope") then
+                    if has("block_tower_off") or has("silph_scope") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -6403,7 +6406,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Pokemon Tower 1F"] = {
                 ["access"] = function()
-                    if has("tower_blocked_off") or has("silph_scope") then
+                    if has("block_tower_off") or has("silph_scope") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -6560,7 +6563,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Pokemon Tower 6F (Near Stairs)"] = {
                 ["access"] = function()
-                    if has("tower_blocked_on") or has("silph_scope") then
+                    if has("block_tower_on") or has("silph_scope") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -6597,7 +6600,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Pokemon Tower 6F"] = {
                 ["access"] = function()
-                    if has("tower_blocked_on") or has("silph_scope") then
+                    if has("block_tower_on") or has("silph_scope") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -8174,7 +8177,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Silph Co. 7F (Southeast)"] = {
+            ["Silph Co. 7F (Southeast Room)"] = {
                 ["access"] = function()
                     if has("card_key") or has("card_key_7f") then
                         return AccessibilityLevel.Normal
@@ -8225,7 +8228,6 @@ REGION_DATA = {
         }
     },
     ["Silph Co. 7F (Center Room)"] = {
-
     },
     ["Silph Co. 7F (Northwest Room)"] = {
         ["warps"] = {
@@ -8653,7 +8655,7 @@ REGION_DATA = {
     },
     ["Silph Co. 11F (President's Room)"] = {
         ["locations"] = {
-            ["Silph Co. 11F - Giovanni Reward"] = {
+            ["Silph Co. 11F - Giovanni"] = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
@@ -9137,7 +9139,7 @@ REGION_DATA = {
     ["Seafoam Islands B3F (South Water)"] = {
         ["map"] = "Seafoam Islands B3F",
         ["water"] = function()
-            seafoam_b3f_current_access()
+            return seafoam_b3f_current_access()
         end,
         ["fishing"] = {
             ["old_rod"] = function()
@@ -9357,7 +9359,9 @@ REGION_DATA = {
     },
     ["Seafoam Islands B4F (West Water)"] = {
         ["map"] = "Seafoam Islands B4F",
-        ["water"] = seafoam_b4f_current_access(),
+        ["water"] = function()
+            return seafoam_b4f_current_access()
+        end,
         ["fishing"] = {
             ["old_rod"] = function()
                 return and_access(seafoam_b4f_current_access(), fishing_access(1))
@@ -12704,7 +12708,7 @@ REGION_DATA = {
         }
     },
     ["Treasure Beach (Water)"] = {
-        ["maps"] = "Treasure Beach",
+        ["map"] = "Treasure Beach",
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
@@ -12735,7 +12739,7 @@ REGION_DATA = {
         }
     },
     ["Treasure Beach"] = {
-        ["maps"] = "Treasure Beach",
+        ["map"] = "Treasure Beach",
         ["land"] = function()
             return AccessibilityLevel.Normal
         end,
@@ -12759,7 +12763,7 @@ REGION_DATA = {
         }
     },
     ["Kindle Road (South)"] = {
-        ["maps"] = "Kindle Road",
+        ["map"] = "Kindle Road",
         ["fishing"] = {
             ["old_rod"] = function()
                 return fishing_access(1)
@@ -12788,7 +12792,7 @@ REGION_DATA = {
         }
     },
     ["Kindle Road (South Water)"] = {
-        ["maps"] = "Kindle Road",
+        ["map"] = "Kindle Road",
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
@@ -12829,7 +12833,7 @@ REGION_DATA = {
         }
     },
     ["Kindle Road (Center)"] = {
-        ["maps"] = "Kindle Road",
+        ["map"] = "Kindle Road",
         ["land"] = function()
             return AccessibilityLevel.Normal
         end,
@@ -12887,7 +12891,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Kindle Road - Crush Girl Tanya Reward (R4)"] = {
+            ["Kindle Road - Crush Girl Tanya Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -12895,7 +12899,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Kindle Road - Crush Girl Tanya Reward (R5)"] = {
+            ["Kindle Road - Crush Girl Tanya Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -12926,7 +12930,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Kindle Road - Crush Kin Mik & Kia Reward (R4)"] = {
+            ["Kindle Road - Crush Kin Mik & Kia Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -12934,7 +12938,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Kindle Road - Crush Kin Mik & Kia Reward (R5)"] = {
+            ["Kindle Road - Crush Kin Mik & Kia Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -12947,7 +12951,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Kindle Road - Black Belt Hugh Reward (R4)"] = {
+            ["Kindle Road - Black Belt Hugh Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -12955,7 +12959,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Kindle Road - Black Belt Hugh Reward (R5)"] = {
+            ["Kindle Road - Black Belt Hugh Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -12968,7 +12972,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Kindle Road - Crush Girl Sharon Reward (R4)"] = {
+            ["Kindle Road - Crush Girl Sharon Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -12976,7 +12980,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Kindle Road - Crush Girl Sharon Reward (R5)"] = {
+            ["Kindle Road - Crush Girl Sharon Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -12987,7 +12991,7 @@ REGION_DATA = {
         }
     },
     ["Kindle Road (North Water)"] = {
-        ["maps"] = "Kindle Road",
+        ["map"] = "Kindle Road",
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
@@ -13020,7 +13024,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Kindle Road - Swimmer Finn Reward (R4)"] = {
+            ["Kindle Road - Swimmer Finn Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -13041,7 +13045,7 @@ REGION_DATA = {
         }
     },
     ["Kindle Road (North)"] = {
-        ["maps"] = "Kindle Road",
+        ["map"] = "Kindle Road",
         ["fishing"] = {
             ["old_rod"] = function()
                 return fishing_access(1)
@@ -13109,7 +13113,7 @@ REGION_DATA = {
         },
         ["warps"] = {
             ["Two Island Harbor Exit"] = {
-                ["connected_region"] = "Two Island",
+                ["connected_region"] = "Two Island Town",
                 ["shuffled"] = shuffle_harbors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
@@ -13211,7 +13215,7 @@ REGION_DATA = {
     ["Two Island Game Corner"] = {
         ["warps"] = {
             ["Two Island Game Corner Exit"] = {
-                ["connected_region"] = "Two Island",
+                ["connected_region"] = "Two Island Town",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
@@ -13232,7 +13236,7 @@ REGION_DATA = {
     ["Move Maniac's House"] = {
         ["warps"] = {
             ["Move Maniac's House Exit"] = {
-                ["connected_region"] = "Two Island",
+                ["connected_region"] = "Two Island Town",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
@@ -13294,7 +13298,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end 
             },
-            ["Two Island"] = {
+            ["Two Island Town"] = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
@@ -13739,7 +13743,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Bond Bridge - Twins Joy & Meg Reward (R4)"] = {
+            ["Bond Bridge - Twins Joy & Meg Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -13762,7 +13766,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Bond Bridge - Tuber Amira Reward (R4)"] = {
+            ["Bond Bridge - Tuber Amira Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -13836,7 +13840,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Four Island Harbor (Visit)"] = {
+            ["Four Island Town (Visit)"] = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
@@ -14350,7 +14354,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Five Isle Meadow -  North Team Rocket Grunt Reward"] = {
+            ["Five Isle Meadow - North Team Rocket Grunt Reward"] = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
@@ -14439,7 +14443,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Memorial Pillar - Bird Keeper Milo Reward (R5)"] = {
+            ["Memorial Pillar - Bird Keeper Milo Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -14447,7 +14451,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Memorial Pillar - Tall Grass South Hidden Item"] = {
+            ["Memorial Pillar - Tall Grass North Hidden Item"] = {
                 ["access"] = function()
                     return hidden_access()
                 end
@@ -14515,6 +14519,11 @@ REGION_DATA = {
             end
         },
         ["locations"] = {
+            ["Water Labyrinth - Pokemon Egg"] = {
+                ["access"] = function()
+                    return AccessibilityLevel.Normal
+                end
+            },
             ["Water Labyrinth - Gentleman Info"] = {
                 ["access"] = function()
                     if fame() and (has("togepi") or has("togetic")) then
@@ -14528,7 +14537,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Memorial Pillar - Pokemon Breeder Alize Reward (R5)"] = {
+            ["Water Labyrinth - Pokemon Breeder Alize Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -14577,7 +14586,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Resort Gorgeous - Painter Rayna Reward (R5)"] = {
+            ["Resort Gorgeous - Painter Rayna Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -14645,7 +14654,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Resort Gorgeous - Youngster Destin Reward (R5)"] = {
+            ["Resort Gorgeous - Youngster Destin Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -14918,7 +14927,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Water Path - Hiker Earl Reward (R5)"] = {
+            ["Water Path - Hiker Earl Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -14972,7 +14981,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Water Path - Swimmer Samir Reward (R5)"] = {
+            ["Water Path - Swimmer Samir Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15095,7 +15104,7 @@ REGION_DATA = {
                     if has("heracross") then
                         return pokedex_access()
                     end
-                    return AccessibilityLevel.None
+                    return AccessibilityLevel.Inspect
                 end
             }
         }
@@ -15173,7 +15182,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Ruin Valley - PokeManiac Hector Reward (R5)"] = {
+            ["Ruin Valley - PokeManiac Hector Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15181,7 +15190,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Ruin Valley - Ruin Maniac Larry Reward (R5)"] = {
+            ["Ruin Valley - Ruin Maniac Larry Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15291,7 +15300,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Green Path - Psychic Jaclyn Reward (R5)"] = {
+            ["Green Path - Psychic Jaclyn Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15340,7 +15349,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Outcast Island - Swimmer Nicole Reward (R5)"] = {
+            ["Outcast Island - Swimmer Nicole Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15605,7 +15614,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Canyon Entrance - Juggler Mason Reward (R5)"] = {
+            ["Canyon Entrance - Juggler Mason Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15618,7 +15627,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Canyon Entrance - Pokemon Ranger Nicolas Reward (R5)"] = {
+            ["Canyon Entrance - Pokemon Ranger Nicolas Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15631,7 +15640,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Canyon Entrance - Pokemon Ranger Madeline Reward (R5)"] = {
+            ["Canyon Entrance - Pokemon Ranger Madeline Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15696,7 +15705,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Sevault Canyon - Cool Couple Lex & Nya Reward (R5)"] = {
+            ["Sevault Canyon - Cool Couple Lex & Nya Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15714,7 +15723,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Sevault Canyon - Tamer Evan Reward (R5)"] = {
+            ["Sevault Canyon - Tamer Evan Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15735,7 +15744,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Sevault Canyon - Pokemon Ranger Jackson Reward (R5)"] = {
+            ["Sevault Canyon - Pokemon Ranger Jackson Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15748,7 +15757,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Sevault Canyon - Pokemon Ranger Katelyn Reward (R5)"] = {
+            ["Sevault Canyon - Pokemon Ranger Katelyn Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15761,7 +15770,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Sevault Canyon - Crush Girl Cyndy Reward (R5)"] = {
+            ["Sevault Canyon - Crush Girl Cyndy Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15782,7 +15791,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Sevault Canyon - Cooltrainer Leroy Reward (R5)"] = {
+            ["Sevault Canyon - Cooltrainer Leroy Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -15795,7 +15804,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Sevault Canyon - Cooltrainer Michelle Reward (R5)"] = {
+            ["Sevault Canyon - Cooltrainer Michelle Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -16260,7 +16269,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Trainer Tower Exterior - Psychic Rodette Reward (R5)"] = {
+            ["Trainer Tower Exterior - Psychic Rodette Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -16278,7 +16287,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Trainer Tower Exterior - Psychic Dario Reward (R5)"] = {
+            ["Trainer Tower Exterior - Psychic Dario Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -17101,7 +17110,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 3 - Lass Janice Reward (R1)"] = {
+            ["Route 3 - Lass Janice Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -17109,7 +17118,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 3 - Lass Janice Reward (R3)"] = {
+            ["Route 3 - Lass Janice Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -17122,7 +17131,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 3 - Bug Catcher Colton Reward (R1)"] = {
+            ["Route 3 - Bug Catcher Colton Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -17130,7 +17139,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 3 - Bug Catcher Colton Reward (R3)"] = {
+            ["Route 3 - Bug Catcher Colton Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -17138,7 +17147,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 3 - Bug Catcher Colton Reward (R5)"] = {
+            ["Route 3 - Bug Catcher Colton Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -17151,7 +17160,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 3 - Youngster Ben Reward (R1)"] = {
+            ["Route 3 - Youngster Ben Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -17159,7 +17168,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 3 - Youngster Ben Reward (R3)"] = {
+            ["Route 3 - Youngster Ben Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -17167,7 +17176,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 3 - Youngster Ben Reward (R4)"] = {
+            ["Route 3 - Youngster Ben Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -17298,7 +17307,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -17307,6 +17317,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Route 4 (Northeast)"] = {
         ["exits"] = {
@@ -17661,7 +17672,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 6 - Camper Ricky Reward (R1)"] = {
+            ["Route 6 - Camper Ricky Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -17669,7 +17680,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 6 - Camper Ricky Reward (R3)"] = {
+            ["Route 6 - Camper Ricky Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -17677,7 +17688,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 6 - Camper Ricky Reward (R5)"] = {
+            ["Route 6 - Camper Ricky Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -17690,7 +17701,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 6 - Picnicker Isabelle Reward (R1)"] = {
+            ["Route 6 - Picnicker Isabelle Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -17698,7 +17709,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 6 - Picnicker Isabelle Reward (R3)"] = {
+            ["Route 6 - Picnicker Isabelle Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -17706,7 +17717,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 6 - Picnicker Isabelle Reward (R4)"] = {
+            ["Route 6 - Picnicker Isabelle Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -17999,7 +18010,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 8 - Gamer Rich Reward (R3)"] = {
+            ["Route 8 - Gamer Rich Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18012,7 +18023,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 8 - Super Nerd Glenn Reward (R3)"] = {
+            ["Route 8 - Super Nerd Glenn Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18025,7 +18036,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 8 - Twins Eli & Anne Reward (R3)"] = {
+            ["Route 8 - Twins Eli & Anne Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18033,7 +18044,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 8 - Lass Megan Reward (R2)"] = {
+            ["Route 8 - Lass Megan Rematch Reward (2 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_2() then
                         return AccessibilityLevel.Normal
@@ -18041,7 +18052,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 8 - Lass Megan Reward (R4)"] = {
+            ["Route 8 - Lass Megan Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -18054,7 +18065,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 8 - Biker Jaren Reward (R3)"] = {
+            ["Route 8 - Biker Jaren Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18165,7 +18176,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 9 - Picnicker Alicia Reward (R2)"] = {
+            ["Route 9 - Picnicker Alicia Rematch Reward (2 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_2() then
                         return AccessibilityLevel.Normal
@@ -18173,7 +18184,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 9 - Picnicker Alicia Reward (R3)"] = {
+            ["Route 9 - Picnicker Alicia Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18181,7 +18192,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 9 - Picnicker Alicia Reward (R5)"] = {
+            ["Route 9 - Picnicker Alicia Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -18225,7 +18236,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 9 - Hiker Jeremy Reward (R3)"] = {
+            ["Route 9 - Hiker Jeremy Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18238,7 +18249,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 9 - Camper Chris Reward (R2)"] = {
+            ["Route 9 - Camper Chris Rematch Reward (2 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_2() then
                         return AccessibilityLevel.Normal
@@ -18246,7 +18257,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 9 - Camper Chris Reward (R3)"] = {
+            ["Route 9 - Camper Chris Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18254,7 +18265,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 9 - Camper Chris Reward (R5)"] = {
+            ["Route 9 - Camper Chris Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -18424,7 +18435,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 10 - PokeManiac Herman Reward (R3)"] = {
+            ["Route 10 - PokeManiac Herman Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18432,7 +18443,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 10 - PokeManiac Herman Reward (R5)"] = {
+            ["Route 10 - PokeManiac Herman Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -18440,7 +18451,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 10 - Hiker Clark Reward (R3)"] = {
+            ["Route 10 - Hiker Trent Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18480,7 +18491,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Rotue 10 (Near Power Plant)"] = {
+            ["Route 10 (Near Power Plant)"] = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
@@ -18568,7 +18579,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 10 - PokeManiac Mark Reward (R3)"] = {
+            ["Route 10 - PokeManiac Mark Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18576,7 +18587,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 10 - PokeManiac Mark Reward (R5)"] = {
+            ["Route 10 - PokeManiac Mark Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -18732,7 +18743,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 11 - Engineer Bernie Reward (R3)"] = {
+            ["Route 11 - Engineer Bernie Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18740,7 +18751,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 11 - Youngster Yasu Reward (R2)"] = {
+            ["Route 11 - Youngster Yasu Rematch Reward (2 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_2() then
                         return AccessibilityLevel.Normal
@@ -18748,7 +18759,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 11 - Youngster Yasu Reward (R4)"] = {
+            ["Route 11 - Youngster Yasu Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -18756,7 +18767,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 11 - Gamer Darian Reward (R3)"] = {
+            ["Route 11 - Gamer Darian Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18982,7 +18993,7 @@ REGION_DATA = {
                     return hidden_access()
                 end
             },
-            ["Route 12 - Fisherman Elliot Reward (R3)"] = {
+            ["Route 12 - Fisherman Elliot Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -18998,7 +19009,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 12 - Young Couple Gia & Jes Reward (R3)"] = {
+            ["Route 12 - Young Couple Gia & Jes Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -19006,7 +19017,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 12 - Young Couple Gia & Jes Reward (R5)"] = {
+            ["Route 12 - Young Couple Gia & Jes Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -19159,7 +19170,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 12 - Rocker Luca Reward (R3)"] = {
+            ["Route 12 - Rocker Luca Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -19362,7 +19373,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 13 - Picnicker Susie Reward (R3)"] = {
+            ["Route 13 - Picnicker Susie Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -19370,7 +19381,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 13 - Picnicker Susie Reward (R4)"] = {
+            ["Route 13 - Picnicker Susie Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19378,7 +19389,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 13 - Picnicker Susie Reward (R5)"] = {
+            ["Route 13 - Picnicker Susie Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -19391,7 +19402,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 13 - Beauty Sheila Reward (R4)"] = {
+            ["Route 13 - Beauty Sheila Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19404,7 +19415,7 @@ REGION_DATA = {
                     return hidden_access()
                 end
             },
-            ["Route 13 - Bird Keeper Robert Reward (R3)"] = {
+            ["Route 13 - Bird Keeper Robert Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -19412,7 +19423,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 13 - Bird Keeper Robert Reward (R4)"] = {
+            ["Route 13 - Bird Keeper Robert Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19429,7 +19440,9 @@ REGION_DATA = {
     },
     ["Route 13 (Behind Tree)"] = {
         ["map"] = "Route 13",
-        ["land"] = AccessibilityLevel.Normal
+        ["land"] = function()
+            return AccessibilityLevel.Normal
+        end
     },
     ["Route 13 (Water)"] = {
         ["map"] = "Route 13",
@@ -19495,7 +19508,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 14 - Bird Keeper Marlon Reward (R3)"] = {
+            ["Route 14 - Bird Keeper Marlon Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -19503,7 +19516,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 14 - Bird Keeper Marlon Reward (R4)"] = {
+            ["Route 14 - Bird Keeper Marlon Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19529,7 +19542,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 14 - Biker Lukas Reward (R4)"] = {
+            ["Route 14 - Biker Lukas Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19592,7 +19605,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 15 - Beauty Grace Reward (R4)"] = {
+            ["Route 15 - Beauty Grace Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19610,7 +19623,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 15 - Bird Keeper Chester Reward (R3)"] = {
+            ["Route 15 - Bird Keeper Chester Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -19618,7 +19631,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 15 - Bird Keeper Chester Reward (R4)"] = {
+            ["Route 15 - Bird Keeper Chester Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19635,7 +19648,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 15 - Picnicker Becky Reward (R3)"] = {
+            ["Route 15 - Picnicker Becky Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -19643,7 +19656,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 15 - Picnicker Becky Reward (R4)"] = {
+            ["Route 15 - Picnicker Becky Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19651,7 +19664,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 15 - Picnicker Becky Reward (R5)"] = {
+            ["Route 15 - Picnicker Becky Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -19667,7 +19680,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 15 - Crush Kin Ron & Mya Reward (R3)"] = {
+            ["Route 15 - Crush Kin Ron & Mya Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -19675,7 +19688,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 15 - Crush Kin Ron & Mya Reward (R4)"] = {
+            ["Route 15 - Crush Kin Ron & Mya Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -19683,7 +19696,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 15 - Crush Kin Ron & Mya Reward (R5)"] = {
+            ["Route 15 - Crush Kin Ron & Mya Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -19926,7 +19939,7 @@ REGION_DATA = {
                     return cycling_road_access()
                 end
             },
-            ["Route 16 - Biker Ruben Reward (R4)"] = {
+            ["Route 16 - Biker Ruben Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return cycling_road_access()
@@ -20038,7 +20051,7 @@ REGION_DATA = {
                     return cycling_road_access()
                 end
             },
-            ["Route 17 - Cue Ball Isaiah Reward (R4)"] = {
+            ["Route 17 - Cue Ball Isaiah Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return cycling_road_access()
@@ -20098,7 +20111,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 18 - Bird Keeper Jacob Reward (R3)"] = {
+            ["Route 18 - Bird Keeper Jacob Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -20106,7 +20119,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 18 - Bird Keeper Jacob Reward (R4)"] = {
+            ["Route 18 - Bird Keeper Jacob Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -20229,7 +20242,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 19 - Swimmer Tony Reward (R4)"] = {
+            ["Route 19 - Swimmer Tony Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -20250,7 +20263,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 19 - Swimmer Alice Reward (R4)"] = {
+            ["Route 19 - Swimmer Alice Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -20294,7 +20307,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 20 - Swimmer Darrin Reward (R5)"] = {
+            ["Route 20 - Swimmer Darrin Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -20366,7 +20379,7 @@ REGION_DATA = {
             end
         },
         ["exits"] = {
-            ["Rotue 20 (West)"] = {
+            ["Route 20 (West)"] = {
                 ["access"] = function()
                     if surf() then
                         return AccessibilityLevel.Normal
@@ -20426,7 +20439,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 20 - Swimmer Melissa Reward (R4)"] = {
+            ["Route 20 - Swimmer Melissa Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -20439,7 +20452,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 20 - Picnicker Missy Reward (R4)"] = {
+            ["Route 20 - Picnicker Missy Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -20447,7 +20460,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 20 - Picnicker Missy Reward (R5)"] = {
+            ["Route 20 - Picnicker Missy Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -20538,7 +20551,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 21 - Fisherman Wade Reward (R4)"] = {
+            ["Route 21 - Fisherman Wade Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -20554,7 +20567,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 21 - Sis and Bro Lil & Ian Reward (R4)"] = {
+            ["Route 21 - Sis and Bro Lil & Ian Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -20562,7 +20575,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 21 - Sis and Bro Lil & Ian Reward (R5)"] = {
+            ["Route 21 - Sis and Bro Lil & Ian Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if double_battle() and trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -20580,7 +20593,7 @@ REGION_DATA = {
                     return hidden_access()
                 end
             },
-            ["Route 21 - Swimmer Jack Reward (R4)"] = {
+            ["Route 21 - Swimmer Jack Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -21031,7 +21044,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 24 - Youngster Timmy Reward (R1)"] = {
+            ["Route 24 - Youngster Timmy Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -21039,7 +21052,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 24 - Youngster Timmy Reward (R3)"] = {
+            ["Route 24 - Youngster Timmy Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -21047,7 +21060,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 24 - Youngster Timmy Reward (R5)"] = {
+            ["Route 24 - Youngster Timmy Rematch Reward (8 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_5() then
                         return AccessibilityLevel.Normal
@@ -21055,7 +21068,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 24 - Lass Reli Reward (R1)"] = {
+            ["Route 24 - Lass Reli Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -21063,7 +21076,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 24 - Lass Reli Reward (R3)"] = {
+            ["Route 24 - Lass Reli Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -21168,7 +21181,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 25 - Hiker Franklin Reward (R2)"] = {
+            ["Route 25 - Hiker Franklin Rematch Reward (2 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_2() then
                         return AccessibilityLevel.Normal
@@ -21191,7 +21204,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 25 - Picnicker Kelsey Reward (R1)"] = {
+            ["Route 25 - Picnicker Kelsey Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -21199,7 +21212,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 25 - Picnicker Kelsey Reward (R3)"] = {
+            ["Route 25 - Picnicker Kelsey Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -21207,7 +21220,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 25 - Picnicker Kelsey Reward (R4)"] = {
+            ["Route 25 - Picnicker Kelsey Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal
@@ -21228,7 +21241,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 25 - Youngster Chad Reward (R1)"] = {
+            ["Route 25 - Youngster Chad Rematch Reward"] = {
                 ["access"] = function()
                     if trainer_rematch_1() then
                         return AccessibilityLevel.Normal
@@ -21236,7 +21249,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 25 - Youngster Chad Reward (R3)"] = {
+            ["Route 25 - Youngster Chad Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_3() then
                         return AccessibilityLevel.Normal
@@ -21244,7 +21257,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 25 - Youngster Chad Reward (R4)"] = {
+            ["Route 25 - Youngster Chad Rematch Reward (6 Badges/Gyms)"] = {
                 ["access"] = function()
                     if trainer_rematch_4() then
                         return AccessibilityLevel.Normal

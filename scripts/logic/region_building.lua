@@ -1,4 +1,5 @@
 access_per_region = {}
+access_per_entrance = {}
 access_per_location = {}
 changed_access = true
 
@@ -9,12 +10,20 @@ function invalidate_regions()
     end
 end
 
+function invalidate_entrances()
+    access_per_entrance = {}
+end
+
 function invalidate_locations()
     access_per_location = {}
 end
 
 function set_region_access(region, new_access, from_access)
     local old_access = access_per_region[region]
+
+    if old_access == nil then
+        print(region)
+    end
 
     if ACCESS_LEVEL[from_access] < ACCESS_LEVEL[new_access] then
         new_access = from_access
@@ -23,6 +32,18 @@ function set_region_access(region, new_access, from_access)
     if ACCESS_LEVEL[old_access] < ACCESS_LEVEL[new_access] then
         access_per_region[region] = new_access
         changed_access = true
+    end
+end
+
+function set_entrance_access(entrance, new_access, from_access)
+    local old_access = access_per_entrance[entrance] or AccessibilityLevel.None
+
+    if ACCESS_LEVEL[from_access] < ACCESS_LEVEL[new_access] then
+        new_access = from_access
+    end
+    
+    if ACCESS_LEVEL[old_access] < ACCESS_LEVEL[new_access] then
+        access_per_entrance[entrance] = new_access
     end
 end
 
@@ -41,6 +62,7 @@ end
 
 function update_region_connections()
     invalidate_regions()
+    invalidate_entrances()
     invalidate_locations()
 
     access_per_region["Title Screen"] = AccessibilityLevel.Normal
@@ -61,6 +83,9 @@ function update_region_connections()
                 end
 
                 if region_data["land"] ~= nil then
+                    if region_data["map"] == nil then
+                        print(region)
+                    end
                     local location = region_data["map"] .. " Land"
                     local new_access = region_data["land"]()
 
@@ -68,6 +93,9 @@ function update_region_connections()
                 end
 
                 if region_data["water"] ~= nil then
+                    if region_data["map"] == nil then
+                        print(region)
+                    end
                     local location = region_data["map"] .. " Water"
                     local new_access = region_data["water"]()
 
@@ -75,6 +103,9 @@ function update_region_connections()
                 end
 
                 if region_data["fishing"] ~= nil then
+                    if region_data["map"] == nil then
+                        print(region)
+                    end
                     local old_rod_location = region_data["map"] .. " Old Rod"
                     local good_rod_location = region_data["map"] .. " Good Rod"
                     local super_rod_location = region_data["map"] .. " Super Rod"
@@ -105,12 +136,13 @@ function update_region_connections()
                         end
 
                         set_region_access(connected_region, new_access, access)
+                        set_entrance_access(warp, new_access, access)
                     end
                 end
             end
         end
     end
-    print(dump_table(access_per_location))
+    -- print(dump_table(access_per_location))
 end
 
 function region_access(region)
@@ -118,6 +150,13 @@ function region_access(region)
         return AccessibilityLevel.None
     end
     return access_per_region[region]
+end
+
+function entrance_access(entrance)
+    if access_per_entrance[entrance] == nil then
+        return AccessibilityLevel.None
+    end
+    return access_per_entrance[entrance]
 end
 
 function location_access(location)
