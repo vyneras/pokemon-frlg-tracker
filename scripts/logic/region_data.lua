@@ -180,6 +180,7 @@ REGION_DATA = {
             ["Pallet Town Fly Destination"] = {
                 ["connected_region"] = "Pallet Town",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_pallet",
                 ["access"] = function()
                     if fly("pallet_town") then
                         return AccessibilityLevel.Normal
@@ -190,6 +191,7 @@ REGION_DATA = {
             ["Viridian City Fly Destination"] = {
                 ["connected_region"] = "Viridian City (South)",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_viridian",
                 ["access"] = function()
                     if fly("viridian_city") then
                         return AccessibilityLevel.Normal
@@ -200,6 +202,7 @@ REGION_DATA = {
             ["Pewter City Fly Destination"] = {
                 ["connected_region"] = "Pewter City",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_pewter",
                 ["access"] = function()
                     if fly("pewter_city") then
                         return AccessibilityLevel.Normal
@@ -210,6 +213,7 @@ REGION_DATA = {
             ["Route 4 Fly Destination"] = {
                 ["connected_region"] = "Route 4 (West)",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_route_4",
                 ["access"] = function()
                     if fly("route_4") then
                         return AccessibilityLevel.Normal
@@ -220,6 +224,7 @@ REGION_DATA = {
             ["Cerulean City Fly Destination"] = {
                 ["connected_region"] = "Cerulean City",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_cerulean",
                 ["access"] = function()
                     if fly("cerulean_city") then
                         return AccessibilityLevel.Normal
@@ -230,6 +235,7 @@ REGION_DATA = {
             ["Vermilion City Fly Destination"] = {
                 ["connected_region"] = "Vermilion City",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_vermilion",
                 ["access"] = function()
                     if fly("vermilion_city") then
                         return AccessibilityLevel.Normal
@@ -240,6 +246,7 @@ REGION_DATA = {
             ["Route 10 Fly Destination"] = {
                 ["connected_region"] = "Route 10 (North)",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_route_10",
                 ["access"] = function()
                     if fly("route_10") then
                         return AccessibilityLevel.Normal
@@ -250,6 +257,7 @@ REGION_DATA = {
             ["Lavender Town Fly Destination"] = {
                 ["connected_region"] = "Lavender Town",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_lavender",
                 ["access"] = function()
                     if fly("lavender_town") then
                         return AccessibilityLevel.Normal
@@ -260,6 +268,7 @@ REGION_DATA = {
             ["Celadon City Fly Destination"] = {
                 ["connected_region"] = "Celadon City",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_celadon",
                 ["access"] = function()
                     if fly("celadon_city") then
                         return AccessibilityLevel.Normal
@@ -270,6 +279,7 @@ REGION_DATA = {
             ["Fuchsia City Fly Destination"] = {
                 ["connected_region"] = "Fuchsia City",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_fuchsia",
                 ["access"] = function()
                     if fly("fuchsia_city") then
                         return AccessibilityLevel.Normal
@@ -280,6 +290,7 @@ REGION_DATA = {
             ["Saffron City Fly Destination"] = {
                 ["connected_region"] = "Saffron City",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_saffron",
                 ["access"] = function()
                     if fly("saffron_city") then
                         return AccessibilityLevel.Normal
@@ -290,6 +301,7 @@ REGION_DATA = {
             ["Cinnabar Island Fly Destination"] = {
                 ["connected_region"] = "Cinnabar Island",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_cinnabar",
                 ["access"] = function()
                     if fly("cinnabar_island") then
                         return AccessibilityLevel.Normal
@@ -300,6 +312,7 @@ REGION_DATA = {
             ["Indigo Plateau Fly Destination"] = {
                 ["connected_region"] = "Indigo Plateau",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_indigo",
                 ["access"] = function()
                     if fly("indigo_plateau") then
                         return AccessibilityLevel.Normal
@@ -310,6 +323,7 @@ REGION_DATA = {
             ["One Island Fly Destination"] = {
                 ["connected_region"] = "One Island Town",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_one_island",
                 ["access"] = function()
                     if fly("one_island") then
                         return AccessibilityLevel.Normal
@@ -320,6 +334,7 @@ REGION_DATA = {
             ["Two Island Fly Destination"] = {
                 ["connected_region"] = "Two Island Town",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_two_island",
                 ["access"] = function()
                     if fly("two_island") then
                         return AccessibilityLevel.Normal
@@ -330,6 +345,7 @@ REGION_DATA = {
             ["Three Island Fly Destination"] = {
                 ["connected_region"] = "Three Island Town (South)",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_three_island",
                 ["access"] = function()
                     if fly("three_island") then
                         return AccessibilityLevel.Normal
@@ -340,6 +356,7 @@ REGION_DATA = {
             ["Four Island Fly Destination"] = {
                 ["connected_region"] = "Four Island Town",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_four_island",
                 ["access"] = function()
                     if fly("four_island") then
                         return AccessibilityLevel.Normal
@@ -350,6 +367,7 @@ REGION_DATA = {
             ["Five Island Fly Destination"] = {
                 ["connected_region"] = "Five Island Town",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_five_island",
                 ["access"] = function()
                     if fly("five_island") then
                         return AccessibilityLevel.Normal
@@ -360,6 +378,7 @@ REGION_DATA = {
             ["Six Island Fly Destination"] = {
                 ["connected_region"] = "Six Island Town",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_six_island",
                 ["access"] = function()
                     if fly("six_island") then
                         return AccessibilityLevel.Normal
@@ -370,6 +389,7 @@ REGION_DATA = {
             ["Seven Island Fly Destination"] = {
                 ["connected_region"] = "Seven Island Town",
                 ["shuffled"] = randomize_fly_destinations,
+                ["image"] = "fly_seven_island",
                 ["access"] = function()
                     if fly("seven_island") then
                         return AccessibilityLevel.Normal
@@ -1009,7 +1029,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Pewter Museum Entrance (West)"] = {
+            ["Pewter Museum West Entrance"] = {
                 ["connected_region"] = "Pewter Museum 1F (West)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -1123,7 +1143,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Pewter Museum Entrance (East)"] = {
+            ["Pewter Museum East Entrance"] = {
                 ["connected_region"] = "Pewter Museum 1F (East)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -1143,7 +1163,7 @@ REGION_DATA = {
     },
     ["Pewter Museum 1F (West)"] = {
         ["warps"] = {
-            ["Pewter Museum 1F Exit (West)"] = {
+            ["Pewter Museum 1F West Exit"] = {
                 ["connected_region"] = "Pewter City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -1161,7 +1181,7 @@ REGION_DATA = {
     },
     ["Pewter Museum 1F (East)"] = {
         ["warps"] = {
-            ["Pewter Museum 1F Exit (East)"] = {
+            ["Pewter Museum 1F East Exit"] = {
                 ["connected_region"] = "Pewter City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -1330,14 +1350,14 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Badge Guy's House Entrance (Front)"] = {
+            ["Badge Guy's House Front Entrance"] = {
                 ["connected_region"] = "Badge Guy's House",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Robbed House Entrance (Front)"] = {
+            ["Robbed House Front Entrance"] = {
                 ["connected_region"] = "Robbed House",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -1433,7 +1453,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Badge Guy's House Entrance (Back)"] = {
+            ["Badge Guy's House Back Entrance"] = {
                 ["connected_region"] = "Badge Guy's House",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -1479,7 +1499,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Robbed House Entrance (Back)"] = {
+            ["Robbed House Back Entrance"] = {
                 ["connected_region"] = "Robbed House",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -1586,14 +1606,14 @@ REGION_DATA = {
     },
     ["Badge Guy's House"] = {
         ["warps"] = {
-            ["Badge Guy's House Exit (Front)"] = {
+            ["Badge Guy's House Front Exit"] = {
                 ["connected_region"] = "Cerulean City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Badge Guy's House Exit (Back)"] = {
+            ["Badge Guy's House Back Exit"] = {
                 ["connected_region"] = "Cerulean City (Backyard)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -1604,14 +1624,14 @@ REGION_DATA = {
     },
     ["Robbed House"] = {
         ["warps"] = {
-            ["Robbed House Exit (Front)"] = {
+            ["Robbed House Front Exit"] = {
                 ["connected_region"] = "Cerulean City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Robbed House Exit (Back)"] = {
+            ["Robbed House Back Exit"] = {
                 ["connected_region"] = "Cerulean City (Outskirts)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -2502,21 +2522,21 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Celadon Department Store Entrance (West)"] = {
+            ["Celadon Department Store West Entrance"] = {
                 ["connected_region"] = "Celadon Department Store 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Celadon Department Store Entrance (East)"] = {
+            ["Celadon Department Store East Entrance"] = {
                 ["connected_region"] = "Celadon Department Store 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Celadon Condominiums Entrance (Front)"] = {
+            ["Celadon Condominiums Front Entrance"] = {
                 ["connected_region"] = "Celadon Condominiums 1F (Front)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -2558,7 +2578,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Celadon Condominiums Entrance (Back)"] = {
+            ["Celadon Condominiums Back Entrance"] = {
                 ["connected_region"] = "Celadon Condominiums 1F (Back)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -2711,14 +2731,14 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Celadon Department Store 1F Exit (West)"] = {
+            ["Celadon Department Store 1F West Exit"] = {
                 ["connected_region"] = "Celadon City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Celadon Department Store 1F Exit (East)"] = {
+            ["Celadon Department Store 1F East Exit"] = {
                 ["connected_region"] = "Celadon City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -2951,7 +2971,7 @@ REGION_DATA = {
     },
     ["Celadon Condominiums 1F (Front)"] = {
         ["warps"] = {
-            ["Celadon Condominiums 1F Exit (Front)"] = {
+            ["Celadon Condominiums 1F Front Exit"] = {
                 ["connected_region"] = "Celadon City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -3008,7 +3028,7 @@ REGION_DATA = {
     },
     ["Celadon Condominiums 1F (Back)"] = {
         ["warps"] = {
-            ["Celadon Condominiums 1F Exit (Back)"] = {
+            ["Celadon Condominiums 1F Back Exit"] = {
                 ["connected_region"] = "Celadon City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -3419,7 +3439,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Fuchsia Fishing House Entrance (Front)"] = {
+            ["Fuchsia Fishing House Front Entrance"] = {
                 ["connected_region"] = "Fuchsia Fishing House",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -3482,7 +3502,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Fuchsia Fishing House Entrance (Back)"] = {
+            ["Fuchsia Fishing House Back Entrance"] = {
                 ["connected_region"] = "Fuchsia Fishing House",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -3712,14 +3732,14 @@ REGION_DATA = {
     },
     ["Fuchsia Fishing House"] = {
         ["warps"] = {
-            ["Fuchsia Fishing House Exit (Front)"] = {
+            ["Fuchsia Fishing House Front Exit"] = {
                 ["connected_region"] = "Fuchsia City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Fuchsia Fishing House Exit (Back)"] = {
+            ["Fuchsia Fishing House Back Exit"] = {
                 ["connected_region"] = "Fuchsia City (Backyard)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -3823,28 +3843,28 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 7 Gate Entrance (East)"] = {
+            ["Route 7 Gate East Entrance"] = {
                 ["connected_region"] = "Route 7 Gate (East)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 5 Gate Entrance (South)"] = {
+            ["Route 5 Gate South Entrance"] = {
                 ["connected_region"] = "Route 5 Gate (South)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 8 Gate Entrance (West)"] = {
+            ["Route 8 Gate West Entrance"] = {
                 ["connected_region"] = "Route 8 Gate (West)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 6 Gate Entrance (North)"] = {
+            ["Route 6 Gate North Entrance"] = {
                 ["connected_region"] = "Route 6 Gate (North)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -4873,14 +4893,14 @@ REGION_DATA = {
     },
     ["Lorelei's Room"] = {
         ["warps"] = {
-            ["Lorelei's Room Exit (South)"] = {
+            ["Lorelei's Room South Exit"] = {
                 ["connected_region"] = "Indigo Plateau Pokemon Center 1F",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lorelei's Room Exit (North)"] = {
+            ["Lorelei's Room North Exit"] = {
                 ["connected_region"] = "Bruno's Room",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -4914,14 +4934,14 @@ REGION_DATA = {
     },
     ["Bruno's Room"] = {
         ["warps"] = {
-            ["Bruno's Room Exit (South)"] = {
+            ["Bruno's Room South Exit"] = {
                 ["connected_region"] = "Lorelei's Room",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Bruno's Room Exit (North)"] = {
+            ["Bruno's Room North Exit"] = {
                 ["connected_region"] = "Agatha's Room",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -4955,14 +4975,14 @@ REGION_DATA = {
     },
     ["Agatha's Room"] = {
         ["warps"] = {
-            ["Agatha's Room Exit (South)"] = {
+            ["Agatha's Room South Exit"] = {
                 ["connected_region"] = "Bruno's Room",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Agatha's Room Exit (North)"] = {
+            ["Agatha's Room North Exit"] = {
                 ["connected_region"] = "Lance's Room",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -4996,14 +5016,14 @@ REGION_DATA = {
     },
     ["Lance's Room"] = {
         ["warps"] = {
-            ["Lance's Room Exit (South)"] = {
+            ["Lance's Room South Exit"] = {
                 ["connected_region"] = "Agatha's Room",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lance's Room Exit (North)"] = {
+            ["Lance's Room North Exit"] = {
                 ["connected_region"] = "Champion's Room",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -5037,14 +5057,14 @@ REGION_DATA = {
     },
     ["Champion's Room"] = {
         ["warps"] = {
-            ["Champion's Room Exit (South)"] = {
+            ["Champion's Room South Exit"] = {
                 ["connected_region"] = "Lance's Room",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Champion's Room Exit (North)"] = {
+            ["Champion's Room North Exit"] = {
                 ["connected_region"] = "Hall of Fame",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -5092,14 +5112,14 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Viridian Forest Exit (South)"] = {
+            ["Viridian Forest South Exit"] = {
                 ["connected_region"] = "Viridian Forest South Gate",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Viridian Forest Exit (North)"] = {
+            ["Viridian Forest North Exit"] = {
                 ["connected_region"] = "Viridian Forest North Gate",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -6089,14 +6109,14 @@ REGION_DATA = {
     },
     ["Diglett's Cave 1F (South)"] = {
         ["warps"] = {
-            ["Diglett's Cave 1F Exit (South)"] = {
+            ["Diglett's Cave 1F South Exit"] = {
                 ["connected_region"] = "Route 11 (West)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Diglett's Cave 1F Ladder (South)"] = {
+            ["Diglett's Cave 1F South Ladder"] = {
                 ["connected_region"] = "Diglett's Cave B1F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -6136,14 +6156,14 @@ REGION_DATA = {
     },
     ["Diglett's Cave 1F (North)"] = {
         ["warps"] = {
-            ["Diglett's Cave 1F Ladder (North)"] = {
+            ["Diglett's Cave 1F North Ladder"] = {
                 ["connected_region"] = "Diglett's Cave B1F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Diglett's Cave 1F Exit (North)"] = {
+            ["Diglett's Cave 1F North Exit"] = {
                 ["connected_region"] = "Route 2 (Northeast)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -6348,14 +6368,14 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Power Plant Exit (Front)"] = {
+            ["Power Plant Front Exit"] = {
                 ["connected_region"] = "Route 10 (Near Power Plant)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Power Plant Exit (Back)"] = {
+            ["Power Plant Back Exit"] = {
                 ["connected_region"] = "Route 10 (Near Power Plant Back)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -6945,7 +6965,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Safari Zone Center Area Exit (South)"] = {
+            ["Safari Zone Center Area South Exit"] = {
                 ["connected_region"] = "Safari Zone Lobby",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -6959,7 +6979,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Safari Zone Center Area Exit (East)"] = {
+            ["Safari Zone Center Area East Exit"] = {
                 ["connected_region"] = "Safari Zone East Area",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -6995,7 +7015,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Safari Zone Center Area Exit (North)"] = {
+            ["Safari Zone Center Area North Exit"] = {
                 ["connected_region"] = "Safari Zone North Area",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -7031,7 +7051,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Safari Zone Center Area Exit (West)"] = {
+            ["Safari Zone Center Area West Exit"] = {
                 ["connected_region"] = "Safari Zone West Area (South)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -7113,14 +7133,14 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Safari Zone East Area Exit (West - Top)"] = {
+            ["Safari Zone East Area Northwest Exit"] = {
                 ["connected_region"] = "Safari Zone North Area",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Safari Zone East Area Exit (West - Bottom)"] = {
+            ["Safari Zone East Area Southwest Exit"] = {
                 ["connected_region"] = "Safari Zone Center Area (South)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -7185,28 +7205,28 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Safari Zone North Area Exit (South - Left)"] = {
+            ["Safari Zone North Area Southwest Exit"] = {
                 ["connected_region"] = "Safari Zone West Area (North)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Safari Zone North Area Exit (South - Center)"] = {
+            ["Safari Zone North Area South Exit"] = {
                 ["connected_region"] = "Safari Zone West Area (South)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Safari Zone North Area Exit (East)"] = {
+            ["Safari Zone North Area East Exit"] = {
                 ["connected_region"] = "Safari Zone East Area",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Safari Zone North Area Exit (South - Right)"] = {
+            ["Safari Zone North Area Southeast Exit"] = {
                 ["connected_region"] = "Safari Zone Center Area (Northeast)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -7271,14 +7291,14 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Safari Zone West Area Exit (North - Right)"] = {
+            ["Safari Zone West Area Northeast Exit"] = {
                 ["connected_region"] = "Safari Zone North Area",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Safari Zone West Area Exit (East)"] = {
+            ["Safari Zone West Area East Exit"] = {
                 ["connected_region"] = "Safari Zone Center Area (Northwest)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -7325,7 +7345,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Safari Zone West Area Exit (North - Left)"] = {
+            ["Safari Zone West Area Northwest Exit"] = {
                 ["connected_region"] = "Safari Zone North Area",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -8048,7 +8068,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Silph Co. 6F North Stairs"] = {
+            ["Silph Co. 6F Northwest Stairs"] = {
                 ["connected_region"] = "Silph Co. 7F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -8134,7 +8154,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Silph Co. 7F North Stairs"] = {
+            ["Silph Co. 7F Northwest Stairs"] = {
                 ["connected_region"] = "Silph Co. 6F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -8281,7 +8301,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Silph Co. 8F North Stairs"] = {
+            ["Silph Co. 8F Northwest Stairs"] = {
                 ["connected_region"] = "Silph Co. 9F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -8779,7 +8799,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Seafoam Islands 1F Exit (West)"] = {
+            ["Seafoam Islands 1F West Exit"] = {
                 ["connected_region"] = "Route 20 (Near North Cave)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -8822,7 +8842,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Seafoam Islands 1F Exit (East)"] = {
+            ["Seafoam Islands 1F East Exit"] = {
                 ["connected_region"] = "Route 20 (Near South Cave)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -9416,7 +9436,7 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Pokemon Mansion 1F Exit (West)"] = {
+            ["Pokemon Mansion 1F West Exit"] = {
                 ["connected_region"] = "Cinnabar Island",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -9496,7 +9516,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Pokemon Mansion 1F Exit (East)"] = {
+            ["Pokemon Mansion 1F East Exit"] = {
                 ["connected_region"] = "Cinnabar Island",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -10140,7 +10160,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Mt. Ember Summit Path Entrance (Bottom)"] = {
+            ["Mt. Ember Summit Path Bottom Entrance"] = {
                 ["connected_region"] = "Mt. Ember Summit Path 1F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -10188,7 +10208,7 @@ REGION_DATA = {
             },
         },
         ["warps"] = {
-            ["Mt. Ember Summit Path Entrance (Top)"] = {
+            ["Mt. Ember Summit Path Top Entrance"] = {
                 ["connected_region"] = "Mt. Ember Summit Path 3F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -10230,14 +10250,14 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Mt. Ember Summit Path 1F Exit (South)"] = {
+            ["Mt. Ember Summit Path 1F South Exit"] = {
                 ["connected_region"] = "Mt. Ember Exterior (Center)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Mt. Ember Summit Path 1F Exit (North)"] = {
+            ["Mt. Ember Summit Path 1F North Exit"] = {
                 ["connected_region"] = "Mt. Ember Summit Path 2F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -10252,14 +10272,14 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Mt. Ember Summit Path 2F Exit (South)"] = {
+            ["Mt. Ember Summit Path 2F South Exit"] = {
                 ["connected_region"] = "Mt. Ember Summit Path 1F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Mt. Ember Summit Path 2F Exit (North)"] = {
+            ["Mt. Ember Summit Path 2F North Exit"] = {
                 ["connected_region"] = "Mt. Ember Summit Path 3F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -10274,14 +10294,14 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Mt. Ember Summit Path 3F Exit (West)"] = {
+            ["Mt. Ember Summit Path 3F West Exit"] = {
                 ["connected_region"] = "Mt. Ember Summit Path 2F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Mt. Ember Summit Path 3F Exit (East)"] = {
+            ["Mt. Ember Summit Path 3F East Exit"] = {
                 ["connected_region"] = "Mt. Ember Exterior (North)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -10750,7 +10770,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Icefall Cave Front Exit (South)"] = {
+            ["Icefall Cave Front South Exit"] = {
                 ["connected_region"] = "Four Island Town (Near Cave)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -10823,7 +10843,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Icefall Cave Front Exit (North)"] = {
+            ["Icefall Cave Front North Exit"] = {
                 ["connected_region"] = "Icefall Cave 1F",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -10942,7 +10962,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Icefall Cave 1F Exit (South)"] = {
+            ["Icefall Cave 1F South Exit"] = {
                 ["connected_region"] = "Icefall Cave Front (Center)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -11065,7 +11085,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Icefall Cave 1F Exit (North)"] = {
+            ["Icefall Cave 1F North Exit"] = {
                 ["connected_region"] = "Icefall Cave Back",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -11288,28 +11308,28 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 1 Exit (North)"] = {
+            ["Lost Cave B1F Room 1 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 1 Exit (East)"] = {
+            ["Lost Cave B1F Room 1 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 2",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 1 Exit (South)"] = {
+            ["Lost Cave B1F Room 1 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 1 Exit (West)"] = {
+            ["Lost Cave B1F Room 1 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11331,28 +11351,28 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Lost Cave B1F Room 2 Exit (North)"] = {
+            ["Lost Cave B1F Room 2 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 3",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 2 Exit (East)"] = {
+            ["Lost Cave B1F Room 2 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 2 Exit (South)"] = {
+            ["Lost Cave B1F Room 2 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 11",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 2 Exit (West)"] = {
+            ["Lost Cave B1F Room 2 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11367,28 +11387,28 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Lost Cave B1F Room 3 Exit (North)"] = {
+            ["Lost Cave B1F Room 3 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 3 Exit (East)"] = {
+            ["Lost Cave B1F Room 3 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 3 Exit (South)"] = {
+            ["Lost Cave B1F Room 3 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 4",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 3 Exit (West)"] = {
+            ["Lost Cave B1F Room 3 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11403,28 +11423,28 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Lost Cave B1F Room 4 Exit (North)"] = {
+            ["Lost Cave B1F Room 4 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 12",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 4 Exit (East)"] = {
+            ["Lost Cave B1F Room 4 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 4 Exit (South)"] = {
+            ["Lost Cave B1F Room 4 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 5",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 4 Exit (West)"] = {
+            ["Lost Cave B1F Room 4 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11446,28 +11466,28 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Lost Cave B1F Room 5 Exit (North)"] = {
+            ["Lost Cave B1F Room 5 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 5 Exit (East)"] = {
+            ["Lost Cave B1F Room 5 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 6",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 5 Exit (South)"] = {
+            ["Lost Cave B1F Room 5 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 5 Exit (West)"] = {
+            ["Lost Cave B1F Room 5 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11482,28 +11502,28 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Lost Cave B1F Room 6 Exit (North)"] = {
+            ["Lost Cave B1F Room 6 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 6 Exit (East)"] = {
+            ["Lost Cave B1F Room 6 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 13",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 6 Exit (South)"] = {
+            ["Lost Cave B1F Room 6 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 6 Exit (West)"] = {
+            ["Lost Cave B1F Room 6 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 7",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11518,28 +11538,28 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Lost Cave B1F Room 7 Exit (North)"] = {
+            ["Lost Cave B1F Room 7 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 7 Exit (East)"] = {
+            ["Lost Cave B1F Room 7 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 7 Exit (South)"] = {
+            ["Lost Cave B1F Room 7 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 8",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 7 Exit (West)"] = {
+            ["Lost Cave B1F Room 7 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11554,28 +11574,28 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Lost Cave B1F Room 8 Exit (North)"] = {
+            ["Lost Cave B1F Room 8 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 8 Exit (East)"] = {
+            ["Lost Cave B1F Room 8 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 9",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 8 Exit (South)"] = {
+            ["Lost Cave B1F Room 8 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 8 Exit (West)"] = {
+            ["Lost Cave B1F Room 8 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 14",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11590,28 +11610,28 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Lost Cave B1F Room 9 Exit (North)"] = {
+            ["Lost Cave B1F Room 9 North Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 10",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 9 Exit (East)"] = {
+            ["Lost Cave B1F Room 9 East Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 9 Exit (South)"] = {
+            ["Lost Cave B1F Room 9 South Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Lost Cave B1F Room 9 Exit (West)"] = {
+            ["Lost Cave B1F Room 9 West Exit"] = {
                 ["connected_region"] = "Lost Cave B1F Room 1",
                 ["shuffled"] = unshuffled,
                 ["access"] = function()
@@ -11956,14 +11976,14 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Pattern Bush Exit (East)"] = {
+            ["Pattern Bush East Exit"] = {
                 ["connected_region"] = "Green Path (East)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Pattern Bush Exit (West)"] = {
+            ["Pattern Bush West Exit"] = {
                 ["connected_region"] = "Green Path (West)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -13386,7 +13406,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Three Isle Path Entrance (West)"] = {
+            ["Three Isle Path West Entrance"] = {
                 ["connected_region"] = "Three Isle Path",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -13408,7 +13428,7 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Three Isle Path Entrance (East)"] = {
+            ["Three Isle Path East Entrance"] = {
                 ["connected_region"] = "Three Isle Path",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -13419,14 +13439,14 @@ REGION_DATA = {
     },
     ["Three Isle Path"] = {
         ["warps"] = {
-            ["Three Isle Path Exit (West)"] = {
+            ["Three Isle Path West Exit"] = {
                 ["connected_region"] = "Three Isle Port (West)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Three Isle Path Exit (East)"] = {
+            ["Three Isle Path East Exit"] = {
                 ["connected_region"] = "Three Isle Port (East)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -15224,7 +15244,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Pattern Bush Entrance (East)"] = {
+            ["Pattern Bush East Entrance"] = {
                 ["connected_region"] = "Pattern Bush",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -15257,7 +15277,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Pattern Bush Entrance (West)"] = {
+            ["Pattern Bush West Entrance"] = {
                 ["connected_region"] = "Pattern Bush",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -16935,7 +16955,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Diglett's Cave Entrance (North)"] = {
+            ["Diglett's Cave North Entrance"] = {
                 ["connected_region"] = "Diglett's Cave 1F (North)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -16963,7 +16983,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 2 Gate Entrance (North)"] = {
+            ["Route 2 Gate North Entrance"] = {
                 ["connected_region"] = "Route 2 Gate",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -16984,7 +17004,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 2 Gate Entrance (South)"] = {
+            ["Route 2 Gate South Entrance"] = {
                 ["connected_region"] = "Route 2 Gate",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17002,14 +17022,14 @@ REGION_DATA = {
     },
     ["Viridian Forest South Gate"] = {
         ["warps"] = {
-            ["Viridian Forest South Gate Exit (South)"] = {
+            ["Viridian Forest South Gate South Exit"] = {
                 ["connected_region"] = "Route 2 (Southwest)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Viridian Forest South Gate Exit (North)"] = {
+            ["Viridian Forest South Gate North Exit"] = {
                 ["connected_region"] = "Viridian Forest",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -17020,14 +17040,14 @@ REGION_DATA = {
     },
     ["Viridian Forest North Gate"] = {
         ["warps"] = {
-            ["Viridian Forest North Gate Exit (South)"] = {
+            ["Viridian Forest North Gate South Exit"] = {
                 ["connected_region"] = "Viridian Forest",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Viridian Forest North Gate Exit (North)"] = {
+            ["Viridian Forest North Gate North Exit"] = {
                 ["connected_region"] = "Route 2 (Northwest)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17038,14 +17058,14 @@ REGION_DATA = {
     },
     ["Route 2 Gate"] = {
         ["warps"] = {
-            ["Route 2 Gate Exit (South)"] = {
+            ["Route 2 Gate South Exit"] = {
                 ["connected_region"] = "Route 2 (Southeast)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 2 Gate Exit (North)"] = {
+            ["Route 2 Gate North Exit"] = {
                 ["connected_region"] = "Route 2 (East)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17209,7 +17229,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Mt. Moon Entrance (West)"] = {
+            ["Mt. Moon West Entrance"] = {
                 ["connected_region"] = "Mt. Moon 1F",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -17260,7 +17280,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Mt. Moon Entrance (East)"] = {
+            ["Mt. Moon East Entrance"] = {
                 ["connected_region"] = "Mt. Moon B1F (Fourth Tunnel)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -17420,7 +17440,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 5 Gate Entrance (North)"] = {
+            ["Route 5 Gate North Entrance"] = {
                 ["connected_region"] = "Route 5 Gate (North)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17478,7 +17498,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Underground Path Entrance (North)"] = {
+            ["Underground Path North Entrance"] = {
                 ["connected_region"] = "Underground Path 1F (North)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17510,7 +17530,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 5 Gate Exit (North)"] = {
+            ["Route 5 Gate North Exit"] = {
                 ["connected_region"] = "Route 5",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17531,7 +17551,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 5 Gate Exit (South)"] = {
+            ["Route 5 Gate South Exit"] = {
                 ["connected_region"] = "Saffron City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17542,14 +17562,14 @@ REGION_DATA = {
     },
     ["Underground Path 1F (North)"] = {
         ["warps"] = {
-            ["Underground Path 1F Exit (North)"] = {
+            ["Underground Path 1F North Exit"] = {
                 ["connected_region"] = "Route 5 (Near Underground)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Underground Path 1F Stairs (North)"] = {
+            ["Underground Path 1F North Stairs"] = {
                 ["connected_region"] = "Underground Path B1F (North-South)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -17592,14 +17612,14 @@ REGION_DATA = {
     },
     ["Underground Path 1F (South)"] = {
         ["warps"] = {
-            ["Underground Path 1F Exit (South)"] = {
+            ["Underground Path 1F South Exit"] = {
                 ["connected_region"] = "Route 6",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Underground Path 1F Stairs (South)"] = {
+            ["Underground Path 1F South Stairs"] = {
                 ["connected_region"] = "Underground Path B1F (North-South)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -17648,7 +17668,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 6 Gate Entrance (South)"] = {
+            ["Route 6 Gate South Entrance"] = {
                 ["connected_region"] = "Route 6 Gate (South)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17739,7 +17759,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Underground Path Entrance (South)"] = {
+            ["Underground Path South Entrance"] = {
                 ["connected_region"] = "Underground Path 1F (South)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17775,7 +17795,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 6 Gate Exit (South)"] = {
+            ["Route 6 Gate South Exit"] = {
                 ["connected_region"] = "Route 6",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17796,7 +17816,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 6 Gate Exit (North)"] = {
+            ["Route 6 Gate North Exit"] = {
                 ["connected_region"] = "Saffron City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17826,7 +17846,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 7 Gate Entrance (West)"] = {
+            ["Route 7 Gate West Entrance"] = {
                 ["connected_region"] = "Route 7 Gate (West)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17854,7 +17874,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Underground Path Entrance (West)"] = {
+            ["Underground Path West Entrance"] = {
                 ["connected_region"] = "Underground Path 1F (West)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17875,7 +17895,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 7 Gate Exit (West)"] = {
+            ["Route 7 Gate West Exit"] = {
                 ["connected_region"] = "Route 7",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17896,7 +17916,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 7 Gate Exit (East)"] = {
+            ["Route 7 Gate East Exit"] = {
                 ["connected_region"] = "Saffron City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -17907,14 +17927,14 @@ REGION_DATA = {
     },
     ["Underground Path 1F (East)"] = {
         ["warps"] = {
-            ["Underground Path 1F Exit (East)"] = {
+            ["Underground Path 1F East Exit"] = {
                 ["connected_region"] = "Route 8 (Near Underground)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Underground Path 1F Stairs (East)"] = {
+            ["Underground Path 1F East Stairs"] = {
                 ["connected_region"] = "Underground Path B1F (East-West)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -17950,14 +17970,14 @@ REGION_DATA = {
     },
     ["Underground Path 1F (West)"] = {
         ["warps"] = {
-            ["Underground Path 1F Exit (West)"] = {
+            ["Underground Path 1F West Exit"] = {
                 ["connected_region"] = "Route 7 (Near Underground)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Underground Path 1F Stairs (West)"] = {
+            ["Underground Path 1F West Stairs"] = {
                 ["connected_region"] = "Underground Path B1F (East-West)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
@@ -17991,7 +18011,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 8 Gate Entrance (East)"] = {
+            ["Route 8 Gate East Entrance"] = {
                 ["connected_region"] = "Route 8 Gate (East)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -18100,7 +18120,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Underground Path Entrance (East)"] = {
+            ["Underground Path East Entrance"] = {
                 ["connected_region"] = "Underground Path 1F (East)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -18121,7 +18141,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 8 Gate Exit (East)"] = {
+            ["Route 8 Gate East Exit"] = {
                 ["connected_region"] = "Route 8",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -18142,7 +18162,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 8 Gate Exit (West)"] = {
+            ["Route 8 Gate West Exit"] = {
                 ["connected_region"] = "Saffron City",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -18341,7 +18361,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Rock Tunnel Entrance (North)"] = {
+            ["Rock Tunnel North Entrance"] = {
                 ["connected_region"] = "Rock Tunnel 1F (Northeast)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -18406,7 +18426,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Rock Tunnel Entrance (South)"] = {
+            ["Rock Tunnel South Entrance"] = {
                 ["connected_region"] = "Rock Tunnel 1F (South)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -18562,7 +18582,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Power Plant Entrance (Front)"] = {
+            ["Power Plant Front Entrance"] = {
                 ["connected_region"] = "Power Plant",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -18614,7 +18634,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Power Plant Entrance (Back)"] = {
+            ["Power Plant Back Entrance"] = {
                 ["connected_region"] = "Power Plant",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -18707,14 +18727,14 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Diglett's Cave Entrance (South)"] = {
+            ["Diglett's Cave South Entrance"] = {
                 ["connected_region"] = "Diglett's Cave 1F (South)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 11 Gate Entrance (West)"] = {
+            ["Route 11 Gate West Entrance"] = {
                 ["connected_region"] = "Route 11 Gate 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -18794,7 +18814,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 11 Gate Entrance (East)"] = {
+            ["Route 11 Gate East Entrance"] = {
                 ["connected_region"] = "Route 11 Gate 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -18820,14 +18840,14 @@ REGION_DATA = {
     },
     ["Route 11 Gate 1F"] = {
         ["warps"] = {
-            ["Route 11 Gate 1F Exit (West)"] = {
+            ["Route 11 Gate 1F West Exit"] = {
                 ["connected_region"] = "Route 11 (West)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 11 Gate 1F Exit (East)"] = {
+            ["Route 11 Gate 1F East Exit"] = {
                 ["connected_region"] = "Route 11 (East)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -18918,7 +18938,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 12 Gate Entrance (North)"] = {
+            ["Route 12 Gate North Entrance"] = {
                 ["connected_region"] = "Route 12 Gate 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -18974,7 +18994,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 12 Gate Entrance (South)"] = {
+            ["Route 12 Gate South Entrance"] = {
                 ["connected_region"] = "Route 12 Gate 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19277,14 +19297,14 @@ REGION_DATA = {
     },
     ["Route 12 Gate 1F"] = {
         ["warps"] = {
-            ["Route 12 Gate 1F Exit (North)"] = {
+            ["Route 12 Gate 1F North Exit"] = {
                 ["connected_region"] = "Route 12 (North)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 12 Gate 1F Exit (South)"] = {
+            ["Route 12 Gate 1F South Exit"] = {
                 ["connected_region"] = "Route 12 (Center)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19586,7 +19606,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 15 Gate Entrance (East)"] = {
+            ["Route 15 Gate East Entrance"] = {
                 ["connected_region"] = "Route 15 Gate 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19720,7 +19740,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 15 Gate Entrance (West)"] = {
+            ["Route 15 Gate West Entrance"] = {
                 ["connected_region"] = "Route 15 Gate 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19731,14 +19751,14 @@ REGION_DATA = {
     },
     ["Route 15 Gate 1F"] = {
         ["warps"] = {
-            ["Route 15 Gate 1F Exit (West)"] = {
+            ["Route 15 Gate 1F West Exit"] = {
                 ["connected_region"] = "Route 15 (Southwest)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 15 Gate 1F Exit (East)"] = {
+            ["Route 15 Gate 1F East Exit"] = {
                 ["connected_region"] = "Route 15 (South)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19821,7 +19841,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 16 Gate Entrance (East - Top)"] = {
+            ["Route 16 Gate Northeast Entrance"] = {
                 ["connected_region"] = "Route 16 Gate 1F (North)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19849,7 +19869,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 16 Gate Entrance (West - Top)"] = {
+            ["Route 16 Gate Northwest Entrance"] = {
                 ["connected_region"] = "Route 16 Gate 1F (North)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19907,7 +19927,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 16 Gate Entrance (East - Bottom)"] = {
+            ["Route 16 Gate Southeast Entrance"] = {
                 ["connected_region"] = "Route 16 Gate 1F (South)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19925,7 +19945,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 16 Gate Entrance (West - Bottom)"] = {
+            ["Route 16 Gate Southwest Entrance"] = {
                 ["connected_region"] = "Route 16 Gate 1F (South)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19969,14 +19989,14 @@ REGION_DATA = {
     },
     ["Route 16 Gate 1F (North)"] = {
         ["warps"] = {
-            ["Route 16 Gate 1F Exit (West - Top)"] = {
+            ["Route 16 Gate 1F Northwest Exit"] = {
                 ["connected_region"] = "Route 16 (Northwest)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 16 Gate 1F Exit (East - Top)"] = {
+            ["Route 16 Gate 1F Northeast Exit"] = {
                 ["connected_region"] = "Route 16 (Northeast)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -19987,14 +20007,14 @@ REGION_DATA = {
     },
     ["Route 16 Gate 1F (South)"] = {
         ["warps"] = {
-            ["Route 16 Gate 1F Exit (West - Bottom)"] = {
+            ["Route 16 Gate 1F Southwest Exit"] = {
                 ["connected_region"] = "Route 16 (Southwest)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 16 Gate 1F Exit (East - Bottom)"] = {
+            ["Route 16 Gate 1F Southeast Exit"] = {
                 ["connected_region"] = "Route 16 (Southeast)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -20075,7 +20095,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 18 Gate Entrance (West)"] = {
+            ["Route 18 Gate West Entrance"] = {
                 ["connected_region"] = "Route 18 Gate 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -20097,7 +20117,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 18 Gate Entrance (East)"] = {
+            ["Route 18 Gate East Entrance"] = {
                 ["connected_region"] = "Route 18 Gate 1F",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -20131,14 +20151,14 @@ REGION_DATA = {
     },
     ["Route 18 Gate 1F"] = {
         ["warps"] = {
-            ["Route 18 Gate 1F Exit (West)"] = {
+            ["Route 18 Gate 1F West Exit"] = {
                 ["connected_region"] = "Route 18 (West)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Route 18 Gate 1F Exit (East)"] = {
+            ["Route 18 Gate 1F East Exit"] = {
                 ["connected_region"] = "Route 18 (East)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -20346,7 +20366,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Seafoam Islands Entrance (North)"] = {
+            ["Seafoam Islands North Entrance"] = {
                 ["connected_region"] = "Seafoam Islands 1F",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -20389,7 +20409,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Seafoam Islands Entrance (South)"] = {
+            ["Seafoam Islands South Entrance"] = {
                 ["connected_region"] = "Seafoam Islands 1F (Southeast)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -20696,7 +20716,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 22 Gate Entrance (South)"] = {
+            ["Route 22 Gate South Entrance"] = {
                 ["connected_region"] = "Route 22 Gate",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -20736,7 +20756,7 @@ REGION_DATA = {
     },
     ["Route 22 Gate"] = {
         ["warps"] = {
-            ["Route 22 Gate Exit (North)"] = {
+            ["Route 22 Gate North Exit"] = {
                 ["connected_region"] = "Route 23 (South)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -20746,7 +20766,7 @@ REGION_DATA = {
                     return AccessibilityLevel.None
                 end
             },
-            ["Route 22 Gate Exit (South)"] = {
+            ["Route 22 Gate South Exit"] = {
                 ["connected_region"] = "Route 22 (West)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -20779,7 +20799,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Route 22 Gate Entrance (North)"] = {
+            ["Route 22 Gate North Entrance"] = {
                 ["connected_region"] = "Route 22 Gate",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
@@ -20951,7 +20971,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Victory Road Entrance (West)"] = {
+            ["Victory Road West Entrance"] = {
                 ["connected_region"] = "Victory Road 1F (South)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
@@ -20976,7 +20996,7 @@ REGION_DATA = {
             }
         },
         ["warps"] = {
-            ["Victory Road Entrance (East)"] = {
+            ["Victory Road East Entrance"] = {
                 ["connected_region"] = "Victory Road 2F (East)",
                 ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()

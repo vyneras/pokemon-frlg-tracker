@@ -128,17 +128,6 @@ function resetDarkCaves()
     end
 end
 
-function resetEntrances()
-    for _, item in pairs(ENTRANCE_ITEMS) do
-        item:setStage(item:getDefaultStage())
-        item:setSavedStage(0)
-        local object = Tracker:FindObjectForCode(item.code .. "_hosted")
-        if object then
-            object.Active = false
-        end
-    end
-end
-
 function setTrainersanityVisibility()
     local checked_locations = Archipelago.CheckedLocations
     local missing_locations = Archipelago.MissingLocations
@@ -212,7 +201,6 @@ function onClear(slot_data)
     resetLocations()
     resetWorldStateSettings()
     resetDarkCaves()
-    resetEntrances()
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
@@ -300,7 +288,6 @@ function onClear(slot_data)
     end
     setDexsanityLocations()
     set_default_fly_destinations("randomize_fly_destinations_setting")
-    set_default_dungeon_entrances()
     if PLAYER_NUMBER > -1 then
         updateEvents(0, true)
         updateFlyUnlocks(0, true)

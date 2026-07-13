@@ -1,4 +1,3 @@
-Tracker:AddItems("items/entrances.json")
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/events_hosted.json")
 Tracker:AddItems("items/items.json")

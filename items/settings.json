@@ -1318,6 +1318,28 @@
     ]
   },
   {
+    "name": "Decoupled Entrances",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/link_cable.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "decoupled_entrances_settting,decoupled_entrances_off",
+        "inherit_codes": false,
+        "name": "Decoupled Entrances - Off"
+      },
+      {
+        "img": "images/settings/link_cable.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "decoupled_entrances_settting,decoupled_entrances_on",
+        "inherit_codes": false,
+        "name": "Decoupled Entrances - On"
+      }
+    ]
+  },
+  {
     "name": "Mt. Moon",
     "type": "progressive",
     "allow_disabled": false,
@@ -1908,7 +1930,7 @@
     ]
   },
   {
-    "name": "Pokemon Tabs",
+    "name": "Pokémon Tabs",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -1919,19 +1941,65 @@
         "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
         "codes": "pokemon_tabs_setting,pokemon_tabs_off",
         "inherit_codes": false,
-        "name": "Pokemon Tabs - Off"
+        "name": "Pokémon Tabs - Off"
       },
       {
         "img": "images/settings/pokedex_alt.png",
         "img_mods": "overlay|images/overlays/on_alt.png",
         "codes": "pokemon_tabs_setting,pokemon_tabs_on",
         "inherit_codes": false,
-        "name": "Pokemon Tabs - On"
+        "name": "Pokémon Tabs - On"
       }
     ]
   },
   {
-    "name": "Pokemon Locations",
+    "name": "Item Locations",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/pokeball.png",
+        "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
+        "codes": "item_locations_setting,item_locations_off",
+        "inherit_codes": false,
+        "name": "Item Locations - Off"
+      },
+      {
+        "img": "images/settings/pokeball.png",
+        "img_mods": "overlay|images/overlays/on_alt.png",
+        "codes": "item_locations_setting,item_locations_on",
+        "inherit_codes": false,
+        "name": "Item Locations - On"
+      }
+    ]
+  },
+  {
+    "name": "Entrance Locations",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/door.png",
+        "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
+        "codes": "entrance_locations_setting,entrance_locations_off",
+        "inherit_codes": false,
+        "name": "Entrance Locations - Off"
+      },
+      {
+        "img": "images/settings/door.png",
+        "img_mods": "overlay|images/overlays/on_alt.png",
+        "codes": "entrance_locations_setting,entrance_locations_on",
+        "inherit_codes": false,
+        "name": "Entrance Locations - On"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Locations",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -1940,23 +2008,16 @@
       {
         "img": "images/settings/mew.png",
         "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
-        "codes": "pokemon_locations_setting,item_locations_on",
+        "codes": "pokemon_locations_setting,pokemon_locations_off",
         "inherit_codes": false,
-        "name": "Pokemon Locations - Off"
+        "name": "Pokémon Locations - Off"
       },
       {
         "img": "images/settings/mew.png",
         "img_mods": "overlay|images/overlays/on_alt.png",
-        "codes": "pokemon_locations_setting,item_locations_on,pokemon_locations_on",
-        "inherit_codes": false,
-        "name": "Pokemon Locations - On"
-      },
-      {
-        "img": "images/settings/mew.png",
-        "img_mods": "overlay|images/overlays/only_alt.png",
         "codes": "pokemon_locations_setting,pokemon_locations_on",
         "inherit_codes": false,
-        "name": "Pokemon Locations - Only"
+        "name": "Pokémon Locations - On"
       }
     ]
   },

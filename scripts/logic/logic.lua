@@ -1,7 +1,7 @@
-BADGES = { "boulder_badge", "cascade_badge", "thunder_badge", "rainbow_badge", "soul_badge", "marsh_badge",
-    "volcano_badge", "earth_badge" }
-GYMS = { "defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defeat_koga", "defeat_sabrina",
-    "defeat_blaine", "defeat_giovanni" }
+BADGES = {"boulder_badge", "cascade_badge", "thunder_badge", "rainbow_badge", "soul_badge", "marsh_badge",
+          "volcano_badge", "earth_badge"}
+GYMS = {"defeat_brock", "defeat_misty", "defeat_lt_surge", "defeat_erika", "defeat_koga", "defeat_sabrina",
+        "defeat_blaine", "defeat_giovanni"}
 FOSSILS = {"dome_fossil", "helix_fossil", "old_amber"}
 
 -- Logic Rules
@@ -24,7 +24,7 @@ function fly(location)
 end
 
 function has_fly_location(location)
-    return has("fly_"..location)
+    return has("fly_" .. location)
 end
 
 function surf()
@@ -385,11 +385,9 @@ end
 
 function seafoam_b3f_current_access()
     if strength() then
-        return and_access(region_access("Seafoam Islands 1F"),
-                          region_access("Seafoam Islands B1F (West)"),
-                          region_access("Seafoam Islands B1F (Northeast)"),
-                          region_access("Seafoam Islands B2F (Northwest)"),
-                          region_access("Seafoam Islands B2F (Northeast)"))
+        return and_access(region_access("Seafoam Islands 1F"), region_access("Seafoam Islands B1F (West)"),
+            region_access("Seafoam Islands B1F (Northeast)"), region_access("Seafoam Islands B2F (Northwest)"),
+            region_access("Seafoam Islands B2F (Northeast)"))
     end
     return AccessibilityLevel.None
 end
@@ -402,10 +400,8 @@ function seafoam_b4f_current_access()
 end
 
 function pokemon_mansion_switch_access()
-    return or_access(region_access("Pokemon Mansion 1F"),
-                     region_access("Pokemon Mansion 2F"),
-                     region_access("Pokemon Mansion 3F (North)"),
-                     region_access("Pokemon Mansion B1F"))
+    return or_access(region_access("Pokemon Mansion 1F"), region_access("Pokemon Mansion 2F"),
+        region_access("Pokemon Mansion 3F (North)"), region_access("Pokemon Mansion B1F"))
 end
 
 function victory_road_access()
@@ -438,7 +434,8 @@ end
 
 function cerulean_cave_visisble()
     local req = get_item("cerulean_cave_requirement")
-    return post_goal_visible() or req:getType() == "network_machine" or req:getType() == "badges" or req:getType() == "gyms"
+    return post_goal_visible() or req:getType() == "network_machine" or req:getType() == "badges" or req:getType() ==
+               "gyms"
 end
 
 function rematchsanity_on()
@@ -448,6 +445,14 @@ end
 -- Entrance Randomization Rules
 function unshuffled()
     return false
+end
+
+function entrance_rando()
+    return has("shuffle_pokemon_centers_on") or has("shuffle_gyms_on") or has("shuffle_marts_on") or
+               has("shuffle_harbors_on") or has("shuffle_buildings_simple") or has("shuffle_buildings_restricted") or
+               has("shuffle_buildings_full") or has("shuffle_dungeons_simple") or has("shuffle_dungeons_restricted") or
+               has("shuffle_dungeons_full") or has("shuffle_interiors_on") or has("shuffle_warp_tiles_simple") or
+               has("shuffle_warp_tiles_full") or has("shuffle_dropdowns_simple") or has("shuffle_dropdowns_full")
 end
 
 function shuffle_pokemon_centers()

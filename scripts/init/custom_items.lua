@@ -64,3 +64,11 @@ PokedexRequirement("Route 16 Oak's Aide Requirement", "route_16_oaks_aide_requir
 PokedexRequirement("Route 15 Oak's Aide Requirement", "route_15_oaks_aide_requirement", 25)
 FossilRequirement("Pokemon Lab Fossil Requirement")
 Pokedex()
+
+for region, region_data in pairs(REGION_DATA) do
+    if region_data["warps"] ~= nil then
+        for warp, warp_data in pairs(region_data["warps"]) do
+            Entrance(warp, region, "door_closed", "door_open")
+        end
+    end
+end

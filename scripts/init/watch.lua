@@ -5,6 +5,10 @@ HOSTED_ITEMS = {"fresh_water", "lemonade", "soda_pop", "deliver_oaks_parcel", "d
                 "rescue_selphy", "learn_yes_nah_chansey", "free_captured_pokemon", "unlock_ruins",
                 "restore_pokemon_network_machine", "defeat_champion_rematch"}
 
+ENTRANCE_RANDO_SETTINGS = {"shuffle_pokemon_centers_setting", "shuffle_gyms_setting", "shuffle_marts_setting",
+                           "shuffle_harbors_setting", "shuffle_buildings_setting", "shuffle_dungeons_setting",
+                           "shuffle_interiors_setting", "shuffle_warp_tiles_setting", "shuffle_dropdowns_setting"}
+
 function initialize_watch_items()
     -- Updates
     ScriptHost:AddWatchForCode("tracker_on_accessibility_updating", "*", tracker_on_accessibility_updating)
@@ -29,9 +33,13 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("split_map", "split_map_setting", toggle_maps)
     ScriptHost:AddWatchForCode("pokemon_tabs", "pokemon_tabs_setting", toggle_item_tabs)
     ScriptHost:AddWatchForCode("kanto_only", "kanto_only_setting", toggle_maps)
+    for _, code in pairs(ENTRANCE_RANDO_SETTINGS) do
+        ScriptHost:AddWatchForCode(code, code, toggle_maps)
+    end
 
     -- Maps
     ScriptHost:AddWatchForCode("kanto_only_map", "kanto_only_setting", toggle_kanto_only_maps)
+    ScriptHost:AddWatchForCode("kanto_only_map", "kanto_only_setting", toggle_overworld_maps)
     ScriptHost:AddWatchForCode("split_teas_map", "teas_setting", toggle_split_tea_maps)
     ScriptHost:AddWatchForCode("route2_map", "modify_route_2_setting", toggle_route_2_maps)
     ScriptHost:AddWatchForCode("block_tunnels_map", "block_tunnels_setting", toggle_tunnel_maps)
@@ -46,7 +54,8 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("route23_modified", "modify_route_23_setting", toggle_route_23_maps)
 
     -- Entrances
-    ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting", set_default_fly_destinations)
+    ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting",
+        set_default_fly_destinations)
 
     -- Encounters
     ScriptHost:AddWatchForCode("game_version", "game_version_setting", set_encounter_counts)

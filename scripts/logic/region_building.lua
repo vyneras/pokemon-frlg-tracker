@@ -3,6 +3,13 @@ access_per_entrance = {}
 access_per_location = {}
 changed_access = true
 
+SEAFOAM_ENTRANCES = {
+    ["Seafoam Islands North Entrance"] = "Seafoam Islands 1F (Southeast)",
+    ["Seafoam Islands South Entrance"] = "Seafoam Islands 1F",
+    ["Seafoam Islands 1F West Exit"] = "Route 20 (Near South Cave)",
+    ["Seafoam Islands 1F East Exit"] = "Route 20 (Near North Cave)"
+}
+
 function invalidate_regions()
     access_per_region = {}
     for region, _ in pairs(REGION_DATA) do
@@ -20,10 +27,6 @@ end
 
 function set_region_access(region, new_access, from_access)
     local old_access = access_per_region[region]
-
-    if old_access == nil then
-        print(region)
-    end
 
     if ACCESS_LEVEL[from_access] < ACCESS_LEVEL[new_access] then
         new_access = from_access
@@ -83,9 +86,6 @@ function update_region_connections()
                 end
 
                 if region_data["land"] ~= nil then
-                    if region_data["map"] == nil then
-                        print(region)
-                    end
                     local location = region_data["map"] .. " Land"
                     local new_access = region_data["land"]()
 
@@ -93,9 +93,6 @@ function update_region_connections()
                 end
 
                 if region_data["water"] ~= nil then
-                    if region_data["map"] == nil then
-                        print(region)
-                    end
                     local location = region_data["map"] .. " Water"
                     local new_access = region_data["water"]()
 
@@ -103,9 +100,6 @@ function update_region_connections()
                 end
 
                 if region_data["fishing"] ~= nil then
-                    if region_data["map"] == nil then
-                        print(region)
-                    end
                     local old_rod_location = region_data["map"] .. " Old Rod"
                     local good_rod_location = region_data["map"] .. " Good Rod"
                     local super_rod_location = region_data["map"] .. " Super Rod"
@@ -133,16 +127,24 @@ function update_region_connections()
                         local connected_region = warp_data["connected_region"]
 
                         if shuffled then
+                            local entrance = get_item(warp)
+                            connected_region = entrance:getConnectedRegion()
                         end
 
-                        set_region_access(connected_region, new_access, access)
+                        if has("shuffle_dungeons_seafoam") and SEAFOAM_ENTRANCES[warp] then
+                            connected_region = SEAFOAM_ENTRANCES[warp]
+                        end
+
+                        if connected_region ~= "????" then
+                             set_region_access(connected_region, new_access, access)   
+                        end
+                        
                         set_entrance_access(warp, new_access, access)
                     end
                 end
             end
         end
     end
-    -- print(dump_table(access_per_location))
 end
 
 function region_access(region)

@@ -1,0 +1,1415 @@
+[
+  {
+    "name": "Island Entrances",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "One Island Town",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "One Island Harbor Entrance",
+            "hosted_item": "One Island Harbor Entrance",
+            "access_rules": ["^$entrance_access|One Island Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "One Island Lass' House Entrance",
+            "hosted_item": "One Island Lass' House Entrance",
+            "access_rules": ["^$entrance_access|One Island Lass' House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "One Island Old Couple's House Entrance",
+            "hosted_item": "One Island Old Couple's House Entrance",
+            "access_rules": ["^$entrance_access|One Island Old Couple's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "One Island Pokemon Center Entrance",
+            "hosted_item": "One Island Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|One Island Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "One Island Harbor Exit",
+            "hosted_item": "One Island Harbor Exit",
+            "access_rules": ["^$entrance_access|One Island Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "One Island Lass' House Exit",
+            "hosted_item": "One Island Lass' House Exit",
+            "access_rules": ["^$entrance_access|One Island Lass' House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "One Island Old Couple's House Exit",
+            "hosted_item": "One Island Old Couple's House Exit",
+            "access_rules": ["^$entrance_access|One Island Old Couple's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "One Island Pokemon Center 1F Exit",
+            "hosted_item": "One Island Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|One Island Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 20,
+            "y": 228
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 20,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Kindle Road",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Ember Spa Entrance",
+            "hosted_item": "Ember Spa Entrance",
+            "access_rules": ["^$entrance_access|Ember Spa Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Entrance",
+            "hosted_item": "Mt. Ember Entrance",
+            "access_rules": ["^$entrance_access|Mt. Ember Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 216,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 28,
+            "y": 72,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Ember Spa",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Ember Spa Exit",
+            "hosted_item": "Ember Spa Exit",
+            "access_rules": ["^$entrance_access|Ember Spa Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 208,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 28,
+            "y": 64,
+            "size": 4
+          },
+          {
+            "map": "kindle_road_center_top",
+            "x": 248,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Two Island Town",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Two Island Harbor Entrance",
+            "hosted_item": "Two Island Harbor Entrance",
+            "access_rules": ["^$entrance_access|Two Island Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Two Island Pokemon Center Entrance",
+            "hosted_item": "Two Island Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Two Island Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Move Maniac's House Entrance",
+            "hosted_item": "Move Maniac's House Entrance",
+            "access_rules": ["^$entrance_access|Move Maniac's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Two Island Game Corner Entrance",
+            "hosted_item": "Two Island Game Corner Entrance",
+            "access_rules": ["^$entrance_access|Two Island Game Corner Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Two Island Harbor Exit",
+            "hosted_item": "Two Island Harbor Exit",
+            "access_rules": ["^$entrance_access|Two Island Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Two Island Pokemon Center 1F Exit",
+            "hosted_item": "Two Island Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Two Island Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Move Maniac's House Exit",
+            "hosted_item": "Move Maniac's House Exit",
+            "access_rules": ["^$entrance_access|Move Maniac's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Two Island Game Corner Exit",
+            "hosted_item": "Two Island Game Corner Exit",
+            "access_rules": ["^$entrance_access|Two Island Game Corner Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 84,
+            "y": 236
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 84,
+            "y": 92
+          }
+        ]
+      },
+      {
+        "name": "Cape Brink",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Starter Tutor's House Entrance",
+            "hosted_item": "Starter Tutor's House Entrance",
+            "access_rules": ["^$entrance_access|Starter Tutor's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Starter Tutor's House Exit",
+            "hosted_item": "Starter Tutor's House Exit",
+            "access_rules": ["^$entrance_access|Starter Tutor's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 84,
+            "y": 224,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 84,
+            "y": 80,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Port",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Three Island Harbor Entrance",
+            "hosted_item": "Three Island Harbor Entrance",
+            "access_rules": ["^$entrance_access|Three Island Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Three Isle Path West Entrance",
+            "hosted_item": "Three Isle Path West Entrance",
+            "access_rules": ["^$entrance_access|Three Isle Path West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Isle Path East Entrance",
+            "hosted_item": "Three Isle Path East Entrance",
+            "access_rules": ["^$entrance_access|Three Isle Path East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Harbor Exit",
+            "hosted_item": "Three Island Harbor Exit",
+            "access_rules": ["^$entrance_access|Three Island Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 156,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Three Isle Path West Exit",
+            "hosted_item": "Three Isle Path West Exit",
+            "access_rules": ["^$entrance_access|Three Isle Path West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Isle Path East Exit",
+            "hosted_item": "Three Isle Path East Exit",
+            "access_rules": ["^$entrance_access|Three Isle Path East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 164,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 164,
+            "y": 124,
+            "size": 4
+          },
+          {
+            "map": "three_isle_port",
+            "x": 264,
+            "y": 72
+          },
+          {
+            "map": "three_isle_port",
+            "x": 616,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Three Island Town",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Lostelle's House Entrance",
+            "hosted_item": "Lostelle's House Entrance",
+            "access_rules": ["^$entrance_access|Lostelle's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Pokemon Center Entrance",
+            "hosted_item": "Three Island Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Three Island Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Lostelle's Friend's House Entrance",
+            "hosted_item": "Lostelle's Friend's House Entrance",
+            "access_rules": ["^$entrance_access|Lostelle's Friend's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Worried Father's House Entrance",
+            "hosted_item": "Three Island Worried Father's House Entrance",
+            "access_rules": ["^$entrance_access|Three Island Worried Father's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Poke Mart Entrance",
+            "hosted_item": "Three Island Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Three Island Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Sabrina Fan's House Entrance",
+            "hosted_item": "Sabrina Fan's House Entrance",
+            "access_rules": ["^$entrance_access|Sabrina Fan's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Beauty's House Entrance",
+            "hosted_item": "Three Island Beauty's House Entrance",
+            "access_rules": ["^$entrance_access|Three Island Beauty's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Lostelle's House Exit",
+            "hosted_item": "Lostelle's House Exit",
+            "access_rules": ["^$entrance_access|Lostelle's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Pokemon Center 1F Exit",
+            "hosted_item": "Three Island Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Three Island Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Lostelle's Friend's House Exit",
+            "hosted_item": "Lostelle's Friend's House Exit",
+            "access_rules": ["^$entrance_access|Lostelle's Friend's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Worried Father's House Exit",
+            "hosted_item": "Three Island Worried Father's House Exit",
+            "access_rules": ["^$entrance_access|Three Island Worried Father's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Poke Mart Exit",
+            "hosted_item": "Three Island Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Three Island Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Sabrina Fan's House Exit",
+            "hosted_item": "Sabrina Fan's House Exit",
+            "access_rules": ["^$entrance_access|Sabrina Fan's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Three Island Beauty's House Exit",
+            "hosted_item": "Three Island Beauty's House Exit",
+            "access_rules": ["^$entrance_access|Three Island Beauty's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 260
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 156,
+            "y": 116
+          }
+        ]
+      },
+      {
+        "name": "Bond Bridge",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Berry Forest Entrance",
+            "hosted_item": "Berry Forest Entrance",
+            "access_rules": ["^$entrance_access|Berry Forest Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 140,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 140,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Four Island Town",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Four Island Harbor Entrance",
+            "hosted_item": "Four Island Harbor Entrance",
+            "access_rules": ["^$entrance_access|Four Island Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Four Island Pokemon Day Care Entrance",
+            "hosted_item": "Four Island Pokemon Day Care Entrance",
+            "access_rules": ["^$entrance_access|Four Island Pokemon Day Care Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Four Island Pokemon Center Entrance",
+            "hosted_item": "Four Island Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Four Island Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Move Tutor's House Entrance",
+            "hosted_item": "Move Tutor's House Entrance",
+            "access_rules": ["^$entrance_access|Move Tutor's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Four Island Poke Mart Entrance",
+            "hosted_item": "Four Island Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Four Island Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Sticker Man's House Entrance",
+            "hosted_item": "Sticker Man's House Entrance",
+            "access_rules": ["^$entrance_access|Sticker Man's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Lorelei's House Entrance",
+            "hosted_item": "Lorelei's House Entrance",
+            "access_rules": ["^$entrance_access|Lorelei's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave Entrance",
+            "hosted_item": "Icefall Cave Entrance",
+            "access_rules": ["^$entrance_access|Icefall Cave Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Four Island Harbor Exit",
+            "hosted_item": "Four Island Harbor Exit",
+            "access_rules": ["^$entrance_access|Four Island Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Four Island Pokemon Day Care Exit",
+            "hosted_item": "Four Island Pokemon Day Care Exit",
+            "access_rules": ["^$entrance_access|Four Island Pokemon Day Care Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Four Island Pokemon Center 1F Exit",
+            "hosted_item": "Four Island Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Four Island Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Move Tutor's House Exit",
+            "hosted_item": "Move Tutor's House Exit",
+            "access_rules": ["^$entrance_access|Move Tutor's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Four Island Poke Mart Exit",
+            "hosted_item": "Four Island Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Four Island Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Sticker Man's House Exit",
+            "hosted_item": "Sticker Man's House Exit",
+            "access_rules": ["^$entrance_access|Sticker Man's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Lorelei's House Exit",
+            "hosted_item": "Lorelei's House Exit",
+            "access_rules": ["^$entrance_access|Lorelei's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 228,
+            "y": 52
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 36,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Five Island Town",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Five Island Harbor Entrance",
+            "hosted_item": "Five Island Harbor Entrance",
+            "access_rules": ["^$entrance_access|Five Island Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Five Island Couple's House Entrance",
+            "hosted_item": "Five Island Couple's House Entrance",
+            "access_rules": ["^$entrance_access|Five Island Couple's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Five Island Pokemon Center Entrance",
+            "hosted_item": "Five Island Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Five Island Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Five Island Old Man's House Entrance",
+            "hosted_item": "Five Island Old Man's House Entrance",
+            "access_rules": ["^$entrance_access|Five Island Old Man's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Five Island Harbor Exit",
+            "hosted_item": "Five Island Harbor Exit",
+            "access_rules": ["^$entrance_access|Five Island Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Five Island Couple's House Exit",
+            "hosted_item": "Five Island Couple's House Exit",
+            "access_rules": ["^$entrance_access|Five Island Couple's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Five Island Pokemon Center 1F Exit",
+            "hosted_item": "Five Island Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Five Island Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Five Island Old Man's House Exit",
+            "hosted_item": "Five Island Old Man's House Exit",
+            "access_rules": ["^$entrance_access|Five Island Old Man's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 332,
+            "y": 108
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 140,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Five Isle Meadow",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Rocket Warehouse Entrance",
+            "hosted_item": "Rocket Warehouse Entrance",
+            "access_rules": ["^$entrance_access|Rocket Warehouse Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 108,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 148,
+            "y": 108,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Resort Gorgeous",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Selphy's House Entrance",
+            "hosted_item": "Selphy's House Entrance",
+            "access_rules": ["^$entrance_access|Selphy's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Lost Cave Entrance",
+            "hosted_item": "Lost Cave Entrance",
+            "access_rules": ["^$entrance_access|Lost Cave Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Selphy's House Exit",
+            "hosted_item": "Selphy's House Exit",
+            "access_rules": ["^$entrance_access|Selphy's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 148,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Six Island Town",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Six Island Harbor Entrance",
+            "hosted_item": "Six Island Harbor Entrance",
+            "access_rules": ["^$entrance_access|Six Island Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Six Island Pokemon Center Entrance",
+            "hosted_item": "Six Island Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Six Island Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Six Island Old Man's House Entrance",
+            "hosted_item": "Six Island Old Man's House Entrance",
+            "access_rules": ["^$entrance_access|Six Island Old Man's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Six Island Poke Mart Entrance",
+            "hosted_item": "Six Island Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Six Island Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Six Island Harbor Exit",
+            "hosted_item": "Six Island Harbor Exit",
+            "access_rules": ["^$entrance_access|Six Island Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Six Island Pokemon Center 1F Exit",
+            "hosted_item": "Six Island Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Six Island Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Six Island Old Man's House Exit",
+            "hosted_item": "Six Island Old Man's House Exit",
+            "access_rules": ["^$entrance_access|Six Island Old Man's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Six Island Poke Mart Exit",
+            "hosted_item": "Six Island Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Six Island Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 204
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 148,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Water Path",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Water Path Heracross Woman's House Entrance",
+            "hosted_item": "Water Path Heracross Woman's House Entrance",
+            "access_rules": ["^$entrance_access|Water Path Heracross Woman's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Water Path Man's House Entrance",
+            "hosted_item": "Water Path Man's House Entrance",
+            "access_rules": ["^$entrance_access|Water Path Man's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Water Path Heracross Woman's House Exit",
+            "hosted_item": "Water Path Heracross Woman's House Exit",
+            "access_rules": ["^$entrance_access|Water Path Heracross Woman's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Water Path Man's House Exit",
+            "hosted_item": "Water Path Man's House Exit",
+            "access_rules": ["^$entrance_access|Water Path Man's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 348,
+            "y": 204,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Ruin Valley",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Dotted Hole Entrance",
+            "hosted_item": "Dotted Hole Entrance",
+            "access_rules": ["^$entrance_access|Dotted Hole Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 220,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 148,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Green Path",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Pattern Bush East Entrance",
+            "hosted_item": "Pattern Bush East Entrance",
+            "access_rules": ["^$entrance_access|Pattern Bush East Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Pattern Bush West Entrance",
+            "hosted_item": "Pattern Bush West Entrance",
+            "access_rules": ["^$entrance_access|Pattern Bush West Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 332,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 140,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Outcast Island",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Altering Cave Entrance",
+            "hosted_item": "Altering Cave Entrance",
+            "access_rules": ["^$entrance_access|Altering Cave Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 324,
+            "y": 172,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 132,
+            "y": 28,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Town",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Seven Island Harbor Entrance",
+            "hosted_item": "Seven Island Harbor Entrance",
+            "access_rules": ["^$entrance_access|Seven Island Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Seven Island Trainer Battle House Entrance",
+            "hosted_item": "Seven Island Trainer Battle House Entrance",
+            "access_rules": ["^$entrance_access|Seven Island Trainer Battle House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Seven Island Poke Mart Entrance",
+            "hosted_item": "Seven Island Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Seven Island Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Seven Island Pokemon Center Entrance",
+            "hosted_item": "Seven Island Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Seven Island Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Seven Island Harbor Exit",
+            "hosted_item": "Seven Island Harbor Exit",
+            "access_rules": ["^$entrance_access|Seven Island Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Seven Island Trainer Battle House Exit",
+            "hosted_item": "Seven Island Trainer Battle House Exit",
+            "access_rules": ["^$entrance_access|Seven Island Trainer Battle House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Seven Island Poke Mart Exit",
+            "hosted_item": "Seven Island Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Seven Island Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Seven Island Pokemon Center 1F Exit",
+            "hosted_item": "Seven Island Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Seven Island Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 244,
+            "y": 228
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 52,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Tanoby Key Entrance",
+            "hosted_item": "Tanoby Key Entrance",
+            "access_rules": ["^$entrance_access|Tanoby Key Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Sevault Canyon Chansey House Entrance",
+            "hosted_item": "Sevault Canyon Chansey House Entrance",
+            "access_rules": ["^$entrance_access|Sevault Canyon Chansey House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Sevault Canyon Chansey House Exit",
+            "hosted_item": "Sevault Canyon Chansey House Exit",
+            "access_rules": ["^$entrance_access|Sevault Canyon Chansey House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 252,
+            "y": 244,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 60,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Ruins",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Monean Chamber Entrance",
+            "hosted_item": "Monean Chamber Entrance",
+            "access_rules": ["^$entrance_access|Monean Chamber Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Liptoo Chamber Entrance",
+            "hosted_item": "Liptoo Chamber Entrance",
+            "access_rules": ["^$entrance_access|Liptoo Chamber Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Weepth Chamber Entrance",
+            "hosted_item": "Weepth Chamber Entrance",
+            "access_rules": ["^$entrance_access|Weepth Chamber Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Dilford Chamber Entrance",
+            "hosted_item": "Dilford Chamber Entrance",
+            "access_rules": ["^$entrance_access|Dilford Chamber Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Scufib Chamber Entrance",
+            "hosted_item": "Scufib Chamber Entrance",
+            "access_rules": ["^$entrance_access|Scufib Chamber Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Rixy Chamber Entrance",
+            "hosted_item": "Rixy Chamber Entrance",
+            "access_rules": ["^$entrance_access|Rixy Chamber Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Viapois Chamber Entrance",
+            "hosted_item": "Viapois Chamber Entrance",
+            "access_rules": ["^$entrance_access|Viapois Chamber Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 252,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 60,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower Exterior",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Trainer Tower Entrance",
+            "hosted_item": "Trainer Tower Entrance",
+            "access_rules": ["^$entrance_access|Trainer Tower Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 244,
+            "y": 220,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 52,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower",
+        "sections": [
+          {
+            "name": "Trainer Tower Lobby Exit",
+            "hosted_item": "Trainer Tower Lobby Exit",
+            "access_rules": ["^$entrance_access|Trainer Tower Lobby Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 244,
+            "y": 212,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 52,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Navel Rock",
+        "sections": [
+          {
+            "name": "Navel Rock Harbor Entrance",
+            "hosted_item": "Navel Rock Harbor Entrance",
+            "access_rules": ["^$entrance_access|Navel Rock Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Entrance",
+            "hosted_item": "Navel Rock Entrance",
+            "access_rules": ["^$entrance_access|Navel Rock Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Harbor Exit",
+            "hosted_item": "Navel Rock Harbor Exit",
+            "access_rules": ["^$entrance_access|Navel Rock Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock 1F Exit",
+            "hosted_item": "Navel Rock 1F Exit",
+            "access_rules": ["^$entrance_access|Navel Rock 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock 1F Ladder",
+            "hosted_item": "Navel Rock 1F Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock 1F Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock B1F Northwest Ladder",
+            "hosted_item": "Navel Rock B1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock B1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock B1F Southeast Ladder",
+            "hosted_item": "Navel Rock B1F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock B1F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Fork South Ladder",
+            "hosted_item": "Navel Rock Fork South Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Fork South Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Fork Northwest Ladder",
+            "hosted_item": "Navel Rock Fork Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Fork Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Fork Northeast Ladder",
+            "hosted_item": "Navel Rock Fork Northeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Fork Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Path 2F Southeast Ladder",
+            "hosted_item": "Navel Rock Summit Path 2F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Path 2F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Path 2F Northwest Ladder",
+            "hosted_item": "Navel Rock Summit Path 2F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Path 2F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Path 3F Northwest Ladder",
+            "hosted_item": "Navel Rock Summit Path 3F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Path 3F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Path 3F Southeast Ladder",
+            "hosted_item": "Navel Rock Summit Path 3F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Path 3F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Path 4F Southeast Ladder",
+            "hosted_item": "Navel Rock Summit Path 4F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Path 4F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Path 4F Northwest Ladder",
+            "hosted_item": "Navel Rock Summit Path 4F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Path 4F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Path 5F Northwest Ladder",
+            "hosted_item": "Navel Rock Summit Path 5F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Path 5F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Path 5F Southeast Ladder",
+            "hosted_item": "Navel Rock Summit Path 5F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Path 5F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Summit Ladder",
+            "hosted_item": "Navel Rock Summit Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Summit Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B1F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B1F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B1F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B1F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B2F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B2F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B2F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B2F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B2F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B2F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B3F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B3F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B3F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B3F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B3F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B3F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B4F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B4F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B4F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B4F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B4F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B4F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B5F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B5F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B5F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B5F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B5F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B5F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B6F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B6F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B6F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B6F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B6F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B6F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B7F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B7F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B7F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B7F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B7F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B7F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B8F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B8F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B8F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B8F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B8F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B8F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B9F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B9F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B9F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B9F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B9F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B9F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B10F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B10F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B10F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B10F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B10F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B10F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B11F Northwest Ladder",
+            "hosted_item": "Navel Rock Base Path B11F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B11F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Path B11F Southeast Ladder",
+            "hosted_item": "Navel Rock Base Path B11F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Path B11F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Navel Rock Base Ladder",
+            "hosted_item": "Navel Rock Base Ladder",
+            "access_rules": ["^$entrance_access|Navel Rock Base Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 284,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 156,
+            "y": 134,
+            "size": 4,
+            "force_invisibility_rules": ["kanto_only_off"]
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 92,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Birth Island",
+        "sections": [
+          {
+            "name": "Birth Island Harbor Entrance",
+            "hosted_item": "Birth Island Harbor Entrance",
+            "access_rules": ["^$entrance_access|Birth Island Harbor Entrance"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          },
+          {
+            "name": "Birth Island Harbor Exit",
+            "hosted_item": "Birth Island Harbor Exit",
+            "access_rules": ["^$entrance_access|Birth Island Harbor Exit"],
+            "visibility_rules": ["$shuffle_harbors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 348,
+            "y": 268,
+            "size": 4
+          },
+          {
+            "map": "kanto",
+            "x": 180,
+            "y": 134,
+            "size": 4,
+            "force_invisibility_rules": ["kanto_only_off"]
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 156,
+            "y": 124,
+            "size": 4
+          }
+        ]
+      }
+    ]
+  }
+]

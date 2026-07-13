@@ -41,8 +41,8 @@ ENTRANCE_MAPPING = {
         [6] = "Pewter Info House"
     },
     [1536] = { -- Pewter Museum 1F
-        [0] = "Pewter Museum 1F Exit (West)",
-        [1] = "Pewter Museum 1F Exit (East)",
+        [0] = "Pewter Museum 1F West Exit",
+        [1] = "Pewter Museum 1F East Exit",
         [2] = "Pewter Museum 1F Stairs"
     },
     [1537] = { -- Pewter Museum 2F
@@ -79,12 +79,12 @@ ENTRANCE_MAPPING = {
         [12] = "Berry Powder Man's House"
     },
     [1792] = { -- Badge Guy's House
-        [0] = "Badge Guy's House Exit (Front)",
-        [1] = "Badge Guy's House Exit (Back)"
+        [0] = "Badge Guy's House Front Exit",
+        [1] = "Badge Guy's House Back Exit"
     },
     [1793] = { -- Robbed House
-        [0] = "Robbed House Exit (Front)",
-        [1] = "Robbed House Exit (Back)"
+        [0] = "Robbed House Front Exit",
+        [1] = "Robbed House Back Exit"
     },
     [1794] = { -- Cerulean Trade House
         [0] = "Cerulean Trade House Exit"
@@ -175,8 +175,8 @@ ENTRANCE_MAPPING = {
         [10] = "Celadon Condominiums (Back)"
     },
     [2560] = { -- Celadon Department Store 1F
-        [0] = "Celadon Department Store 1F Exit (West)",
-        [1] = "Celadon Department Store 1F Exit (East)",
+        [0] = "Celadon Department Store 1F West Exit",
+        [1] = "Celadon Department Store 1F East Exit",
         [3] = "Celadon Department Store 1F Stairs"
     },
     [2561] = { -- Celadon Department Store 2F
@@ -199,10 +199,10 @@ ENTRANCE_MAPPING = {
         [0] = "Celadon Department Store Roof Exit"
     },
     [2567] = { -- Celadon Condominiums 1F
-        [0] = "Celadon Condominiums 1F Exit (Front)",
+        [0] = "Celadon Condominiums 1F Front Exit",
         [1] = "Celadon Condominiums 1F Northwest Stairs",
         [2] = "Celadon Condominiums 1F Northeast Stairs",
-        [3] = "Celadon Condominiums 1F Exit (Back)"
+        [3] = "Celadon Condominiums 1F Back Exit"
     },
     [2568] = { -- Celadon Condominiums 2F
         [0] = "Celadon Condominiums 2F Northwest Stairs (Right)",
@@ -277,8 +277,8 @@ ENTRANCE_MAPPING = {
         [0] = "Safari Zone Warden's House Exit"
     },
     [2824] = { -- Fuchsia Fishing House
-        [0] = "Fuchsia Fishing House Exit (Front)",
-        [1] = "Fuchsia Fishing House Exit (Back)"
+        [0] = "Fuchsia Fishing House Front Exit",
+        [1] = "Fuchsia Fishing House Back Exit"
     },
     [2825] = { -- Move Deleter's House
         [0] = "Move Deleter's House Exit"
@@ -396,20 +396,20 @@ ENTRANCE_MAPPING = {
         [0] = "Indigo Plateau Pokemon Center 1F Exit"
     },
     [3840] = { -- Viridian Forest South Entrance
-        [0] = "Viridian Forest South Gate Exit (South)",
-        [1] = "Viridian Forest South Gate Exit (North)"
+        [0] = "Viridian Forest South Gate South Exit",
+        [1] = "Viridian Forest South Gate North Exit"
     },
     [256] = { -- Viridian Forest
-        [0] = "Viridian Forest Exit (South)",
-        [1] = "Viridian Forest Exit (South)",
-        [2] = "Viridian Forest Exit (South)",
-        [3] = "Viridian Forest Exit (North)",
-        [4] = "Viridian Forest Exit (North)",
-        [5] = "Viridian Forest Exit (North)"
+        [0] = "Viridian Forest South Exit",
+        [1] = "Viridian Forest South Exit",
+        [2] = "Viridian Forest South Exit",
+        [3] = "Viridian Forest North Exit",
+        [4] = "Viridian Forest North Exit",
+        [5] = "Viridian Forest North Exit"
     },
     [3843] = { -- Viridian Forest North Entrance
-        [0] = "Viridian Forest North Gate Exit (South)",
-        [1] = "Viridian Forest North Gate Exit (North)"
+        [0] = "Viridian Forest North Gate South Exit",
+        [1] = "Viridian Forest North Gate North Exit"
     },
     [257] = { -- Mt. Moon 1F
         [0] = "Mt. Moon 1F Northwest Ladder",
@@ -575,8 +575,8 @@ ENTRANCE_MAPPING = {
         [3] = "Rock Tunnel B1F Northwest Ladder"
     },
     [351] = { -- Power Plant
-        [0] = "Power Plant Exit (Front)",
-        [1] = "Power Plant Exit (Back)"
+        [0] = "Power Plant Front Exit",
+        [1] = "Power Plant Back Exit"
     },
     [344] = { -- Pokémon Tower 1F
         [0] = "Pokemon Tower 1F Exit",
@@ -638,14 +638,14 @@ ENTRANCE_MAPPING = {
         [1] = "Safari Zone Entrance Exit"
     },
     [319] = { -- Safari Zone Center Area
-        [0] = "Safari Zone Center Area Exit (South)",
-        [1] = "Safari Zone Center Area Exit (South)",
-        [2] = "Safari Zone Center Area Exit (North)",
-        [3] = "Safari Zone Center Area Exit (North)",
-        [4] = "Safari Zone Center Area Exit (West)",
-        [5] = "Safari Zone Center Area Exit (West)",
-        [6] = "Safari Zone Center Area Exit (East)",
-        [7] = "Safari Zone Center Area Exit (East)",
+        [0] = "Safari Zone Center Area South Exit",
+        [1] = "Safari Zone Center Area South Exit",
+        [2] = "Safari Zone Center Area North Exit",
+        [3] = "Safari Zone Center Area North Exit",
+        [4] = "Safari Zone Center Area West Exit",
+        [5] = "Safari Zone Center Area West Exit",
+        [6] = "Safari Zone Center Area East Exit",
+        [7] = "Safari Zone Center Area East Exit",
         [8] = "Safari Zone Center Area Rest House"
     },
     [320] = { -- Safari Zone East Area
@@ -660,8 +660,8 @@ ENTRANCE_MAPPING = {
         [1] = "Safari Zone North Area Exit (Southwest)",
         [2] = "Safari Zone North Area Exit (South)",
         [3] = "Safari Zone North Area Exit (South)",
-        [4] = "Safari Zone North Area Exit (East)",
-        [5] = "Safari Zone North Area Exit (East)",
+        [4] = "Safari Zone North Area East Exit",
+        [5] = "Safari Zone North Area East Exit",
         [6] = "Safari Zone North Area Exit (Southeast)",
         [7] = "Safari Zone North Area Exit (Southeast)",
         [8] = "Safari Zone North Area Rest House"
@@ -671,8 +671,8 @@ ENTRANCE_MAPPING = {
         [1] = "Safari Zone West Area Exit (North)",
         [2] = "Safari Zone West Area Exit (Northeast)",
         [3] = "Safari Zone West Area Exit (Northeast)",
-        [4] = "Safari Zone West Area Exit (East)",
-        [5] = "Safari Zone West Area Exit (East)",
+        [4] = "Safari Zone West Area East Exit",
+        [5] = "Safari Zone West Area East Exit",
         [6] = "Safari Zone Secret House",
         [7] = "Safari Zone West Area Rest House"
     },
@@ -731,20 +731,20 @@ ENTRANCE_MAPPING = {
         [5] = "Silph Co. 5F Northeast Warp Tile"
     },
     [308] = { -- Silph Co. 6F
-        [0] = "Silph Co. 6F North Stairs",
+        [0] = "Silph Co. 6F Northwest Stairs",
         [1] = "Silph Co. 6F Northeast Warp Tile",
         [2] = "Silph Co. 6F Northeast Stairs",
         [3] = "Silph Co. 6F Northwest Warp Tile"
     },
     [309] = { -- Silph Co. 7F
-        [0] = "Silph Co. 7F North Stairs",
+        [0] = "Silph Co. 7F Northwest Stairs",
         [1] = "Silph Co. 7F Northwest Warp Tile (Bottom)",
         [2] = "Silph Co. 7F Southeast Warp Tile",
         [3] = "Silph Co. 7F Northeast Stairs",
         [4] = "Silph Co. 7F Northwest Warp Tile (Top)"
     },
     [310] = { -- Silph Co. 8F
-        [0] = "Silph Co. 8F North Stairs",
+        [0] = "Silph Co. 8F Northwest Stairs",
         [1] = "Silph Co. 8F Center Warp Tile",
         [2] = "Silph Co. 8F North Warp Tile",
         [3] = "Silph Co. 8F Northeast Stairs",
@@ -772,8 +772,8 @@ ENTRANCE_MAPPING = {
         [0] = "Seafoam Islands 1F Northwest Ladder",
         [1] = "Seafoam Islands 1F Northeast Ladder",
         [2] = "Seafoam Islands 1F Southeast Ladder",
-        [3] = "Seafoam Islands 1F Exit (West)",
-        [4] = "Seafoam Islands 1F Exit (East)",
+        [3] = "Seafoam Islands 1F West Exit",
+        [4] = "Seafoam Islands 1F East Exit",
         [5] = "Seafoam Islands 1F Drop (Left)",
         [6] = "Seafoam Islands 1F Drop (Right)"
     },
@@ -813,10 +813,10 @@ ENTRANCE_MAPPING = {
         [1] = "Seafoam Islands B4F Northeast Ladder"
     },
     [315] = { -- Pokémon Mansion 1F
-        [0] = "Pokemon Mansion 1F Exit (West)",
+        [0] = "Pokemon Mansion 1F West Exit",
         [1] = "Pokemon Mansion 1F West Stairs",
         [2] = "Pokemon Mansion 1F South Stairs",
-        [3] = "Pokemon Mansion 1F Exit (East)"
+        [3] = "Pokemon Mansion 1F East Exit"
     },
     [316] = { -- Pokémon Mansion 2F
         [0] = "Pokemon Mansion 2F Northwest Stairs",
@@ -916,16 +916,16 @@ ENTRANCE_MAPPING = {
         [5] = "Mt. Ember Ruby Path"
     },
     [354] = { -- Mt. Ember Summit Path 1F
-        [0] = "Mt. Ember Summit Path 1F Exit (South)",
-        [1] = "Mt. Ember Summit Path 1F Exit (North)"
+        [0] = "Mt. Ember Summit Path 1F South Exit",
+        [1] = "Mt. Ember Summit Path 1F North Exit"
     },
     [355] = { -- Mt. Ember Summit Path 2F
-        [0] = "Mt. Ember Summit Path 2F Exit (South)",
-        [1] = "Mt. Ember Summit Path 2F Exit (North)"
+        [0] = "Mt. Ember Summit Path 2F South Exit",
+        [1] = "Mt. Ember Summit Path 2F North Exit"
     },
     [356] = { -- Mt. Ember Summit Path 3F
-        [0] = "Mt. Ember Summit Path 3F Exit (West)",
-        [1] = "Mt. Ember Summit Path 3F Exit (East)"
+        [0] = "Mt. Ember Summit Path 3F West Exit",
+        [1] = "Mt. Ember Summit Path 3F East Exit"
     },
     [357] = { -- Mt. Ember Summit
         [0] = "Mt. Ember Summit Exit"
@@ -1022,8 +1022,8 @@ ENTRANCE_MAPPING = {
         [0] = "Three Island Harbor Exit"
     },
     [546] = { -- Three Isle Path
-        [0] = "Three Isle Path Exit (West)",
-        [1] = "Three Isle Path Exit (East)"
+        [0] = "Three Isle Path West Exit",
+        [1] = "Three Isle Path East Exit"
     },
     [816] = { -- Bond Bridge
         [0] = "Berry Forest",
@@ -1066,17 +1066,17 @@ ENTRANCE_MAPPING = {
         [0] = "Four Island Poke Mart Exit"
     },
     [366] = { -- Icefall Cave Front
-        [0] = "Icefall Cave Front Exit (South)",
-        [1] = "Icefall Cave Front Exit (North)",
+        [0] = "Icefall Cave Front South Exit",
+        [1] = "Icefall Cave Front North Exit",
         [2] = "Icefall Cave Front Ladder"
     },
     [367] = { -- Icefall Cave 1F
-        [0] = "Icefall Cave 1F Exit (South)",
+        [0] = "Icefall Cave 1F South Exit",
         [1] = "Icefall Cave 1F Northwest Ladder",
         [2] = "Icefall Cave 1F East Ladder",
         [3] = "Icefall Cave 1F Northeast Ladder",
         [4] = "Icefall Cave 1F Southeast Ladder",
-        [5] = "Icefall Cave 1F Exit (North)"
+        [5] = "Icefall Cave 1F North Exit"
     },
     [368] = { -- Icefall Cave B1F
         [0] = "Icefall Cave B1F West Ladder",
@@ -1182,12 +1182,12 @@ ENTRANCE_MAPPING = {
         [3] = "Pattern Bush (West)"
     },
     [377] = { -- Pattern Bush
-        [0] = "Pattern Bush Exit (East)",
-        [1] = "Pattern Bush Exit (East)",
-        [2] = "Pattern Bush Exit (East)",
-        [3] = "Pattern Bush Exit (West)",
-        [4] = "Pattern Bush Exit (West)",
-        [5] = "Pattern Bush Exit (West)"
+        [0] = "Pattern Bush East Exit",
+        [1] = "Pattern Bush East Exit",
+        [2] = "Pattern Bush East Exit",
+        [3] = "Pattern Bush West Exit",
+        [4] = "Pattern Bush West Exit",
+        [5] = "Pattern Bush West Exit"
     },
     [826] = { -- Outcast Island
         [0] = "Altering Cave"
@@ -1367,8 +1367,8 @@ ENTRANCE_MAPPING = {
         [0] = "Route 2 Trade House Exit"
     },
     [3842] = { -- Route 2 Gate
-        [0] = "Route 2 Gate Exit (South)",
-        [1] = "Route 2 Gate Exit (North)"
+        [0] = "Route 2 Gate South Exit",
+        [1] = "Route 2 Gate North Exit"
     },
     [790] = { -- Route 4
         [0] = "Mt. Moon (West)",
@@ -1388,8 +1388,8 @@ ENTRANCE_MAPPING = {
         [0] = "Route 5 Pokemon Day Care Exit"
     },
     [4353] = { -- Route 5 Gate
-        [0] = "Route 5 Gate Exit (North)",
-        [1] = "Route 5 Gate Exit (South)"
+        [0] = "Route 5 Gate North Exit",
+        [1] = "Route 5 Gate South Exit"
     },
     [792] = { -- Route 6
         [0] = "Underground Path South Entrance",
@@ -1397,24 +1397,24 @@ ENTRANCE_MAPPING = {
         [2] = "Route 6 Gate (South)"
     },
     [4608] = { -- Route 6 Gate
-        [0] = "Route 6 Gate Exit (North)",
-        [1] = "Route 6 Gate Exit (South)"
+        [0] = "Route 6 Gate North Exit",
+        [1] = "Route 6 Gate South Exit"
     },
     [793] = { -- Route 7
         [0] = "Underground Path West Entrance",
         [1] = "Route 7 Gate (West)"
     },
     [4864] = { -- Route 7 Gate
-        [0] = "Route 7 Gate Exit (West)",
-        [1] = "Route 7 Gate Exit (East)"
+        [0] = "Route 7 Gate West Exit",
+        [1] = "Route 7 Gate East Exit"
     },
     [794] = { -- Route 8
         [0] = "Underground Path East Entrance",
         [1] = "Route 8 Gate (East)"
     },
     [5120] = { -- Route 8 Gate
-        [0] = "Route 8 Gate Exit (West)",
-        [1] = "Route 8 Gate Exit (East)"
+        [0] = "Route 8 Gate West Exit",
+        [1] = "Route 8 Gate East Exit"
     },
     [796] = { -- Route 10
         [0] = "Rock Tunnel (North)",
@@ -1432,8 +1432,8 @@ ENTRANCE_MAPPING = {
         [2] = "Route 11 Gate (East)"
     },
     [5632] = { -- Route 11 Gate 1F
-        [0] = "Route 11 Gate 1F Exit (West)",
-        [1] = "Route 11 Gate 1F Exit (East)",
+        [0] = "Route 11 Gate 1F West Exit",
+        [1] = "Route 11 Gate 1F East Exit",
         [2] = "Route 11 Gate 1F Stairs"
     },
     [5633] = { -- Route 11 Gate 2F
@@ -1445,8 +1445,8 @@ ENTRANCE_MAPPING = {
         [2] = "Route 12 Gate (South)"
     },
     [5888] = { -- Route 12 Gate 1F
-        [0] = "Route 12 Gate 1F Exit (North)",
-        [1] = "Route 12 Gate 1F Exit (South)",
+        [0] = "Route 12 Gate 1F North Exit",
+        [1] = "Route 12 Gate 1F South Exit",
         [2] = "Route 12 Gate 1F Stairs"
     },
     [5889] = { -- Route 12 Gate 2F
@@ -1460,8 +1460,8 @@ ENTRANCE_MAPPING = {
         [1] = "Route 15 Gate (East)"
     },
     [6144] = { -- Route 15 Gate 1F
-        [0] = "Route 15 Gate 1F Exit (West)",
-        [1] = "Route 15 Gate 1F Exit (East)",
+        [0] = "Route 15 Gate 1F West Exit",
+        [1] = "Route 15 Gate 1F East Exit",
         [2] = "Route 15 Gate 1F Stairs"
     },
     [6145] = { -- Route 15 Gate 2F
@@ -1492,8 +1492,8 @@ ENTRANCE_MAPPING = {
         [1] = "Route 18 Gate (East)"
     },
     [6656] = { -- Route 18 Gate 1F
-        [0] = "Route 18 Gate 1F Exit (West)",
-        [1] = "Route 18 Gate 1F Exit (East)",
+        [0] = "Route 18 Gate 1F West Exit",
+        [1] = "Route 18 Gate 1F East Exit",
         [2] = "Route 18 Gate 1F Stairs"
     },
     [6657] = { -- Route 18 Gate 2F
@@ -1507,8 +1507,8 @@ ENTRANCE_MAPPING = {
         [0] = "Route 22 Gate (South)"
     },
     [7168] = { -- Route 22 Gate
-        [0] = "Route 22 Gate Exit (North)",
-        [1] = "Route 22 Gate Exit (South)"
+        [0] = "Route 22 Gate North Exit",
+        [1] = "Route 22 Gate South Exit"
     },
     [810] = { -- Route 23
         [0] = "Victory Road (West)",

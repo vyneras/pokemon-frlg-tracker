@@ -14,11 +14,16 @@ ACCESS_LEVEL = {
     [AccessibilityLevel.Cleared] = 7
 }
 
+item_cache = {}
+amount_cache = {}
+
 function tracker_on_accessibility_updating()
-    if TRACKER_READY then
+    amount_cache = {}
+    if TRACKER_READY and UPDATES_ALLOWED then
         update_region_connections()
     end
 end
+
 
 function and_access(...)
     local access = AccessibilityLevel.Cleared
@@ -41,7 +46,10 @@ function or_access(...)
 end
 
 function has(item, amount)
-    local count = Tracker:ProviderCountForCode(item)
+    if not amount_cache[item] then
+        amount_cache[item] = Tracker:ProviderCountForCode(item)
+    end
+    local count = amount_cache[item] or 0
     amount = tonumber(amount)
     if not amount then
         return count > 0
@@ -80,7 +88,14 @@ function dump_table(o, depth)
 end
 
 function get_item(code)
+    if item_cache[code] then
+        return item_cache[code].ItemState["item"]
+    end
     local item = Tracker:FindObjectForCode(code)
+    if item then
+        item_cache[code] = item
+        return item.ItemState["item"]
+    end
     return item.ItemState["item"]
 end
 
@@ -233,6 +248,7 @@ end
 function toggle_maps(code)
     local map_split = has("split_map_on")
     local kanto_only = has("kanto_only_on")
+    local entrance_rando = entrance_rando()
 
     if map_split then
         Tracker:AddLayouts("layouts/map_layout_split.json")
@@ -240,10 +256,14 @@ function toggle_maps(code)
         Tracker:AddLayouts("layouts/map_layout.json")
     end
 
-    if not kanto_only then
+    if not kanto_only and not entrance_rando then
         Tracker:AddLayouts("layouts/maps.json")
-    else
+    elseif kanto_only and not entrance_rando then
         Tracker:AddLayouts("layouts/maps_no_sevii.json")
+    elseif not kanto_only and entrance_rando then
+        Tracker:AddLayouts("layouts/maps_er.json")
+    else
+        Tracker:AddLayouts("layouts/maps_no_sevii_er.json")
     end
 end
 
@@ -396,22 +416,6 @@ function toggle_fly_unlock(code)
                 item:setStage(data[2])
             else
                 item:setStage(0)
-            end
-        end
-    end
-end
-
-function set_default_dungeon_entrances(code)
-    for name, item in pairs(ENTRANCE_ITEMS) do
-        if shuffle_dungeons_on() then
-            item:setStage(item:getSavedStage())
-        else
-            if has("shuffle_dungeons_seafoam") and name == "Seafoam Islands (South)" then
-                item:setStage(17)
-            elseif has("shuffle_dungeons_seafoam") and name == "Seafoam Islands (North)" then
-                item:setStage(16)
-            else
-                item:setStage(item:getDefaultStage())
             end
         end
     end
