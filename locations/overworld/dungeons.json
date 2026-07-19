@@ -467,12 +467,14 @@
           {
             "map": "route_5",
             "x": 504,
-            "y": 504
+            "y": 504,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           },
           {
             "map": "route_6",
             "x": 312,
-            "y": 216
+            "y": 216,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -1386,12 +1388,14 @@
           {
             "map": "route_7",
             "x": 120,
-            "y": 232
+            "y": 232,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           },
           {
             "map": "route_8_west",
             "x": 216,
-            "y": 72
+            "y": 72,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -4089,7 +4093,8 @@
           {
             "map": "sevault_canyon_north",
             "x": 120,
-            "y": 280
+            "y": 280,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },

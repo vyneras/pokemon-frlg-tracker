@@ -174,13 +174,13 @@
         "name": "Dotted Hole Entrance",
         "sections": [
           {
-            "ref": "Islands/Ruin Valley/Dotted Hole Entrance",
-            "name": "Entrance"
+            "ref": "Island Entrances/Ruin Valley/Dotted Hole Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "ruin_valley",
+            "shape": "diamond",
             "x": 392,
             "y": 392
           }

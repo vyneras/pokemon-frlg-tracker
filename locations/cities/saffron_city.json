@@ -33,7 +33,8 @@
           {
             "map": "saffron_city",
             "x": 392,
-            "y": 616
+            "y": 616,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -48,7 +49,8 @@
           {
             "map": "saffron_city",
             "x": 696,
-            "y": 616
+            "y": 616,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -80,7 +82,8 @@
           {
             "map": "saffron_city",
             "x": 760,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -95,7 +98,8 @@
           {
             "map": "saffron_city",
             "x": 648,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": ["$shuffle_marts"]
           }
         ]
       },
@@ -155,7 +159,8 @@
           {
             "map": "saffron_city",
             "x": 648,
-            "y": 200
+            "y": 200,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -171,7 +176,8 @@
           {
             "map": "saffron_city",
             "x": 360,
-            "y": 232
+            "y": 232,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -239,7 +245,152 @@
           {
             "map": "saffron_city",
             "x": 744,
+            "y": 200,
+            "force_invisibility_rules": ["$shuffle_gyms"]
+          }
+        ]
+      },
+      {
+        "name": "Copycat's House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Copycat's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 360,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Saffron Dojo Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Dojo Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 648,
             "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Pidgey House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Pidgey House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 440,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mr. Psychic's House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Mr. Psychic's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 696,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Route 7 Gate East Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Route 7 Gate East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 136,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Gate South Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Route 5 Gate South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 560,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Gate West Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Route 8 Gate West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 936,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "Route 6 Gate North Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Route 6 Gate North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 560,
+            "y": 744
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Trainer Fan Club Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Pokemon Trainer Fan Club Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 760,
+            "y": 344
           }
         ]
       },
@@ -247,15 +398,100 @@
         "name": "Silph Co. Entrance",
         "sections": [
           {
-            "ref": "Cities/Saffron City/Silph Co. Entrance",
-            "name": "Entrance"
+            "ref": "City Entrances/Saffron City/Silph Co. Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "saffron_city",
+            "shape": "diamond",
             "x": 536,
             "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 744,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 648,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Saffron Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_city",
+            "shape": "diamond",
+            "x": 392,
+            "y": 616
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Copycat's House 1F",
+    "children": [
+      {
+        "name": "Copycat's House 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Copycat's House 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_1f",
+            "shape": "diamond",
+            "x": 72,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Copycat's House 1F Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Copycat's House 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_1f",
+            "shape": "diamond",
+            "x": 176,
+            "y": 40
           }
         ]
       }
@@ -277,6 +513,22 @@
             "map": "copycats_house_2f",
             "x": 40,
             "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Copycat's House 2F Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Copycat's House 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "copycats_house_2f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 44
           }
         ]
       }
@@ -410,6 +662,22 @@
             "map": "saffron_dojo",
             "x": 120,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Saffron Dojo Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Dojo Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_dojo",
+            "shape": "diamond",
+            "x": 104,
+            "y": 232
           }
         ]
       }
@@ -569,6 +837,502 @@
             "y": 184
           }
         ]
+      },
+      {
+        "name": "Saffron Gym Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 232,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym South Warp Tile",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym South Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 296,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southeast Warp Tile (Top Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Southeast Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 328,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southeast Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Southeast Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 328,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southeast Warp Tile (Top Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Southeast Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 456,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southeast Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Southeast Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 456,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southwest Warp Tile (Top Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Southwest Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 8,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southwest Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Southwest Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 8,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southwest Warp Tile (Top Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Southwest Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 136,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Southwest Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Southwest Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 136,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym East Warp Tile (Top Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym East Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 328,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym East Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym East Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 328,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym East Warp Tile (Top Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym East Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 456,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym East Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym East Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 456,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym West Warp Tile (Top Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym West Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 8,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym West Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym West Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 8,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym West Warp Tile (Top Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym West Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 136,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym West Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym West Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 136,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northeast Warp Tile (Top Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Northeast Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 328,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northeast Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Northeast Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 328,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northeast Warp Tile (Top Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Northeast Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 456,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northeast Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Northeast Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 456,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym North Warp Tile (Top Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym North Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 200,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym North Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym North Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 200,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym North Warp Tile (Top Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym North Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 264,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym North Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym North Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 264,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northwest Warp Tile (Top Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Northwest Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 8,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northwest Warp Tile (Bottom Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Northwest Warp Tile (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 8,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northwest Warp Tile (Top Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Northwest Warp Tile (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 136,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Northwest Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Northwest Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 136,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Saffron Gym Center Warp Tile",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Gym Center Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_gym",
+            "shape": "diamond",
+            "x": 296,
+            "y": 248
+          }
+        ]
       }
     ]
   },
@@ -606,6 +1370,22 @@
             "y": 32
           }
         ]
+      },
+      {
+        "name": "Saffron Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
+          }
+        ]
       }
     ]
   },
@@ -625,6 +1405,22 @@
             "map": "mr_psychics_house",
             "x": 120,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mr. Psychic's House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Mr. Psychic's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mr_psychics_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -648,6 +1444,22 @@
             "y": 32
           }
         ]
+      },
+      {
+        "name": "Pokemon Trainer Fan Club Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Pokemon Trainer Fan Club Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_trainer_fan_club",
+            "shape": "diamond",
+            "x": 88,
+            "y": 248
+          }
+        ]
       }
     ]
   },
@@ -666,6 +1478,43 @@
             "map": "saffron_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Saffron Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_mart",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Saffron Pidgey House",
+    "children": [
+      {
+        "name": "Saffron Pidgey House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Saffron City/Saffron Pidgey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "saffron_pidgey_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

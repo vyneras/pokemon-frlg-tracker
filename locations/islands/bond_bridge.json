@@ -206,6 +206,22 @@
             "y": 104
           }
         ]
+      },
+      {
+        "name": "Berry Forest Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Bond Bridge/Berry Forest Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bond_bridge_west",
+            "shape": "diamond",
+            "x": 208,
+            "y": 104
+          }
+        ]
       }
     ]
   }

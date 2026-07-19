@@ -2434,6 +2434,183 @@
             "y": 44
           }
         ]
+      },
+      {
+        "name": "Fly Destinations",
+        "sections": [
+          {
+            "name": "Pallet Town Fly Destination",
+            "hosted_item": "Pallet Town Fly Destination",
+            "access_rules": ["^$entrance_access|Pallet Town Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Viridian City Fly Destination",
+            "hosted_item": "Viridian City Fly Destination",
+            "access_rules": ["^$entrance_access|Viridian City Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Pewter City Fly Destination",
+            "hosted_item": "Pewter City Fly Destination",
+            "access_rules": ["^$entrance_access|Pewter City Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Route 4 Fly Destination",
+            "hosted_item": "Route 4 Fly Destination",
+            "access_rules": ["^$entrance_access|Route 4 Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Cerulean City Fly Destination",
+            "hosted_item": "Cerulean City Fly Destination",
+            "access_rules": ["^$entrance_access|Cerulean City Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Vermilion City Fly Destination",
+            "hosted_item": "Vermilion City Fly Destination",
+            "access_rules": ["^$entrance_access|Vermilion City Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Route 10 Fly Destination",
+            "hosted_item": "Route 10 Fly Destination",
+            "access_rules": ["^$entrance_access|Route 10 Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Lavender Town Fly Destination",
+            "hosted_item": "Lavender Town Fly Destination",
+            "access_rules": ["^$entrance_access|Lavender Town Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Celadon City Fly Destination",
+            "hosted_item": "Celadon City Fly Destination",
+            "access_rules": ["^$entrance_access|Celadon City Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Fuchsia City Fly Destination",
+            "hosted_item": "Fuchsia City Fly Destination",
+            "access_rules": ["^$entrance_access|Fuchsia City Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Saffron City Fly Destination",
+            "hosted_item": "Saffron City Fly Destination",
+            "access_rules": ["^$entrance_access|Saffron City Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Cinnabar Island Fly Destination",
+            "hosted_item": "Cinnabar Island Fly Destination",
+            "access_rules": ["^$entrance_access|Cinnabar Island Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Indigo Plateau Fly Destination",
+            "hosted_item": "Indigo Plateau Fly Destination",
+            "access_rules": ["^$entrance_access|Indigo Plateau Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "One Island Fly Destination",
+            "hosted_item": "One Island Fly Destination",
+            "access_rules": ["^$entrance_access|One Island Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Two Island Fly Destination",
+            "hosted_item": "Two Island Fly Destination",
+            "access_rules": ["^$entrance_access|Two Island Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Three Island Fly Destination",
+            "hosted_item": "Three Island Fly Destination",
+            "access_rules": ["^$entrance_access|Three Island Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Four Island Fly Destination",
+            "hosted_item": "Four Island Fly Destination",
+            "access_rules": ["^$entrance_access|Four Island Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Five Island Fly Destination",
+            "hosted_item": "Five Island Fly Destination",
+            "access_rules": ["^$entrance_access|Five Island Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Six Island Fly Destination",
+            "hosted_item": "Six Island Fly Destination",
+            "access_rules": ["^$entrance_access|Six Island Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          },
+          {
+            "name": "Seven Island Fly Destination",
+            "hosted_item": "Seven Island Fly Destination",
+            "access_rules": ["^$entrance_access|Seven Island Fly Destination"],
+            "visibility_rules": ["$randomize_fly_destinations"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "kanto",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "sevii_123",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "sevii_45",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "sevii_67",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "kanto_sevii_er",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "kanto_er",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 8,
+            "y": 8
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 8,
+            "y": 8
+          }
+        ]
       }
     ]
   }

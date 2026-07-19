@@ -142,6 +142,25 @@ function update_region_connections()
                         set_entrance_access(warp, new_access, access)
                     end
                 end
+
+                if region_data["flys"] ~= nil then
+                    for fly, fly_data in pairs(region_data["flys"]) do
+                        local new_access = fly_data["access"]()
+                        local shuffled = fly_data["shuffled"]()
+                        local connected_region = fly_data["connected_region"]
+
+                        if shuffled then
+                            local entrance = get_item(fly)
+                            connected_region = entrance:getConnectedRegion()
+                        end
+
+                        if connected_region ~= "????" then
+                             set_region_access(connected_region, new_access, access)   
+                        end
+                        
+                        set_entrance_access(fly, new_access, access)
+                    end
+                end
             end
         end
     end

@@ -87,15 +87,15 @@
             "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
           },
           {
-            "name": "Mt. Moon B1F Northeast Ladder (Third Tunnel)",
-            "hosted_item": "Mt. Moon B1F Northeast Ladder (Third Tunnel)",
-            "access_rules": ["^$entrance_access|Mt. Moon B1F Northeast Ladder (Third Tunnel)"],
+            "name": "Mt. Moon B1F Northwest Ladder (Third Tunnel)",
+            "hosted_item": "Mt. Moon B1F Northwest Ladder (Third Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F Northwest Ladder (Third Tunnel)"],
             "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
           },
           {
-            "name": "Mt. Moon B1F Southwest Ladder (Third Tunnel)",
-            "hosted_item": "Mt. Moon B1F Southwest Ladder (Third Tunnel)",
-            "access_rules": ["^$entrance_access|Mt. Moon B1F Southwest Ladder (Third Tunnel)"],
+            "name": "Mt. Moon B1F Southeast Ladder (Third Tunnel)",
+            "hosted_item": "Mt. Moon B1F Southeast Ladder (Third Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F Southeast Ladder (Third Tunnel)"],
             "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
           },
           {
@@ -935,6 +935,12 @@
       {
         "name": "Safari Zone",
         "sections": [
+          {
+            "name": "Safari Zone Lobby Exit",
+            "hosted_item": "Safari Zone Lobby Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Lobby Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
           {
             "name": "Safari Zone Center Area East Exit",
             "hosted_item": "Safari Zone Center Area East Exit",

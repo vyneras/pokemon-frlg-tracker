@@ -1,5 +1,42 @@
 [
   {
+    "name": "Lost Cave 1F",
+    "children": [
+      {
+        "name": "Lost Cave 1F Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Lost Cave/Lost Cave 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_entrance",
+            "shape": "diamond",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Lost Cave 1F Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Lost Cave/Lost Cave 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_entrance",
+            "shape": "diamond",
+            "x": 88,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Lost Cave B1F Room 1",
     "children": [
       {
@@ -31,6 +68,22 @@
             "map": "lost_cave_room_1",
             "x": 88,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Lost Cave B1F Room 1 Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Lost Cave/Lost Cave B1F Room 1 Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lost_cave_room_1",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
           }
         ]
       }

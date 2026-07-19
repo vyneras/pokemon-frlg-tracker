@@ -135,7 +135,8 @@
           {
             "map": "route_25_east",
             "x": 248,
-            "y": 72
+            "y": 72,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -342,6 +343,22 @@
             "y": 184
           }
         ]
+      },
+      {
+        "name": "Sea Cottage Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 25/Sea Cottage Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_25_east",
+            "shape": "diamond",
+            "x": 248,
+            "y": 72
+          }
+        ]
       }
     ]
   },
@@ -365,6 +382,22 @@
             "map": "sea_cottage",
             "x": 120,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Sea Cottage Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 25/Sea Cottage Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sea_cottage",
+            "shape": "diamond",
+            "x": 120,
+            "y": 152
           }
         ]
       }

@@ -1,5 +1,79 @@
 [
   {
+    "name": "Underground Path 1F East",
+    "children": [
+      {
+        "name": "Underground Path 1F East Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path East-West Tunnel/Underground Path 1F East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_entrance",
+            "shape": "diamond",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Underground Path 1F East Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path East-West Tunnel/Underground Path 1F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_entrance",
+            "shape": "diamond",
+            "x": 112,
+            "y": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path 1F West",
+    "children": [
+      {
+        "name": "Underground Path 1F West Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path East-West Tunnel/Underground Path 1F West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_west_entrance",
+            "shape": "diamond",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Underground Path 1F West Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path East-West Tunnel/Underground Path 1F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_west_entrance",
+            "shape": "diamond",
+            "x": 112,
+            "y": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Underground Path East-West Tunnel",
     "children": [
       {
@@ -111,6 +185,38 @@
             "map": "underground_path_east_west_tunnel_west",
             "x": 120,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Underground Path B1F East Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path East-West Tunnel/Underground Path B1F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_east",
+            "shape": "diamond",
+            "x": 592,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Underground Path B1F West Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path East-West Tunnel/Underground Path B1F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_east_west_tunnel_west",
+            "shape": "diamond",
+            "x": 48,
+            "y": 72
           }
         ]
       }

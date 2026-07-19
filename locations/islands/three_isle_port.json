@@ -17,6 +17,75 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Three Isle Path West Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Isle Port/Three Isle Path West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port",
+            "shape": "diamond",
+            "x": 264,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path East Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Isle Port/Three Isle Path East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port",
+            "shape": "diamond",
+            "x": 616,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Three Island Harbor Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Isle Port/Three Island Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port",
+            "shape": "diamond",
+            "x": 200,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Harbor",
+    "children": [
+      {
+        "name": "Three Island Harbor Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Isle Port/Three Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_port_harbor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
+          }
+        ]
       }
     ]
   }

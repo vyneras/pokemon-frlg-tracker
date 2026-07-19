@@ -197,6 +197,75 @@
             "y": 344
           }
         ]
+      },
+      {
+        "name": "Route 6 Gate South Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 6/Route 6 Gate South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "shape": "diamond",
+            "x": 208,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Underground Path South Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 6/Underground Path South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6",
+            "shape": "diamond",
+            "x": 312,
+            "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 6 Gate",
+    "children": [
+      {
+        "name": "Route 6 Gate South Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 6/Route 6 Gate South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6_gate",
+            "shape": "diamond",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Route 6 Gate North Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 6/Route 6 Gate North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_6_gate",
+            "shape": "diamond",
+            "x": 72,
+            "y": 24
+          }
+        ]
       }
     ]
   }

@@ -943,12 +943,6 @@
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Safari Zone Lobby Exit",
-            "hosted_item": "Safari Zone Lobby Exit",
-            "access_rules": ["^$entrance_access|Safari Zone Lobby Exit"],
-            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
-          },
-          {
             "name": "Fuchsia Poke Mart Exit",
             "hosted_item": "Fuchsia Poke Mart Exit",
             "access_rules": ["^$entrance_access|Fuchsia Poke Mart Exit"],
@@ -1080,9 +1074,9 @@
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Saffron Poke Center Entrance",
-            "hosted_item": "Saffron Poke Center Entrance",
-            "access_rules": ["^$entrance_access|Saffron Poke Center Entrance"],
+            "name": "Saffron Pokemon Center Entrance",
+            "hosted_item": "Saffron Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Saffron Pokemon Center Entrance"],
             "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
           },
           {
@@ -1326,9 +1320,9 @@
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Saffron Poke Center 1F Exit",
-            "hosted_item": "Saffron Poke Center 1F Exit",
-            "access_rules": ["^$entrance_access|Saffron Poke Center 1F Exit"],
+            "name": "Saffron Pokemon Center 1F Exit",
+            "hosted_item": "Saffron Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Saffron Pokemon Center 1F Exit"],
             "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
           },
           {

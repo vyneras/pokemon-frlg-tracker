@@ -525,7 +525,8 @@
           {
             "map": "kindle_road_center_top",
             "x": 248,
-            "y": 456
+            "y": 456,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -779,12 +780,14 @@
           {
             "map": "three_isle_port",
             "x": 264,
-            "y": 72
+            "y": 72,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           },
           {
             "map": "three_isle_port",
             "x": 616,
-            "y": 88
+            "y": 88,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },

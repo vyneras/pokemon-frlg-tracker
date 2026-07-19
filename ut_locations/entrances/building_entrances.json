@@ -1620,7 +1620,7 @@
     ]
   },
   {
-    "name": "Underground Path 1F (North)",
+    "name": "Underground Path 1F North",
     "children": [
       {
         "name": "Underground Path 1F North Exit",
@@ -1640,7 +1640,7 @@
     ]
   },
   {
-    "name": "Underground Path 1F (South)",
+    "name": "Underground Path 1F South",
     "children": [
       {
         "name": "Underground Path 1F South Exit",
@@ -1660,7 +1660,7 @@
     ]
   },
   {
-    "name": "Underground Path 1F (East)",
+    "name": "Underground Path 1F East",
     "children": [
       {
         "name": "Underground Path 1F East Exit",
@@ -1680,7 +1680,7 @@
     ]
   },
   {
-    "name": "Underground Path 1F (West)",
+    "name": "Underground Path 1F West",
     "children": [
       {
         "name": "Underground Path 1F West Exit",
@@ -3063,10 +3063,10 @@
     "name": "Route 7",
     "children": [
       {
-        "name": "Route 6 Gate West Entrance",
+        "name": "Route 7 Gate West Entrance",
         "sections": [
           {
-            "name": "Route 6 Gate West Entrance"
+            "name": "Route 7 Gate West Entrance"
           }
         ],
         "map_locations": [

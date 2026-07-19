@@ -75,13 +75,13 @@
         "name": "Pattern Bush East Entrance",
         "sections": [
           {
-            "ref": "Islands/Green Path/Pattern Bush East Entrance",
-            "name": "Entrance"
+            "ref": "Island Entrances/Green Path/Pattern Bush East Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "green_path_east",
+            "shape": "diamond",
             "x": 448,
             "y": 168
           }
@@ -91,13 +91,13 @@
         "name": "Pattern Bush West Entrance",
         "sections": [
           {
-            "ref": "Islands/Green Path/Pattern Bush West Entrance",
-            "name": "Entrance"
+            "ref": "Island Entrances/Green Path/Pattern Bush West Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "green_path_east",
+            "shape": "diamond",
             "x": 160,
             "y": 168
           }

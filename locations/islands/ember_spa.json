@@ -33,6 +33,22 @@
             "y": 136
           }
         ]
+      },
+      {
+        "name": "Ember Spa Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Ember Spa/Ember Spa Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ember_spa",
+            "shape": "diamond",
+            "x": 216,
+            "y": 600
+          }
+        ]
       }
     ]
   }

@@ -65,7 +65,8 @@
           {
             "map": "cerulean_city",
             "x": 360,
-            "y": 312
+            "y": 312,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -112,7 +113,8 @@
           {
             "map": "cerulean_city",
             "x": 280,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -184,7 +186,8 @@
           {
             "map": "cerulean_city",
             "x": 504,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": ["$shuffle_gyms"]
           }
         ]
       },
@@ -199,7 +202,8 @@
           {
             "map": "cerulean_city",
             "x": 224,
-            "y": 456
+            "y": 456,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -214,7 +218,8 @@
           {
             "map": "cerulean_city",
             "x": 472,
-            "y": 456
+            "y": 456,
+            "force_invisibility_rules": ["$shuffle_marts"]
           }
         ]
       },
@@ -249,7 +254,136 @@
           {
             "map": "cerulean_city",
             "x": 248,
+            "y": 280,
+            "force_invisibility_rules": ["$shuffle_buildings"]
+          }
+        ]
+      },
+      {
+        "name": "Badge Guy's House Front Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Badge Guy's House Front Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 168,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Robbed House Front Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Robbed House Front Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Trade House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Cerulean Trade House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 248,
             "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Bike Shop Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Bike Shop Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 224,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Wonder News House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Wonder News House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 376,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Berry Powder Man's House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Berry Powder Man's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Badge Guy's House Back Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Badge Guy's House Back Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 168,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Robbed House Back Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Robbed House Back Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 504,
+            "y": 136
           }
         ]
       },
@@ -257,15 +391,63 @@
         "name": "Cerulean Cave Entrance",
         "sections": [
           {
-            "ref": "Cities/Cerulean City/Cerulean Cave Entrance",
-            "name": "Entrance"
+            "ref": "City Entrances/Cerulean City/Cerulean Cave Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "cerulean_city",
+            "shape": "diamond",
             "x": 24,
             "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Gym Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Cerulean Gym Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 504,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Cerulean Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 472,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Cerulean Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_city",
+            "shape": "diamond",
+            "x": 360,
+            "y": 312
           }
         ]
       }
@@ -319,6 +501,22 @@
             "map": "cerulean_pokemon_center_1f",
             "x": 48,
             "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Cerulean Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_pokemon_center_1f",
+            "shape":"diamond",
+            "x": 120,
+            "y": 136
           }
         ]
       }
@@ -410,6 +608,22 @@
             "y": 104
           }
         ]
+      },
+      {
+        "name": "Cerulean Gym Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Cerulean Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_gym",
+            "shape":"diamond",
+            "x": 136,
+            "y": 296
+          }
+        ]
       }
     ]
   },
@@ -428,6 +642,22 @@
             "map": "bike_shop",
             "x": 152,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Bike Shop Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Bike Shop Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bike_shop",
+            "shape":"diamond",
+            "x": 88,
+            "y": 136
           }
         ]
       }
@@ -451,6 +681,22 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Berry Powder Man's House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Berry Powder Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "berry_powder_mans_house",
+            "shape":"diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -469,6 +715,22 @@
             "map": "cerulean_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Cerulean Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_mart",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -490,6 +752,117 @@
             "map": "cerulean_trade_house",
             "x": 40,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Trade House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Cerulean Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cerulean_trade_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Badge Guy's House",
+    "children": [
+      {
+        "name": "Badge Guy's House Front Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Badge Guy's House Front Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "badge_guys_house",
+            "shape": "diamond",
+            "x": 56,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Badge Guy's House Back Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Badge Guy's House Back Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "badge_guys_house",
+            "shape": "diamond",
+            "x": 56,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Robbed House",
+    "children": [
+      {
+        "name": "Robbed House Front Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Robbed House Front Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "robbed_house",
+            "shape": "diamond",
+            "x": 56,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Robbed House Back Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Robbed House Back Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "robbed_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wonder News House",
+    "children": [
+      {
+        "name": "Wonder News House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Cerulean City/Wonder News House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "wonder_news_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

@@ -141,6 +141,23 @@
           {
             "map": "indigo_plateau",
             "x": 184,
+            "y": 104,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Indigo Plateau/Indigo Plateau Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau",
+            "shape": "diamond",
+            "x": 184,
             "y": 104
           }
         ]
@@ -231,6 +248,22 @@
             "map": "indigo_plateau_pokemon_center_1f",
             "x": 368,
             "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Indigo Plateau/Indigo Plateau Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "indigo_plateau_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 264
           }
         ]
       }

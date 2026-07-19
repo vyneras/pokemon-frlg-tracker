@@ -28,7 +28,8 @@
           {
             "map": "three_island",
             "x": 232,
-            "y": 440
+            "y": 440,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -59,7 +60,8 @@
           {
             "map": "three_island",
             "x": 72,
-            "y": 104
+            "y": 104,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -170,7 +172,8 @@
           {
             "map": "three_island",
             "x": 56,
-            "y": 504
+            "y": 504,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -185,7 +188,120 @@
           {
             "map": "three_island",
             "x": 296,
+            "y": 200,
+            "force_invisibility_rules": ["$shuffle_marts"]
+          }
+        ]
+      },
+      {
+        "name": "Lostelle's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Lostelle's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "shape": "diamond",
+            "x": 56,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Sabrina Fan's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Sabrina Fan's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "shape": "diamond",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Three Island Beauty's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Three Island Beauty's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "shape": "diamond",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Three Island Worried Father's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Three Island Worried Father's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "shape": "diamond",
+            "x": 200,
             "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Lostelle's Friend's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Lostelle's Friend's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "shape": "diamond",
+            "x": 216,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Three Island Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Three Island Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "shape": "diamond",
+            "x": 296,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Three Island Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Three Island Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island",
+            "shape": "diamond",
+            "x": 232,
+            "y": 440
           }
         ]
       }
@@ -209,6 +325,22 @@
             "y": 24
           }
         ]
+      },
+      {
+        "name": "Three Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Three Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
+          }
+        ]
       }
     ]
   },
@@ -228,6 +360,22 @@
             "map": "three_island_lostelles_house",
             "x": 56,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Lostelle's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Lostelle's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -251,6 +399,85 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Sabrina Fan's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Sabrina Fan's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_sabrina_fans_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Beauty's House",
+    "children": [
+      {
+        "name": "Three Island Beauty's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Three Island Beauty's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_beautys_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Three Island Worried Father's House",
+    "children": [
+      {
+        "name": "Three Island Worried Father's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Three Island Worried Father's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_worried_fathers_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lostelle's Friend's House",
+    "children": [
+      {
+        "name": "Lostelle's Friend's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Lostelle's Friend's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_lostelles_friends_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -269,6 +496,22 @@
             "map": "three_island_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Three Island Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Island Town/Three Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_island_mart",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

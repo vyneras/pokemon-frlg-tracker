@@ -17,6 +17,112 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Route 5 Gate North Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 5/Route 5 Gate North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "shape": "diamond",
+            "x": 400,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Pokemon Day Care Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 5/Route 5 Pokemon Day Care Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "shape": "diamond",
+            "x": 376,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Underground Path North Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 5/Underground Path North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5",
+            "shape": "diamond",
+            "x": 504,
+            "y": 504
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 5 Pokemon Day Care",
+    "children": [
+      {
+        "name": "Route 5 Pokemon Day Care Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 5/Route 5 Pokemon Day Care Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_pokemon_day_care",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 5 Gate",
+    "children": [
+      {
+        "name": "Route 5 Gate North Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 5/Route 5 Gate North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_gate",
+            "shape": "diamond",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 5 Gate South Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 5/Route 5 Gate South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_5_gate",
+            "shape": "diamond",
+            "x": 72,
+            "y": 152
+          }
+        ]
       }
     ]
   }

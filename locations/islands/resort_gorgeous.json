@@ -235,6 +235,23 @@
           {
             "map": "resort_gorgeous_east",
             "x": 40,
+            "y": 136,
+            "force_invisibility_rules": ["$shuffle_buildings"]
+          }
+        ]
+      },
+      {
+        "name": "Selphy's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Resort Gorgeous/Selphy's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_east",
+            "shape": "diamond",
+            "x": 40,
             "y": 136
           }
         ]
@@ -243,13 +260,13 @@
         "name": "Lost Cave Entrance",
         "sections": [
           {
-            "ref": "Islands/Resort Gorgeous/Lost Cave Entrance",
-            "name": "Entrance"
+            "ref": "Island Entrances/Resort Gorgeous/Lost Cave Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "resort_gorgeous_east",
+            "shape": "diamond",
             "x": 440,
             "y": 216
           }
@@ -289,6 +306,22 @@
             "map": "resort_gorgeous_house",
             "x": 144,
             "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Selphy's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Resort Gorgeous/Selphy's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "resort_gorgeous_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

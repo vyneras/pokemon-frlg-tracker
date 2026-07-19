@@ -129,6 +129,23 @@
           {
             "map": "trainer_tower_exterior",
             "x": 328,
+            "y": 120,
+            "force_invisibility_rules": ["$shuffle_buildings"]
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Trainer Tower Exterior/Trainer Tower Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_exterior",
+            "shape": "diamond",
+            "x": 328,
             "y": 120
           }
         ]
@@ -150,6 +167,22 @@
             "map": "trainer_tower_lobby",
             "x": 232,
             "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Trainer Tower Lobby Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Trainer Tower/Trainer Tower Lobby Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "trainer_tower_lobby",
+            "shape": "diamond",
+            "x": 152,
+            "y": 248
           }
         ]
       }

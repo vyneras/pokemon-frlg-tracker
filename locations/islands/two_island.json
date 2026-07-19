@@ -120,7 +120,72 @@
           {
             "map": "two_island",
             "x": 632,
+            "y": 152,
+            "force_invisibility_rules": ["$shuffle_buildings"]
+          }
+        ]
+      },
+      {
+        "name": "Two Island Game Corner Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Two Island Town/Two Island Game Corner Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "shape": "diamond",
+            "x": 632,
             "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Move Maniac's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Two Island Town/Move Maniac's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "shape": "diamond",
+            "x": 536,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Two Island Harbor Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Two Island Town/Two Island Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "shape": "diamond",
+            "x": 168,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Two Island Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Two Island Town/Two Island Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island",
+            "shape": "diamond",
+            "x": 344,
+            "y": 120
           }
         ]
       }
@@ -142,6 +207,22 @@
             "map": "two_island_pokemon_center_1f",
             "x": 184,
             "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Two Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Two Island Town/Two Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
           }
         ]
       }
@@ -167,6 +248,64 @@
             "map": "two_island_game_corner",
             "x": 88,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Two Island Game Corner Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Two Island Town/Two Island Game Corner Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_game_corner",
+            "shape": "diamond",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Move Maniac's House",
+    "children": [
+      {
+        "name": "Move Maniac's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Two Island Town/Move Maniac's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_move_maniacs_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Two Island Harbor",
+    "children": [
+      {
+        "name": "Two Island Harbor Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Two Island Town/Two Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "two_island_harbor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
           }
         ]
       }

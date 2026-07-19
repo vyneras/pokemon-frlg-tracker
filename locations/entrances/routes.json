@@ -443,15 +443,15 @@
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 11 Gate West Exit",
-            "hosted_item": "Route 11 Gate West Exit",
-            "access_rules": ["^$entrance_access|Route 11 Gate West Exit"],
+            "name": "Route 11 Gate 1F West Exit",
+            "hosted_item": "Route 11 Gate 1F West Exit",
+            "access_rules": ["^$entrance_access|Route 11 Gate 1F West Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 11 Gate East Exit",
-            "hosted_item": "Route 11 Gate East Exit",
-            "access_rules": ["^$entrance_access|Route 11 Gate East Exit"],
+            "name": "Route 11 Gate 1F East Exit",
+            "hosted_item": "Route 11 Gate 1F East Exit",
+            "access_rules": ["^$entrance_access|Route 11 Gate 1F East Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
@@ -498,15 +498,15 @@
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 12 Gate North Exit",
-            "hosted_item": "Route 12 Gate North Exit",
-            "access_rules": ["^$entrance_access|Route 12 Gate North Exit"],
+            "name": "Route 12 Gate 1F North Exit",
+            "hosted_item": "Route 12 Gate 1F North Exit",
+            "access_rules": ["^$entrance_access|Route 12 Gate 1F North Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 12 Gate South Exit",
-            "hosted_item": "Route 12 Gate South Exit",
-            "access_rules": ["^$entrance_access|Route 12 Gate South Exit"],
+            "name": "Route 12 Gate 1F South Exit",
+            "hosted_item": "Route 12 Gate 1F South Exit",
+            "access_rules": ["^$entrance_access|Route 12 Gate 1F South Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
@@ -584,15 +584,15 @@
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 15 Gate East Exit",
-            "hosted_item": "Route 15 Gate East Exit",
-            "access_rules": ["^$entrance_access|Route 15 Gate East Exit"],
+            "name": "Route 15 Gate 1F East Exit",
+            "hosted_item": "Route 15 Gate 1F East Exit",
+            "access_rules": ["^$entrance_access|Route 15 Gate 1F East Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 15 Gate West Exit",
-            "hosted_item": "Route 15 Gate West Exit",
-            "access_rules": ["^$entrance_access|Route 15 Gate West Exit"],
+            "name": "Route 15 Gate 1F West Exit",
+            "hosted_item": "Route 15 Gate 1F West Exit",
+            "access_rules": ["^$entrance_access|Route 15 Gate 1F West Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
@@ -657,27 +657,27 @@
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 16 Gate Northeast Exit",
-            "hosted_item": "Route 16 Gate Northeast Exit",
-            "access_rules": ["^$entrance_access|Route 16 Gate Northeast Exit"],
+            "name": "Route 16 Gate 1F Northeast Exit",
+            "hosted_item": "Route 16 Gate 1F Northeast Exit",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Northeast Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 16 Gate Northwest Exit",
-            "hosted_item": "Route 16 Gate Northwest Exit",
-            "access_rules": ["^$entrance_access|Route 16 Gate Northwest Exit"],
+            "name": "Route 16 Gate 1F Northwest Exit",
+            "hosted_item": "Route 16 Gate 1F Northwest Exit",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Northwest Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 16 Gate Southeast Exit",
-            "hosted_item": "Route 16 Gate Southeast Exit",
-            "access_rules": ["^$entrance_access|Route 16 Gate Southeast Exit"],
+            "name": "Route 16 Gate 1F Southeast Exit",
+            "hosted_item": "Route 16 Gate 1F Southeast Exit",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Southeast Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 16 Gate Southwest Exit",
-            "hosted_item": "Route 16 Gate Southwest Exit",
-            "access_rules": ["^$entrance_access|Route 16 Gate Southwest Exit"],
+            "name": "Route 16 Gate 1F Southwest Exit",
+            "hosted_item": "Route 16 Gate 1F Southwest Exit",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Southwest Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
@@ -730,15 +730,15 @@
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 18 Gate West Exit",
-            "hosted_item": "Route 18 Gate West Exit",
-            "access_rules": ["^$entrance_access|Route 18 Gate West Exit"],
+            "name": "Route 18 Gate 1F West Exit",
+            "hosted_item": "Route 18 Gate 1F West Exit",
+            "access_rules": ["^$entrance_access|Route 18 Gate 1F West Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {
-            "name": "Route 18 Gate East Exit",
-            "hosted_item": "Route 18 Gate East Exit",
-            "access_rules": ["^$entrance_access|Route 18 Gate East Exit"],
+            "name": "Route 18 Gate 1F East Exit",
+            "hosted_item": "Route 18 Gate 1F East Exit",
+            "access_rules": ["^$entrance_access|Route 18 Gate 1F East Exit"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
           },
           {

@@ -61,7 +61,8 @@
           {
             "map": "four_island",
             "x": 296,
-            "y": 328
+            "y": 328,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -145,7 +146,8 @@
           {
             "map": "four_island",
             "x": 360,
-            "y": 424
+            "y": 424,
+            "force_invisibility_rules": ["$shuffle_marts"]
           }
         ]
       },
@@ -182,18 +184,130 @@
         ]
       },
       {
-        "name": "Icefall Cave Entrance",
+        "name": "Four Island Pokemon Day Care Entrance",
         "sections": [
           {
-            "ref": "Islands/Four Island Town/Icefall Cave Entrance",
-            "name": "Entrance"
+            "ref": "Island Entrances/Four Island Town/Four Island Pokemon Day Care Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "four_island",
+            "shape": "diamond",
+            "x": 200,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Move Tutor's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Move Tutor's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "shape": "diamond",
+            "x": 408,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Lorelei's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Lorelei's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "shape": "diamond",
+            "x": 536,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Sticker Man's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Sticker Man's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "shape": "diamond",
+            "x": 408,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Icefall Cave Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "shape": "diamond",
             "x": 616,
             "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Four Island Harbor Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Four Island Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "shape": "diamond",
+            "x": 168,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Four Island Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Four Island Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "shape": "diamond",
+            "x": 360,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Four Island Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Four Island Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island",
+            "shape": "diamond",
+            "x": 296,
+            "y": 328
           }
         ]
       }
@@ -233,6 +347,22 @@
             "y": 32
           }
         ]
+      },
+      {
+        "name": "Four Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Four Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
+          }
+        ]
       }
     ]
   },
@@ -267,6 +397,127 @@
             "map": "four_island_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Four Island Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Four Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_mart",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Pokemon Day Care",
+    "children": [
+      {
+        "name": "Four Island Pokemon Day Care Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Four Island Pokemon Day Care Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_pokemon_day_care",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Move Tutor's House",
+    "children": [
+      {
+        "name": "Move Tutor's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Move Tutor's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_move_tutors_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lorelei's House",
+    "children": [
+      {
+        "name": "Lorelei's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Lorelei's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "loreleis_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sticker Man's House",
+    "children": [
+      {
+        "name": "Sticker Man's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Sticker Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sticker_mans_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Four Island Harbor",
+    "children": [
+      {
+        "name": "Four Island Harbor Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Four Island Town/Four Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "four_island_harbor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
           }
         ]
       }

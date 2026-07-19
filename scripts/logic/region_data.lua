@@ -176,13 +176,13 @@ REGION_DATA = {
         }
     },
     ["Sky"] = {
-        ["warps"] = {
+        ["flys"] = {
             ["Pallet Town Fly Destination"] = {
                 ["connected_region"] = "Pallet Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_pallet",
                 ["access"] = function()
-                    if fly("pallet_town") then
+                    if fly("pallet") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -193,7 +193,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_viridian",
                 ["access"] = function()
-                    if fly("viridian_city") then
+                    if fly("viridian") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -204,7 +204,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_pewter",
                 ["access"] = function()
-                    if fly("pewter_city") then
+                    if fly("pewter") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -226,7 +226,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_cerulean",
                 ["access"] = function()
-                    if fly("cerulean_city") then
+                    if fly("cerulean") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -237,7 +237,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_vermilion",
                 ["access"] = function()
-                    if fly("vermilion_city") then
+                    if fly("vermilion") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -259,7 +259,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_lavender",
                 ["access"] = function()
-                    if fly("lavender_town") then
+                    if fly("lavender") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -270,7 +270,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_celadon",
                 ["access"] = function()
-                    if fly("celadon_city") then
+                    if fly("celadon") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -281,7 +281,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_fuchsia",
                 ["access"] = function()
-                    if fly("fuchsia_city") then
+                    if fly("fuchsia") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -292,7 +292,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_saffron",
                 ["access"] = function()
-                    if fly("saffron_city") then
+                    if fly("saffron") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -303,7 +303,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_cinnabar",
                 ["access"] = function()
-                    if fly("cinnabar_island") then
+                    if fly("cinnabar") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -314,7 +314,7 @@ REGION_DATA = {
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_indigo",
                 ["access"] = function()
-                    if fly("indigo_plateau") then
+                    if fly("indigo") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -3829,7 +3829,7 @@ REGION_DATA = {
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Saffron Poke Center Entrance"] = {
+            ["Saffron Pokemon Center Entrance"] = {
                 ["connected_region"] = "Saffron Pokemon Center 1F",
                 ["shuffled"] = shuffle_pokemon_centers,
                 ["access"] = function()
@@ -10488,14 +10488,14 @@ REGION_DATA = {
             return AccessibilityLevel.Normal
         end,
         ["warps"] = {
-            ["Mt. Ember Ruby Path B1F Return Northeast Ladder"] = {
+            ["Mt. Ember Ruby Path B2F Return Northeast Ladder"] = {
                 ["connected_region"] = "Mt. Ember Ruby Path B3F (Southeast)",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
-            ["Mt. Ember Ruby Path B1F Return Southwest Ladder"] = {
+            ["Mt. Ember Ruby Path B2F Return Southwest Ladder"] = {
                 ["connected_region"] = "Mt. Ember Ruby Path B1F Return",
                 ["shuffled"] = shuffle_interiors,
                 ["access"] = function()

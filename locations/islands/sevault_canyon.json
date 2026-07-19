@@ -99,7 +99,8 @@
           {
             "map": "sevault_canyon_south",
             "x": 232,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -258,6 +259,38 @@
             "y": 584
           }
         ]
+      },
+      {
+        "name": "Tanoby Key Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Sevault Canyon/Tanoby Key Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_north",
+            "shape": "diamond",
+            "x": 120,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Chansey House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Sevault Canyon/Sevault Canyon Chansey House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_south",
+            "shape": "diamond",
+            "x": 232,
+            "y": 344
+          }
+        ]
       }
     ]
   },
@@ -277,6 +310,22 @@
             "map": "sevault_canyon_chansey_house",
             "x": 104,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Sevault Canyon Chansey House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Sevault Canyon/Sevault Canyon Chansey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sevault_canyon_chansey_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

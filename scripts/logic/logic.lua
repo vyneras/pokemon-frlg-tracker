@@ -24,7 +24,7 @@ function fly(location)
 end
 
 function has_fly_location(location)
-    return has("fly_" .. location)
+    return has(location .. "_fly_unlock")
 end
 
 function surf()

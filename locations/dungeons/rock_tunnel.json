@@ -177,6 +177,102 @@
             "y": 168
           }
         ]
+      },
+      {
+        "name": "Rock Tunnel 1F North Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel 1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "shape": "diamond",
+            "x": 280,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "shape": "diamond",
+            "x": 296,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "shape": "diamond",
+            "x": 728,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "shape": "diamond",
+            "x": 72,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F Center Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel 1F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "shape": "diamond",
+            "x": 328,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel 1F East Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel 1F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_1f",
+            "shape": "diamond",
+            "x": 728,
+            "y": 344
+          }
+        ]
       }
     ]
   },
@@ -356,6 +452,70 @@
             "map": "rock_tunnel_b1f",
             "x": 472,
             "y": 568
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel B1F Southeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "shape": "diamond",
+            "x": 616,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel B1F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel B1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "shape": "diamond",
+            "x": 536,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel B1F Center Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel B1F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "shape": "diamond",
+            "x": 440,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel B1F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rock Tunnel/Rock Tunnel B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rock_tunnel_b1f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 56
           }
         ]
       }
