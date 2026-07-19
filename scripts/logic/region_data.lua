@@ -181,6 +181,7 @@ REGION_DATA = {
                 ["connected_region"] = "Pallet Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_pallet",
+                ["fly_unlock"] = "pallet_fly_unlock",
                 ["access"] = function()
                     if fly("pallet") then
                         return AccessibilityLevel.Normal
@@ -192,6 +193,7 @@ REGION_DATA = {
                 ["connected_region"] = "Viridian City (South)",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_viridian",
+                ["fly_unlock"] = "viridian_fly_unlock",
                 ["access"] = function()
                     if fly("viridian") then
                         return AccessibilityLevel.Normal
@@ -203,6 +205,7 @@ REGION_DATA = {
                 ["connected_region"] = "Pewter City",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_pewter",
+                ["fly_unlock"] = "pewter_fly_unlock",
                 ["access"] = function()
                     if fly("pewter") then
                         return AccessibilityLevel.Normal
@@ -214,6 +217,7 @@ REGION_DATA = {
                 ["connected_region"] = "Route 4 (West)",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_route_4",
+                ["fly_unlock"] = "route_4_fly_unlock",
                 ["access"] = function()
                     if fly("route_4") then
                         return AccessibilityLevel.Normal
@@ -225,6 +229,7 @@ REGION_DATA = {
                 ["connected_region"] = "Cerulean City",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_cerulean",
+                ["fly_unlock"] = "cerulean_fly_unlock",
                 ["access"] = function()
                     if fly("cerulean") then
                         return AccessibilityLevel.Normal
@@ -236,6 +241,7 @@ REGION_DATA = {
                 ["connected_region"] = "Vermilion City",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_vermilion",
+                ["fly_unlock"] = "vermilion_fly_unlock",
                 ["access"] = function()
                     if fly("vermilion") then
                         return AccessibilityLevel.Normal
@@ -247,6 +253,7 @@ REGION_DATA = {
                 ["connected_region"] = "Route 10 (North)",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_route_10",
+                ["fly_unlock"] = "route_10_fly_unlock",
                 ["access"] = function()
                     if fly("route_10") then
                         return AccessibilityLevel.Normal
@@ -258,6 +265,7 @@ REGION_DATA = {
                 ["connected_region"] = "Lavender Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_lavender",
+                ["fly_unlock"] = "lavender_fly_unlock",
                 ["access"] = function()
                     if fly("lavender") then
                         return AccessibilityLevel.Normal
@@ -269,6 +277,7 @@ REGION_DATA = {
                 ["connected_region"] = "Celadon City",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_celadon",
+                ["fly_unlock"] = "celadon_fly_unlock",
                 ["access"] = function()
                     if fly("celadon") then
                         return AccessibilityLevel.Normal
@@ -280,6 +289,7 @@ REGION_DATA = {
                 ["connected_region"] = "Fuchsia City",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_fuchsia",
+                ["fly_unlock"] = "fuchsia_fly_unlock",
                 ["access"] = function()
                     if fly("fuchsia") then
                         return AccessibilityLevel.Normal
@@ -291,6 +301,7 @@ REGION_DATA = {
                 ["connected_region"] = "Saffron City",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_saffron",
+                ["fly_unlock"] = "saffron_fly_unlock",
                 ["access"] = function()
                     if fly("saffron") then
                         return AccessibilityLevel.Normal
@@ -302,6 +313,7 @@ REGION_DATA = {
                 ["connected_region"] = "Cinnabar Island",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_cinnabar",
+                ["fly_unlock"] = "cinnabar_fly_unlock",
                 ["access"] = function()
                     if fly("cinnabar") then
                         return AccessibilityLevel.Normal
@@ -313,6 +325,7 @@ REGION_DATA = {
                 ["connected_region"] = "Indigo Plateau",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_indigo",
+                ["fly_unlock"] = "indigo_fly_unlock",
                 ["access"] = function()
                     if fly("indigo") then
                         return AccessibilityLevel.Normal
@@ -324,6 +337,7 @@ REGION_DATA = {
                 ["connected_region"] = "One Island Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_one_island",
+                ["fly_unlock"] = "one_island_fly_unlock",
                 ["access"] = function()
                     if fly("one_island") then
                         return AccessibilityLevel.Normal
@@ -335,6 +349,7 @@ REGION_DATA = {
                 ["connected_region"] = "Two Island Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_two_island",
+                ["fly_unlock"] = "two_island_fly_unlock",
                 ["access"] = function()
                     if fly("two_island") then
                         return AccessibilityLevel.Normal
@@ -346,6 +361,7 @@ REGION_DATA = {
                 ["connected_region"] = "Three Island Town (South)",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_three_island",
+                ["fly_unlock"] = "three_island_fly_unlock",
                 ["access"] = function()
                     if fly("three_island") then
                         return AccessibilityLevel.Normal
@@ -357,6 +373,7 @@ REGION_DATA = {
                 ["connected_region"] = "Four Island Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_four_island",
+                ["fly_unlock"] = "four_island_fly_unlock",
                 ["access"] = function()
                     if fly("four_island") then
                         return AccessibilityLevel.Normal
@@ -368,6 +385,7 @@ REGION_DATA = {
                 ["connected_region"] = "Five Island Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_five_island",
+                ["fly_unlock"] = "five_island_fly_unlock",
                 ["access"] = function()
                     if fly("five_island") then
                         return AccessibilityLevel.Normal
@@ -379,6 +397,7 @@ REGION_DATA = {
                 ["connected_region"] = "Six Island Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_six_island",
+                ["fly_unlock"] = "six_island_fly_unlock",
                 ["access"] = function()
                     if fly("six_island") then
                         return AccessibilityLevel.Normal
@@ -390,6 +409,7 @@ REGION_DATA = {
                 ["connected_region"] = "Seven Island Town",
                 ["shuffled"] = randomize_fly_destinations,
                 ["image"] = "fly_seven_island",
+                ["fly_unlock"] = "seven_island_fly_unlock",
                 ["access"] = function()
                     if fly("seven_island") then
                         return AccessibilityLevel.Normal

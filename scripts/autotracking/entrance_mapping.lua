@@ -1,7 +1,7 @@
 ENTRANCE_MAPPING = {
     [768] = { -- Pallet Town
-        [1] = "Rival's House",
-        [2] = "Professor Oak's Lab"
+        [1] = "Rival's House Entrance",
+        [2] = "Professor Oak's Lab Entrance"
     },
     [1026] = { -- Rival's House
         [0] = "Rival's House Exit"
@@ -10,11 +10,11 @@ ENTRANCE_MAPPING = {
         [0] = "Professor Oak's Lab Exit"
     },
     [769] = { -- Viridian City
-        [0] = "Viridian Pokemon Center",
-        [1] = "Viridian Nickname House",
-        [2] = "Viridian Gym",
-        [3] = "Viridian School",
-        [4] = "Viridian Poke Mart"
+        [0] = "Viridian Pokemon Center Entrance",
+        [1] = "Viridian Nickname House Entrance",
+        [2] = "Viridian Gym Entrance",
+        [3] = "Viridian School Entrance",
+        [4] = "Viridian Poke Mart Entrance"
     },
     [1280] = { -- Viridian Nickname House
         [0] = "Viridian Nickname House Exit"
@@ -32,13 +32,13 @@ ENTRANCE_MAPPING = {
         [0] = "Viridian Pokemon Center 1F Exit"
     },
     [770] = { -- Pewter City
-        [0] = "Pewter Museum (West)",
-        [1] = "Pewter Museum (East)",
-        [2] = "Pewter Gym",
-        [3] = "Pewter Poke Mart",
-        [4] = "Pewter Nidoran House",
-        [5] = "Pewter Pokemon Center",
-        [6] = "Pewter Info House"
+        [0] = "Pewter Museum West Entrance",
+        [1] = "Pewter Museum East Entrance",
+        [2] = "Pewter Gym Entrance",
+        [3] = "Pewter Poke Mart Entrance",
+        [4] = "Pewter Nidoran House Entrance",
+        [5] = "Pewter Pokemon Center Entrance",
+        [6] = "Pewter Info House Entrance"
     },
     [1536] = { -- Pewter Museum 1F
         [0] = "Pewter Museum 1F West Exit",
@@ -64,19 +64,19 @@ ENTRANCE_MAPPING = {
         [0] = "Pewter Info House Exit"
     },
     [771] = { -- Cerulean City
-        [0] = "Badge Guy's House (Front)",
-        [1] = "Robbed House (Front)",
-        [2] = "Cerulean Trade House",
-        [3] = "Cerulean Pokemon Center",
-        [4] = "Cerulean Gym",
-        [5] = "Bike Shop",
-        [6] = "Bike Shop",
-        [7] = "Cerulean Poke Mart",
-        [8] = "Cerulean Cave",
-        [9] = "Badge Guy's House (Back)",
-        [10] = "Robbed House (Back)",
-        [11] = "Wonder News House",
-        [12] = "Berry Powder Man's House"
+        [0] = "Badge Guy's House Front Entrance",
+        [1] = "Robbed House Front Entrance",
+        [2] = "Cerulean Trade House Entrance",
+        [3] = "Cerulean Pokemon Center Entrance",
+        [4] = "Cerulean Gym Entrance",
+        [5] = "Bike Shop Entrance",
+        [6] = "Bike Shop Entrance",
+        [7] = "Cerulean Poke Mart Entrance",
+        [8] = "Cerulean Cave Entrance",
+        [9] = "Badge Guy's House Back Entrance",
+        [10] = "Robbed House Back Entrance",
+        [11] = "Wonder News House Entrance",
+        [12] = "Berry Powder Man's House Entrance"
     },
     [1792] = { -- Badge Guy's House
         [0] = "Badge Guy's House Front Exit",
@@ -108,14 +108,14 @@ ENTRANCE_MAPPING = {
         [0] = "Berry Powder Man's House Exit"
     },
     [773] = { -- Vermilion City
-        [0] = "Vermilion Harbor",
-        [1] = "Vermilion Fishing House",
-        [2] = "Vermilion Pokemon Center",
-        [3] = "Pokemon Fan Club",
-        [4] = "Vermilion Trade House",
-        [5] = "Vermilion Poke Mart",
-        [6] = "Vermilion Pidgey House",
-        [7] = "Vermilion Gym"
+        [0] = "Vermilion Harbor Entrance",
+        [1] = "Vermilion Fishing House Entrance",
+        [2] = "Vermilion Pokemon Center Entrance",
+        [3] = "Pokemon Fan Club Entrance",
+        [4] = "Vermilion Trade House Entrance",
+        [5] = "Vermilion Poke Mart Entrance",
+        [6] = "Vermilion Pidgey House Entrance",
+        [7] = "Vermilion Gym Entrance"
     },
     [2304] = { -- Vermilion Fishing House
         [0] = "Vermilion Fishing House Exit"
@@ -139,12 +139,12 @@ ENTRANCE_MAPPING = {
         [0] = "Vermilion Pidgey House Exit"
     },
     [772] = { -- Lavender Town
-        [0] = "Pokemon Tower",
-        [1] = "Lavender Pokemon Center",
-        [2] = "Volunteer Pokemon House",
-        [3] = "Lavender Cubone House",
-        [4] = "Name Rater's House",
-        [5] = "Lavender Poke Mart"
+        [0] = "Pokemon Tower Entrance",
+        [1] = "Lavender Pokemon Center Entrance",
+        [2] = "Volunteer Pokemon House Entrance",
+        [3] = "Lavender Cubone House Entrance",
+        [4] = "Name Rater's House Entrance",
+        [5] = "Lavender Poke Mart Entrance"
     },
     [2048] = { -- Lavender Pokémon Center 1F
         [0] = "Lavender Pokemon Center 1F Exit"
@@ -162,17 +162,17 @@ ENTRANCE_MAPPING = {
         [0] = "Lavender Poke Mart Exit"
     },
     [774] = { -- Celadon City
-        [0] = "Celadon Game Corner",
-        [1] = "Celadon Department Store (West)",
-        [2] = "Celadon Department Store (East)",
-        [3] = "Celadon Condominiums (Front)",
-        [4] = "Celadon Pokemon Center",
-        [5] = "Celadon Game Corner Prize Room",
-        [6] = "Celadon Gym",
-        [7] = "Celadon Restaurant",
-        [8] = "Celadon Rocket House",
-        [9] = "Celadon Hotel",
-        [10] = "Celadon Condominiums (Back)"
+        [0] = "Celadon Game Corner Entrance",
+        [1] = "Celadon Department Store West Entrance",
+        [2] = "Celadon Department Store East Entrance",
+        [3] = "Celadon Condominiums Front Entrance",
+        [4] = "Celadon Pokemon Center Entrance",
+        [5] = "Celadon Game Corner Prize Room Entrance",
+        [6] = "Celadon Gym Entrance",
+        [7] = "Celadon Restaurant Entrance",
+        [8] = "Celadon Rocket House Entrance",
+        [9] = "Celadon Hotel Entrance",
+        [10] = "Celadon Condominiums Back Entrance"
     },
     [2560] = { -- Celadon Department Store 1F
         [0] = "Celadon Department Store 1F West Exit",
@@ -219,7 +219,7 @@ ENTRANCE_MAPPING = {
     [2570] = { -- Celadon Condominiums Roof
         [0] = "Celadon Condominiums Roof Northwest Stairs",
         [1] = "Celadon Condominiums Roof Northeast Stairs",
-        [2] = "Celadon Condominiums Roof Room"
+        [2] = "Celadon Condominiums Roof Room Entrance"
     },
     [2571] = { -- Celadon Condominiums Roof Room
         [0] = "Celadon Condominiums Roof Room Exit"
@@ -229,7 +229,7 @@ ENTRANCE_MAPPING = {
     },
     [2574] = { -- Celadon Game Corner
         [0] = "Celadon Game Corner Exit",
-        [1] = "Rocket Hideout"
+        [1] = "Rocket Hideout Entrance"
     },
     [2575] = { -- Celadon Game Corner Prize Room
         [0] = "Celadon Game Corner Prize Room Exit"
@@ -247,16 +247,16 @@ ENTRANCE_MAPPING = {
         [0] = "Celadon Hotel Exit"
     },
     [775] = { -- Fuchsia City
-        [0] = "Safari Zone Entrance",
-        [1] = "Safari Zone Warden's House",
-        [2] = "Fuchsia Poke Mart",
-        [3] = "Safari Zone Office",
-        [4] = "Fuchsia Gym",
-        [5] = "Bill's Grandpa's House",
-        [6] = "Fuchsia Pokemon Center",
-        [7] = "Fuchsia Fishing House (Front)",
-        [8] = "Fuchsia Fishing House (Back)",
-        [9] = "Move Deleter's House"
+        [0] = "Safari Zone Lobby Entrance",
+        [1] = "Safari Zone Warden's House Entrance",
+        [2] = "Fuchsia Poke Mart Entrance",
+        [3] = "Safari Zone Office Entrance",
+        [4] = "Fuchsia Gym Entrance",
+        [5] = "Bill's Grandpa's House Entrance",
+        [6] = "Fuchsia Pokemon Center Entrance",
+        [7] = "Fuchsia Fishing House Front Entrance",
+        [8] = "Fuchsia Fishing House Back Entrance",
+        [9] = "Move Deleter's House Entrance"
     },
     [2817] = { -- Fuchsia Poké Mart
         [0] = "Fuchsia Poke Mart Exit"
@@ -284,21 +284,21 @@ ENTRANCE_MAPPING = {
         [0] = "Move Deleter's House Exit"
     },
     [778] = { -- Saffron City
-        [0] = "Silph Co.",
-        [1] = "Copycat's House",
-        [2] = "Saffron Dojo",
-        [3] = "Saffron Gym",
-        [4] = "Saffron Pidgey House",
-        [5] = "Saffron Poke Mart",
-        [6] = "Saffron Pokemon Center",
-        [7] = "Mr. Psychic's House",
-        [8] = "Route 7 Gate (East)",
-        [9] = "Route 5 Gate (South)",
-        [10] = "Route 5 Gate (South)",
-        [11] = "Route 8 Gate (West)",
-        [12] = "Route 6 Gate (North)",
-        [13] = "Route 6 Gate (North)",
-        [14] = "Pokemon Trainer Fan Club"
+        [0] = "Silph Co. Entrance",
+        [1] = "Copycat's House Entrance",
+        [2] = "Saffron Dojo Entrance",
+        [3] = "Saffron Gym Entrance",
+        [4] = "Saffron Pidgey House Entrance",
+        [5] = "Saffron Poke Mart Entrance",
+        [6] = "Saffron Pokemon Center Entrance",
+        [7] = "Mr. Psychic's House Entrance",
+        [8] = "Route 7 Gate East Entrance",
+        [9] = "Route 5 Gate South Entrance",
+        [10] = "Route 5 Gate South Entrance",
+        [11] = "Route 8 Gate West Entrance",
+        [12] = "Route 6 Gate North Entrance",
+        [13] = "Route 6 Gate North Entrance",
+        [14] = "Pokemon Trainer Fan Club Entrance"
     },
     [3584] = { -- Copycat's House 1F
         [0] = "Copycat's House 1F Exit",
@@ -359,20 +359,20 @@ ENTRANCE_MAPPING = {
         [0] = "Pokemon Trainer Fan Club Exit"
     },
     [776] = { -- Cinnabar Island
-        [0] = "Pokemon Mansion",
-        [1] = "Cinnabar Gym",
-        [2] = "Pokemon Lab",
-        [3] = "Cinnabar Pokemon Center",
-        [4] = "Cinnabar Poke Mart"
+        [0] = "Pokemon Mansion Entrance",
+        [1] = "Cinnabar Gym Entrance",
+        [2] = "Pokemon Lab Entrance",
+        [3] = "Cinnabar Pokemon Center Entrance",
+        [4] = "Cinnabar Poke Mart Entrance"
     },
     [3072] = { -- Cinnabar Gym
         [0] = "Cinnabar Gym Exit"
     },
     [3073] = { -- Pokémon Lab Entrance
         [0] = "Pokemon Lab Exit",
-        [1] = "Pokemon Lab Lounge",
-        [2] = "Pokemon Lab Research Room",
-        [3] = "Pokemon Lab Experiment Room"
+        [1] = "Pokemon Lab Lounge Entrance",
+        [2] = "Pokemon Lab Research Room Entrance",
+        [3] = "Pokemon Lab Experiment Room Entrance"
     },
     [3074] = { -- Pokémon Lab Lounge
         [0] = "Pokemon Lab Lounge Exit"
@@ -390,7 +390,7 @@ ENTRANCE_MAPPING = {
         [0] = "Cinnabar Poke Mart Exit"
     },
     [777] = { -- Indigo Plateau Exterior
-        [0] = "Indigo Plateau Pokemon Center"
+        [0] = "Indigo Plateau Pokemon Center Entrance"
     },
     [3328] = { -- Indigo Plateau Pokémon Center 1F
         [0] = "Indigo Plateau Pokemon Center 1F Exit"
@@ -418,14 +418,14 @@ ENTRANCE_MAPPING = {
         [3] = "Mt. Moon 1F Exit"
     },
     [258] = { -- Mt. Moon B1F
-        [0] = "Mt. Moon B1F (Third Tunnel) Northwest Ladder",
-        [1] = "Mt. Moon B1F (Second Tunnel) East Ladder",
-        [2] = "Mt. Moon B1F (First Tunnel) Northeast Ladder",
-        [3] = "Mt. Moon B1F (Third Tunnel) Southeast Ladder",
-        [4] = "Mt. Moon B1F (Second Tunnel) West Ladder",
-        [5] = "Mt. Moon B1F (First Tunnel) Southwest Ladder",
-        [6] = "Mt. Moon B1F (Fourth Tunnel) West Ladder",
-        [7] = "Mt. Moon B1F (Fourth Tunnel) East Ladder"
+        [0] = "Mt. Moon B1F Northwest Ladder (Third Tunnel)",
+        [1] = "Mt. Moon B1F East Ladder (Second Tunnel)",
+        [2] = "Mt. Moon B1F Northeast Ladder (First Tunnel)",
+        [3] = "Mt. Moon B1F Southeast Ladder (Third Tunnel)",
+        [4] = "Mt. Moon B1F West Ladder (Second Tunnel)",
+        [5] = "Mt. Moon B1F Southwest Ladder (First Tunnel)",
+        [6] = "Mt. Moon B1F West Ladder (Fourth Tunnel)",
+        [7] = "Mt. Moon B1F East Ladder (Fourth Tunnel)"
     },
     [259] = { -- Mt. Moon B2F
         [0] = "Mt. Moon B2F Center Ladder",
@@ -433,45 +433,45 @@ ENTRANCE_MAPPING = {
         [2] = "Mt. Moon B2F South Ladder",
         [3] = "Mt. Moon B2F Northwest Ladder"
     },
-    [286] = { -- Underground Path North Entrance
-        [0] = "Underground Path North Entrance Exit",
-        [1] = "Underground Path North Entrance Stairs"
+    [286] = { -- Underground Path 1F North
+        [0] = "Underground Path 1F North Exit",
+        [1] = "Underground Path 1F North Stairs"
     },
     [287] = { -- Underground Path North-South Tunnel
-        [0] = "Underground Path North-South Tunnel North Stairs",
-        [1] = "Underground Path North-South Tunnel South Stairs"
+        [0] = "Underground Path B1F North Stairs",
+        [1] = "Underground Path B1F South Stairs"
     },
-    [288] = { -- Underground Path South Entrance
-        [0] = "Underground Path South Entrance Exit",
-        [1] = "Underground Path South Entrance Stairs"
+    [288] = { -- Underground Path 1F South
+        [0] = "Underground Path 1F South Exit",
+        [1] = "Underground Path 1F South Stairs"
     },
     [260] = { -- S.S. Anne Exterior
         [0] = "S.S. Anne Exterior Exit",
-        [1] = "S.S. Anne"
+        [1] = "S.S. Anne Entrance"
     },
     [261] = { -- S.S. Anne 1F Corridor
         [0] = "S.S. Anne 1F Corridor Northwest Stairs",
-        [1] = "S.S. Anne Kitchen",
+        [1] = "S.S. Anne Kitchen Entrance",
         [2] = "S.S. Anne Exit",
         [3] = "S.S. Anne 1F Corridor Southeast Stairs",
-        [4] = "S.S. Anne 1F Room 1",
-        [5] = "S.S. Anne 1F Room 2",
-        [6] = "S.S. Anne 1F Room 3",
-        [7] = "S.S. Anne 1F Room 4",
-        [8] = "S.S. Anne 1F Room 5",
-        [9] = "S.S. Anne 1F Room 7",
-        [10] = "S.S. Anne 1F Room 6"
+        [4] = "S.S. Anne 1F Room 1 Entrance",
+        [5] = "S.S. Anne 1F Room 2 Entrance",
+        [6] = "S.S. Anne 1F Room 3 Entrance",
+        [7] = "S.S. Anne 1F Room 4 Entrance",
+        [8] = "S.S. Anne 1F Room 5 Entrance",
+        [9] = "S.S. Anne 1F Room 7 Entrance",
+        [10] = "S.S. Anne 1F Room 6 Entrance"
     },
     [262] = { -- S.S. Anne 2F Corridor
         [0] = "S.S. Anne 2F Corridor Northwest Stairs",
         [1] = "S.S. Anne 2F Corridor Southwest Stairs",
         [2] = "S.S. Anne 2F Corridor Northeast Stairs",
-        [3] = "S.S. Anne 2F Room 1",
-        [4] = "S.S. Anne 2F Room 2",
-        [5] = "S.S. Anne 2F Room 3",
-        [6] = "S.S. Anne 2F Room 4",
-        [7] = "S.S. Anne 2F Room 5",
-        [8] = "S.S. Anne 2F Room 6"
+        [3] = "S.S. Anne 2F Room 1 Entrance",
+        [4] = "S.S. Anne 2F Room 2 Entrance",
+        [5] = "S.S. Anne 2F Room 3 Entrance",
+        [6] = "S.S. Anne 2F Room 4 Entrance",
+        [7] = "S.S. Anne 2F Room 5 Entrance",
+        [8] = "S.S. Anne 2F Room 6 Entrance"
     },
     [263] = { -- S.S. Anne 3F Corridor
         [0] = "S.S. Anne 3F Corridor Exit",
@@ -479,11 +479,11 @@ ENTRANCE_MAPPING = {
     },
     [264] = { -- S.S. Anne B1F Corridor
         [0] = "S.S. Anne B1F Corridor Stairs",
-        [1] = "S.S. Anne B1F Room 1",
-        [2] = "S.S. Anne B1F Room 2",
-        [3] = "S.S. Anne B1F Room 3",
-        [4] = "S.S. Anne B1F Room 4",
-        [5] = "S.S. Anne B1F Room 5"
+        [1] = "S.S. Anne B1F Room 1 Entrance",
+        [2] = "S.S. Anne B1F Room 2 Entrance",
+        [3] = "S.S. Anne B1F Room 3 Entrance",
+        [4] = "S.S. Anne B1F Room 4 Entrance",
+        [5] = "S.S. Anne B1F Room 5 Entrance"
     },
     [265] = { -- S.S. Anne Deck
         [0] = "S.S. Anne Deck Exit"
@@ -548,17 +548,17 @@ ENTRANCE_MAPPING = {
     [285] = { -- S.S. Anne 1F Room 6
         [0] = "S.S. Anne 1F Room 6 Exit"
     },
-    [292] = { -- Diglett's Cave North Entrance
-      [0] = "Diglett's Cave North Entrance Ladder",
-      [1] = "Diglett's Cave North Entrance Exit"
+    [292] = { -- Diglett's Cave 1F North
+      [0] = "Diglett's Cave 1F North Ladder",
+      [1] = "Diglett's Cave 1F North Exit"
     },
     [293] = { -- Diglett's Cave B1F
       [0] = "Diglett's Cave B1F Northwest Ladder",
       [1] = "Diglett's Cave B1F Southeast Ladder"
     },
-    [294] = { -- Diglett's Cave South Entrance
-      [0] = "Diglett's Cave South Entrance Exit",
-      [1] = "Diglett's Cave South Entrance Ladder"
+    [294] = { -- Diglett's Cave 1F South
+      [0] = "Diglett's Cave 1F South Exit",
+      [1] = "Diglett's Cave 1F South Ladder"
     },
     [337] = { -- Rock Tunnel 1F
         [0] = "Rock Tunnel 1F North Ladder",
@@ -605,17 +605,17 @@ ENTRANCE_MAPPING = {
     [350] = { -- Pokémon Tower 7F
         [0] = "Pokemon Tower 7F Stairs"
     },
-    [289] = { -- Underground Path West Entrance
-        [0] = "Underground Path West Entrance Exit",
-        [1] = "Underground Path West Entrance Stairs"
+    [289] = { -- Underground Path 1F West
+        [0] = "Underground Path 1F West Exit",
+        [1] = "Underground Path 1F West Stairs"
     },
     [290] = { -- Underground Path East-West Tunnel
-        [0] = "Underground Path East-West Tunnel East Stairs",
-        [1] = "Underground Path East-West Tunnel West Stairs"
+        [0] = "Underground Path B1F East Stairs",
+        [1] = "Underground Path B1F West Stairs"
     },
-    [291] = { -- Underground Path East Entrance
-        [0] = "Underground Path East Entrance Exit",
-        [1] = "Underground Path East Entrance Stairs"
+    [291] = { -- Underground Path 1F East
+        [0] = "Underground Path 1F East Exit",
+        [1] = "Underground Path 1F East Stairs"
     },
     [298] = { -- Rocket Hideout B1F
         [0] = "Rocket Hideout B1F Northwest Stairs",
@@ -634,8 +634,8 @@ ENTRANCE_MAPPING = {
     [301] = { -- Rocket Hideout B4F
         [0] = "Rocket Hideout B4F Stairs"
     },
-    [2816] = { -- Safari Zone Entrance
-        [1] = "Safari Zone Entrance Exit"
+    [2816] = { -- Safari Zone Lobby
+        [1] = "Safari Zone Lobby Exit"
     },
     [319] = { -- Safari Zone Center Area
         [0] = "Safari Zone Center Area South Exit",
@@ -646,35 +646,35 @@ ENTRANCE_MAPPING = {
         [5] = "Safari Zone Center Area West Exit",
         [6] = "Safari Zone Center Area East Exit",
         [7] = "Safari Zone Center Area East Exit",
-        [8] = "Safari Zone Center Area Rest House"
+        [8] = "Safari Zone Center Area Rest House Entrance"
     },
     [320] = { -- Safari Zone East Area
-        [0] = "Safari Zone East Area Exit (Northwest)",
-        [1] = "Safari Zone East Area Exit (Northwest)",
-        [2] = "Safari Zone East Area Exit (Southwest)",
-        [3] = "Safari Zone East Area Exit (Southwest)",
-        [4] = "Safari Zone East Area Rest House"
+        [0] = "Safari Zone East Area Northwest Exit",
+        [1] = "Safari Zone East Area Northwest Exit",
+        [2] = "Safari Zone East Area Southwest Exit",
+        [3] = "Safari Zone East Area Southwest Exit",
+        [4] = "Safari Zone East Area Rest House Entrance"
     },
     [321] = { -- Safari Zone North Area
-        [0] = "Safari Zone North Area Exit (Southwest)",
-        [1] = "Safari Zone North Area Exit (Southwest)",
-        [2] = "Safari Zone North Area Exit (South)",
-        [3] = "Safari Zone North Area Exit (South)",
+        [0] = "Safari Zone North Area Southwest Exit",
+        [1] = "Safari Zone North Area Southwest Exit",
+        [2] = "Safari Zone North Area South Exit",
+        [3] = "Safari Zone North Area South Exit",
         [4] = "Safari Zone North Area East Exit",
         [5] = "Safari Zone North Area East Exit",
-        [6] = "Safari Zone North Area Exit (Southeast)",
-        [7] = "Safari Zone North Area Exit (Southeast)",
-        [8] = "Safari Zone North Area Rest House"
+        [6] = "Safari Zone North Area Southeast Exit",
+        [7] = "Safari Zone North Area Southeast Exit",
+        [8] = "Safari Zone North Area Rest House Entrance"
     },
     [322] = { -- Safari Zone West Area
-        [0] = "Safari Zone West Area Exit (North)",
-        [1] = "Safari Zone West Area Exit (North)",
-        [2] = "Safari Zone West Area Exit (Northeast)",
-        [3] = "Safari Zone West Area Exit (Northeast)",
+        [0] = "Safari Zone West Area Northwest Exit",
+        [1] = "Safari Zone West Area Northwest Exit",
+        [2] = "Safari Zone West Area Northeast Exit",
+        [3] = "Safari Zone West Area Northeast Exit",
         [4] = "Safari Zone West Area East Exit",
         [5] = "Safari Zone West Area East Exit",
-        [6] = "Safari Zone Secret House",
-        [7] = "Safari Zone West Area Rest House"
+        [6] = "Safari Zone Secret House Entrance",
+        [7] = "Safari Zone West Area Rest House Entrance"
     },
     [323] = { -- Safari Zone Center Area Rest House
         [0] = "Safari Zone Center Area Rest House Exit"
@@ -878,10 +878,10 @@ ENTRANCE_MAPPING = {
         [0] = "Cerulean Cave B1F Ladder"
     },
     [780] = { -- One Island
-        [0] = "One Island Pokemon Center",
-        [1] = "One Island Old Couple's House",
-        [2] = "One Island Lass' House",
-        [3] = "One Island Harbor"
+        [0] = "One Island Pokemon Center Entrance",
+        [1] = "One Island Old Couple's House Entrance",
+        [2] = "One Island Lass' House Entrance",
+        [3] = "One Island Harbor Entrance"
     },
     [8192] = { -- One Island Pokémon Center 1F
         [0] = "One Island Pokemon Center 1F Exit"
@@ -896,9 +896,9 @@ ENTRANCE_MAPPING = {
         [0] = "One Island Harbor Exit"
     },
     [813] = { -- Kindle Road
-        [0] = "Mt. Ember",
-        [1] = "Mt. Ember",
-        [2] = "Ember Spa"
+        [0] = "Mt. Ember Entrance",
+        [1] = "Mt. Ember Entrance",
+        [2] = "Ember Spa Entrance"
     },
     [569] = { -- Ember Spa
         [0] = "Ember Spa Exit"
@@ -910,10 +910,10 @@ ENTRANCE_MAPPING = {
     [353] = { -- Mt. Ember Exterior
         [0] = "Mt. Ember Exterior Exit",
         [1] = "Mt. Ember Exterior Exit",
-        [2] = "Mt. Ember Summit Path (Bottom)",
-        [3] = "Mt. Ember Summit Path (Top)",
-        [4] = "Mt. Ember Summit",
-        [5] = "Mt. Ember Ruby Path"
+        [2] = "Mt. Ember Summit Path Bottom Entrance",
+        [3] = "Mt. Ember Summit Path Top Entrance",
+        [4] = "Mt. Ember Summit Entrance",
+        [5] = "Mt. Ember Ruby Path Entrance"
     },
     [354] = { -- Mt. Ember Summit Path 1F
         [0] = "Mt. Ember Summit Path 1F South Exit",
@@ -960,10 +960,10 @@ ENTRANCE_MAPPING = {
         [1] = "Mt. Ember Ruby Path B2F Return Southwest Ladder"
     },
     [781] = { -- Two Island
-        [0] = "Two Island Game Corner",
-        [1] = "Move Maniac's House",
-        [2] = "Two Island Pokemon Center",
-        [3] = "Two Island Harbor"
+        [0] = "Two Island Game Corner Entrance",
+        [1] = "Move Maniac's House Entrance",
+        [2] = "Two Island Pokemon Center Entrance",
+        [3] = "Two Island Harbor Entrance"
     },
     [8448] = { -- Two Island Game Corner
         [0] = "Two Island Game Corner Exit"
@@ -978,19 +978,19 @@ ENTRANCE_MAPPING = {
         [0] = "Two Island Harbor Exit"
     },
     [815] = { -- Cape Brink
-        [0] = "Starter Tutor's House"
+        [0] = "Starter Tutor's House Entrance"
     },
     [10240] = { -- Starter Tutor's House
         [0] = "Starter Tutor's House Exit"
     },
     [782] = { -- Three Island
-        [0] = "Lostelle's House",
-        [1] = "Three Island Pokemon Center",
-        [2] = "Three Island Poke Mart",
-        [3] = "Sabrina Fan's House",
-        [4] = "Three Island Beauty's House",
-        [5] = "Three Island Worried Father's House",
-        [6] = "Lostelle's Friend's House"
+        [0] = "Lostelle's House Entrance",
+        [1] = "Three Island Pokemon Center Entrance",
+        [2] = "Three Island Poke Mart Entrance",
+        [3] = "Sabrina Fan's House Entrance",
+        [4] = "Three Island Beauty's House Entrance",
+        [5] = "Three Island Worried Father's House Entrance",
+        [6] = "Lostelle's Friend's House Entrance"
     },
     [8704] = { -- Lostelle's House
         [0] = "Lostelle's House Exit"
@@ -1014,9 +1014,9 @@ ENTRANCE_MAPPING = {
         [0] = "Lostelle's Friend's House Exit"
     },
     [817] = { -- Three Isle Port
-        [0] = "Three Isle Path (West)",
-        [1] = "Three Isle Path (East)",
-        [2] = "Three Island Harbor"
+        [0] = "Three Isle Path West Entrance",
+        [1] = "Three Isle Path East Entrance",
+        [2] = "Three Island Harbor Entrance"
     },
     [9728] = { -- Three Island Harbor
         [0] = "Three Island Harbor Exit"
@@ -1026,8 +1026,8 @@ ENTRANCE_MAPPING = {
         [1] = "Three Isle Path East Exit"
     },
     [816] = { -- Bond Bridge
-        [0] = "Berry Forest",
-        [1] = "Berry Forest"
+        [0] = "Berry Forest Entrance",
+        [1] = "Berry Forest Entrance"
     },
     [365] = { -- Berry Forest
         [0] = "Berry Forest Exit",
@@ -1035,14 +1035,14 @@ ENTRANCE_MAPPING = {
         [2] = "Berry Forest Exit"
     },
     [783] = { -- Four Island
-        [0] = "Four Island Pokemon Center",
-        [1] = "Four Island Pokemon Day Care",
-        [2] = "Move Tutor's House",
-        [3] = "Icefall Cave",
-        [4] = "Lorelei's House",
-        [5] = "Sticker Man's House",
-        [6] = "Four Island Harbor",
-        [7] = "Four Island Poke Mart"
+        [0] = "Four Island Pokemon Center Entrance",
+        [1] = "Four Island Pokemon Day Care Entrance",
+        [2] = "Move Tutor's House Entrance",
+        [3] = "Icefall Cave Entrance",
+        [4] = "Lorelei's House Entrance",
+        [5] = "Sticker Man's House Entrance",
+        [6] = "Four Island Harbor Entrance",
+        [7] = "Four Island Poke Mart Entrance"
     },
     [8960] = { -- Four Island Pokémon Day Care
         [0] = "Four Island Pokemon Day Care Exit"
@@ -1087,10 +1087,10 @@ ENTRANCE_MAPPING = {
         [0] = "Icefall Cave Back Exit"
     },
     [784] = { -- Five Island
-        [0] = "Five Island Harbor",
-        [1] = "Five Island Pokemon Center",
-        [2] = "Five Island Couple's House",
-        [3] = "Five Island Old Man's House"
+        [0] = "Five Island Harbor Entrance",
+        [1] = "Five Island Pokemon Center Entrance",
+        [2] = "Five Island Couple's House Entrance",
+        [3] = "Five Island Old Man's House Entrance"
     },
     [9216] = { -- Five Island Pokémon Center 1F
         [0] = "Five Island Pokemon Center 1F Exit"
@@ -1105,14 +1105,14 @@ ENTRANCE_MAPPING = {
         [0] = "Five Island Old Man's House Exit"
     },
     [824] = { -- Five Isle Meadow
-        [0] = "Rocket Warehouse"
+        [0] = "Rocket Warehouse Entrance"
     },
     [370] = { -- Rocket Warehouse
         [0] = "Rocket Warehouse Exit"
     },
     [822] = { -- Resort Gorgeous
-        [0] = "Lost Cave",
-        [1] = "Selphy's House"
+        [0] = "Lost Cave Entrance",
+        [1] = "Selphy's House Entrance"
     },
     [9984] = { -- Selphy's House
         [0] = "Selphy's House Exit"
@@ -1125,10 +1125,10 @@ ENTRANCE_MAPPING = {
         [0] = "Lost Cave B1F Room 1 Ladder"
     },
     [786] = { -- Six Island
-        [0] = "Six Island Harbor",
-        [1] = "Six Island Pokemon Center",
-        [2] = "Six Island Old Man's House",
-        [3] = "Six Island Poke Mart"
+        [0] = "Six Island Harbor Entrance",
+        [1] = "Six Island Pokemon Center Entrance",
+        [2] = "Six Island Old Man's House Entrance",
+        [3] = "Six Island Poke Mart Entrance"
     },
     [9472] = { -- Six Island Pokémon Center 1F
         [0] = "Six Island Pokemon Center 1F Exit"
@@ -1143,8 +1143,8 @@ ENTRANCE_MAPPING = {
         [0] = "Six Island Poke Mart Exit"
     },
     [828] = { -- Water Path
-        [0] = "Water Path Heracross Woman's House",
-        [1] = "Water Path Man's House"
+        [0] = "Water Path Heracross Woman's House Entrance",
+        [1] = "Water Path Man's House Entrance"
     },
     [10496] = { -- Water Path Heracross Woman's House
         [0] = "Water Path Heracross Woman's House Exit"
@@ -1153,7 +1153,7 @@ ENTRANCE_MAPPING = {
         [0] = "Water Path Man's House Exit"
     },
     [829] = { -- Ruin Valley
-        [0] = "Dotted Hole"
+        [0] = "Dotted Hole Entrance"
     },
     [371] = { -- Dotted Hole 1F
         [0] = "Dotted Hole 1F Exit",
@@ -1176,10 +1176,10 @@ ENTRANCE_MAPPING = {
         [0] = "Dotted Hole Sapphire Room Ladder"
     },
     [827] = { -- Green Path
-        [0] = "Pattern Bush (East)",
-        [1] = "Pattern Bush (East)",
-        [2] = "Pattern Bush (West)",
-        [3] = "Pattern Bush (West)"
+        [0] = "Pattern Bush East Entrance",
+        [1] = "Pattern Bush East Entrance",
+        [2] = "Pattern Bush West Entrance",
+        [3] = "Pattern Bush West Entrance"
     },
     [377] = { -- Pattern Bush
         [0] = "Pattern Bush East Exit",
@@ -1190,16 +1190,16 @@ ENTRANCE_MAPPING = {
         [5] = "Pattern Bush West Exit"
     },
     [826] = { -- Outcast Island
-        [0] = "Altering Cave"
+        [0] = "Altering Cave Entrance"
     },
     [378] = { -- Altering Cave
         [0] = "Altering Cave Exit"
     },
     [785] = { -- Seven Island
-        [0] = "Seven Island Trainer Battle House",
-        [1] = "Seven Island Poke Mart",
-        [2] = "Seven Island Pokemon Center",
-        [3] = "Seven Island Harbor"
+        [0] = "Seven Island Trainer Battle House Entrance",
+        [1] = "Seven Island Poke Mart Entrance",
+        [2] = "Seven Island Pokemon Center Entrance",
+        [3] = "Seven Island Harbor Entrance"
     },
     [7936] = { -- Seven Island Battle House
         [0] = "Seven Island Trainer Battle House Exit"
@@ -1214,8 +1214,8 @@ ENTRANCE_MAPPING = {
         [0] = "Seven Island Harbor Exit"
     },
     [832] = { -- Sevault Canyon
-        [0] = "Tanoby Key",
-        [1] = "Sevault Canyon Chansey House"
+        [0] = "Tanoby Key Entrance",
+        [1] = "Sevault Canyon Chansey House Entrance"
     },
     [10752] = { -- Sevault Canyon Chansey House
         [0] = "Sevault Canyon Chansey House Exit"
@@ -1224,13 +1224,13 @@ ENTRANCE_MAPPING = {
         [0] = "Tanoby Key Exit"
     },
     [833] = { -- Tanoby Ruins
-        [0] = "Monean Chamber",
-        [1] = "Liptoo Chamber",
-        [2] = "Weepth Chamber",
-        [3] = "Dilford Chamber",
-        [4] = "Scufib Chamber",
-        [5] = "Rixy Chamber",
-        [6] = "Viapois Chamber"
+        [0] = "Monean Chamber Entrance",
+        [1] = "Liptoo Chamber Entrance",
+        [2] = "Weepth Chamber Entrance",
+        [3] = "Dilford Chamber Entrance",
+        [4] = "Scufib Chamber Entrance",
+        [5] = "Rixy Chamber Entrance",
+        [6] = "Viapois Chamber Entrance"
     },
     [539] = { -- Monean Chamber
         [0] = "Monean Chamber Exit"
@@ -1254,14 +1254,14 @@ ENTRANCE_MAPPING = {
         [0] = "Viapois Chamber Exit"
     },
     [830] = { -- Trainer Tower Exterior
-        [0] = "Trainer Tower"
+        [0] = "Trainer Tower Entrance"
     },
     [522] = { -- Trainer Tower Lobby
         [0] = "Trainer Tower Lobby Exit"
     },
     [512] = { -- Navel Rock Exterior
-        [0] = "Navel Rock",
-        [1] = "Navel Rock Harbor"
+        [0] = "Navel Rock Entrance",
+        [1] = "Navel Rock Harbor Entrance"
     },
     [548] = { -- Navel Rock 1F
         [0] = "Navel Rock 1F Ladder",
@@ -1346,22 +1346,22 @@ ENTRANCE_MAPPING = {
         [0] = "Navel Rock Harbor Exit"
     },
     [568] = { -- Birth Island Exterior
-        [0] = "Birth Island Harbor"
+        [0] = "Birth Island Harbor Entrance"
     },
     [570] = { -- Birth Island Harbor
         [0] = "Birth Island Harbor Exit"
     },
     [788] = { -- Route 2
-        [0] = "Viridian Forest North Gate",
-        [1] = "Viridian Forest North Gate",
-        [2] = "Viridian Forest South Gate",
-        [3] = "Viridian Forest South Gate",
+        [0] = "Viridian Forest North Gate Entrance",
+        [1] = "Viridian Forest North Gate Entrance",
+        [2] = "Viridian Forest South Gate Entrance",
+        [3] = "Viridian Forest South Gate Entrance",
         [4] = "Diglett's Cave North Entrance",
-        [5] = "Route 2 Trade House",
-        [6] = "Route 2 Gate (South)",
-        [7] = "Route 2 Gate (South)",
-        [8] = "Route 2 Gate (North)",
-        [9] = "Route 2 Gate (North)"
+        [5] = "Route 2 Trade House Entrance",
+        [6] = "Route 2 Gate South Entrance",
+        [7] = "Route 2 Gate South Entrance",
+        [8] = "Route 2 Gate North Entrance",
+        [9] = "Route 2 Gate North Entrance"
     },
     [3841] = { -- Route 2 Trade House
         [0] = "Route 2 Trade House Exit"
@@ -1371,18 +1371,18 @@ ENTRANCE_MAPPING = {
         [1] = "Route 2 Gate North Exit"
     },
     [790] = { -- Route 4
-        [0] = "Mt. Moon (West)",
-        [1] = "Mt. Moon (East)",
-        [2] = "Route 4 Pokemon Center"
+        [0] = "Mt. Moon West Entrance",
+        [1] = "Mt. Moon East Entrance",
+        [2] = "Route 4 Pokemon Center Entrance"
     },
     [4096] = { -- Route 4 Pokémon Center 1F
         [0] = "Route 4 Pokemon Center 1F Exit"
     },
     [791] = { -- Route 5
         [0] = "Underground Path North Entrance",
-        [1] = "Route 5 Pokemon Day Care",
-        [2] = "Route 5 Gate (North)",
-        [3] = "Route 5 Gate (North)"
+        [1] = "Route 5 Pokemon Day Care Entrance",
+        [2] = "Route 5 Gate North Entrance",
+        [3] = "Route 5 Gate North Entrance"
     },
     [4352] = { -- Route 5 Pokémon Day Care
         [0] = "Route 5 Pokemon Day Care Exit"
@@ -1393,8 +1393,8 @@ ENTRANCE_MAPPING = {
     },
     [792] = { -- Route 6
         [0] = "Underground Path South Entrance",
-        [1] = "Route 6 Gate (South)",
-        [2] = "Route 6 Gate (South)"
+        [1] = "Route 6 Gate South Entrance",
+        [2] = "Route 6 Gate South Entrance"
     },
     [4608] = { -- Route 6 Gate
         [0] = "Route 6 Gate North Exit",
@@ -1402,7 +1402,7 @@ ENTRANCE_MAPPING = {
     },
     [793] = { -- Route 7
         [0] = "Underground Path West Entrance",
-        [1] = "Route 7 Gate (West)"
+        [1] = "Route 7 Gate West Entrance"
     },
     [4864] = { -- Route 7 Gate
         [0] = "Route 7 Gate West Exit",
@@ -1410,26 +1410,26 @@ ENTRANCE_MAPPING = {
     },
     [794] = { -- Route 8
         [0] = "Underground Path East Entrance",
-        [1] = "Route 8 Gate (East)"
+        [1] = "Route 8 Gate East Entrance"
     },
     [5120] = { -- Route 8 Gate
         [0] = "Route 8 Gate West Exit",
         [1] = "Route 8 Gate East Exit"
     },
     [796] = { -- Route 10
-        [0] = "Rock Tunnel (North)",
-        [1] = "Rock Tunnel (South)",
-        [2] = "Power Plant (Front)",
-        [3] = "Route 10 Pokemon Center",
-        [4] = "Power Plant (Back)"
+        [0] = "Rock Tunnel North Entrance",
+        [1] = "Rock Tunnel South Entrance",
+        [2] = "Power Plant Front Entrance",
+        [3] = "Route 10 Pokemon Center Entrance",
+        [4] = "Power Plant Back Entrance"
     },
     [5376] = { -- Route 10 Pokémon Center 1F
         [0] = "Route 10 Pokemon Center 1F Exit"
     },
     [797] = { -- Route 11
         [0] = "Diglett's Cave South Entrance",
-        [1] = "Route 11 Gate (West)",
-        [2] = "Route 11 Gate (East)"
+        [1] = "Route 11 Gate West Entrance",
+        [2] = "Route 11 Gate East Entrance"
     },
     [5632] = { -- Route 11 Gate 1F
         [0] = "Route 11 Gate 1F West Exit",
@@ -1440,9 +1440,9 @@ ENTRANCE_MAPPING = {
         [0] = "Route 11 Gate 2F Stairs"
     },
     [798] = { -- Route 12
-        [0] = "Route 12 Fishing House",
-        [1] = "Route 12 Gate (North)",
-        [2] = "Route 12 Gate (South)"
+        [0] = "Route 12 Fishing House Entrance",
+        [1] = "Route 12 Gate North Entrance",
+        [2] = "Route 12 Gate South Entrance"
     },
     [5888] = { -- Route 12 Gate 1F
         [0] = "Route 12 Gate 1F North Exit",
@@ -1456,8 +1456,8 @@ ENTRANCE_MAPPING = {
         [0] = "Route 12 Fishing House Exit"
     },
     [801] = { -- Route 15
-        [0] = "Route 15 Gate (West)",
-        [1] = "Route 15 Gate (East)"
+        [0] = "Route 15 Gate West Entrance",
+        [1] = "Route 15 Gate East Entrance"
     },
     [6144] = { -- Route 15 Gate 1F
         [0] = "Route 15 Gate 1F West Exit",
@@ -1468,28 +1468,28 @@ ENTRANCE_MAPPING = {
         [0] = "Route 15 Gate 2F Stairs"
     },
     [802] = { -- Route 16
-        [0] = "Route 16 Fly House",
-        [1] = "Route 16 Gate (Northwest)",
-        [2] = "Route 16 Gate (Northeast)",
-        [3] = "Route 16 Gate (Southwest)",
-        [4] = "Route 16 Gate (Southeast)"
+        [0] = "Route 16 Fly House Entrance",
+        [1] = "Route 16 Gate Northwest Entrance",
+        [2] = "Route 16 Gate Northeast Entrance",
+        [3] = "Route 16 Gate Southwest Entrance",
+        [4] = "Route 16 Gate Southeast Entrance"
     },
     [6400] = { -- Route 16 Fly House
         [0] = "Route 16 Fly House Exit"
     },
     [6401] = { -- Route 16 Gate 1F
-        [0] = "Route 16 Gate 1F Exit (Northwest)",
-        [1] = "Route 16 Gate 1F Exit (Northeast)",
-        [2] = "Route 16 Gate 1F Exit (Southwest)",
-        [3] = "Route 16 Gate 1F Exit (Southeast)",
+        [0] = "Route 16 Gate 1F Northwest Exit",
+        [1] = "Route 16 Gate 1F Northeast Exit",
+        [2] = "Route 16 Gate 1F Southwest Exit",
+        [3] = "Route 16 Gate 1F Southeast Exit",
         [4] = "Route 16 Gate 1F Stairs"
     },
     [6402] = { -- Route 16 Gate 2F
         [0] = "Route 16 Gate 2F Stairs"
     },
     [804] = { -- Route 18
-        [0] = "Route 18 Gate (West)",
-        [1] = "Route 18 Gate (East)"
+        [0] = "Route 18 Gate West Entrance",
+        [1] = "Route 18 Gate East Entrance"
     },
     [6656] = { -- Route 18 Gate 1F
         [0] = "Route 18 Gate 1F West Exit",
@@ -1500,23 +1500,23 @@ ENTRANCE_MAPPING = {
         [0] = "Route 18 Gate 2F Stairs"
     },
     [806] = { -- Route 20
-        [0] = "Seafoam Islands (North)",
-        [1] = "Seafoam Islands (South)"
+        [0] = "Seafoam Islands North Entrance",
+        [1] = "Seafoam Islands South Entrance"
     },
     [809] = { -- Route 22
-        [0] = "Route 22 Gate (South)"
+        [0] = "Route 22 Gate South Entrance"
     },
     [7168] = { -- Route 22 Gate
         [0] = "Route 22 Gate North Exit",
         [1] = "Route 22 Gate South Exit"
     },
     [810] = { -- Route 23
-        [0] = "Victory Road (West)",
-        [1] = "Victory Road (East)",
-        [2] = "Route 22 Gate (North)"
+        [0] = "Victory Road West Entrance",
+        [1] = "Victory Road East Entrance",
+        [2] = "Route 22 Gate North Entrance"
     },
     [812] = { -- Route 25
-        [0] = "Sea Cottage"
+        [0] = "Sea Cottage Entrance"
     },
     [7680] = { -- Sea Cottage
         [0] = "Sea Cottage Exit"

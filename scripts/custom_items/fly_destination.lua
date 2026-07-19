@@ -101,11 +101,12 @@ for stage, name in pairs(FLY_DESTINATION_STAGES) do
 end
 
 
-function FlyDestination:init(name, image)
+function FlyDestination:init(name, image, flyUnlock)
     self.name = name
     self:createItem(name .. " ⇒ ????")
     self.code = name
     self.image = image
+    self.flyUnlock = flyUnlock
     self:setStage(0)
     self.ItemInstance.BadgeTextColor = "#FFFFFF"
     self.ItemInstance:SetOverlayAlign("left")
@@ -143,6 +144,10 @@ function FlyDestination:onLeftClick()
     self:setStage(stage)
     update_region_connections()
     UPDATES_ALLOWED = true
+end
+
+function FlyDestination:onMiddleClick()
+    -- TODO: Tab to region that fly destination is conneceted to
 end
 
 function FlyDestination:onRightClick()

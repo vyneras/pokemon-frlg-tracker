@@ -63,6 +63,8 @@ DEXSANITY_LOCATIONS = {}
 WILD_ENCOUNTER_LIST = {}
 STATIC_ENCOUNTER_LIST = {}
 POKEMON_TO_LOCATION = {}
+FLY_DESTINATIONS = {}
+ENTRANCES = {}
 
 SEEN_POKEMON = {}
 CAUGHT_POKEMON = {}
@@ -192,7 +194,8 @@ function onClear(slot_data)
     PROG_CARD_KEY_COUNT = 0
     PROG_PASS_COUNT = 0
     PROG_ROD_COUNT = 0
-    FLY_DESTINATION_MAPPING = {}
+    FLY_DESTINATIONS = {}
+    ENTRANCES = {}
     DEXSANITY_LOCATIONS = {}
     POKEMON_TO_LOCATION = {}
     SEEN_POKEMON = {}
@@ -241,14 +244,9 @@ function onClear(slot_data)
                 end
             end
         elseif key == "fly_destinations" then
-            local fly_mapping = {}
-            for key, value in pairs(FLY_DESTINATION_DATA) do
-                fly_mapping[value[1]] = key
-            end
-            for exit, region in pairs(slot_data["fly_destinations"]) do
-                local item = get_item(FLY_DESTINATION_CODES[exit])
-                FLY_DESTINATION_MAPPING[item.flyUnlock] = {item, fly_mapping[region]}
-            end
+            FLY_DESTINATIONS = slot_data["fly_destinations"]
+        elseif key == "entrances" then
+            ENTRANCES = slot_data["entrances"]
         elseif key == "rematchsanity" then
             local object = Tracker:FindObjectForCode("rematchsanity_setting")
             if object then
@@ -287,7 +285,6 @@ function onClear(slot_data)
         setTrainersanityVisibility()
     end
     setDexsanityLocations()
-    set_default_fly_destinations("randomize_fly_destinations_setting")
     if PLAYER_NUMBER > -1 then
         updateEvents(0, true)
         updateFlyUnlocks(0, true)
@@ -594,16 +591,14 @@ function updateEntrances(entrances)
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateEntrances: Entrances - %s", dump_table(entrances)))
         end
-        for entrance, exit in pairs(entrances) do
-            local item = ENTRANCE_ITEMS[entrance]
-            if item then
-                local stage = ENTRANCE_MAPPING[exit]
-                if stage then
-                    item:setStage(stage)
-                    item:setSavedStage(stage)
-                    local object = Tracker:FindObjectForCode(item.code .. "_hosted")
-                    if object then
-                        object.Active = true
+        for map_id_str, warp_ids in pairs(entrances) do
+            for _, warp_id in pairs(warp_ids) do
+                local map_id = tonumber(map_id_str)
+                local entrance_name = ENTRANCE_MAPPING[map_id][warp_id]
+                if entrance_name then
+                    local entrance = get_item(entrance_name)
+                    if entrance then
+                        entrance:setConnectedRegion(ENTRANCES[entrance_name])
                     end
                 end
             end

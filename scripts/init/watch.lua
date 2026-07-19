@@ -53,10 +53,6 @@ function initialize_watch_items()
     ScriptHost:AddWatchForCode("route23_trees", "route_23_trees_setting", toggle_route_23_maps)
     ScriptHost:AddWatchForCode("route23_modified", "modify_route_23_setting", toggle_route_23_maps)
 
-    -- Entrances
-    ScriptHost:AddWatchForCode("randomize_fly_destinations", "randomize_fly_destinations_setting",
-        set_default_fly_destinations)
-
     -- Encounters
     ScriptHost:AddWatchForCode("game_version", "game_version_setting", set_encounter_counts)
 

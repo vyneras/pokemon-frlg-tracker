@@ -1,4 +1,3 @@
-FLY_DESTINATION_MAPPING = {}
 ACCESS_LEVEL = {
     [0] = AccessibilityLevel.None,
     [1] = AccessibilityLevel.Partial,
@@ -395,28 +394,11 @@ function toggle_item_tabs(code)
     end
 end
 
-function set_default_fly_destinations(code)
-    local fly_destinations_randomized = Tracker:FindObjectForCode(code).CurrentStage == 1
-    for _, code in pairs(FLY_DESTINATION_CODES) do
-        local item = get_item(code)
-        if fly_destinations_randomized then
-            item:setStage(0)
-        else
-            item:setToDefaultStage()
-        end
-    end
-end
-
 function toggle_fly_unlock(code)
-    if has("randomize_fly_destinations_on") then
-        local data = FLY_DESTINATION_MAPPING[code]
-        if data then
-            local item = data[1]
-            if Tracker:FindObjectForCode(code).Active then
-                item:setStage(data[2])
-            else
-                item:setStage(0)
-            end
+    for name, region in pairs(FLY_DESTINATIONS) do
+        local fly_destination = get_item(name)
+        if fly_destination.flyUnlock == code then
+            fly_destination:setConnectedRegion(region)
         end
     end
 end
