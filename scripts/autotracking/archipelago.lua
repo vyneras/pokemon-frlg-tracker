@@ -8,7 +8,7 @@ ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/trainer_mapping.lua")
 
-TRACKER_CHECKSUM = 0xB1742873
+TRACKER_CHECKSUM = 0xA2DBC5A6
 
 CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
