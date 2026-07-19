@@ -1,0 +1,1486 @@
+[
+  {
+    "name": "City Entrances",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "Pallet Town",
+        "sections": [
+          {
+            "name": "Rival's House Entrance",
+            "hosted_item": "Rival's House Entrance",
+            "access_rules": ["^$entrance_access|Rival's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Professor Oak's Lab Entrance",
+            "hosted_item": "Professor Oak's Lab Entrance",
+            "access_rules": ["^$entrance_access|Professor Oak's Lab Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Rival's House Exit",
+            "hosted_item": "Rival's House Exit",
+            "access_rules": ["^$entrance_access|Rival's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Professor Oak's Lab Exit",
+            "hosted_item": "Professor Oak's Lab Exit",
+            "access_rules": ["^$entrance_access|Professor Oak's Lab Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 108
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Viridian City",
+        "sections": [
+          {
+            "name": "Viridian Pokemon Center Entrance",
+            "hosted_item": "Viridian Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Viridian Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian School Entrance",
+            "hosted_item": "Viridian School Entrance",
+            "access_rules": ["^$entrance_access|Viridian School Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Poke Mart Entrance",
+            "hosted_item": "Viridian Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Viridian Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Nickname House Entrance",
+            "hosted_item": "Viridian Nickname House Entrance",
+            "access_rules": ["^$entrance_access|Viridian Nickname House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Gym Entrance",
+            "hosted_item": "Viridian Gym Entrance",
+            "access_rules": ["^$entrance_access|Viridian Gym Entrance"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Pokemon Center 1F Exit",
+            "hosted_item": "Viridian Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Viridian Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian School Exit",
+            "hosted_item": "Viridian School Exit",
+            "access_rules": ["^$entrance_access|Viridian School Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Poke Mart Exit",
+            "hosted_item": "Viridian Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Viridian Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Nickname House Exit",
+            "hosted_item": "Viridian Nickname House Exit",
+            "access_rules": ["^$entrance_access|Viridian Nickname House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Gym Exit",
+            "hosted_item": "Viridian Gym Exit",
+            "access_rules": ["^$entrance_access|Viridian Gym Exit"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 84
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Pewter City",
+        "sections": [
+          {
+            "name": "Pewter Museum West Entrance",
+            "hosted_item": "Pewter Museum West Entrance",
+            "access_rules": ["^$entrance_access|Pewter Museum West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Museum East Entrance",
+            "hosted_item": "Pewter Museum East Entrance",
+            "access_rules": ["^$entrance_access|Pewter Museum East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Gym Entrance",
+            "hosted_item": "Pewter Gym Entrance",
+            "access_rules": ["^$entrance_access|Pewter Gym Entrance"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Poke Mart Entrance",
+            "hosted_item": "Pewter Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Pewter Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Nidoran House Entrance",
+            "hosted_item": "Pewter Nidoran House Entrance",
+            "access_rules": ["^$entrance_access|Pewter Nidoran House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Pokemon Center Entrance",
+            "hosted_item": "Pewter Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Pewter Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Info House Entrance",
+            "hosted_item": "Pewter Info House Entrance",
+            "access_rules": ["^$entrance_access|Pewter Info House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Museum 1F West Exit",
+            "hosted_item": "Pewter Museum 1F West Exit",
+            "access_rules": ["^$entrance_access|Pewter Museum 1F West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Museum 1F East Exit",
+            "hosted_item": "Pewter Museum 1F East Exit",
+            "access_rules": ["^$entrance_access|Pewter Museum 1F East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Museum 1F Stairs",
+            "hosted_item": "Pewter Museum 1F Stairs",
+            "access_rules": ["^$entrance_access|Pewter Museum 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Museum 2F Stairs",
+            "hosted_item": "Pewter Museum 2F Stairs",
+            "access_rules": ["^$entrance_access|Pewter Museum 2F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Gym Exit",
+            "hosted_item": "Pewter Gym Exit",
+            "access_rules": ["^$entrance_access|Pewter Gym Exit"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Poke Mart Exit",
+            "hosted_item": "Pewter Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Pewter Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Nidoran House Exit",
+            "hosted_item": "Pewter Nidoran House Exit",
+            "access_rules": ["^$entrance_access|Pewter Nidoran House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Pokemon Center 1F Exit",
+            "hosted_item": "Pewter Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Pewter Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Pewter Info House Exit",
+            "hosted_item": "Pewter Info House Exit",
+            "access_rules": ["^$entrance_access|Pewter Info House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 52
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Cerulean City",
+        "sections": [
+          {
+            "name": "Badge Guy's House Front Entrance",
+            "hosted_item": "Badge Guy's House Front Entrance",
+            "access_rules": ["^$entrance_access|Badge Guy's House Front Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Badge Guy's House Back Entrance",
+            "hosted_item": "Badge Guy's House Back Entrance",
+            "access_rules": ["^$entrance_access|Badge Guy's House Back Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Berry Powder Man's House Entrance",
+            "hosted_item": "Berry Powder Man's House Entrance",
+            "access_rules": ["^$entrance_access|Berry Powder Man's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Robbed House Front Entrance",
+            "hosted_item": "Robbed House Front Entrance",
+            "access_rules": ["^$entrance_access|Robbed House Front Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Robbed House Back Entrance",
+            "hosted_item": "Robbed House Back Entrance",
+            "access_rules": ["^$entrance_access|Robbed House Back Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Trade House Entrance",
+            "hosted_item": "Cerulean Trade House Entrance",
+            "access_rules": ["^$entrance_access|Cerulean Trade House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Pokemon Center Entrance",
+            "hosted_item": "Cerulean Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Cerulean Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Gym Entrance",
+            "hosted_item": "Cerulean Gym Entrance",
+            "access_rules": ["^$entrance_access|Cerulean Gym Entrance"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Bike Shop Entrance",
+            "hosted_item": "Bike Shop Entrance",
+            "access_rules": ["^$entrance_access|Bike Shop Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Wonder News House Entrance",
+            "hosted_item": "Wonder News House Entrance",
+            "access_rules": ["^$entrance_access|Wonder News House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Poke Mart Entrance",
+            "hosted_item": "Cerulean Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Cerulean Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave Entrance",
+            "hosted_item": "Cerulean Cave Entrance",
+            "access_rules": ["^$entrance_access|Cerulean Cave Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Badge Guy's House Front Exit",
+            "hosted_item": "Badge Guy's House Front Exit",
+            "access_rules": ["^$entrance_access|Badge Guy's House Front Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Badge Guy's House Back Exit",
+            "hosted_item": "Badge Guy's House Back Exit",
+            "access_rules": ["^$entrance_access|Badge Guy's House Back Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Berry Powder Man's House Exit",
+            "hosted_item": "Berry Powder Man's House Exit",
+            "access_rules": ["^$entrance_access|Berry Powder Man's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Robbed House Front Exit",
+            "hosted_item": "Robbed House Front Exit",
+            "access_rules": ["^$entrance_access|Robbed House Front Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Robbed House Back Exit",
+            "hosted_item": "Robbed House Back Exit",
+            "access_rules": ["^$entrance_access|Robbed House Back Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Trade House Exit",
+            "hosted_item": "Cerulean Trade House Exit",
+            "access_rules": ["^$entrance_access|Cerulean Trade House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Pokemon Center 1F Exit",
+            "hosted_item": "Cerulean Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Cerulean Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Gym Exit",
+            "hosted_item": "Cerulean Gym Exit",
+            "access_rules": ["^$entrance_access|Cerulean Gym Exit"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Bike Shop Exit",
+            "hosted_item": "Bike Shop Exit",
+            "access_rules": ["^$entrance_access|Bike Shop Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Wonder News House Exit",
+            "hosted_item": "Wonder News House Exit",
+            "access_rules": ["^$entrance_access|Wonder News House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Poke Mart Exit",
+            "hosted_item": "Cerulean Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Cerulean Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 44
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Vermilion City",
+        "sections": [
+          {
+            "name": "Vermilion Fishing House Entrance",
+            "hosted_item": "Vermilion Fishing House Entrance",
+            "access_rules": ["^$entrance_access|Vermilion Fishing House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Pokemon Center Entrance",
+            "hosted_item": "Vermilion Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Vermilion Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Fan Club Entrance",
+            "hosted_item": "Pokemon Fan Club Entrance",
+            "access_rules": ["^$entrance_access|Pokemon Fan Club Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Trade House Entrance",
+            "hosted_item": "Vermilion Trade House Entrance",
+            "access_rules": ["^$entrance_access|Vermilion Trade House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Poke Mart Entrance",
+            "hosted_item": "Vermilion Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Vermilion Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Gym Entrance",
+            "hosted_item": "Vermilion Gym Entrance",
+            "access_rules": ["^$entrance_access|Vermilion Gym Entrance"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Pidgey House Entrance",
+            "hosted_item": "Vermilion Pidgey House Entrance",
+            "access_rules": ["^$entrance_access|Vermilion Pidgey House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Harbor Entrance",
+            "hosted_item": "Vermilion Harbor Entrance",
+            "access_rules": ["^$entrance_access|Vermilion Harbor Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Fishing House Exit",
+            "hosted_item": "Vermilion Fishing House Exit",
+            "access_rules": ["^$entrance_access|Vermilion Fishing House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Pokemon Center 1F Exit",
+            "hosted_item": "Vermilion Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Vermilion Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Fan Club Exit",
+            "hosted_item": "Pokemon Fan Club Exit",
+            "access_rules": ["^$entrance_access|Pokemon Fan Club Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Trade House Exit",
+            "hosted_item": "Vermilion Trade House Exit",
+            "access_rules": ["^$entrance_access|Vermilion Trade House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Poke Mart Exit",
+            "hosted_item": "Vermilion Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Vermilion Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Gym Exit",
+            "hosted_item": "Vermilion Gym Exit",
+            "access_rules": ["^$entrance_access|Vermilion Gym Exit"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Vermilion Pidgey House Exit",
+            "hosted_item": "Vermilion Pidgey House Exit",
+            "access_rules": ["^$entrance_access|Vermilion Pidgey House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 92
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 92
+          }
+        ]
+      },
+      {
+        "name": "Lavender Town",
+        "sections": [
+          {
+            "name": "Lavender Pokemon Center Entrance",
+            "hosted_item": "Lavender Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Lavender Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower Entrance",
+            "hosted_item": "Pokemon Tower Entrance",
+            "access_rules": ["^$entrance_access|Pokemon Tower Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Volunteer Pokemon House Entrance",
+            "hosted_item": "Volunteer Pokemon House Entrance",
+            "access_rules": ["^$entrance_access|Volunteer Pokemon House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Lavender Cubone House Entrance",
+            "hosted_item": "Lavender Cubone House Entrance",
+            "access_rules": ["^$entrance_access|Lavender Cubone House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Name Rater's House Entrance",
+            "hosted_item": "Name Rater's House Entrance",
+            "access_rules": ["^$entrance_access|Name Rater's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Lavender Poke Mart Entrance",
+            "hosted_item": "Lavender Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Lavender Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Lavender Pokemon Center 1F Exit",
+            "hosted_item": "Lavender Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Lavender Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Volunteer Pokemon House Exit",
+            "hosted_item": "Volunteer Pokemon House Exit",
+            "access_rules": ["^$entrance_access|Volunteer Pokemon House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Lavender Cubone House Exit",
+            "hosted_item": "Lavender Cubone House Exit",
+            "access_rules": ["^$entrance_access|Lavender Cubone House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Name Rater's House Exit",
+            "hosted_item": "Name Rater's House Exit",
+            "access_rules": ["^$entrance_access|Name Rater's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Lavender Poke Mart Exit",
+            "hosted_item": "Lavender Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Lavender Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 68
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Celadon City",
+        "sections": [
+          {
+            "name": "Celadon Department Store West Entrance",
+            "hosted_item": "Celadon Department Store West Entrance",
+            "access_rules": ["^$entrance_access|Celadon Department Store West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store East Entrance",
+            "hosted_item": "Celadon Department Store East Entrance",
+            "access_rules": ["^$entrance_access|Celadon Department Store East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums Front Entrance",
+            "hosted_item": "Celadon Condominiums Front Entrance",
+            "access_rules": ["^$entrance_access|Celadon Condominiums Front Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums Back Entrance",
+            "hosted_item": "Celadon Condominiums Back Entrance",
+            "access_rules": ["^$entrance_access|Celadon Condominiums Back Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Pokemon Center Entrance",
+            "hosted_item": "Celadon Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Celadon Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Game Corner Entrance",
+            "hosted_item": "Celadon Game Corner Entrance",
+            "access_rules": ["^$entrance_access|Celadon Game Corner Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Game Corner Prize Room Entrance",
+            "hosted_item": "Celadon Game Corner Prize Room Entrance",
+            "access_rules": ["^$entrance_access|Celadon Game Corner Prize Room Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Restaurant Entrance",
+            "hosted_item": "Celadon Restaurant Entrance",
+            "access_rules": ["^$entrance_access|Celadon Restaurant Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Rocket House Entrance",
+            "hosted_item": "Celadon Rocket House Entrance",
+            "access_rules": ["^$entrance_access|Celadon Rocket House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Hotel Entrance",
+            "hosted_item": "Celadon Hotel Entrance",
+            "access_rules": ["^$entrance_access|Celadon Hotel Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Gym Entrance",
+            "hosted_item": "Celadon Gym Entrance",
+            "access_rules": ["^$entrance_access|Celadon Gym Entrance"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 1F West Exit",
+            "hosted_item": "Celadon Department Store 1F West Exit",
+            "access_rules": ["^$entrance_access|Celadon Department Store 1F West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 1F East Exit",
+            "hosted_item": "Celadon Department Store 1F East Exit",
+            "access_rules": ["^$entrance_access|Celadon Department Store 1F East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 1F Stairs",
+            "hosted_item": "Celadon Department Store 1F Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 2F West Stairs",
+            "hosted_item": "Celadon Department Store 2F West Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 2F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 2F East Stairs",
+            "hosted_item": "Celadon Department Store 2F East Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 2F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 3F West Stairs",
+            "hosted_item": "Celadon Department Store 3F West Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 3F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 3F East Stairs",
+            "hosted_item": "Celadon Department Store 3F East Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 3F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 4F West Stairs",
+            "hosted_item": "Celadon Department Store 4F West Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 4F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 4F East Stairs",
+            "hosted_item": "Celadon Department Store 4F East Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 4F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 5F West Stairs",
+            "hosted_item": "Celadon Department Store 5F West Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 5F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store 5F East Stairs",
+            "hosted_item": "Celadon Department Store 5F East Stairs",
+            "access_rules": ["^$entrance_access|Celadon Department Store 5F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Department Store Roof Exit",
+            "hosted_item": "Celadon Department Store Roof Exit",
+            "access_rules": ["^$entrance_access|Celadon Department Store Roof Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 1F Front Exit",
+            "hosted_item": "Celadon Condominiums 1F Front Exit",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 1F Front Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 1F Back Exit",
+            "hosted_item": "Celadon Condominiums 1F Back Exit",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 1F Back Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 1F Northeast Stairs",
+            "hosted_item": "Celadon Condominiums 1F Northeast Stairs",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 1F Northeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 1F Northwest Stairs",
+            "hosted_item": "Celadon Condominiums 1F Northwest Stairs",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 1F Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 2F Northeast Stairs (Left)",
+            "hosted_item": "Celadon Condominiums 2F Northeast Stairs (Left)",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 2F Northeast Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 2F Northeast Stairs (Right)",
+            "hosted_item": "Celadon Condominiums 2F Northeast Stairs (Right)",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 2F Northeast Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 2F Northwest Stairs (Left)",
+            "hosted_item": "Celadon Condominiums 2F Northwest Stairs (Left)",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 2F Northwest Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 2F Northwest Stairs (Right)",
+            "hosted_item": "Celadon Condominiums 2F Northwest Stairs (Right)",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 2F Northwest Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 3F Northeast Stairs (Left)",
+            "hosted_item": "Celadon Condominiums 3F Northeast Stairs (Left)",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 3F Northeast Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 3F Northeast Stairs (Right)",
+            "hosted_item": "Celadon Condominiums 3F Northeast Stairs (Right)",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 3F Northeast Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 3F Northwest Stairs (Left)",
+            "hosted_item": "Celadon Condominiums 3F Northwest Stairs (Left)",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 3F Northwest Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums 3F Northwest Stairs (Right)",
+            "hosted_item": "Celadon Condominiums 3F Northwest Stairs (Right)",
+            "access_rules": ["^$entrance_access|Celadon Condominiums 3F Northwest Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums Roof Northeast Stairs",
+            "hosted_item": "Celadon Condominiums Roof Northeast Stairs",
+            "access_rules": ["^$entrance_access|Celadon Condominiums Roof Northeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums Roof Northwest Stairs",
+            "hosted_item": "Celadon Condominiums Roof Northwest Stairs",
+            "access_rules": ["^$entrance_access|Celadon Condominiums Roof Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums Roof Room Entrance",
+            "hosted_item": "Celadon Condominiums Roof Room Entrance",
+            "access_rules": ["^$entrance_access|Celadon Condominiums Roof Room Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Condominiums Roof Room Exit",
+            "hosted_item": "Celadon Condominiums Roof Room Exit",
+            "access_rules": ["^$entrance_access|Celadon Condominiums Roof Room Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Pokemon Center 1F Exit",
+            "hosted_item": "Celadon Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Celadon Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Game Corner Exit",
+            "hosted_item": "Celadon Game Corner Exit",
+            "access_rules": ["^$entrance_access|Celadon Game Corner Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout Entrance",
+            "hosted_item": "Rocket Hideout Entrance",
+            "access_rules": ["^$entrance_access|Rocket Hideout Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Game Corner Prize Room Exit",
+            "hosted_item": "Celadon Game Corner Prize Room Exit",
+            "access_rules": ["^$entrance_access|Celadon Game Corner Prize Room Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Restaurant Exit",
+            "hosted_item": "Celadon Restaurant Exit",
+            "access_rules": ["^$entrance_access|Celadon Restaurant Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Rocket House Exit",
+            "hosted_item": "Celadon Rocket House Exit",
+            "access_rules": ["^$entrance_access|Celadon Rocket House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Hotel Exit",
+            "hosted_item": "Celadon Hotel Exit",
+            "access_rules": ["^$entrance_access|Celadon Hotel Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Celadon Gym Exit",
+            "hosted_item": "Celadon Gym Exit",
+            "access_rules": ["^$entrance_access|Celadon Gym Exit"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 100,
+            "y": 68
+          },
+          {
+            "map": "kanto_er",
+            "x": 100,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Fuchsia City",
+        "sections": [
+          {
+            "name": "Safari Zone Lobby Entrance",
+            "hosted_item": "Safari Zone Lobby Entrance",
+            "access_rules": ["^$entrance_access|Safari Zone Lobby Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Poke Mart Entrance",
+            "hosted_item": "Fuchsia Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Fuchsia Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Office Entrance",
+            "hosted_item": "Safari Zone Office Entrance",
+            "access_rules": ["^$entrance_access|Safari Zone Office Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Gym Entrance",
+            "hosted_item": "Fuchsia Gym Entrance",
+            "access_rules": ["^$entrance_access|Fuchsia Gym Entrance"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Bill's Grandpa's House Entrance",
+            "hosted_item": "Bill's Grandpa's House Entrance",
+            "access_rules": ["^$entrance_access|Bill's Grandpa's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Move Deleter's House Entrance",
+            "hosted_item": "Move Deleter's House Entrance",
+            "access_rules": ["^$entrance_access|Move Deleter's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Pokemon Center Entrance",
+            "hosted_item": "Fuchsia Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Fuchsia Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Warden's House Entrance",
+            "hosted_item": "Safari Zone Warden's House Entrance",
+            "access_rules": ["^$entrance_access|Safari Zone Warden's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Fishing House Front Entrance",
+            "hosted_item": "Fuchsia Fishing House Front Entrance",
+            "access_rules": ["^$entrance_access|Fuchsia Fishing House Front Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Fishing House Back Entrance",
+            "hosted_item": "Fuchsia Fishing House Back Entrance",
+            "access_rules": ["^$entrance_access|Fuchsia Fishing House Back Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Poke Mart Exit",
+            "hosted_item": "Fuchsia Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Fuchsia Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Office Exit",
+            "hosted_item": "Safari Zone Office Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Office Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Gym Exit",
+            "hosted_item": "Fuchsia Gym Exit",
+            "access_rules": ["^$entrance_access|Fuchsia Gym Exit"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Bill's Grandpa's House Exit",
+            "hosted_item": "Bill's Grandpa's House Exit",
+            "access_rules": ["^$entrance_access|Bill's Grandpa's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Move Deleter's House Exit",
+            "hosted_item": "Move Deleter's House Exit",
+            "access_rules": ["^$entrance_access|Move Deleter's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Pokemon Center 1F Exit",
+            "hosted_item": "Fuchsia Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Fuchsia Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Warden's House Exit",
+            "hosted_item": "Safari Zone Warden's House Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Warden's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Fishing House Front Exit",
+            "hosted_item": "Fuchsia Fishing House Front Exit",
+            "access_rules": ["^$entrance_access|Fuchsia Fishing House Front Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Fuchsia Fishing House Back Exit",
+            "hosted_item": "Fuchsia Fishing House Back Exit",
+            "access_rules": ["^$entrance_access|Fuchsia Fishing House Back Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 108,
+            "y": 116
+          },
+          {
+            "map": "kanto_er",
+            "x": 108,
+            "y": 116
+          }
+        ]
+      },
+      {
+        "name": "Saffron City",
+        "sections": [
+          {
+            "name": "Route 5 Gate South Entrance",
+            "hosted_item": "Route 5 Gate South Entrance",
+            "access_rules": ["^$entrance_access|Route 5 Gate South Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Copycat's House Entrance",
+            "hosted_item": "Copycat's House Entrance",
+            "access_rules": ["^$entrance_access|Copycat's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Dojo Entrance",
+            "hosted_item": "Saffron Dojo Entrance",
+            "access_rules": ["^$entrance_access|Saffron Dojo Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Entrance",
+            "hosted_item": "Saffron Gym Entrance",
+            "access_rules": ["^$entrance_access|Saffron Gym Entrance"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Pidgey House Entrance",
+            "hosted_item": "Saffron Pidgey House Entrance",
+            "access_rules": ["^$entrance_access|Saffron Pidgey House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Poke Mart Entrance",
+            "hosted_item": "Saffron Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Saffron Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Trainer Fan Club Entrance",
+            "hosted_item": "Pokemon Trainer Fan Club Entrance",
+            "access_rules": ["^$entrance_access|Pokemon Trainer Fan Club Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 7 Gate East Entrance",
+            "hosted_item": "Route 7 Gate East Entrance",
+            "access_rules": ["^$entrance_access|Route 7 Gate East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. Entrance",
+            "hosted_item": "Silph Co. Entrance",
+            "access_rules": ["^$entrance_access|Silph Co. Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Route 8 Gate West Entrance",
+            "hosted_item": "Route 8 Gate West Entrance",
+            "access_rules": ["^$entrance_access|Route 8 Gate West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Pokemon Center Entrance",
+            "hosted_item": "Saffron Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Saffron Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Mr. Psychic's House Entrance",
+            "hosted_item": "Mr. Psychic's House Entrance",
+            "access_rules": ["^$entrance_access|Mr. Psychic's House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 6 Gate North Entrance",
+            "hosted_item": "Route 6 Gate North Entrance",
+            "access_rules": ["^$entrance_access|Route 6 Gate North Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Copycat's House 1F Exit",
+            "hosted_item": "Copycat's House 1F Exit",
+            "access_rules": ["^$entrance_access|Copycat's House 1F Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Copycat's House 1F Stairs",
+            "hosted_item": "Copycat's House 1F Stairs",
+            "access_rules": ["^$entrance_access|Copycat's House 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Copycat's House 2F Stairs",
+            "hosted_item": "Copycat's House 2F Stairs",
+            "access_rules": ["^$entrance_access|Copycat's House 2F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Dojo Exit",
+            "hosted_item": "Saffron Dojo Exit",
+            "access_rules": ["^$entrance_access|Saffron Dojo Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Exit",
+            "hosted_item": "Saffron Gym Exit",
+            "access_rules": ["^$entrance_access|Saffron Gym Exit"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym South Warp Tile",
+            "hosted_item": "Saffron Gym South Warp Tile",
+            "access_rules": ["^$entrance_access|Saffron Gym South Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Top Left)",
+            "hosted_item": "Saffron Gym Southeast Warp Tile (Top Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym Southeast Warp Tile (Top Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Bottom Left)",
+            "hosted_item": "Saffron Gym Southeast Warp Tile (Bottom Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym Southeast Warp Tile (Bottom Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Top Right)",
+            "hosted_item": "Saffron Gym Southeast Warp Tile (Top Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym Southeast Warp Tile (Top Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Southeast Warp Tile (Bottom Right)",
+            "hosted_item": "Saffron Gym Southeast Warp Tile (Bottom Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym Southeast Warp Tile (Bottom Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Top Left)",
+            "hosted_item": "Saffron Gym Southwest Warp Tile (Top Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym Southwest Warp Tile (Top Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Bottom Left)",
+            "hosted_item": "Saffron Gym Southwest Warp Tile (Bottom Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym Southwest Warp Tile (Bottom Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Top Right)",
+            "hosted_item": "Saffron Gym Southwest Warp Tile (Top Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym Southwest Warp Tile (Top Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Southwest Warp Tile (Bottom Right)",
+            "hosted_item": "Saffron Gym Southwest Warp Tile (Bottom Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym Southwest Warp Tile (Bottom Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym East Warp Tile (Top Left)",
+            "hosted_item": "Saffron Gym East Warp Tile (Top Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym East Warp Tile (Top Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym East Warp Tile (Bottom Left)",
+            "hosted_item": "Saffron Gym East Warp Tile (Bottom Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym East Warp Tile (Bottom Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym East Warp Tile (Top Right)",
+            "hosted_item": "Saffron Gym East Warp Tile (Top Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym East Warp Tile (Top Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym East Warp Tile (Bottom Right)",
+            "hosted_item": "Saffron Gym East Warp Tile (Bottom Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym East Warp Tile (Bottom Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym West Warp Tile (Top Left)",
+            "hosted_item": "Saffron Gym West Warp Tile (Top Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym West Warp Tile (Top Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym West Warp Tile (Bottom Left)",
+            "hosted_item": "Saffron Gym West Warp Tile (Bottom Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym West Warp Tile (Bottom Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym West Warp Tile (Top Right)",
+            "hosted_item": "Saffron Gym West Warp Tile (Top Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym West Warp Tile (Top Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym West Warp Tile (Bottom Right)",
+            "hosted_item": "Saffron Gym West Warp Tile (Bottom Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym West Warp Tile (Bottom Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Top Left)",
+            "hosted_item": "Saffron Gym Northeast Warp Tile (Top Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym Northeast Warp Tile (Top Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Bottom Left)",
+            "hosted_item": "Saffron Gym Northeast Warp Tile (Bottom Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym Northeast Warp Tile (Bottom Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Top Right)",
+            "hosted_item": "Saffron Gym Northeast Warp Tile (Top Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym Northeast Warp Tile (Top Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Northeast Warp Tile (Bottom Right)",
+            "hosted_item": "Saffron Gym Northeast Warp Tile (Bottom Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym Northeast Warp Tile (Bottom Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym North Warp Tile (Top Left)",
+            "hosted_item": "Saffron Gym North Warp Tile (Top Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym North Warp Tile (Top Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym North Warp Tile (Bottom Left)",
+            "hosted_item": "Saffron Gym North Warp Tile (Bottom Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym North Warp Tile (Bottom Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym North Warp Tile (Top Right)",
+            "hosted_item": "Saffron Gym North Warp Tile (Top Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym North Warp Tile (Top Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym North Warp Tile (Bottom Right)",
+            "hosted_item": "Saffron Gym North Warp Tile (Bottom Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym North Warp Tile (Bottom Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Top Left)",
+            "hosted_item": "Saffron Gym Northwest Warp Tile (Top Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym Northwest Warp Tile (Top Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Bottom Left)",
+            "hosted_item": "Saffron Gym Northwest Warp Tile (Bottom Left)",
+            "access_rules": ["^$entrance_access|Saffron Gym Northwest Warp Tile (Bottom Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Top Right)",
+            "hosted_item": "Saffron Gym Northwest Warp Tile (Top Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym Northwest Warp Tile (Top Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Northwest Warp Tile (Bottom Right)",
+            "hosted_item": "Saffron Gym Northwest Warp Tile (Bottom Right)",
+            "access_rules": ["^$entrance_access|Saffron Gym Northwest Warp Tile (Bottom Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Gym Center Warp Tile",
+            "hosted_item": "Saffron Gym Center Warp Tile",
+            "access_rules": ["^$entrance_access|Saffron Gym Center Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Pidgey House Exit",
+            "hosted_item": "Saffron Pidgey House Exit",
+            "access_rules": ["^$entrance_access|Saffron Pidgey House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Poke Mart Exit",
+            "hosted_item": "Saffron Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Saffron Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Trainer Fan Club Exit",
+            "hosted_item": "Pokemon Trainer Fan Club Exit",
+            "access_rules": ["^$entrance_access|Pokemon Trainer Fan Club Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Saffron Pokemon Center 1F Exit",
+            "hosted_item": "Saffron Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Saffron Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Mr. Psychic's House Exit",
+            "hosted_item": "Mr. Psychic's House Exit",
+            "access_rules": ["^$entrance_access|Mr. Psychic's House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 68
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Cinnabar Island",
+        "sections": [
+          {
+            "name": "Pokemon Mansion Entrance",
+            "hosted_item": "Pokemon Mansion Entrance",
+            "access_rules": ["^$entrance_access|Pokemon Mansion Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Cinnabar Gym Entrance",
+            "hosted_item": "Cinnabar Gym Entrance",
+            "access_rules": ["^$entrance_access|Cinnabar Gym Entrance"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Lab Entrance",
+            "hosted_item": "Pokemon Lab Entrance",
+            "access_rules": ["^$entrance_access|Pokemon Lab Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Cinnabar Pokemon Center Entrance",
+            "hosted_item": "Cinnabar Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Cinnabar Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Cinnabar Poke Mart Entrance",
+            "hosted_item": "Cinnabar Poke Mart Entrance",
+            "access_rules": ["^$entrance_access|Cinnabar Poke Mart Entrance"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          },
+          {
+            "name": "Cinnabar Gym Exit",
+            "hosted_item": "Cinnabar Gym Exit",
+            "access_rules": ["^$entrance_access|Cinnabar Gym Exit"],
+            "visibility_rules": ["$shuffle_gyms,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Lab Exit",
+            "hosted_item": "Pokemon Lab Exit",
+            "access_rules": ["^$entrance_access|Pokemon Lab Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Lab Lounge Entrance",
+            "hosted_item": "Pokemon Lab Lounge Entrance",
+            "access_rules": ["^$entrance_access|Pokemon Lab Lounge Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Lab Research Room Entrance",
+            "hosted_item": "Pokemon Lab Research Room Entrance",
+            "access_rules": ["^$entrance_access|Pokemon Lab Research Room Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Lab Experiment Room Entrance",
+            "hosted_item": "Pokemon Lab Experiment Room Entrance",
+            "access_rules": ["^$entrance_access|Pokemon Lab Experiment Room Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Lab Lounge Exit",
+            "hosted_item": "Pokemon Lab Lounge Exit",
+            "access_rules": ["^$entrance_access|Pokemon Lab Lounge Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Lab Research Room Exit",
+            "hosted_item": "Pokemon Lab Research Room Exit",
+            "access_rules": ["^$entrance_access|Pokemon Lab Research Room Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Lab Experiment Room Exit",
+            "hosted_item": "Pokemon Lab Experiment Room Exit",
+            "access_rules": ["^$entrance_access|Pokemon Lab Experiment Room Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cinnabar Pokemon Center 1F Exit",
+            "hosted_item": "Cinnabar Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Cinnabar Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Cinnabar Poke Mart Exit",
+            "hosted_item": "Cinnabar Poke Mart Exit",
+            "access_rules": ["^$entrance_access|Cinnabar Poke Mart Exit"],
+            "visibility_rules": ["$shuffle_marts,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 132
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "Indigo Plateau",
+        "sections": [
+          {
+            "name": "Indigo Plateau Pokemon Center Entrance",
+            "hosted_item": "Indigo Plateau Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Indigo Plateau Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Indigo Plateau Pokemon Center 1F Exit",
+            "hosted_item": "Indigo Plateau Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Indigo Plateau Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 44
+          },
+          {
+            "map": "kanto_er",
+            "x": 28,
+            "y": 44
+          }
+        ]
+      }
+    ]
+  }
+]

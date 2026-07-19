@@ -33,6 +33,75 @@
             "y": 248
           }
         ]
+      },
+      {
+        "name": "Route 7 Gate West Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 7/Route 7 Gate West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7",
+            "shape": "diamond",
+            "x": 248,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Underground Path West Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 7/Underground Path West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7",
+            "shape": "diamond",
+            "x": 120,
+            "y": 232
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 7 Gate",
+    "children": [
+      {
+        "name": "Route 7 Gate West Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 7/Route 7 Gate West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7_gate",
+            "shape": "diamond",
+            "x": 24,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 7 Gate East Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 7/Route 7 Gate East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_7_gate",
+            "shape": "diamond",
+            "x": 184,
+            "y": 88
+          }
+        ]
       }
     ]
   }

@@ -1,0 +1,929 @@
+[
+  {
+    "name": "Route Entrances",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "Route 2",
+        "sections": [
+          {
+            "name": "Viridian Forest South Gate Entrance",
+            "hosted_item": "Viridian Forest South Gate Entrance",
+            "access_rules": ["^$entrance_access|Viridian Forest South Gate Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Forest North Gate Entrance",
+            "hosted_item": "Viridian Forest North Gate Entrance",
+            "access_rules": ["^$entrance_access|Viridian Forest North Gate Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Diglett's Cave North Entrance",
+            "hosted_item": "Diglett's Cave North Entrance",
+            "access_rules": ["^$entrance_access|Diglett's Cave North Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Route 2 Trade House Entrance",
+            "hosted_item": "Route 2 Trade House Entrance",
+            "access_rules": ["^$entrance_access|Route 2 Trade House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 2 Gate North Entrance",
+            "hosted_item": "Route 2 Gate North Entrance",
+            "access_rules": ["^$entrance_access|Route 2 Gate North Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 2 Gate South Entrance",
+            "hosted_item": "Route 2 Gate South Entrance",
+            "access_rules": ["^$entrance_access|Route 2 Gate South Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Forest South Gate South Exit",
+            "hosted_item": "Viridian Forest South Gate South Exit",
+            "access_rules": ["^$entrance_access|Viridian Forest South Gate South Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Forest South Gate North Exit",
+            "hosted_item": "Viridian Forest South Gate North Exit",
+            "access_rules": ["^$entrance_access|Viridian Forest South Gate North Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Forest North Gate North Exit",
+            "hosted_item": "Viridian Forest North Gate North Exit",
+            "access_rules": ["^$entrance_access|Viridian Forest North Gate North Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Forest North Gate South Exit",
+            "hosted_item": "Viridian Forest North Gate South Exit",
+            "access_rules": ["^$entrance_access|Viridian Forest North Gate South Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Route 2 Trade House Exit",
+            "hosted_item": "Route 2 Trade House Exit",
+            "access_rules": ["^$entrance_access|Route 2 Trade House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 2 Gate North Exit",
+            "hosted_item": "Route 2 Gate North Exit",
+            "access_rules": ["^$entrance_access|Route 2 Gate North Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 2 Gate South Exit",
+            "hosted_item": "Route 2 Gate South Exit",
+            "access_rules": ["^$entrance_access|Route 2 Gate South Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 4 West",
+        "sections": [
+          {
+            "name": "Mt. Moon West Entrance",
+            "hosted_item": "Mt. Moon West Entrance",
+            "access_rules": ["^$entrance_access|Mt. Moon West Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Route 4 Pokemon Center Entrance",
+            "hosted_item": "Route 4 Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Route 4 Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Route 4 Pokemon Center 1F Exit",
+            "hosted_item": "Route 4 Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Route 4 Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 76,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 76,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 4 East",
+        "sections": [
+          {
+            "name": "Mt. Moon East Entrance",
+            "hosted_item": "Mt. Moon East Entrance",
+            "access_rules": ["^$entrance_access|Mt. Moon East Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 104,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 104,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 5",
+        "sections": [
+          {
+            "name": "Route 5 Gate North Entrance",
+            "hosted_item": "Route 5 Gate North Entrance",
+            "access_rules": ["^$entrance_access|Route 5 Gate North Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path North Entrance",
+            "hosted_item": "Underground Path North Entrance",
+            "access_rules": ["^$entrance_access|Underground Path North Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 5 Pokemon Day Care Entrance",
+            "hosted_item": "Route 5 Pokemon Day Care Entrance",
+            "access_rules": ["^$entrance_access|Route 5 Pokemon Day Care Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 5 Pokemon Day Care Exit",
+            "hosted_item": "Route 5 Pokemon Day Care Exit",
+            "access_rules": ["^$entrance_access|Route 5 Pokemon Day Care Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 5 Gate North Exit",
+            "hosted_item": "Route 5 Gate North Exit",
+            "access_rules": ["^$entrance_access|Route 5 Gate North Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 5 Gate South Exit",
+            "hosted_item": "Route 5 Gate South Exit",
+            "access_rules": ["^$entrance_access|Route 5 Gate South Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 56,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 56,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 6",
+        "sections": [
+          {
+            "name": "Route 6 Gate South Entrance",
+            "hosted_item": "Route 6 Gate South Entrance",
+            "access_rules": ["^$entrance_access|Route 6 Gate South Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path South Entrance",
+            "hosted_item": "Underground Path South Entrance",
+            "access_rules": ["^$entrance_access|Underground Path South Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 6 Gate South Exit",
+            "hosted_item": "Route 6 Gate South Exit",
+            "access_rules": ["^$entrance_access|Route 6 Gate South Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 6 Gate North Exit",
+            "hosted_item": "Route 6 Gate North Exit",
+            "access_rules": ["^$entrance_access|Route 6 Gate North Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 80,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 124,
+            "y": 80,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 7",
+        "sections": [
+          {
+            "name": "Route 7 Gate West Entrance",
+            "hosted_item": "Route 7 Gate West Entrance",
+            "access_rules": ["^$entrance_access|Route 7 Gate West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path West Entrance",
+            "hosted_item": "Underground Path West Entrance",
+            "access_rules": ["^$entrance_access|Underground Path West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 7 Gate West Exit",
+            "hosted_item": "Route 7 Gate West Exit",
+            "access_rules": ["^$entrance_access|Route 7 Gate West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 7 Gate East Exit",
+            "hosted_item": "Route 7 Gate East Exit",
+            "access_rules": ["^$entrance_access|Route 7 Gate East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 112,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 112,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 8",
+        "sections": [
+          {
+            "name": "Route 8 Gate East Entrance",
+            "hosted_item": "Route 8 Gate East Entrance",
+            "access_rules": ["^$entrance_access|Route 8 Gate East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path East Entrance",
+            "hosted_item": "Underground Path East Entrance",
+            "access_rules": ["^$entrance_access|Underground Path East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 8 Gate East Exit",
+            "hosted_item": "Route 8 Gate East Exit",
+            "access_rules": ["^$entrance_access|Route 8 Gate East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 8 Gate West Exit",
+            "hosted_item": "Route 8 Gate West Exit",
+            "access_rules": ["^$entrance_access|Route 8 Gate West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 140,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 140,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 10 North",
+        "sections": [
+          {
+            "name": "Rock Tunnel North Entrance",
+            "hosted_item": "Rock Tunnel North Entrance",
+            "access_rules": ["^$entrance_access|Rock Tunnel North Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Power Plant Front Entrance",
+            "hosted_item": "Power Plant Front Entrance",
+            "access_rules": ["^$entrance_access|Power Plant Front Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Power Plant Back Entrance",
+            "hosted_item": "Power Plant Back Entrance",
+            "access_rules": ["^$entrance_access|Power Plant Back Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Route 10 Pokemon Center Entrance",
+            "hosted_item": "Route 10 Pokemon Center Entrance",
+            "access_rules": ["^$entrance_access|Route 10 Pokemon Center Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
+            "name": "Route 10 Pokemon Center 1F Exit",
+            "hosted_item": "Route 10 Pokemon Center 1F Exit",
+            "access_rules": ["^$entrance_access|Route 10 Pokemon Center 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 10 South",
+        "sections": [
+          {
+            "name": "Rock Tunnel South Entrance",
+            "hosted_item": "Rock Tunnel South Entrance",
+            "access_rules": ["^$entrance_access|Rock Tunnel South Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 11",
+        "sections": [
+          {
+            "name": "Diglett's Cave South Entrance",
+            "hosted_item": "Diglett's Cave South Entrance",
+            "access_rules": ["^$entrance_access|Diglett's Cave South Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Route 11 Gate West Entrance",
+            "hosted_item": "Route 11 Gate West Entrance",
+            "access_rules": ["^$entrance_access|Route 11 Gate West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 11 Gate East Entrance",
+            "hosted_item": "Route 11 Gate East Entrance",
+            "access_rules": ["^$entrance_access|Route 11 Gate East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 11 Gate 1F West Exit",
+            "hosted_item": "Route 11 Gate 1F West Exit",
+            "access_rules": ["^$entrance_access|Route 11 Gate 1F West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 11 Gate 1F East Exit",
+            "hosted_item": "Route 11 Gate 1F East Exit",
+            "access_rules": ["^$entrance_access|Route 11 Gate 1F East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 11 Gate 1F Stairs",
+            "hosted_item": "Route 11 Gate 1F Stairs",
+            "access_rules": ["^$entrance_access|Route 11 Gate 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Route 11 Gate 2F Stairs",
+            "hosted_item": "Route 11 Gate 2F Stairs",
+            "access_rules": ["^$entrance_access|Route 11 Gate 2F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 140,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 140,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 12 North",
+        "sections": [
+          {
+            "name": "Route 12 Gate North Entrance",
+            "hosted_item": "Route 12 Gate North Entrance",
+            "access_rules": ["^$entrance_access|Route 12 Gate North Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 12 Gate South Entrance",
+            "hosted_item": "Route 12 Gate South Entrance",
+            "access_rules": ["^$entrance_access|Route 12 Gate South Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 12 Gate 1F North Exit",
+            "hosted_item": "Route 12 Gate 1F North Exit",
+            "access_rules": ["^$entrance_access|Route 12 Gate 1F North Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 12 Gate 1F South Exit",
+            "hosted_item": "Route 12 Gate 1F South Exit",
+            "access_rules": ["^$entrance_access|Route 12 Gate 1F South Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 12 Gate 1F Stairs",
+            "hosted_item": "Route 12 Gate 1F Stairs",
+            "access_rules": ["^$entrance_access|Route 12 Gate 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Route 12 Gate 2F Stairs",
+            "hosted_item": "Route 12 Gate 2F Stairs",
+            "access_rules": ["^$entrance_access|Route 12 Gate 2F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 12 South",
+        "sections": [
+          {
+            "name": "Route 12 Fishing House Entrance",
+            "hosted_item": "Route 12 Fishing House Entrance",
+            "access_rules": ["^$entrance_access|Route 12 Fishing House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 12 Fishing House Exit",
+            "hosted_item": "Route 12 Fishing House Exit",
+            "access_rules": ["^$entrance_access|Route 12 Fishing House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 100,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 100,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 15",
+        "sections": [
+          {
+            "name": "Route 15 Gate East Entrance",
+            "hosted_item": "Route 15 Gate East Entrance",
+            "access_rules": ["^$entrance_access|Route 15 Gate East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 15 Gate West Entrance",
+            "hosted_item": "Route 15 Gate West Entrance",
+            "access_rules": ["^$entrance_access|Route 15 Gate West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 15 Gate 1F East Exit",
+            "hosted_item": "Route 15 Gate 1F East Exit",
+            "access_rules": ["^$entrance_access|Route 15 Gate 1F East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 15 Gate 1F West Exit",
+            "hosted_item": "Route 15 Gate 1F West Exit",
+            "access_rules": ["^$entrance_access|Route 15 Gate 1F West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 15 Gate 1F Stairs",
+            "hosted_item": "Route 15 Gate 1F Stairs",
+            "access_rules": ["^$entrance_access|Route 15 Gate 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Route 15 Gate 2F Stairs",
+            "hosted_item": "Route 15 Gate 2F Stairs",
+            "access_rules": ["^$entrance_access|Route 15 Gate 2F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 120,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 120,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 16",
+        "sections": [
+          {
+            "name": "Route 16 Gate Northeast Entrance",
+            "hosted_item": "Route 16 Gate Northeast Entrance",
+            "access_rules": ["^$entrance_access|Route 16 Gate Northeast Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate Northwest Entrance",
+            "hosted_item": "Route 16 Gate Northwest Entrance",
+            "access_rules": ["^$entrance_access|Route 16 Gate Northwest Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate Southeast Entrance",
+            "hosted_item": "Route 16 Gate Southeast Entrance",
+            "access_rules": ["^$entrance_access|Route 16 Gate Southeast Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate Southwest Entrance",
+            "hosted_item": "Route 16 Gate Southwest Entrance",
+            "access_rules": ["^$entrance_access|Route 16 Gate Southwest Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Fly House Entrance",
+            "hosted_item": "Route 16 Fly House Entrance",
+            "access_rules": ["^$entrance_access|Route 16 Fly House Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate 1F Northeast Exit",
+            "hosted_item": "Route 16 Gate 1F Northeast Exit",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Northeast Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate 1F Northwest Exit",
+            "hosted_item": "Route 16 Gate 1F Northwest Exit",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Northwest Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate 1F Southeast Exit",
+            "hosted_item": "Route 16 Gate 1F Southeast Exit",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Southeast Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate 1F Southwest Exit",
+            "hosted_item": "Route 16 Gate 1F Southwest Exit",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Southwest Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate 1F Stairs",
+            "hosted_item": "Route 16 Gate 1F Stairs",
+            "access_rules": ["^$entrance_access|Route 16 Gate 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Gate 2F Stairs",
+            "hosted_item": "Route 16 Gate 2F Stairs",
+            "access_rules": ["^$entrance_access|Route 16 Gate 2F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Route 16 Fly House Exit",
+            "hosted_item": "Route 16 Fly House Exit",
+            "access_rules": ["^$entrance_access|Route 16 Fly House Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 80,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 80,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 18",
+        "sections": [
+          {
+            "name": "Route 18 Gate West Entrance",
+            "hosted_item": "Route 18 Gate West Entrance",
+            "access_rules": ["^$entrance_access|Route 18 Gate West Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 18 Gate East Entrance",
+            "hosted_item": "Route 18 Gate East Entrance",
+            "access_rules": ["^$entrance_access|Route 18 Gate East Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 18 Gate 1F West Exit",
+            "hosted_item": "Route 18 Gate 1F West Exit",
+            "access_rules": ["^$entrance_access|Route 18 Gate 1F West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 18 Gate 1F East Exit",
+            "hosted_item": "Route 18 Gate 1F East Exit",
+            "access_rules": ["^$entrance_access|Route 18 Gate 1F East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 18 Gate 1F Stairs",
+            "hosted_item": "Route 18 Gate 1F Stairs",
+            "access_rules": ["^$entrance_access|Route 18 Gate 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Route 18 Gate 2F Stairs",
+            "hosted_item": "Route 18 Gate 2F Stairs",
+            "access_rules": ["^$entrance_access|Route 18 Gate 2F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 20 West",
+        "sections": [
+          {
+            "name": "Seafoam Islands South Entrance",
+            "hosted_item": "Seafoam Islands South Entrance",
+            "access_rules": ["^$entrance_access|Seafoam Islands South Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 60,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 60,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 20 East",
+        "sections": [
+          {
+            "name": "Seafoam Islands North Entrance",
+            "hosted_item": "Seafoam Islands North Entrance",
+            "access_rules": ["^$entrance_access|Seafoam Islands North Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 92,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 92,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 22",
+        "sections": [
+          {
+            "name": "Route 22 Gate South Entrance",
+            "hosted_item": "Route 22 Gate South Entrance",
+            "access_rules": ["^$entrance_access|Route 22 Gate South Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 22 Gate South Exit",
+            "hosted_item": "Route 22 Gate South Exit",
+            "access_rules": ["^$entrance_access|Route 22 Gate South Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Route 22 Gate North Exit",
+            "hosted_item": "Route 22 Gate North Exit",
+            "access_rules": ["^$entrance_access|Route 22 Gate North Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 32,
+            "y": 84,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 32,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 23",
+        "sections": [
+          {
+            "name": "Route 22 Gate North Entrance",
+            "hosted_item": "Route 22 Gate North Entrance",
+            "access_rules": ["^$entrance_access|Route 22 Gate North Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road West Entrance",
+            "hosted_item": "Victory Road West Entrance",
+            "access_rules": ["^$entrance_access|Victory Road West Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road East Entrance",
+            "hosted_item": "Victory Road East Entrance",
+            "access_rules": ["^$entrance_access|Victory Road East Entrance"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 28,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Route 25",
+        "sections": [
+          {
+            "name": "Sea Cottage Entrance",
+            "hosted_item": "Sea Cottage Entrance",
+            "access_rules": ["^$entrance_access|Sea Cottage Entrance"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Sea Cottage Exit",
+            "hosted_item": "Sea Cottage Exit",
+            "access_rules": ["^$entrance_access|Sea Cottage Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 136,
+            "y": 28,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 136,
+            "y": 28,
+            "size": 4
+          }
+        ]
+      }
+    ]
+  }
+]

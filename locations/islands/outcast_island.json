@@ -171,13 +171,13 @@
         "name": "Altering Cave Entrance",
         "sections": [
           {
-            "ref": "Islands/Outcast Island/Altering Cave Entrance",
-            "name": "Entrance"
+            "ref": "Island Entrances/Outcast Island/Altering Cave Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "outcast_island_north",
+            "shape": "diamond",
             "x": 120,
             "y": 344
           }

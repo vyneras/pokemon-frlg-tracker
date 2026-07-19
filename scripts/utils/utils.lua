@@ -1,7 +1,54 @@
-FLY_DESTINATION_MAPPING = {}
+ACCESS_LEVEL = {
+    [0] = AccessibilityLevel.None,
+    [1] = AccessibilityLevel.Partial,
+    [3] = AccessibilityLevel.Inspect,
+    [5] = AccessibilityLevel.SequenceBreak,
+    [6] = AccessibilityLevel.Normal,
+    [7] = AccessibilityLevel.Cleared,
+    [AccessibilityLevel.None] = 0,
+    [AccessibilityLevel.Partial] = 1,
+    [AccessibilityLevel.Inspect] = 3,
+    [AccessibilityLevel.SequenceBreak] = 5,
+    [AccessibilityLevel.Normal] = 6,
+    [AccessibilityLevel.Cleared] = 7
+}
+
+item_cache = {}
+amount_cache = {}
+
+function tracker_on_accessibility_updating()
+    amount_cache = {}
+    if TRACKER_READY and UPDATES_ALLOWED then
+        update_region_connections()
+    end
+end
+
+
+function and_access(...)
+    local access = AccessibilityLevel.Cleared
+    for _, value in pairs({...}) do
+        if ACCESS_LEVEL[value] < ACCESS_LEVEL[access] then
+            access = value
+        end
+    end
+    return access
+end
+
+function or_access(...)
+    local access = AccessibilityLevel.None
+    for _, value in pairs({...}) do
+        if ACCESS_LEVEL[value] > ACCESS_LEVEL[access] then
+            access = value
+        end
+    end
+    return access
+end
 
 function has(item, amount)
-    local count = Tracker:ProviderCountForCode(item)
+    if not amount_cache[item] then
+        amount_cache[item] = Tracker:ProviderCountForCode(item)
+    end
+    local count = amount_cache[item] or 0
     amount = tonumber(amount)
     if not amount then
         return count > 0
@@ -40,7 +87,14 @@ function dump_table(o, depth)
 end
 
 function get_item(code)
+    if item_cache[code] then
+        return item_cache[code].ItemState["item"]
+    end
     local item = Tracker:FindObjectForCode(code)
+    if item then
+        item_cache[code] = item
+        return item.ItemState["item"]
+    end
     return item.ItemState["item"]
 end
 
@@ -71,8 +125,8 @@ function toggle_hosted_item(code)
 end
 
 function toggle_item_grid(code)
-    local extra_item_settings = { "extra_key_items_on", "card_keys_split", "card_keys_prog", "island_passes_split",
-        "island_passes_split_prog", "teas_split", "gym_keys_on" }
+    local extra_item_settings = {"extra_key_items_on", "card_keys_split", "card_keys_prog", "island_passes_split",
+                                 "island_passes_split_prog", "teas_split", "gym_keys_on"}
     local extra_grid = false
     local extra_key_items = has("extra_key_items_on")
     local split_card_keys = has("card_keys_split") or has("card_keys_prog")
@@ -193,6 +247,7 @@ end
 function toggle_maps(code)
     local map_split = has("split_map_on")
     local kanto_only = has("kanto_only_on")
+    local entrance_rando = entrance_rando()
 
     if map_split then
         Tracker:AddLayouts("layouts/map_layout_split.json")
@@ -200,10 +255,14 @@ function toggle_maps(code)
         Tracker:AddLayouts("layouts/map_layout.json")
     end
 
-    if not kanto_only then
+    if not kanto_only and not entrance_rando then
         Tracker:AddLayouts("layouts/maps.json")
-    else
+    elseif kanto_only and not entrance_rando then
         Tracker:AddLayouts("layouts/maps_no_sevii.json")
+    elseif not kanto_only and entrance_rando then
+        Tracker:AddLayouts("layouts/maps_er.json")
+    else
+        Tracker:AddLayouts("layouts/maps_no_sevii_er.json")
     end
 end
 
@@ -335,44 +394,11 @@ function toggle_item_tabs(code)
     end
 end
 
-function set_default_fly_destinations(code)
-    local fly_destinations_randomized = Tracker:FindObjectForCode(code).CurrentStage == 1
-    for _, code in pairs(FLY_DESTINATION_CODES) do
-        local item = get_item(code)
-        if fly_destinations_randomized then
-            item:setStage(0)
-        else
-            item:setToDefaultStage()
-        end
-    end
-end
-
 function toggle_fly_unlock(code)
-    if has("randomize_fly_destinations_on") then
-        local data = FLY_DESTINATION_MAPPING[code]
-        if data then
-            local item = data[1]
-            if Tracker:FindObjectForCode(code).Active then
-                item:setStage(data[2])
-            else
-                item:setStage(0)
-            end
-        end
-    end
-end
-
-function set_default_dungeon_entrances(code)
-    for name, item in pairs(ENTRANCE_ITEMS) do
-        if shuffle_dungeons_on() then
-            item:setStage(item:getSavedStage())
-        else
-            if has("shuffle_dungeons_seafoam") and name == "Seafoam Islands (South)" then
-                item:setStage(17)
-            elseif has("shuffle_dungeons_seafoam") and name == "Seafoam Islands (North)" then
-                item:setStage(16)
-            else
-                item:setStage(item:getDefaultStage())
-            end
+    for name, region in pairs(FLY_DESTINATIONS) do
+        local fly_destination = get_item(name)
+        if fly_destination.flyUnlock == code then
+            fly_destination:setConnectedRegion(region)
         end
     end
 end

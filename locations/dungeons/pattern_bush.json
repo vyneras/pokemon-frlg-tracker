@@ -209,6 +209,38 @@
             "y": 88
           }
         ]
+      },
+      {
+        "name": "Pattern Bush East Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pattern Bush/Pattern Bush East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "shape": "diamond",
+            "x": 888,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush West Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pattern Bush/Pattern Bush West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pattern_bush",
+            "shape": "diamond",
+            "x": 72,
+            "y": 424
+          }
+        ]
       }
     ]
   }

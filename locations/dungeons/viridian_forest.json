@@ -199,6 +199,38 @@
             "y": 360
           }
         ]
+      },
+      {
+        "name": "Viridian Forest South Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Viridian Forest/Viridian Forest South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_south",
+            "shape": "diamond",
+            "x": 472,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest North Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Viridian Forest/Viridian Forest North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_forest_north",
+            "shape": "diamond",
+            "x": 88,
+            "y": 152
+          }
+        ]
       }
     ]
   }

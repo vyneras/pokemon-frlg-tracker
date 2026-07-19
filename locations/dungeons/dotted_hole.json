@@ -17,6 +17,138 @@
             "y": 104
           }
         ]
+      },
+      {
+        "name": "Dotted Hole 1F Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Dotted Hole/Dotted Hole 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_1f",
+            "shape": "diamond",
+            "x": 104,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Dotted Hole 1F Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Dotted Hole/Dotted Hole 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_1f",
+            "shape": "diamond",
+            "x": 216,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Dotted Hole 1F Drop",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Dotted Hole/Dotted Hole 1F Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_1f",
+            "shape": "diamond",
+            "x": 104,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dotted Hole B1F",
+    "children": [
+      {
+        "name": "Dotted Hole B1F Drop (Top)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Dotted Hole/Dotted Hole B1F Drop (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_b1f",
+            "shape": "diamond",
+            "x": 104,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dotted Hole B2F",
+    "children": [
+      {
+        "name": "Dotted Hole B2F Drop (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Dotted Hole/Dotted Hole B2F Drop (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_b2f",
+            "shape": "diamond",
+            "x": 24,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dotted Hole B3F",
+    "children": [
+      {
+        "name": "Dotted Hole B3F Drop (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Dotted Hole/Dotted Hole B3F Drop (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_b3f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dotted Hole B4F",
+    "children": [
+      {
+        "name": "Dotted Hole B4F Drop (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Dotted Hole/Dotted Hole B4F Drop (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_b4f",
+            "shape": "diamond",
+            "x": 104,
+            "y": 152
+          }
+        ]
       }
     ]
   },
@@ -36,6 +168,22 @@
             "map": "dotted_hole_sapphire_room",
             "x": 88,
             "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Dotted Hole Sapphire Room Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Dotted Hole/Dotted Hole Sapphire Room Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dotted_hole_sapphire_room",
+            "shape": "diamond",
+            "x": 184,
+            "y": 120
           }
         ]
       }

@@ -97,7 +97,8 @@
           {
             "map": "vermilion_city",
             "x": 248,
-            "y": 104
+            "y": 104,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -112,7 +113,8 @@
           {
             "map": "vermilion_city",
             "x": 152,
-            "y": 104
+            "y": 104,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -127,7 +129,8 @@
           {
             "map": "vermilion_city",
             "x": 472,
-            "y": 280
+            "y": 280,
+            "force_invisibility_rules": ["$shuffle_marts"]
           }
         ]
       },
@@ -147,7 +150,8 @@
           {
             "map": "vermilion_city",
             "x": 200,
-            "y": 280
+            "y": 280,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -203,7 +207,8 @@
           {
             "map": "vermilion_city",
             "x": 232,
-            "y": 408
+            "y": 408,
+            "force_invisibility_rules": ["$shuffle_gyms"]
           }
         ]
       },
@@ -218,23 +223,136 @@
           {
             "map": "vermilion_city",
             "x": 312,
-            "y": 280
+            "y": 280,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
       {
-        "name": "S.S. Anne Entrance",
+        "name": "Vermilion Fishing House Entrance",
         "sections": [
           {
-            "ref": "Cities/Vermilion City/S.S. Anne Entrance",
-            "name": "Entrance"
+            "ref": "City Entrances/Vermilion City/Vermilion Fishing House Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "vermilion_city",
+            "shape": "diamond",
+            "x": 152,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Fan Club Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Pokemon Fan Club Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "shape": "diamond",
+            "x": 200,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Trade House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Trade House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "shape": "diamond",
+            "x": 312,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Pidgey House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Pidgey House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "shape": "diamond",
+            "x": 456,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Harbor Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "shape": "diamond",
             "x": 376,
             "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Gym Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Gym Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "shape": "diamond",
+            "x": 232,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "shape": "diamond",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_city",
+            "shape": "diamond",
+            "x": 248,
+            "y": 104
           }
         ]
       }
@@ -256,6 +374,22 @@
             "map": "vermilion_fishing_house",
             "x": 72,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Fishing House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Fishing House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_fishing_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -311,6 +445,22 @@
             "y": 32
           }
         ]
+      },
+      {
+        "name": "Vermilion Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
+          }
+        ]
       }
     ]
   },
@@ -346,6 +496,22 @@
             "map": "pokemon_fan_club",
             "x": 104,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Fan Club Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Pokemon Fan Club Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_fan_club",
+            "shape": "diamond",
+            "x": 88,
+            "y": 168
           }
         ]
       }
@@ -445,6 +611,22 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Vermilion Gym Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_gym",
+            "shape": "diamond",
+            "x": 88,
+            "y": 312
+          }
+        ]
       }
     ]
   },
@@ -463,6 +645,22 @@
             "map": "vermilion_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_mart",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -484,6 +682,43 @@
             "map": "vermilion_trade_house",
             "x": 72,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Vermilion Trade House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_trade_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vermilion Pidgey House",
+    "children": [
+      {
+        "name": "Vermilion Pidgey House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Vermilion City/Vermilion Pidgey House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "vermilion_pidgey_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

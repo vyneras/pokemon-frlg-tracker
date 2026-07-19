@@ -17,6 +17,22 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Viapois Chamber Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Tanoby Chambers/Viapois Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viapois_chamber",
+            "shape": "diamond",
+            "x": 184,
+            "y": 264
+          }
+        ]
       }
     ]
   },
@@ -36,6 +52,22 @@
             "map": "rixy_chamber",
             "x": 352,
             "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Rixy Chamber Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Tanoby Chambers/Rixy Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rixy_chamber",
+            "shape": "diamond",
+            "x": 184,
+            "y": 264
           }
         ]
       }
@@ -59,6 +91,22 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Scufib Chamber Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Tanoby Chambers/Scufib Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "scufib_chamber",
+            "shape": "diamond",
+            "x": 184,
+            "y": 264
+          }
+        ]
       }
     ]
   },
@@ -78,6 +126,22 @@
             "map": "dilford_chamber",
             "x": 352,
             "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Dilford Chamber Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Tanoby Chambers/Dilford Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dilford_chamber",
+            "shape": "diamond",
+            "x": 184,
+            "y": 264
           }
         ]
       }
@@ -101,6 +165,22 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Weepth Chamber Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Tanoby Chambers/Weepth Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "weepth_chamber",
+            "shape": "diamond",
+            "x": 184,
+            "y": 264
+          }
+        ]
       }
     ]
   },
@@ -122,6 +202,22 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Liptoo Chamber Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Tanoby Chambers/Liptoo Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "liptoo_chamber",
+            "shape": "diamond",
+            "x": 184,
+            "y": 264
+          }
+        ]
       }
     ]
   },
@@ -141,6 +237,22 @@
             "map": "monean_chamber",
             "x": 352,
             "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Monean Chamber Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Tanoby Chambers/Monean Chamber Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "monean_chamber",
+            "shape": "diamond",
+            "x": 184,
+            "y": 264
           }
         ]
       }

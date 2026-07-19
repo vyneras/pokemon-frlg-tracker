@@ -31,6 +31,48 @@ SLOT_CODES = {
             [1] = 1  -- Kanto Only On
         }
     },
+    shuffle_pokemon_centers = {
+        code = "shuffle_pokemon_centers_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Pokémon Centers Off
+            [1] = 1  -- Shuffle Pokémon Centers On
+        }
+    },
+    shuffle_gyms = {
+        code = "shuffle_gyms_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Gyms Off
+            [1] = 1  -- Shuffle Gyms On
+        }
+    },
+    shuffle_marts = {
+        code = "shuffle_marts_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Marts Off
+            [1] = 1  -- Shuffle Marts On
+        }
+    },
+    shuffle_harbors = {
+        code = "shuffle_harbors_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Harbors Off
+            [1] = 1  -- Shuffle Harbors On
+        }
+    },
+    shuffle_buildings = {
+        code = "shuffle_buildings_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Buildings Off
+            [1] = 1, -- Shuffle Buildings Simple
+            [2] = 2, -- Shuffle Buildings Restricted
+            [3] = 3  -- Shuffle Buildings Full
+        }
+    },
     shuffle_dungeons = {
         code = "shuffle_dungeons_setting",
         type = "progressive",
@@ -40,6 +82,40 @@ SLOT_CODES = {
             [2] = 2, -- Shuffle Dungeons Simple
             [3] = 3, -- Shuffle Dungeons Restricted
             [4] = 4  -- Shuffle Dungeons Full
+        }
+    },
+    shuffle_interiors = {
+        code = "shuffle_interiors_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Interiors Off
+            [1] = 1  -- Shuffle Interiors On
+        }
+    },
+    shuffle_warp_tiles = {
+        code = "shuffle_warp_tiles_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Warp Tiles Off
+            [1] = 1, -- Shuffle Warp Tiles Simple
+            [2] = 2  -- Shuffle Warp Tiles Full
+        }
+    },
+    shuffle_dropdowns = {
+        code = "shuffle_dropdowns_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Shuffle Dropdowns Off
+            [1] = 1, -- Shuffle Dropdowns Simple
+            [2] = 2  -- Shuffle Dropdowns Full
+        }
+    },
+    decouple_entrances_warps = {
+        code = "decoupled_entrances_settting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Decoupled Entrances Off
+            [1] = 1  -- Decoupled Entrances On
         }
     },
     randomize_fly_destinations = {

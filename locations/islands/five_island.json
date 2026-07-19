@@ -61,6 +61,71 @@
           {
             "map": "five_island",
             "x": 296,
+            "y": 104,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
+          }
+        ]
+      },
+      {
+        "name": "Five Island Couple's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Five Island Town/Five Island Couple's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "shape": "diamond",
+            "x": 200,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Five Island Old Man's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Five Island Town/Five Island Old Man's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "shape": "diamond",
+            "x": 360,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Five Island Harbor Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Five Island Town/Five Island Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "shape": "diamond",
+            "x": 200,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Five Island Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Five Island Town/Five Island Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island",
+            "shape": "diamond",
+            "x": 296,
             "y": 104
           }
         ]
@@ -99,6 +164,85 @@
             "map": "five_island_pokemon_center_1f",
             "x": 48,
             "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Five Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Five Island Town/Five Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Couple's House",
+    "children": [
+      {
+        "name": "Five Island Couple's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Five Island Town/Five Island Couple's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_couples_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Old Man's House",
+    "children": [
+      {
+        "name": "Five Island Old Man's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Five Island Town/Five Island Old Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_old_mans_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Five Island Harbor",
+    "children": [
+      {
+        "name": "Five Island Harbor Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Five Island Town/Five Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "five_island_harbor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
           }
         ]
       }

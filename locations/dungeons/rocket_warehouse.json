@@ -205,6 +205,22 @@
             "y": 248
           }
         ]
+      },
+      {
+        "name": "Rocket Warehouse Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Rocket Warehouse/Rocket Warehouse Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rocket_warehouse",
+            "shape": "diamond",
+            "x": 392,
+            "y": 408
+          }
+        ]
       }
     ]
   }

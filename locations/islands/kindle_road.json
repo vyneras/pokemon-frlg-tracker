@@ -348,6 +348,22 @@
             "y": 88
           }
         ]
+      },
+      {
+        "name": "Ember Spa Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Kindle Road/Ember Spa Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kindle_road_center_top",
+            "shape": "diamond",
+            "x": 248,
+            "y": 456
+          }
+        ]
       }
     ]
   }

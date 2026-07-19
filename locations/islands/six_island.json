@@ -28,7 +28,8 @@
           {
             "map": "six_island",
             "x": 184,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -48,7 +49,8 @@
           {
             "map": "six_island",
             "x": 328,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_marts"]
           }
         ]
       },
@@ -65,6 +67,70 @@
             "map": "six_island",
             "x": 152,
             "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Six Island Old Man's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Six Island Town/Six Island Old Man's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "shape": "diamond",
+            "x": 264,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Six Island Harbor Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Six Island Town/Six Island Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "shape": "diamond",
+            "x": 184,
+            "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Six Island Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Six Island Town/Six Island Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "shape": "diamond",
+            "x": 328,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Six Island Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Six Island Town/Six Island Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island",
+            "shape": "diamond",
+            "x": 184,
+            "y": 184
           }
         ]
       }
@@ -86,6 +152,22 @@
             "map": "six_island_pokemon_center_1f",
             "x": 184,
             "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Six Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Six Island Town/Six Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
           }
         ]
       }
@@ -122,6 +204,64 @@
             "map": "six_island_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Six Island Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Six Island Town/Six Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_mart",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Old Man's House",
+    "children": [
+      {
+        "name": "Six Island Old Man's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Six Island Town/Six Island Old Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_old_mans_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Six Island Harbor",
+    "children": [
+      {
+        "name": "Six Island Harbor Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Six Island Town/Six Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "six_island_harbor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
           }
         ]
       }

@@ -177,6 +177,38 @@
             "y": 200
           }
         ]
+      },
+      {
+        "name": "Power Plant Front Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Power Plant/Power Plant Front Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "shape": "diamond",
+            "x": 88,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Power Plant Back Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Power Plant/Power Plant Back Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "power_plant",
+            "shape": "diamond",
+            "x": 24,
+            "y": 184
+          }
+        ]
       }
     ]
   }

@@ -67,6 +67,15 @@
               },
               {
                 "type": "group",
+                "header": "Entrances",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "entrance_grid"
+                }
+              },
+              {
+                "type": "group",
                 "header": "Requirements",
                 "dock": "top",
                 "content": {

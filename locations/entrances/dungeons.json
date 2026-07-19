@@ -1,0 +1,2572 @@
+[
+  {
+    "name": "Dungeon Entrances",
+    "chest_unopened_img": "images/locations/pokeball.png",
+    "chest_opened_img": "images/locations/pokeball_bw.png",
+    "children": [
+      {
+        "name": "Viridian Forest",
+        "sections": [
+          {
+            "name": "Viridian Forest South Exit",
+            "hosted_item": "Viridian Forest South Exit",
+            "access_rules": ["^$entrance_access|Viridian Forest South Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Viridian Forest North Exit",
+            "hosted_item": "Viridian Forest North Exit",
+            "access_rules": ["^$entrance_access|Viridian Forest North Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon",
+        "sections": [
+          {
+            "name": "Mt. Moon 1F Exit",
+            "hosted_item": "Mt. Moon 1F Exit",
+            "access_rules": ["^$entrance_access|Mt. Moon 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon 1F Center Ladder (Right)",
+            "hosted_item": "Mt. Moon 1F Center Ladder (Right)",
+            "access_rules": ["^$entrance_access|Mt. Moon 1F Center Ladder (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon 1F Center Ladder (Left)",
+            "hosted_item": "Mt. Moon 1F Center Ladder (Left)",
+            "access_rules": ["^$entrance_access|Mt. Moon 1F Center Ladder (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon 1F Northwest Ladder",
+            "hosted_item": "Mt. Moon 1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Mt. Moon 1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B1F Northeast Ladder (First Tunnel)",
+            "hosted_item": "Mt. Moon B1F Northeast Ladder (First Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F Northeast Ladder (First Tunnel)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B1F Southwest Ladder (First Tunnel)",
+            "hosted_item": "Mt. Moon B1F Southwest Ladder (First Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F Southwest Ladder (First Tunnel)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B1F East Ladder (Second Tunnel)",
+            "hosted_item": "Mt. Moon B1F East Ladder (Second Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F East Ladder (Second Tunnel)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B1F West Ladder (Second Tunnel)",
+            "hosted_item": "Mt. Moon B1F West Ladder (Second Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F West Ladder (Second Tunnel)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B1F Northwest Ladder (Third Tunnel)",
+            "hosted_item": "Mt. Moon B1F Northwest Ladder (Third Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F Northwest Ladder (Third Tunnel)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B1F Southeast Ladder (Third Tunnel)",
+            "hosted_item": "Mt. Moon B1F Southeast Ladder (Third Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F Southeast Ladder (Third Tunnel)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B1F West Ladder (Fourth Tunnel)",
+            "hosted_item": "Mt. Moon B1F West Ladder (Fourth Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F West Ladder (Fourth Tunnel)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B1F East Ladder (Fourth Tunnel)",
+            "hosted_item": "Mt. Moon B1F East Ladder (Fourth Tunnel)",
+            "access_rules": ["^$entrance_access|Mt. Moon B1F East Ladder (Fourth Tunnel)"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B2F South Ladder",
+            "hosted_item": "Mt. Moon B2F South Ladder",
+            "access_rules": ["^$entrance_access|Mt. Moon B2F South Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B2F Northeast Ladder",
+            "hosted_item": "Mt. Moon B2F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Mt. Moon B2F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B2F Center Ladder",
+            "hosted_item": "Mt. Moon B2F Center Ladder",
+            "access_rules": ["^$entrance_access|Mt. Moon B2F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Moon B2F Northwest Ladder",
+            "hosted_item": "Mt. Moon B2F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Mt. Moon B2F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 84,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 84,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Underground Path North-South Tunnel",
+        "sections": [
+          {
+            "name": "Underground Path 1F North Exit",
+            "hosted_item": "Underground Path 1F North Exit",
+            "access_rules": ["^$entrance_access|Underground Path 1F North Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path 1F North Stairs",
+            "hosted_item": "Underground Path 1F North Stairs",
+            "access_rules": ["^$entrance_access|Underground Path 1F North Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path 1F South Exit",
+            "hosted_item": "Underground Path 1F South Exit",
+            "access_rules": ["^$entrance_access|Underground Path 1F South Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path 1F South Stairs",
+            "hosted_item": "Underground Path 1F South Stairs",
+            "access_rules": ["^$entrance_access|Underground Path 1F South Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path B1F North Stairs",
+            "hosted_item": "Underground Path B1F North Stairs",
+            "access_rules": ["^$entrance_access|Underground Path B1F North Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path B1F South Stairs",
+            "hosted_item": "Underground Path B1F South Stairs",
+            "access_rules": ["^$entrance_access|Underground Path B1F South Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 132,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 132,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne",
+        "sections": [
+          {
+            "name": "S.S. Anne Exterior Exit",
+            "hosted_item": "S.S. Anne Exterior Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne Exterior Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne Entrance",
+            "hosted_item": "S.S. Anne Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne Exit",
+            "hosted_item": "S.S. Anne Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Corridor Northwest Stairs",
+            "hosted_item": "S.S. Anne 1F Corridor Northwest Stairs",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Corridor Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne Kitchen Entrance",
+            "hosted_item": "S.S. Anne Kitchen Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne Kitchen Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 1 Entrance",
+            "hosted_item": "S.S. Anne 1F Room 1 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 1 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 2 Entrance",
+            "hosted_item": "S.S. Anne 1F Room 2 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 2 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 3 Entrance",
+            "hosted_item": "S.S. Anne 1F Room 3 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 3 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 4 Entrance",
+            "hosted_item": "S.S. Anne 1F Room 4 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 4 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 5 Entrance",
+            "hosted_item": "S.S. Anne 1F Room 5 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 5 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 6 Entrance",
+            "hosted_item": "S.S. Anne 1F Room 6 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 6 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 7 Entrance",
+            "hosted_item": "S.S. Anne 1F Room 7 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 7 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Corridor Southeast Stairs",
+            "hosted_item": "S.S. Anne 1F Corridor Southeast Stairs",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Corridor Southeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne Kitchen Exit",
+            "hosted_item": "S.S. Anne Kitchen Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne Kitchen Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 1 Exit",
+            "hosted_item": "S.S. Anne 1F Room 1 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 1 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 2 Exit",
+            "hosted_item": "S.S. Anne 1F Room 2 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 2 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 3 Exit",
+            "hosted_item": "S.S. Anne 1F Room 3 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 3 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 4 Exit",
+            "hosted_item": "S.S. Anne 1F Room 4 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 4 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 5 Exit",
+            "hosted_item": "S.S. Anne 1F Room 5 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 5 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 6 Exit",
+            "hosted_item": "S.S. Anne 1F Room 6 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 6 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 1F Room 7 Exit",
+            "hosted_item": "S.S. Anne 1F Room 7 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 1F Room 7 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Corridor Stairs",
+            "hosted_item": "S.S. Anne B1F Corridor Stairs",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Corridor Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 1 Entrance",
+            "hosted_item": "S.S. Anne B1F Room 1 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 1 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 2 Entrance",
+            "hosted_item": "S.S. Anne B1F Room 2 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 2 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 3 Entrance",
+            "hosted_item": "S.S. Anne B1F Room 3 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 3 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 4 Entrance",
+            "hosted_item": "S.S. Anne B1F Room 4 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 4 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 5 Entrance",
+            "hosted_item": "S.S. Anne B1F Room 5 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 5 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 1 Exit",
+            "hosted_item": "S.S. Anne B1F Room 1 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 1 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 2 Exit",
+            "hosted_item": "S.S. Anne B1F Room 2 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 2 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 3 Exit",
+            "hosted_item": "S.S. Anne B1F Room 3 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 3 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 4 Exit",
+            "hosted_item": "S.S. Anne B1F Room 4 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 4 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne B1F Room 5 Exit",
+            "hosted_item": "S.S. Anne B1F Room 5 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne B1F Room 5 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Corridor Northwest Stairs",
+            "hosted_item": "S.S. Anne 2F Corridor Northwest Stairs",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Corridor Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Corridor Southwest Stairs",
+            "hosted_item": "S.S. Anne 2F Corridor Southwest Stairs",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Corridor Southwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 1 Entrance",
+            "hosted_item": "S.S. Anne 2F Room 1 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 1 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 2 Entrance",
+            "hosted_item": "S.S. Anne 2F Room 2 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 2 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 3 Entrance",
+            "hosted_item": "S.S. Anne 2F Room 3 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 3 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 4 Entrance",
+            "hosted_item": "S.S. Anne 2F Room 4 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 4 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 5 Entrance",
+            "hosted_item": "S.S. Anne 2F Room 5 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 5 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 6 Entrance",
+            "hosted_item": "S.S. Anne 2F Room 6 Entrance",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 6 Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Corridor Northeast Stairs",
+            "hosted_item": "S.S. Anne 2F Corridor Northeast Stairs",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Corridor Northeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 1 Exit",
+            "hosted_item": "S.S. Anne 2F Room 1 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 1 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 2 Exit",
+            "hosted_item": "S.S. Anne 2F Room 2 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 2 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 3 Exit",
+            "hosted_item": "S.S. Anne 2F Room 3 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 3 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 4 Exit",
+            "hosted_item": "S.S. Anne 2F Room 4 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 4 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 5 Exit",
+            "hosted_item": "S.S. Anne 2F Room 5 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 5 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 2F Room 6 Exit",
+            "hosted_item": "S.S. Anne 2F Room 6 Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 2F Room 6 Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 3F Corridor Stairs",
+            "hosted_item": "S.S. Anne 3F Corridor Stairs",
+            "access_rules": ["^$entrance_access|S.S. Anne 3F Corridor Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne 3F Corridor Exit",
+            "hosted_item": "S.S. Anne 3F Corridor Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne 3F Corridor Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne Deck Exit",
+            "hosted_item": "S.S. Anne Deck Exit",
+            "access_rules": ["^$entrance_access|S.S. Anne Deck Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "S.S. Anne Captain's Office Stairs",
+            "hosted_item": "S.S. Anne Captain's Office Stairs",
+            "access_rules": ["^$entrance_access|S.S. Anne Captain's Office Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 116,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 116,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave",
+        "sections": [
+          {
+            "name": "Diglett's Cave 1F South Exit",
+            "hosted_item": "Diglett's Cave 1F South Exit",
+            "access_rules": ["^$entrance_access|Diglett's Cave 1F South Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Diglett's Cave 1F South Ladder",
+            "hosted_item": "Diglett's Cave 1F South Ladder",
+            "access_rules": ["^$entrance_access|Diglett's Cave 1F South Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Diglett's Cave 1F North Exit",
+            "hosted_item": "Diglett's Cave 1F North Exit",
+            "access_rules": ["^$entrance_access|Diglett's Cave 1F North Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Diglett's Cave 1F North Ladder",
+            "hosted_item": "Diglett's Cave 1F North Ladder",
+            "access_rules": ["^$entrance_access|Diglett's Cave 1F North Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Diglett's Cave B1F Southeast Ladder",
+            "hosted_item": "Diglett's Cave B1F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Diglett's Cave B1F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Diglett's Cave B1F Northwest Ladder",
+            "hosted_item": "Diglett's Cave B1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Diglett's Cave B1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 132,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto_sevii_er",
+            "x": 44,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 132,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 44,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rock Tunnel",
+        "sections": [
+          {
+            "name": "Rock Tunnel 1F North Ladder",
+            "hosted_item": "Rock Tunnel 1F North Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel 1F North Ladder"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel 1F Northeast Ladder",
+            "hosted_item": "Rock Tunnel 1F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel 1F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel 1F Northwest Ladder",
+            "hosted_item": "Rock Tunnel 1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel 1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel 1F Center Ladder",
+            "hosted_item": "Rock Tunnel 1F Center Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel 1F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel 1F East Ladder",
+            "hosted_item": "Rock Tunnel 1F East Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel 1F East Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel 1F Exit",
+            "hosted_item": "Rock Tunnel 1F Exit",
+            "access_rules": ["^$entrance_access|Rock Tunnel 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel B1F Southeast Ladder",
+            "hosted_item": "Rock Tunnel B1F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel B1F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel B1F Northeast Ladder",
+            "hosted_item": "Rock Tunnel B1F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel B1F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel B1F Center Ladder",
+            "hosted_item": "Rock Tunnel B1F Center Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel B1F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rock Tunnel B1F Northwest Ladder",
+            "hosted_item": "Rock Tunnel B1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Rock Tunnel B1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 156,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 156,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Power Plant",
+        "sections": [
+          {
+            "name": "Power Plant Front Exit",
+            "hosted_item": "Power Plant Front Exit",
+            "access_rules": ["^$entrance_access|Power Plant Front Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Power Plant Back Exit",
+            "hosted_item": "Power Plant Back Exit",
+            "access_rules": ["^$entrance_access|Power Plant Back Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 164,
+            "y": 44,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 164,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Tower",
+        "sections": [
+          {
+            "name": "Pokemon Tower 1F Exit",
+            "hosted_item": "Pokemon Tower 1F Exit",
+            "access_rules": ["^$entrance_access|Pokemon Tower 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 1F Stairs",
+            "hosted_item": "Pokemon Tower 1F Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 2F East Stairs",
+            "hosted_item": "Pokemon Tower 2F East Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 2F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 2F West Stairs",
+            "hosted_item": "Pokemon Tower 2F West Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 2F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 3F West Stairs",
+            "hosted_item": "Pokemon Tower 3F West Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 3F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 3F East Stairs",
+            "hosted_item": "Pokemon Tower 3F East Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 3F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 4F East Stairs",
+            "hosted_item": "Pokemon Tower 4F East Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 4F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 4F West Stairs",
+            "hosted_item": "Pokemon Tower 4F West Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 4F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 5F West Stairs",
+            "hosted_item": "Pokemon Tower 5F West Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 5F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 5F East Stairs",
+            "hosted_item": "Pokemon Tower 5F East Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 5F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 6F East Stairs",
+            "hosted_item": "Pokemon Tower 6F East Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 6F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 6F South Stairs",
+            "hosted_item": "Pokemon Tower 6F South Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 6F South Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Tower 7F Stairs",
+            "hosted_item": "Pokemon Tower 7F Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Tower 7F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 164,
+            "y": 68,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 164,
+            "y": 68,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Underground Path East-West Tunnel",
+        "sections": [
+          {
+            "name": "Underground Path 1F East Exit",
+            "hosted_item": "Underground Path 1F East Exit",
+            "access_rules": ["^$entrance_access|Underground Path 1F East Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path 1F East Stairs",
+            "hosted_item": "Underground Path 1F East Stairs",
+            "access_rules": ["^$entrance_access|Underground Path 1F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path 1F West Exit",
+            "hosted_item": "Underground Path 1F West Exit",
+            "access_rules": ["^$entrance_access|Underground Path 1F West Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path 1F West Stairs",
+            "hosted_item": "Underground Path 1F West Stairs",
+            "access_rules": ["^$entrance_access|Underground Path 1F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path B1F East Stairs",
+            "hosted_item": "Underground Path B1F East Stairs",
+            "access_rules": ["^$entrance_access|Underground Path B1F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Underground Path B1F West Stairs",
+            "hosted_item": "Underground Path B1F West Stairs",
+            "access_rules": ["^$entrance_access|Underground Path B1F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 132,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 132,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout",
+        "sections": [
+          {
+            "name": "Rocket Hideout B1F Northwest Stairs",
+            "hosted_item": "Rocket Hideout B1F Northwest Stairs",
+            "access_rules": ["^$entrance_access|Rocket Hideout B1F Northwest Stairs"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout B1F Northeast Stairs",
+            "hosted_item": "Rocket Hideout B1F Northeast Stairs",
+            "access_rules": ["^$entrance_access|Rocket Hideout B1F Northeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout B1F South Stairs",
+            "hosted_item": "Rocket Hideout B1F South Stairs",
+            "access_rules": ["^$entrance_access|Rocket Hideout B1F South Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout B2F Northeast Stairs (Right)",
+            "hosted_item": "Rocket Hideout B2F Northeast Stairs (Right)",
+            "access_rules": ["^$entrance_access|Rocket Hideout B2F Northeast Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout B2F Northeast Stairs (Left)",
+            "hosted_item": "Rocket Hideout B2F Northeast Stairs (Left)",
+            "access_rules": ["^$entrance_access|Rocket Hideout B2F Northeast Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout B2F Southeast Stairs",
+            "hosted_item": "Rocket Hideout B2F Southeast Stairs",
+            "access_rules": ["^$entrance_access|Rocket Hideout B2F Southeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout B3F North Stairs",
+            "hosted_item": "Rocket Hideout B3F North Stairs",
+            "access_rules": ["^$entrance_access|Rocket Hideout B3F North Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout B3F South Stairs",
+            "hosted_item": "Rocket Hideout B3F South Stairs",
+            "access_rules": ["^$entrance_access|Rocket Hideout B3F South Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Rocket Hideout B4F Stairs",
+            "hosted_item": "Rocket Hideout B4F Stairs",
+            "access_rules": ["^$entrance_access|Rocket Hideout B4F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 100,
+            "y": 76,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 100,
+            "y": 76,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone",
+        "sections": [
+          {
+            "name": "Safari Zone Lobby Exit",
+            "hosted_item": "Safari Zone Lobby Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Lobby Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Center Area East Exit",
+            "hosted_item": "Safari Zone Center Area East Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Center Area East Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Center Area North Exit",
+            "hosted_item": "Safari Zone Center Area North Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Center Area North Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Center Area West Exit",
+            "hosted_item": "Safari Zone Center Area West Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Center Area West Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Center Area Rest House Entrance",
+            "hosted_item": "Safari Zone Center Area Rest House Entrance",
+            "access_rules": ["^$entrance_access|Safari Zone Center Area Rest House Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Center Area Rest House Exit",
+            "hosted_item": "Safari Zone Center Area Rest House Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Center Area Rest House Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone East Area Southwest Exit",
+            "hosted_item": "Safari Zone East Area Southwest Exit",
+            "access_rules": ["^$entrance_access|Safari Zone East Area Southwest Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone East Area Northwest Exit",
+            "hosted_item": "Safari Zone East Area Northwest Exit",
+            "access_rules": ["^$entrance_access|Safari Zone East Area Northwest Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone East Area Rest House Entrance",
+            "hosted_item": "Safari Zone East Area Rest House Entrance",
+            "access_rules": ["^$entrance_access|Safari Zone East Area Rest House Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone East Area Rest House Exit",
+            "hosted_item": "Safari Zone East Area Rest House Exit",
+            "access_rules": ["^$entrance_access|Safari Zone East Area Rest House Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone North Area East Exit",
+            "hosted_item": "Safari Zone North Area East Exit",
+            "access_rules": ["^$entrance_access|Safari Zone North Area East Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone North Area Southeast Exit",
+            "hosted_item": "Safari Zone North Area Southeast Exit",
+            "access_rules": ["^$entrance_access|Safari Zone North Area Southeast Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone North Area South Exit",
+            "hosted_item": "Safari Zone North Area South Exit",
+            "access_rules": ["^$entrance_access|Safari Zone North Area South Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone North Area Southwest Exit",
+            "hosted_item": "Safari Zone North Area Southwest Exit",
+            "access_rules": ["^$entrance_access|Safari Zone North Area Southwest Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone North Area Rest House Entrance",
+            "hosted_item": "Safari Zone North Area Rest House Entrance",
+            "access_rules": ["^$entrance_access|Safari Zone North Area Rest House Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone North Area Rest House Exit",
+            "hosted_item": "Safari Zone North Area Rest House Exit",
+            "access_rules": ["^$entrance_access|Safari Zone North Area Rest House Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone West Area Northeast Exit",
+            "hosted_item": "Safari Zone West Area Northeast Exit",
+            "access_rules": ["^$entrance_access|Safari Zone West Area Northeast Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone West Area East Exit",
+            "hosted_item": "Safari Zone West Area East Exit",
+            "access_rules": ["^$entrance_access|Safari Zone West Area East Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone West Area Northwest Exit",
+            "hosted_item": "Safari Zone West Area Northwest Exit",
+            "access_rules": ["^$entrance_access|Safari Zone West Area Northwest Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone West Area Rest House Entrance",
+            "hosted_item": "Safari Zone West Area Rest House Entrance",
+            "access_rules": ["^$entrance_access|Safari Zone West Area Rest House Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Secret House Entrance",
+            "hosted_item": "Safari Zone Secret House Entrance",
+            "access_rules": ["^$entrance_access|Safari Zone Secret House Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone West Area Rest House Exit",
+            "hosted_item": "Safari Zone West Area Rest House Exit",
+            "access_rules": ["^$entrance_access|Safari Zone West Area Rest House Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Safari Zone Secret House Exit",
+            "hosted_item": "Safari Zone Secret House Exit",
+            "access_rules": ["^$entrance_access|Safari Zone Secret House Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 108,
+            "y": 108,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 108,
+            "y": 108,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Silph Co.",
+        "sections": [
+          {
+            "name": "Silph Co. 1F Exit",
+            "hosted_item": "Silph Co. 1F Exit",
+            "access_rules": ["^$entrance_access|Silph Co. 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 1F Stairs",
+            "hosted_item": "Silph Co. 1F Stairs",
+            "access_rules": ["^$entrance_access|Silph Co. 1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 2F Northeast Stairs (Right)",
+            "hosted_item": "Silph Co. 2F Northeast Stairs (Right)",
+            "access_rules": ["^$entrance_access|Silph Co. 2F Northeast Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 2F Northeast Stairs (Left)",
+            "hosted_item": "Silph Co. 2F Northeast Stairs (Left)",
+            "access_rules": ["^$entrance_access|Silph Co. 2F Northeast Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 2F Northwest Warp Tile",
+            "hosted_item": "Silph Co. 2F Northwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 2F Northwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 2F North Warp Tile",
+            "hosted_item": "Silph Co. 2F North Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 2F North Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 2F Southwest Warp Tile",
+            "hosted_item": "Silph Co. 2F Southwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 2F Southwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 2F Southeast Warp Tile",
+            "hosted_item": "Silph Co. 2F Southeast Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 2F Southeast Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F Northeast Stairs (Left)",
+            "hosted_item": "Silph Co. 3F Northeast Stairs (Left)",
+            "access_rules": ["^$entrance_access|Silph Co. 3F Northeast Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F Northeast Stairs (Right)",
+            "hosted_item": "Silph Co. 3F Northeast Stairs (Right)",
+            "access_rules": ["^$entrance_access|Silph Co. 3F Northeast Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F Northwest Warp Tile",
+            "hosted_item": "Silph Co. 3F Northwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 3F Northwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F Northeast Warp Tile",
+            "hosted_item": "Silph Co. 3F Northeast Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 3F Northeast Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F West Warp Tile",
+            "hosted_item": "Silph Co. 3F West Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 3F West Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F Center Warp Tile",
+            "hosted_item": "Silph Co. 3F Center Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 3F Center Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F East Warp Tile",
+            "hosted_item": "Silph Co. 3F East Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 3F East Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F Southwest Warp Tile",
+            "hosted_item": "Silph Co. 3F Southwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 3F Southwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 3F Southeast Warp Tile",
+            "hosted_item": "Silph Co. 3F Southeast Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 3F Southeast Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 4F Northeast Stairs (Right)",
+            "hosted_item": "Silph Co. 4F Northeast Stairs (Right)",
+            "access_rules": ["^$entrance_access|Silph Co. 4F Northeast Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 4F Northeast Stairs (Left)",
+            "hosted_item": "Silph Co. 4F Northeast Stairs (Left)",
+            "access_rules": ["^$entrance_access|Silph Co. 4F Northeast Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 4F North Warp Tile (Left)",
+            "hosted_item": "Silph Co. 4F North Warp Tile (Left)",
+            "access_rules": ["^$entrance_access|Silph Co. 4F North Warp Tile (Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 4F North Warp Tile (Right)",
+            "hosted_item": "Silph Co. 4F North Warp Tile (Right)",
+            "access_rules": ["^$entrance_access|Silph Co. 4F North Warp Tile (Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 4F Center Warp Tile",
+            "hosted_item": "Silph Co. 4F Center Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 4F Center Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 4F Southwest Warp Tile",
+            "hosted_item": "Silph Co. 4F Southwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 4F Southwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 5F Northeast Stairs (Left)",
+            "hosted_item": "Silph Co. 5F Northeast Stairs (Left)",
+            "access_rules": ["^$entrance_access|Silph Co. 5F Northeast Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 5F Northeast Stairs (Right)",
+            "hosted_item": "Silph Co. 5F Northeast Stairs (Right)",
+            "access_rules": ["^$entrance_access|Silph Co. 5F Northeast Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 5F North Warp Tile",
+            "hosted_item": "Silph Co. 5F North Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 5F North Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 5F Northeast Warp Tile",
+            "hosted_item": "Silph Co. 5F Northeast Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 5F Northeast Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 5F Southwest Warp Tile",
+            "hosted_item": "Silph Co. 5F Southwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 5F Southwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 5F South Warp Tile",
+            "hosted_item": "Silph Co. 5F South Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 5F South Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 6F Northeast Stairs",
+            "hosted_item": "Silph Co. 6F Northeast Stairs",
+            "access_rules": ["^$entrance_access|Silph Co. 6F Northeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 6F Northwest Stairs",
+            "hosted_item": "Silph Co. 6F Northwest Stairs",
+            "access_rules": ["^$entrance_access|Silph Co. 6F Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 6F Northwest Warp Tile",
+            "hosted_item": "Silph Co. 6F Northwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 6F Northwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 6F Northeast Warp Tile",
+            "hosted_item": "Silph Co. 6F Northeast Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 6F Northeast Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 7F Northwest Stairs",
+            "hosted_item": "Silph Co. 7F Northwest Stairs",
+            "access_rules": ["^$entrance_access|Silph Co. 7F Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 7F Northeast Stairs",
+            "hosted_item": "Silph Co. 7F Northeast Stairs",
+            "access_rules": ["^$entrance_access|Silph Co. 7F Northeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 7F Southeast Warp Tile",
+            "hosted_item": "Silph Co. 7F Southeast Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 7F Southeast Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 7F Northwest Warp Tile (Top)",
+            "hosted_item": "Silph Co. 7F Northwest Warp Tile (Top)",
+            "access_rules": ["^$entrance_access|Silph Co. 7F Northwest Warp Tile (Top)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 7F Northwest Warp Tile (Bottom)",
+            "hosted_item": "Silph Co. 7F Northwest Warp Tile (Bottom)",
+            "access_rules": ["^$entrance_access|Silph Co. 7F Northwest Warp Tile (Bottom)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 8F Northeast Stairs",
+            "hosted_item": "Silph Co. 8F Northeast Stairs",
+            "access_rules": ["^$entrance_access|Silph Co. 8F Northeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 8F Northwest Stairs",
+            "hosted_item": "Silph Co. 8F Northwest Stairs",
+            "access_rules": ["^$entrance_access|Silph Co. 8F Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 8F North Warp Tile",
+            "hosted_item": "Silph Co. 8F North Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 8F North Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 8F West Warp Tile",
+            "hosted_item": "Silph Co. 8F West Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 8F West Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 8F Center Warp Tile",
+            "hosted_item": "Silph Co. 8F Center Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 8F Center Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 8F Southwest Warp Tile",
+            "hosted_item": "Silph Co. 8F Southwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 8F Southwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 9F North Stairs (Left)",
+            "hosted_item": "Silph Co. 9F North Stairs (Left)",
+            "access_rules": ["^$entrance_access|Silph Co. 9F North Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 9F North Stairs (Right)",
+            "hosted_item": "Silph Co. 9F North Stairs (Right)",
+            "access_rules": ["^$entrance_access|Silph Co. 9F North Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 9F Northwest Warp Tile",
+            "hosted_item": "Silph Co. 9F Northwest Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 9F Northwest Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 9F Southeast Warp Tile",
+            "hosted_item": "Silph Co. 9F Southeast Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 9F Southeast Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 10F North Stairs (Right)",
+            "hosted_item": "Silph Co. 10F North Stairs (Right)",
+            "access_rules": ["^$entrance_access|Silph Co. 10F North Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 10F North Stairs (Left)",
+            "hosted_item": "Silph Co. 10F North Stairs (Left)",
+            "access_rules": ["^$entrance_access|Silph Co. 10F North Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 10F East Warp Tile",
+            "hosted_item": "Silph Co. 10F East Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 10F East Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 10F Southeast Warp Tile (Top Left)",
+            "hosted_item": "Silph Co. 10F Southeast Warp Tile (Top Left)",
+            "access_rules": ["^$entrance_access|Silph Co. 10F Southeast Warp Tile (Top Left)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 10F Southeast Warp Tile (Bottom Right)",
+            "hosted_item": "Silph Co. 10F Southeast Warp Tile (Bottom Right)",
+            "access_rules": ["^$entrance_access|Silph Co. 10F Southeast Warp Tile (Bottom Right)"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 11F Stairs",
+            "hosted_item": "Silph Co. 11F Stairs",
+            "access_rules": ["^$entrance_access|Silph Co. 11F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Silph Co. 11F Warp Tile",
+            "hosted_item": "Silph Co. 11F Warp Tile",
+            "access_rules": ["^$entrance_access|Silph Co. 11F Warp Tile"],
+            "visibility_rules": ["$shuffle_warp_tiles,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 116,
+            "y": 60,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 116,
+            "y": 60,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands",
+        "sections": [
+          {
+            "name": "Seafoam Islands 1F West Exit",
+            "hosted_item": "Seafoam Islands 1F West Exit",
+            "access_rules": ["^$entrance_access|Seafoam Islands 1F West Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands 1F Northwest Ladder",
+            "hosted_item": "Seafoam Islands 1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands 1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands 1F Northeast Ladder",
+            "hosted_item": "Seafoam Islands 1F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands 1F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands 1F Drop (Left)",
+            "hosted_item": "Seafoam Islands 1F Drop (Left)",
+            "access_rules": ["^$entrance_access|Seafoam Islands 1F Drop (Left)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands 1F Drop (Right)",
+            "hosted_item": "Seafoam Islands 1F Drop (Right)",
+            "access_rules": ["^$entrance_access|Seafoam Islands 1F Drop (Right)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands 1F Southeast Ladder",
+            "hosted_item": "Seafoam Islands 1F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands 1F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands 1F East Exit",
+            "hosted_item": "Seafoam Islands 1F East Exit",
+            "access_rules": ["^$entrance_access|Seafoam Islands 1F East Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F Northwest Ladder (Bottom)",
+            "hosted_item": "Seafoam Islands B1F Northwest Ladder (Bottom)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F Northwest Ladder (Bottom)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F Northwest Ladder (Top)",
+            "hosted_item": "Seafoam Islands B1F Northwest Ladder (Top)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F Northwest Ladder (Top)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F Center Ladder",
+            "hosted_item": "Seafoam Islands B1F Center Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F Drop (Left)",
+            "hosted_item": "Seafoam Islands B1F Drop (Left)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F Drop (Left)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F South Ladder",
+            "hosted_item": "Seafoam Islands B1F South Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F South Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F Northeast Ladder",
+            "hosted_item": "Seafoam Islands B1F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F Drop (Right)",
+            "hosted_item": "Seafoam Islands B1F Drop (Right)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F Drop (Right)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F Southeast Ladder (Bottom Left)",
+            "hosted_item": "Seafoam Islands B1F Southeast Ladder (Bottom Left)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F Southeast Ladder (Bottom Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B1F Southeast Ladder (Top Right)",
+            "hosted_item": "Seafoam Islands B1F Southeast Ladder (Top Right)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B1F Southeast Ladder (Top Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F Northwest Ladder",
+            "hosted_item": "Seafoam Islands B2F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F Drop (Left)",
+            "hosted_item": "Seafoam Islands B2F Drop (Left)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F Drop (Left)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F Center Ladder",
+            "hosted_item": "Seafoam Islands B2F Center Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F South Ladder",
+            "hosted_item": "Seafoam Islands B2F South Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F South Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F Southwest Ladder",
+            "hosted_item": "Seafoam Islands B2F Southwest Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F Southwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F Northeast Ladder",
+            "hosted_item": "Seafoam Islands B2F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F Drop (Right)",
+            "hosted_item": "Seafoam Islands B2F Drop (Right)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F Drop (Right)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F Southeast Ladder (Top)",
+            "hosted_item": "Seafoam Islands B2F Southeast Ladder (Top)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F Southeast Ladder (Top)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B2F Southeast Ladder (Bottom)",
+            "hosted_item": "Seafoam Islands B2F Southeast Ladder (Bottom)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B2F Southeast Ladder (Bottom)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B3F Southwest Ladder",
+            "hosted_item": "Seafoam Islands B3F Southwest Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B3F Southwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B3F West Ladder",
+            "hosted_item": "Seafoam Islands B3F West Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B3F West Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B3F Drop (Left)",
+            "hosted_item": "Seafoam Islands B3F Drop (Left)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B3F Drop (Left)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B3F Drop (Right)",
+            "hosted_item": "Seafoam Islands B3F Drop (Right)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B3F Drop (Right)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B3F Northeast Ladder (Right)",
+            "hosted_item": "Seafoam Islands B3F Northeast Ladder (Right)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B3F Northeast Ladder (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B3F Northeast Ladder (Left)",
+            "hosted_item": "Seafoam Islands B3F Northeast Ladder (Left)",
+            "access_rules": ["^$entrance_access|Seafoam Islands B3F Northeast Ladder (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B3F Southeast Ladder",
+            "hosted_item": "Seafoam Islands B3F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B3F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B4F Center Ladder",
+            "hosted_item": "Seafoam Islands B4F Center Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B4F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Seafoam Islands B4F Northeast Ladder",
+            "hosted_item": "Seafoam Islands B4F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Seafoam Islands B4F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 76,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 76,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Pokémon Mansion",
+        "sections": [
+          {
+            "name": "Pokemon Mansion 1F West Exit",
+            "hosted_item": "Pokemon Mansion 1F West Exit",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 1F West Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 1F West Stairs",
+            "hosted_item": "Pokemon Mansion 1F West Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 1F West Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 1F South Stairs",
+            "hosted_item": "Pokemon Mansion 1F South Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 1F South Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 1F East Exit",
+            "hosted_item": "Pokemon Mansion 1F East Exit",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 1F East Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 2F West Stairs (Left)",
+            "hosted_item": "Pokemon Mansion 2F West Stairs (Left)",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 2F West Stairs (Left)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 2F West Stairs (Right)",
+            "hosted_item": "Pokemon Mansion 2F West Stairs (Right)",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 2F West Stairs (Right)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 2F Northwest Stairs",
+            "hosted_item": "Pokemon Mansion 2F Northwest Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 2F Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 2F East Stairs",
+            "hosted_item": "Pokemon Mansion 2F East Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 2F East Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 3F Southwest Stairs",
+            "hosted_item": "Pokemon Mansion 3F Southwest Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 3F Southwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 3F Northwest Stairs",
+            "hosted_item": "Pokemon Mansion 3F Northwest Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 3F Northwest Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 3F Southeast Stairs",
+            "hosted_item": "Pokemon Mansion 3F Southeast Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 3F Southeast Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 3F Drop (Left)",
+            "hosted_item": "Pokemon Mansion 3F Drop (Left)",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 3F Drop (Left)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion 3F Drop (Right)",
+            "hosted_item": "Pokemon Mansion 3F Drop (Right)",
+            "access_rules": ["^$entrance_access|Pokemon Mansion 3F Drop (Right)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Pokemon Mansion B1F Stairs",
+            "hosted_item": "Pokemon Mansion B1F Stairs",
+            "access_rules": ["^$entrance_access|Pokemon Mansion B1F Stairs"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 36,
+            "y": 132,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 36,
+            "y": 132,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Victory Road",
+        "sections": [
+          {
+            "name": "Victory Road 1F Exit",
+            "hosted_item": "Victory Road 1F Exit",
+            "access_rules": ["^$entrance_access|Victory Road 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 1F Ladder",
+            "hosted_item": "Victory Road 1F Ladder",
+            "access_rules": ["^$entrance_access|Victory Road 1F Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 2F West Ladder",
+            "hosted_item": "Victory Road 2F West Ladder",
+            "access_rules": ["^$entrance_access|Victory Road 2F West Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 2F Center Ladder",
+            "hosted_item": "Victory Road 2F Center Ladder",
+            "access_rules": ["^$entrance_access|Victory Road 2F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 2F Northwest Ladder",
+            "hosted_item": "Victory Road 2F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Victory Road 2F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 2F Southeast Ladder",
+            "hosted_item": "Victory Road 2F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Victory Road 2F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 2F East Ladder",
+            "hosted_item": "Victory Road 2F East Ladder",
+            "access_rules": ["^$entrance_access|Victory Road 2F East Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 2F Exit",
+            "hosted_item": "Victory Road 2F Exit",
+            "access_rules": ["^$entrance_access|Victory Road 2F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 3F Northeast Ladder",
+            "hosted_item": "Victory Road 3F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Victory Road 3F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 3F Northwest Ladder",
+            "hosted_item": "Victory Road 3F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Victory Road 3F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 3F Drop",
+            "hosted_item": "Victory Road 3F Drop",
+            "access_rules": ["^$entrance_access|Victory Road 3F Drop"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 3F Southeast Ladder (Bottom)",
+            "hosted_item": "Victory Road 3F Southeast Ladder (Bottom)",
+            "access_rules": ["^$entrance_access|Victory Road 3F Southeast Ladder (Bottom)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Victory Road 3F Southeast Ladder (Top)",
+            "hosted_item": "Victory Road 3F Southeast Ladder (Top)",
+            "access_rules": ["^$entrance_access|Victory Road 3F Southeast Ladder (Top)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 28,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Mt. Ember Exterior Exit",
+            "hosted_item": "Mt. Ember Exterior Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Exterior Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Path Bottom Entrance",
+            "hosted_item": "Mt. Ember Summit Path Bottom Entrance",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Path Bottom Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Path Top Entrance",
+            "hosted_item": "Mt. Ember Summit Path Top Entrance",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Path Top Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Entrance",
+            "hosted_item": "Mt. Ember Summit Entrance",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path Entrance",
+            "hosted_item": "Mt. Ember Ruby Path Entrance",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path Entrance"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Path 1F South Exit",
+            "hosted_item": "Mt. Ember Summit Path 1F South Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Path 1F South Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Path 1F North Exit",
+            "hosted_item": "Mt. Ember Summit Path 1F North Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Path 1F North Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Path 2F South Exit",
+            "hosted_item": "Mt. Ember Summit Path 2F South Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Path 2F South Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Path 2F North Exit",
+            "hosted_item": "Mt. Ember Summit Path 2F North Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Path 2F North Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Path 3F West Exit",
+            "hosted_item": "Mt. Ember Summit Path 3F West Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Path 3F West Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Path 3F East Exit",
+            "hosted_item": "Mt. Ember Summit Path 3F East Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Path 3F East Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Summit Exit",
+            "hosted_item": "Mt. Ember Summit Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Summit Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path 1F Exit",
+            "hosted_item": "Mt. Ember Ruby Path 1F Exit",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path 1F Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path 1F Northwest Ladder",
+            "hosted_item": "Mt. Ember Ruby Path 1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path 1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path 1F Northeast Ladder",
+            "hosted_item": "Mt. Ember Ruby Path 1F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path 1F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B1F South Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B1F South Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B1F South Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B1F North Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B1F North Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B1F North Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B2F West Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B2F West Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B2F West Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B2F East Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B2F East Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B2F East Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B3F Northwest Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B3F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B3F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B3F Southwest Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B3F Southwest Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B3F Southwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B3F Southeast Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B3F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B3F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B4F Northwest Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B4F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B4F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B4F Southeast Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B4F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B4F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B5F Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B5F Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B5F Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B1F Return Northeast Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B1F Return Northeast Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B1F Return Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B1F Return Southwest Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B1F Return Southwest Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B1F Return Southwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B2F Return Northeast Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B2F Return Northeast Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B2F Return Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Mt. Ember Ruby Path B2F Return Southwest Ladder",
+            "hosted_item": "Mt. Ember Ruby Path B2F Return Southwest Ladder",
+            "access_rules": ["^$entrance_access|Mt. Ember Ruby Path B2F Return Southwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 28,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 28,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Berry Forest",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Berry Forest Exit",
+            "hosted_item": "Berry Forest Exit",
+            "access_rules": ["^$entrance_access|Berry Forest Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 124,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_123_er",
+            "x": 124,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Icefall Cave Front South Exit",
+            "hosted_item": "Icefall Cave Front South Exit",
+            "access_rules": ["^$entrance_access|Icefall Cave Front South Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave Front North Exit",
+            "hosted_item": "Icefall Cave Front North Exit",
+            "access_rules": ["^$entrance_access|Icefall Cave Front North Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave Front Ladder",
+            "hosted_item": "Icefall Cave Front Ladder",
+            "access_rules": ["^$entrance_access|Icefall Cave Front Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave 1F South Exit",
+            "hosted_item": "Icefall Cave 1F South Exit",
+            "access_rules": ["^$entrance_access|Icefall Cave 1F South Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave 1F East Ladder",
+            "hosted_item": "Icefall Cave 1F East Ladder",
+            "access_rules": ["^$entrance_access|Icefall Cave 1F East Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave 1F Northeast Ladder",
+            "hosted_item": "Icefall Cave 1F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Icefall Cave 1F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave 1F Southeast Ladder",
+            "hosted_item": "Icefall Cave 1F Southeast Ladder",
+            "access_rules": ["^$entrance_access|Icefall Cave 1F Southeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave 1F Northwest Ladder",
+            "hosted_item": "Icefall Cave 1F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Icefall Cave 1F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave 1F North Exit",
+            "hosted_item": "Icefall Cave 1F North Exit",
+            "access_rules": ["^$entrance_access|Icefall Cave 1F North Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave B1F West Ladder",
+            "hosted_item": "Icefall Cave B1F West Ladder",
+            "access_rules": ["^$entrance_access|Icefall Cave B1F West Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave B1F North Ladder",
+            "hosted_item": "Icefall Cave B1F North Ladder",
+            "access_rules": ["^$entrance_access|Icefall Cave B1F North Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave B1F South Ladder",
+            "hosted_item": "Icefall Cave B1F South Ladder",
+            "access_rules": ["^$entrance_access|Icefall Cave B1F South Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Icefall Cave Back Exit",
+            "hosted_item": "Icefall Cave Back Exit",
+            "access_rules": ["^$entrance_access|Icefall Cave Back Exit"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 236,
+            "y": 52,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 44,
+            "y": 52,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Rocket Warehouse",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Rocket Warehouse Exit",
+            "hosted_item": "Rocket Warehouse Exit",
+            "access_rules": ["^$entrance_access|Rocket Warehouse Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 116,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 148,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Lost Cave",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Lost Cave 1F Exit",
+            "hosted_item": "Lost Cave 1F Exit",
+            "access_rules": ["^$entrance_access|Lost Cave 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Lost Cave 1F Ladder",
+            "hosted_item": "Lost Cave 1F Ladder",
+            "access_rules": ["^$entrance_access|Lost Cave 1F Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Lost Cave B1F Room 1 Ladder",
+            "hosted_item": "Lost Cave B1F Room 1 Ladder",
+            "access_rules": ["^$entrance_access|Lost Cave B1F Room 1 Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 348,
+            "y": 92,
+            "size": 4
+          },
+          {
+            "map": "sevii_45_er",
+            "x": 156,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Dotted Hole",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Dotted Hole 1F Exit",
+            "hosted_item": "Dotted Hole 1F Exit",
+            "access_rules": ["^$entrance_access|Dotted Hole 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Dotted Hole 1F Drop",
+            "hosted_item": "Dotted Hole 1F Drop",
+            "access_rules": ["^$entrance_access|Dotted Hole 1F Drop"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Dotted Hole 1F Ladder",
+            "hosted_item": "Dotted Hole 1F Ladder",
+            "access_rules": ["^$entrance_access|Dotted Hole 1F Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Dotted Hole B1F Drop (Top)",
+            "hosted_item": "Dotted Hole B1F Drop (Top)",
+            "access_rules": ["^$entrance_access|Dotted Hole B1F Drop (Top)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Dotted Hole B2F Drop (Left)",
+            "hosted_item": "Dotted Hole B2F Drop (Left)",
+            "access_rules": ["^$entrance_access|Dotted Hole B2F Drop (Left)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Dotted Hole B3F Drop (Right)",
+            "hosted_item": "Dotted Hole B3F Drop (Right)",
+            "access_rules": ["^$entrance_access|Dotted Hole B3F Drop (Right)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Dotted Hole B4F Drop (Bottom)",
+            "hosted_item": "Dotted Hole B4F Drop (Bottom)",
+            "access_rules": ["^$entrance_access|Dotted Hole B4F Drop (Bottom)"],
+            "visibility_rules": ["$shuffle_dropdowns,entrance_locations_on"]
+          },
+          {
+            "name": "Dotted Hole Sapphire Room Ladder",
+            "hosted_item": "Dotted Hole Sapphire Room Ladder",
+            "access_rules": ["^$entrance_access|Dotted Hole Sapphire Room Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 332,
+            "y": 228,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 140,
+            "y": 84,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Pattern Bush",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Pattern Bush East Exit",
+            "hosted_item": "Pattern Bush East Exit",
+            "access_rules": ["^$entrance_access|Pattern Bush East Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Pattern Bush West Exit",
+            "hosted_item": "Pattern Bush West Exit",
+            "access_rules": ["^$entrance_access|Pattern Bush West Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 340,
+            "y": 188,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 148,
+            "y": 44,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Altering Cave",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Altering Cave Exit",
+            "hosted_item": "Altering Cave Exit",
+            "access_rules": ["^$entrance_access|Altering Cave Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 324,
+            "y": 164,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 132,
+            "y": 20,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Key",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Tanoby Key Exit",
+            "hosted_item": "Tanoby Key Exit",
+            "access_rules": ["^$entrance_access|Tanoby Key Exit"],
+            "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 252,
+            "y": 236,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 60,
+            "y": 92,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Tanoby Chambers",
+        "visibility_rules": ["kanto_only_off"],
+        "sections": [
+          {
+            "name": "Monean Chamber Exit",
+            "hosted_item": "Monean Chamber Exit",
+            "access_rules": ["^$entrance_access|Monean Chamber Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Liptoo Chamber Exit",
+            "hosted_item": "Liptoo Chamber Exit",
+            "access_rules": ["^$entrance_access|Liptoo Chamber Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Weepth Chamber Exit",
+            "hosted_item": "Weepth Chamber Exit",
+            "access_rules": ["^$entrance_access|Weepth Chamber Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Dilford Chamber Exit",
+            "hosted_item": "Dilford Chamber Exit",
+            "access_rules": ["^$entrance_access|Dilford Chamber Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Scufib Chamber Exit",
+            "hosted_item": "Scufib Chamber Exit",
+            "access_rules": ["^$entrance_access|Scufib Chamber Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Rixy Chamber Exit",
+            "hosted_item": "Rixy Chamber Exit",
+            "access_rules": ["^$entrance_access|Rixy Chamber Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Viapois Chamber Exit",
+            "hosted_item": "Viapois Chamber Exit",
+            "access_rules": ["^$entrance_access|Viapois Chamber Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 276,
+            "y": 260,
+            "size": 4
+          },
+          {
+            "map": "sevii_67_er",
+            "x": 84,
+            "y": 116,
+            "size": 4
+          }
+        ]
+      },
+      {
+        "name": "Cerulean Cave",
+        "visibility_rules": ["$cerulean_cave_visisble"],
+        "sections": [
+          {
+            "name": "Cerulean Cave 1F Exit",
+            "hosted_item": "Cerulean Cave 1F Exit",
+            "access_rules": ["^$entrance_access|Cerulean Cave 1F Exit"],
+            "visibility_rules": ["$shuffle_dungeons,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 1F Northeast Ladder",
+            "hosted_item": "Cerulean Cave 1F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 1F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 1F North Ladder",
+            "hosted_item": "Cerulean Cave 1F North Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 1F North Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 1F Southwest Ladder",
+            "hosted_item": "Cerulean Cave 1F Southwest Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 1F Southwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 1F East Ladder",
+            "hosted_item": "Cerulean Cave 1F East Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 1F East Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 1F Center Ladder",
+            "hosted_item": "Cerulean Cave 1F Center Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 1F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 1F Northwest Ladder (Top)",
+            "hosted_item": "Cerulean Cave 1F Northwest Ladder (Top)",
+            "access_rules": ["^$entrance_access|Cerulean Cave 1F Northwest Ladder (Top)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 1F Northwest Ladder (Bottom)",
+            "hosted_item": "Cerulean Cave 1F Northwest Ladder (Bottom)",
+            "access_rules": ["^$entrance_access|Cerulean Cave 1F Northwest Ladder (Bottom)"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 2F Northeast Ladder",
+            "hosted_item": "Cerulean Cave 2F Northeast Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 2F Northeast Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 2F North Ladder",
+            "hosted_item": "Cerulean Cave 2F North Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 2F North Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 2F West Ladder",
+            "hosted_item": "Cerulean Cave 2F West Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 2F West Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 2F East Ladder",
+            "hosted_item": "Cerulean Cave 2F East Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 2F East Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 2F Center Ladder",
+            "hosted_item": "Cerulean Cave 2F Center Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 2F Center Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave 2F Northwest Ladder",
+            "hosted_item": "Cerulean Cave 2F Northwest Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave 2F Northwest Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          },
+          {
+            "name": "Cerulean Cave B1F Ladder",
+            "hosted_item": "Cerulean Cave B1F Ladder",
+            "access_rules": ["^$entrance_access|Cerulean Cave B1F Ladder"],
+            "visibility_rules": ["$shuffle_interiors,entrance_locations_on"]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "kanto_sevii_er",
+            "x": 116,
+            "y": 36,
+            "size": 4
+          },
+          {
+            "map": "kanto_er",
+            "x": 116,
+            "y": 36,
+            "size": 4
+          }
+        ]
+      }
+    ]
+  }
+]

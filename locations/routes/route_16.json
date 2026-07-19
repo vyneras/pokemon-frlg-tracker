@@ -29,7 +29,8 @@
           {
             "map": "route_16",
             "x": 168,
-            "y": 88
+            "y": 88,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -64,12 +65,14 @@
           {
             "map": "route_16",
             "x": 328,
-            "y": 216
+            "y": 216,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           },
           {
             "map": "route_16",
             "x": 440,
-            "y": 216
+            "y": 216,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -192,6 +195,86 @@
             "y": 200
           }
         ]
+      },
+      {
+        "name": "Route 16 Gate Northeast Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate Northeast Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "shape": "diamond",
+            "x": 440,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate Northwest Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate Northwest Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "shape": "diamond",
+            "x": 328,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate Southeast Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate Southeast Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "shape": "diamond",
+            "x": 440,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate Southwest Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate Southwest Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "shape": "diamond",
+            "x": 328,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Fly House Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Fly House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16",
+            "shape": "diamond",
+            "x": 168,
+            "y": 88
+          }
+        ]
       }
     ]
   },
@@ -213,6 +296,107 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Route 16 Fly House Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Fly House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 16 Gate 1F",
+    "children": [
+      {
+        "name": "Route 16 Gate 1F Northeast Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate 1F Northeast Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Northwest Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate 1F Northwest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "shape": "diamond",
+            "x": 24,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Southeast Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate 1F Southeast Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Southwest Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate 1F Southwest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "shape": "diamond",
+            "x": 24,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 1F Stairs",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_1f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 264
+          }
+        ]
       }
     ]
   },
@@ -232,6 +416,22 @@
             "map": "route_16_gate_2f",
             "x": 168,
             "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 16 Gate 2F Stairs",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 16/Route 16 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_16_gate_2f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 156
           }
         ]
       }

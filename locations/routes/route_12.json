@@ -56,12 +56,14 @@
           {
             "map": "route_12_north",
             "x": 232,
-            "y": 248
+            "y": 248,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           },
           {
             "map": "route_12_north",
             "x": 232,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -133,7 +135,8 @@
           {
             "map": "route_12_south",
             "x": 200,
-            "y": 40
+            "y": 40,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -312,6 +315,107 @@
             "y": 248
           }
         ]
+      },
+      {
+        "name": "Route 12 Gate North Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 12 North/Route 12 Gate North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "shape": "diamond",
+            "x": 232,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate South Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 12 North/Route 12 Gate South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_north",
+            "shape": "diamond",
+            "x": 232,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Fishing House Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 12 South/Route 12 Fishing House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_south",
+            "shape": "diamond",
+            "x": 200,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 12 Gate 1F",
+    "children": [
+      {
+        "name": "Route 12 Gate 1F North Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 12 North/Route 12 Gate 1F North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "shape": "diamond",
+            "x": 88,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate 1F South Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 12 North/Route 12 Gate 1F South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "shape": "diamond",
+            "x": 88,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate 1F Stairs",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 12 North/Route 12 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_1f",
+            "shape": "diamond",
+            "x": 144,
+            "y": 168
+          }
+        ]
       }
     ]
   },
@@ -331,6 +435,22 @@
             "map": "route_12_gate_2f",
             "x": 120,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Gate 2F Stairs",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 12 North/Route 12 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_gate_2f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 156
           }
         ]
       }
@@ -356,6 +476,22 @@
             "map": "route_12_fishing_house",
             "x": 72,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Route 12 Fishing House Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 12 South/Route 12 Fishing House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_12_fishing_house",
+            "shape": "diamond",
+            "x": 56,
+            "y": 120
           }
         ]
       }
