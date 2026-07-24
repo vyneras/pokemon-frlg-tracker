@@ -1511,7 +1511,7 @@ REGION_DATA = {
             },
             ["Route 9 (West)"] = {
                 ["access"] = function()
-                    if route_9_modified() then
+                    if route_9_roadblock() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -16933,7 +16933,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 2 (Northeast)"] = {
                 ["access"] = function()
-                    if route_2_modified() then
+                    if digletts_cave_roadblock() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -16959,7 +16959,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 2 (Northwest)"] = {
                 ["access"] = function()
-                    if route_2_modified() then
+                    if digletts_cave_roadblock() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -17447,7 +17447,7 @@ REGION_DATA = {
             },
             ["Route 5 (Near Underground)"] = {
                 ["access"] = function()
-                    if tunnels_blocked() then
+                    if paths_blocked() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -17510,7 +17510,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 5"] = {
                 ["access"] = function()
-                    if tunnels_blocked() then
+                    if paths_blocked() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -17667,7 +17667,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 6 (Near Underground)"] = {
                 ["access"] = function()
-                    if tunnels_blocked() then
+                    if paths_blocked() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -17771,7 +17771,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 6"] = {
                 ["access"] = function()
-                    if tunnels_blocked() then
+                    if paths_blocked() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -17853,7 +17853,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 7 (Near Underground)"] = {
                 ["access"] = function()
-                    if tunnels_blocked() then
+                    if paths_blocked() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -17886,7 +17886,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 7"] = {
                 ["access"] = function()
-                    if tunnels_blocked() then
+                    if paths_blocked() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -18018,7 +18018,7 @@ REGION_DATA = {
             },
             ["Route 8 (Near Underground)"] = {
                 ["access"] = function()
-                    if tunnels_blocked() then
+                    if paths_blocked() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -18132,7 +18132,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 8"] = {
                 ["access"] = function()
-                    if tunnels_blocked() then
+                    if paths_blocked() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -18203,7 +18203,7 @@ REGION_DATA = {
             },
             ["Cerulean City (Outskirts)"] = {
                 ["access"] = function()
-                    if route_9_modified() then
+                    if route_9_roadblock() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -18421,19 +18421,19 @@ REGION_DATA = {
         ["map"] = "Route 10",
         ["fishing"] = {
             ["old_rod"] = function()
-                return and_access(fishing_access(1), route_10_modified_access())
+                return and_access(fishing_access(1), route_10_waterfall_access())
             end,
             ["good_rod"] = function()
-                return and_access(fishing_access(2), route_10_modified_access())
+                return and_access(fishing_access(2), route_10_waterfall_access())
             end,
             ["super_rod"] = function()
-                return and_access(fishing_access(3), route_10_modified_access())
+                return and_access(fishing_access(3), route_10_waterfall_access())
             end
         },
         ["exits"] = {
             ["Route 10 (South Water)"] = {
                 ["access"] = function()
-                    if surf() and has("modify_route_10_on") then
+                    if surf() and has("route_10_waterfall_on") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -18525,7 +18525,7 @@ REGION_DATA = {
             },
             ["Route 10 (South Water)"] = {
                 ["access"] = function()
-                    if waterfall() and has("modify_route_10_on") then
+                    if waterfall() and has("route_10_waterfall_on") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -18562,7 +18562,7 @@ REGION_DATA = {
             },
             ["Route 10 (North Water)"] = {
                 ["access"] = function()
-                    if waterfall() and has("modify_route_10_on") then
+                    if waterfall() and has("route_10_waterfall_on") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -19091,7 +19091,7 @@ REGION_DATA = {
             },
             ["Route 12 (South Water)"] = {
                 ["access"] = function()
-                    if surf() and has("modify_route_12_off") then
+                    if surf() and has("route_12_rocks_off") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -19249,7 +19249,7 @@ REGION_DATA = {
             },
             ["Route 12 (Center Water)"] = {
                 ["access"] = function()
-                    if surf() and has("modify_route_12_off") then
+                    if surf() and has("route_12_rocks_off") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -19853,7 +19853,7 @@ REGION_DATA = {
             },
             ["Route 16 (Center)"] = {
                 ["access"] = function()
-                    if route_16_modified() then
+                    if route_16_rock() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -19931,7 +19931,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 16 (Northeast)"] = {
                 ["access"] = function()
-                    if route_16_modified() then
+                    if route_16_rock() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None

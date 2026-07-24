@@ -1,4 +1,8 @@
 # 4.1.0
+## Updates
+* Added Entrance Rando settings and entrance locations
+* Renamed several world logic options
+
 ## Bug Fixes
 * Fixed the access rules for the Mt. Ember Summit - Legendary Pokémon
 * Fixed an issue where a number of encounters didn't show on the area maps

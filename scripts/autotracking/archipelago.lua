@@ -8,7 +8,7 @@ ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/trainer_mapping.lua")
 
-TRACKER_CHECKSUM = 0xA2DBC5A6
+TRACKER_CHECKSUM = 0xC318E3AA
 
 CUR_INDEX = -1
 PROG_CARD_KEY_COUNT = 0
@@ -112,15 +112,6 @@ function resetLocations()
     end
 end
 
-function resetWorldStateSettings()
-    for _, setting in pairs(MODIFY_WORLD_STATE) do
-        local object = Tracker:FindObjectForCode(setting)
-        if object then
-            object.CurrentStage = 0
-        end
-    end
-end
-
 function resetDarkCaves()
     for _, setting in pairs(ADDITIONAL_DARK_CAVES) do
         local object = Tracker:FindObjectForCode(setting)
@@ -202,7 +193,6 @@ function onClear(slot_data)
     CAUGHT_POKEMON = {}
     resetItems()
     resetLocations()
-    resetWorldStateSettings()
     resetDarkCaves()
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
@@ -227,13 +217,6 @@ function onClear(slot_data)
                     else
                         object.CurrentStage = 1
                     end
-                end
-            end
-        elseif key == "modify_world_state" then
-            for _, setting in pairs(slot_data["modify_world_state"]) do
-                local object = Tracker:FindObjectForCode(MODIFY_WORLD_STATE[setting])
-                if object then
-                    object.CurrentStage = 1
                 end
             end
         elseif key == "additional_dark_caves" then

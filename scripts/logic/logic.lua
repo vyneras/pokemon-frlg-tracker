@@ -159,8 +159,8 @@ function trainer_rematch_5()
     return has("vs_seeker") and has_n_gyms(8)
 end
 
-function route_2_modified()
-    if has("modify_route_2_on") then
+function digletts_cave_roadblock()
+    if has("digletts_cave_roadblock_rock") then
         return rock_smash()
     end
     return cut()
@@ -191,19 +191,15 @@ function leave_cerulean()
     return has("save_bill") or has("cerulean_roadblock_off")
 end
 
-function tunnels_blocked()
-    return has("block_tunnels_off") or rock_smash()
+function paths_blocked()
+    return has("block_paths_off") or rock_smash()
 end
 
-function route_9_modified()
-    if has("modify_route_9_on") then
+function route_9_roadblock()
+    if has("route_9_roadblock_on") then
         return rock_smash()
     end
     return cut()
-end
-
-function route_10_modified()
-    return has("modify_route_10_on") and surf() and waterfall()
 end
 
 function tower_blocked()
@@ -218,8 +214,8 @@ function route_12_boulders()
     return has("route_12_boulders_off") or strength()
 end
 
-function route_16_modified()
-    return has("modify_route_16_on") and rock_smash()
+function route_16_rock()
+    return has("route_16_rock_on") and rock_smash()
 end
 
 function open_silph()
@@ -235,7 +231,7 @@ function vermilion_sailing()
 end
 
 function route_23_waterfall()
-    return has("modify_route_23_off") or waterfall()
+    return has("route_23_waterfall_off") or waterfall()
 end
 
 function route_23_trees()
@@ -353,8 +349,8 @@ function digletts_cave_access()
     return AccessibilityLevel.Normal
 end
 
-function route_10_modified_access()
-    if has("modify_route_10_on") then
+function route_10_waterfall_access()
+    if has("route_10_waterfall_on") then
         return AccessibilityLevel.Normal
     end
     return AccessibilityLevel.None
