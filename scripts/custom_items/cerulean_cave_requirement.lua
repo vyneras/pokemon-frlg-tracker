@@ -2,7 +2,7 @@ CeruleanCaveRequirement = CustomItem:extend()
 
 function CeruleanCaveRequirement:init()
     self:createItem("Cerulean Cave Requirement - Vanilla")
-    self.code = "cerulean_cave_requirement"
+    self.ItemInstance.PotentialCodes = {"cerulean_cave_requirement"}
     self.type = "vanilla"
     self:setStage(8)
     self.stageCount = 8
@@ -77,39 +77,33 @@ function CeruleanCaveRequirement:onRightClick()
     end
 end
 
-function CeruleanCaveRequirement:canProvideCode(code)
-    return self.code == code
-end
-
 function CeruleanCaveRequirement:providesCode(code)
-    if self:canProvideCode(code) then
-        if self:getType() == "vanilla" then
-            if has("defeat_champion") and has("restore_pokemon_network_machine") then
+    if self:getType() == "vanilla" then
+        if has("defeat_champion") and has("restore_pokemon_network_machine") then
+            return 1
+        end
+    elseif self:getType() == "champion" then
+        if has("defeat_champion") then
+            return 1
+        end
+    elseif self:getType() == "network_machine" then
+        if has("restore_pokemon_network_machine") then
+            return 1
+        end
+    elseif self:getType() == "badges" or self:getType() == "gyms" then
+        local req_items = {}
+        local count = 0
+        if self:getType() == "badges" then
+            req_items = BADGES
+        elseif self:getType() == "gyms" then
+            req_items = GYMS
+        end
+        for _, item in pairs(req_items) do
+            if has(item) then
+                count = count + 1
+            end
+            if count >= self:getStage() then
                 return 1
-            end
-        elseif self:getType() == "champion" then
-            if has("defeat_champion") then
-                return 1
-            end
-        elseif self:getType() == "network_machine" then
-            if has("restore_pokemon_network_machine") then
-                return 1
-            end
-        elseif self:getType() == "badges" or self:getType() == "gyms" then
-            local req_items = {}
-            local count = 0
-            if self:getType() == "badges" then
-                req_items = BADGES
-            elseif self:getType() == "gyms" then
-                req_items = GYMS
-            end
-            for _, item in pairs(req_items) do
-                if has(item) then
-                    count = count + 1
-                end
-                if count >= self:getStage() then
-                    return 1
-                end
             end
         end
     end

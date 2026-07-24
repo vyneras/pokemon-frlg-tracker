@@ -2,7 +2,7 @@ Pokedex = CustomItem:extend()
 
 function Pokedex:init()
     self:createItem("Pokédex")
-    self.code = "pokedex"
+    self.ItemInstance.PotentialCodes = {"pokedex"}
     self:setActive(0)
     self:setStage(0)
     self.stageCount = 386
@@ -70,15 +70,8 @@ function Pokedex:onRightClick()
     end
 end
 
-function Pokedex:canProvideCode(code)
-    return self.code == code
-end
-
 function Pokedex:providesCode(code)
-    if self:canProvideCode(code) then
-        return self:getActive()
-    end
-    return 0
+    return self:getActive()
 end
 
 function Pokedex:save()

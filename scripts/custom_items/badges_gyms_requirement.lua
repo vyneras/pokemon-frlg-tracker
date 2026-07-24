@@ -3,7 +3,7 @@ BadgesGymsRequirement = CustomItem:extend()
 function BadgesGymsRequirement:init(name, code, stage, stageCount)
     self.name = name
     self:createItem(name.." - Badges")
-    self.code = code
+    self.ItemInstance.PotentialCodes = {code}
     self.type = "badges"
     self:setStage(stage)
     self.stageCount = stageCount
@@ -58,26 +58,20 @@ function BadgesGymsRequirement:onRightClick()
     end
 end
 
-function BadgesGymsRequirement:canProvideCode(code)
-    return self.code == code
-end
-
 function BadgesGymsRequirement:providesCode(code)
-    if self:canProvideCode(code) then
-        local req_items = {}
-        local count = 0
-        if self:getType() == "badges" then
-            req_items = BADGES
-        elseif self:getType() == "gyms" then
-            req_items = GYMS
+    local req_items = {}
+    local count = 0
+    if self:getType() == "badges" then
+        req_items = BADGES
+    elseif self:getType() == "gyms" then
+        req_items = GYMS
+    end
+    for _, item in pairs(req_items) do
+        if has(item) then
+            count = count + 1
         end
-        for _, item in pairs(req_items) do
-            if has(item) then
-                count = count + 1
-            end
-            if count >= self:getStage() then
-                return 1
-            end
+        if count >= self:getStage() then
+            return 1
         end
     end
     return 0

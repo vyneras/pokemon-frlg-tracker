@@ -104,7 +104,7 @@ end
 function FlyDestination:init(name, image, flyUnlock)
     self.name = name
     self:createItem(name .. " ⇒ ????")
-    self.code = name
+    self.ItemInstance.PotentialCodes = {name}
     self.image = image
     self.flyUnlock = flyUnlock
     self:setStage(0)
@@ -161,12 +161,8 @@ function FlyDestination:onRightClick()
     UPDATES_ALLOWED = true
 end
 
-function FlyDestination:canProvideCode(code)
-    return self.code == code
-end
-
 function Entrance:providesCode(code)
-    if self:canProvideCode(code) and self:getConnectedRegion() ~= "????" then
+    if self:getConnectedRegion() ~= "????" then
         return 1
     end
     return 0

@@ -5,7 +5,7 @@ entrance_selected = nil
 function Entrance:init(name, region, image_unconnected, image_connected)
     self.name = name
     self:createItem(name .. " ⇒ ????")
-    self.code = name
+    self.ItemInstance.PotentialCodes = {name}
     self.region = region
     self.image_unconnected = image_unconnected
     self.image_connected = image_connected
@@ -115,12 +115,8 @@ function Entrance:onRightClick()
     update_region_connections()
 end
 
-function Entrance:canProvideCode(code)
-    return self.code == code
-end
-
 function Entrance:providesCode(code)
-    if self:canProvideCode(code) and self:getConnectedRegion() ~= "????" then
+    if self:getConnectedRegion() ~= "????" then
         return 1
     end
     return 0

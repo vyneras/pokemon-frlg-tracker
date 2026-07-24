@@ -2,7 +2,7 @@ PokedexRequirement = CustomItem:extend()
 
 function PokedexRequirement:init(name, code, stage)
     self:createItem(name)
-    self.code = code
+    self.ItemInstance.PotentialCodes = {code}
     self:setStage(stage)
     self.stageCount = 50
     self:updateIcon()
@@ -41,13 +41,9 @@ function PokedexRequirement:onRightClick()
     end
 end
 
-function PokedexRequirement:canProvideCode(code)
-    return self.code == code
-end
-
 function PokedexRequirement:providesCode(code)
     local pokedex = get_item("pokedex")
-    if self:canProvideCode(code) and pokedex:getStage() >= self:getStage() then
+    if pokedex:getStage() >= self:getStage() then
         return 1
     end
     return 0
