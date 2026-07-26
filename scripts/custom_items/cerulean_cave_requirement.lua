@@ -2,7 +2,11 @@ CeruleanCaveRequirement = CustomItem:extend()
 
 function CeruleanCaveRequirement:init()
     self:createItem("Cerulean Cave Requirement - Vanilla")
-    self.ItemInstance.PotentialCodes = {"cerulean_cave_requirement"}
+    if PopVersion > "0.35.3" then
+        self.ItemInstance.PotentialCodes = {"cerulean_cave_requirement"}
+    else
+        self.code = "cerulean_cave_requirement"
+    end
     self.type = "vanilla"
     self:setStage(8)
     self.stageCount = 8
@@ -74,6 +78,12 @@ function CeruleanCaveRequirement:onRightClick()
         self:setType("gyms")
     elseif self:getType() == "gyms" then
         self:setType("vanilla")
+    end
+end
+
+if PopVersion <= "0.35.3" then
+    function CeruleanCaveRequirement:canProvideCode(code)
+        return self.code == code
     end
 end
 

@@ -2,7 +2,11 @@ PokedexRequirement = CustomItem:extend()
 
 function PokedexRequirement:init(name, code, stage)
     self:createItem(name)
-    self.ItemInstance.PotentialCodes = {code}
+    if PopVersion > "0.35.3" then
+        self.ItemInstance.PotentialCodes = {code}
+    else
+        self.code = code
+    end
     self:setStage(stage)
     self.stageCount = 50
     self:updateIcon()
@@ -38,6 +42,12 @@ end
 function PokedexRequirement:onRightClick()
     if self:getStage() > 0 then
         self:setStage(self:getStage() - 1)
+    end
+end
+
+if PopVersion <= "0.35.3" then
+    function PokedexRequirement:canProvideCode(code)
+        return self.code == code
     end
 end
 

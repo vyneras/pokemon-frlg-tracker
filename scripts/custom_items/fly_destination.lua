@@ -104,7 +104,11 @@ end
 function FlyDestination:init(name, image, flyUnlock)
     self.name = name
     self:createItem(name .. " ⇒ ????")
-    self.ItemInstance.PotentialCodes = {name}
+    if PopVersion > "0.35.3" then
+        self.ItemInstance.PotentialCodes = {name}
+    else
+        self.code = name
+    end
     self.image = image
     self.flyUnlock = flyUnlock
     self:setStage(0)
@@ -161,7 +165,13 @@ function FlyDestination:onRightClick()
     UPDATES_ALLOWED = true
 end
 
-function Entrance:providesCode(code)
+if PopVersion <= "0.35.3" then
+    function FlyDestination:canProvideCode(code)
+        return self.code == code
+    end
+end
+
+function FlyDestination:providesCode(code)
     if self:getConnectedRegion() ~= "????" then
         return 1
     end

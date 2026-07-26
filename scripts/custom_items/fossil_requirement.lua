@@ -2,7 +2,11 @@ FossilRequirement = CustomItem:extend()
 
 function FossilRequirement:init(name)
     self:createItem(name)
-    self.ItemInstance.PotentialCodes = {"fossil_requirement"}
+    if PopVersion > "0.35.3" then
+        self.ItemInstance.PotentialCodes = {"fossil_requirement"}
+    else
+        self.code = "fossil_requirement"
+    end
     self:setStage(3)
     self.stageCount = 3
     self:updateIcon()
@@ -32,6 +36,12 @@ end
 function FossilRequirement:onRightClick()
     if self:getStage() > 0 then
         self:setStage(self:getStage() - 1)
+    end
+end
+
+if PopVersion <= "0.35.3" then
+    function FossilRequirement:canProvideCode(code)
+        return self.code == code
     end
 end
 
