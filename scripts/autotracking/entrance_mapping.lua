@@ -1,7 +1,11 @@
 ENTRANCE_MAPPING = {
     [768] = { -- Pallet Town
+        [0] = "Player's House Entrance",
         [1] = "Rival's House Entrance",
         [2] = "Professor Oak's Lab Entrance"
+    },
+    [1024] = { -- Player's House 1F
+        [0] = "Player's House 1F Exit"
     },
     [1026] = { -- Rival's House
         [0] = "Rival's House Exit"

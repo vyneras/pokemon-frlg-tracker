@@ -8,6 +8,12 @@
         "name": "Pallet Town",
         "sections": [
           {
+            "name": "Player's House Entrance",
+            "hosted_item": "Player's House Entrance",
+            "access_rules": ["^$entrance_access|Player's House Entrance"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
+          },
+          {
             "name": "Rival's House Entrance",
             "hosted_item": "Rival's House Entrance",
             "access_rules": ["^$entrance_access|Rival's House Entrance"],
@@ -18,6 +24,12 @@
             "hosted_item": "Professor Oak's Lab Entrance",
             "access_rules": ["^$entrance_access|Professor Oak's Lab Entrance"],
             "visibility_rules": ["$shuffle_buildings,entrance_locations_on"]
+          },
+          {
+            "name": "Player's House 1F Exit",
+            "hosted_item": "Player's House 1F Exit",
+            "access_rules": ["^$entrance_access|Player's House 1F Exit"],
+            "visibility_rules": ["$shuffle_pokemon_centers,entrance_locations_on"]
           },
           {
             "name": "Rival's House Exit",

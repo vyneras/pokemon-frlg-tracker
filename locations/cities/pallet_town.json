@@ -57,7 +57,8 @@
           {
             "map": "pallet_town",
             "x": 104,
-            "y": 120
+            "y": 120,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -143,6 +144,22 @@
         ]
       },
       {
+        "name": "Player's House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Pallet Town/Player's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "shape": "diamond",
+            "x": 104,
+            "y": 120
+          }
+        ]
+      },
+      {
         "name": "Rival's House Entrance",
         "sections": [
           {
@@ -171,6 +188,27 @@
             "shape": "diamond",
             "x": 264,
             "y": 216
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Player's House 1F",
+    "children": [
+      {
+        "name": "Player's House 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Pallet Town/Player's House 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "players_house_1f",
+            "shape":"diamond",
+            "x": 72,
+            "y": 136
           }
         ]
       }

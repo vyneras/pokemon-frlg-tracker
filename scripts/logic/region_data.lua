@@ -539,7 +539,7 @@ REGION_DATA = {
         ["warps"] = {
             ["Player's House Entrance"] = {
                 ["connected_region"] = "Player's House 1F",
-                ["shuffled"] = unshuffled,
+                ["shuffled"] = shuffle_pokemon_centers,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
@@ -612,7 +612,7 @@ REGION_DATA = {
         ["warps"] = {
             ["Player's House 1F Exit"] = {
                 ["connected_region"] = "Pallet Town",
-                ["shuffled"] = unshuffled,
+                ["shuffled"] = shuffle_pokemon_centers,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end

@@ -1,5 +1,45 @@
 [
   {
+    "name": "Pallet Town",
+    "children": [
+      {
+        "name": "Player's House Entrance",
+        "sections": [
+          {
+            "name": "Player's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 104,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Player's House 1F",
+    "children": [
+      {
+        "name": "Player's House 1F Exit",
+        "sections": [
+          {
+            "name": "Player's House 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "players_house_1f",
+            "x": 72,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Viridian City",
     "children": [
       {
