@@ -45,6 +45,7 @@ This tracker pack can be utilized by both PopTracker and Universal Tracker. You 
 # Compatibility Chart
 | Apworld Version | Pack Version  |
 |:---------------:|:-------------:|
+|  1.1.0 Beta.3   | 4.1.0 Beta.3  |
 |  1.1.0 Beta.2   | 4.1.0 Beta.2  |
 |  1.1.0 Beta.1   | 4.1.0 Beta.1  |
 |  1.0.0 - 1.0.4  | 4.0.0 - 4.0.4 |
