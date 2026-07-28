@@ -9831,7 +9831,10 @@ REGION_DATA = {
             },
             ["Victory Road 1F - North Item"] = {
                 ["access"] = function()
-                    return victory_road_access()
+                    if strength() then
+                        return victory_road_access()
+                    end
+                    return AccessibilityLevel.None
                 end
             },
             ["Victory Road 1F - Cooltrainer Rolando Reward"] = {
