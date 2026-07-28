@@ -9831,7 +9831,10 @@ REGION_DATA = {
             },
             ["Victory Road 1F - North Item"] = {
                 ["access"] = function()
-                    return victory_road_access()
+                    if strength() then
+                        return victory_road_access()
+                    end
+                    return AccessibilityLevel.None
                 end
             },
             ["Victory Road 1F - Cooltrainer Rolando Reward"] = {
@@ -19613,7 +19616,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Route 15 (North)"] = {
                 ["access"] = function()
-                    if jump_down_ledge() then
+                    if jump_up_ledge() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
