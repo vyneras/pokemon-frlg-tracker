@@ -1261,7 +1261,7 @@ ENTRANCE_MAPPING = {
         [0] = "Trainer Tower Entrance"
     },
     [522] = { -- Trainer Tower Lobby
-        [0] = "Trainer Tower Lobby Exit"
+        [1] = "Trainer Tower Lobby Exit"
     },
     [512] = { -- Navel Rock Exterior
         [0] = "Navel Rock Entrance",
