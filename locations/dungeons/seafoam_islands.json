@@ -33,6 +33,118 @@
             "y": 136
           }
         ]
+      },
+      {
+        "name": "Seafoam Islands 1F West Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands 1F West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "shape": "diamond",
+            "x": 104,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F East Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands 1F East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "shape": "diamond",
+            "x": 520,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "shape": "diamond",
+            "x": 168,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "shape": "diamond",
+            "x": 504,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F Southeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands 1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "shape": "diamond",
+            "x": 456,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F Drop (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands 1F Drop (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "shape": "diamond",
+            "x": 344,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands 1F Drop (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands 1F Drop (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_1f",
+            "shape": "diamond",
+            "x": 488,
+            "y": 136
+          }
+        ]
       }
     ]
   },
@@ -86,6 +198,150 @@
             "y": 296
           }
         ]
+      },
+      {
+        "name": "Seafoam Islands B1F Northwest Ladder (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F Northwest Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 168,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Northwest Ladder (Top)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F Northwest Ladder (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Center Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F South Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 408,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 504,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Southeast Ladder (Bottom Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F Southeast Ladder (Bottom Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 456,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Southeast Ladder (Top Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F Southeast Ladder (Top Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 520,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Drop (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F Drop (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 376,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B1F Drop (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B1F Drop (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b1f",
+            "shape": "diamond",
+            "x": 456,
+            "y": 136
+          }
+        ]
       }
     ]
   },
@@ -121,6 +377,150 @@
             "map": "seafoam_islands_b2f",
             "x": 296,
             "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Southwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Center Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 280,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F South Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 408,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 520,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Southeast Ladder (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F Southeast Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 504,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Southeast Ladder (Top)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F Southeast Ladder (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 520,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Drop (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F Drop (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 392,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B2F Drop (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B2F Drop (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b2f",
+            "shape": "diamond",
+            "x": 440,
+            "y": 136
           }
         ]
       }
@@ -174,6 +574,118 @@
             "map": "seafoam_islands_b3f",
             "x": 88,
             "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Southwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B3F Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "shape": "diamond",
+            "x": 136,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F West Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B3F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "shape": "diamond",
+            "x": 200,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Northeast Ladder (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B3F Northeast Ladder (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "shape": "diamond",
+            "x": 504,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Northeast Ladder (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B3F Northeast Ladder (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "shape": "diamond",
+            "x": 472,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Southeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "shape": "diamond",
+            "x": 504,
+            "y": 456
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Drop (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B3F Drop (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "shape": "diamond",
+            "x": 104,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B3F Drop (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B3F Drop (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b3f",
+            "shape": "diamond",
+            "x": 152,
+            "y": 488
           }
         ]
       }
@@ -259,6 +771,38 @@
             "map": "seafoam_islands_b4f",
             "x": 152,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B4F Center Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B4F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "shape": "diamond",
+            "x": 248,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seafoam Islands B4F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Seafoam Islands/Seafoam Islands B4F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seafoam_islands_b4f",
+            "shape": "diamond",
+            "x": 520,
+            "y": 88
           }
         ]
       }

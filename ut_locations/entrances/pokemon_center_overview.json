@@ -3,6 +3,21 @@
     "name": "Pokemon Center Overview",
     "children": [
       {
+        "name": "Player's House",
+        "sections": [
+          {
+            "name": "PC Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pallet_town",
+            "x": 104,
+            "y": 120
+          }
+        ]
+      },
+      {
         "name": "Viridian Pokemon Center",
         "sections": [
           {

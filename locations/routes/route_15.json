@@ -50,12 +50,14 @@
           {
             "map": "route_15_west",
             "x": 152,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           },
           {
             "map": "route_15_west",
             "x": 264,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -270,6 +272,91 @@
             "y": 104
           }
         ]
+      },
+      {
+        "name": "Route 15 Gate East Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 15/Route 15 Gate East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "shape": "diamond",
+            "x": 264,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate West Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 15/Route 15 Gate West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_west",
+            "shape": "diamond",
+            "x": 152,
+            "y": 184
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 15 Gate 1F",
+    "children": [
+      {
+        "name": "Route 15 Gate 1F East Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 15/Route 15 Gate 1F East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate 1F West Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 15/Route 15 Gate 1F West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "shape": "diamond",
+            "x": 24,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate 1F Stairs",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 15/Route 15 Gate 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_1f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 168
+          }
+        ]
       }
     ]
   },
@@ -289,6 +376,22 @@
             "map": "route_15_gate_2f",
             "x": 88,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 15 Gate 2F Stairs",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 15/Route 15 Gate 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_15_gate_2f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 156
           }
         ]
       }

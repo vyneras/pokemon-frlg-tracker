@@ -56,7 +56,8 @@
           {
             "map": "celadon_city",
             "x": 776,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -108,7 +109,8 @@
           {
             "map": "celadon_city",
             "x": 488,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -124,7 +126,8 @@
           {
             "map": "celadon_city",
             "x": 488,
-            "y": 72
+            "y": 72,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -188,12 +191,14 @@
           {
             "map": "celadon_city",
             "x": 184,
-            "y": 232
+            "y": 232,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           },
           {
             "map": "celadon_city",
             "x": 248,
-            "y": 232
+            "y": 232,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -208,7 +213,8 @@
           {
             "map": "celadon_city",
             "x": 600,
-            "y": 472
+            "y": 472,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -224,7 +230,8 @@
           {
             "map": "celadon_city",
             "x": 664,
-            "y": 472
+            "y": 472,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -240,7 +247,8 @@
           {
             "map": "celadon_city",
             "x": 792,
-            "y": 472
+            "y": 472,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -332,7 +340,8 @@
           {
             "map": "celadon_city",
             "x": 544,
-            "y": 344
+            "y": 344,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -372,7 +381,8 @@
           {
             "map": "celadon_city",
             "x": 632,
-            "y": 328
+            "y": 328,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -460,28 +470,184 @@
           {
             "map": "celadon_city",
             "x": 184,
-            "y": 488
+            "y": 488,
+            "force_invisibility_rules": ["$shuffle_gyms"]
           }
         ]
       },
       {
-        "name": "Rocket Hideout Entrance",
+        "name": "Celadon Game Corner Entrance",
         "sections": [
           {
-            "ref": "Cities/Celadon City/Rocket Hideout Entrance",
-            "name": "Entrance"
+            "ref": "City Entrances/Celadon City/Celadon Game Corner Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "celadon_city",
-            "x": 560,
+            "shape": "diamond",
+            "x": 552,
             "y": 344
-          },
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store West Entrance",
+        "sections": [
           {
-            "map": "celadon_game_corner",
-            "x": 264,
-            "y": 40
+            "ref": "City Entrances/Celadon City/Celadon Department Store West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 184,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store East Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 248,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums Front Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums Front Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 488,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Celadon Game Corner Prize Room Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Game Corner Prize Room Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 632,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Celadon Restaurant Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Restaurant Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 600,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Celadon Rocket House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Rocket House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 664,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Celadon Hotel Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Hotel Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 792,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums Back Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums Back Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 488,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Celadon Gym Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Gym Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 184,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Celadon Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_city",
+            "shape": "diamond",
+            "x": 776,
+            "y": 184
           }
         ]
       }
@@ -503,6 +669,75 @@
             "map": "celadon_pokemon_center_1f",
             "x": 184,
             "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Celadon Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 1F",
+    "children": [
+      {
+        "name": "Celadon Department Store 1F West Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 1F West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_1f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 1F East Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 1F East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_1f",
+            "shape": "diamond",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 1F Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_1f",
+            "shape": "diamond",
+            "x": 64,
+            "y": 40
           }
         ]
       }
@@ -557,6 +792,75 @@
             "y": 104
           }
         ]
+      },
+      {
+        "name": "Celadon Department Store 2F West Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 2F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_2f",
+            "shape": "diamond",
+            "x": 48,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 2F East Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 2F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_2f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Department Store 3F",
+    "children": [
+      {
+        "name": "Celadon Department Store 3F East Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 3F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_3f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 3F West Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 3F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_3f",
+            "shape": "diamond",
+            "x": 48,
+            "y": 40
+          }
+        ]
       }
     ]
   },
@@ -576,6 +880,38 @@
             "map": "celadon_department_store_4f",
             "x": 56,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 4F West Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 4F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_4f",
+            "shape": "diamond",
+            "x": 48,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 4F East Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 4F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_4f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 40
           }
         ]
       }
@@ -613,6 +949,38 @@
             "map": "celadon_department_store_5f",
             "x": 24,
             "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 5F East Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 5F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_5f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store 5F West Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store 5F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_5f",
+            "shape": "diamond",
+            "x": 48,
+            "y": 40
           }
         ]
       }
@@ -670,6 +1038,22 @@
             "map": "celadon_department_store_roof",
             "x": 88,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Celadon Department Store Roof Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Department Store Roof Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_department_store_roof",
+            "shape": "diamond",
+            "x": 248,
+            "y": 104
           }
         ]
       }
@@ -745,6 +1129,70 @@
             "y": 152
           }
         ]
+      },
+      {
+        "name": "Celadon Condominiums 1F Front Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 1F Front Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "shape": "diamond",
+            "x": 200,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 1F Back Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 1F Back Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 1F Northeast Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 1F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "shape": "diamond",
+            "x": 208,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 1F Northwest Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 1F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_1f",
+            "shape": "diamond",
+            "x": 80,
+            "y": 40
+          }
+        ]
       }
     ]
   },
@@ -766,6 +1214,192 @@
             "y": 112
           }
         ]
+      },
+      {
+        "name": "Celadon Condominiums 2F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 2F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "shape": "diamond",
+            "x": 176,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 2F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 2F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "shape": "diamond",
+            "x": 208,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 2F Northwest Stairs (Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 2F Northwest Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "shape": "diamond",
+            "x": 80,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 2F Northwest Stairs (Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 2F Northwest Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_2f",
+            "shape": "diamond",
+            "x": 32,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums 3F",
+    "children": [
+      {
+        "name": "Celadon Condominiums 3F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 3F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_3f",
+            "shape": "diamond",
+            "x": 208,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 3F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 3F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_3f",
+            "shape": "diamond",
+            "x": 176,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 3F Northwest Stairs (Left)",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 3F Northwest Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_3f",
+            "shape": "diamond",
+            "x": 32,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums 3F Northwest Stairs (Right)",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums 3F Northwest Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_3f",
+            "shape": "diamond",
+            "x": 80,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Celadon Condominiums Roof",
+    "children": [
+      {
+        "name": "Celadon Condominiums Roof Northeast Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums Roof Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof",
+            "shape": "diamond",
+            "x": 176,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums Roof Northwest Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums Roof Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof",
+            "shape": "diamond",
+            "x": 80,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums Roof Room Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums Roof Room Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof",
+            "shape": "diamond",
+            "x": 40,
+            "y": 200
+          }
+        ]
       }
     ]
   },
@@ -785,6 +1419,22 @@
             "map": "celadon_condominiums_roof_room",
             "x": 120,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Celadon Condominiums Roof Room Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Condominiums Roof Room Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_condominiums_roof_room",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -1048,6 +1698,38 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Celadon Game Corner Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Game Corner Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "shape": "diamond",
+            "x": 152,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Rocket Hideout Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Rocket Hideout Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner",
+            "shape": "diamond",
+            "x": 256,
+            "y": 40
+          }
+        ]
       }
     ]
   },
@@ -1115,6 +1797,22 @@
             "map": "celadon_game_corner_prize_room",
             "x": 72,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Game Corner Prize Room Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Game Corner Prize Room Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_game_corner_prize_room",
+            "shape": "diamond",
+            "x": 72,
+            "y": 136
           }
         ]
       }
@@ -1278,6 +1976,22 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Celadon Gym Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_gym",
+            "shape": "diamond",
+            "x": 104,
+            "y": 296
+          }
+        ]
       }
     ]
   },
@@ -1297,6 +2011,22 @@
             "map": "celadon_restaurant",
             "x": 24,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Celadon Restaurant Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Restaurant Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_restaurant",
+            "shape": "diamond",
+            "x": 104,
+            "y": 152
           }
         ]
       }
@@ -1320,6 +2050,22 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Celadon Rocket House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Rocket House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_rocket_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -1339,6 +2085,22 @@
             "map": "celadon_hotel",
             "x": 216,
             "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Celadon Hotel Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Celadon City/Celadon Hotel Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celadon_hotel",
+            "shape": "diamond",
+            "x": 72,
+            "y": 152
           }
         ]
       }

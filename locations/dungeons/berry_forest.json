@@ -313,6 +313,22 @@
             "y": 88
           }
         ]
+      },
+      {
+        "name": "Berry Forest Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Berry Forest/Berry Forest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "berry_forest",
+            "shape": "diamond",
+            "x": 696,
+            "y": 664
+          }
+        ]
       }
     ]
   }

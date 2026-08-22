@@ -3,7 +3,11 @@ BadgesGymsRequirement = CustomItem:extend()
 function BadgesGymsRequirement:init(name, code, stage, stageCount)
     self.name = name
     self:createItem(name.." - Badges")
-    self.code = code
+    if PopVersion > "0.35.3" then
+        self.ItemInstance.PotentialCodes = {code}
+    else
+        self.code = code
+    end
     self.type = "badges"
     self:setStage(stage)
     self.stageCount = stageCount
@@ -35,7 +39,7 @@ function BadgesGymsRequirement:updateIcon()
         img = "images/settings/badge.png"
     elseif type == "gyms" then
         self.ItemInstance.Name = self.name.." - Gyms"
-        img = "images/settings/gym.png"
+        img = "images/settings/gym_sign.png"
     end
     local img_mod = "overlay|images/overlays/long_count_numbers/" .. math.floor(stage) .. ".png"
     self.ItemInstance.Icon = ImageReference:FromPackRelativePath(img)
@@ -58,26 +62,26 @@ function BadgesGymsRequirement:onRightClick()
     end
 end
 
-function BadgesGymsRequirement:canProvideCode(code)
-    return self.code == code
+if PopVersion <= "0.35.3" then
+    function BadgesGymsRequirement:canProvideCode(code)
+        return self.code == code
+    end
 end
 
 function BadgesGymsRequirement:providesCode(code)
-    if self:canProvideCode(code) then
-        local req_items = {}
-        local count = 0
-        if self:getType() == "badges" then
-            req_items = BADGES
-        elseif self:getType() == "gyms" then
-            req_items = GYMS
+    local req_items = {}
+    local count = 0
+    if self:getType() == "badges" then
+        req_items = BADGES
+    elseif self:getType() == "gyms" then
+        req_items = GYMS
+    end
+    for _, item in pairs(req_items) do
+        if has(item) then
+            count = count + 1
         end
-        for _, item in pairs(req_items) do
-            if has(item) then
-                count = count + 1
-            end
-            if count >= self:getStage() then
-                return 1
-            end
+        if count >= self:getStage() then
+            return 1
         end
     end
     return 0

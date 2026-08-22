@@ -59,7 +59,8 @@
           {
             "map": "route_4_west",
             "x": 200,
-            "y": 88
+            "y": 88,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -163,13 +164,13 @@
         "name": "Mt. Moon West Entrance",
         "sections": [
           {
-            "ref": "Routes/Route 4 West/Mt. Moon West Entrance",
-            "name": "Entrance"
+            "ref": "Route Entrances/Route 4 West/Mt. Moon West Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "route_4_west",
+            "shape": "diamond",
             "x": 312,
             "y": 88
           }
@@ -179,14 +180,30 @@
         "name": "Mt. Moon East Entrance",
         "sections": [
           {
-            "ref": "Routes/Route 4 East/Mt. Moon East Entrance",
-            "name": "Entrance"
+            "ref": "Route Entrances/Route 4 East/Mt. Moon East Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "route_4_west",
+            "shape": "diamond",
             "x": 520,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 4 West/Route 4 Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_west",
+            "shape": "diamond",
+            "x": 200,
             "y": 88
           }
         ]
@@ -239,6 +256,22 @@
             "map": "route_4_pokemon_center_1f",
             "x": 24,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Route 4 Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 4 West/Route 4 Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_4_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
           }
         ]
       }

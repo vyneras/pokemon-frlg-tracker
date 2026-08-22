@@ -286,6 +286,75 @@
             "y": 56
           }
         ]
+      },
+      {
+        "name": "Route 8 Gate East Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 8/Route 8 Gate East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "shape": "diamond",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Underground Path East Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 8/Underground Path East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_west",
+            "shape": "diamond",
+            "x": 216,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 8 Gate",
+    "children": [
+      {
+        "name": "Route 8 Gate East Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 8/Route 8 Gate East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_gate",
+            "shape": "diamond",
+            "x": 184,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Route 8 Gate West Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 8/Route 8 Gate West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_8_gate",
+            "shape": "diamond",
+            "x": 24,
+            "y": 88
+          }
+        ]
       }
     ]
   }

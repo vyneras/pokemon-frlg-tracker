@@ -89,6 +89,71 @@
           {
             "map": "one_island",
             "x": 232,
+            "y": 88,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
+          }
+        ]
+      },
+      {
+        "name": "One Island Old Couple's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/One Island Town/One Island Old Couple's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "shape": "diamond",
+            "x": 312,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "One Island Lass' House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/One Island Town/One Island Lass' House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "shape": "diamond",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "One Island Harbor Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/One Island Town/One Island Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "shape": "diamond",
+            "x": 200,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "One Island Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/One Island Town/One Island Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island",
+            "shape": "diamond",
+            "x": 232,
             "y": 88
           }
         ]
@@ -166,6 +231,85 @@
             "map": "one_island_pokemon_center_1f",
             "x": 248,
             "y": 104
+          }
+        ]
+      },
+      {
+        "name": "One Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/One Island Town/One Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 152,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Old Couple's House",
+    "children": [
+      {
+        "name": "One Island Old Couple's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/One Island Town/One Island Old Couple's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_old_couples_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Lass' House",
+    "children": [
+      {
+        "name": "One Island Lass' House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/One Island Town/One Island Lass' House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_lass_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "One Island Harbor",
+    "children": [
+      {
+        "name": "One Island Harbor Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/One Island Town/One Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "one_island_harbor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
           }
         ]
       }

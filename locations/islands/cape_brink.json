@@ -65,6 +65,43 @@
             "y": 216
           }
         ]
+      },
+      {
+        "name": "Starter Tutor's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Cape Brink/Starter Tutor's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "cape_brink",
+            "shape": "diamond",
+            "x": 200,
+            "y": 264
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Starter Tutor's House",
+    "children": [
+      {
+        "name": "Starter Tutor's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Cape Brink/Starter Tutor's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "starter_tutors_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   }

@@ -1,5 +1,79 @@
 [
   {
+    "name": "Underground Path 1F North",
+    "children": [
+      {
+        "name": "Underground Path 1F North Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path North-South Tunnel/Underground Path 1F North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_entrance",
+            "shape": "diamond",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Underground Path 1F North Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path North-South Tunnel/Underground Path 1F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_entrance",
+            "shape": "diamond",
+            "x": 112,
+            "y": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Underground Path 1F South",
+    "children": [
+      {
+        "name": "Underground Path 1F South Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path North-South Tunnel/Underground Path 1F South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_south_entrance",
+            "shape": "diamond",
+            "x": 104,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Underground Path 1F South Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path North-South Tunnel/Underground Path 1F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_south_entrance",
+            "shape": "diamond",
+            "x": 112,
+            "y": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Underground Path North-South Tunnel",
     "children": [
       {
@@ -127,6 +201,38 @@
             "map": "underground_path_north_south_tunnel_south",
             "x": 40,
             "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Underground Path B1F North Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path North-South Tunnel/Underground Path B1F North Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_north",
+            "shape": "diamond",
+            "x": 80,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Underground Path B1F South Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Underground Path North-South Tunnel/Underground Path B1F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "underground_path_north_south_tunnel_south",
+            "shape": "diamond",
+            "x": 48,
+            "y": 456
           }
         ]
       }

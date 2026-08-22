@@ -178,16 +178,32 @@
         ]
       },
       {
+        "name": "Route 22 Gate North Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 23/Route 22 Gate North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_23_south",
+            "shape": "diamond",
+            "x": 136,
+            "y": 536
+          }
+        ]
+      },
+      {
         "name": "Victory Road West Entrance",
         "sections": [
           {
-            "ref": "Routes/Route 23/Victory Road West Entrance",
-            "name": "Entrance"
+            "ref": "Route Entrances/Route 23/Victory Road West Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "route_23_north",
+            "shape": "diamond",
             "x": 88,
             "y": 456
           }
@@ -197,13 +213,13 @@
         "name": "Victory Road East Entrance",
         "sections": [
           {
-            "ref": "Routes/Route 23/Victory Road East Entrance",
-            "name": "Entrance"
+            "ref": "Route Entrances/Route 23/Victory Road East Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "route_23_north",
+            "shape": "diamond",
             "x": 296,
             "y": 456
           }

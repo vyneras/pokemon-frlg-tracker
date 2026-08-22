@@ -1,5 +1,42 @@
 [
   {
+    "name": "Silph Co. 1F",
+    "children": [
+      {
+        "name": "Silph Co. 1F Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_1f",
+            "shape": "diamond",
+            "x": 136,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 1F Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_1f",
+            "shape": "diamond",
+            "x": 512,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Silph Co. 2F",
     "children": [
       {
@@ -97,6 +134,102 @@
             "y": 312
           }
         ]
+      },
+      {
+        "name": "Silph Co. 2F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 2F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "shape": "diamond",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 2F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "shape": "diamond",
+            "x": 496,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F North Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 2F North Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "shape": "diamond",
+            "x": 248,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Southeast Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 2F Southeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "shape": "diamond",
+            "x": 536,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Northwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 2F Northwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 2F Southwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 2F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_2f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 312
+          }
+        ]
       }
     ]
   },
@@ -180,6 +313,150 @@
             "map": "silph_co_3f",
             "x": 536,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 448,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 496,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F Northwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Southwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 56,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F East Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F East Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 472,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Southeast Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F Southeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 520,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Northeast Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F Northeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 536,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F Center Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F Center Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 216,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 3F West Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 3F West Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_3f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 232
           }
         ]
       }
@@ -329,6 +606,102 @@
             "map": "silph_co_4f",
             "x": 216,
             "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 4F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "shape": "diamond",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 4F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "shape": "diamond",
+            "x": 496,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Southwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 4F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F Center Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 4F Center Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "shape": "diamond",
+            "x": 296,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F North Warp Tile (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 4F North Warp Tile (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "shape": "diamond",
+            "x": 296,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 4F North Warp Tile (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 4F North Warp Tile (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_4f",
+            "shape": "diamond",
+            "x": 200,
+            "y": 152
           }
         ]
       }
@@ -496,6 +869,102 @@
             "y": 120
           }
         ]
+      },
+      {
+        "name": "Silph Co. 5F Northeast Stairs (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 5F Northeast Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "shape": "diamond",
+            "x": 448,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Northeast Stairs (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 5F Northeast Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "shape": "diamond",
+            "x": 496,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F North Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 5F North Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "shape": "diamond",
+            "x": 248,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F South Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 5F South Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Northeast Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 5F Northeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "shape": "diamond",
+            "x": 536,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 5F Southwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 5F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_5f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 328
+          }
+        ]
       }
     ]
   },
@@ -611,6 +1080,70 @@
             "map": "silph_co_6f",
             "x": 328,
             "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Northwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 6F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "shape": "diamond",
+            "x": 224,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Northeast Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 6F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "shape": "diamond",
+            "x": 432,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Northeast Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 6F Northeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "shape": "diamond",
+            "x": 472,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 6F Northwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 6F Northwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_6f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 104
           }
         ]
       }
@@ -782,6 +1315,86 @@
             "y": 120
           }
         ]
+      },
+      {
+        "name": "Silph Co. 7F Northwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 7F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "shape": "diamond",
+            "x": 304,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northeast Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 7F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "shape": "diamond",
+            "x": 448,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Southeast Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 7F Southeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "shape": "diamond",
+            "x": 408,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northwest Warp Tile (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 7F Northwest Warp Tile (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "shape": "diamond",
+            "x": 88,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 7F Northwest Warp Tile (Top)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 7F Northwest Warp Tile (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_7f",
+            "shape": "diamond",
+            "x": 88,
+            "y": 72
+          }
+        ]
       }
     ]
   },
@@ -899,6 +1512,102 @@
             "y": 168
           }
         ]
+      },
+      {
+        "name": "Silph Co. 8F Northwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 8F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "shape": "diamond",
+            "x": 256,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Northeast Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 8F Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "shape": "diamond",
+            "x": 464,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Center Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 8F Center Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F North Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 8F North Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "shape": "diamond",
+            "x": 168,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F Southwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 8F Southwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 8F West Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 8F West Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_8f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 200
+          }
+        ]
       }
     ]
   },
@@ -906,10 +1615,10 @@
     "name": "Silph Co. 9F",
     "children": [
       {
-        "name": "West Room Hidden Item Near Boxes",
+        "name": "Southwest Room Hidden Item Near Boxes",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./9F - West Room Hidden Item Near Boxes",
+            "ref": "Dungeons/Silph Co./9F - Southwest Room Hidden Item Near Boxes",
             "name": "Hidden Item"
           }
         ],
@@ -922,10 +1631,10 @@
         ]
       },
       {
-        "name": "West Room Plant Hidden Item",
+        "name": "Southwest Room Plant Hidden Item",
         "sections": [
           {
-            "ref": "Dungeons/Silph Co./9F - West Room Plant Hidden Item",
+            "ref": "Dungeons/Silph Co./9F - Southwest Room Plant Hidden Item",
             "name": "Hidden Item"
           }
         ],
@@ -998,6 +1707,70 @@
             "map": "silph_co_9f",
             "x": 24,
             "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F North Stairs (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 9F North Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "shape": "diamond",
+            "x": 256,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F North Stairs (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 9F North Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "shape": "diamond",
+            "x": 304,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F Southeast Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 9F Southeast Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "shape": "diamond",
+            "x": 360,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 9F Northwest Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 9F Northwest Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_9f",
+            "shape": "diamond",
+            "x": 152,
+            "y": 72
           }
         ]
       }
@@ -1115,6 +1888,86 @@
             "map": "silph_co_10f",
             "x": 200,
             "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F North Stairs (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 10F North Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "shape": "diamond",
+            "x": 96,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F North Stairs (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 10F North Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "shape": "diamond",
+            "x": 144,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F East Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 10F East Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "shape": "diamond",
+            "x": 232,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F Southeast Warp Tile (Top Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 10F Southeast Warp Tile (Top Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "shape": "diamond",
+            "x": 168,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 10F Southeast Warp Tile (Bottom Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 10F Southeast Warp Tile (Bottom Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_10f",
+            "shape": "diamond",
+            "x": 232,
+            "y": 280
           }
         ]
       }
@@ -1236,6 +2089,38 @@
             "map": "silph_co_11f",
             "x": 200,
             "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 11F Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 11F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "shape": "diamond",
+            "x": 112,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Silph Co. 11F Warp Tile",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Silph Co./Silph Co. 11F Warp Tile"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "silph_co_11f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 88
           }
         ]
       }

@@ -56,7 +56,8 @@
           {
             "map": "viridian_city",
             "x": 424,
-            "y": 424
+            "y": 424,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -76,7 +77,8 @@
           {
             "map": "viridian_city",
             "x": 584,
-            "y": 312
+            "y": 312,
+            "force_invisibility_rules": ["$shuffle_marts"]
           }
         ]
       },
@@ -96,7 +98,8 @@
           {
             "map": "viridian_city",
             "x": 408,
-            "y": 296
+            "y": 296,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -216,7 +219,88 @@
           {
             "map": "viridian_city",
             "x": 584,
+            "y": 168,
+            "force_invisibility_rules": ["$shuffle_gyms"]
+          }
+        ]
+      },
+      {
+        "name": "Viridian Nickname House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian Nickname House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "shape": "diamond",
+            "x": 408,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Viridian School Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian School Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "shape": "diamond",
+            "x": 408,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Viridian Gym Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian Gym Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "shape": "diamond",
+            "x": 584,
             "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Viridian Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "shape": "diamond",
+            "x": 584,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Viridian Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_city",
+            "shape": "diamond",
+            "x": 424,
+            "y": 424
           }
         ]
       }
@@ -238,6 +322,22 @@
             "map": "viridian_pokemon_center_1f",
             "x": 184,
             "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Viridian Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
           }
         ]
       }
@@ -425,6 +525,22 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Viridian Gym Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_gym",
+            "shape":"diamond",
+            "x": 280,
+            "y": 360
+          }
+        ]
       }
     ]
   },
@@ -450,6 +566,22 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Viridian School Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian School Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_school",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -473,6 +605,43 @@
             "map": "viridian_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Viridian Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_mart",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Viridian Nickname House",
+    "children": [
+      {
+        "name": "Viridian Nickname House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Viridian City/Viridian Nickname House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "viridian_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

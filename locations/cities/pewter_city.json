@@ -28,7 +28,8 @@
           {
             "map": "pewter_city",
             "x": 280,
-            "y": 408
+            "y": 408,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -75,7 +76,8 @@
           {
             "map": "pewter_city",
             "x": 456,
-            "y": 296
+            "y": 296,
+            "force_invisibility_rules": ["$shuffle_marts"]
           }
         ]
       },
@@ -111,7 +113,8 @@
           {
             "map": "pewter_city",
             "x": 248,
-            "y": 264
+            "y": 264,
+            "force_invisibility_rules": ["$shuffle_gyms"]
           }
         ]
       },
@@ -143,7 +146,8 @@
           {
             "map": "pewter_city",
             "x": 280,
-            "y": 112
+            "y": 112,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -163,7 +167,8 @@
           {
             "map": "pewter_city",
             "x": 408,
-            "y": 72
+            "y": 72,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -179,6 +184,118 @@
             "map": "pewter_city",
             "x": 744,
             "y": 328
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum West Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Museum West Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "shape": "diamond",
+            "x": 280,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "name": "Pewter Nidoran House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Nidoran House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "shape": "diamond",
+            "x": 536,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Pewter Info House Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Info House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "shape": "diamond",
+            "x": 152,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum East Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Museum East Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "shape": "diamond",
+            "x": 408,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Pewter Gym Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Gym Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "shape": "diamond",
+            "x": 248,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Pewter Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "shape": "diamond",
+            "x": 456,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Pewter Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_city",
+            "shape": "diamond",
+            "x": 280,
+            "y": 408
           }
         ]
       }
@@ -200,6 +317,22 @@
             "map": "pewter_pokemon_center_1f",
             "x": 184,
             "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Pewter Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
           }
         ]
       }
@@ -239,6 +372,54 @@
             "y": 32
           }
         ]
+      },
+      {
+        "name": "Pewter Museum 1F West Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Museum 1F West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "shape": "diamond",
+            "x": 232,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum 1F East Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Museum 1F East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "shape": "diamond",
+            "x": 344,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum 1F Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Museum 1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_1f",
+            "shape": "diamond",
+            "x": 144,
+            "y": 136
+          }
+        ]
       }
     ]
   },
@@ -258,6 +439,22 @@
             "map": "pewter_museum_2f",
             "x": 296,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Pewter Museum 2F Stairs",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Museum 2F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_museum_2f",
+            "shape": "diamond",
+            "x": 176,
+            "y": 140
           }
         ]
       }
@@ -313,6 +510,22 @@
             "y": 88
           }
         ]
+      },
+      {
+        "name": "Pewter Gym Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Gym Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_gym",
+            "shape":"diamond",
+            "x": 104,
+            "y": 232
+          }
+        ]
       }
     ]
   },
@@ -331,6 +544,64 @@
             "map": "pewter_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pewter Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_mart",
+            "shape":"diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Nidoran House",
+    "children": [
+      {
+        "name": "Pewter Nidoran House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Nidoran House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_nidoran_house",
+            "shape":"diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pewter Info House",
+    "children": [
+      {
+        "name": "Pewter Info House Exit",
+        "sections": [
+          {
+            "ref": "City Entrances/Pewter City/Pewter Info House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pewter_info_house",
+            "shape":"diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

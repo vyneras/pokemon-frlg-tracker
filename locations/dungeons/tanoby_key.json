@@ -16,6 +16,22 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Tanoby Key Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Tanoby Key/Tanoby Key Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "tanoby_key",
+            "shape": "diamond",
+            "x": 120,
+            "y": 232
+          }
+        ]
       }
     ]
   }

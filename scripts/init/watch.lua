@@ -1,0 +1,61 @@
+HOSTED_ITEMS = {"fresh_water", "lemonade", "soda_pop", "deliver_oaks_parcel", "defeat_route_22_rival", "defeat_brock",
+                "miguel_takes_fossil", "save_bill", "defeat_misty", "defeat_lt_surge", "defeat_erika", "rescue_mr_fuji",
+                "defeat_koga", "liberate_silph_co", "defeat_sabrina", "defeat_blaine", "defeat_giovanni",
+                "defeat_champion", "rescue_lostelle", "deliver_meteorite", "learn_goldeen_need_log", "help_lorelei",
+                "rescue_selphy", "learn_yes_nah_chansey", "free_captured_pokemon", "unlock_ruins",
+                "restore_pokemon_network_machine", "defeat_champion_rematch"}
+
+ENTRANCE_RANDO_SETTINGS = {"shuffle_pokemon_centers_setting", "shuffle_gyms_setting", "shuffle_marts_setting",
+                           "shuffle_harbors_setting", "shuffle_buildings_setting", "shuffle_dungeons_setting",
+                           "shuffle_interiors_setting", "shuffle_warp_tiles_setting", "shuffle_dropdowns_setting"}
+
+function initialize_watch_items()
+    -- Updates
+    ScriptHost:AddWatchForCode("tracker_on_accessibility_updating", "*", tracker_on_accessibility_updating)
+
+    -- Hosted Items
+    for _, code in pairs(HOSTED_ITEMS) do
+        ScriptHost:AddWatchForCode(code, code, toggle_item)
+        ScriptHost:AddWatchForCode(code .. "_hosted", code .. "_hosted", toggle_hosted_item)
+    end
+
+    -- Fly Unlocks
+    for _, data in pairs(FLY_UNLOCK_FLAG_MAPPING) do
+        ScriptHost:AddWatchForCode(data.code, data.code, toggle_fly_unlock)
+    end
+
+    -- Layouts
+    ScriptHost:AddWatchForCode("extra_key_items", "extra_key_items_setting", toggle_item_grid)
+    ScriptHost:AddWatchForCode("split_card_keys", "card_keys_setting", toggle_item_grid)
+    ScriptHost:AddWatchForCode("split_passes", "island_passes_setting", toggle_item_grid)
+    ScriptHost:AddWatchForCode("split_teas", "teas_setting", toggle_item_grid)
+    ScriptHost:AddWatchForCode("gym_keys", "gym_keys_setting", toggle_item_grid)
+    ScriptHost:AddWatchForCode("split_map", "split_map_setting", toggle_maps)
+    ScriptHost:AddWatchForCode("pokemon_tabs", "pokemon_tabs_setting", toggle_item_tabs)
+    ScriptHost:AddWatchForCode("kanto_only", "kanto_only_setting", toggle_maps)
+    for _, code in pairs(ENTRANCE_RANDO_SETTINGS) do
+        ScriptHost:AddWatchForCode(code, code, toggle_maps)
+    end
+
+    -- Maps
+    ScriptHost:AddWatchForCode("kanto_only_map", "kanto_only_setting", toggle_kanto_only_maps)
+    ScriptHost:AddWatchForCode("kanto_only_map", "kanto_only_setting", toggle_overworld_maps)
+    ScriptHost:AddWatchForCode("split_teas_map", "teas_setting", toggle_split_tea_maps)
+    ScriptHost:AddWatchForCode("route_2_map", "digletts_cave_roadblock_setting", toggle_route_2_maps)
+    ScriptHost:AddWatchForCode("block_paths_map", "block_paths_setting", toggle_path_maps)
+    ScriptHost:AddWatchForCode("victory_road_map", "victory_road_rocks_setting", toggle_victory_road_maps)
+    ScriptHost:AddWatchForCode("route_12_boulder_map", "route_12_boulders_setting", toggle_route_12_maps)
+    ScriptHost:AddWatchForCode("route_12_rocks_map", "route_12_rocks_setting", toggle_route_12_maps)
+    ScriptHost:AddWatchForCode("route_10_map", "route_10_waterfall_setting", toggle_route_10_and_extra_item_maps)
+    ScriptHost:AddWatchForCode("route_9_map", "route_9_roadblock_setting", toggle_route_9_maps)
+    ScriptHost:AddWatchForCode("route_16_map", "route_16_rock_setting", toggle_route_16_maps)
+    ScriptHost:AddWatchForCode("extra_map", "extra_key_items_setting", toggle_route_10_and_extra_item_maps)
+    ScriptHost:AddWatchForCode("route_23_trees", "route_23_trees_setting", toggle_route_23_maps)
+    ScriptHost:AddWatchForCode("route_23_modified", "route_23_waterfall_setting", toggle_route_23_maps)
+
+    -- Encounters
+    ScriptHost:AddWatchForCode("game_version", "game_version_setting", set_encounter_counts)
+
+    -- Apworld Version Mismtach
+    ScriptHost:AddWatchForCode("version_mismatch", "version_mismatch", toggle_version_mismtach)
+end

@@ -45,6 +45,38 @@
             "y": 456
           }
         ]
+      },
+      {
+        "name": "S.S. Anne Exterior Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne Exterior Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_exterior",
+            "shape": "diamond",
+            "x": 120,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_exterior",
+            "shape": "diamond",
+            "x": 120,
+            "y": 232
+          }
+        ]
       }
     ]
   },
@@ -75,7 +107,8 @@
           {
             "map": "ss_anne_1f_corridor",
             "x": 40,
-            "y": 312
+            "y": 312,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -99,7 +132,8 @@
           {
             "map": "ss_anne_1f_corridor",
             "x": 136,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -115,7 +149,8 @@
           {
             "map": "ss_anne_1f_corridor",
             "x": 280,
-            "y": 184
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -130,6 +165,183 @@
         "map_locations": [
           {
             "map": "ss_anne_1f_corridor",
+            "x": 376,
+            "y": 184,
+            "force_invisibility_rules": ["$shuffle_interiors"]
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Corridor Northwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Corridor Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 48,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne Kitchen Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne Kitchen Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 40,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 312,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Corridor Southeast Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Corridor Southeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 448,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 1 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 1 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 88,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 2 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 2 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 3 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 3 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 184,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 4 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 4 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 232,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 5 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 5 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 280,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 6 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 6 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
+            "x": 328,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 7 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 7 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_corridor",
+            "shape": "diamond",
             "x": 376,
             "y": 184
           }
@@ -203,6 +415,43 @@
             "y": 136
           }
         ]
+      },
+      {
+        "name": "S.S. Anne Kitchen Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne Kitchen Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_kitchen",
+            "shape": "diamond",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 1",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 1 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 1 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_1",
+            "shape": "diamond",
+            "x": 40,
+            "y": 24
+          }
+        ]
       }
     ]
   },
@@ -256,6 +505,64 @@
             "y": 120
           }
         ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 2 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 2 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_2",
+            "shape": "diamond",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 3",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 3 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 3 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_3",
+            "shape": "diamond",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 4",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 4 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 4 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_4",
+            "shape": "diamond",
+            "x": 40,
+            "y": 24
+          }
+        ]
       }
     ]
   },
@@ -277,6 +584,43 @@
             "y": 104
           }
         ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 5 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 5 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_5",
+            "shape": "diamond",
+            "x": 40,
+            "y": 24
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 1F Room 6",
+    "children": [
+      {
+        "name": "S.S. Anne 1F Room 6 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 6 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_6",
+            "shape": "diamond",
+            "x": 40,
+            "y": 24
+          }
+        ]
       }
     ]
   },
@@ -296,6 +640,22 @@
             "map": "ss_anne_1f_room_7",
             "x": 72,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 1F Room 7 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 1F Room 7 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_1f_room_7",
+            "shape": "diamond",
+            "x": 40,
+            "y": 24
           }
         ]
       }
@@ -336,7 +696,8 @@
           {
             "map": "ss_anne_b1f_corridor",
             "x": 40,
-            "y": 40
+            "y": 40,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -356,7 +717,8 @@
           {
             "map": "ss_anne_b1f_corridor",
             "x": 104,
-            "y": 40
+            "y": 40,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -376,7 +738,8 @@
           {
             "map": "ss_anne_b1f_corridor",
             "x": 168,
-            "y": 40
+            "y": 40,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -396,7 +759,8 @@
           {
             "map": "ss_anne_b1f_corridor",
             "x": 232,
-            "y": 40
+            "y": 40,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -411,6 +775,103 @@
         "map_locations": [
           {
             "map": "ss_anne_b1f_corridor",
+            "x": 296,
+            "y": 40,
+            "force_invisibility_rules": ["$shuffle_interiors"]
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Corridor Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Corridor Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "shape": "diamond",
+            "x": 320,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 1 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 1 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "shape": "diamond",
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 2 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 2 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "shape": "diamond",
+            "x": 104,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 3 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 3 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "shape": "diamond",
+            "x": 168,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 4 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 4 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "shape": "diamond",
+            "x": 232,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 5 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 5 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_corridor",
+            "shape": "diamond",
             "x": 296,
             "y": 40
           }
@@ -452,6 +913,22 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 1 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 1 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_1",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -487,6 +964,22 @@
             "map": "ss_anne_b1f_room_2",
             "x": 56,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 2 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 2 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_2",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -526,6 +1019,22 @@
             "y": 88
           }
         ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 3 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 3 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_3",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -563,6 +1072,22 @@
             "y": 56
           }
         ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 4 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 4 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_4",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -582,6 +1107,22 @@
             "map": "ss_anne_b1f_room_5",
             "x": 40,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne B1F Room 5 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne B1F Room 5 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_b1f_room_5",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -610,7 +1151,8 @@
           {
             "map": "ss_anne_2f_corridor",
             "x": 168,
-            "y": 168
+            "y": 168,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -634,7 +1176,8 @@
           {
             "map": "ss_anne_2f_corridor",
             "x": 296,
-            "y": 168
+            "y": 168,
+            "force_invisibility_rules": ["$shuffle_interiors"]
           }
         ]
       },
@@ -649,8 +1192,173 @@
         "map_locations": [
           {
             "map": "ss_anne_2f_corridor",
-            "x": 488,
+            "x": 504,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Corridor Northwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Corridor Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 48,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Corridor Southwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Corridor Southwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 48,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Corridor Northeast Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Corridor Northeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 496,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 1 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 1 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 104,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 2 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 2 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 168,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 3 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 3 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 232,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 4 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 4 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 296,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 5 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 5 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 360,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 6 Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 6 Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_corridor",
+            "shape": "diamond",
+            "x": 424,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 1",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 1 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 1 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_1",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }
@@ -706,6 +1414,43 @@
             "y": 56
           }
         ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 2 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 2 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_2",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 3",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 3 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 3 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_3",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -759,6 +1504,101 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "S.S. Anne 2F Room 4 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 4 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_4",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 5",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 5 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 5 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_5",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 2F Room 6",
+    "children": [
+      {
+        "name": "S.S. Anne 2F Room 6 Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 2F Room 6 Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_2f_room_6",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "S.S. Anne 3F Corridor",
+    "children": [
+      {
+        "name": "S.S. Anne 3F Corridor Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 3F Corridor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_3f_corridor",
+            "shape": "diamond",
+            "x": 24,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne 3F Corridor Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne 3F Corridor Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_3f_corridor",
+            "shape": "diamond",
+            "x": 304,
+            "y": 44
+          }
+        ]
       }
     ]
   },
@@ -796,6 +1636,22 @@
             "y": 152
           }
         ]
+      },
+      {
+        "name": "S.S. Anne Deck Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne Deck Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_deck",
+            "shape": "diamond",
+            "x": 264,
+            "y": 144
+          }
+        ]
       }
     ]
   },
@@ -815,6 +1671,22 @@
             "map": "ss_anne_captains_office",
             "x": 88,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "S.S. Anne Captain's Office Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/S.S. Anne/S.S. Anne Captain's Office Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ss_anne_captains_office",
+            "shape": "diamond",
+            "x": 48,
+            "y": 124
           }
         ]
       }

@@ -113,6 +113,70 @@
             "y": 392
           }
         ]
+      },
+      {
+        "name": "Pokemon Mansion 1F West Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 1F West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "shape": "diamond",
+            "x": 136,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F East Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 1F East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "shape": "diamond",
+            "x": 552,
+            "y": 536
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F West Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 1F West Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "shape": "diamond",
+            "x": 176,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 1F South Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 1F South Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_1f",
+            "shape": "diamond",
+            "x": 400,
+            "y": 444
+          }
+        ]
       }
     ]
   },
@@ -196,6 +260,70 @@
             "map": "pokemon_mansion_2f",
             "x": 88,
             "y": 376
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F Northwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 2F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F West Stairs (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 2F West Stairs (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "shape": "diamond",
+            "x": 96,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F West Stairs (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 2F West Stairs (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "shape": "diamond",
+            "x": 160,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 2F East Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 2F East Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_2f",
+            "shape": "diamond",
+            "x": 560,
+            "y": 360
           }
         ]
       }
@@ -297,6 +425,86 @@
             "map": "pokemon_mansion_3f",
             "x": 360,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Southwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 3F Southwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "shape": "diamond",
+            "x": 176,
+            "y": 188
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Northwest Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 3F Northwest Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "shape": "diamond",
+            "x": 128,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Southeast Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 3F Southeast Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "shape": "diamond",
+            "x": 544,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Drop (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 3F Drop (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "shape": "diamond",
+            "x": 312,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion 3F Drop (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion 3F Drop (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_3f",
+            "shape": "diamond",
+            "x": 384,
+            "y": 296
           }
         ]
       }
@@ -430,6 +638,22 @@
             "map": "pokemon_mansion_b1f",
             "x": 552,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Pokemon Mansion B1F Stairs",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Pokémon Mansion/Pokemon Mansion B1F Stairs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_mansion_b1f",
+            "shape": "diamond",
+            "x": 560,
+            "y": 472
           }
         ]
       }

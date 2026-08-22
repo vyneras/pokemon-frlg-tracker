@@ -33,6 +33,54 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Icefall Cave Front South Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave Front South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_front",
+            "shape": "diamond",
+            "x": 280,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave Front North Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave Front North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_front",
+            "shape": "diamond",
+            "x": 168,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave Front Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave Front Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_front",
+            "shape": "diamond",
+            "x": 152,
+            "y": 120
+          }
+        ]
       }
     ]
   },
@@ -86,6 +134,102 @@
             "y": 264
           }
         ]
+      },
+      {
+        "name": "Icefall Cave 1F South Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave 1F South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "shape": "diamond",
+            "x": 56,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F East Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave 1F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "shape": "diamond",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "shape": "diamond",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F Southeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave 1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "shape": "diamond",
+            "x": 248,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 136
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave 1F North Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave 1F North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_1f",
+            "shape": "diamond",
+            "x": 56,
+            "y": 104
+          }
+        ]
       }
     ]
   },
@@ -137,6 +281,54 @@
             "map": "icefall_cave_b1f",
             "x": 168,
             "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave B1F West Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave B1F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "shape": "diamond",
+            "x": 200,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave B1F North Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave B1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "shape": "diamond",
+            "x": 200,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave B1F South Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave B1F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_b1f",
+            "shape": "diamond",
+            "x": 248,
+            "y": 264
           }
         ]
       }
@@ -210,6 +402,22 @@
             "map": "icefall_cave_back",
             "x": 216,
             "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Icefall Cave Back Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Icefall Cave/Icefall Cave Back Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "icefall_cave_back",
+            "shape": "diamond",
+            "x": 200,
+            "y": 392
           }
         ]
       }

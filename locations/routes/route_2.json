@@ -66,12 +66,14 @@
           {
             "map": "route_2_south",
             "x": 304,
-            "y": 104
+            "y": 104,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           },
           {
             "map": "route_2_south",
             "x": 304,
-            "y": 24
+            "y": 24,
+            "force_invisibility_rules": ["$shuffle_buildings"]
           }
         ]
       },
@@ -86,7 +88,88 @@
           {
             "map": "route_2_north",
             "x": 280,
+            "y": 360,
+            "force_invisibility_rules": ["$shuffle_buildings"]
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest South Gate Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Viridian Forest South Gate Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "shape": "diamond",
+            "x": 96,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest North Gate Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Viridian Forest North Gate Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "shape": "diamond",
+            "x": 96,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Trade House Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Route 2 Trade House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_north",
+            "shape": "diamond",
+            "x": 280,
             "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate North Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Route 2 Gate North Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "shape": "diamond",
+            "x": 304,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate South Entrance",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Route 2 Gate South Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_south",
+            "shape": "diamond",
+            "x": 304,
+            "y": 104
           }
         ]
       },
@@ -94,13 +177,13 @@
         "name": "Diglett's Cave North Entrance",
         "sections": [
           {
-            "ref": "Routes/Route 2/Diglett's Cave North Entrance",
-            "name": "Entrance"
+            "ref": "Route Entrances/Route 2/Diglett's Cave North Entrance"
           }
         ],
         "map_locations": [
           {
             "map": "route_2_north",
+            "shape": "diamond",
             "x": 280,
             "y": 184
           }
@@ -126,6 +209,38 @@
             "y": 104
           }
         ]
+      },
+      {
+        "name": "Route 2 Gate North Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Route 2 Gate North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "shape": "diamond",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Gate South Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Route 2 Gate South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_gate",
+            "shape": "diamond",
+            "x": 120,
+            "y": 168
+          }
+        ]
       }
     ]
   },
@@ -133,21 +248,32 @@
     "name": "Viridian Forest South Entrance",
     "children": [
       {
-        "name": "Viridian Forest South Entrance",
+        "name": "Viridian Forest South Gate South Exit",
         "sections": [
           {
-            "ref": "Routes/Route 2/Viridian Forest South Entrance",
-            "name": "Entrance"
+            "ref": "Route Entrances/Route 2/Viridian Forest South Gate South Exit"
           }
         ],
         "map_locations": [
           {
-            "map": "route_2_south",
-            "x": 96,
-            "y": 184
-          },
+            "map": "viridian_forest_south_entrance",
+            "shape": "diamond",
+            "x": 120,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest South Gate North Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Viridian Forest South Gate North Exit"
+          }
+        ],
+        "map_locations": [
           {
             "map": "viridian_forest_south_entrance",
+            "shape": "diamond",
             "x": 120,
             "y": 24
           }
@@ -159,21 +285,32 @@
     "name": "Viridian Forest North Entrance",
     "children": [
       {
-        "name": "Viridian Forest North Entrance",
+        "name": "Viridian Forest North Gate North Exit",
         "sections": [
           {
-            "ref": "Routes/Route 2/Viridian Forest North Entrance",
-            "name": "Entrance"
+            "ref": "Route Entrances/Route 2/Viridian Forest North Gate North Exit"
           }
         ],
         "map_locations": [
           {
-            "map": "route_2_north",
-            "x": 96,
-            "y": 216
-          },
+            "map": "viridian_forest_north_entrance",
+            "shape": "diamond",
+            "x": 120,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Viridian Forest North Gate South Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Viridian Forest North Gate South Exit"
+          }
+        ],
+        "map_locations": [
           {
             "map": "viridian_forest_north_entrance",
+            "shape": "diamond",
             "x": 120,
             "y": 168
           }
@@ -197,6 +334,22 @@
             "map": "route_2_trade_house",
             "x": 120,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Route 2 Trade House Exit",
+        "sections": [
+          {
+            "ref": "Route Entrances/Route 2/Route 2 Trade House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "route_2_trade_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

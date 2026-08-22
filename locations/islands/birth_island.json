@@ -17,6 +17,43 @@
             "y": 200
           }
         ]
+      },
+      {
+        "name": "Birth Island Harbor Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Birth Island/Birth Island Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "birth_island",
+            "shape": "diamond",
+            "x": 248,
+            "y": 392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Birth Island Harbor",
+    "children": [
+      {
+        "name": "Birth Island Harbor Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Birth Island/Birth Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "birth_island_harbor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
+          }
+        ]
       }
     ]
   }

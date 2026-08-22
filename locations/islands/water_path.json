@@ -239,7 +239,40 @@
           {
             "map": "water_path_north",
             "x": 88,
+            "y": 216,
+            "force_invisibility_rules": ["$shuffle_buildings"]
+          }
+        ]
+      },
+      {
+        "name": "Water Path Heracross Woman's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Water Path/Water Path Heracross Woman's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "shape": "diamond",
+            "x": 88,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Water Path Man's House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Water Path/Water Path Man's House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_north",
+            "shape": "diamond",
+            "x": 184,
+            "y": 312
           }
         ]
       }
@@ -261,6 +294,43 @@
             "map": "water_path_heracross_womans_house",
             "x": 56,
             "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Water Path Heracross Woman's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Water Path/Water Path Heracross Woman's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_heracross_womans_house",
+            "shape": "diamond",
+            "x": 56,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Water Path Man's House",
+    "children": [
+      {
+        "name": "Water Path Man's House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Water Path/Water Path Man's House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "water_path_mans_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
           }
         ]
       }

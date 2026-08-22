@@ -580,6 +580,35 @@
     ]
   },
   {
+    "name": "Elevator's Condition",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/elevator.png",
+        "img_mods": "overlay|images/overlays/open.png",
+        "codes": "elevators_condition_setting,elevators_condition_open",
+        "inherit_codes": false,
+        "name": "Elevator's Condition - Open"
+      },
+      {
+        "img": "images/settings/elevator.png",
+        "img_mods": "overlay|images/overlays/lock.png",
+        "codes": "elevators_condition_setting,elevators_condition_locked",
+        "inherit_codes": false,
+        "name": "Elevator's Condition - Locked"
+      },
+      {
+        "img": "images/settings/elevator.png",
+        "img_mods": "overlay|images/overlays/disabled.png",
+        "codes": "elevators_condition_setting,elevators_condition_disabled",
+        "inherit_codes": false,
+        "name": "Elevator's Condition - Disabled"
+      }
+    ]
+  },
+  {
     "name": "Viridian City Roadblock",
     "type": "progressive",
     "allow_disabled": false,
@@ -646,7 +675,7 @@
     ]
   },
   {
-    "name": "Cerulean City Roadblock",
+    "name": "Cerulean City Roadblocks",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -654,87 +683,87 @@
       {
         "img": "images/settings/bill.png",
         "img_mods": "overlay|images/overlays/green_check.png",
-        "codes": "cerulean_roadblock_setting,cerulean_roadblock_on",
+        "codes": "cerulean_roadblocks_setting,cerulean_roadblocks_on",
         "inherit_codes": false,
-        "name": "Cerulean City Roadblock - On"
+        "name": "Cerulean City Roadblocks - On"
       },
       {
         "img": "images/settings/bill.png",
         "img_mods": "overlay|images/overlays/red_x.png",
-        "codes": "cerulean_roadblock_setting,cerulean_roadblock_off",
+        "codes": "cerulean_roadblocks_setting,cerulean_roadblocks_off",
         "inherit_codes": false,
-        "name": "Cerulean City Roadblock - Off"
+        "name": "Cerulean City Roadblocks - Off"
       }
     ]
   },
   {
-    "name": "Modify Route 2",
+    "name": "Diglett's Cave Roadblock",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
     "stages": [
       {
-        "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|images/overlays/route_2.png,@disabled",
-        "codes": "modify_route_2_setting,modify_route_2_off",
+        "img": "images/settings/cut_tree.png",
+        "img_mods": "overlay|images/overlays/route_2.png",
+        "codes": "digletts_cave_roadblock_setting,digletts_cave_roadblock_vanilla",
         "inherit_codes": false,
-        "name": "Modify Route 2 - Off"
+        "name": "Diglett's Cave Roadblock - Vanilla"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
         "img_mods": "overlay|images/overlays/route_2.png",
-        "codes": "modify_route_2_setting,modify_route_2_on",
+        "codes": "digletts_cave_roadblock_setting,digletts_cave_roadblock_rock",
         "inherit_codes": false,
-        "name": "Modify Route 2 - On"
+        "name": "Diglett's Cave Roadblock - Smashable Rock"
       }
     ]
   },
   {
-    "name": "Block Underground Tunnels",
+    "name": "Block Underground Paths",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
     "stages": [
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|images/overlays/tunnel.png,@disabled",
-        "codes": "block_tunnels_setting,block_tunnels_off",
+        "img_mods": "overlay|images/overlays/path.png,@disabled",
+        "codes": "block_paths_setting,block_paths_off",
         "inherit_codes": false,
-        "name": "Block Underground Tunnels - Off"
+        "name": "Block Underground Paths - Off"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|images/overlays/tunnel.png",
-        "codes": "block_tunnels_setting,block_tunnels_on",
+        "img_mods": "overlay|images/overlays/path.png",
+        "codes": "block_paths_setting,block_paths_on",
         "inherit_codes": false,
-        "name": "Block Underground Tunnels - On"
+        "name": "Block Underground Paths - On"
       }
     ]
   },
   {
-    "name": "Modify Route 9",
+    "name": "Route 9 Roadblock",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
     "stages": [
       {
-        "img": "images/settings/rock_smash_rock.png",
-        "img_mods": "overlay|images/overlays/route_9.png,@disabled",
-        "codes": "modify_route_9_setting,modify_route_9_off",
+        "img": "images/settings/cut_tree.png",
+        "img_mods": "overlay|images/overlays/route_9.png",
+        "codes": "route_9_roadblock_setting,route_9_roadblock_off",
         "inherit_codes": false,
-        "name": "Modify Route 9 - Off"
+        "name": "Route 9 Roadblock - Vanilla"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
         "img_mods": "overlay|images/overlays/route_9.png",
-        "codes": "modify_route_9_setting,modify_route_9_on",
+        "codes": "route_9_roadblock_setting,route_9_roadblock_on",
         "inherit_codes": false,
-        "name": "Modify Route 9 - On"
+        "name": "Route 9 Roadblock - Smashable Rock"
       }
     ]
   },
   {
-    "name": "Modify Route 10",
+    "name": "Route 10 Waterfall",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -742,16 +771,16 @@
       {
         "img": "images/settings/waterfall.png",
         "img_mods": "overlay|images/overlays/route_10.png,@disabled",
-        "codes": "modify_route_10_setting,modify_route_10_off",
+        "codes": "route_10_waterfall_setting,route_10_waterfall_off",
         "inherit_codes": false,
-        "name": "Modify Route 10 - Off"
+        "name": "Route 10 Waterfall - Off"
       },
       {
         "img": "images/settings/waterfall.png",
         "img_mods": "overlay|images/overlays/route_10.png",
-        "codes": "modify_route_10_setting,modify_route_10_on",
+        "codes": "route_10_waterfall_setting,route_10_waterfall_on",
         "inherit_codes": false,
-        "name": "Modify Route 10 - On"
+        "name": "Route 10 Waterfall - On"
       }
     ]
   },
@@ -800,7 +829,7 @@
     ]
   },
   {
-    "name": "Modify Route 12",
+    "name": "Route 12 Rocks",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -808,21 +837,21 @@
       {
         "img": "images/settings/water_rock.png",
         "img_mods": "overlay|images/overlays/route_12.png,@disabled",
-        "codes": "modify_route_12_setting,modify_route_12_off",
+        "codes": "route_12_rocks_setting,route_12_rocks_off",
         "inherit_codes": false,
-        "name": "Modify Route 12 - Off"
+        "name": "Route 12 Rocks - Off"
       },
       {
         "img": "images/settings/water_rock.png",
         "img_mods": "overlay|images/overlays/route_12.png",
-        "codes": "modify_route_12_setting,modify_route_12_on",
+        "codes": "route_12_rocks_setting,route_12_rocks_on",
         "inherit_codes": false,
-        "name": "Modify Route 12 - On"
+        "name": "Route 12 Rocks - On"
       }
     ]
   },
   {
-    "name": "Modify Route 16",
+    "name": "Route 16 Rock",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -830,16 +859,16 @@
       {
         "img": "images/settings/rock_smash_rock.png",
         "img_mods": "overlay|images/overlays/route_16.png,@disabled",
-        "codes": "modify_route_16_setting,modify_route_16_off",
+        "codes": "route_16_rock_setting,route_16_rock_off",
         "inherit_codes": false,
-        "name": "Modify Route 16 - Off"
+        "name": "Route 16 Rock - Off"
       },
       {
         "img": "images/settings/rock_smash_rock.png",
         "img_mods": "overlay|images/overlays/route_16.png",
-        "codes": "modify_route_16_setting,modify_route_16_on",
+        "codes": "route_16_rock_setting,route_16_rock_on",
         "inherit_codes": false,
-        "name": "Modify Route 16 - On"
+        "name": "Route 16 Rock - On"
       }
     ]
   },
@@ -910,7 +939,7 @@
     ]
   },
   {
-    "name": "Modify Route 23",
+    "name": "Route 23 Waterfall",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -918,16 +947,16 @@
       {
         "img": "images/settings/waterfall.png",
         "img_mods": "overlay|images/overlays/route_23.png,@disabled",
-        "codes": "modify_route_23_setting,modify_route_23_off",
+        "codes": "route_23_waterfall_setting,route_23_waterfall_off",
         "inherit_codes": false,
-        "name": "Modify Route 23 - Off"
+        "name": "Route 23 Waterfall - Off"
       },
       {
         "img": "images/settings/waterfall.png",
         "img_mods": "overlay|images/overlays/route_23.png",
-        "codes": "modify_route_23_setting,modify_route_23_on",
+        "codes": "route_23_waterfall_setting,route_23_waterfall_on",
         "inherit_codes": false,
-        "name": "Modify Route 23 - On"
+        "name": "Route 23 Waterfall - On"
       }
     ]
   },
@@ -1042,45 +1071,271 @@
     ]
   },
   {
+    "name": "Shuffle Pokémon Centers",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/pokemon_center.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_pokemon_centers_setting,shuffle_pokemon_centers_off",
+        "inherit_codes": false,
+        "name": "Shuffle Pokémon Centers - Off"
+      },
+      {
+        "img": "images/settings/pokemon_center.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_pokemon_centers_setting,shuffle_pokemon_centers_on",
+        "inherit_codes": false,
+        "name": "Shuffle Pokémon Centers - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Gyms",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/gym.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_gyms_setting,shuffle_gyms_off",
+        "inherit_codes": false,
+        "name": "Shuffle Gyms - Off"
+      },
+      {
+        "img": "images/settings/gym.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_gyms_setting,shuffle_gyms_on",
+        "inherit_codes": false,
+        "name": "Shuffle Gyms - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Marts",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/mart.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_marts_setting,shuffle_marts_off",
+        "inherit_codes": false,
+        "name": "Shuffle Marts - Off"
+      },
+      {
+        "img": "images/settings/mart.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_marts_setting,shuffle_marts_on",
+        "inherit_codes": false,
+        "name": "Shuffle Marts - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Harbors",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/harbor.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_harbors_setting,shuffle_harbors_off",
+        "inherit_codes": false,
+        "name": "Shuffle Harbors - Off"
+      },
+      {
+        "img": "images/settings/harbor.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_harbors_setting,shuffle_harbors_on",
+        "inherit_codes": false,
+        "name": "Shuffle Harbors - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Buildings",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/building.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_buildings_setting,shuffle_buildings_off",
+        "inherit_codes": false,
+        "name": "Shuffle Buildings - Off"
+      },
+      {
+        "img": "images/settings/building.png",
+        "img_mods": "overlay|images/overlays/simple.png",
+        "codes": "shuffle_buildings_setting,shuffle_buildings_simple",
+        "inherit_codes": false,
+        "name": "Shuffle Buildings - Simple"
+      },
+      {
+        "img": "images/settings/building.png",
+        "img_mods": "overlay|images/overlays/restricted.png",
+        "codes": "shuffle_buildings_setting,shuffle_buildings_restricted",
+        "inherit_codes": false,
+        "name": "Shuffle Buildings - Restricted"
+      },
+      {
+        "img": "images/settings/building.png",
+        "img_mods": "overlay|images/overlays/full.png",
+        "codes": "shuffle_buildings_setting,shuffle_buildings_full",
+        "inherit_codes": false,
+        "name": "Shuffle Buildings - Full"
+      }
+    ]
+  },
+  {
     "name": "Shuffle Dungeons",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
     "stages": [
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/off.png,@disabled",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_off",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Off"
       },
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/sea.png",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_seafoam",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Seafoam"
       },
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/simple.png",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_simple",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Simple"
       },
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/restricted.png",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_restricted",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Restricted"
       },
       {
-        "img": "images/settings/dungeon_entrance.png",
+        "img": "images/settings/dungeon.png",
         "img_mods": "overlay|images/overlays/full.png",
         "codes": "shuffle_dungeons_setting,shuffle_dungeons_full",
         "inherit_codes": false,
         "name": "Shuffle Dungeons - Full"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Interiors",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/ladder.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_interiors_setting,shuffle_interiors_off",
+        "inherit_codes": false,
+        "name": "Shuffle Interiors - Off"
+      },
+      {
+        "img": "images/settings/ladder.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "shuffle_interiors_setting,shuffle_interiors_on",
+        "inherit_codes": false,
+        "name": "Shuffle Interiors - On"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Warp Tiles",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/warp_tile.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_warp_tiles_setting,shuffle_warp_tiles_off",
+        "inherit_codes": false,
+        "name": "Shuffle Warp Tiles - Off"
+      },
+      {
+        "img": "images/settings/warp_tile.png",
+        "img_mods": "overlay|images/overlays/simple.png",
+        "codes": "shuffle_warp_tiles_setting,shuffle_warp_tiles_simple",
+        "inherit_codes": false,
+        "name": "Shuffle Warp Tiles - Simple"
+      },
+      {
+        "img": "images/settings/warp_tile.png",
+        "img_mods": "overlay|images/overlays/full.png",
+        "codes": "shuffle_warp_tiles_setting,shuffle_warp_tiles_full",
+        "inherit_codes": false,
+        "name": "Shuffle Warp Tiles - Full"
+      }
+    ]
+  },
+  {
+    "name": "Shuffle Dropdowns",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/dropdown.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "shuffle_dropdowns_setting,shuffle_dropdowns_off",
+        "inherit_codes": false,
+        "name": "Shuffle Dropdowns - Off"
+      },
+      {
+        "img": "images/settings/dropdown.png",
+        "img_mods": "overlay|images/overlays/simple.png",
+        "codes": "shuffle_dropdowns_setting,shuffle_dropdowns_simple",
+        "inherit_codes": false,
+        "name": "Shuffle Dropdowns - Simple"
+      },
+      {
+        "img": "images/settings/dropdown.png",
+        "img_mods": "overlay|images/overlays/full.png",
+        "codes": "shuffle_dropdowns_setting,shuffle_dropdowns_full",
+        "inherit_codes": false,
+        "name": "Shuffle Dropdowns - Full"
+      }
+    ]
+  },
+  {
+    "name": "Decoupled Entrances",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "stages": [
+      {
+        "img": "images/settings/link_cable.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "decoupled_entrances_settting,decoupled_entrances_off",
+        "inherit_codes": false,
+        "name": "Decoupled Entrances - Off"
+      },
+      {
+        "img": "images/settings/link_cable.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "decoupled_entrances_settting,decoupled_entrances_on",
+        "inherit_codes": false,
+        "name": "Decoupled Entrances - On"
       }
     ]
   },
@@ -1226,7 +1481,7 @@
     "codes": "route_15_oaks_aide"
   },
   {
-    "name": "Pokemon Lab Fossil Scientist",
+    "name": "Pokémon Lab Fossil Scientist",
     "type": "static",
     "img": "images/settings/oaks_aide.png",
     "img_mods": "overlay|images/overlays/lab.png",
@@ -1675,7 +1930,7 @@
     ]
   },
   {
-    "name": "Pokemon Tabs",
+    "name": "Pokémon Tabs",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -1686,19 +1941,65 @@
         "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
         "codes": "pokemon_tabs_setting,pokemon_tabs_off",
         "inherit_codes": false,
-        "name": "Pokemon Tabs - Off"
+        "name": "Pokémon Tabs - Off"
       },
       {
         "img": "images/settings/pokedex_alt.png",
         "img_mods": "overlay|images/overlays/on_alt.png",
         "codes": "pokemon_tabs_setting,pokemon_tabs_on",
         "inherit_codes": false,
-        "name": "Pokemon Tabs - On"
+        "name": "Pokémon Tabs - On"
       }
     ]
   },
   {
-    "name": "Pokemon Locations",
+    "name": "Item Locations",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/pokeball.png",
+        "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
+        "codes": "item_locations_setting,item_locations_off",
+        "inherit_codes": false,
+        "name": "Item Locations - Off"
+      },
+      {
+        "img": "images/settings/pokeball.png",
+        "img_mods": "overlay|images/overlays/on_alt.png",
+        "codes": "item_locations_setting,item_locations_on",
+        "inherit_codes": false,
+        "name": "Item Locations - On"
+      }
+    ]
+  },
+  {
+    "name": "Entrance Locations",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/door.png",
+        "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
+        "codes": "entrance_locations_setting,entrance_locations_off",
+        "inherit_codes": false,
+        "name": "Entrance Locations - Off"
+      },
+      {
+        "img": "images/settings/door.png",
+        "img_mods": "overlay|images/overlays/on_alt.png",
+        "codes": "entrance_locations_setting,entrance_locations_on",
+        "inherit_codes": false,
+        "name": "Entrance Locations - On"
+      }
+    ]
+  },
+  {
+    "name": "Pokémon Locations",
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
@@ -1707,23 +2008,16 @@
       {
         "img": "images/settings/mew.png",
         "img_mods": "overlay|images/overlays/off_alt.png,@disabled",
-        "codes": "pokemon_locations_setting,item_locations_on",
+        "codes": "pokemon_locations_setting,pokemon_locations_off",
         "inherit_codes": false,
-        "name": "Pokemon Locations - Off"
+        "name": "Pokémon Locations - Off"
       },
       {
         "img": "images/settings/mew.png",
         "img_mods": "overlay|images/overlays/on_alt.png",
-        "codes": "pokemon_locations_setting,item_locations_on,pokemon_locations_on",
-        "inherit_codes": false,
-        "name": "Pokemon Locations - On"
-      },
-      {
-        "img": "images/settings/mew.png",
-        "img_mods": "overlay|images/overlays/only_alt.png",
         "codes": "pokemon_locations_setting,pokemon_locations_on",
         "inherit_codes": false,
-        "name": "Pokemon Locations - Only"
+        "name": "Pokémon Locations - On"
       }
     ]
   },

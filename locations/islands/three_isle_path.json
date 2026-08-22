@@ -33,6 +33,38 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Three Isle Path West Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Isle Path/Three Isle Path West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "shape": "diamond",
+            "x": 56,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Three Isle Path East Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Three Isle Path/Three Isle Path East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "three_isle_path",
+            "shape": "diamond",
+            "x": 408,
+            "y": 104
+          }
+        ]
       }
     ]
   }

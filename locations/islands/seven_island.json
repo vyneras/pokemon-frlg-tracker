@@ -33,7 +33,8 @@
           {
             "map": "seven_island",
             "x": 200,
-            "y": 56
+            "y": 56,
+            "force_invisibility_rules": ["$shuffle_pokemon_centers"]
           }
         ]
       },
@@ -68,7 +69,72 @@
           {
             "map": "seven_island",
             "x": 88,
+            "y": 152,
+            "force_invisibility_rules": ["$shuffle_marts"]
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Trainer Battle House Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Seven Island Town/Seven Island Trainer Battle House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "shape": "diamond",
+            "x": 184,
             "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Harbor Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Seven Island Town/Seven Island Harbor Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "shape": "diamond",
+            "x": 264,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Poke Mart Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Seven Island Town/Seven Island Poke Mart Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "shape": "diamond",
+            "x": 88,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Pokemon Center Entrance",
+        "sections": [
+          {
+            "ref": "Island Entrances/Seven Island Town/Seven Island Pokemon Center Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island",
+            "shape": "diamond",
+            "x": 200,
+            "y": 56
           }
         ]
       }
@@ -107,6 +173,22 @@
             "y": 32
           }
         ]
+      },
+      {
+        "name": "Seven Island Pokemon Center 1F Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Seven Island Town/Seven Island Pokemon Center 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_pokemon_center_1f",
+            "shape": "diamond",
+            "x": 120,
+            "y": 136
+          }
+        ]
       }
     ]
   },
@@ -125,6 +207,64 @@
             "map": "seven_island_mart",
             "x": 40,
             "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Seven Island Poke Mart Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Seven Island Town/Seven Island Poke Mart Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_mart",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Trainer Battle House",
+    "children": [
+      {
+        "name": "Seven Island Trainer Battle House Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Seven Island Town/Seven Island Trainer Battle House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_battle_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Seven Island Harbor",
+    "children": [
+      {
+        "name": "Seven Island Harbor Exit",
+        "sections": [
+          {
+            "ref": "Island Entrances/Seven Island Town/Seven Island Harbor Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "seven_island_harbor",
+            "shape": "diamond",
+            "x": 136,
+            "y": 40
           }
         ]
       }

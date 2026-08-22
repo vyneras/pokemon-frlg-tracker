@@ -11,205 +11,281 @@ SLOT_CODES = {
         code = "goal_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Goal E4
-            [1] = 1 -- Goal E4 Rematch
+            [0] = 0, -- E4
+            [1] = 1 -- E4 Rematch
         }
     },
     skip_elite_four = {
         code = "skip_elite_four_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Skip Elite Four Off
-            [1] = 1  -- Skip Elite Four On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     kanto_only = {
         code = "kanto_only_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Kanto Only Off
-            [1] = 1  -- Kanto Only On
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    shuffle_pokemon_centers = {
+        code = "shuffle_pokemon_centers_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    shuffle_gyms = {
+        code = "shuffle_gyms_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    shuffle_marts = {
+        code = "shuffle_marts_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    shuffle_harbors = {
+        code = "shuffle_harbors_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    shuffle_buildings = {
+        code = "shuffle_buildings_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1, -- Simple
+            [2] = 2, -- Restricted
+            [3] = 3  -- Full
         }
     },
     shuffle_dungeons = {
         code = "shuffle_dungeons_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Shuffle Dungeons Off
-            [1] = 1, -- Shuffle Dungeons Seafoam
-            [2] = 2, -- Shuffle Dungeons Simple
-            [3] = 3, -- Shuffle Dungeons Restricted
-            [4] = 4  -- Shuffle Dungeons Full
+            [0] = 0, -- Off
+            [1] = 1, -- Seafoam
+            [2] = 2, -- Simple
+            [3] = 3, -- Restricted
+            [4] = 4  -- Full
+        }
+    },
+    shuffle_interiors = {
+        code = "shuffle_interiors_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    shuffle_warp_tiles = {
+        code = "shuffle_warp_tiles_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1, -- Simple
+            [2] = 2  -- Full
+        }
+    },
+    shuffle_dropdowns = {
+        code = "shuffle_dropdowns_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1, -- Simple
+            [2] = 2  -- Full
+        }
+    },
+    decouple_entrances_warps = {
+        code = "decoupled_entrances_settting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     randomize_fly_destinations = {
         code = "randomize_fly_destinations_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Randomize Fly Destinations Off
-            [1] = 1, -- Randomize Fly Destinations Area
-            [2] = 1, -- Randomize Fly Destinations Map
-            [3] = 1, -- Randomize Fly Destinations Region
-            [4] = 1  -- Randomize Fly Destinations Completely Random
+            [0] = 0, -- Off
+            [1] = 1, -- Area
+            [2] = 1, -- Map
+            [3] = 1, -- Region
+            [4] = 1  -- Completely Random
         }
     },
     shuffle_hidden = {
         code = "hidden_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Hidden Items Not Shuffled
-            [1] = 1, -- Nonrecurring Hiiden Items Shuffled
-            [2] = 2  -- All Hidden Items Shuffled
+            [0] = 0, -- Off
+            [1] = 1, -- Nonrecurring
+            [2] = 2  -- All
         }
     },
     extra_key_items = {
         code = "extra_key_items_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Extra Key Items Off
-            [1] = 1  -- Extra Key Items On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     shopsanity = {
         code = "shopsanity_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Shopsanity Off
-            [1] = 1  -- Shopsanity On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     vending_machines = {
         code = "vending_machines_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Vending Machines Off
-            [1] = 1  -- Vending Machines On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     prizesanity = {
         code = "prizesanity_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Prizesanity Off
-            [1] = 1  -- Prizesanity On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     trainersanity = {
         code = "trainersanity_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Trainersanity Off
-            [1] = 1  -- Trainersanity On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     famesanity = {
         code = "famesanity_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Famesanity Off
-            [1] = 1  -- Famesanity On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     shuffle_fly_unlocks = {
         code = "fly_unlocks_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Fly Unlocks Off
-            [1] = 1, -- Fly Unlocks Exclude Indigo
-            [2] = 1  -- Fly Unlocks All
+            [0] = 0, -- Off
+            [1] = 1, -- Exclude Indigo
+            [2] = 1  -- All
         }
     },
     pokemon_request_locations = {
         code = "pokemon_request_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Pokémon Request Locations Off
-            [1] = 1, -- Pokémon Request Locations On
+            [0] = 0, -- Off
+            [1] = 1, -- On
         }
     },
     card_key = {
         code = "card_keys_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Card Keys Vanilla
-            [1] = 1, -- Card Keys Split
-            [2] = 2  -- Card Keys Progressive
+            [0] = 0, -- Vanilla
+            [1] = 1, -- Split
+            [2] = 2  -- Progressive
         }
     },
     island_passes = {
         code = "island_passes_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Island Passes Vanilla
-            [1] = 1, -- Island Passes Progressive
-            [2] = 2, -- Island Passes Split
-            [3] = 3  -- Island Passes Split/Progressive
+            [0] = 0, -- Vanilla
+            [1] = 1, -- Progressive
+            [2] = 2, -- Split
+            [3] = 3  -- Split/Progressive
         }
     },
     split_teas = {
         code = "teas_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Teas Vanilla
-            [1] = 1  -- Teas Split
+            [0] = 0, -- Vanilla
+            [1] = 1  -- Split
         }
     },
     gym_keys = {
         code = "gym_keys_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Gym Keys Off
-            [1] = 1  -- Gym Keys On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     post_goal_locations = {
         code = "post_goal_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Post Goal Locations Off
-            [1] = 1  -- Post Goal Locations On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     itemfinder_required = {
         code = "itemfinder_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Itemfinder Not Required
-            [1] = 1, -- Itemfinder Logically Required
-            [2] = 2  -- Itemfinder Required
+            [0] = 0, -- Not Required
+            [1] = 1, -- Logically Required
+            [2] = 2  -- Required
         }
     },
     flash_required = {
         code = "flash_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Flash Not Required
-            [1] = 1, -- Flash Logically Required
-            [2] = 2  -- Flash Required
+            [0] = 0, -- Not Required
+            [1] = 1, -- Logically Required
+            [2] = 2  -- Required
         }
     },
     fame_checker_required = {
         code = "fame_checker_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Fame Checker Not Required
-            [1] = 1  -- Fame Checker Required
+            [0] = 0, -- Not Required
+            [1] = 1  -- Required
         }
     },
     bicycle_requires_jumping_shoes = {
         code = "bicycle_jumping_shoes_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Ledge Jump not Required for Bicycle
-            [1] = 1  -- Ledge Jump Required for Bicycle
+            [0] = 0, -- Not Required for Bicycle
+            [1] = 1  -- Required for Bicycle
         }
     },
     acrobatic_bicycle = {
         code = "acrobatic_bicycle_setting",
         type = "progressive",
         mapping = {
-            [0] = 0, -- Acrobatic Bicycle Off
-            [1] = 1  -- Acrobatic Bicycle On
+            [0] = 0, -- Off
+            [1] = 1  -- On
         }
     },
     viridian_city_roadblock = {
@@ -230,6 +306,135 @@ SLOT_CODES = {
             [2] = 2, -- Any Gyms
             [3] = 3, -- Boulder Badge
             [4] = 4  -- Any Badge
+        }
+    },
+    digletts_cave_roadblock = {
+        code = "digletts_cave_roadblock_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Vanilla
+            [1] = 1  -- Smashable Rock
+        }
+    },
+    block_underground_paths = {
+        code = "block_paths_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    route_9_roadblock = {
+        code = "route_9_roadblock_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Vanilla
+            [1] = 1  -- Smashable Rock
+        }
+    },
+    route_10_waterfall = {
+        code = "route_10_waterfall_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    block_pokemon_tower = {
+        code = "block_tower_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    route_12_boulders = {
+        code = "route_12_boulders_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    route_12_rocks = {
+        code = "route_12_rocks_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    route_16_rock = {
+        code = "route_16_rock_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    open_silph_co = {
+        code = "open_silph_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    remove_saffron_rockets = {
+        code = "saffron_rockets_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    route_23_trees = {
+        code = "route_23_trees_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    route_23_waterfall = {
+        code = "route_23_waterfall_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    victory_road_rocks = {
+        code = "victory_road_rocks_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    block_vermilion_sailing = {
+        code = "block_sailing_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    early_gossipers = {
+        code = "early_gossipers_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Off
+            [1] = 1  -- On
+        }
+    },
+    elevators_condition = {
+        code = "elevators_condition_setting",
+        type = "progressive",
+        mapping = {
+            [0] = 0, -- Open
+            [1] = 1, -- Locked
+            [2] = 2, -- Disabled
         }
     },
     elite_four_requirement = {
@@ -421,27 +626,6 @@ BADGE_FOR_HM = {
     ["Flash"] = "hm05_flash",
     ["Rock Smash"] = "hm06_rock_smash",
     ["Waterfall"] = "hm07_waterfall"
-}
-
-MODIFY_WORLD_STATE = {
-    ["Modify Route 2"] = "modify_route_2_setting",
-    ["Remove Cerulean Roadblocks"] = "cerulean_roadblock_setting",
-    ["Block Tunnels"] = "block_tunnels_setting",
-    ["Modify Route 9"] = "modify_route_9_setting",
-    ["Modify Route 10"] = "modify_route_10_setting",
-    ["Block Tower"] = "block_tower_setting",
-    ["Route 12 Boulders"] = "route_12_boulders_setting",
-    ["Modify Route 12"] = "modify_route_12_setting",
-    ["Modify Route 16"] = "modify_route_16_setting",
-    ["Open Silph"] = "open_silph_setting",
-    ["Remove Saffron Rockets"] = "saffron_rockets_setting",
-    ["Route 23 Trees"] = "route_23_trees_setting",
-    ["Modify Route 23"] = "modify_route_23_setting",
-    ["Victory Road Rocks"] = "victory_road_rocks_setting",
-    ["Early Gossipers"] = "early_gossipers_setting",
-    ["Total Darkness"] = "",
-    ["Block Vermilion Sailing"] = "block_sailing_setting",
-    ["All Elevators Locked"] = "elevators_locked_setting"
 }
 
 ADDITIONAL_DARK_CAVES = {

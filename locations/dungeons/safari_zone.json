@@ -1,5 +1,26 @@
 [
   {
+    "name": "Safari Zone Lobby",
+    "children": [
+      {
+        "name": "Safari Zone Lobby Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone Lobby Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_entrance",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Safari Zone Center Area",
     "children": [
       {
@@ -63,6 +84,70 @@
             "map": "safari_zone_center",
             "x": 440,
             "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Center Area Rest House Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone Center Area Rest House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "shape": "diamond",
+            "x": 472,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Center Area East Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone Center Area East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "shape": "diamond",
+            "x": 696,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Center Area North Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone Center Area North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "shape": "diamond",
+            "x": 416,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Center Area West Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone Center Area West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center",
+            "shape": "diamond",
+            "x": 136,
+            "y": 288
           }
         ]
       }
@@ -179,6 +264,55 @@
           {
             "map": "safari_zone_east",
             "x": 648,
+            "y": 232,
+            "force_invisibility_rules": ["$shuffle_interiors"]
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone East Area Northwest Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone East Area Northwest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "shape": "diamond",
+            "x": 136,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone East Area Southwest Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone East Area Southwest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "shape": "diamond",
+            "x": 136,
+            "y": 432
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone East Area Rest House Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone East Area Rest House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east",
+            "shape": "diamond",
+            "x": 648,
             "y": 232
           }
         ]
@@ -279,6 +413,87 @@
         "map_locations": [
           {
             "map": "safari_zone_north",
+            "x": 696,
+            "y": 136,
+            "force_invisibility_rules": ["$shuffle_interiors"]
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area Southwest Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone North Area Southwest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "shape": "diamond",
+            "x": 176,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area South Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone North Area South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "shape": "diamond",
+            "x": 336,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area East Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone North Area East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "shape": "diamond",
+            "x": 776,
+            "y": 512
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area Southeast Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone North Area Southeast Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "shape": "diamond",
+            "x": 496,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Area Rest House Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone North Area Rest House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north",
+            "shape": "diamond",
             "x": 696,
             "y": 136
           }
@@ -413,7 +628,109 @@
           {
             "map": "safari_zone_west",
             "x": 200,
+            "y": 120,
+            "force_invisibility_rules": ["$shuffle_interiors"]
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone West Area Northeast Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone West Area Northeast Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "shape": "diamond",
+            "x": 608,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone West Area East Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone West Area East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "shape": "diamond",
+            "x": 648,
+            "y": 432
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone West Area Rest House Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone West Area Rest House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "shape": "diamond",
+            "x": 312,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone West Area Northwest Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone West Area Northwest Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "shape": "diamond",
+            "x": 496,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Secret House Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone Secret House Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west",
+            "shape": "diamond",
+            "x": 200,
             "y": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone Center Rest House",
+    "children": [
+      {
+        "name": "Safari Zone Center Area Rest House Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone Center Area Rest House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_center_rest_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 152
           }
         ]
       }
@@ -437,6 +754,22 @@
             "y": 120
           }
         ]
+      },
+      {
+        "name": "Safari Zone East Area Rest House Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone East Area Rest House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_east_rest_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 152
+          }
+        ]
       }
     ]
   },
@@ -458,6 +791,43 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Safari Zone North Area Rest House Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone North Area Rest House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_north_rest_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 152
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Safari Zone West Rest House",
+    "children": [
+      {
+        "name": "Safari Zone West Area Rest House Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone West Area Rest House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_west_rest_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 152
+          }
+        ]
       }
     ]
   },
@@ -477,6 +847,22 @@
             "map": "safari_zone_secret_house",
             "x": 104,
             "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Secret House Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Safari Zone/Safari Zone Secret House Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "safari_zone_secret_house",
+            "shape": "diamond",
+            "x": 72,
+            "y": 152
           }
         ]
       }

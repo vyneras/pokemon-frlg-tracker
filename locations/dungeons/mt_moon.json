@@ -241,6 +241,70 @@
             "y": 168
           }
         ]
+      },
+      {
+        "name": "Mt. Moon 1F Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "shape": "diamond",
+            "x": 296,
+            "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon 1F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "shape": "diamond",
+            "x": 88,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon 1F Center Ladder (Left)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon 1F Center Ladder (Left)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "shape": "diamond",
+            "x": 312,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon 1F Center Ladder (Right)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon 1F Center Ladder (Right)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_1f",
+            "shape": "diamond",
+            "x": 504,
+            "y": 264
+          }
+        ]
       }
     ]
   },
@@ -251,8 +315,8 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Moon/B1F - Land Encounter",
-            "name": "Land Encounter"
+            "ref": "Dungeons/Mt. Moon/B1F - Land Encounters",
+            "name": "Land Encounters"
           }
         ],
         "map_locations": [
@@ -356,6 +420,134 @@
             "map": "mt_moon_b1f",
             "x": 744,
             "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F East Ladder (Fourth Tunnel)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B1F East Ladder (Fourth Tunnel)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "shape": "diamond",
+            "x": 728,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F Northeast Ladder (First Tunnel)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B1F Northeast Ladder (First Tunnel)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "shape": "diamond",
+            "x": 696,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F Southwest Ladder (First Tunnel)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B1F Southwest Ladder (First Tunnel)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "shape": "diamond",
+            "x": 424,
+            "y": 584
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F East Ladder (Second Tunnel)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B1F East Ladder (Second Tunnel)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "shape": "diamond",
+            "x": 408,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F West Ladder (Second Tunnel)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B1F West Ladder (Second Tunnel)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "shape": "diamond",
+            "x": 280,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F Northwest Ladder (Third Tunnel)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B1F Northwest Ladder (Third Tunnel)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "shape": "diamond",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F Southeast Ladder (Third Tunnel)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B1F Southeast Ladder (Third Tunnel)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "shape": "diamond",
+            "x": 360,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B1F West Ladder (Fourth Tunnel)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B1F West Ladder (Fourth Tunnel)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b1f",
+            "shape": "diamond",
+            "x": 632,
+            "y": 72
           }
         ]
       }
@@ -569,6 +761,70 @@
             "map": "mt_moon_b2f",
             "x": 568,
             "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B2F South Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B2F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "shape": "diamond",
+            "x": 280,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B2F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B2F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "shape": "diamond",
+            "x": 504,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B2F Center Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B2F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "shape": "diamond",
+            "x": 408,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mt. Moon B2F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Moon/Mt. Moon B2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_moon_b2f",
+            "shape": "diamond",
+            "x": 88,
+            "y": 168
           }
         ]
       }

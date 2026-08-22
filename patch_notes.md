@@ -1,3 +1,14 @@
+# 4.1.0
+## Updates
+* Added Entrance Rando settings and entrance locations
+* Renamed several world logic options
+
+## Bug Fixes
+* Fixed the access rules for the Mt. Ember Summit - Legendary Pokémon
+* Fixed an issue where a number of encounters didn't show on the area maps
+* Fixed an issue where the Move Tutor's Hosue entrance and exit didn't appear on UT
+* Fixed a logic issue with Seagallop Access
+
 # 4.0.4
 ## Bug Fixes
 * Fixed issue where Pokémon Breeder Alize Rematch Reward (8 Badges-Gyms) check did not appear on the sub map

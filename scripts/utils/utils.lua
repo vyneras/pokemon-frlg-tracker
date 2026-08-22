@@ -1,0 +1,431 @@
+ACCESS_LEVEL = {
+    [0] = AccessibilityLevel.None,
+    [1] = AccessibilityLevel.Partial,
+    [3] = AccessibilityLevel.Inspect,
+    [5] = AccessibilityLevel.SequenceBreak,
+    [6] = AccessibilityLevel.Normal,
+    [7] = AccessibilityLevel.Cleared,
+    [AccessibilityLevel.None] = 0,
+    [AccessibilityLevel.Partial] = 1,
+    [AccessibilityLevel.Inspect] = 3,
+    [AccessibilityLevel.SequenceBreak] = 5,
+    [AccessibilityLevel.Normal] = 6,
+    [AccessibilityLevel.Cleared] = 7
+}
+
+item_cache = {}
+amount_cache = {}
+
+function tracker_on_accessibility_updating()
+    amount_cache = {}
+    if TRACKER_READY and UPDATES_ALLOWED then
+        update_region_connections()
+    end
+end
+
+
+function and_access(...)
+    local access = AccessibilityLevel.Cleared
+    for _, value in pairs({...}) do
+        if ACCESS_LEVEL[value] < ACCESS_LEVEL[access] then
+            access = value
+        end
+    end
+    return access
+end
+
+function or_access(...)
+    local access = AccessibilityLevel.None
+    for _, value in pairs({...}) do
+        if ACCESS_LEVEL[value] > ACCESS_LEVEL[access] then
+            access = value
+        end
+    end
+    return access
+end
+
+function has(item, amount)
+    if not amount_cache[item] then
+        amount_cache[item] = Tracker:ProviderCountForCode(item)
+    end
+    local count = amount_cache[item] or 0
+    amount = tonumber(amount)
+    if not amount then
+        return count > 0
+    else
+        return count >= amount
+    end
+end
+
+function table_contains(table, element)
+    for _, value in pairs(table) do
+        if value == element then
+            return true
+        end
+    end
+    return false
+end
+
+function dump_table(o, depth)
+    if depth == nil then
+        depth = 0
+    end
+    if type(o) == 'table' then
+        local tabs = ('\t'):rep(depth)
+        local tabs2 = ('\t'):rep(depth + 1)
+        local s = '{\n'
+        for k, v in pairs(o) do
+            if type(k) ~= 'number' then
+                k = '"' .. k .. '"'
+            end
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
+        end
+        return s .. tabs .. '}'
+    else
+        return tostring(o)
+    end
+end
+
+function get_item(code)
+    if item_cache[code] then
+        return item_cache[code].ItemState["item"]
+    end
+    local item = Tracker:FindObjectForCode(code)
+    if item then
+        item_cache[code] = item
+        return item.ItemState["item"]
+    end
+    return item.ItemState["item"]
+end
+
+function toggle_item(code)
+    local active = Tracker:FindObjectForCode(code).Active
+    code = code .. "_hosted"
+    local object = Tracker:FindObjectForCode(code)
+    if object then
+        object.Active = active
+    else
+        if ENABLE_DEBUG_LOG then
+            print(string.format("toggle_item: could not find object for code %s", code))
+        end
+    end
+end
+
+function toggle_hosted_item(code)
+    local active = Tracker:FindObjectForCode(code).Active
+    code = code:gsub("_hosted", "")
+    local object = Tracker:FindObjectForCode(code)
+    if object then
+        object.Active = active
+    else
+        if ENABLE_DEBUG_LOG then
+            print(string.format("toggle_hosted_item: could not find object for code %s", code))
+        end
+    end
+end
+
+function toggle_item_grid(code)
+    local extra_item_settings = {"extra_key_items_on", "card_keys_split", "card_keys_prog", "island_passes_split",
+                                 "island_passes_split_prog", "teas_split", "gym_keys_on"}
+    local extra_grid = false
+    local extra_key_items = has("extra_key_items_on")
+    local split_card_keys = has("card_keys_split") or has("card_keys_prog")
+    local split_passes = has("island_passes_split") or has("island_passes_split_prog")
+    local split_teas = has("teas_split")
+    local gym_keys = has("gym_keys_on")
+
+    for _, setting in pairs(extra_item_settings) do
+        if has(setting) then
+            extra_grid = true
+        end
+    end
+
+    if extra_grid then
+        Tracker:AddLayouts("layouts/item_grids_extra.json")
+    else
+        Tracker:AddLayouts("layouts/item_grids.json")
+    end
+
+    if extra_key_items and split_card_keys and split_passes and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_pass_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_all.json")
+    elseif extra_key_items and split_card_keys and split_passes and split_teas then
+        Tracker:AddLayouts("layouts/items_no_card_pass_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_pass_tea.json")
+    elseif extra_key_items and split_card_keys and split_passes and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_pass_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_pass_gym.json")
+    elseif extra_key_items and split_card_keys and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_tea_gym.json")
+    elseif extra_key_items and split_passes and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_pass_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_pass_tea_gym.json")
+    elseif split_card_keys and split_passes and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_pass_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_card_pass_tea_gym.json")
+    elseif extra_key_items and split_card_keys and split_passes then
+        Tracker:AddLayouts("layouts/items_no_card_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_pass.json")
+    elseif extra_key_items and split_card_keys and split_teas then
+        Tracker:AddLayouts("layouts/items_no_card_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_tea.json")
+    elseif extra_key_items and split_card_keys and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card_gym.json")
+    elseif extra_key_items and split_passes and split_teas then
+        Tracker:AddLayouts("layouts/items_no_pass_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_key_pass_tea.json")
+    elseif extra_key_items and split_passes and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_pass_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_pass_gym.json")
+    elseif extra_key_items and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_tea_gym.json")
+    elseif split_card_keys and split_passes and split_teas then
+        Tracker:AddLayouts("layouts/items_no_card_pass_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_card_pass_tea.json")
+    elseif split_card_keys and split_passes and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_pass_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_card_pass_gym.json")
+    elseif split_card_keys and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_card_tea_gym.json")
+    elseif split_passes and split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_pass_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_pass_tea_gym.json")
+    elseif extra_key_items and split_card_keys then
+        Tracker:AddLayouts("layouts/items_no_card.json")
+        Tracker:AddLayouts("layouts/extra_items_key_card.json")
+    elseif extra_key_items and split_passes then
+        Tracker:AddLayouts("layouts/items_no_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_key_pass.json")
+    elseif extra_key_items and split_teas then
+        Tracker:AddLayouts("layouts/items_no_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_key_tea.json")
+    elseif extra_key_items and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_key_gym.json")
+    elseif split_card_keys and split_passes then
+        Tracker:AddLayouts("layouts/items_no_card_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_card_pass.json")
+    elseif split_card_keys and split_teas then
+        Tracker:AddLayouts("layouts/items_no_card_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_card_tea.json")
+    elseif split_card_keys and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_card_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_card_gym.json")
+    elseif split_passes and split_teas then
+        Tracker:AddLayouts("layouts/items_no_pass_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_pass_tea.json")
+    elseif split_passes and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_pass_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_pass_gym.json")
+    elseif split_teas and gym_keys then
+        Tracker:AddLayouts("layouts/items_no_tea_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_tea_gym.json")
+    elseif split_card_keys then
+        Tracker:AddLayouts("layouts/items_no_card.json")
+        Tracker:AddLayouts("layouts/extra_items_card.json")
+    elseif split_passes then
+        Tracker:AddLayouts("layouts/items_no_pass.json")
+        Tracker:AddLayouts("layouts/extra_items_pass.json")
+    elseif split_teas then
+        Tracker:AddLayouts("layouts/items_no_tea.json")
+        Tracker:AddLayouts("layouts/extra_items_tea.json")
+    elseif gym_keys then
+        Tracker:AddLayouts("layouts/items_no_gym.json")
+        Tracker:AddLayouts("layouts/extra_items_gym.json")
+    elseif extra_key_items then
+        Tracker:AddLayouts("layouts/items.json")
+        Tracker:AddLayouts("layouts/extra_items_key.json")
+    else
+        Tracker:AddLayouts("layouts/items.json")
+    end
+end
+
+function toggle_maps(code)
+    local map_split = has("split_map_on")
+    local kanto_only = has("kanto_only_on")
+    local entrance_rando = entrance_rando()
+
+    if map_split then
+        Tracker:AddLayouts("layouts/map_layout_split.json")
+    else
+        Tracker:AddLayouts("layouts/map_layout.json")
+    end
+
+    if not kanto_only and not entrance_rando then
+        Tracker:AddLayouts("layouts/maps.json")
+    elseif kanto_only and not entrance_rando then
+        Tracker:AddLayouts("layouts/maps_no_sevii.json")
+    elseif not kanto_only and entrance_rando then
+        Tracker:AddLayouts("layouts/maps_er.json")
+    else
+        Tracker:AddLayouts("layouts/maps_no_sevii_er.json")
+    end
+end
+
+function toggle_kanto_only_maps(code)
+    local kanto_only = has("kanto_only_on")
+
+    if kanto_only then
+        Tracker:AddMaps("maps/maps_kanto_only_on.json")
+    else
+        Tracker:AddMaps("maps/maps_kanto_only_off.json")
+    end
+end
+
+function toggle_split_tea_maps(code)
+    local teas_split = has("teas_split")
+
+    if teas_split then
+        Tracker:AddMaps("maps/maps_split_teas.json")
+    else
+        Tracker:AddMaps("maps/maps_vanilla_teas.json")
+    end
+end
+
+function toggle_path_maps(code)
+    local paths_blocked = has("block_paths_on")
+
+    if paths_blocked then
+        Tracker:AddMaps("maps/maps_paths_blocked.json")
+    else
+        Tracker:AddMaps("maps/maps_paths_vanilla.json")
+    end
+end
+
+function toggle_route_2_maps(code)
+    local digletts_cave_roadblock = has("digletts_cave_roadblock_rock")
+
+    if digletts_cave_roadblock then
+        Tracker:AddMaps("maps/maps_route_2_rock.json")
+    else
+        Tracker:AddMaps("maps/maps_route_2_vanilla.json")
+    end
+end
+
+function toggle_route_9_maps(code)
+    local route_9_roadblock = has("route_9_roadblock_on")
+
+    if route_9_roadblock then
+        Tracker:AddMaps("maps/maps_route_9_rock.json")
+    else
+        Tracker:AddMaps("maps/maps_route_9_vanilla.json")
+    end
+end
+
+function toggle_route_10_and_extra_item_maps(code)
+    local route_10_waterfall = has("route_10_waterfall_on")
+    local extra_key_items = has("extra_key_items_on")
+
+    if not route_10_waterfall and not extra_key_items then
+        Tracker:AddMaps("maps/maps_cinnabar_vanilla.json")
+        Tracker:AddMaps("maps/maps_route_10_vanilla.json")
+    elseif not route_10_waterfall and extra_key_items then
+        Tracker:AddMaps("maps/maps_cinnabar_extra_items.json")
+        Tracker:AddMaps("maps/maps_route_10_extra_items.json")
+    elseif route_10_waterfall and not extra_key_items then
+        Tracker:AddMaps("maps/maps_cinnabar_vanilla.json")
+        Tracker:AddMaps("maps/maps_route_10_waterfall.json")
+    elseif route_10_waterfall and extra_key_items then
+        Tracker:AddMaps("maps/maps_cinnabar_extra_items.json")
+        Tracker:AddMaps("maps/maps_route_10_all.json")
+    end
+end
+
+function toggle_route_12_maps(code)
+    local route_12_boulders = has("route_12_boulders_on")
+    local route_12_rocks = has("route_12_rocks_on")
+
+    if not route_12_boulders and not route_12_rocks then
+        Tracker:AddMaps("maps/maps_route_12_vanilla.json")
+    elseif not route_12_boulders and route_12_rocks then
+        Tracker:AddMaps("maps/maps_route_12_rocks.json")
+    elseif route_12_boulders and not route_12_rocks then
+        Tracker:AddMaps("maps/maps_route_12_boulders.json")
+    elseif route_12_boulders and route_12_rocks then
+        Tracker:AddMaps("maps/maps_route_12_all.json")
+    end
+end
+
+function toggle_route_16_maps(code)
+    local route_16_rock = has("route_16_rock_on")
+
+    if route_16_rock then
+        Tracker:AddMaps("maps/maps_route_16_rock.json")
+    else
+        Tracker:AddMaps("maps/maps_route_16_vanilla.json")
+    end
+end
+
+function toggle_route_23_maps(code)
+    local route_23_trees = has("route_23_trees_on")
+    local route_23_waterfall = has("route_23_waterfall_on")
+
+    if not route_23_trees and not route_23_waterfall then
+        Tracker:AddMaps("maps/maps_route_23_vanilla.json")
+    elseif not route_23_trees and route_23_waterfall then
+        Tracker:AddMaps("maps/maps_route_23_waterfall.json")
+    elseif route_23_trees and not route_23_waterfall then
+        Tracker:AddMaps("maps/maps_route_23_trees.json")
+    elseif route_23_trees and route_23_waterfall then
+        Tracker:AddMaps("maps/maps_route_23_all.json")
+    end
+end
+
+function toggle_victory_road_maps(code)
+    local victory_road_rocks = has("victory_road_rocks_on")
+
+    if victory_road_rocks then
+        Tracker:AddMaps("maps/maps_victory_road_rocks.json")
+    else
+        Tracker:AddMaps("maps/maps_victory_road_vanilla.json")
+    end
+end
+
+function toggle_item_tabs(code)
+    local pokemon_tabs_on = has("pokemon_tabs_on")
+    if pokemon_tabs_on then
+        Tracker:AddLayouts("layouts/item_layout_pokemon.json")
+    else
+        Tracker:AddLayouts("layouts/item_layout.json")
+    end
+end
+
+function toggle_fly_unlock(code)
+    for name, region in pairs(FLY_DESTINATIONS) do
+        local fly_destination = get_item(name)
+        if fly_destination.flyUnlock == code then
+            fly_destination:setConnectedRegion(region)
+        end
+    end
+end
+
+function set_encounter_counts(code)
+    if has("game_version_fire") then
+        Tracker:FindObjectForCode("@Cities/Vermilion City/Super Rod Encounters").AvailableChestCount = 4
+        Tracker:FindObjectForCode("@Dungeons/Power Plant/Land Encounters").AvailableChestCount = 5
+        Tracker:FindObjectForCode("@Dungeons/Mt. Ember/Exterior - Land Encounters").AvailableChestCount = 6
+        Tracker:FindObjectForCode("@Islands/Sevault Canyon/Land Encounters").AvailableChestCount = 10
+        Tracker:FindObjectForCode("@Islands/Tanoby Ruins/Surf Encounters").AvailableChestCount = 2
+        Tracker:FindObjectForCode("@Islands/Trainer Tower Exterior/Surf Encounters").AvailableChestCount = 2
+    else
+        Tracker:FindObjectForCode("@Cities/Vermilion City/Super Rod Encounters").AvailableChestCount = 5
+        Tracker:FindObjectForCode("@Dungeons/Power Plant/Land Encounters").AvailableChestCount = 4
+        Tracker:FindObjectForCode("@Dungeons/Mt. Ember/Exterior - Land Encounters").AvailableChestCount = 7
+        Tracker:FindObjectForCode("@Islands/Sevault Canyon/Land Encounters").AvailableChestCount = 9
+        Tracker:FindObjectForCode("@Islands/Tanoby Ruins/Surf Encounters").AvailableChestCount = 3
+        Tracker:FindObjectForCode("@Islands/Trainer Tower Exterior/Surf Encounters").AvailableChestCount = 3
+    end
+end
+
+function toggle_version_mismtach(code)
+    local active = Tracker:FindObjectForCode(code).Active
+    if active then
+        Tracker:AddLayouts("layouts/version_mismatch.json")
+    else
+        Tracker:AddLayouts("layouts/tracker.json")
+    end
+end

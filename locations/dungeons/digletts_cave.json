@@ -1,5 +1,79 @@
 [
   {
+    "name": "Diglett's Cave 1F South",
+    "children": [
+      {
+        "name": "Diglett's Cave 1F South Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Diglett's Cave/Diglett's Cave 1F South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_south_entrance",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave 1F South Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Diglett's Cave/Diglett's Cave 1F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_south_entrance",
+            "shape": "diamond",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diglett's Cave 1F North",
+    "children": [
+      {
+        "name": "Diglett's Cave 1F North Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Diglett's Cave/Diglett's Cave 1F North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_north_entrance",
+            "shape": "diamond",
+            "x": 72,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave 1F North Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Diglett's Cave/Diglett's Cave 1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_north_entrance",
+            "shape": "diamond",
+            "x": 104,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Diglett's Cave B1F",
     "children": [
       {
@@ -13,12 +87,12 @@
         "map_locations": [
           {
             "map": "digletts_cave_b1f_north",
-            "x": 1344,
+            "x": 784,
             "y": 12
           },
           {
             "map": "digletts_cave_b1f_south",
-            "x": 1344,
+            "x": 784,
             "y": 12
           }
         ]
@@ -36,6 +110,38 @@
             "map": "digletts_cave_b1f_north",
             "x": 776,
             "y": 616
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave B1F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Diglett's Cave/Diglett's Cave B1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_north",
+            "shape": "diamond",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Diglett's Cave B1F Southeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Diglett's Cave/Diglett's Cave B1F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "digletts_cave_b1f_south",
+            "shape": "diamond",
+            "x": 760,
+            "y": 504
           }
         ]
       }

@@ -1102,14 +1102,12 @@
           {
             "map": "route_2_south",
             "x": 96,
-            "y": 184,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 184
           },
           {
             "map": "route_2_north",
             "x": 96,
-            "y": 216,
-            "force_invisibility_rules": ["$shuffle_dungeons_on"]
+            "y": 216
           }
         ]
       }

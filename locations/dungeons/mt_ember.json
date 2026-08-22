@@ -206,7 +206,88 @@
           {
             "map": "mt_ember_exterior",
             "x": 680,
+            "y": 632,
+            "force_invisibility_rules": ["$shuffle_interiors"]
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Exterior Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Exterior Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "shape": "diamond",
+            "x": 464,
+            "y": 792
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "shape": "diamond",
+            "x": 680,
             "y": 632
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path Bottom Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Path Bottom Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "shape": "diamond",
+            "x": 232,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path Top Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Path Top Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "shape": "diamond",
+            "x": 632,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Entrance",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Entrance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_exterior",
+            "shape": "diamond",
+            "x": 472,
+            "y": 104
           }
         ]
       }
@@ -230,6 +311,38 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 1F South Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Path 1F South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_1f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 1F North Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Path 1F North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_1f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 24
+          }
+        ]
       }
     ]
   },
@@ -249,6 +362,38 @@
             "map": "mt_ember_summit_path_2f",
             "x": 752,
             "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 2F South Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Path 2F South Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_2f",
+            "shape": "diamond",
+            "x": 136,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 2F North Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Path 2F North Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_2f",
+            "shape": "diamond",
+            "x": 632,
+            "y": 104
           }
         ]
       }
@@ -272,6 +417,38 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 3F West Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Path 3F West Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_3f",
+            "shape": "diamond",
+            "x": 40,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Path 3F East Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Path 3F East Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit_path_3f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 152
+          }
+        ]
       }
     ]
   },
@@ -291,6 +468,22 @@
             "map": "mt_ember_summit",
             "x": 152,
             "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Summit Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Summit Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_summit",
+            "shape": "diamond",
+            "x": 152,
+            "y": 264
           }
         ]
       }
@@ -314,6 +507,54 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path 1F Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "shape": "diamond",
+            "x": 360,
+            "y": 296
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path 1F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path 1F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "shape": "diamond",
+            "x": 24,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path 1F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path 1F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_1f",
+            "shape": "diamond",
+            "x": 392,
+            "y": 88
+          }
+        ]
       }
     ]
   },
@@ -333,6 +574,38 @@
             "map": "mt_ember_ruby_path_b1f",
             "x": 160,
             "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B1F South Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B1F South Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f",
+            "shape": "diamond",
+            "x": 152,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B1F North Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B1F North Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f",
+            "shape": "diamond",
+            "x": 104,
+            "y": 24
           }
         ]
       }
@@ -356,6 +629,38 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B2F West Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B2F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f",
+            "shape": "diamond",
+            "x": 24,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B2F East Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B2F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f",
+            "shape": "diamond",
+            "x": 216,
+            "y": 152
+          }
+        ]
       }
     ]
   },
@@ -366,8 +671,8 @@
         "name": "Encounters",
         "sections": [
           {
-            "ref": "Dungeons/Mt. Ember/Ruby Path B3F - Land Encounter",
-            "name": "Land Encounter"
+            "ref": "Dungeons/Mt. Ember/Ruby Path B3F - Land Encounters",
+            "name": "Land Encounters"
           }
         ],
         "map_locations": [
@@ -375,6 +680,54 @@
             "map": "mt_ember_ruby_path_b3f",
             "x": 480,
             "y": 12
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B3F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "shape": "diamond",
+            "x": 24,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B3F Southwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B3F Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "shape": "diamond",
+            "x": 88,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B3F Southeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B3F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b3f",
+            "shape": "diamond",
+            "x": 312,
+            "y": 312
           }
         ]
       }
@@ -398,6 +751,38 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B2F Return Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B2F Return Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f_return",
+            "shape": "diamond",
+            "x": 72,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B2F Return Southwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B2F Return Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b2f_return",
+            "shape": "diamond",
+            "x": 24,
+            "y": 88
+          }
+        ]
       }
     ]
   },
@@ -419,6 +804,75 @@
             "y": 12
           }
         ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B1F Return Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B1F Return Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f_return",
+            "shape": "diamond",
+            "x": 104,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B1F Return Southwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B1F Return Southwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b1f_return",
+            "shape": "diamond",
+            "x": 24,
+            "y": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mt. Ember Ruby Path B4F",
+    "children": [
+      {
+        "name": "Mt. Ember Ruby Path B4F Southeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B4F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b4f",
+            "shape": "diamond",
+            "x": 232,
+            "y": 232
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B4F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B4F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b4f",
+            "shape": "diamond",
+            "x": 72,
+            "y": 40
+          }
+        ]
       }
     ]
   },
@@ -437,6 +891,22 @@
           {
             "map": "mt_ember_ruby_path_b5f",
             "x": 120,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mt. Ember Ruby Path B5F Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Mt. Ember/Mt. Ember Ruby Path B5F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mt_ember_ruby_path_b5f",
+            "shape": "diamond",
+            "x": 184,
             "y": 120
           }
         ]

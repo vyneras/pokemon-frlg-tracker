@@ -113,6 +113,38 @@
             "y": 40
           }
         ]
+      },
+      {
+        "name": "Victory Road 1F Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 1F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "shape": "diamond",
+            "x": 184,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 1F Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 1F Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_1f",
+            "shape": "diamond",
+            "x": 56,
+            "y": 40
+          }
+        ]
       }
     ]
   },
@@ -278,6 +310,102 @@
             "y": 72
           }
         ]
+      },
+      {
+        "name": "Victory Road 2F Exit",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 2F Exit"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "shape": "diamond",
+            "x": 776,
+            "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F West Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 2F West Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "shape": "diamond",
+            "x": 24,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Center Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 2F Center Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "shape": "diamond",
+            "x": 552,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 2F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "shape": "diamond",
+            "x": 56,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F Southeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 2F Southeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "shape": "diamond",
+            "x": 584,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 2F East Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 2F East Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_2f",
+            "shape": "diamond",
+            "x": 616,
+            "y": 152
+          }
+        ]
       }
     ]
   },
@@ -409,6 +537,86 @@
             "map": "victory_road_3f",
             "x": 624,
             "y": 216
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Northwest Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 3F Northwest Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "shape": "diamond",
+            "x": 88,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Northeast Ladder",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 3F Northeast Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "shape": "diamond",
+            "x": 552,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Southeast Ladder (Top)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 3F Southeast Ladder (Top)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "shape": "diamond",
+            "x": 600,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Southeast Ladder (Bottom)",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 3F Southeast Ladder (Bottom)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "shape": "diamond",
+            "x": 632,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 3F Drop",
+        "sections": [
+          {
+            "ref": "Dungeon Entrances/Victory Road/Victory Road 3F Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "victory_road_3f",
+            "shape": "diamond",
+            "x": 552,
+            "y": 296
           }
         ]
       }
