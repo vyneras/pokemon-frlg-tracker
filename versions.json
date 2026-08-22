@@ -1,6 +1,19 @@
 {
   "versions": [
     {
+      "package_version": "4.1.0",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.1.0/pokemon-frlg-tracker.zip",
+      "sha256": "21d8fb072a4c313998660793b2911fe6c7b62616f42b1a67617c5c79d1d63f1b",
+      "changelog": [
+        "Added Entrance Rando settings and entrance locations",
+        "Renamed several world logic options",
+        "Fixed the access rules for the Mt. Ember Summit - Legendary Pokémon",
+        "Fixed an issue where a number of encounters didn't show on the area maps",
+        "Fixed an issue where the Move Tutor's House entrance and exit didn't appear on UT",
+        "Fixed a logic issue with Seagallop Access"
+      ]
+    },
+    {
       "package_version": "4.0.4",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.0.4/pokemon-frlg-tracker.zip",
       "sha256": "f528009886dcd6ac7836570a5d13343ef4d6047674b55b7177626f2549906afb",
