@@ -3,11 +3,7 @@ BadgesGymsRequirement = CustomItem:extend()
 function BadgesGymsRequirement:init(name, code, stage, stageCount)
     self.name = name
     self:createItem(name.." - Badges")
-    if PopVersion > "0.35.3" then
-        self.ItemInstance.PotentialCodes = {code}
-    else
-        self.code = code
-    end
+    self.ItemInstance.PotentialCodes = {code}
     self.type = "badges"
     self:setStage(stage)
     self.stageCount = stageCount
@@ -59,12 +55,6 @@ function BadgesGymsRequirement:onRightClick()
         self:setType("gyms")
     elseif self:getType() == "gyms" then
         self:setType("badges")
-    end
-end
-
-if PopVersion <= "0.35.3" then
-    function BadgesGymsRequirement:canProvideCode(code)
-        return self.code == code
     end
 end
 

@@ -5,11 +5,7 @@ entrance_selected = nil
 function Entrance:init(name, region, image_unconnected, image_connected)
     self.name = name
     self:createItem(name .. " ⇒ ????")
-    if PopVersion > "0.35.3" then
-        self.ItemInstance.PotentialCodes = {name}
-    else
-        self.code = name
-    end
+    self.ItemInstance.PotentialCodes = {name}
     self.region = region
     self.image_unconnected = image_unconnected
     self.image_connected = image_connected
@@ -117,12 +113,6 @@ function Entrance:onRightClick()
     self:disconnectEntrance()
     UPDATES_ALLOWED = true
     update_region_connections()
-end
-
-if PopVersion <= "0.35.3" then
-    function Entrance:canProvideCode(code)
-        return self.code == code
-    end
 end
 
 function Entrance:providesCode(code)

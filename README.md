@@ -13,12 +13,10 @@ This tracker pack can be utilized by both PopTracker and Universal Tracker. You 
 ## PopTracker
 ### Features
 - Item grids that display items, fly unlocks, events, and Pokémon that are logically relevant in the randomizer
-- Map area that displays all relevant maps in the randomizer with colored sqaures for all check locations, events, wild encounters, and static Pokémon that conveys whether they are accessible
+- Map area that displays all relevant maps in the randomizer with colored sqaures for all check locations, events, entrances, wild encounters, and static Pokémon that conveys whether they are accessible
   - Split map mode that allows you to see the overworld map and current area map at the same time
 - Three different display variants: Horizontal Map Tracker, Vertical Map Tracker, and Items Only Tracker
 - Settings popup in order to set all the settings for your current randomizer seed
-- Supports most settings of the randomizer
-  - Does not currently support entrance randomization other than shuffled dungeons
 - Autotracking capability
   - Tracks items, fly unlocks, events, and Pokémon that are obtained/received
   - Tracks check locations that are collected
@@ -45,9 +43,7 @@ This tracker pack can be utilized by both PopTracker and Universal Tracker. You 
 # Compatibility Chart
 | Apworld Version | Pack Version  |
 |:---------------:|:-------------:|
-|  1.1.0 Beta.3+  | 4.1.0 Beta.3+ |
-|  1.1.0 Beta.2   | 4.1.0 Beta.2  |
-|  1.1.0 Beta.1   | 4.1.0 Beta.1  |
+|      1.1.0      |     4.1.0     |
 |  1.0.0 - 1.0.4  | 4.0.0 - 4.0.4 |
 |  0.9.4 - 0.9.6  |     3.0.0     |
 |  0.9.1 - 0.9.3  | 2.0.0 - 2.1.0 |

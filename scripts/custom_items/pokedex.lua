@@ -2,11 +2,7 @@ Pokedex = CustomItem:extend()
 
 function Pokedex:init()
     self:createItem("Pokédex")
-    if PopVersion > "0.35.3" then
-        self.ItemInstance.PotentialCodes = {"pokedex"}
-    else
-        self.code = "pokedex"
-    end
+    self.ItemInstance.PotentialCodes = {"pokedex"}
     self:setActive(0)
     self:setStage(0)
     self.stageCount = 386
@@ -71,12 +67,6 @@ function Pokedex:onRightClick()
         self:setStage(0)
     else
         self:setStage(self:getStage() + 1)
-    end
-end
-
-if PopVersion <= "0.35.3" then
-    function Pokedex:canProvideCode(code)
-        return self.code == code
     end
 end
 

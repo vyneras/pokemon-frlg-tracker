@@ -44,7 +44,7 @@ function set_entrance_access(entrance, new_access, from_access)
     if ACCESS_LEVEL[from_access] < ACCESS_LEVEL[new_access] then
         new_access = from_access
     end
-    
+
     if ACCESS_LEVEL[old_access] < ACCESS_LEVEL[new_access] then
         access_per_entrance[entrance] = new_access
     end
@@ -56,7 +56,7 @@ function set_location_access(location, new_access, from_access)
     if ACCESS_LEVEL[from_access] < ACCESS_LEVEL[new_access] then
         new_access = from_access
     end
-    
+
     if ACCESS_LEVEL[old_access] < ACCESS_LEVEL[new_access] then
         access_per_location[location] = new_access
         changed_access = true
@@ -136,9 +136,9 @@ function update_region_connections()
                         end
 
                         if connected_region ~= "????" then
-                             set_region_access(connected_region, new_access, access)   
+                            set_region_access(connected_region, new_access, access)
                         end
-                        
+
                         set_entrance_access(warp, new_access, access)
                     end
                 end
@@ -155,9 +155,9 @@ function update_region_connections()
                         end
 
                         if connected_region ~= "????" then
-                             set_region_access(connected_region, new_access, access)   
+                            set_region_access(connected_region, new_access, access)
                         end
-                        
+
                         set_entrance_access(fly, new_access, access)
                     end
                 end

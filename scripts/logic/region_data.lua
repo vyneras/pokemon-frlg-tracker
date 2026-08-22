@@ -816,7 +816,7 @@ REGION_DATA = {
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
-                end  
+                end
             },
             ["Viridian City (Visit)"] = {
                 ["access"] = function()
@@ -1207,7 +1207,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         },
         ["locations"] = {
             ["Pewter Museum 1F - Scientist Gift"] = {
@@ -2030,10 +2030,9 @@ REGION_DATA = {
             },
             ["Seagallop"] = {
                 ["access"] = function()
-                    if has("tri_pass") or has("rainbow_pass") or has("one_pass") or
-                       has("two_pass") or has("three_pass") or has("four_pass") or 
-                       has("five_pass") or has("six_pass") or has("seven_pass") or
-                       has("mystic_ticket") or has("aurora_ticket") then
+                    if has("tri_pass") or has("rainbow_pass") or has("one_pass") or has("two_pass") or has("three_pass") or
+                        has("four_pass") or has("five_pass") or has("six_pass") or has("seven_pass") or
+                        has("mystic_ticket") or has("aurora_ticket") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -2289,7 +2288,7 @@ REGION_DATA = {
                     end
                     return AccessibilityLevel.None
                 end
-            },
+            }
         }
     },
     ["Lavender Town"] = {
@@ -2663,7 +2662,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -2672,6 +2672,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Celadon City (Visit)"] = {
         ["locations"] = {
@@ -3472,7 +3473,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         },
         ["locations"] = {
             ["Fuchsia City - Gym Sign Info"] = {
@@ -3543,7 +3544,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -3552,6 +3554,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Fuchsia City (Visit)"] = {
         ["locations"] = {
@@ -3897,7 +3900,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         },
         ["locations"] = {
             ["Saffron City - Battle Girl Info"] = {
@@ -5963,7 +5966,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         },
         ["locations"] = {
             ["S.S. Anne 2F Corridor - Rival Reward"] = {
@@ -6927,7 +6930,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return hidden_access()
                 end
-            },
+            }
         }
     },
     ["Rocket Hideout Elevator"] = {
@@ -7188,7 +7191,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -7197,6 +7201,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Safari Zone North Area"] = {
         ["map"] = "Safari Zone North Area",
@@ -7274,7 +7279,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -7283,6 +7289,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Safari Zone West Area (South)"] = {
         ["map"] = "Safari Zone West Area",
@@ -7717,7 +7724,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         },
         ["locations"] = {
             ["Silph Co. 3F - Team Rocket Grunt Reward"] = {
@@ -7880,7 +7887,7 @@ REGION_DATA = {
                     end
                     return AccessibilityLevel.None
                 end
-            },
+            }
         },
         ["warps"] = {
             ["Silph Co. 4F North Warp Tile (Right)"] = {
@@ -7987,7 +7994,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         },
         ["locations"] = {
             ["Silph Co. 5F - Northeast Team Rocket Grunt Reward"] = {
@@ -8267,8 +8274,7 @@ REGION_DATA = {
             }
         }
     },
-    ["Silph Co. 7F (Center Room)"] = {
-    },
+    ["Silph Co. 7F (Center Room)"] = {},
     ["Silph Co. 7F (Northwest Room)"] = {
         ["warps"] = {
             ["Silph Co. 7F Northwest Warp Tile (Bottom)"] = {
@@ -8599,7 +8605,7 @@ REGION_DATA = {
                     end
                     return AccessibilityLevel.None
                 end
-            },
+            }
         },
         ["warps"] = {
             ["Silph Co. 10F Southeast Warp Tile (Top Left)"] = {
@@ -9841,7 +9847,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return victory_road_access()
                 end
-            },
+            }
         }
     },
     ["Victory Road 2F (Southwest)"] = {
@@ -10228,7 +10234,7 @@ REGION_DATA = {
                     end
                     return AccessibilityLevel.None
                 end
-            },
+            }
         },
         ["warps"] = {
             ["Mt. Ember Summit Path Top Entrance"] = {
@@ -10264,7 +10270,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         }
     },
     ["Mt. Ember Summit Path 1F"] = {
@@ -11244,7 +11250,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -11253,6 +11260,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Rocket Warehouse"] = {
         ["warps"] = {
@@ -13263,7 +13271,7 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         },
         ["locations"] = {
             ["Two Island Game Corner - Lostelle's Dad"] = {
@@ -13284,11 +13292,11 @@ REGION_DATA = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
-            },
+            }
         }
     },
     ["Two Island Pokemon Center 1F"] = {
-       ["warps"] = {
+        ["warps"] = {
             ["Two Island Pokemon Center 1F Exit"] = {
                 ["connected_region"] = "Two Island Town",
                 ["shuffled"] = shuffle_pokemon_centers,
@@ -13334,12 +13342,12 @@ REGION_DATA = {
         },
         ["exits"] = {
             ["Cape Brink (Water)"] = {
-               ["access"] = function()
+                ["access"] = function()
                     if surf() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
-                end 
+                end
             },
             ["Two Island Town"] = {
                 ["access"] = function()
@@ -13387,7 +13395,7 @@ REGION_DATA = {
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
-                end 
+                end
             }
         }
     },
@@ -13637,7 +13645,7 @@ REGION_DATA = {
         }
     },
     ["Three Island Pokemon Center 1F"] = {
-       ["warps"] = {
+        ["warps"] = {
             ["Three Island Pokemon Center 1F Exit"] = {
                 ["connected_region"] = "Three Island Town (South)",
                 ["shuffled"] = shuffle_pokemon_centers,
@@ -13667,7 +13675,7 @@ REGION_DATA = {
     },
     ["Three Island Poke Mart"] = {
         ["warps"] = {
-           ["Three Island Poke Mart Exit"] = {
+            ["Three Island Poke Mart Exit"] = {
                 ["connected_region"] = "Three Island Town (North)",
                 ["shuffled"] = shuffle_marts,
                 ["access"] = function()
@@ -14056,7 +14064,7 @@ REGION_DATA = {
         }
     },
     ["Four Island Pokemon Center 1F"] = {
-       ["warps"] = {
+        ["warps"] = {
             ["Four Island Pokemon Center 1F Exit"] = {
                 ["connected_region"] = "Four Island Town",
                 ["shuffled"] = shuffle_pokemon_centers,
@@ -14285,7 +14293,7 @@ REGION_DATA = {
         }
     },
     ["Five Island Pokemon Center 1F"] = {
-       ["warps"] = {
+        ["warps"] = {
             ["Five Island Pokemon Center 1F Exit"] = {
                 ["connected_region"] = "Five Island Town",
                 ["shuffled"] = shuffle_pokemon_centers,
@@ -14853,7 +14861,7 @@ REGION_DATA = {
         }
     },
     ["Six Island Pokemon Center 1F"] = {
-       ["warps"] = {
+        ["warps"] = {
             ["Six Island Pokemon Center 1F Exit"] = {
                 ["connected_region"] = "Six Island Town",
                 ["shuffled"] = shuffle_pokemon_centers,
@@ -15248,7 +15256,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -15257,6 +15266,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Green Path (East)"] = {
         ["exits"] = {
@@ -15591,7 +15601,7 @@ REGION_DATA = {
         }
     },
     ["Seven Island Pokemon Center 1F"] = {
-       ["warps"] = {
+        ["warps"] = {
             ["Seven Island Pokemon Center 1F Exit"] = {
                 ["connected_region"] = "Seven Island Town",
                 ["shuffled"] = shuffle_pokemon_centers,
@@ -17796,7 +17806,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -17805,6 +17816,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Route 6 Gate (South)"] = {
         ["exits"] = {
@@ -18767,7 +18779,7 @@ REGION_DATA = {
         },
         ["locations"] = {
             ["Route 11 - Northwest Item"] = {
-               ["access"] = function()
+                ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
@@ -18851,7 +18863,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -18860,6 +18873,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Route 11 Gate 1F"] = {
         ["warps"] = {
@@ -18975,7 +18989,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -18984,6 +18999,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Route 12 (Center)"] = {
         ["map"] = "Route 12",
@@ -19088,7 +19104,7 @@ REGION_DATA = {
         },
         ["exits"] = {
             ["Route 12 (Center)"] = {
-               ["access"] = function()
+                ["access"] = function()
                     return AccessibilityLevel.Normal
                 end
             },
@@ -19592,7 +19608,7 @@ REGION_DATA = {
                     end
                     return AccessibilityLevel.None
                 end
-            },
+            }
         }
     },
     ["Route 14 (Behind Tree)"] = {
@@ -21333,7 +21349,8 @@ REGION_DATA = {
         ["water"] = function()
             return AccessibilityLevel.Normal
         end,
-        ["old_rod"] = function()
+        ["fishing"] = {
+            ["old_rod"] = function()
                 return fishing_access(1)
             end,
             ["good_rod"] = function()
@@ -21342,6 +21359,7 @@ REGION_DATA = {
             ["super_rod"] = function()
                 return fishing_access(3)
             end
+        }
     },
     ["Sea Cottage"] = {
         ["warps"] = {
