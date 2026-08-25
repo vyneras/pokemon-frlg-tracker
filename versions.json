@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "4.1.1",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.1.1/pokemon-frlg-tracker.zip",
+      "sha256": "83af3bd78ad293ffad21fe8f981dce1b7e1ba3cb2161916eb3fc169621956536",
+      "changelog": [
+        "Fixed the logic for Kindle Road - Plateau Item not requiring rock smash"
+      ]
+    },
+    {
       "package_version": "4.1.0",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.1.0/pokemon-frlg-tracker.zip",
       "sha256": "21d8fb072a4c313998660793b2911fe6c7b62616f42b1a67617c5c79d1d63f1b",
