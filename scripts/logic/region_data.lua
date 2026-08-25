@@ -12960,20 +12960,15 @@ REGION_DATA = {
             },
             ["Kindle Road - Plateau Item"] = {
                 ["access"] = function()
-                    return AccessibilityLevel.Normal
+                    if rock_smash() then
+                        return AccessibilityLevel.Normal
+                    end
+                    return AccessibilityLevel.None
                 end
             },
             ["Kindle Road - Swimmer Garrett Reward"] = {
                 ["access"] = function()
                     return AccessibilityLevel.Normal
-                end
-            },
-            ["Kindle Road - Item Behind Smashable Rock"] = {
-                ["access"] = function()
-                    if rock_smash() then
-                        return AccessibilityLevel.Normal
-                    end
-                    return AccessibilityLevel.None
                 end
             },
             ["Kindle Road - Crush Kin Mik & Kia Reward"] = {

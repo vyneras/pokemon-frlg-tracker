@@ -1,3 +1,7 @@
+# 4.1.1
+# Bug Fixes
+* Fixed the logic for Kindle Road - Plateau Item not requiring rock smash
+
 # 4.1.0
 ## Updates
 * Added Entrance Rando settings and entrance locations
