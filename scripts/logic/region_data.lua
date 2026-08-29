@@ -2694,7 +2694,7 @@ REGION_DATA = {
             },
             ["Rocket Hideout Entrance"] = {
                 ["connected_region"] = "Rocket Hideout B1F (North)",
-                ["shuffled"] = shuffle_buildings,
+                ["shuffled"] = shuffle_dungeons,
                 ["access"] = function()
                     if has("extra_key_items_off") or has("hideout_key") then
                         return AccessibilityLevel.Normal

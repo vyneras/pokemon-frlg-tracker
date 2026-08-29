@@ -1,5 +1,5 @@
 # 4.1.1
-# Bug Fixes
+## Bug Fixes
 * Fixed the logic for Kindle Road - Plateau Item not requiring rock smash
 
 # 4.1.0
