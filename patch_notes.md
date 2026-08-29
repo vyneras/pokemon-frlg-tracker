@@ -1,3 +1,8 @@
+# 4.1.2
+## Bug Fixes
+* Fixed an issue where the Rocket Hideout Entrance was considered a building for the purpose of logic
+* Fixed logic issue with boarding the Seagallop from Navel Rock and Birth Island Harbors
+
 # 4.1.1
 ## Bug Fixes
 * Fixed the logic for Kindle Road - Plateau Item not requiring rock smash

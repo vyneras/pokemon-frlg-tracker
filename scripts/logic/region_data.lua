@@ -16429,7 +16429,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Seagallop"] = {
                 ["access"] = function()
-                    if has("ss_ticket") then
+                    if vermilion_sailing() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -16843,7 +16843,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Seagallop"] = {
                 ["access"] = function()
-                    if has("ss_ticket") then
+                    if vermilion_sailing() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
