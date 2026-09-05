@@ -2,6 +2,7 @@
 ## Bug Fixes
 * Fixed an issue where the Rocket Hideout Entrance was considered a building for the purpose of logic
 * Fixed logic issue with boarding the Seagallop from Navel Rock and Birth Island Harbors
+* Fixed a logic issue where the Poke Flute was not needed to get past the Snorlax on Route 16 when coming from Fuchsia City
 
 # 4.1.1
 ## Bug Fixes

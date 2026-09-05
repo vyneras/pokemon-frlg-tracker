@@ -20049,7 +20049,7 @@ REGION_DATA = {
                 end
             },
             ["Route 16 Gate 1F Southeast Exit"] = {
-                ["connected_region"] = "Route 16 (Southeast)",
+                ["connected_region"] = "Route 16 (Center)",
                 ["shuffled"] = shuffle_buildings,
                 ["access"] = function()
                     return AccessibilityLevel.Normal
