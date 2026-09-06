@@ -732,7 +732,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Viridian City (North)"] = {
                 ["access"] = function()
-                    if has("deliver_oaks_parcel") or jump_up_ledge() or cut() then
+                    if leave_viridian_city() or jump_up_ledge() or cut() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -812,7 +812,7 @@ REGION_DATA = {
         ["exits"] = {
             ["Viridian City (South)"] = {
                 ["access"] = function()
-                    if has("deliver_oaks_parcel") or jump_down_ledge() or cut() then
+                    if leave_viridian_city() or jump_down_ledge() or cut() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None

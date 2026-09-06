@@ -159,6 +159,10 @@ function trainer_rematch_5()
     return has("vs_seeker") and has_n_gyms(8)
 end
 
+function leave_viridian_city()
+    return has("viridian_city_open") or has("deliver_oaks_parcel")
+end
+
 function digletts_cave_roadblock()
     if has("digletts_cave_roadblock_rock") then
         return rock_smash()

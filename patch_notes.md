@@ -3,6 +3,7 @@
 * Fixed an issue where the Rocket Hideout Entrance was considered a building for the purpose of logic
 * Fixed logic issue with boarding the Seagallop from Navel Rock and Birth Island Harbors
 * Fixed a logic issue where the Poke Flute was not needed to get past the Snorlax on Route 16 when coming from Fuchsia City
+* Fixed a logic issue where open Viridian City Roadblock was not being taken into account
 
 # 4.1.1
 ## Bug Fixes
@@ -16,7 +17,7 @@
 ## Bug Fixes
 * Fixed the access rules for the Mt. Ember Summit - Legendary Pokémon
 * Fixed an issue where a number of encounters didn't show on the area maps
-* Fixed an issue where the Move Tutor's Hosue entrance and exit didn't appear on UT
+* Fixed an issue where the Move Tutor's House entrance and exit didn't appear on UT
 * Fixed a logic issue with Seagallop Access
 
 # 4.0.4
