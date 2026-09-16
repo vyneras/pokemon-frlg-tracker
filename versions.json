@@ -1,6 +1,18 @@
 {
   "versions": [
     {
+      "package_version": "4.1.2",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.1.2/pokemon-frlg-tracker.zip",
+      "sha256": "b2bbc8479a8d4e1c45708357fd9d1cd0f467c0c562d1735273749c71f1379d7c",
+      "changelog": [
+        "Fixed an issue where the Rocket Hideout Entrance was considered a building for the purpose of logic",
+        "Fixed logic issue with boarding the Seagallop from Navel Rock and Birth Island Harbors",
+        "Fixed a logic issue where the Poke Flute was not needed to get past the Snorlax on Route 16 when coming from Fuchsia City",
+        "Fixed a logic issue where open Viridian City Roadblock was not being taken into account",
+        "Fixed a logic issue where the Cerulean City Roadblocks always required saving Bill"
+      ]
+    },
+    {
       "package_version": "4.1.1",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.1.1/pokemon-frlg-tracker.zip",
       "sha256": "83af3bd78ad293ffad21fe8f981dce1b7e1ba3cb2161916eb3fc169621956536",
