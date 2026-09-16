@@ -4,6 +4,7 @@
 * Fixed logic issue with boarding the Seagallop from Navel Rock and Birth Island Harbors
 * Fixed a logic issue where the Poke Flute was not needed to get past the Snorlax on Route 16 when coming from Fuchsia City
 * Fixed a logic issue where open Viridian City Roadblock was not being taken into account
+* Fixed a logic issue where the Cerulean City Roadblocks always required saving Bill
 
 # 4.1.1
 ## Bug Fixes

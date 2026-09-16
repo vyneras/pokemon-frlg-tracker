@@ -192,7 +192,7 @@ function leave_pewter_city()
 end
 
 function leave_cerulean()
-    return has("save_bill") or has("cerulean_roadblock_off")
+    return has("save_bill") or has("cerulean_roadblocks_off")
 end
 
 function paths_blocked()
