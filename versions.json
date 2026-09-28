@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "4.1.3",
+      "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.1.3/pokemon-frlg-tracker.zip",
+      "sha256": "494e93dc24c83f6da4fac62c9358492d15b1319be4c4f625a2f15b84911daafc",
+      "changelog": [
+        "Fixed a logic issue with the Lavender Pokemon Center 1F - Balding Man Info location"
+      ]
+    },
+    {
       "package_version": "4.1.2",
       "download_url": "https://github.com/vyneras/pokemon-frlg-tracker/releases/download/4.1.2/pokemon-frlg-tracker.zip",
       "sha256": "b2bbc8479a8d4e1c45708357fd9d1cd0f467c0c562d1735273749c71f1379d7c",
