@@ -2391,7 +2391,7 @@ REGION_DATA = {
         ["locations"] = {
             ["Lavender Pokemon Center 1F - Balding Man Info"] = {
                 ["access"] = function()
-                    if fame() then
+                    if fame() and post_game_fame() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None

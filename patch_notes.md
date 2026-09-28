@@ -1,7 +1,11 @@
+# 4.1.3
+## Bug Fixes
+* Fixed a logic issue with the Lavender Pokemon Center 1F - Balding Man Info location
+
 # 4.1.2
 ## Bug Fixes
 * Fixed an issue where the Rocket Hideout Entrance was considered a building for the purpose of logic
-* Fixed logic issue with boarding the Seagallop from Navel Rock and Birth Island Harbors
+* Fixed a logic issue with boarding the Seagallop from Navel Rock and Birth Island Harbors
 * Fixed a logic issue where the Poke Flute was not needed to get past the Snorlax on Route 16 when coming from Fuchsia City
 * Fixed a logic issue where open Viridian City Roadblock was not being taken into account
 * Fixed a logic issue where the Cerulean City Roadblocks always required saving Bill
