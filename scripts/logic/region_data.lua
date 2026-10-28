@@ -12717,7 +12717,7 @@ REGION_DATA = {
             },
             ["One Island Pokemon Center 1F - Celio Info"] = {
                 ["access"] = function()
-                    if has("restore_pokemon_network_machine") then
+                    if fame() and has("restore_pokemon_network_machine") then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None
@@ -18083,12 +18083,15 @@ REGION_DATA = {
             },
             ["Route 8 - Twins Eli & Anne Reward"] = {
                 ["access"] = function()
-                    return AccessibilityLevel.Normal
+                    if double_battle() then
+                        return AccessibilityLevel.Normal
+                    end
+                    return AccessibilityLevel.None
                 end
             },
             ["Route 8 - Twins Eli & Anne Rematch Reward (4 Badges/Gyms)"] = {
                 ["access"] = function()
-                    if trainer_rematch_3() then
+                    if double_battle() and trainer_rematch_3() then
                         return AccessibilityLevel.Normal
                     end
                     return AccessibilityLevel.None

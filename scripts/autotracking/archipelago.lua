@@ -571,6 +571,7 @@ end
 
 function updateEntrances(entrances)
     if entrances then
+        UPDATES_ALLOWED = false
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateEntrances: Entrances - %s", dump_table(entrances)))
         end
@@ -586,6 +587,8 @@ function updateEntrances(entrances)
                 end
             end
         end
+        update_region_connections()
+        UPDATES_ALLOWED = true
     end
 end
 
